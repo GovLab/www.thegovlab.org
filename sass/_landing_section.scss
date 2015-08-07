@@ -1,0 +1,17 @@
+.b-landing-questions {
+    text-align: center;
+    background-color: $black;
+    padding: 80px 20px;
+
+    .e-question {
+        font-size: 22px;
+        line-height: 1.4;
+        text-transform: uppercase;
+        color: $white;
+        margin: 0 auto 50px auto;
+        font-weight: 400;
+        letter-spacing: 1px;
+        margin-bottom: 65px;
+    }
+}
+

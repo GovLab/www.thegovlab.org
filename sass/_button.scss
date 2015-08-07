@@ -1,0 +1,46 @@
+.b-button {
+    padding: 15px 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    @include transition;
+    color: $white;
+
+    @include breakpoint($mobile-only) { background-color: $gray-10; }
+
+    i {
+        margin-left: 15px;
+        vertical-align: bottom;
+        position: relative;
+        left: 0;
+        @include transition;
+    }
+
+    &:hover i {
+        left: 10px;
+        padding-right: 8px;
+        @include transition;
+    }
+
+    &.m-naked {
+        letter-spacing: 0.5px;
+        padding: 8px 12px;
+
+        @include breakpoint($desktop) {
+            margin-left: -10px;
+        }
+
+        &:hover {
+            background-color: $gray-20;
+            margin-left: 0;
+            @include transition;
+        }    
+    }
+}
+
+.b-button.m-purple { 
+    background-color: $purple;
+    color: $white;
+}

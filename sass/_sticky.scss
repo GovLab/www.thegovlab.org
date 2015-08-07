@@ -1,0 +1,53 @@
+.b-sticky {
+    background-color: #333;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    box-shadow: 0 0 10px $gray-20;
+    z-index: 1;
+
+    .e-wrap {
+        @include wrap;
+        color: $white-60;
+
+        p {
+            margin: 0 30px 0 20px;
+
+            .e-title {
+                text-transform: uppercase;
+                font-weight: 600;
+                color: $white-90;
+                letter-spacing: .8px;
+
+                &:after { content: ':'; }
+
+                @include breakpoint($mobile-only) { 
+                    display: block;
+                    font-size: 16px;
+
+                    &:after { display: none; }
+                }
+            }
+
+            a {
+                color: $white-90;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .e-close {
+            float: right;
+            margin-right: 10px;
+            opacity: .6;
+            cursor: pointer;
+
+            &:hover { opacity: 1; }   
+        }
+    }
+}

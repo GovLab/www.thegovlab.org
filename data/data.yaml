@@ -1,0 +1,8 @@
+- title: 'Title'
+  section: 'Section Name'
+  original_post_url: '#link'
+  submitted_by: 'Author Name'
+  coauthor: 'CoAuthor Name'
+  cover_img_file: 'china-train.jpg'
+  content: >
+    <p>Lorem ipsum dolor sit amet, <span class="tweetable">consectetur adipisicing elit.</span> Eos error nemo, rem veritatis. Voluptas, hic expedita repellat at sequi natus nemo magnam omnis soluta quae neque ut ea, itaque cupiditate.</p>
