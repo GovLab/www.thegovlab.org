@@ -55,13 +55,16 @@ $desktop: 1025px;
 @import 'base';
 @import 'button';
 
-
-// Content
-@import 'landing_section';
 @import 'fronts';
 @import 'featured_content';
 @import 'subscribe';
 @import 'sticky';
 @import 'footer';
+
+// Content
+@import 'landing_section';
+@import 'single-landing';
+@import 'single-description';
+
 
 

@@ -1,0 +1,30 @@
+.b-single-description {
+
+}
+
+
+.b-project-slider {
+    width: 100%;
+    overflow: hidden;
+    overflow-x: scroll;
+    
+
+    .e-project-slider-wrapper {
+        width: 350%;
+    }
+    .e-project-image {
+        height: 320px;
+        width: 240px;
+        display: inline-block;
+
+        &:not(.m-active) {
+            transform: scale(.8);
+        }
+
+        &:first-child {background-color: red;}
+        &:nth-child(2) {background-color: blue;}
+        &:nth-child(3) {background-color: green;}
+        &:nth-child(4) {background-color: orange;}
+        &:nth-child(5) {background-color: yellow;}
+    }
+}
