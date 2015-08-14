@@ -2,6 +2,7 @@
 
 - title: 'Project Name' #will generate slug from this attr
   type: 'Project Type' # Data, Collective Intelligence or Design Thinking
+  is_featured: #integer
   related_question: Question we are trying to answer
   project_website: url
   tags:

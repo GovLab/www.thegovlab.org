@@ -1,14 +1,30 @@
+.b-featured-content-wrapper {
+    display: flex;
+    flex-flow: column;
+
+    .e-banner-container { flex: 0 0 1; }
+}
+
+// .m-event {
+//     order: 2;
+// }
+// .m-article {
+//     order: 1;
+// }
+// .m-project {
+//     order: 3;
+// }
+
 .b-featured-content {
-    padding: 40px 0;
+    padding: 0 0 40px 0;
+    position: relative;
 
     @include breakpoint($mobile-only) { padding-top: 20px; }
 
     header {
-        background-color: $gray-10;
         padding-top: 26px;
         padding-bottom: 26px;
         @include breakpoint($desktop) { padding-top: 40px; }
-
         .e-wrap { display: block; }
     }
 
@@ -28,6 +44,23 @@
     > h4 {
         padding-top: 26px;
         @include wrap;
+    }
+
+    .e-banner-index {
+        float: right;
+        
+        span {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            margin: 5px 3px 0;
+            background-color: $white-20;
+            @include circle;
+        }
+
+        .m-active {
+            background-color: $white-50;
+        }
     }
 
     .e-question {
@@ -111,12 +144,33 @@
             }
         }
     }
+
+    .e-banner-controls {
+        .e-banner-control {
+            position: absolute;
+            top: 40%;
+            font-size: 64px;
+            color: $white-10;
+            cursor: pointer;
+            @include transition;
+
+            &:hover { color: $white-50; }
+
+            &.m-prev { left: 20px; }
+            &.m-prev:hover { left: 10px; }
+            &.m-next { right: 20px; }
+            &.m-next:hover { right: 10px; }
+        }
+    }
 }
 
 
 .b-featured-content.m-project { 
     background-color: $purple;
-    padding-top: 0;
+
+    header { background-color: $gray-10; }
+    .e-banner-control {top: 48%;}
+
 }
 
 .b-featured-content.m-event { 

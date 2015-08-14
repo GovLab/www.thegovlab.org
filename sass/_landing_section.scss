@@ -3,6 +3,11 @@
     background-color: $black;
     padding: 80px 20px;
 
+    @include breakpoint($desktop) {
+        padding-top: 170px !important;
+        padding-bottom: 100px !important;
+    }
+
     .e-question {
         font-size: 22px;
         line-height: 1.4;
