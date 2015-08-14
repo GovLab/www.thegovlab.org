@@ -32,7 +32,25 @@ $('.js-tooltip-trigger').click(function() {
     $(this).toggleClass('m-active');
 });
 
+// Projects Grid/List View Logic
+$('.js-view-list-trigger').click(function() {
+    // Switch Classes for the Project Listing
+    $('.b-project-view').addClass('m-list');
+    $('.b-project-view').removeClass('m-grid');
 
+    // Adds 'active' state to the button
+    $(this).addClass('m-active');
+    $('.js-view-grid-trigger').removeClass('m-active');
+});
+
+$('.js-view-grid-trigger').click(function() {
+    // Switch Classes for the Project Listing
+    $('.b-project-view').addClass('m-grid');
+    $('.b-project-view').removeClass('m-list');
+    // Adds 'active' state to the button
+    $(this).addClass('m-active');
+    $('.js-view-list-trigger').removeClass('m-active');
+});
 
 
 
