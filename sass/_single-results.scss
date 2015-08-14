@@ -1,0 +1,25 @@
+.b-single-results {
+    background-color: $gray-05;
+    padding: 40px 0 20px;
+    @include breakpoint($desktop) { padding-top: 80px; }
+
+    .e-wrap {
+        @include wrap;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .e-half {
+        flex: 1;
+        min-width: 350px;
+
+        &:nth-of-type(2n) { 
+            @include breakpoint($desktop) { padding-right: 30px; }
+        }
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+}

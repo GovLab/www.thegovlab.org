@@ -1,8 +1,30 @@
-- title: 'Title'
-  section: 'Section Name'
-  original_post_url: '#link'
-  submitted_by: 'Author Name'
-  coauthor: 'CoAuthor Name'
-  cover_img_file: 'china-train.jpg'
-  content: >
+# YAML Schema for Projects
+
+- title: 'Project Name' #will generate slug from this attr
+  type: 'Project Type' # Data, Collective Intelligence or Design Thinking
+  related_question: Question we are trying to answer
+  project_website: url
+  tags:
+    - Collective Intelligence
+    - Digital Platform
+
+  status: "Test & Iteration"
+  short_description: > 
+    <p>Lorem ipsum dolor sit amet, <span class="tweetable">consectetur adipisicing elit.</span> Eos error nemo, rem veritatis. Voluptas, hic expedita repellat at sequi natus nemo magnam omnis soluta quae neque ut ea, itaque cupiditate.</p>  
+  long_description: >
     <p>Lorem ipsum dolor sit amet, <span class="tweetable">consectetur adipisicing elit.</span> Eos error nemo, rem veritatis. Voluptas, hic expedita repellat at sequi natus nemo magnam omnis soluta quae neque ut ea, itaque cupiditate.</p>
+  tooltip: >
+    <p>Lorem ipsum dolor sit amet, <span class="tweetable">consectetur adipisicing elit.</span> Eos error nemo, rem veritatis. Voluptas, hic expedita repellat at sequi natus nemo magnam omnis soluta quae neque ut ea, itaque cupiditate.</p>
+  background: >
+    <p>Lorem ipsum dolor sit amet, <span class="tweetable">consectetur adipisicing elit.</span> Eos error nemo, rem veritatis. Voluptas, hic expedita repellat at sequi natus nemo magnam omnis soluta quae neque ut ea, itaque cupiditate.</p>
+  social_media: #in the future we can have custom shareable messages for each project
+  images_urls: #images or screenshots of the project
+    - urls-1
+    - urls-2
+    - urls-3
+  results_text: > 
+    <p>Lorem ipsum dolor sit amet, <span class="tweetable">consectetur adipisicing elit.</span> Eos error nemo, rem veritatis. Voluptas, hic expedita repellat at sequi natus nemo magnam omnis soluta quae neque ut ea, itaque cupiditate.</p>
+  related_articles:
+    - article_url #we will pull the other blog post information from this.
+    - article_url
+    - article_url

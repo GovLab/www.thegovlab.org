@@ -1,24 +1,52 @@
 .b-single-description {
+    background-color: $gray-80;
+    padding: 50px 0 0;
 
+    h2 {
+        margin: 0;
+        font-weight: 600;
+        font-size: 22px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    h2,
+    .e-description {
+        color: $white;
+    }
+
+    .e-wrap {
+        @include wrap;
+    }
 }
-
 
 .b-project-slider {
     width: 100%;
     overflow: hidden;
     overflow-x: scroll;
-    
+    position: relative;
+    bottom: -40px;
+
 
     .e-project-slider-wrapper {
-        width: 350%;
+        width: 300%;
+        padding-bottom: 4px;
     }
+
     .e-project-image {
         height: 320px;
         width: 240px;
         display: inline-block;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+
+        @include breakpoint($desktop) {
+            height: 480px;
+            width: 360px;
+        }
 
         &:not(.m-active) {
-            transform: scale(.8);
+            transform: scale(.7);
+            margin-left: -30px;
+            margin-right: -30px;
         }
 
         &:first-child {background-color: red;}

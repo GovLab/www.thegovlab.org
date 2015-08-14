@@ -12,9 +12,7 @@
         }        
     }
 
-
     .e-govlab-front {
-        text-transform: uppercase;
         color: $white-80;
         letter-spacing: 1px;
         padding: 30px 0;
@@ -22,6 +20,8 @@
         text-align: center;
         background-color: $black;
         display: block;
+        overflow: hidden;
+        @include transition;
         
         @include breakpoint($desktop) { 
             flex: 1;
@@ -32,7 +32,20 @@
             height: 0;
         }
 
-        h2 { text-align: center; }
+        h2 { text-transform: uppercase; }
+
+        .e-explanation {
+            font-size: 18px;
+            line-height: 24px;
+            padding: 15px;
+            position: relative;
+            top: 400px;
+            @include transition;
+        }
+
+        &:hover .e-explanation {
+            top: 0;
+        }
 
         &.m-projects { background-color: $purple; }
         &.m-observatory { background-color: $teal; }
