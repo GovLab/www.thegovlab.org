@@ -49,5 +49,6 @@
 
     .b-button.m-naked {
         color: $teal;
+        &:hover {background-color: $gray-10;}
     }
 }

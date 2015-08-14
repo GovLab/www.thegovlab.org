@@ -802,6 +802,8 @@ input[type="text"] {
     flex: 1; }
   .b-single-related-content .b-button.m-naked {
     color: #008895; }
+    .b-single-related-content .b-button.m-naked:hover {
+      background-color: rgba(0, 0, 0, 0.1); }
 
 .b-projects-landing {
   background-color: #523080;
@@ -902,7 +904,8 @@ input[type="text"] {
     padding-bottom: calc(33% - 30px);
     margin: 15px;
     vertical-align: top;
-    position: relative; } }
+    position: relative;
+    cursor: pointer; } }
 .b-projects-list-wrapper .e-project-item h2 {
   font-weight: 800;
   text-transform: uppercase;
@@ -923,9 +926,12 @@ input[type="text"] {
       position: absolute;
       bottom: 0; } }
 
+.e-project-item .e-project-tooltip {
+  display: none; }
 @media (min-width: 1025px) {
-  .e-project-item .e-project-tooltip {
+  .e-project-item.m-active .e-project-tooltip {
     position: absolute;
+    display: block;
     top: calc(100% + 30px);
     width: calc(200% + 30px);
     height: 100%;
@@ -934,7 +940,7 @@ input[type="text"] {
     box-shadow: 3px 2px 20px rgba(0, 0, 0, 0.2);
     padding: 20px; } }
 @media (min-width: 1025px) {
-  .e-project-item .e-project-tooltip:before {
+  .e-project-item.m-active .e-project-tooltip:before {
     content: "";
     width: 0;
     height: 0;
@@ -945,7 +951,7 @@ input[type="text"] {
     top: -20px;
     left: calc(18%); } }
 @media (min-width: 1025px) {
-  .e-project-item .e-project-tooltip p {
+  .e-project-item.m-active .e-project-tooltip p {
     color: white;
     font-size: 18px; } }
 

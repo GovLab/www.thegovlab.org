@@ -105,6 +105,7 @@
             margin: 15px;
             vertical-align: top;
             position: relative;
+            cursor: pointer;
         }
 
 
@@ -137,8 +138,13 @@
 
 .e-project-item {
     .e-project-tooltip {
+        display: none;
+    }    
+
+    &.m-active .e-project-tooltip {
         @include breakpoint($desktop) {
             position: absolute;
+            display: block;
             top: calc(100% + 30px);
             width: calc(200% + 30px);
             height: 100%;

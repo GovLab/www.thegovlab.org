@@ -27,6 +27,11 @@ $('#overlay').click(function() {
     $(this).removeClass('m-active');
 });
 
+// Tooltip Logic
+$('.js-tooltip-trigger').click(function() {
+    $(this).toggleClass('m-active');
+});
+
 
 
 
