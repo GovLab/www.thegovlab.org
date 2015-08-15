@@ -1,5 +1,7 @@
 $(document).ready(function($) {
-   
+
+overlay = $('#overlay');
+
 $('.js-close').click(function() {
     $('.b-sticky').fadeOut('fast');
 });
@@ -7,10 +9,10 @@ $('.js-close').click(function() {
 // Main nav logic
 $('.js-nav-trigger').click(function() {
     $('.b-main-menu').addClass('m-active');
-    $('#overlay').addClass('m-active');
+    overlay.addClass('m-active');
 });
 
-$('#overlay').click(function() {
+overlay.click(function() {
     $('.b-main-menu').removeClass('m-active');
     $(this).removeClass('m-active');
 });
@@ -19,18 +21,26 @@ $('#overlay').click(function() {
 // Search Logic
 $('.js-search-trigger').click(function() {
     $('.e-search').addClass('m-active');
-    $('#overlay').addClass('m-active');
+    overlay.addClass('m-active');
 });
 
-$('#overlay').click(function() {
+overlay.click(function() {
     $('.e-search').removeClass('m-active');
     $(this).removeClass('m-active');
 });
 
+
 // Tooltip Logic
 $('.js-tooltip-trigger').click(function() {
-    $(this).toggleClass('m-active');
+    $(this).addClass('m-active');
+    overlay.addClass('m-active');
 });
+
+overlay.click(function() {
+    $('.e-project-item').removeClass('m-active');
+    overlay.removeClass('m-active');
+});
+
 
 // Projects Grid/List View Logic
 $('.js-view-list-trigger').click(function() {
@@ -51,13 +61,6 @@ $('.js-view-grid-trigger').click(function() {
     $(this).addClass('m-active');
     $('.js-view-list-trigger').removeClass('m-active');
 });
-
-
-
-
-
-
-
 
 // Sample Click Feature with overlay
 // $('.triggerClass').click(function() {
