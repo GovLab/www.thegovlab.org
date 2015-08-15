@@ -1,0 +1,62 @@
+.wrapper {
+    height: 700px;
+    padding: 100px;
+    background-color: $teal;
+
+}
+
+.circle {
+    margin: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+    line-height: 0;
+    overflow: hidden;
+    // border: 1px solid $white-80;
+
+    > div {
+        background-color: $white-20;
+        height: 50%;
+        width: 50%;
+        display: inline-block;
+    }
+
+    &.m-idea > div:nth-child(2),
+    &.m-design > div:nth-child(2),
+    &.m-design > div:nth-child(4),
+    &.m-prototype > div:nth-child(2),
+    &.m-prototype > div:last-child,
+    &.m-prototype > div:nth-child(3),
+    &.m-production > div:first-child,
+    &.m-production > div:nth-child(2),
+    &.m-production > div:last-child,
+    &.m-production > div:nth-child(3) { background-color: $white-50; }
+    
+}
+
+
+
+.e-progress {
+    width: 100%;
+    border-bottom: 1px solid $white-20;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    position: relative;
+
+    &:after {
+        position: absolute;
+        content: "";
+        border-bottom: 1px solid $white-50;
+        width: 90%;
+        left: 0;
+        top: 0;
+    }
+
+    &:before {
+        content: "Test & Iteration";
+        position: absolute;
+        right: 10%;
+        color: $white-50;
+        margin-top: -35px;
+    }
+}

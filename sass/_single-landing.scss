@@ -117,11 +117,14 @@
             color: $white-70;
             font-weight: 600;
             margin: 0;
+            display: inline-block;
+            margin-right: 50px;
         }
 
         a {
             color: $white-40;
-            font-size: 24px;
+            font-size: 22px;
+            line-height: 16px;
             display: inline-block;
             padding: 10px;
         }

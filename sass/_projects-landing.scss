@@ -29,7 +29,6 @@
 
     .e-view-switcher {
         text-align: center;
-        
 
         @include breakpoint($mobile-only) { display: none; }
 

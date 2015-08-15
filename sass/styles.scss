@@ -4,6 +4,7 @@ $gray-15: rgba(0,0,0,0.15);
 $gray-20: rgba(0,0,0,0.2);
 $gray-30: rgba(0,0,0,0.3);
 $gray-40: rgba(0,0,0,0.4);
+$gray-50: rgba(0,0,0,0.5);
 $gray-60: rgba(0,0,0,0.6);
 $gray-70: rgba(0,0,0,0.7);
 $gray-80: rgba(0,0,0,0.8);
@@ -63,6 +64,8 @@ $desktop: 1025px;
 @import 'sticky';
 @import 'footer';
 
+@import 'sandbox';
+
 // Content
 @import 'landing_section';
 @import 'single-landing';
@@ -70,7 +73,6 @@ $desktop: 1025px;
 @import 'single-results';
 @import 'single-related-content';
 @import 'projects-landing';
-@import 'projects-grid';
 @import 'projects-list';
 
 

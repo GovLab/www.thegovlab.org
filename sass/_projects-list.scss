@@ -3,6 +3,7 @@
 
     .e-project-type {
         padding: 20px;
+
         @include breakpoint($mobile-only) { text-align: center; }
         @include breakpoint($desktop) { 
             flex: 1;
@@ -23,6 +24,7 @@
             color: $white;
             margin: 0;
             line-height: 1.1;
+
             @include breakpoint($desktop) { 
                 font-size: 44px; 
                 margin-top: 15px;
@@ -59,9 +61,9 @@
         @include breakpoint($mobile-only) { margin: 15px; }
         
         &:not(:last-child) { 
-                @include breakpoint($mobile-only) { 
-                    border-bottom: 1px solid $gray-15; }
-            }
+            @include breakpoint($mobile-only) { 
+                border-bottom: 1px solid $gray-15; }
+        }
         
         h2 {
             font-weight: 800;
@@ -74,79 +76,66 @@
             font-size: 14px;
             line-height: 1.4;
         }
+
+        &.m-active {
+            background-color: $white;
+
+            .e-project-tooltip {
+                @include transition;
+                @include breakpoint($mobile-only) {
+                    display: block;
+                    height: auto;
+                    max-height: 300px;
+                }
+            }
+        }
     }
-
-    
-
-    
 }
 
 .b-project-view.m-list .b-projects-list-wrapper {
     .e-project-item {
         @include breakpoint($desktop) { 
-            display: block;
             background-color: $gray-05;
             cursor: pointer;
-            padding: 30px 40px;
             display: flex;
             border-bottom: 1px solid $gray-10;
+            flex-wrap: wrap;
         }
-
 
         h2 {
-            margin: 0;
+            margin: 30px 40px 0;
             flex: 1;
-
-            // @include breakpoint($desktop) { 
-            //     font-size: 20px;
-            //     padding: 10px 20px 0;
-            // }
         }
 
-        > p {
+        .e-project-blurb {
             flex: 3;
             margin: 0;
-
-            // @include breakpoint($desktop) { 
-            //     padding: 0 20px 10px;
-            // }
         }
     }
 
     .e-project-item {
-        .e-project-tooltip { display: none; }    
+        p {
+            font-size: 16px;
+            color: $gray-60;
+        }
 
-        &.m-active .e-project-tooltip {
-            @include breakpoint($desktop) {
-                position: absolute;
-                display: block;
-                top: calc(100% + 30px);
-                width: calc(200% + 30px);
-                height: 100%;
-                z-index: 100;
-                background-color: $black;
-                box-shadow: 3px 2px 20px $gray-20;
-                padding: 20px;
-            }
+        .e-project-blurb { margin: 0 80px 0 0; }
 
-            &:before {
+        .e-project-tooltip { 
+            max-height: 0;
+            overflow: hidden;
+            @include transition;
+        }    
+
+        &.m-active {
+            background-color: $white;
+
+            .e-project-tooltip {
+                @include transition;
                 @include breakpoint($desktop) {
-                    content: "";
-                    width: 0;
-                    height: 0;
-                    border-bottom: 20px solid $black;
-                    border-right: 20px solid transparent;
-                    border-left: 20px solid transparent;
-                    position: absolute;
-                    top: -20px;
-                    left: calc(18%)
-                }
-            }
-
-            p {
-                @include breakpoint($desktop) {
-                    color: $white;
-                    font-size: 18px;
+                    display: block;
+                    height: auto;
+                    max-height: 300px;
                 }
             }
         }
@@ -157,7 +146,6 @@
     .e-project-group {
         @include breakpoint($desktop) { padding: 15px; }    
     }
-    
 
     .e-project-item {
         &:not(:last-child) { 
@@ -190,7 +178,7 @@
             }
         }
 
-        > p {
+        .e-project-blurb {
             font-size: 14px;
             line-height: 1.4;
 
@@ -206,16 +194,20 @@
         .e-project-tooltip { display: none; }    
 
         &.m-active .e-project-tooltip {
+            display: block;
+
             @include breakpoint($desktop) {
                 position: absolute;
-                display: block;
-                top: calc(100% + 30px);
+                top: calc(100%);
                 width: calc(200% + 30px);
                 height: 100%;
                 z-index: 100;
                 background-color: $black;
                 box-shadow: 3px 2px 20px $gray-20;
-                padding: 20px;
+                padding: 30px;
+                left: 0;
+                color: $white;
+                font-size: 18px;
             }
 
             &:before {
@@ -231,11 +223,18 @@
                     left: calc(18%)
                 }
             }
+        }
 
-            p {
+        &:nth-of-type(3n).m-active .e-project-tooltip {
+            @include breakpoint($desktop) {
+                left: auto;
+                right: 0 !important;
+            }
+
+            &:before {
                 @include breakpoint($desktop) {
-                    color: $white;
-                    font-size: 18px;
+                    right: calc(18%);
+                    left: auto;
                 }
             }
         }
