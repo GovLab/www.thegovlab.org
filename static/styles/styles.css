@@ -343,7 +343,7 @@ input[type="text"] {
     @media (min-width: 1025px) {
       .b-featured-content .e-half:nth-of-type(2n) {
         padding-right: 30px; } }
-  .b-featured-content .e-tags a {
+  .b-featured-content .e-tags span {
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.1);
     padding: 8px 14px;
