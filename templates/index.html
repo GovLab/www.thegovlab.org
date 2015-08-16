@@ -12,17 +12,17 @@ The GovLab:   -->
     </section>
     <section class="b-govlab-fronts">
         <div class="e-mobile-wrap">
-            <a href="#" class="e-govlab-front m-projects">
+            <a href="./projects.html" class="e-govlab-front m-projects">
                 <h2>Projects</h2>
                 <p class="e-explanation">See how the GovLab is transforming governance around the world</p>
             </a>
-            <a href="#" class="e-govlab-front m-observatory">
+            <a href="http://thegovlab.org/blog/" target="_blank" class="e-govlab-front m-observatory">
                 <h2>Observatory</h2>
                 <p class="e-explanation">Learn and stay up-to-date on emerging forms of governance innovation</p>
             </a>
         </div>
         <div class="e-mobile-wrap">
-            <a href="#" class="e-govlab-front m-academy">
+            <a href="http://govlabacademy.org" target="_blank" class="e-govlab-front m-academy">
                 <h2>Academy</h2>
                 <p class="e-explanation">Get training and mentorship for your projects from GovLab's network of experts</p>
             </a>
@@ -34,50 +34,56 @@ The GovLab:   -->
     </section>
     <div class="b-featured-content-wrapper">
         <div class="e-banner-container">
-            <section id="network-of-innovators" class="b-featured-content m-project">
-                <header>
-                    <div class="e-banner-controls">
-                        <i class="material-icons e-banner-control m-prev">keyboard_arrow_left</i>
-                        <i class="material-icons e-banner-control m-next">keyboard_arrow_right</i>
-                    </div>
-                    <div class="e-wrap">
-                        <div class="e-banner-index">
-                            <span></span>
-                            <span class="m-active"></span>
-                            <span></span>
-                        </div>
-                        <h4>Featured Project</h4>
-                        <h3 class="e-question">How and when to use the <strong>crowd do get better ideas</strong> faster into governing</h3>
-                    </div>
-                </header>
-                <h2 class="e-project-name">Network of Innovators</h2>
-                <div class="e-wrap">
-                    <div class="e-half">
-                        <div class="e-content">
-                            <div class="e-tags">
-                                <div><a href="#" class="e-tag">Collective Intelligence</a></div>
-                                <div><a href="#" class="e-tag">Digital Platform</a></div>
-                                <div><a href="#" class="e-tag">Digital Platform</a></div>
+            {% for project in data %}
+                {% if project.is_featured %}    
+                    <section id="{{project.title | slug}}" class="b-featured-content m-project">
+                        <header>
+                            <div class="e-banner-controls">
+                                <i class="material-icons e-banner-control m-prev">keyboard_arrow_left</i>
+                                <i class="material-icons e-banner-control m-next">keyboard_arrow_right</i>
+                            </div>
+                            <div class="e-wrap">
+                                <div class="e-banner-index">
+                                    <span></span>
+                                    <span class="m-active"></span>
+                                    <span></span>
+                                </div>
+                                <h4>Featured Project</h4>
+                                <h3 class="e-question">{{project.problem_statement}}</h3>
+                            </div>
+                        </header>
+                        <h2 class="e-project-name">{{project.title}}</h2>
+                        <div class="e-wrap">
+                            <div class="e-half">
+                                <div class="e-content">
+                                    <div class="e-tags">
+                                        <span class="e-tag">{{project.tags.governance_area[0]}}</span>
+                                        <span class="e-tag">{{project.tags.type_of_institution[0]}}</span>
+                                        <span class="e-tag">{{project.tags.innovative_capability[0]}}</span>
+                                        <span class="e-tag">{{project.tags.product_category[0]}}</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="e-half">
+                                <div class="e-content">
+                                    {% if project.short_description %} {{project.short_description}} 
+                                    {% else %} {{project.long_description}}{% endif %}
+                                </div>
+                            </div>
+                            <div class="e-half">
+                                <div class="e-action">
+                                    <a class="b-button m-naked" href="./projects.html">All Projects<i class="material-icons">arrow_forward</i></a>
+                                </div>
+                            </div>
+                            <div class="e-half">
+                                <div class="e-action">
+                                    <a class="b-button m-naked" href="project-{{project.title|slug}}.html">Find out more<i class="material-icons">arrow_forward</i></a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="e-half">
-                        <div class="e-content">
-                            <p>Pissitio. Eque millace stiumquibus eum qui ut officte sequam voluptate aperior a que eaquunt. Nulloreritia ellorer ionsequia volupta spitibusda nos ditatur res qui dionse dolorunt aped quam, con pro omnisque nus eum anducitat inveri nos endanditam, te odis alitatem recea andia quis alibus vitatque labo. Cab in ea dolut minihitat vitatem adi de lam.</p>
-                            <p>Pissitio. Eque millace stiumquibus eum qui ut officte sequam voluptate aperior a que eaquunt. Nulloreritia ellorer ionsequia volupta spitibusda nos ditatur res qui dionse dolorunt aped quam.</p>
-                        </div>
-                    </div>
-                    <div class="e-half">
-                        <div class="e-action">
-                            <a class="b-button m-naked" href="">All Projects<i class="material-icons">arrow_forward</i></a>
-                        </div>
-                    </div>
-                    <div class="e-half">
-                        <div class="e-action">
-                            <a class="b-button m-naked" href="">Find out more<i class="material-icons">arrow_forward</i></a>
-                        </div>
-                    </div>
-            </section>
+                    </section>
+                {% endif %}
+            {% endfor %}
         </div>
         <div class="e-banner-container">
             <section id="public-forum" class="b-featured-content m-article">
