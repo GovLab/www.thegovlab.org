@@ -95,7 +95,7 @@
     <div class="e-wrap">
     {% for person in project.team %} 
     <div class="e-person">
-        <div class="e-person-pic" style="background-image: ./static/img/team/{{person.name | slug}}.jpg"></div>
+        <div class="e-person-pic" style="background-image: url(./static/img/team/{{person.name | slug}}.jpg"></div>
         <hgroup class="e-team-info">
             <h4 class="e-team-name">{{ person.name }}</h4>
             <h5 class="e-team-job">{{ person.job }}</h5>

@@ -62,7 +62,13 @@ $('.js-view-grid-trigger').click(function() {
     $('.js-view-list-trigger').removeClass('m-active');
 });
 
+
+// Temp JS - will be replaced by Swipe.js 
 $('.e-project-image:nth-child(2)').addClass('m-active');
+screenshots = $('.e-project-image');
+wrapper_size = screenshots.length * screenshots[0].width
+console.log(wrapper_size)
+$('.e-project-slider-wrapper').width(wrapper_size);
 
 
 // Sample Click Feature with overlay

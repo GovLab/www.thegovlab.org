@@ -16,9 +16,12 @@
 
     .e-person {
         display: inline-block;
-        width: 33%;
         text-align: center;
         padding: 20px;
+
+        @include breakpoint($desktop) { width: 33%; }
+        @include breakpoint($mobile-only) { display: block; }
+
     }
 
     .e-person-pic {
@@ -27,6 +30,8 @@
         height: 150px;
         @include circle;
         margin: 0 auto 10px;
+        background-size: cover;
+        background-position: center top;
     }
 
     .e-team-info {
