@@ -1,34 +1,50 @@
 {% extends "base.html" %}
+{% set project = data[0] %}
 {% block content %}
 <section class="b-single-landing">
     <header class="b-top-section">
-        <h3 class="e-question">How and when to use the <strong>crowd do get better ideas</strong> faster into governing</h3>
+        <h3 class="e-question">{{project.problem_statement}}</h3>
     </header>
 
     <div class="e-wrap">
-        <h2 class="e-project-name">Network of Innovators</h2>
+        <h2 class="e-project-name">{{project.title}}</h2>
         <div class="e-half">
-            <h3 class="e-project-tagline">Find collaborators<br>
-                Create Alliances.<br>
-                Learn from Others</h3>
+            <h3 class="e-project-tagline">{{project.tagline}}</h3>
             <div class="e-content">
-                <a href="#" class="e-project-link">Project Website<i class="material-icons">link</i></a>
+                <a href="{{project.project_website}}" target="_blank" class="e-project-link">Project Website<i class="material-icons">link</i></a>
                 <div class="e-tags">
-                    <div><a href="#" class="e-tag">Collective Intelligence</a></div>
-                    <div><a href="#" class="e-tag">Digital Platform</a></div>
-                    <div><a href="#" class="e-tag">Test &amp; Iteration</a></div>
+                    <div>
+                    {% for tag in project.tags.governance_area %}
+                        <span class="e-tag">{{ tag }}</span>
+                    {% endfor %}
+                    {% for tag in project.tags.type_of_institution %}
+                        <span class="e-tag">{{ tag }}</span>
+                    {% endfor %}
+                    {% for tag in project.tags.innovative_capability %}
+                        <span class="e-tag">{{ tag }}</span>
+                    {% endfor %}
+                    {% for tag in project.tags.product_category %}
+                        <span class="e-tag">{{ tag }}</span>
+                    {% endfor %}
+                    </div>
+                </div>
+                <div class="e-location">
+                    <h4>Location</h4>
+                    {% for place in project.location %}
+                    <div class="e-place">{{place}}</div>
+                    {% endfor %}
                 </div>
             </div>
         </div>
         <div class="e-half">
             <div class="e-content e-background">
                 <h4>Background</h4>
-                <p>Pissitio. Eque millace stiumquibus eum qui ut officte sequam voluptate aperior a que eaquunt. Nulloreritia ellorer ionsequia volupta spitibusda nos ditatur res qui dionse dolorunt aped quam, con pro omnisque nus eum anducitat inveri nos endanditam, te odis alitatem recea andia quis alibus vitatque labo. Cab in ea dolut minihitat vitatem adi de lam.</p>
-                <p>Pissitio. Eque millace stiumquibus eum qui ut officte sequam voluptate aperior a que eaquunt. Nulloreritia ellorer ionsequia volupta spitibusda nos ditatur res qui dionse dolorunt aped quam.</p>
+                {{project.long_description}}
             </div>
         </div>
-        <div class="e-progress"></div>
+        <div class="e-progress m-{{project.status}}"><span></span><span></span><span></span><span></span></div>
         <footer>
+            {% if project.social_media %}
             <div class="e-social-media">
                 <h4>Share this Project</h4>
                 <a href="#" class="e-nav-item"><i class="e-social-media-item fa fa-twitter"></i></a>
@@ -36,24 +52,26 @@
                 <a href="#" class="e-nav-item"><i class="e-social-media-item fa fa-google-plus"></i></a>
                 <a href="#" class="e-nav-item"><i class="e-social-media-item fa fa-github"></i></a>
             </div>
+            {% endif %}
         </footer>
     </div>
 </section>
-<section class="b-single-description">
+<section class="b-single-description {% if project.images %}m-slider{% endif %}">
     <div class="e-wrap">
         <h2>Description</h2>
         <p class="e-description">An expert network of individuals, organizations and the projects they have worked on. Together with the communications tools to ask a question, create groups, and engage other for collaboration.
         </p>
     </div>
+    {% if project.images %}
     <div class="b-project-slider">
         <div class="e-project-slider-wrapper">
-            <div class="e-project-image"></div>
-            <div class="e-project-image"></div>
-            <div class="e-project-image m-active"></div>
-            <div class="e-project-image"></div>
-            <div class="e-project-image"></div>
+            {% for image in project.images %}
+                <!-- <div ></div> -->
+                <img class="e-project-image" src="./static/img/projects/{{image}}" alt="">
+            {% endfor %}
         </div>
     </div>
+    {% endif %}
 </section>
 <section class="b-single-results">
     <div class="e-wrap">
@@ -70,6 +88,20 @@
         <div class="e-half">
             <img src="static/img/results-3.png" alt="">
         </div>
+    </div>
+</section>
+<section class="b-team">
+    <h2>Team</h2>
+    <div class="e-wrap">
+    {% for person in project.team %} 
+    <div class="e-person">
+        <div class="e-person-pic" style="background-image: ./static/img/team/{{person.name | slug}}.jpg"></div>
+        <hgroup class="e-team-info">
+            <h4 class="e-team-name">{{ person.name }}</h4>
+            <h5 class="e-team-job">{{ person.job }}</h5>
+        </hgroup>
+    </div>
+    {% endfor %}
     </div>
 </section>
 <section class="b-single-related-content">

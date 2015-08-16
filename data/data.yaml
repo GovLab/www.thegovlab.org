@@ -1,121 +1,7 @@
-- title: 'Docker for Data' #will generate slug from this attr
-  type: 'Data' # Data, Collective Intelligence or Design Thinking
-  is_featured: #integer
-  tagline: Making Open Data Sets Accessible
-  related_question: How to enable data sharing from the public and private sectors?
-  project_website: http://dockerfordata.com
-  github:
-  location: 
-    - Global
-  partners: 'Open Source GovLab Platform'
-  team: 
-    - name: John Krauss
-      job: Senior Engineer
-  tags:
-    - governance_area:
-        - internet governance
-        - global governance
-        - regional governance
-        - national governance
-        - local governance
-    - type_of_institution:
-        - nonprofit
-        - academic
-        - corporate/business
-        - public sector
-    - innovative_capability:
-        - data
-        - open data
-        - big data
-    - product_category:
-        - database
-        - dataset
-        - platform
-  status: "Test & Iteration"
-  problem_statement: How to make open data usable?
-  short_description: > 
-    <p>Docker for Data is a cloud-based software toolkit to speed up the extraction and loading of large open datasets. Using Docker for Data, a user can load data like New York City’s deeds and mortgages directly into a powerful SQL database in just minutes instead of hours. Docker for Data helps to answer the question: how do we make open data more useful?</p>
-  tooltip: >
-    <p>Users no longer have to worry about schemas, transformations, load processes, or waiting for slow data portals. Data from many formats is standardized and ready to go, fast. Installation is a snap: users don’t even need a SQL database installed beforehand. Docker for Data can be installed with <a href="https://github.com/talos/docker4data#try-it-out">one line of code</a>.</p>
-  long_description: >
-    <p>Docker for Data is a cloud-based software toolkit to speed up the extraction and loading of large open datasets. Using Docker for Data, a user can load data like New York City’s deeds and mortgages directly into a powerful SQL database in just minutes instead of hours. Docker for Data helps to answer the question: how do we make open data more useful?</p>
-    <p>Users no longer have to worry about schemas, transformations, load processes, or waiting for slow data portals. Data from many formats is standardized and ready to go, fast. Installation is a snap: users don’t even need a SQL database installed beforehand. Docker for Data can be installed with <a href="https://github.com/talos/docker4data#try-it-out">one line of code</a>.</p>
-  background: >
-    <p>Docker for Data gives open data users a command that can install a broad variety of data sets into a SQL database directly.</p>
-  social_media: #in the future we can have custom shareable messages for each project
-  images_urls: #images or screenshots of the project
-  results: > 
-    <p>Because Docker for Data archives the extracted data sets, it functions as a repository for usable open data. On Docker, you can find:</p>
-    <ul>
-      <li>Over 100GB of data</li>
-      <li>8229 datasets</li>
-      <li>55 different data portals</li>
-    </ul>
-    <p>For example, New York City maintains a free dataset online containing every deed and mortgage, back to 1966 (“open data”).  Although these records could make it possible to understand economic development, urban revitalization, migration trends, and more, the dataset is so big and so little documented that a researcher, entrepreneur or student might need a full day just to get the data into a database. With Docker, this data set is now converted into XXXX</p>
-  related_articles:
-    - "https://docs.google.com/document/d/1B72xIrZxaSWvBh3BLysK5TdF0UuDaSKN99xfTmPLVLs/edit"
-
-- title: 'The GovLab Public Projects Canvas' #will generate slug from this attr
-  type: 'Design Thinking' # Data, Collective Intelligence or Design Thinking
-  is_featured: #integer
-  tagline: Taking a public interest project from idea to implementation
-  related_question: How to take innovative public interest projects from idea to implementation?
-  project_website: http://govlabacademy.org/canvas/
-  github:
-  location: 
-    - Global
-  partners: John S. and James L. Knight Foundation
-  team: 
-    - name: Beth Simone Noveck
-      job: Director of The GovLab
-    - name: Dinorah Cantu
-      job: Research Fellow
-    - name: Claudio Mendonca
-      job: Lead Designer and Developer
-  tags:
-    - governance_area:
-        - Internet Governance
-        - Global Governance
-        - Regional Governance
-        - National Governance
-        - Local Governance
-    - type_of_institution:
-        - Nonprofit
-        - Academic
-        - Corporate/Business
-        - Public Sector
-    - innovative_capability:
-        - Design Thinking
-        - Agile Research
-        - Rapid Prototyping
-    - product_category:
-        - platform
-        - 'training, coaching & mentorship'
-  status: Complete
-  problem_statement: How to catalyze more governance innovators and policy entrepreneurs?
-  short_description: > 
-    <p>The GovLab Public Projects Canvas is a 20-question fillable form available to help public interest innovators develop more effective projects. The Canvas platform enables teams to collaborate on drafting. Each question has a comments field to facilitate mentors and experts offering feedback.</p>
-  tooltip: >
-  long_description: >
-  background: >
-    <p>Based on our experience <a href="http://govlabacademy.org/">teaching civic innovators</a>, the GovLab developed the Public Projects Canvas, a worksheet to help those working on civic projects for the common good become more impactful. This canvas includes twenty questions helps problem solvers cross the Valley of Death. According to Forbes, the “valley of death” is a common term in the startup world, referring to the difficulty of covering the negative cash flow in the early stages of a startup, before a new product generates revenue. But when you are passionate about solving a public problem, the common deathraps include:</p>
-    <ul>
-    <li>Defining the problem clearly enough in order to develop a solution that really works;</li>
-    <li>Knowing how to navigate the necessary bureaucracies, legal regimes, and institutions to get things done;</li>
-    <li>Developing materials compelling enough to persuade the “no machines” you must convince;</li>
-    <li>Identifying how to measure what works.</li>
-    </ul>
-  social_media: #in the future we can have custom shareable messages for each project
-  images_urls: #images or screenshots of the project
-  results: > 
-    <p>The Canvas has supported coaching programs for 80+ project teams from 20+ countries with the assistance of faculty members and coaches from 5 universities and a variety of governments NGOs such as the World Bank and companies as well as  12 semester-long Masters-level academic courses delivered to students from several professional schools at NYU, MIT, and Arizona State University, as well as to more than 70 non-credit participants from more than a dozen US cities and half a dozen foreign countries. In aggregate, 500+ participants working on 250 projects have used the Canvas.</p>
-  related_articles:
-    - "http://www.nesta.org.uk/blog/tech4labs-issue-4-canvassing-value-proposition-your-public-lab-project#sthash.QtPH0Mtv.dpuf"
-
 - title:  Network of Innovators #will generate slug from this attr
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
-  is_featured: #integer
-  tagline: Find collaborators. Create alliances. Learn from others. #oneliner
+  is_featured: 1
+  tagline: Find collaborators. <br>Create alliances. <br>Learn from others. #oneliner
   related_question: How to match the demand to the supply of expertise? #question
   project_website: noi.thegovlab.org #url
   github: https://github.com/GovLab/ottawa-final
@@ -146,21 +32,21 @@
     - name: Andrew Young
       job: #job
     - name: Claudio Mendonca
-      job: Graphic Designer and Front-end Developer
+      job: Front-end Designer and Developer
   tags:
-    - governance_area:
+    governance_area:
         - Regional Governance
         - National Governance
-    - type_of_institution:
+    type_of_institution:
         - Public Sector
-    - innovative_capability:
+    innovative_capability:
         - Collective Intelligence
         - Expert Networks
         - Design Thinking
         - Rapid Prototyping
-    - product_category:
-        - platform
-  status: Prototype
+    product_category:
+        - Digital Platform
+  status: prototype
   problem_statement: Does targeting expertise within government accelerate innovation? #question
   short_description: > 
     <p></p>
@@ -171,14 +57,133 @@
   background: >
     <p>There is possibly no more important public issue today than how to enable our governing organizations to recognize and implement innovative and effective solutions to problems. Administration that is supposed to solve critical problems on its own is inadequate for a complex, networked world. Governments need to learn to make use of the expertise of others — formal scientific knowledge and credentials, skills and experiences inside and outside of government — to tackle the challenges society will face in the coming years.</p>
   social_media: #in the future we can have custom shareable messages for each project
-  images_urls: #images or screenshots of the project
-    - #url
+  images: #images or screenshots of the project
+    - network-of-innovators-01.jpg
+    - network-of-innovators-02.jpg
+    - network-of-innovators-03.jpg
+    - network-of-innovators-04.jpg
   results: > 
     <p>This project is still in its infancy with deployments of the platform in eight countries anticipated during 2015. The anticipated impact, however, is greater understanding and demonstration of how targeting people -- in this case government employees -- on the basis of their skills can accelerate innovation.</p>
   related_articles:
-    - https://medium.com/@bethnoveck/matching-demand-to-the-supply-of-open-data-know-how-the-network-of-innovators-experiment-e410df91556a
-    - http://thegovlab.org/network-of-innovators-expert-networking-for-open-data/
-    - https://medium.com/@bethnoveck/the-network-of-innovators-experiment-what-we-are-learning-about-expertise-matching-6470ebe5fbe0
+    - "https://medium.com/@bethnoveck/matching-demand-to-the-supply-of-open-data-know-how-the-network-of-innovators-experiment-e410df91556a"
+    - "http://thegovlab.org/network-of-innovators-expert-networking-for-open-data/"
+    - "https://medium.com/@bethnoveck/the-network-of-innovators-experiment-what-we-are-learning-about-expertise-matching-6470ebe5fbe0"
+
+# - title: 'Docker for Data' #will generate slug from this attr
+#   type: 'Data' # Data, Collective Intelligence or Design Thinking
+#   is_featured: #integer
+#   tagline: Making Open Data Sets Accessible
+#   related_question: How to enable data sharing from the public and private sectors?
+#   project_website: http://dockerfordata.com
+#   github:
+#   location: 
+#     - Global
+#   partners: 'Open Source GovLab Platform'
+#   team: 
+#     - name: John Krauss
+#       job: Senior Engineer
+#   tags:
+#     - governance_area:
+#         - internet governance
+#         - global governance
+#         - regional governance
+#         - national governance
+#         - local governance
+#     - type_of_institution:
+#         - nonprofit
+#         - academic
+#         - corporate/business
+#         - public sector
+#     - innovative_capability:
+#         - data
+#         - open data
+#         - big data
+#     - product_category:
+#         - database
+#         - dataset
+#         - platform
+#   status: test
+#   problem_statement: How to make open data usable?
+#   short_description: > 
+#     <p>Docker for Data is a cloud-based software toolkit to speed up the extraction and loading of large open datasets. Using Docker for Data, a user can load data like New York City’s deeds and mortgages directly into a powerful SQL database in just minutes instead of hours. Docker for Data helps to answer the question: how do we make open data more useful?</p>
+#   tooltip: >
+#     <p>Users no longer have to worry about schemas, transformations, load processes, or waiting for slow data portals. Data from many formats is standardized and ready to go, fast. Installation is a snap: users don’t even need a SQL database installed beforehand. Docker for Data can be installed with <a href="https://github.com/talos/docker4data#try-it-out">one line of code</a>.</p>
+#   long_description: >
+#     <p>Docker for Data is a cloud-based software toolkit to speed up the extraction and loading of large open datasets. Using Docker for Data, a user can load data like New York City’s deeds and mortgages directly into a powerful SQL database in just minutes instead of hours. Docker for Data helps to answer the question: how do we make open data more useful?</p>
+#     <p>Users no longer have to worry about schemas, transformations, load processes, or waiting for slow data portals. Data from many formats is standardized and ready to go, fast. Installation is a snap: users don’t even need a SQL database installed beforehand. Docker for Data can be installed with <a href="https://github.com/talos/docker4data#try-it-out">one line of code</a>.</p>
+#   background: >
+#     <p>Docker for Data gives open data users a command that can install a broad variety of data sets into a SQL database directly.</p>
+#   social_media: #in the future we can have custom shareable messages for each project
+#   images: #images or screenshots of the project
+#   results: > 
+#     <p>Because Docker for Data archives the extracted data sets, it functions as a repository for usable open data. On Docker, you can find:</p>
+#     <ul>
+#       <li>Over 100GB of data</li>
+#       <li>8229 datasets</li>
+#       <li>55 different data portals</li>
+#     </ul>
+#     <p>For example, New York City maintains a free dataset online containing every deed and mortgage, back to 1966 (“open data”).  Although these records could make it possible to understand economic development, urban revitalization, migration trends, and more, the dataset is so big and so little documented that a researcher, entrepreneur or student might need a full day just to get the data into a database. With Docker, this data set is now converted into XXXX</p>
+#   related_articles:
+#     - "https://docs.google.com/document/d/1B72xIrZxaSWvBh3BLysK5TdF0UuDaSKN99xfTmPLVLs/edit"
+
+# - title: 'The GovLab Public Projects Canvas' #will generate slug from this attr
+#   type: 'Design Thinking' # Data, Collective Intelligence or Design Thinking
+#   is_featured: #integer
+#   tagline: Taking a public interest project from idea to implementation
+#   related_question: How to take innovative public interest projects from idea to implementation?
+#   project_website: http://govlabacademy.org/canvas/
+#   github:
+#   location: 
+#     - Global
+#   partners: John S. and James L. Knight Foundation
+#   team: 
+#     - name: Beth Simone Noveck
+#       job: Director of The GovLab
+#     - name: Dinorah Cantu
+#       job: Research Fellow
+#     - name: Claudio Mendonca
+#       job: Lead Designer and Developer
+#   tags:
+#     - governance_area:
+#         - Internet Governance
+#         - Global Governance
+#         - Regional Governance
+#         - National Governance
+#         - Local Governance
+#     - type_of_institution:
+#         - Nonprofit
+#         - Academic
+#         - Corporate/Business
+#         - Public Sector
+#     - innovative_capability:
+#         - Design Thinking
+#         - Agile Research
+#         - Rapid Prototyping
+#     - product_category:
+#         - platform
+#         - 'training, coaching & mentorship'
+#   status: complete
+#   problem_statement: How to catalyze more governance innovators and policy entrepreneurs?
+#   short_description: > 
+#     <p>The GovLab Public Projects Canvas is a 20-question fillable form available to help public interest innovators develop more effective projects. The Canvas platform enables teams to collaborate on drafting. Each question has a comments field to facilitate mentors and experts offering feedback.</p>
+#   tooltip: >
+#   long_description: >
+#   background: >
+#     <p>Based on our experience <a href="http://govlabacademy.org/">teaching civic innovators</a>, the GovLab developed the Public Projects Canvas, a worksheet to help those working on civic projects for the common good become more impactful. This canvas includes twenty questions helps problem solvers cross the Valley of Death. According to Forbes, the “valley of death” is a common term in the startup world, referring to the difficulty of covering the negative cash flow in the early stages of a startup, before a new product generates revenue. But when you are passionate about solving a public problem, the common deathraps include:</p>
+#     <ul>
+#     <li>Defining the problem clearly enough in order to develop a solution that really works;</li>
+#     <li>Knowing how to navigate the necessary bureaucracies, legal regimes, and institutions to get things done;</li>
+#     <li>Developing materials compelling enough to persuade the “no machines” you must convince;</li>
+#     <li>Identifying how to measure what works.</li>
+#     </ul>
+#   social_media: #in the future we can have custom shareable messages for each project
+#   images: #images or screenshots of the project
+#   results: > 
+#     <p>The Canvas has supported coaching programs for 80+ project teams from 20+ countries with the assistance of faculty members and coaches from 5 universities and a variety of governments NGOs such as the World Bank and companies as well as  12 semester-long Masters-level academic courses delivered to students from several professional schools at NYU, MIT, and Arizona State University, as well as to more than 70 non-credit participants from more than a dozen US cities and half a dozen foreign countries. In aggregate, 500+ participants working on 250 projects have used the Canvas.</p>
+#   related_articles:
+#     - "http://www.nesta.org.uk/blog/tech4labs-issue-4-canvassing-value-proposition-your-public-lab-project#sthash.QtPH0Mtv.dpuf"
+
+
 
 # - title:  #will generate slug from this attr
 #   type: '' # Data, Collective Intelligence or Design Thinking
@@ -211,7 +216,7 @@
 #   background: >
 #     <p>,/p>
 #   social_media: #in the future we can have custom shareable messages for each project
-#   images_urls: #images or screenshots of the project
+#   images: #images or screenshots of the project
 #     - #url
 #   results: > 
 #     <p></p>

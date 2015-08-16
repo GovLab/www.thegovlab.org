@@ -36,27 +36,3 @@
 
 
 
-.e-progress {
-    width: 100%;
-    border-bottom: 1px solid $white-20;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    position: relative;
-
-    &:after {
-        position: absolute;
-        content: "";
-        border-bottom: 1px solid $white-50;
-        width: 90%;
-        left: 0;
-        top: 0;
-    }
-
-    &:before {
-        content: "Test & Iteration";
-        position: absolute;
-        right: 10%;
-        color: $white-50;
-        margin-top: -35px;
-    }
-}

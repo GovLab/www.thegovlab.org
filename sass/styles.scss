@@ -59,7 +59,7 @@ $desktop: 1025px;
 @import 'button';
 
 @import 'fronts';
-@import 'featured_content';
+@import 'featured-content';
 @import 'subscribe';
 @import 'sticky';
 @import 'footer';
@@ -67,11 +67,12 @@ $desktop: 1025px;
 @import 'sandbox';
 
 // Content
-@import 'landing_section';
+@import 'landing-section';
 @import 'single-landing';
 @import 'single-description';
 @import 'single-results';
 @import 'single-related-content';
+@import 'single-team';
 @import 'projects-landing';
 @import 'projects-list';
 

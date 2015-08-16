@@ -5,8 +5,8 @@
         background-color: $gray-10;
         padding-top: 40px;
         padding-bottom: 20px;
+        
         @include breakpoint($desktop) {padding: 30px 0 30px;}
-
 
         .e-question {
             color: $white-80;
@@ -21,12 +21,20 @@
     }
 
     .e-tags {
-        a {
-            display: inline-block;
+        @include breakpoint($desktop) { margin-right: 100px; }
+
+        span {
+            display: block;
             background-color: $gray-10;
             padding: 5px 18px;
             margin-bottom: 4px;
             color: $white-60;
+
+            @include breakpoint($desktop) { 
+                display: inline-block;
+                font-size: 16px;
+                padding: 3px 9px;
+            }
         }
     }
 
@@ -34,6 +42,7 @@
         @include wrap;
         display: flex;
         flex-wrap: wrap;
+        padding-bottom: 30px;
     }
 
     .e-half {
@@ -62,6 +71,7 @@
         display: block;
         width: 100%;
         @include wrap;
+        
         @include breakpoint($desktop) { font-size: 48px; }
     }
 
@@ -102,8 +112,138 @@
             margin-bottom: 10px;
         }
 
-        p {
-            color: $white-70;
+        p { color: $white-70; }
+    }
+
+    .e-location {
+        @include breakpoint($desktop) { margin-right: 100px; }
+
+        .e-place {
+            color: $white-60;
+            display: inline-block;
+            display: block;
+            background-color: $gray-10;
+            padding: 5px 18px;
+            margin-bottom: 4px;
+            color: $white-60;
+
+            @include breakpoint($desktop) { 
+                display: inline-block;
+                font-size: 16px;
+                padding: 3px 9px;
+            }
+        }
+    }
+
+    .e-progress {
+        @include breakpoint($mobile-only) {
+            border: 1px solid $white-40;
+            padding: 3px 12px;
+        }
+
+        @include breakpoint($desktop) {
+            width: 100%;
+            border-bottom: 1px solid $white-20;
+            margin-top: 50px;
+            margin-bottom: 20px;
+            margin-left: 120px;
+            position: relative;
+        }
+
+        &:before {
+            @include breakpoint($mobile-only) {
+                color: $white-60;
+                content: 'Progress: ';
+            }
+
+            @include breakpoint($desktop) {
+                color: $white-30;
+                content: 'Progress';
+                position: absolute;
+                bottom: -13px;
+                left: -120px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                font-weight: 600;
+            }
+        }
+
+        &:after {
+            @include breakpoint($desktop) {
+                position: absolute;
+                content: "";
+                border-bottom: 1px solid $white-50;
+                left: 0;
+                top: 0;
+            }
+        }
+
+        span:before {
+            color: $white-60;
+            display: none;
+
+            @include breakpoint($desktop) {
+                position: absolute;
+                margin-top: -35px;
+                display: block;
+            }
+        }
+
+        span:nth-child(1):before { 
+            content: "Define"; 
+            @include breakpoint($desktop) { right: 90%; }
+        }
+        span:nth-child(2):before { 
+            content: "Prototype"; 
+            @include breakpoint($desktop) { right: 65%; }
+        }
+        span:nth-child(3):before { 
+            content: "Test & Iteration"; 
+            @include breakpoint($desktop) { right: 30%; }
+        }
+        span:nth-child(4):before { 
+            content: "Complete"; 
+            @include breakpoint($desktop) { right: 0; }
+        }
+
+        &.m-define span:nth-child(1):before, 
+        &.m-prototype span:nth-child(2):before,
+        &.m-test span:nth-child(3):before,
+        &.m-complete span:nth-child(4):before {
+            color: $white-90;
+
+            @include breakpoint($mobile-only) { 
+                display: inline-block;
+                font-weight: 600;
+            }
+        }
+
+        &.m-define {
+            &:after {width: 10%;}
+            span:nth-child(2):before,
+            span:nth-child(3):before,
+            span:nth-child(4):before { opacity: 0; }
+        }
+
+        &.m-prototype {
+            &:after { width: 35%; }
+            span:nth-child(1):before { opacity: .4; }
+            span:nth-child(3):before,
+            span:nth-child(4):before { opacity: 0; }
+        }
+
+        &.m-test {
+            &:after { width: 70%; }
+            span:nth-child(1):before,
+            span:nth-child(2):before { opacity: .4;}
+            span:nth-child(4):before { opacity: 0; }
+        }
+        
+        &.m-complete {
+            &:after { width: 100%; }
+            span:nth-child(1):before,
+            span:nth-child(2):before, 
+            span:nth-child(3):before { opacity: .4; }
         }
     }
 
@@ -117,8 +257,9 @@
             color: $white-70;
             font-weight: 600;
             margin: 0;
-            display: inline-block;
             margin-right: 50px;
+
+            @include breakpoint($desktop) { display: inline-block; }
         }
 
         a {
@@ -127,9 +268,13 @@
             line-height: 16px;
             display: inline-block;
             padding: 10px;
+            @include transition;
+
+            &:hover {
+                color: $white;
+                transform: scale(1.5);
+                @include transition;
+            }
         }
-
-
     }
-
 }

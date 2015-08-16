@@ -62,6 +62,9 @@ $('.js-view-grid-trigger').click(function() {
     $('.js-view-list-trigger').removeClass('m-active');
 });
 
+$('.e-project-image:nth-child(2)').addClass('m-active');
+
+
 // Sample Click Feature with overlay
 // $('.triggerClass').click(function() {
 //     $('.menuClass').toggleClass('m-active');
