@@ -910,7 +910,7 @@ input[type="text"] {
   bottom: -40px;
   text-align: center; }
   .b-project-slider .e-project-slider-wrapper {
-    width: 100%; }
+    width: 200%; }
   .b-project-slider .e-project-image {
     display: inline-block;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); }
@@ -1002,16 +1002,23 @@ input[type="text"] {
     margin-right: auto; }
   .b-team .e-person {
     display: inline-block;
-    width: 33%;
     text-align: center;
     padding: 20px; }
+    @media (min-width: 1025px) {
+      .b-team .e-person {
+        width: 33%; } }
+    @media (max-width: 800px) {
+      .b-team .e-person {
+        display: block; } }
   .b-team .e-person-pic {
     background-color: rgba(255, 255, 255, 0.2);
     width: 150px;
     height: 150px;
     overflow: hidden;
     border-radius: 50%;
-    margin: 0 auto 10px; }
+    margin: 0 auto 10px;
+    background-size: cover;
+    background-position: center top; }
   .b-team .e-team-info {
     vertical-align: top;
     color: rgba(255, 255, 255, 0.7);
