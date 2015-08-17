@@ -10,7 +10,8 @@ searchpath = path.join(getcwd(), 'templates')
 outputpath = path.join(getcwd(), 'site')
 
 # We load the data we want to use in the templates.
-DATA = load(open('data/data.yaml'))
+PROJECTS = load(open('data/projects.yaml'))
+EVENTS = load(open('data/events.yaml'))
 
 # Clean the output folder.
 if path.exists(outputpath):
@@ -21,7 +22,10 @@ if path.exists(outputpath):
 #     item['article_url'] = 'article-' + slugify(item['title'].lower()) + '.html'
 
 def loadData():
-    return {'data': DATA}
+    return {
+        'projects': PROJECTS,
+        'events': EVENTS
+    }
 
 
 # Create a filter for slugs
@@ -32,10 +36,6 @@ def slug(text):
     except (AttributeError, TypeError):
         return text
         
-
-
-
-
 # CREATES A MULTIPLE PAGE GENERATOR, BASED IN THE 'article.html' TEMPLATE
 template = open('%s/project.html' % searchpath).read()
 
@@ -53,7 +53,7 @@ if path.exists(outputpath):
 makedirs(outputpath)
 
 # CREATES A MULTIPLE PAGE GENERATOR, BASED IN THE 'single.html' TEMPLATE
-for index, data in enumerate(DATA):
+for index, data in enumerate(PROJECTS):
     filename = slugify(data['title'].lower())
     new_file = open('%s/project-%s.html' % (searchpath, filename), 'w+')
     new_page = template.replace('data[0]', 'data[%d]' % index)

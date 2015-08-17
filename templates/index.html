@@ -34,7 +34,7 @@ The GovLab:   -->
     </section>
     <div class="b-featured-content-wrapper">
         <div class="e-banner-container">
-            {% for project in data %}
+            {% for project in projects %}
                 {% if project.is_featured %}    
                     <section id="{{project.title | slug}}" class="b-featured-content m-project">
                         <header>
@@ -86,6 +86,7 @@ The GovLab:   -->
             {% endfor %}
         </div>
         <div class="e-banner-container">
+            <!-- this will be pulled via RSS -->
             <section id="public-forum" class="b-featured-content m-article">
                 <header>
                     <div class="e-banner-controls">
@@ -143,7 +144,7 @@ The GovLab:   -->
             </section>
         </div>
         <div class="e-banner-container">            
-            <section id="mark-latonero" class="b-featured-content m-event" style="background-image: url(static/img/events/july-31.jpg)">
+            <section id="patrick-meier" class="b-featured-content m-event" style="background-image: url(static/img/events/october-8.jpg)">
                 <header>
                     <div class="e-banner-controls">
                         <i class="material-icons e-banner-control m-prev">keyboard_arrow_left</i>
@@ -162,14 +163,14 @@ The GovLab:   -->
                 <div class="e-wrap">
                     <div class="e-half">
                         <div class="e-content">
-                            <h2 class="e-event-name">Data Driven Tensions <br>in Human Rights</h2>
-                            <p class="e-guest">Mark Latonero</p>
+                            <h2 class="e-event-name">Book Talk:<br>Digital Humanitarians</h2>
+                            <p class="e-guest">Patrick Meier</p>
                         </div>
                     </div>
                     <div class="e-half">
-                        <h4 class="e-event-date">July 31</h4>
+                        <h4 class="e-event-date">October 8</h4>
                         <div class="e-content">
-                            <p>Pissitio. Eque millace stiumquibus eum qui ut officte sequam voluptate aperior a que eaquunt. Nulloreritia ellorer ionsequia volupta spitibusda nos ditatur res qui dionse dolorunt aped quam, con pro omnisque nus eum anducitat inveri nos endanditam.</p>
+                            <p>Patrick Meier is an internationally recognized thought leader on humanitarian technology and innovation. His new book, “Digital Humanitarians” has been endorsed by Harvard, MIT, Stanford, Oxford, UN, Red Cross, World Bank, USAID and others. He tweets at @patrickmeier.</p>
                         </div>
                     </div>
                     <div class="e-half">

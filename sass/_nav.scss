@@ -95,6 +95,9 @@
         display: block;
         
         @include breakpoint($mobile-only) { display: none; }
+
+        a { @include transition; }
+        a:hover { transform: scale(1.4); }
     }
 }
 

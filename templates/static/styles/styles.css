@@ -106,6 +106,10 @@ input {
     @media (max-width: 800px) {
       .b-top-nav .e-social-media {
         display: none; } }
+    .b-top-nav .e-social-media a {
+      transition: all .4s ease; }
+    .b-top-nav .e-social-media a:hover {
+      transform: scale(1.4); }
 
 .b-main-menu {
   position: fixed;
@@ -244,14 +248,14 @@ input[type="text"] {
     background-color: #333;
     display: block;
     overflow: hidden;
-    transition: all .4s ease; }
+    transition: all .4s ease;
+    background-size: cover; }
     @media (min-width: 1025px) {
       .b-govlab-fronts .e-govlab-front {
         flex: 1;
-        justify-content: center;
         font-size: 22px;
-        padding: 30px 0;
-        padding-bottom: calc(50% - 60px);
+        line-height: 1;
+        padding: 15% 0 35%;
         height: 0; } }
     .b-govlab-fronts .e-govlab-front h2 {
       text-transform: uppercase; }
@@ -260,18 +264,32 @@ input[type="text"] {
       line-height: 24px;
       padding: 15px;
       position: relative;
-      top: 400px;
-      transition: all .4s ease; }
+      top: 600px;
+      transition: all .4s ease;
+      background-color: rgba(0, 0, 0, 0.3);
+      height: 300px; }
     .b-govlab-fronts .e-govlab-front:hover .e-explanation {
       top: 0; }
     .b-govlab-fronts .e-govlab-front.m-projects {
       background-color: #523080; }
+      @media (min-width: 1025px) {
+        .b-govlab-fronts .e-govlab-front.m-projects {
+          background-image: url("../img/fronts-projects.png"); } }
     .b-govlab-fronts .e-govlab-front.m-observatory {
       background-color: #008895; }
+      @media (min-width: 1025px) {
+        .b-govlab-fronts .e-govlab-front.m-observatory {
+          background-image: url("../img/fronts-observatory.png"); } }
     .b-govlab-fronts .e-govlab-front.m-academy {
       background-color: #ee5b43; }
+      @media (min-width: 1025px) {
+        .b-govlab-fronts .e-govlab-front.m-academy {
+          background-image: url("../img/fronts-academy.png"); } }
     .b-govlab-fronts .e-govlab-front.m-community {
       background-color: #008ab3; }
+      @media (min-width: 1025px) {
+        .b-govlab-fronts .e-govlab-front.m-community {
+          background-image: url("../img/fronts-community.png"); } }
 
 .b-featured-content-wrapper {
   display: flex;
@@ -556,6 +574,8 @@ input[type="text"] {
       font-weight: 600;
       text-transform: uppercase;
       color: white; }
+    .b-footer .e-content .e-partner-logo {
+      max-width: 90%; }
 
 .b-build-team {
   background-color: rgba(0, 0, 0, 0.7);
@@ -592,7 +612,8 @@ input[type="text"] {
   padding: 20px; }
   @media (min-width: 1025px) {
     .b-copyright {
-      padding: 20px; } }
+      padding: 20px;
+      text-align: left; } }
   .b-copyright .e-wrap {
     max-width: 1025px;
     margin-left: auto;
@@ -641,10 +662,10 @@ input[type="text"] {
   padding: 80px 20px; }
   @media (min-width: 1025px) {
     .b-landing-questions {
-      padding-top: 170px !important;
-      padding-bottom: 100px !important; } }
+      padding-top: 10% !important;
+      padding-bottom: 7% !important; } }
   .b-landing-questions .e-question {
-    font-size: 22px;
+    font-size: 26px;
     line-height: 1.4;
     text-transform: uppercase;
     color: white;

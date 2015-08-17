@@ -24,7 +24,9 @@
             font-weight: 600;
             text-transform: uppercase;
             color: $white
-        }    
+        }
+
+        .e-partner-logo { max-width: 90%; }
     }
 }
 
@@ -73,7 +75,8 @@
     padding: 20px;
 
     @include breakpoint($desktop) { 
-        padding: 20px;    
+        padding: 20px;
+        text-align: left;
     }
     
     .e-wrap {
