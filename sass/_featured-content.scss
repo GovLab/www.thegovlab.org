@@ -2,7 +2,26 @@
     display: flex;
     flex-flow: column;
 
-    .e-banner-container { flex: 0 0 1; }
+    .e-banner-container {
+        flex: 0 0 1;
+
+        &.swipe {
+            overflow: hidden;
+            visibility: hidden;
+            position: relative;
+
+            .swipe-wrap {
+                overflow: hidden;
+                position: relative;
+
+                section {
+                    float:left;
+                    width:100%;
+                    position: relative;
+                }
+            }
+        }
+   }
 }
 
 // .m-event {
@@ -48,7 +67,7 @@
 
     .e-banner-index {
         float: right;
-        
+
         span {
             display: inline-block;
             width: 10px;
@@ -83,7 +102,7 @@
         flex: 1;
         min-width: 350px;
 
-        &:nth-of-type(2n) { 
+        &:nth-of-type(2n) {
             @include breakpoint($desktop) { padding-right: 30px; }
         }
     }
@@ -128,7 +147,7 @@
 
     .e-byline {
         font-size: 16px;
-        strong { font-weight: 600; }   
+        strong { font-weight: 600; }
     }
 
     .e-content {
@@ -165,7 +184,7 @@
 }
 
 
-.b-featured-content.m-project { 
+.b-featured-content.m-project {
     background-color: $purple;
 
     header { background-color: $gray-10; }
@@ -173,7 +192,7 @@
 
 }
 
-.b-featured-content.m-event { 
+.b-featured-content.m-event {
     background-color: $purple;
     background-repeat: no-repeat;
     background-size: contain;
@@ -182,7 +201,7 @@
         background-position: bottom center;
         .e-half:nth-last-child(2) { margin-top: 50px; }
     }
-    
+
     @include breakpoint($desktop) {
         background-position: bottom right;
 
@@ -202,14 +221,14 @@
         margin-top: 30px;
         @include breakpoint($mobile-only) { padding: 20px; }
 
-        .e-wrap { 
+        .e-wrap {
             @include wrap;
-            @include breakpoint($desktop) { 
+            @include breakpoint($desktop) {
                 display: flex;
                 height: 36px;
             }
 
-            > h4 { 
+            > h4 {
                 flex: 1;
                 margin: 0;
 
@@ -218,8 +237,8 @@
                 letter-spacing: .5px;
                 text-transform: uppercase;
                 line-height: 1.1;
-                @include breakpoint($mobile-only) { 
-                    margin-bottom: 20px; 
+                @include breakpoint($mobile-only) {
+                    margin-bottom: 20px;
                     line-height: 1.3;
                     text-align: center;
                 }
@@ -231,18 +250,18 @@
                 display: flex;
                 @include breakpoint($mobile-only) { flex-flow: column;}
 
-                input[type="text"] { 
+                input[type="text"] {
                     flex: 5;
                     padding: 8px;
                     color: $white;
-                    
+
                     @include breakpoint($mobile-only) { margin-top: 10px; }
-                    @include breakpoint($desktop) { 
+                    @include breakpoint($desktop) {
                         padding: 14px 20px;
                     }
                 }
 
-                input[type="submit"] { 
+                input[type="submit"] {
                     flex: 1;
                     border: 0;
                     background-color: $white-20;
@@ -256,6 +275,6 @@
 
                     @include breakpoint($mobile-only) { margin-top: 10px; }
                 }
-            }   
+            }
         }
 }   }

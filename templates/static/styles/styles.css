@@ -296,6 +296,17 @@ input[type="text"] {
   flex-flow: column; }
   .b-featured-content-wrapper .e-banner-container {
     flex: 0 0 1; }
+    .b-featured-content-wrapper .e-banner-container.swipe {
+      overflow: hidden;
+      visibility: hidden;
+      position: relative; }
+      .b-featured-content-wrapper .e-banner-container.swipe .swipe-wrap {
+        overflow: hidden;
+        position: relative; }
+        .b-featured-content-wrapper .e-banner-container.swipe .swipe-wrap section {
+          float: left;
+          width: 100%;
+          position: relative; }
 
 .b-featured-content {
   padding: 0 0 40px 0;
