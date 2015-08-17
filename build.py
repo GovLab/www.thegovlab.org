@@ -27,7 +27,6 @@ def loadData():
         'events': EVENTS
     }
 
-
 # Create a filter for slugs
 def slug(text):
     try:

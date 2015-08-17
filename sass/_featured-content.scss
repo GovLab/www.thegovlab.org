@@ -108,6 +108,9 @@
     }
 
     .e-tags {
+        list-style-type: none;
+        padding-left: 0;
+
         span {
             display: inline-block;
             background-color: $gray-10;
@@ -188,8 +191,8 @@
     background-color: $purple;
 
     header { background-color: $gray-10; }
-    .e-banner-control {top: 48%;}
-
+    .e-banner-control { top: 48%; }
+    .e-content { height: 330px; }
 }
 
 .b-featured-content.m-event {

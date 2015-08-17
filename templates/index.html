@@ -57,12 +57,12 @@ The GovLab:   -->
                             <div class="e-wrap">
                                 <div class="e-half">
                                     <div class="e-content">
-                                        <div class="e-tags">
-                                            <span class="e-tag">{{project.tags.governance_area[0]}}</span>
-                                            <span class="e-tag">{{project.tags.type_of_institution[0]}}</span>
-                                            <span class="e-tag">{{project.tags.innovative_capability[0]}}</span>
-                                            <span class="e-tag">{{project.tags.product_category[0]}}</span>
-                                        </div>
+                                        <ul class="e-tags">
+                                            <li><span class="e-tag">{{project.tags.governance_area[0] | title}}</span></li>
+                                            <li><span class="e-tag">{{project.tags.type_of_institution[0] | title}}</span></li>
+                                            <li><span class="e-tag">{{project.tags.innovative_capability[0] | title}}</span></li>
+                                            <li><span class="e-tag">{{project.tags.product_category[0] | title}}</span></li>
+                                        </ul>
                                     </div>
                                 </div>
                                 <div class="e-half">
@@ -149,47 +149,50 @@ The GovLab:   -->
         </div>
         <div class="e-banner-container swipe">
             <div class="swipe-wrap">
-                <section id="patrick-meier" class="b-featured-content m-event" style="background-image: url(static/img/events/october-8.jpg)">
-                    <header>
-                        <div class="e-banner-controls">
-                            <i class="material-icons e-banner-control m-prev">keyboard_arrow_left</i>
-                            <i class="material-icons e-banner-control m-next">keyboard_arrow_right</i>
-                        </div>
-                        <div class="e-wrap">
-                            <div class="e-banner-index">
-                                <span></span>
-                                <span class="m-active"></span>
-                                <span></span>
+                {% for event in events %}
+                    {% if event.is_featured %}
+                        <section id="{{event.guest | slug}}" class="b-featured-content m-event" style="background-image: url(static/img/events/{{event.image}})">
+                            <header>
+                                <div class="e-banner-controls">
+                                    <i class="material-icons e-banner-control m-prev">keyboard_arrow_left</i>
+                                    <i class="material-icons e-banner-control m-next">keyboard_arrow_right</i>
+                                </div>
+                                <div class="e-wrap">
+                                    <div class="e-banner-index">
+                                        <span></span>
+                                        <span class="m-active"></span>
+                                        <span></span>
+                                    </div>
+                                    <h4>{{event.type}}</h4>
+                                </div>
+                            </header>
+                            <div class="e-wrap">
+                                <div class="e-half">
+                                    <div class="e-content">
+                                        <h2 class="e-event-name">{{event.title}}</h2>
+                                        <p class="e-guest">{{event.guest}}</p>
+                                    </div>
+                                </div>
+                                <div class="e-half">
+                                    <h4 class="e-event-date">{{event.date}}</h4>
+                                    <div class="e-content">
+                                        <p>{{event.short_description}}</p>
+                                    </div>
+                                </div>
+                                <div class="e-half">
+                                    <div class="e-action">
+                                        <a class="b-button m-naked" href="{{event.url}}">{% if event.type == 'IdeasLunch' %}RSVP{% else %}Learn More{%endif%}<i class="material-icons">arrow_forward</i></a>
+                                    </div>
+                                </div>
+                                <div class="e-half">
+                                    <div class="e-action">
+                                        <a class="b-button m-naked" href="events.html">All Events<i class="material-icons">arrow_forward</i></a>
+                                    </div>
+                                </div>
                             </div>
-                            <h4>Upcoming Event</h4>
-                        </div>
-
-                    </header>
-                    <div class="e-wrap">
-                        <div class="e-half">
-                            <div class="e-content">
-                                <h2 class="e-event-name">Book Talk:<br>Digital Humanitarians</h2>
-                                <p class="e-guest">Patrick Meier</p>
-                            </div>
-                        </div>
-                        <div class="e-half">
-                            <h4 class="e-event-date">October 8</h4>
-                            <div class="e-content">
-                                <p>Patrick Meier is an internationally recognized thought leader on humanitarian technology and innovation. His new book, “Digital Humanitarians” has been endorsed by Harvard, MIT, Stanford, Oxford, UN, Red Cross, World Bank, USAID and others. He tweets at @patrickmeier.</p>
-                            </div>
-                        </div>
-                        <div class="e-half">
-                            <div class="e-action">
-                                <a class="b-button m-naked" href="">RSVP<i class="material-icons">arrow_forward</i></a>
-                            </div>
-                        </div>
-                        <div class="e-half">
-                            <div class="e-action">
-                                <a class="b-button m-naked" href="">All Events<i class="material-icons">arrow_forward</i></a>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                        </section>
+                    {% endif %}
+                {% endfor %}
             </div>
         </div>
     </div>
