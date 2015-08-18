@@ -201,7 +201,8 @@ input[type="text"] {
   font-weight: 400;
   letter-spacing: 1px;
   transition: all .4s ease;
-  color: white; }
+  color: white;
+  cursor: pointer; }
   @media (max-width: 800px) {
     .b-button {
       background-color: rgba(0, 0, 0, 0.1); } }
@@ -266,8 +267,16 @@ input[type="text"] {
       position: relative;
       top: 600px;
       transition: all .4s ease;
-      background-color: rgba(0, 0, 0, 0.3);
-      height: 300px; }
+      background-color: rgba(0, 0, 0, 0.3); }
+      @media (min-width: 1025px) {
+        .b-govlab-fronts .e-govlab-front .e-explanation {
+          height: 300px; } }
+      @media (max-width: 800px) {
+        .b-govlab-fronts .e-govlab-front .e-explanation {
+          top: 0;
+          background-color: transparent;
+          text-transform: uppercase;
+          padding: 0 20px; } }
     .b-govlab-fronts .e-govlab-front:hover .e-explanation {
       top: 0; }
     .b-govlab-fronts .e-govlab-front.m-projects {
@@ -653,43 +662,35 @@ input[type="text"] {
       .b-copyright .e-wrap a:hover {
         color: white; }
 
-.wrapper {
-  height: 700px;
-  padding: 100px;
-  background-color: #008895; }
-
-.circle {
-  margin: 20px;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  line-height: 0;
-  overflow: hidden; }
-  .circle > div {
-    background-color: rgba(255, 255, 255, 0.2);
-    height: 50%;
-    width: 50%;
-    display: inline-block; }
-  .circle.m-idea > div:nth-child(2), .circle.m-design > div:nth-child(2), .circle.m-design > div:nth-child(4), .circle.m-prototype > div:nth-child(2), .circle.m-prototype > div:last-child, .circle.m-prototype > div:nth-child(3), .circle.m-production > div:first-child, .circle.m-production > div:nth-child(2), .circle.m-production > div:last-child, .circle.m-production > div:nth-child(3) {
-    background-color: rgba(255, 255, 255, 0.5); }
-
+/* Header */
 .b-landing-questions {
   text-align: center;
   background-color: #333;
-  padding: 80px 20px; }
-  @media (min-width: 1025px) {
-    .b-landing-questions {
-      padding-top: 10% !important;
-      padding-bottom: 7% !important; } }
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom left;
+  padding: 80px 20px;
+  height: 500px;
+  padding: 0; }
+  .b-landing-questions canvas {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.3; }
   .b-landing-questions .e-question {
     font-size: 26px;
     line-height: 1.4;
     text-transform: uppercase;
     color: white;
-    margin: 0 auto 50px auto;
+    margin: 80px auto 50px auto;
     font-weight: 400;
     letter-spacing: 1px;
     margin-bottom: 65px; }
+  .b-landing-questions .b-button {
+    position: relative;
+    z-index: 100; }
 
 .b-single-landing {
   background-color: #008ab3; }

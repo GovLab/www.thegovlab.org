@@ -1,10 +1,8 @@
 .b-govlab-fronts {
     display: block;
 
-    @include breakpoint($desktop) { 
-        display: flex; 
-    }
-
+    @include breakpoint($desktop) { display: flex; }
+    
     .e-mobile-wrap {
         @include breakpoint($desktop) { 
             display: flex;
@@ -42,11 +40,19 @@
             top: 600px;
             @include transition;
             background-color: $gray-30;
-            height: 300px;
+            
+            @include breakpoint($desktop) { height: 300px; }
+            @include breakpoint($mobile-only) { 
+                top: 0;
+                background-color: transparent;
+                text-transform: uppercase;
+                padding: 0 20px;
+            }
         }
 
         &:hover .e-explanation { top: 0; }
-
+        
+        // The background-images will be replaced by JS interactive graphics in the future
         &.m-projects {    
             background-color: $purple;
             @include breakpoint($desktop) { background-image: url("../img/fronts-projects.png"); }
