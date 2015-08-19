@@ -164,6 +164,12 @@ input[type="text"] {
   input[type="text"]:focus {
     background-color: rgba(255, 255, 255, 0.3); }
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none; }
+
 @media (max-width: 800px) {
   .b-landing-questions,
   .b-featured-content > *,
@@ -965,6 +971,8 @@ input[type="text"] {
   width: 100%;
   overflow: hidden;
   text-align: center; }
+  .b-project-slider .slick-slide {
+    outline: none; }
   .b-project-slider span {
     display: inline-block; }
     .b-project-slider span .e-project-image {
