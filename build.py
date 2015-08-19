@@ -23,8 +23,10 @@ if path.exists(outputpath):
 
 def loadData():
     return {
+        'events': EVENTS,
+        'featured_events': [x for x in EVENTS if x.get('is_featured')],
         'projects': PROJECTS,
-        'events': EVENTS
+        'featured_projects': [x for x in PROJECTS if x.get('is_featured')]
     }
 
 # Create a filter for slugs
