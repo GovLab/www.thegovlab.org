@@ -5,9 +5,9 @@
     .wrap {
         @include wrap;
     }
-     p  {
-        color: white;
-     }  
+
+    .question { background-color: $black;}
+    p  { color: white; }  
 }
 
 

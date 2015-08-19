@@ -36,9 +36,11 @@
     &.m-collective-intelligence .e-project-type { background-color: $orange;}
     &.m-design-thinking .e-project-type { background-color: $blue;}
 
-    &.m-data .e-project-item h2 { color: $teal;}
-    &.m-collective-intelligence .e-project-item h2 { color: $orange;}
-    &.m-design-thinking .e-project-item h2 { color: $blue;}
+
+    &.m-data .e-project-item h2 a { color: $teal;}
+    &.m-collective-intelligence .e-project-item h2 a { color: $orange;}
+    &.m-design-thinking .e-project-item h2 a { color: $blue;}
+  
 
     .e-project-list { 
         @include breakpoint($desktop) { flex: 4; }
@@ -77,11 +79,26 @@
             line-height: 1.4;
         }
 
+        .b-button {
+            margin-left: -20px;
+        }
+        
+        &.m-active-False {
+            pointer-events: none;
+            background-color: transparent !important;
+
+            h2 { opacity: .3;}
+        }
+
         &.m-active {
             background-color: $white;
 
             .e-project-tooltip {
                 @include transition;
+                a {
+                    color: $white;
+                    text-decoration: underline;
+                }
                 @include breakpoint($mobile-only) {
                     display: block;
                     height: auto;
@@ -100,10 +117,11 @@
             display: flex;
             border-bottom: 1px solid $gray-10;
             flex-wrap: wrap;
+            padding: 20px 0;
         }
 
         h2 {
-            margin: 30px 40px 0;
+            margin: 0 40px 0;
             flex: 1;
         }
 
@@ -120,6 +138,7 @@
         }
 
         .e-project-blurb { margin: 0 80px 0 0; }
+        .e-project-blurb p { margin: 0; }
 
         .e-project-tooltip { 
             max-height: 0;
@@ -135,7 +154,7 @@
                 @include breakpoint($desktop) {
                     display: block;
                     height: auto;
-                    max-height: 300px;
+                    max-height: 800px;
                 }
             }
         }
@@ -162,6 +181,7 @@
             vertical-align: top;
             position: relative;
             cursor: pointer;
+            border: 1px dotted $gray-20;
         }
 
         h2 {
@@ -200,7 +220,7 @@
                 position: absolute;
                 top: calc(100%);
                 width: calc(200% + 30px);
-                height: 100%;
+                max-height: 800px;
                 z-index: 100;
                 background-color: $black;
                 box-shadow: 3px 2px 20px $gray-20;

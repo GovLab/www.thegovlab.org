@@ -34,7 +34,9 @@ def slug(text):
         return slugify(text)
     except (AttributeError, TypeError):
         return text
-        
+
+
+
 # CREATES A MULTIPLE PAGE GENERATOR, BASED IN THE 'article.html' TEMPLATE
 template = open('%s/project.html' % searchpath).read()
 
@@ -50,6 +52,8 @@ if path.exists(outputpath):
     rmtree(outputpath)
 
 makedirs(outputpath)
+
+
 
 # CREATES A MULTIPLE PAGE GENERATOR, BASED IN THE 'project.html' TEMPLATE
 for index, project in enumerate(PROJECTS):
@@ -69,6 +73,8 @@ site = make_site(
 )
 
 site.render(use_reloader=True)
+
+
 
 
 

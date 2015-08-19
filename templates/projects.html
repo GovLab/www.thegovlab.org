@@ -1,5 +1,18 @@
+{# Define a macro to render each project item #}
+{% macro item(title, problem_statement, is_active, tooltip) -%}
+    <div class="e-project-item js-tooltip-trigger m-active-{{is_active}}">
+        <h2><a href="project-{{title | slug}}.html">{{title}}</a></h2>
+        <div class="e-project-blurb">
+            {% if problem_statement %}<p>{{problem_statement}}</p>{% endif %}
+            {#{% if tooltip %}<div class="e-project-tooltip">{{tooltip}}</div>{% endif %}#}
+        </div>
+    </div>
+{%- endmacro %}
+
 {% extends "base.html" %}
 {% block content %}
+
+{# here we start the template#}
 
 <section class="b-projects-landing b-top-section">
     <h2>Building new technology to solve public problems</h2>
@@ -18,71 +31,23 @@
         <div class="e-project-list">
             <h3 class="e-project-question">How to open up <strong>government data</strong> for solving problems</h3>
             <div class="e-project-group">
-                <div class="e-project-item js-tooltip-trigger">
-                    <h2>Arnold</h2>
-                    <div class="e-project-blurb">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ducimus minus suscipit, obcaecati id soluta sed, dolore eligendi necessitatibus porro voluptas magnam harum voluptates nemo cupiditate. Natus nisi facere qui!</p>
-                        <p class="e-project-tooltip">There is possibly no more important public issue today than how to enable our governing organizations to better recognize and implement innovative and effective solutions to our problems. Administration that is supposed to solve critical problems on its own is inadequate for a complex, networked world. Governments need to learn to make use of the exper.</p>
-                        <a href="#" class="b-button">Soon...</a>
-                    </div>
+                {% for project in projects %}
+                    {% if project.related_question == 'How to open up <strong>government data</strong> for solving problems' %}
 
-                </div>
-                <div class="e-project-item js-tooltip-trigger">
-                    <h2>Orgpedia</h2>
-                    <div class="e-project-blurb">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ducimus minus suscipit, obcaecati id soluta sed, dolore eligendi necessitatibus porro voluptas magnam harum voluptates nemo cupiditate. Natus nisi facere qui!</p>
-                        <p class="e-project-tooltip">There is possibly no more important public issue today than how to enable our governing organizations to better recognize and implement innovative and effective solutions to our problems. Administration that is supposed to solve critical problems on its own is inadequate for a complex, networked world. Governments need to learn to make use of the exper.</p>
-                        <a href="#" class="b-button">Soon...</a>
-                    </div>
-                </div>
-                <div class="e-project-item js-tooltip-trigger">
-                    <h2>Legisletters</h2>
-                    <div class="e-project-blurb">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ducimus minus suscipit, obcaecati id soluta sed, dolore eligendi necessitatibus porro voluptas magnam harum voluptates nemo cupiditate. Natus nisi facere qui!</p>
-                        <p class="e-project-tooltip">There is possibly no more important public issue today than how to enable our governing organizations to better recognize and implement innovative and effective solutions to our problems. Administration that is supposed to solve critical problems on its own is inadequate for a complex, networked world. Governments need to learn to make use of the exper.</p>
-                        <a href="#" class="b-button">Soon...</a>
-                    </div>
-                </div>
-                <div class="e-project-item js-tooltip-trigger">
-                    <h2>NHS Open Data</h2>
-                    <div class="e-project-blurb">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ducimus minus suscipit, obcaecati id soluta sed, dolore eligendi necessitatibus porro voluptas magnam harum voluptates nemo cupiditate. Natus nisi facere qui!</p>
-                        <p class="e-project-tooltip">There is possibly no more important public issue today than how to enable our governing organizations to better recognize and implement innovative and effective solutions to our problems. Administration that is supposed to solve critical problems on its own is inadequate for a complex, networked world. Governments need to learn to make use of the exper.</p>
-                        <a href="#" class="b-button">Soon...</a>
-                    </div>
-                </div>
-                <div class="e-project-item js-tooltip-trigger">
-                    <h2>Municipal Open Data Impact Barometer</h2>
-                    <div class="e-project-blurb">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ducimus minus suscipit, obcaecati id soluta sed, dolore eligendi necessitatibus porro voluptas magnam harum voluptates nemo cupiditate. Natus nisi facere qui!</p>
-                        <p class="e-project-tooltip">There is possibly no more important public issue today than how to enable our governing organizations to better recognize and implement innovative and effective solutions to our problems. Administration that is supposed to solve critical problems on its own is inadequate for a complex, networked world. Governments need to learn to make use of the exper.</p>
-                        <a href="#" class="b-button">Soon...</a>
-                    </div>
-                </div>
-                <div class="e-project-item js-tooltip-trigger">
-                    <h2>Open 990</h2>
-                    <div class="e-project-blurb">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ducimus minus suscipit, obcaecati id soluta sed, dolore eligendi necessitatibus porro voluptas magnam harum voluptates nemo cupiditate. Natus nisi facere qui!</p>
-                        <p class="e-project-tooltip">There is possibly no more important public issue today than how to enable our governing organizations to better recognize and implement innovative and effective solutions to our problems. Administration that is supposed to solve critical problems on its own is inadequate for a complex, networked world. Governments need to learn to make use of the exper.</p>
-                    </div>
-                </div>
+                        {{ item(project.title, project.problem_statement, project.is_active, project.tooltip) }}
+                    
+                    {% endif %}
+                {% endfor %}
             </div>
             <h3 class="e-project-question">How to enable data sharing from <strong>public sector</strong> to <strong>private sector</strong></h3>
             <div class="e-project-group">
-                <div class="e-project-item js-tooltip-trigger">
-                    <h2>Docker for Data</h2>
-                    <div class="e-project-blurb">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ducimus minus suscipit, obcaecati id soluta sed, dolore eligendi necessitatibus porro voluptas magnam harum voluptates nemo cupiditate. Natus nisi facere qui!</p>
-                        <p class="e-project-tooltip">There is possibly no more important public issue today than how to enable our governing organizations to better recognize and implement innovative and effective solutions to our problems. Administration that is supposed to solve critical problems on its own is inadequate for a complex, networked world. Governments need to learn to make use of the exper.</p>
-                    </div>
-                </div>
-                <div class="e-project-item js-tooltip-trigger">
-                    <h2>Open Data 500</h2>
-                    <div class="e-project-blurb">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ducimus minus suscipit, obcaecati id soluta sed, dolore eligendi necessitatibus porro voluptas magnam harum voluptates nemo cupiditate. Natus nisi facere qui!</p>
-                        <p class="e-project-tooltip">There is possibly no more important public issue today than how to enable our governing organizations to better recognize and implement innovative and effective solutions to our problems. Administration that is supposed to solve critical problems on its own is inadequate for a complex, networked world. Governments need to learn to make use of the exper.</p>
-                    </div>
-                </div>
+                {% for project in projects %}
+                    {% if project.related_question == 'How to enable data sharing from the <strong>public sector</strong> and <strong>private sectors</strong>' %}
+                    
+                        {{ item(project.title, project.problem_statement, project.is_active, project.tooltip) }}
+                    
+                    {% endif %}
+                {% endfor %}
             </div>
         </div>
     </section>
@@ -94,58 +59,23 @@
         <div class="e-project-list">
             <h3 class="e-project-question">How and when to use <strong>the crowd</strong> to get better ideas faster into governing</h3>
             <div class="e-project-group">
-                <div class="e-project-item js-tooltip-trigger">
-                    <h2>Crowd Sorcerer</h2>
-                    <div class="e-project-blurb">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ducimus minus suscipit, obcaecati id soluta sed, dolore eligendi necessitatibus porro voluptas magnam harum voluptates nemo cupiditate. Natus nisi facere qui!</p>
-                        <p class="e-project-tooltip">There is possibly no more important public issue today than how to enable our governing organizations to better recognize and implement innovative and effective solutions to our problems. Administration that is supposed to solve critical problems on its own is inadequate for a complex, networked world. Governments need to learn to make use of the exper.</p>
-                    </div>
-                </div>
-                <div class="e-project-item js-tooltip-trigger">
-                    <h2>Open Grants</h2>
-                    <div class="e-project-blurb">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ducimus minus suscipit, obcaecati id soluta sed, dolore eligendi necessitatibus porro voluptas magnam harum voluptates nemo cupiditate. Natus nisi facere qui!</p>
-                        <p class="e-project-tooltip">There is possibly no more important public issue today than how to enable our governing organizations to better recognize and implement innovative and effective solutions to our problems. Administration that is supposed to solve critical problems on its own is inadequate for a complex, networked world. Governments need to learn to make use of the exper.</p>
-                    </div>
-                </div>
-                <div class="e-project-item js-tooltip-trigger">
-                    <h2>Quito</h2>
-                    <div class="e-project-blurb">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ducimus minus suscipit, obcaecati id soluta sed, dolore eligendi necessitatibus porro voluptas magnam harum voluptates nemo cupiditate. Natus nisi facere qui!</p>
-                        <p class="e-project-tooltip">There is possibly no more important public issue today than how to enable our governing organizations to better recognize and implement innovative and effective solutions to our problems. Administration that is supposed to solve critical problems on its own is inadequate for a complex, networked world. Governments need to learn to make use of the exper.</p>
-                    </div>
-                </div>
+                {% for project in projects %}
+                    {% if project.related_question == 'How and when to use <strong>the crowd</strong> to get better ideas faster into governing' %}
+                        
+                        {{ item(project.title, project.problem_statement, project.is_active, project.tooltip) }}
+
+                    {% endif %}
+                {% endfor %}
             </div>
             <h3 class="e-project-question">How and when to use <strong>the crowd</strong> to get better ideas faster into governing</h3>
             <div class="e-project-group">
-                <div class="e-project-item js-tooltip-trigger">
-                    <h2>Open NYU</h2>
-                    <div class="e-project-blurb">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ducimus minus suscipit, obcaecati id soluta sed, dolore eligendi necessitatibus porro voluptas magnam harum voluptates nemo cupiditate. Natus nisi facere qui!</p>
-                        <p class="e-project-tooltip">There is possibly no more important public issue today than how to enable our governing organizations to better recognize and implement innovative and effective solutions to our problems. Administration that is supposed to solve critical problems on its own is inadequate for a complex, networked world. Governments need to learn to make use of the exper.</p>
-                    </div>
-                </div>
-                <div class="e-project-item js-tooltip-trigger">
-                    <h2>EduConnector</h2>
-                    <div class="e-project-blurb">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ducimus minus suscipit, obcaecati id soluta sed, dolore eligendi necessitatibus porro voluptas magnam harum voluptates nemo cupiditate. Natus nisi facere qui!</p>
-                        <p class="e-project-tooltip">There is possibly no more important public issue today than how to enable our governing organizations to better recognize and implement innovative and effective solutions to our problems. Administration that is supposed to solve critical problems on its own is inadequate for a complex, networked world. Governments need to learn to make use of the exper.</p>
-                    </div>
-                </div>
-                <div class="e-project-item js-tooltip-trigger">
-                    <h2>Network of Innovators</h2>
-                    <div class="e-project-blurb">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ducimus minus suscipit, obcaecati id soluta sed, dolore eligendi necessitatibus porro voluptas magnam harum voluptates nemo cupiditate. Natus nisi facere qui!</p>
-                        <p class="e-project-tooltip">There is possibly no more important public issue today than how to enable our governing organizations to better recognize and implement innovative and effective solutions to our problems. Administration that is supposed to solve critical problems on its own is inadequate for a complex, networked world. Governments need to learn to make use of the exper.</p>
-                    </div>
-                </div>
-                <div class="e-project-item js-tooltip-trigger">
-                    <h2>Peer to Patent</h2>
-                    <div class="e-project-blurb">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ducimus minus suscipit, obcaecati id soluta sed, dolore eligendi necessitatibus porro voluptas magnam harum voluptates nemo cupiditate. Natus nisi facere qui!</p>
-                        <p class="e-project-tooltip">There is possibly no more important public issue today than how to enable our governing organizations to better recognize and implement innovative and effective solutions to our problems. Administration that is supposed to solve critical problems on its own is inadequate for a complex, networked world. Governments need to learn to make use of the exper.</p>
-                    </div>
-                </div>
+                {% for project in projects %}
+                    {% if project.related_question == 'How to match the <strong>demand to the supply of expertise</strong>' %}
+                    
+                    {{ item(project.title, project.problem_statement, project.is_active, project.tooltip) }}
+
+                    {% endif %}
+                {% endfor %}
             </div>
         </div>
     </section>
@@ -157,47 +87,33 @@
         <div class="e-project-list">
             <h3 class="e-project-question">How to do <strong>agile research</strong> about innovation in governance</h3>
             <div class="e-project-group">
-                <div class="e-project-item js-tooltip-trigger">
-                    <h2>Agile Empirical: FDA</h2>
-                    <div class="e-project-blurb">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ducimus minus suscipit, obcaecati id soluta sed, dolore eligendi necessitatibus porro voluptas magnam harum voluptates nemo cupiditate. Natus nisi facere qui!</p>
-                        <p class="e-project-tooltip">There is possibly no more important public issue today than how to enable our governing organizations to better recognize and implement innovative and effective solutions to our problems. Administration that is supposed to solve critical problems on its own is inadequate for a complex, networked world. Governments need to learn to make use of the exper.</p>
-                    </div>
-                </div>
-                <div class="e-project-item js-tooltip-trigger">
-                    <h2>MacArthur Research Network</h2>
-                    <div class="e-project-blurb">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ducimus minus suscipit, obcaecati id soluta sed, dolore eligendi necessitatibus porro voluptas magnam harum voluptates nemo cupiditate. Natus nisi facere qui!</p>
-                        <p class="e-project-tooltip">There is possibly no more important public issue today than how to enable our governing organizations to better recognize and implement innovative and effective solutions to our problems. Administration that is supposed to solve critical problems on its own is inadequate for a complex, networked world. Governments need to learn to make use of the exper.</p>
-                    </div>
-                </div>
+                {% for project in projects %}
+                    {% if project.related_question == 'How to do <strong>agile research</strong> about innovation in governance' %}
+                    
+                    {{ item(project.title, project.problem_statement, project.is_active, project.tooltip) }}
+
+                    {% endif %}
+                {% endfor %}
             </div>
             <h3 class="e-project-question">How to take innovative public interest projects <strong>from idea to implementation</strong></h3>
             <div class="e-project-group">
-                <div class="e-project-item js-tooltip-trigger">
-                    <h2>Academy</h2>
-                    <div class="e-project-blurb">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ducimus minus suscipit, obcaecati id soluta sed, dolore eligendi necessitatibus porro voluptas magnam harum voluptates nemo cupiditate. Natus nisi facere qui!</p>
-                        <p class="e-project-tooltip">There is possibly no more important public issue today than how to enable our governing organizations to better recognize and implement innovative and effective solutions to our problems. Administration that is supposed to solve critical problems on its own is inadequate for a complex, networked world. Governments need to learn to make use of the exper.</p>
-                    </div>
-                </div>
-                <div class="e-project-item js-tooltip-trigger">
-                    <h2>Canvas</h2>
-                    <div class="e-project-blurb">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ducimus minus suscipit, obcaecati id soluta sed, dolore eligendi necessitatibus porro voluptas magnam harum voluptates nemo cupiditate. Natus nisi facere qui!</p>
-                        <p class="e-project-tooltip">There is possibly no more important public issue today than how to enable our governing organizations to better recognize and implement innovative and effective solutions to our problems. Administration that is supposed to solve critical problems on its own is inadequate for a complex, networked world. Governments need to learn to make use of the exper.</p>
-                    </div>
-                </div>
+                {% for project in projects %}
+                    {% if project.related_question == 'How to take innovative public interest projects <strong>from idea to implementation</strong>' %}
+                    
+                    {{ item(project.title, project.problem_statement, project.is_active, project.tooltip) }}
+
+                    {% endif %}
+                {% endfor %}
             </div>
-            <h3 class="e-project-question">How to do <strong>agile research</strong> about innovation in governance</h3>
+            <h3 class="e-project-question">How to develop an <strong>open data map</strong> of responses and actors by <strong>leveraging collective intelligence</strong></h3>
             <div class="e-project-group">
-                <div class="e-project-item js-tooltip-trigger">
-                    <h2>NetMundial Map</h2>
-                    <div class="e-project-blurb">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ducimus minus suscipit, obcaecati id soluta sed, dolore eligendi necessitatibus porro voluptas magnam harum voluptates nemo cupiditate. Natus nisi facere qui!</p>
-                        <p class="e-project-tooltip">There is possibly no more important public issue today than how to enable our governing organizations to better recognize and implement innovative and effective solutions to our problems. Administration that is supposed to solve critical problems on its own is inadequate for a complex, networked world. Governments need to learn to make use of the exper.</p>
-                    </div>
-                </div>
+                {% for project in projects %}
+                    {% if project.related_question == 'How to develop an <strong>open data map</strong> of responses and actors by <strong>leveraging collective intelligence</strong>' %}
+                    
+                    {{ item(project.title, project.problem_statement, project.is_active, project.tooltip) }}
+
+                    {% endif %}
+                {% endfor %}
             </div>
         </div>
     </section>

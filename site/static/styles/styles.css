@@ -669,6 +669,8 @@ input[type="text"] {
     max-width: 1025px;
     margin-left: auto;
     margin-right: auto; }
+  .sandbox .question {
+    background-color: #333; }
   .sandbox p {
     color: white; }
 
@@ -1161,11 +1163,11 @@ input[type="text"] {
   background-color: #ee5b43; }
 .b-projects-list-wrapper.m-design-thinking .e-project-type {
   background-color: #008ab3; }
-.b-projects-list-wrapper.m-data .e-project-item h2 {
+.b-projects-list-wrapper.m-data .e-project-item h2 a {
   color: #008895; }
-.b-projects-list-wrapper.m-collective-intelligence .e-project-item h2 {
+.b-projects-list-wrapper.m-collective-intelligence .e-project-item h2 a {
   color: #ee5b43; }
-.b-projects-list-wrapper.m-design-thinking .e-project-item h2 {
+.b-projects-list-wrapper.m-design-thinking .e-project-item h2 a {
   color: #008ab3; }
 @media (min-width: 1025px) {
   .b-projects-list-wrapper .e-project-list {
@@ -1196,10 +1198,20 @@ input[type="text"] {
 .b-projects-list-wrapper .e-project-item p {
   font-size: 14px;
   line-height: 1.4; }
+.b-projects-list-wrapper .e-project-item .b-button {
+  margin-left: -20px; }
+.b-projects-list-wrapper .e-project-item.m-active-False {
+  pointer-events: none;
+  background-color: transparent !important; }
+  .b-projects-list-wrapper .e-project-item.m-active-False h2 {
+    opacity: .3; }
 .b-projects-list-wrapper .e-project-item.m-active {
   background-color: white; }
   .b-projects-list-wrapper .e-project-item.m-active .e-project-tooltip {
     transition: all .4s ease; }
+    .b-projects-list-wrapper .e-project-item.m-active .e-project-tooltip a {
+      color: white;
+      text-decoration: underline; }
     @media (max-width: 800px) {
       .b-projects-list-wrapper .e-project-item.m-active .e-project-tooltip {
         display: block;
@@ -1212,9 +1224,10 @@ input[type="text"] {
     cursor: pointer;
     display: flex;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    flex-wrap: wrap; } }
+    flex-wrap: wrap;
+    padding: 20px 0; } }
 .b-project-view.m-list .b-projects-list-wrapper .e-project-item h2 {
-  margin: 30px 40px 0;
+  margin: 0 40px 0;
   flex: 1; }
 .b-project-view.m-list .b-projects-list-wrapper .e-project-item .e-project-blurb {
   flex: 3;
@@ -1224,6 +1237,8 @@ input[type="text"] {
   color: rgba(0, 0, 0, 0.6); }
 .b-project-view.m-list .b-projects-list-wrapper .e-project-item .e-project-blurb {
   margin: 0 80px 0 0; }
+.b-project-view.m-list .b-projects-list-wrapper .e-project-item .e-project-blurb p {
+  margin: 0; }
 .b-project-view.m-list .b-projects-list-wrapper .e-project-item .e-project-tooltip {
   max-height: 0;
   overflow: hidden;
@@ -1236,7 +1251,7 @@ input[type="text"] {
       .b-project-view.m-list .b-projects-list-wrapper .e-project-item.m-active .e-project-tooltip {
         display: block;
         height: auto;
-        max-height: 300px; } }
+        max-height: 800px; } }
 
 @media (min-width: 1025px) {
   .b-project-view.m-grid .b-projects-list-wrapper .e-project-group {
@@ -1254,7 +1269,8 @@ input[type="text"] {
     margin: 15px;
     vertical-align: top;
     position: relative;
-    cursor: pointer; } }
+    cursor: pointer;
+    border: 1px dotted rgba(0, 0, 0, 0.2); } }
 .b-project-view.m-grid .b-projects-list-wrapper .e-project-item h2 {
   font-weight: 800;
   text-transform: uppercase;
@@ -1283,7 +1299,7 @@ input[type="text"] {
       position: absolute;
       top: calc(100%);
       width: calc(200% + 30px);
-      height: 100%;
+      max-height: 800px;
       z-index: 100;
       background-color: #333;
       box-shadow: 3px 2px 20px rgba(0, 0, 0, 0.2);

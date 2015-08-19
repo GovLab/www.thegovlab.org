@@ -3,9 +3,13 @@
 {% block content %}
 <section class="b-projects-landing sandbox">
     <div class="wrap">
-{% for project in projects %}
-<p>{{project.title}}</p>
-
+{% for item in projects %}
+    <p class="question">{{item.related_question }}</p>
+    {% for project in projects %}
+        {% if project.related_question == item.related_question %}
+    <p>{{project.title}}</p>
+        {% endif %}
+    {% endfor %}
 
 
 

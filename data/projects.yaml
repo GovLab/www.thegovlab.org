@@ -112,7 +112,7 @@
   short_description: > 
     <p>Docker for Data is a cloud-based software toolkit to speed up the extraction and loading of large open datasets. Using Docker for Data, a user can load data like New York City’s deeds and mortgages directly into a powerful SQL database in just minutes instead of hours. Docker for Data helps to answer the question: how do we make open data more useful?</p>
   tooltip: >
-    <p>Users no longer have to worry about schemas, transformations, load processes, or waiting for slow data portals. Data from many formats is standardized and ready to go, fast. Installation is a snap: users don’t even need a SQL database installed beforehand. Docker for Data can be installed with <a href="https://github.com/talos/docker4data#try-it-out">one line of code</a>.</p>
+    Users no longer have to worry about schemas, transformations, load processes, or waiting for slow data portals. Data from many formats is standardized and ready to go, fast. Installation is a snap: users don’t even need a SQL database installed beforehand. Docker for Data can be installed with <a href="https://github.com/talos/docker4data#try-it-out">one line of code</a>.
   long_description: >
     <p>Docker for Data is a cloud-based software toolkit to speed up the extraction and loading of large open datasets. Using Docker for Data, a user can load data like New York City’s deeds and mortgages directly into a powerful SQL database in just minutes instead of hours. Docker for Data helps to answer the question: how do we make open data more useful?</p>
     <p>Users no longer have to worry about schemas, transformations, load processes, or waiting for slow data portals. Data from many formats is standardized and ready to go, fast. Installation is a snap: users don’t even need a SQL database installed beforehand. Docker for Data can be installed with <a href="https://github.com/talos/docker4data#try-it-out">one line of code</a>.</p>
@@ -211,7 +211,7 @@
     product_category:
         - #tag
   status: 
-  problem_statement: How to catalyze more governance innovators and policy entrepreneurs?#question
+  problem_statement: How to catalyze more governance innovators and policy entrepreneurs? #question
   short_description: > 
     <p></p>
   tooltip: >
@@ -234,7 +234,7 @@
   is_featured: #integer
   is_active: True
   tagline: Sharing private data for public good #oneliner
-  related_question: How to enable data sharing from the public and private sectors? #question
+  related_question: How to enable data sharing from the <strong>public sector</strong> and <strong>private sectors</strong> #question
   project_website: https://data-collaboratives.topi.com/ #url
   location: 
     - United States
@@ -342,7 +342,7 @@
   is_featured: #integer
   is_active: True
   tagline: 'Making open government data more relevant, accessible, and actionable'#oneliner
-  related_question: How to enable data sharing from the <strong>public sector</strong> and <strong>private sectors</strong>? #question
+  related_question: How to enable data sharing from the <strong>public sector</strong> and <strong>private sectors</strong> #question
   project_website: http://www.opendata500.com/ #url
   location: 
   partners: 
