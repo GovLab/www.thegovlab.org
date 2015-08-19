@@ -22,6 +22,8 @@
     overflow: hidden;
     text-align: center;
 
+    .slick-slide { outline: none; }
+
     span {
         display: inline-block;
 
@@ -38,5 +40,7 @@
         &:not(.slick-current) .e-project-image {
             transform: scale(.7);
         }
+
+        
     }
 }

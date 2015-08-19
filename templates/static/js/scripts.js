@@ -120,9 +120,6 @@ var render = function(posts) {
     $('.js-article-' + (index+1)+'-content').html(content)
     $('.js-article-' + (index+1)+'-link').attr('href', element.link)
 
-    console.log();
-    console.log(element.content);
-    console.log(element.link);
   });
 };
 

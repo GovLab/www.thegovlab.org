@@ -21,6 +21,12 @@ input[type="text"] {
     &:focus { background-color: $white-30; }
 }
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
 
 .b-landing-questions,
 .b-featured-content > *,
