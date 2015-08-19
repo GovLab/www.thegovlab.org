@@ -31,7 +31,7 @@
                 </div>
                 <div class="e-location">
                     <h4>Location</h4>
-                    
+
                     {% if project.location %}
                         {% for place in project.location %}
                         <div class="e-place">{{place}}</div>
@@ -67,12 +67,10 @@
         </p>
     </div>
     {% if project.images %}
-    <div class="b-project-slider">
-        <div class="e-project-slider-wrapper">
+    <div class="b-project-slider slick">
             {% for image in project.images %}
-                <img class="e-project-image" src="./static/img/projects/{{image}}" alt="">
+                <span><img class="e-project-image" src="./static/img/projects/{{image}}" alt=""></span>
             {% endfor %}
-        </div>
     </div>
     {% endif %}
 </section>
@@ -96,7 +94,7 @@
 <section class="b-team">
     <h2>Team</h2>
     <div class="e-wrap">
-    {% for person in project.team %} 
+    {% for person in project.team %}
     <div class="e-person">
         <div class="e-person-pic" style="background-image: url(./static/img/team/{{person.name | slug}}.jpg"></div>
         <hgroup class="e-team-info">
@@ -122,7 +120,7 @@
                 <a class="b-button m-naked" href="">Read More<i class="material-icons">arrow_forward</i></a>
             </div>
         </article>
-            
+
         <article class="e-half e-article">
             <h3 class="e-article-type">Article</h3>
             <h2 class="e-title">Why a Network of Innovators</h2>
