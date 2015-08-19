@@ -21,7 +21,15 @@
     width: 100%;
     overflow: hidden;
     text-align: center;
-
+    
+    @include breakpoint($desktop) { 
+        margin-bottom: -95px; 
+        margin-top: 40px;
+    }
+    
+    .slick-list { 
+        @include breakpoint($desktop) { padding-bottom: 15px !important; }
+    }
     .slick-slide { outline: none; }
 
     span {
@@ -32,7 +40,6 @@
             box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 
             @include breakpoint($mobile-only) { max-height: 240px; }
-
             @include breakpoint($desktop) { max-height: 500px; }
 
         }
