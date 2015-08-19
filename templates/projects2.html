@@ -16,57 +16,28 @@
             <h2>Data</h2>
         </div>
         <div class="e-project-list">
-            <h3 class="e-project-question">How to open up <strong>government data</strong> for solving problems</h3>
-            <div class="e-project-group">
-                <div class="e-project-item js-tooltip-trigger">
-                    <h2>Arnold</h2>
-                    <div class="e-project-blurb">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ducimus minus suscipit, obcaecati id soluta sed, dolore eligendi necessitatibus porro voluptas magnam harum voluptates nemo cupiditate. Natus nisi facere qui!</p>
-                        <p class="e-project-tooltip">There is possibly no more important public issue today than how to enable our governing organizations to better recognize and implement innovative and effective solutions to our problems. Administration that is supposed to solve critical problems on its own is inadequate for a complex, networked world. Governments need to learn to make use of the exper.</p>
-                        <a href="#" class="b-button">Soon...</a>
-                    </div>
-
+            {% for item in projects %}
+                <h3 class="e-project-question">{{item.related_question}}</h3>
+                <div class="e-project-group">
+                    {% for project in projects %}
+                        {% if project.related_question == item.related_question %}
+                            <div class="e-project-item m-active-{{project.is_active}} js-tooltip-trigger">
+                                <h2>{{project.title}}</h2>
+                                <div class="e-project-blurb">
+                                    {% if project.is_active %}
+                                        <a href="./{{project.title | slug}}.html" target="_blank" class="b-button">More</a>                        
+                                    {% else %}
+                                        <a href="#" class="b-button">Soon...</a>
+                                    {% endif %}
+                                    <p>{{project.probelm_statement}}</p>
+                                </div>
+                            </div>
+                        {% endif %} 
+                    {% endfor %}
                 </div>
-                <div class="e-project-item js-tooltip-trigger">
-                    <h2>Orgpedia</h2>
-                    <div class="e-project-blurb">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ducimus minus suscipit, obcaecati id soluta sed, dolore eligendi necessitatibus porro voluptas magnam harum voluptates nemo cupiditate. Natus nisi facere qui!</p>
-                        <p class="e-project-tooltip">There is possibly no more important public issue today than how to enable our governing organizations to better recognize and implement innovative and effective solutions to our problems. Administration that is supposed to solve critical problems on its own is inadequate for a complex, networked world. Governments need to learn to make use of the exper.</p>
-                        <a href="#" class="b-button">Soon...</a>
-                    </div>
-                </div>
-                <div class="e-project-item js-tooltip-trigger">
-                    <h2>Legisletters</h2>
-                    <div class="e-project-blurb">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ducimus minus suscipit, obcaecati id soluta sed, dolore eligendi necessitatibus porro voluptas magnam harum voluptates nemo cupiditate. Natus nisi facere qui!</p>
-                        <p class="e-project-tooltip">There is possibly no more important public issue today than how to enable our governing organizations to better recognize and implement innovative and effective solutions to our problems. Administration that is supposed to solve critical problems on its own is inadequate for a complex, networked world. Governments need to learn to make use of the exper.</p>
-                        <a href="#" class="b-button">Soon...</a>
-                    </div>
-                </div>
-                <div class="e-project-item js-tooltip-trigger">
-                    <h2>NHS Open Data</h2>
-                    <div class="e-project-blurb">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ducimus minus suscipit, obcaecati id soluta sed, dolore eligendi necessitatibus porro voluptas magnam harum voluptates nemo cupiditate. Natus nisi facere qui!</p>
-                        <p class="e-project-tooltip">There is possibly no more important public issue today than how to enable our governing organizations to better recognize and implement innovative and effective solutions to our problems. Administration that is supposed to solve critical problems on its own is inadequate for a complex, networked world. Governments need to learn to make use of the exper.</p>
-                        <a href="#" class="b-button">Soon...</a>
-                    </div>
-                </div>
-                <div class="e-project-item js-tooltip-trigger">
-                    <h2>Municipal Open Data Impact Barometer</h2>
-                    <div class="e-project-blurb">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ducimus minus suscipit, obcaecati id soluta sed, dolore eligendi necessitatibus porro voluptas magnam harum voluptates nemo cupiditate. Natus nisi facere qui!</p>
-                        <p class="e-project-tooltip">There is possibly no more important public issue today than how to enable our governing organizations to better recognize and implement innovative and effective solutions to our problems. Administration that is supposed to solve critical problems on its own is inadequate for a complex, networked world. Governments need to learn to make use of the exper.</p>
-                        <a href="#" class="b-button">Soon...</a>
-                    </div>
-                </div>
-                <div class="e-project-item js-tooltip-trigger">
-                    <h2>Open 990</h2>
-                    <div class="e-project-blurb">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ducimus minus suscipit, obcaecati id soluta sed, dolore eligendi necessitatibus porro voluptas magnam harum voluptates nemo cupiditate. Natus nisi facere qui!</p>
-                        <p class="e-project-tooltip">There is possibly no more important public issue today than how to enable our governing organizations to better recognize and implement innovative and effective solutions to our problems. Administration that is supposed to solve critical problems on its own is inadequate for a complex, networked world. Governments need to learn to make use of the exper.</p>
-                    </div>
-                </div>
-            </div>
+            {% endfor %}
+          
+            
             <h3 class="e-project-question">How to enable data sharing from <strong>public sector</strong> to <strong>private sector</strong></h3>
             <div class="e-project-group">
                 <div class="e-project-item js-tooltip-trigger">

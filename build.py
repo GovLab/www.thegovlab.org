@@ -51,11 +51,11 @@ if path.exists(outputpath):
 
 makedirs(outputpath)
 
-# CREATES A MULTIPLE PAGE GENERATOR, BASED IN THE 'single.html' TEMPLATE
-for index, data in enumerate(PROJECTS):
-    filename = slugify(data['title'].lower())
+# CREATES A MULTIPLE PAGE GENERATOR, BASED IN THE 'project.html' TEMPLATE
+for index, project in enumerate(PROJECTS):
+    filename = slugify(project['title'].lower())
     new_file = open('%s/project-%s.html' % (searchpath, filename), 'w+')
-    new_page = template.replace('data[0]', 'data[%d]' % index)
+    new_page = template.replace('projects[0]', 'projects[%d]' % index)
 
     new_file.write(new_page)
     new_file.close()

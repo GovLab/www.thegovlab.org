@@ -1,3 +1,22 @@
+.sandbox {
+    min-height: 800px;
+    padding-top: 100px;
+
+    .wrap {
+        @include wrap;
+    }
+     p  {
+        color: white;
+     }  
+}
+
+
+
+
+
+
+
+
 /* Header */
 // .large-header {
 //     position: relative;

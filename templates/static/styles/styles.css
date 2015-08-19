@@ -662,6 +662,16 @@ input[type="text"] {
       .b-copyright .e-wrap a:hover {
         color: white; }
 
+.sandbox {
+  min-height: 800px;
+  padding-top: 100px; }
+  .sandbox .wrap {
+    max-width: 1025px;
+    margin-left: auto;
+    margin-right: auto; }
+  .sandbox p {
+    color: white; }
+
 /* Header */
 .b-landing-questions {
   text-align: center;
@@ -669,7 +679,6 @@ input[type="text"] {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom left;
-  padding: 80px 20px;
   height: 500px;
   padding: 0; }
   .b-landing-questions canvas {

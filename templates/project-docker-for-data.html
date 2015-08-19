@@ -1,6 +1,7 @@
 {% extends "base.html" %}
-{% set project = projects[0] %}
+{% set project = projects[1] %}
 {% block content %}
+{% if project.tagline %}
 <section class="b-single-landing">
     <header class="b-top-section">
         <h3 class="e-question">{{project.problem_statement}}</h3>
@@ -30,9 +31,12 @@
                 </div>
                 <div class="e-location">
                     <h4>Location</h4>
-                    {% for place in project.location %}
-                    <div class="e-place">{{place}}</div>
-                    {% endfor %}
+                    
+                    {% if project.location %}
+                        {% for place in project.location %}
+                        <div class="e-place">{{place}}</div>
+                        {% endfor %}
+                    {% endif %}
                 </div>
             </div>
         </div>
@@ -133,6 +137,6 @@
         </article>
     </div>
 </section>
-
+{% endif %}
 
 {% endblock %}
