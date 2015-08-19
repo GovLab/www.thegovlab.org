@@ -155,6 +155,7 @@
 
     .e-content {
         color: $white-90;
+        @include breakpoint($desktop) { margin-right: 40px; }
     }
 
     .e-action {
@@ -219,6 +220,11 @@
 .b-featured-content.m-article {
     background-color: $teal;
     padding-bottom: 0;
+
+    .e-content {
+        a { color: $white-80; }
+        a:hover { text-decoration: underline; }
+    }
 
     footer {
         background-color: $teal-20k;

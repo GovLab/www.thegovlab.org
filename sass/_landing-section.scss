@@ -4,9 +4,13 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom left;
-    // padding: 80px 20px;
-    height: 500px;
-    padding: 0;
+    padding: 80px 20px;
+    height: 680px;
+
+    @include breakpoint($desktop) {
+        height: 500px;    
+        padding: 0;
+    }
 
 
     canvas {
@@ -16,10 +20,6 @@
         left: 0;
         right: 0;
         opacity: 0.3;
-    }
-
-    @include breakpoint($desktop) {
-        
     }
 
     .e-question {

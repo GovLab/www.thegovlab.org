@@ -307,7 +307,7 @@
         - open data 
         - platform
         - mapping
-  status: Prototype
+  status: prototype
   problem_statement: 'How to map and visualize a dataset of policy alternatives, leveraging the crowd, to help policymakers make more informed choices?'#question
   short_description: > 
     <p></p>
