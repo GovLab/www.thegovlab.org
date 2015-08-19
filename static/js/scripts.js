@@ -70,6 +70,54 @@ $(document).ready(function($) {
     });
 });
 
+function stripHTML(dirtyString) {
+    var container = document.createElement('div');
+    container.innerHTML = dirtyString;
+    return container.textContent || container.innerText;
+}
+
+var render = function(posts) {
+  posts.feed.entries.forEach(function (element, index) {
+    var title;
+
+    if (element.title.length > 100) {
+        title = element.title.substr(0, 100) + '...';
+    };
+
+    var content = stripHTML(element.content).substr(0, 500) + '...';
+
+    $('.js-article-' + (index+1)+'-title').text(title)
+    $('.js-article-' + (index+1)+'-author').text(element.author)
+    $('.js-article-' + (index+1)+'-content').html(content)
+    $('.js-article-' + (index+1)+'-link').attr('href', element.link)
+
+    console.log();
+    console.log(element.content);
+    console.log(element.link);
+  });
+};
+
+window.Feed({
+  url: 'http://thegovlab.org/featured-website/feed/',
+  number: 3,
+  callback: render
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// functions for the effect on the homepage main banner
 
 (function() {
 
