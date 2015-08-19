@@ -68,6 +68,35 @@ $(document).ready(function($) {
     $('.m-next').click(function() {
         $(this).closest('.swipe').data('Swipe').next();
     });
+
+    $('.b-project-slider').slick({
+        arrows: false,
+        infinite: false,
+        draggable: false,
+        centerMode: true,
+        slidesToShow: 5,
+        variableWidth: true,
+        focusOnSelect: true,
+        // swipeToSlide: true,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    draggable: true,
+                    slidesToShow: 3,
+                    centerPadding: '40px',
+                }
+            },
+            {
+                breakpoint: 800,
+                settings: {
+                    draggable: true,
+                    slidesToShow: 1,
+                    centerPadding: '40px',
+                }
+            }
+        ]
+    });
 });
 
 function stripHTML(dirtyString) {
@@ -302,7 +331,7 @@ window.Feed({
     function getDistance(p1, p2) {
         return Math.pow(p1.x - p2.x, 2) + Math.pow(p1.y - p2.y, 2);
     }
-    
+
 })();
 
 
