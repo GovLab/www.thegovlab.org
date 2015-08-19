@@ -971,6 +971,13 @@ button:focus {
   width: 100%;
   overflow: hidden;
   text-align: center; }
+  @media (min-width: 1025px) {
+    .b-project-slider {
+      margin-bottom: -95px;
+      margin-top: 40px; } }
+  @media (min-width: 1025px) {
+    .b-project-slider .slick-list {
+      padding-bottom: 15px !important; } }
   .b-project-slider .slick-slide {
     outline: none; }
   .b-project-slider span {
