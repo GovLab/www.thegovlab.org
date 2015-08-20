@@ -4,23 +4,6 @@
 
     .e-banner-container {
         flex: 0 0 1;
-
-        &.swipe {
-            overflow: hidden;
-            visibility: hidden;
-            position: relative;
-
-            .swipe-wrap {
-                overflow: hidden;
-                position: relative;
-
-                section {
-                    float:left;
-                    width:100%;
-                    position: relative;
-                }
-            }
-        }
    }
 }
 
@@ -193,7 +176,7 @@
 
     header { background-color: $gray-10; }
     .e-banner-control { top: 48%; }
-    .e-content { 
+    .e-content {
         @include breakpoint($desktop) { height: 370px; }
     }
 }
@@ -216,7 +199,7 @@
         }
     }
 
-    .e-content { 
+    .e-content {
         @include breakpoint($desktop) { height: 230px; }
     }
 }
@@ -266,7 +249,7 @@
             > form {
                 display: block;
 
-                @include breakpoint($desktop) { 
+                @include breakpoint($desktop) {
                     flex: 2;
                     display: flex;
                 }
@@ -274,7 +257,7 @@
                 input {
                     @include breakpoint($mobile-only) {
                         width: 100%;
-                        margin-top: 10px; 
+                        margin-top: 10px;
                     }
                 }
 
@@ -302,5 +285,5 @@
                 }
             }
         }
-    }   
+    }
 }

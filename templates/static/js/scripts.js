@@ -59,14 +59,28 @@ $(document).ready(function($) {
         $('.js-view-list-trigger').removeClass('m-active');
     });
 
-    $('.swipe').Swipe().data('Swipe');
+    $('.swipe').height(Math.max($('.swipe section').outerHeight()));
+
+    $('.swipe').slick({
+        arrows: false,
+        draggable: false,
+        swipeToSlide: true,
+        responsive: [
+            {
+                breakpoint: 800,
+                settings: {
+                    draggable: true,
+                }
+            }
+        ]
+    });
 
     $('.m-prev').click(function() {
-        $(this).closest('.swipe').data('Swipe').prev();
+        $(this).closest('.swipe').slick('slickPrev');
     });
 
     $('.m-next').click(function() {
-        $(this).closest('.swipe').data('Swipe').next();
+        $(this).closest('.swipe').slick('slickNext');
     });
 
     $('.b-project-slider').slick({
@@ -77,22 +91,13 @@ $(document).ready(function($) {
         slidesToShow: 5,
         variableWidth: true,
         focusOnSelect: true,
-        // swipeToSlide: true,
+        swipeToSlide: true,
         responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    draggable: true,
-                    slidesToShow: 3,
-                    centerPadding: '40px',
-                }
-            },
             {
                 breakpoint: 800,
                 settings: {
                     draggable: true,
-                    slidesToShow: 1,
-                    centerPadding: '40px',
+                    slidesToShow: 3,
                 }
             }
         ]
@@ -111,14 +116,14 @@ var render = function(posts) {
 
     if (element.title.length > 100) {
         title = element.title.substr(0, 100) + '...';
-    };
+    }
 
     var content = stripHTML(element.content).substr(0, 500) + '...';
 
-    $('.js-article-' + (index+1)+'-title').text(title)
-    $('.js-article-' + (index+1)+'-author').text(element.author)
-    $('.js-article-' + (index+1)+'-content').html(content)
-    $('.js-article-' + (index+1)+'-link').attr('href', element.link)
+    $('.js-article-' + (index+1) + '-title').text(title);
+    $('.js-article-' + (index+1) + '-author').text(element.author);
+    $('.js-article-' + (index+1) + '-content').html(content);
+    $('.js-article-' + (index+1) + '-link').attr('href', element.link);
 
   });
 };
@@ -146,21 +151,22 @@ window.Feed({
 // functions for the effect on the homepage main banner
 
 (function() {
-
     var width, height, largeHeader, canvas, ctx, points, target, animateHeader = true;
 
     // Main
-    initHeader();
-    initAnimation();
-    addListeners();
+    if (document.getElementById('homepage-banner')) {
+        initHeader();
+        initAnimation();
+        addListeners();
+    }
 
     function initHeader() {
         width = window.innerWidth;
-        height = $('#homepage-banner').height();
-        target = {x: width/2, y: height/2};
+        height = $('#homepage-banner').outerHeight(true);
+        target = {x: width / 2, y: height / 2};
 
         largeHeader = document.getElementById('homepage-banner');
-        largeHeader.style.height = height+'px';
+        largeHeader.style.height = height + 'px';
 
         canvas = document.getElementById('demo-canvas');
         canvas.width = width;
@@ -169,37 +175,42 @@ window.Feed({
 
         // create points
         points = [];
-        for(var x = 0; x < width; x = x + width/20) {
-            for(var y = 0; y < height; y = y + height/20) {
-                var px = x + Math.random()*width/20;
-                var py = y + Math.random()*height/20;
-                var p = {x: px, originX: px, y: py, originY: py };
+
+        for (var x = 0; x < width; x = x + width / 20) {
+            for (var y = 0; y < height; y = y + height / 20) {
+                var px = x + Math.random() * width / 20,
+                    py = y + Math.random() * height / 20,
+                    p = {x: px, originX: px, y: py, originY: py};
+
                 points.push(p);
             }
         }
 
         // for each point find the 5 closest points
-        for(var i = 0; i < points.length; i++) {
-            var closest = [];
-            var p1 = points[i];
+        for (var i = 0; i < points.length; i++) {
+            var p1 = points[i],
+                closest = [];
+
             for(var j = 0; j < points.length; j++) {
-                var p2 = points[j]
-                if(!(p1 == p2)) {
+                var p2 = points[j];
+
+                if (p1 != p2) {
                     var placed = false;
-                    for(var k = 0; k < 5; k++) {
-                        if(!placed) {
-                            if(closest[k] == undefined) {
-                                closest[k] = p2;
+
+                    for (var k = 0; k < 5; k++) {
+                        if (!placed) {
+                            if (closest[k] == undefined) {
                                 placed = true;
+                                closest[k] = p2;
                             }
                         }
                     }
 
-                    for(var k = 0; k < 5; k++) {
-                        if(!placed) {
-                            if(getDistance(p1, p2) < getDistance(p1, closest[k])) {
-                                closest[k] = p2;
+                    for (var k = 0; k < 5; k++) {
+                        if (!placed) {
+                            if (getDistance(p1, p2) < getDistance(p1, closest[k])) {
                                 placed = true;
+                                closest[k] = p2;
                             }
                         }
                     }
@@ -209,70 +220,85 @@ window.Feed({
         }
 
         // assign a circle to each point
-        for(var i in points) {
-            var c = new Circle(points[i], 2+Math.random()*2, 'rgba(255,255,255,0.4)');
+        for (var i in points) {
+            var c = new Circle(points[i], 2 + Math.random() * 2, 'rgba(255,255,255,0.4)');
+
             points[i].circle = c;
         }
     }
 
     // Event handling
     function addListeners() {
-        if(!('ontouchstart' in window)) {
+        if (!('ontouchstart' in window)) {
             window.addEventListener('mousemove', mouseMove);
         }
+
         window.addEventListener('scroll', scrollCheck);
         window.addEventListener('resize', resize);
     }
 
     function mouseMove(e) {
-        var posx = posy = 0;
+        var posx = 0,
+            posy = 0;
+
         if (e.pageX || e.pageY) {
             posx = e.pageX;
             posy = e.pageY;
         }
-        else if (e.clientX || e.clientY)    {
+
+        else if (e.clientX || e.clientY) {
             posx = e.clientX + document.body.scrollLeft + document.documentElement.scrollLeft;
             posy = e.clientY + document.body.scrollTop + document.documentElement.scrollTop;
         }
+
         target.x = posx;
         target.y = posy;
     }
 
     function scrollCheck() {
-        if(document.body.scrollTop > height) animateHeader = false;
-        else animateHeader = true;
+        if (document.body.scrollTop > height) {
+            animateHeader = false;
+
+        } else {
+            animateHeader = true;
+        }
     }
 
     function resize() {
         width = window.innerWidth;
-        height = window.innerHeight;
-        largeHeader.style.height = height+'px';
+        height = $('#homepage-banner').outerHeight(true);
         canvas.width = width;
         canvas.height = height;
+        largeHeader.style.height = height + 'px';
     }
 
     // animation
     function initAnimation() {
         animate();
-        for(var i in points) {
+
+        for (var i in points) {
             shiftPoint(points[i]);
         }
     }
 
     function animate() {
-        if(animateHeader) {
-            ctx.clearRect(0,0,width,height);
+        if (animateHeader) {
+            ctx.clearRect(0, 0, width, height);
+
             for(var i in points) {
                 // detect points in range
-                if(Math.abs(getDistance(target, points[i])) < 4000) {
+                if (Math.abs(getDistance(target, points[i])) < 4000) {
                     points[i].active = 0.3;
                     points[i].circle.active = 0.6;
-                } else if(Math.abs(getDistance(target, points[i])) < 20000) {
+
+                } else if (Math.abs(getDistance(target, points[i])) < 20000) {
                     points[i].active = 0.1;
                     points[i].circle.active = 0.3;
-                } else if(Math.abs(getDistance(target, points[i])) < 40000) {
+
+                } else if (Math.abs(getDistance(target, points[i])) < 40000) {
                     points[i].active = 0.02;
                     points[i].circle.active = 0.1;
+
                 } else {
                     points[i].active = 0;
                     points[i].circle.active = 0;
@@ -282,25 +308,28 @@ window.Feed({
                 points[i].circle.draw();
             }
         }
+
         requestAnimationFrame(animate);
     }
 
     function shiftPoint(p) {
-        TweenLite.to(p, 1+1*Math.random(), {x:p.originX-50+Math.random()*100,
-            y: p.originY-50+Math.random()*100, ease:Circ.easeInOut,
-            onComplete: function() {
-                shiftPoint(p);
-            }});
+        TweenLite.to(p, 1 + 1 * Math.random(), {
+            x: p.originX - 50 + Math.random()*100,
+            y: p.originY - 50 + Math.random()*100,
+            ease:Circ.easeInOut,
+            onComplete: function() { shiftPoint(p); }
+        });
     }
 
     // Canvas manipulation
     function drawLines(p) {
-        if(!p.active) return;
-        for(var i in p.closest) {
+        if (!p.active) return;
+
+        for (var i in p.closest) {
             ctx.beginPath();
             ctx.moveTo(p.x, p.y);
             ctx.lineTo(p.closest[i].x, p.closest[i].y);
-            ctx.strokeStyle = 'rgba(255,255,255,'+ p.active+')';
+            ctx.strokeStyle = 'rgba(255,255,255,' + p.active + ')';
             ctx.stroke();
         }
     }
@@ -316,10 +345,11 @@ window.Feed({
         })();
 
         this.draw = function() {
-            if(!_this.active) return;
+            if (!_this.active) return;
+
             ctx.beginPath();
             ctx.arc(_this.pos.x, _this.pos.y, _this.radius, 0, 2 * Math.PI, false);
-            ctx.fillStyle = 'rgba(255,255,255,'+ _this.active+')';
+            ctx.fillStyle = 'rgba(255,255,255,' + _this.active + ')';
             ctx.fill();
         };
     }
