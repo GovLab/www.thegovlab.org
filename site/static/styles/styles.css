@@ -457,7 +457,7 @@ button:focus {
     top: 48%; }
   @media (min-width: 1025px) {
     .b-featured-content.m-project .e-content {
-      height: 330px; } }
+      height: 370px; } }
 
 .b-featured-content.m-event {
   background-color: #523080;
@@ -473,6 +473,9 @@ button:focus {
       background-position: bottom right; }
       .b-featured-content.m-event .e-half:nth-of-type(even) {
         margin-right: 200px; } }
+  @media (min-width: 1025px) {
+    .b-featured-content.m-event .e-content {
+      height: 230px; } }
 
 .b-featured-content.m-article {
   background-color: #008895;

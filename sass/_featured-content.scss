@@ -194,7 +194,7 @@
     header { background-color: $gray-10; }
     .e-banner-control { top: 48%; }
     .e-content { 
-        @include breakpoint($desktop) { height: 330px; }
+        @include breakpoint($desktop) { height: 370px; }
     }
 }
 
@@ -214,6 +214,10 @@
         .e-half:nth-of-type(even) {
             margin-right: 200px;
         }
+    }
+
+    .e-content { 
+        @include breakpoint($desktop) { height: 230px; }
     }
 }
 
