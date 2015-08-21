@@ -25,7 +25,7 @@
 
     header {
         padding-top: 26px;
-        padding-bottom: 26px;
+        padding-bottom: 0;
         @include breakpoint($desktop) { padding-top: 40px; }
         .e-wrap { display: block; }
     }
@@ -34,7 +34,7 @@
         padding-top: 0;
         padding-bottom: 0;
         margin-top: 0;
-        margin-bottom: 6px;
+        margin-bottom: 30px;
         text-transform: uppercase;
         color: $white-90;
         font-size: 14px;
@@ -65,16 +65,6 @@
         }
     }
 
-    .e-question {
-        color: $white-80;
-        font-weight: 400;
-        margin: 0;
-        font-size: 18px;
-        line-height: 1.35;
-
-        @include breakpoint($desktop) { font-size: 22px; }
-    }
-
     .e-wrap {
         @include wrap;
         display: flex;
@@ -94,12 +84,25 @@
         list-style-type: none;
         padding-left: 0;
 
-        span {
+        h5 {
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 1px;
+            margin-top: 15px;
+            margin-bottom: 0;
+            color: $white-20;
+
+        }
+
+        .e-tag {
             display: inline-block;
-            background-color: $gray-10;
-            padding: 8px 14px;
+            // background-color: $gray-10;
+            // padding: 2px 8px;
             margin-bottom: 4px;
-            color: $white-90;
+            color: $white-80;
+            font-size: 14px;
+            letter-spacing: .6px;
         }
     }
 
@@ -111,19 +114,41 @@
     .e-project-name {
         font-size: 36px;
         font-weight: 100;
-        margin-top: 20px;
+        margin-top: 0;
+        margin-bottom: 5px;
         @include wrap;
         @include breakpoint($desktop) { font-size: 48px; }
+    }
+
+    .e-question {
+        color: $white-70;
+        font-weight: 200;
+        margin-top: 0;
+        margin-bottom: 30px;
+        font-size: 18px;
+        letter-spacing: .5px;
+        line-height: 1.35;
+        @include wrap;
+
+
+        @include breakpoint($desktop) { font-size: 22px; }
     }
 
     .e-article-name {
         font-size: 24px;
         font-weight: 300;
+        margin-top: 0;
         @include breakpoint($desktop) { font-size: 36px; }
     }
 
     .e-event-name {
         font-weight: 300;
+        margin-top: 0;
+    }
+
+    .e-event-heading {
+        margin-top: 0;
+        margin-bottom: 30px;
     }
 
     .e-guest {
@@ -138,7 +163,15 @@
 
     .e-content {
         color: $white-90;
-        @include breakpoint($desktop) { margin-right: 40px; }
+        @include breakpoint($desktop) { 
+            margin-right: 40px;
+        }
+
+        p {
+            @include breakpoint($desktop) { 
+                margin-top: 0;
+            }
+        }
     }
 
     .e-action {
@@ -174,7 +207,7 @@
 .b-featured-content.m-project {
     background-color: $purple;
 
-    header { background-color: $gray-10; }
+    // header { background-color: $gray-10; }
     .e-banner-control { top: 48%; }
     .e-content {
         @include breakpoint($desktop) { height: 370px; }

@@ -8,7 +8,7 @@ The GovLab:   -->
 {% block content %}
     <section id="homepage-banner" class="b-landing-questions b-top-section large-header">
         <canvas id="demo-canvas"></canvas>
-        <h2 class="e-question">Deepening our understanding of how to govern more effectively and legitimately</h2>
+        <h2 class="e-question">Deepening our understanding of how to govern<br> more effectively and legitimately</h2>
         <a href="#" class="b-button m-purple">Find out More<i class="material-icons">arrow_forward</i></a>
     </section>
     <section class="b-govlab-fronts">
@@ -51,17 +51,21 @@ The GovLab:   -->
                                 {% endfor %}
                             </div>
                             <h4>Featured Project</h4>
-                            <h3 class="e-question">{{project.problem_statement}}</h3>
                         </div>
                     </header>
                     <h2 class="e-project-name">{{project.title}}</h2>
+                    <h3 class="e-question">{{project.problem_statement}}</h3>
                     <div class="e-wrap">
                         <div class="e-half">
                             <div class="e-content">
                                 <ul class="e-tags">
+                                    <h5>Governance Area</h5>
                                     <li><span class="e-tag">{{project.tags.governance_area[0] | title}}</span></li>
+                                    <h5>Institution Type</h5>
                                     <li><span class="e-tag">{{project.tags.type_of_institution[0] | title}}</span></li>
+                                    <h5>Innovative Capability</h5>
                                     <li><span class="e-tag">{{project.tags.innovative_capability[0] | title}}</span></li>
+                                    <h5>Product Category</h5>
                                     <li><span class="e-tag">{{project.tags.product_category[0] | title}}</span></li>
                                 </ul>
                             </div>
@@ -117,12 +121,12 @@ The GovLab:   -->
                     </div>
                     <div class="e-half">
                         <div class="e-action">
-                            <a class="b-button m-naked js-article-1-link" href="">Read more<i class="material-icons">arrow_forward</i></a>
+                            <a class="b-button m-naked" href="http://thegovlab.org/blog">All Articles<i class="material-icons">arrow_forward</i></a>
                         </div>
                     </div>
                     <div class="e-half">
                         <div class="e-action">
-                            <a class="b-button m-naked" href="http://thegovlab.org/blog">All Articles<i class="material-icons">arrow_forward</i></a>
+                            <a class="b-button m-naked js-article-1-link" href="">Read more<i class="material-icons">arrow_forward</i></a>
                         </div>
                     </div>
                 </div>
@@ -167,12 +171,12 @@ The GovLab:   -->
                     </div>
                     <div class="e-half">
                         <div class="e-action">
-                            <a class="b-button m-naked js-article-2-link" href="">Read more<i class="material-icons">arrow_forward</i></a>
+                            <a class="b-button m-naked" href="http://thegovlab.org/blog">All Articles<i class="material-icons">arrow_forward</i></a>
                         </div>
                     </div>
                     <div class="e-half">
                         <div class="e-action">
-                            <a class="b-button m-naked" href="http://thegovlab.org/blog">All Articles<i class="material-icons">arrow_forward</i></a>
+                            <a class="b-button m-naked js-article-2-link" href="">Read more<i class="material-icons">arrow_forward</i></a>
                         </div>
                     </div>
                 </div>
@@ -217,12 +221,12 @@ The GovLab:   -->
                     </div>
                     <div class="e-half">
                         <div class="e-action">
-                            <a class="b-button m-naked js-article-3-link" href="">Read more<i class="material-icons">arrow_forward</i></a>
+                            <a class="b-button m-naked" href="http://thegovlab.org/blog">All Articles<i class="material-icons">arrow_forward</i></a>
                         </div>
                     </div>
                     <div class="e-half">
                         <div class="e-action">
-                            <a class="b-button m-naked" href="http://thegovlab.org/blog">All Articles<i class="material-icons">arrow_forward</i></a>
+                            <a class="b-button m-naked js-article-3-link" href="">Read more<i class="material-icons">arrow_forward</i></a>
                         </div>
                     </div>
                 </div>
@@ -255,30 +259,31 @@ The GovLab:   -->
                                     <span{% if outer_loop.index == loop.index %} class="m-active"{% endif %}></span>
                                 {% endfor %}
                             </div>
-                            <h4>{{event.type}}</h4>
+                            
                         </div>
                     </header>
                     <div class="e-wrap">
                         <div class="e-half">
+                            <h4 class="e-event-heading">{{event.type}}</h4>
                             <div class="e-content">
                                 <h2 class="e-event-name">{{event.title}}</h2>
                                 <p class="e-guest">{{event.guest}}</p>
                             </div>
                         </div>
                         <div class="e-half">
-                            <h4 class="e-event-date">{{event.date}}</h4>
+                            <h4 class="e-event-heading">{{event.date}}</h4>
                             <div class="e-content">
                                 <p>{{event.short_description}}</p>
                             </div>
                         </div>
                         <div class="e-half">
                             <div class="e-action">
-                                <a class="b-button m-naked" href="{{event.url}}">{% if event.type == 'IdeasLunch' %}RSVP{% else %}Learn More{%endif%}<i class="material-icons">arrow_forward</i></a>
+                                <a class="b-button m-naked" href="events.html">All Events<i class="material-icons">arrow_forward</i></a>
                             </div>
                         </div>
                         <div class="e-half">
                             <div class="e-action">
-                                <a class="b-button m-naked" href="events.html">All Events<i class="material-icons">arrow_forward</i></a>
+                                <a class="b-button m-naked" href="{{event.url}}">{% if event.type == 'IdeasLunch' %}RSVP{% else %}Learn More{%endif%}<i class="material-icons">arrow_forward</i></a>
                             </div>
                         </div>
                     </div>
