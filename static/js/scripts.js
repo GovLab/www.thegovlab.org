@@ -289,7 +289,7 @@ window.Feed({
                 // detect points in range
                 if (Math.abs(getDistance(target, points[i])) < 4000) {
                     points[i].active = 0.3;
-                    points[i].circle.active = 0.6;
+                    points[i].circle.active = 0.2;
 
                 } else if (Math.abs(getDistance(target, points[i])) < 20000) {
                     points[i].active = 0.1;
@@ -313,7 +313,7 @@ window.Feed({
     }
 
     function shiftPoint(p) {
-        TweenLite.to(p, 1 + 1 * Math.random(), {
+        TweenLite.to(p, 1 + 1 * Math.random()*3, {
             x: p.originX - 50 + Math.random()*100,
             y: p.originY - 50 + Math.random()*100,
             ease:Circ.easeInOut,
