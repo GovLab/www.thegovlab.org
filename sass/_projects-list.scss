@@ -1,11 +1,15 @@
 .b-projects-list-wrapper {
-    @include breakpoint($desktop) { display: flex; }
+    @include breakpoint($desktop) {
+        display: -webkit-flex;
+        display: flex;
+    }
 
     .e-project-type {
         padding: 20px;
 
         @include breakpoint($mobile-only) { text-align: center; }
-        @include breakpoint($desktop) { 
+        @include breakpoint($desktop) {
+            -webkit-flex: 1;
             flex: 1;
             padding: 30px;
         }
@@ -25,8 +29,8 @@
             margin: 0;
             line-height: 1.1;
 
-            @include breakpoint($desktop) { 
-                font-size: 44px; 
+            @include breakpoint($desktop) {
+                font-size: 44px;
                 margin-top: 15px;
             }
         }
@@ -40,10 +44,13 @@
     &.m-data .e-project-item h2 a { color: $teal;}
     &.m-collective-intelligence .e-project-item h2 a { color: $orange;}
     &.m-design-thinking .e-project-item h2 a { color: $blue;}
-  
 
-    .e-project-list { 
-        @include breakpoint($desktop) { flex: 4; }
+
+    .e-project-list {
+        @include breakpoint($desktop) {
+            -webkit-flex: 4;
+            flex: 4;
+        }
     }
 
     .e-project-question {
@@ -61,12 +68,12 @@
 
     .e-project-item {
         @include breakpoint($mobile-only) { margin: 15px; }
-        
-        &:not(:last-child) { 
-            @include breakpoint($mobile-only) { 
+
+        &:not(:last-child) {
+            @include breakpoint($mobile-only) {
                 border-bottom: 1px solid $gray-15; }
         }
-        
+
         h2 {
             font-weight: 800;
             text-transform: uppercase;
@@ -82,7 +89,7 @@
         .b-button {
             margin-left: -20px;
         }
-        
+
         &.m-active-False {
             pointer-events: none;
             background-color: transparent !important;
@@ -111,21 +118,25 @@
 
 .b-project-view.m-list .b-projects-list-wrapper {
     .e-project-item {
-        @include breakpoint($desktop) { 
+        @include breakpoint($desktop) {
             background-color: $gray-05;
             cursor: pointer;
+            display: -webkit-flex;
             display: flex;
             border-bottom: 1px solid $gray-10;
+            -webkit-flex-wrap: wrap;
             flex-wrap: wrap;
             padding: 20px 0;
         }
 
         h2 {
             margin: 0 40px 0;
+            -webkit-flex: 1;
             flex: 1;
         }
 
         .e-project-blurb {
+            -webkit-flex: 3;
             flex: 3;
             margin: 0;
         }
@@ -140,11 +151,11 @@
         .e-project-blurb { margin: 0 80px 0 0; }
         .e-project-blurb p { margin: 0; }
 
-        .e-project-tooltip { 
+        .e-project-tooltip {
             max-height: 0;
             overflow: hidden;
             @include transition;
-        }    
+        }
 
         &.m-active {
             background-color: $white;
@@ -163,16 +174,16 @@
 
 .b-project-view.m-grid .b-projects-list-wrapper {
     .e-project-group {
-        @include breakpoint($desktop) { padding: 15px; }    
+        @include breakpoint($desktop) { padding: 15px; }
     }
 
     .e-project-item {
-        &:not(:last-child) { 
+        &:not(:last-child) {
             @include breakpoint($mobile-only) { border-bottom: 1px solid $gray-15; }
         }
 
-        @include breakpoint($desktop) { 
-            width: calc(33% - 30px); 
+        @include breakpoint($desktop) {
+            width: calc(33% - 30px);
             display: inline-block;
             background-color: $gray-05;
             height: 0;
@@ -190,7 +201,7 @@
             line-height: 1.2;
             font-size: 18px;
 
-            @include breakpoint($desktop) { 
+            @include breakpoint($desktop) {
                 font-size: 20px;
                 padding: 20px;
                 position: absolute;
@@ -202,7 +213,7 @@
             font-size: 14px;
             line-height: 1.4;
 
-            @include breakpoint($desktop) { 
+            @include breakpoint($desktop) {
                 padding: 20px;
                 position: absolute;
                 bottom: 0;
@@ -211,7 +222,7 @@
     }
 
     .e-project-item {
-        .e-project-tooltip { display: none; }    
+        .e-project-tooltip { display: none; }
 
         &.m-active .e-project-tooltip {
             display: block;

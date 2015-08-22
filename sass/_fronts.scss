@@ -1,13 +1,18 @@
 .b-govlab-fronts {
     display: block;
 
-    @include breakpoint($desktop) { display: flex; }
-    
+    @include breakpoint($desktop) {
+        display: -webkit-flex;
+        display: flex;
+    }
+
     .e-mobile-wrap {
-        @include breakpoint($desktop) { 
+        @include breakpoint($desktop) {
+            display: -webkit-flex;
             display: flex;
+            -webkit-flex: 1;
             flex: 1;
-        }        
+        }
     }
 
     .e-govlab-front {
@@ -21,8 +26,9 @@
         overflow: hidden;
         @include transition;
         background-size: cover;
-        
-        @include breakpoint($desktop) { 
+
+        @include breakpoint($desktop) {
+            -webkit-flex: 1;
             flex: 1;
             font-size: 22px;
             line-height: 1;
@@ -40,9 +46,9 @@
             top: 600px;
             @include transition;
             background-color: $gray-30;
-            
+
             @include breakpoint($desktop) { height: 300px; }
-            @include breakpoint($mobile-only) { 
+            @include breakpoint($mobile-only) {
                 top: 0;
                 background-color: transparent;
                 text-transform: uppercase;
@@ -51,21 +57,21 @@
         }
 
         &:hover .e-explanation { top: 0; }
-        
+
         // The background-images will be replaced by JS interactive graphics in the future
-        &.m-projects {    
+        &.m-projects {
             background-color: $purple;
             @include breakpoint($desktop) { background-image: url("../img/fronts-projects.png"); }
         }
-        &.m-observatory { 
+        &.m-observatory {
             background-color: $teal;
             @include breakpoint($desktop) { background-image: url("../img/fronts-observatory.png"); }
         }
-        &.m-academy {     
+        &.m-academy {
             background-color: $orange;
             @include breakpoint($desktop) { background-image: url("../img/fronts-academy.png"); }
         }
-        &.m-community {   
+        &.m-community {
             background-color: $blue;
             @include breakpoint($desktop) { background-image: url("../img/fronts-community.png"); }
         }
@@ -73,4 +79,4 @@
 }
 
 
-        
+

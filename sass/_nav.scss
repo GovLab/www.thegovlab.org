@@ -1,4 +1,5 @@
 .b-top-nav {
+    display: -webkit-flex;
     display: flex;
     // background-color: $black;
     position: absolute;
@@ -7,36 +8,41 @@
     padding: 0;
     justify-items: center;
 
-    @include breakpoint($desktop) { 
-        padding: 10px; 
+    @include breakpoint($desktop) {
+        padding: 10px;
 
     }
-    
+
     .e-nav-group,
     .e-social-media,
-    .e-logo { flex: 1; }
+    .e-logo {
+        -webkit-flex: 1;
+        flex: 1;
+    }
 
     .e-nav-item {
         color: $white-20;
         display: inline-block;
         cursor: pointer;
-        
+
         &:hover { color: $white; }
 
         @include breakpoint($desktop) { padding: 10px 15px; }
     }
 
     .e-nav-group {
+        -webkit-flex: none;
         flex: none;
         position: absolute;
         z-index: 20;
-        
-        @include breakpoint($mobile-only) { 
+
+        @include breakpoint($mobile-only) {
             width: 100%;
             padding: 13px 15px 6px 15px;
         }
 
         @include breakpoint($desktop) {
+            display: -webkit-flex;
             display: flex;
             position: relative;
             width: 30%;
@@ -49,6 +55,7 @@
     }
 
     .e-search {
+        display: -webkit-flex;
         display: flex;
         position: relative;
         z-index: 20;
@@ -58,21 +65,22 @@
             padding: 4px 6px;
             vertical-align: 5px;
             opacity: 0;
+            -webkit-flex: 1;
             flex: 1;
             margin-left: 10px;
             @include breakpoint($desktop) { margin: 8px 0 22px; }
-        
+
             @include transition;
         }
 
         &.m-active {
-            
+
             input[type='text'] {
                 opacity: 1;
 
                 @include transition;
 
-                @include breakpoint($desktop) { 
+                @include breakpoint($desktop) {
                     max-width: 300px;
                 }
             }
@@ -82,18 +90,18 @@
     .e-logo {
         text-align: center;
         padding: 10px 0 5px 0;
-        
-        img { 
-            max-width: 100px; 
-            
+
+        img {
+            max-width: 100px;
+
             @include breakpoint($desktop) { max-width: 140px; }
         }
     }
 
-    .e-social-media { 
+    .e-social-media {
         text-align: right;
         display: block;
-        
+
         @include breakpoint($mobile-only) { display: none; }
 
         a { @include transition; }
@@ -110,16 +118,17 @@
     z-index: 20;
     box-shadow: 0 0 20px $gray-40;
     background-color: $purple;
+    -webkit-flex-flow: column;
     flex-flow: column;
 
     @include breakpoint($desktop) { left: -28%; }
 
     @include transition;
-    
+
     &.m-active {
         left: 0;
         right: 0;
-        
+
         @include breakpoint($desktop) { right: 72%; }
         }
 
@@ -130,11 +139,11 @@
         color: $white-70;
         text-align: center;
         border-bottom: 1px solid $white-20;
-        
+
         @include breakpoint($desktop) { text-align: right; }
 
         &:hover { background-color: $gray-10; }
     }
 
-    
+
 }

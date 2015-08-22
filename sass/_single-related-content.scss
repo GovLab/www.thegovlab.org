@@ -12,7 +12,9 @@
 
     .e-wrap {
         @include wrap;
+        display: -webkit-flex;
         display: flex;
+        -webkit-flex-wrap: wrap;
         flex-wrap: wrap;
     }
 
@@ -32,18 +34,22 @@
     }
 
     .e-half {
+        -webkit-flex: 1;
         flex: 1;
         min-width: 350px;
         align-items: stretch;
+        display: -webkit-flex;
         display: flex;
+        -webkit-flex-flow: column;
         flex-flow: column;
 
-        &:nth-of-type(odd) { 
+        &:nth-of-type(odd) {
             @include breakpoint($desktop) { padding-right: 60px; }
         }
     }
 
     .e-content {
+        -webkit-flex: 1;
         flex: 1;
     }
 

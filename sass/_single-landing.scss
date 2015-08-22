@@ -1,11 +1,11 @@
 .b-single-landing {
     background-color: $blue;
-    
+
     header {
         background-color: $gray-10;
         padding-top: 40px;
         padding-bottom: 20px;
-        
+
         @include breakpoint($desktop) {padding: 30px 0 30px;}
 
         .e-question {
@@ -30,7 +30,7 @@
             margin-bottom: 4px;
             color: $white-60;
 
-            @include breakpoint($desktop) { 
+            @include breakpoint($desktop) {
                 display: inline-block;
                 font-size: 16px;
                 padding: 3px 9px;
@@ -40,16 +40,19 @@
 
     .e-wrap {
         @include wrap;
+        display: -webkit-flex;
         display: flex;
+        -webkit-flex-wrap: wrap;
         flex-wrap: wrap;
         padding-bottom: 30px;
     }
 
     .e-half {
+        -webkit-flex: 1;
         flex: 1;
         min-width: 350px;
 
-        &:nth-of-type(2n) { 
+        &:nth-of-type(2n) {
             @include breakpoint($desktop) { padding-right: 30px; }
         }
     }
@@ -61,7 +64,7 @@
 
     h2 {
         line-height: 1.3;
-        color: $white-90;        
+        color: $white-90;
     }
 
     .e-project-name {
@@ -71,7 +74,7 @@
         display: block;
         width: 100%;
         @include wrap;
-        
+
         @include breakpoint($desktop) { font-size: 48px; }
     }
 
@@ -101,7 +104,7 @@
             transform: rotate(-45deg);
         }
     }
-    
+
     .e-content {
         h4 {
             text-transform: uppercase;
@@ -127,7 +130,7 @@
             margin-bottom: 4px;
             color: $white-60;
 
-            @include breakpoint($desktop) { 
+            @include breakpoint($desktop) {
                 display: inline-block;
                 font-size: 16px;
                 padding: 3px 9px;
@@ -189,30 +192,30 @@
             }
         }
 
-        span:nth-child(1):before { 
-            content: "Define"; 
+        span:nth-child(1):before {
+            content: "Define";
             @include breakpoint($desktop) { right: 90%; }
         }
-        span:nth-child(2):before { 
-            content: "Prototype"; 
+        span:nth-child(2):before {
+            content: "Prototype";
             @include breakpoint($desktop) { right: 65%; }
         }
-        span:nth-child(3):before { 
-            content: "Test & Iteration"; 
+        span:nth-child(3):before {
+            content: "Test & Iteration";
             @include breakpoint($desktop) { right: 30%; }
         }
-        span:nth-child(4):before { 
-            content: "Complete"; 
+        span:nth-child(4):before {
+            content: "Complete";
             @include breakpoint($desktop) { right: 0; }
         }
 
-        &.m-define span:nth-child(1):before, 
+        &.m-define span:nth-child(1):before,
         &.m-prototype span:nth-child(2):before,
         &.m-test span:nth-child(3):before,
         &.m-complete span:nth-child(4):before {
             color: $white-90;
 
-            @include breakpoint($mobile-only) { 
+            @include breakpoint($mobile-only) {
                 display: inline-block;
                 font-weight: 600;
             }
@@ -238,11 +241,11 @@
             span:nth-child(2):before { opacity: .4;}
             span:nth-child(4):before { opacity: 0; }
         }
-        
+
         &.m-complete {
             &:after { width: 100%; }
             span:nth-child(1):before,
-            span:nth-child(2):before, 
+            span:nth-child(2):before,
             span:nth-child(3):before { opacity: .4; }
         }
     }
