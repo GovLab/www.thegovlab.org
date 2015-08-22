@@ -59,9 +59,7 @@ $(document).ready(function($) {
         $('.js-view-list-trigger').removeClass('m-active');
     });
 
-    $('.swipe').height(Math.max($('.swipe section').outerHeight()));
-
-    $('.swipe').slick({
+    $('.e-banner-container').slick({
         arrows: false,
         draggable: false,
         swipeToSlide: true,
@@ -76,11 +74,11 @@ $(document).ready(function($) {
     });
 
     $('.m-prev').click(function() {
-        $(this).closest('.swipe').slick('slickPrev');
+        $(this).closest('.e-banner-container').slick('slickPrev');
     });
 
     $('.m-next').click(function() {
-        $(this).closest('.swipe').slick('slickNext');
+        $(this).closest('.e-banner-container').slick('slickNext');
     });
 
     $('.b-project-slider').slick({
@@ -106,47 +104,49 @@ $(document).ready(function($) {
 
 function stripHTML(dirtyString) {
     var container = document.createElement('div');
+
     container.innerHTML = dirtyString;
+
     return container.textContent || container.innerText;
 }
 
 var render = function(posts) {
-  posts.feed.entries.forEach(function (element, index) {
-    var title;
+    posts.feed.entries.forEach(function (element, index) {
+        var title = element.title,
+            content = stripHTML(element.content);
 
-    if (element.title.length > 100) {
-        title = element.title.substr(0, 100) + '...';
-    }
+        if (title.length > 100) {
+            title = title.substr(0, 100) + '...';
+        }
 
-    var content = stripHTML(element.content).substr(0, 500) + '...';
+        if (content.length > 500) {
+            content = content.substr(0, 500) + '...';
+        }
 
-    $('.js-article-' + (index+1) + '-title').text(title);
-    $('.js-article-' + (index+1) + '-author').text(element.author);
-    $('.js-article-' + (index+1) + '-content').html(content);
-    $('.js-article-' + (index+1) + '-link').attr('href', element.link);
+        $('.js-article-' + (index + 1) + '-title').text(title);
+        $('.js-article-' + (index + 1) + '-author').text(element.author);
+        $('.js-article-' + (index + 1) + '-content').html(content);
+        $('.js-article-' + (index + 1) + '-link').attr('href', element.link);
+    });
 
-  });
+    $('.e-banner-container').each(function() {
+        var $wraps = $(this).find('.b-featured-content > div.e-wrap'),
+            max = Math.max.apply(
+                null,
+                $wraps.map(function() {
+                    return $(this).outerHeight(true);
+                }).get()
+            );
+
+        $wraps.height(max);
+    });
 };
 
 window.Feed({
-  url: 'http://thegovlab.org/featured-website/feed/',
-  number: 3,
-  callback: render
+    url: 'http://thegovlab.org/featured-website/feed/',
+    number: 3,
+    callback: render
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // functions for the effect on the homepage main banner
 
@@ -360,5 +360,3 @@ window.Feed({
     }
 
 })();
-
-
