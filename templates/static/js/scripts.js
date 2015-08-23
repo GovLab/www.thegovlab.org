@@ -38,6 +38,18 @@ $(document).ready(function($) {
         $overlay.removeClass('m-active');
     });
 
+
+    // Events Page
+    $('.js-event-trigger').click(function() {
+        $(this).parent().parent().parent().parent().addClass('m-active');
+        $overlay.addClass('m-active');
+    });
+
+    $overlay.click(function() {
+        $('.e-event-item').removeClass('m-active');
+        $(this).removeClass('m-active');
+    });
+
     // Projects Grid/List View Logic
     $('.js-view-list-trigger').click(function() {
         // Switch Classes for the Project Listing

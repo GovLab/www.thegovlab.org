@@ -25,9 +25,11 @@ $white-90: rgba(255,255,255,0.9);
 
 $purple: rgba(82,48,128,1);
 $orange: rgba(238,91,67,1);
+$orange-20k: #be4936;
 $teal: rgba(0,136,149,1);
 $teal-20k: #00616b;
 $blue: rgba(0,138,179,1);
+$blue-20k: #006e8f;
 
 // Breakpoints
 
@@ -57,6 +59,7 @@ $desktop: 1025px;
 @import 'nav';
 @import 'base';
 @import 'button';
+@import 'breadcrumbs';
 
 @import 'fronts';
 @import 'featured-content';
@@ -75,6 +78,7 @@ $desktop: 1025px;
 @import 'single-team';
 @import 'projects-landing';
 @import 'projects-list';
+@import 'events';
 
 
 // .material-icons {

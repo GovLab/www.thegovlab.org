@@ -1,0 +1,133 @@
+.b-events-landing {
+    background-color: $purple;
+    margin-bottom: 0;
+
+    header {
+        background-color: $gray-10;
+        padding-top: 20px;
+        padding-bottom: 40px;
+
+        @include breakpoint($desktop) {padding: 0;}
+
+        h1 { 
+            text-align: center;
+            font-weight: 400;
+            font-size: 24px;
+            text-transform: uppercase;
+            color: $white-90;
+            margin: 0;
+            padding-bottom: 20px;
+        }
+    }
+}
+
+.b-event-list {
+    background-color: $purple;
+
+    .e-event-item {
+        padding: 40px 0;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        color: $white-70;
+        min-height: 300px;
+
+        @include breakpoint($mobile-only) {
+            background-position: bottom center;
+            .e-half:nth-last-child(2) { margin-top: 50px; }
+        }
+
+        @include breakpoint($desktop) {
+            background-position: bottom right;
+
+            .e-half:nth-of-type(even) {
+                margin-right: 200px;
+            }
+        }
+
+        .e-wrap {
+            @include wrap;
+
+            > div {
+                display: -webkit-flex;
+                display: flex;
+            }
+        }
+
+        .e-half {
+            -webkit-flex: 1;
+            flex: 1;
+
+            &:nth-of-type(2n) {
+                @include breakpoint($desktop) { padding-right: 30px; }
+            }
+        }
+
+        h2, h3, p { margin: 0; }
+
+        h2, h3 {
+            line-height: 1.4;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            font-weight: 400;
+            margin-bottom: 40px;
+        }
+            
+        h3 { font-weight: 400; }
+        
+        .e-event-type {
+            font-size: 18px;
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 1px;
+            color: $white-30;
+        }
+
+        .e-event-heading {
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        .e-action {
+            margin-top: 20px;
+        }
+    }
+
+    .e-event-item:nth-child(2n):after {
+        background-color: $gray-05;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 10;
+        content: '';
+        pointer-events: none;
+    }
+
+    .e-long-description {
+        max-height: 0;
+        height: auto;
+        overflow: hidden;
+        padding: 0;
+        background-color: $black;
+        color: $white-60;
+        box-shadow: inset 0 0 20px $gray-30;
+        @include transition;
+
+        a {text-decoration: underline;}
+
+        .e-wrap { 
+            @include wrap; 
+            padding: 40px 0;
+        }
+    }
+}
+
+.e-event-item.m-active + .e-long-description {
+    max-height: 2000px !important;
+    @include transition;
+}

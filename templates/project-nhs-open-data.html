@@ -4,31 +4,33 @@
 {% if project.tagline %}
 <section class="b-single-landing">
     <header class="b-top-section">
-        <h3 class="e-question">{{project.problem_statement}}</h3>
+        <div class="b-breadcrumbs">
+            <a href="projects.html">Projects</a><i class="material-icons">keyboard_arrow_right</i><span>{{project.title}}</span>
+        </div>
     </header>
-
-    <div class="e-wrap">
+    <div>
         <h2 class="e-project-name">{{project.title}}</h2>
+        <h3 class="e-question">{{project.problem_statement}}</h3>
+    </div>
+    <div class="e-wrap">
         <div class="e-half">
-            <h3 class="e-project-tagline">{{project.tagline}}</h3>
             <div class="e-content">
                 <a href="{{project.project_website}}" target="_blank" class="e-project-link">Project Website<i class="material-icons">link</i></a>
-                <div class="e-tags">
-                    <div>
-                    {% for tag in project.tags.governance_area %}
+                <ul class="e-tags">
+                    <h5>Governance Area</h5>
+                    <li>{% for tag in project.tags.governance_area %}
                         <span class="e-tag">{{ tag }}</span>
-                    {% endfor %}
-                    {% for tag in project.tags.type_of_institution %}
-                        <span class="e-tag">{{ tag }}</span>
-                    {% endfor %}
-                    {% for tag in project.tags.innovative_capability %}
-                        <span class="e-tag">{{ tag }}</span>
-                    {% endfor %}
-                    {% for tag in project.tags.product_category %}
-                        <span class="e-tag">{{ tag }}</span>
-                    {% endfor %}
-                    </div>
-                </div>
+                        {% endfor %}</li>
+                    <h5>Institution Type</h5>
+                    <li>{% for tag in project.tags.type_of_institution %}
+                        <span class="e-tag">{{ tag }}</span>{% endfor %}</li>
+                    <h5>Innovative Capability</h5>
+                    <li>{% for tag in project.tags.innovative_capability %}
+                        <span class="e-tag">{{ tag }}</span>{% endfor %}</li>
+                    <h5>Product Category</h5>
+                    <li>{% for tag in project.tags.product_category %}
+                        <span class="e-tag">{{ tag }}</span>{% endfor %}</li>
+                </ul>
                 <div class="e-location">
                     <h4>Location</h4>
 
@@ -91,20 +93,6 @@
         </div>
     </div>
 </section>
-<section class="b-team">
-    <h2>Team</h2>
-    <div class="e-wrap">
-    {% for person in project.team %}
-    <div class="e-person">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/{{person.name | slug}}.jpg"></div>
-        <hgroup class="e-team-info">
-            <h4 class="e-team-name">{{ person.name }}</h4>
-            <h5 class="e-team-job">{{ person.job }}</h5>
-        </hgroup>
-    </div>
-    {% endfor %}
-    </div>
-</section>
 <section class="b-single-related-content">
     <h2>Articles About the Network of Innovators</h2>
     <div class="e-wrap">
@@ -133,6 +121,20 @@
                 <a class="b-button m-naked" href="">Read More<i class="material-icons">arrow_forward</i></a>
             </div>
         </article>
+    </div>
+</section>
+<section class="b-team">
+    <h2>Team</h2>
+    <div class="e-wrap">
+    {% for person in project.team %}
+    <div class="e-person">
+        <div class="e-person-pic" style="background-image: url(./static/img/team/{{person.name | slug}}.jpg"></div>
+        <hgroup class="e-team-info">
+            <h4 class="e-team-name">{{ person.name }}</h4>
+            <h5 class="e-team-job">{{ person.job }}</h5>
+        </hgroup>
+    </div>
+    {% endfor %}
     </div>
 </section>
 {% endif %}

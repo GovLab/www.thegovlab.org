@@ -56,34 +56,38 @@ The GovLab:   -->
                     <h2 class="e-project-name">{{project.title}}</h2>
                     <h3 class="e-question">{{project.problem_statement}}</h3>
                     <div class="e-wrap">
-                        <div class="e-half">
-                            <div class="e-content">
-                                <ul class="e-tags">
-                                    <h5>Governance Area</h5>
-                                    <li><span class="e-tag">{{project.tags.governance_area[0] | title}}</span></li>
-                                    <h5>Institution Type</h5>
-                                    <li><span class="e-tag">{{project.tags.type_of_institution[0] | title}}</span></li>
-                                    <h5>Innovative Capability</h5>
-                                    <li><span class="e-tag">{{project.tags.innovative_capability[0] | title}}</span></li>
-                                    <h5>Product Category</h5>
-                                    <li><span class="e-tag">{{project.tags.product_category[0] | title}}</span></li>
-                                </ul>
+                        <div>
+                            <div class="e-half">
+                                <div class="e-content">
+                                    <ul class="e-tags">
+                                        <h5>Governance Area</h5>
+                                        <li><span class="e-tag">{{project.tags.governance_area[0] | title}}</span></li>
+                                        <h5>Institution Type</h5>
+                                        <li><span class="e-tag">{{project.tags.type_of_institution[0] | title}}</span></li>
+                                        <h5>Innovative Capability</h5>
+                                        <li><span class="e-tag">{{project.tags.innovative_capability[0] | title}}</span></li>
+                                        <h5>Product Category</h5>
+                                        <li><span class="e-tag">{{project.tags.product_category[0] | title}}</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="e-half">
+                                <div class="e-content">
+                                    {% if project.short_description %} {{project.short_description}}
+                                    {% else %} {{project.long_description}}{% endif %}
+                                </div>
                             </div>
                         </div>
-                        <div class="e-half">
-                            <div class="e-content">
-                                {% if project.short_description %} {{project.short_description}}
-                                {% else %} {{project.long_description}}{% endif %}
+                        <div>
+                            <div class="e-half">
+                                <div class="e-action">
+                                    <a class="b-button m-naked" href="./projects.html">All Projects<i class="material-icons">arrow_forward</i></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="e-half">
-                            <div class="e-action">
-                                <a class="b-button m-naked" href="./projects.html">All Projects<i class="material-icons">arrow_forward</i></a>
-                            </div>
-                        </div>
-                        <div class="e-half">
-                            <div class="e-action">
-                                <a class="b-button m-naked" href="project-{{project.title|slug}}.html">Find out more<i class="material-icons">arrow_forward</i></a>
+                            <div class="e-half">
+                                <div class="e-action">
+                                    <a class="b-button m-naked" href="project-{{project.title|slug}}.html">Find out more<i class="material-icons">arrow_forward</i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -109,24 +113,28 @@ The GovLab:   -->
                 </header>
 
                 <div class="e-wrap">
-                    <div class="e-half">
-                        <div class="e-content">
-                            <h2 class="e-article-name js-article-1-title">Looking Back at the “Data-Driven &amp; Collaborative Solutions” Public Forum on Opening Governance</h2>
-                            <p class="e-byline">By: <strong class="js-article-1-author">Stefaan Verhulst</strong></p>
+                    <div>
+                        <div class="e-half">
+                            <div class="e-content">
+                                <h2 class="e-article-name js-article-1-title">Looking Back at the “Data-Driven &amp; Collaborative Solutions” Public Forum on Opening Governance</h2>
+                                <p class="e-byline">By: <strong class="js-article-1-author">Stefaan Verhulst</strong></p>
+                            </div>
+                        </div>
+                        <div class="e-half">
+                            <div class="e-content js-article-1-content">
+                            </div>
                         </div>
                     </div>
-                    <div class="e-half">
-                        <div class="e-content js-article-1-content">
+                    <div>
+                        <div class="e-half">
+                            <div class="e-action">
+                                <a class="b-button m-naked" href="http://thegovlab.org/blog">All Articles<i class="material-icons">arrow_forward</i></a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="e-half">
-                        <div class="e-action">
-                            <a class="b-button m-naked" href="http://thegovlab.org/blog">All Articles<i class="material-icons">arrow_forward</i></a>
-                        </div>
-                    </div>
-                    <div class="e-half">
-                        <div class="e-action">
-                            <a class="b-button m-naked js-article-1-link" href="">Read more<i class="material-icons">arrow_forward</i></a>
+                        <div class="e-half">
+                            <div class="e-action">
+                                <a class="b-button m-naked js-article-1-link" href="">Read more<i class="material-icons">arrow_forward</i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -148,24 +156,28 @@ The GovLab:   -->
                 </header>
 
                 <div class="e-wrap">
-                    <div class="e-half">
-                        <div class="e-content">
-                            <h2 class="e-article-name js-article-2-title">Looking Back at the “Data-Driven &amp; Collaborative Solutions” Public Forum on Opening Governance</h2>
-                            <p class="e-byline">By: <strong class="js-article-2-author">Stefaan Verhulst</strong></p>
+                    <div>
+                        <div class="e-half">
+                            <div class="e-content">
+                                <h2 class="e-article-name js-article-2-title">Looking Back at the “Data-Driven &amp; Collaborative Solutions” Public Forum on Opening Governance</h2>
+                                <p class="e-byline">By: <strong class="js-article-2-author">Stefaan Verhulst</strong></p>
+                            </div>
+                        </div>
+                        <div class="e-half">
+                            <div class="e-content js-article-2-content">
+                            </div>
                         </div>
                     </div>
-                    <div class="e-half">
-                        <div class="e-content js-article-2-content">
+                    <div>
+                        <div class="e-half">
+                            <div class="e-action">
+                                <a class="b-button m-naked" href="http://thegovlab.org/blog">All Articles<i class="material-icons">arrow_forward</i></a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="e-half">
-                        <div class="e-action">
-                            <a class="b-button m-naked" href="http://thegovlab.org/blog">All Articles<i class="material-icons">arrow_forward</i></a>
-                        </div>
-                    </div>
-                    <div class="e-half">
-                        <div class="e-action">
-                            <a class="b-button m-naked js-article-2-link" href="">Read more<i class="material-icons">arrow_forward</i></a>
+                        <div class="e-half">
+                            <div class="e-action">
+                                <a class="b-button m-naked js-article-2-link" href="">Read more<i class="material-icons">arrow_forward</i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -187,24 +199,28 @@ The GovLab:   -->
                 </header>
 
                 <div class="e-wrap">
-                    <div class="e-half">
-                        <div class="e-content">
-                            <h2 class="e-article-name js-article-3-title">Looking Back at the “Data-Driven &amp; Collaborative Solutions” Public Forum on Opening Governance</h2>
-                            <p class="e-byline">By: <strong class="js-article-3-author">Stefaan Verhulst</strong></p>
+                    <div>
+                        <div class="e-half">
+                            <div class="e-content">
+                                <h2 class="e-article-name js-article-3-title">Looking Back at the “Data-Driven &amp; Collaborative Solutions” Public Forum on Opening Governance</h2>
+                                <p class="e-byline">By: <strong class="js-article-3-author">Stefaan Verhulst</strong></p>
+                            </div>
+                        </div>
+                        <div class="e-half">
+                            <div class="e-content js-article-3-content">
+                            </div>
                         </div>
                     </div>
-                    <div class="e-half">
-                        <div class="e-content js-article-3-content">
+                    <div>
+                        <div class="e-half">
+                            <div class="e-action">
+                                <a class="b-button m-naked" href="http://thegovlab.org/blog">All Articles<i class="material-icons">arrow_forward</i></a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="e-half">
-                        <div class="e-action">
-                            <a class="b-button m-naked" href="http://thegovlab.org/blog">All Articles<i class="material-icons">arrow_forward</i></a>
-                        </div>
-                    </div>
-                    <div class="e-half">
-                        <div class="e-action">
-                            <a class="b-button m-naked js-article-3-link" href="">Read more<i class="material-icons">arrow_forward</i></a>
+                        <div class="e-half">
+                            <div class="e-action">
+                                <a class="b-button m-naked js-article-3-link" href="">Read more<i class="material-icons">arrow_forward</i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -213,8 +229,11 @@ The GovLab:   -->
 
         <div class="b-subscribe">
             <div class="e-wrap">
-                <h4><strong>Subscribe</strong>
-                The GovLab Digest</h4>
+                <div>
+                    <h4><strong>Subscribe</strong>
+                    The GovLab Digest</h4>
+                    <p>A weekly curation of new findings and developments on innovation in governance</p>
+                </div>
 
                 <form method="post" action="//example.us11.list-manage.com/subscribe/post?u=2a4cb5c39a02e4a15720e67f6&amp;id=6d88660395" target="_blank" >
                     <div style="position: absolute; left: -5000px;"><input type="text" name="b_2a4cb5c39a02e4a15720e67f6_6d88660395" tabindex="-1" value=""></div>
@@ -245,27 +264,31 @@ The GovLab:   -->
                         </div>
                     </header>
                     <div class="e-wrap">
-                        <div class="e-half">
-                            <h4 class="e-event-heading">{{event.type}}</h4>
-                            <div class="e-content">
-                                <h2 class="e-event-name">{{event.title}}</h2>
-                                <p class="e-guest">{{event.guest}}</p>
+                        <div>
+                            <div class="e-half">
+                                <h4 class="e-event-heading">{{event.type}}</h4>
+                                <div class="e-content">
+                                    <h2 class="e-event-name">{{event.title}}</h2>
+                                    <p class="e-guest">{{event.guest}}</p>
+                                </div>
+                            </div>
+                            <div class="e-half">
+                                <h4 class="e-event-heading">{{event.date}}</h4>
+                                <div class="e-content">
+                                    <p>{{event.short_description}}</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="e-half">
-                            <h4 class="e-event-heading">{{event.date}}</h4>
-                            <div class="e-content">
-                                <p>{{event.short_description}}</p>
+                        <div>
+                            <div class="e-half">
+                                <div class="e-action">
+                                    <a class="b-button m-naked" href="events.html">All Events<i class="material-icons">arrow_forward</i></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="e-half">
-                            <div class="e-action">
-                                <a class="b-button m-naked" href="events.html">All Events<i class="material-icons">arrow_forward</i></a>
-                            </div>
-                        </div>
-                        <div class="e-half">
-                            <div class="e-action">
-                                <a class="b-button m-naked" href="{{event.url}}">{% if event.type == 'IdeasLunch' %}RSVP{% else %}Learn More{%endif%}<i class="material-icons">arrow_forward</i></a>
+                            <div class="e-half">
+                                <div class="e-action">
+                                    <a class="b-button m-naked" href="{{event.url}}">{% if event.type == 'IdeasLunch' %}RSVP{% else %}Learn More{%endif%}<i class="material-icons">arrow_forward</i></a>
+                                </div>
                             </div>
                         </div>
                     </div>

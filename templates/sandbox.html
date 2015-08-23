@@ -1,22 +1,48 @@
-
 {% extends "base.html" %}
 {% block content %}
-<section class="b-projects-landing sandbox">
-    <div class="wrap">
-{% for item in projects %}
-    <p class="question">{{item.related_question }}</p>
-    {% for project in projects %}
-        {% if project.related_question == item.related_question %}
-    <p>{{project.title}}</p>
-        {% endif %}
-    {% endfor %}
+<section class="b-events-landing">
+    <header class="b-top-section">
+        <h1>Upcoming events</h1>
+    </header>
+</section>
+<section class="b-event-list">
+    
+    {% for event in events %}
+        <div class="e-event-item m-{{event.type | slug}}" style="background-image:url(static/img/events/{{event.image}})">
+            <div class="e-wrap">
+                <div>
+                    <div class="e-half">
+                        <h4 class="e-event-type">{{event.type}}</h4>
+                    </div>
+                    <div class="e-half">
+                        <h4 class="e-event-heading">{{event.date}}</h4>
+                    </div>
+                </div>
+                <div>
+                    <div class="e-half">
+                        <h2>{{event.title}}</h2>
+                        <h3>{{event.guest}}</h3>
+                    </div>
+                    <div class="e-half">
+                        <p>{{event.short_description}}</p>
+                    </div>
+                </div>
+                <div class="e-action">
+                    <div class="e-half"><a class="b-button m-naked" href="{{event.url}}">{% if event.type == 'IdeasLunch' %}RSVP{% else %}Learn More{%endif%}<i class="material-icons">arrow_forward</i></a></div>
+                    <div class="e-half">
+                        <span class="b-button m-naked js-event-trigger">More Info<i class="material-icons">expand_more</i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="e-long-description">
+            <div class="e-wrap">
+                {{event.long_description}}
+            </div>
+        </div>
+    {% endfor %}    
+</section>
 
-
-
-
-
-
-{% endfor %}
 </div>
 </section>
 {% endblock %}
