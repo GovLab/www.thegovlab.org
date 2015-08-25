@@ -8,7 +8,7 @@
     height: 680px;
 
     @include breakpoint($desktop) {
-        height: 500px;    
+        height: 400px;    
         padding: 0;
     }
 
@@ -27,7 +27,7 @@
         line-height: 1.4;
         text-transform: uppercase;
         color: $white;
-        margin: 80px auto 50px auto;
+        margin: 40px auto 50px auto;
         font-weight: 400;
         letter-spacing: 1px;
         margin-bottom: 65px;

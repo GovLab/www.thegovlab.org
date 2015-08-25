@@ -8,7 +8,7 @@ The GovLab:   -->
 {% block content %}
     <section id="homepage-banner" class="b-landing-questions b-top-section large-header">
         <canvas id="demo-canvas"></canvas>
-        <h2 class="e-question">Deepening our understanding of how to govern<br> more effectively and legitimately</h2>
+        <h2 class="e-question">Deepening our understanding of how to govern<br> more effectively and legitimately using technology</h2>
         <a href="#" class="b-button m-purple">Find out More<i class="material-icons">arrow_forward</i></a>
     </section>
     <section class="b-govlab-fronts">
@@ -246,6 +246,7 @@ The GovLab:   -->
 
         <div class="e-banner-container">
             {% for event in events %}
+                {% if event.is_featured %}
                 <section id="{{event.guest | slug}}" class="b-featured-content m-event" style="background-image: url(static/img/events/{{event.image}})">
                     <header>
                         <div class="e-banner-controls">
@@ -255,7 +256,8 @@ The GovLab:   -->
                         <div class="e-wrap">
                             <div class="e-banner-index">
                                 {% set outer_loop = loop %}
-
+                                
+                                <!-- Esse loop está pegando o número total de eventos, e não somente os "is_fatured" -->
                                 {% for x in range(outer_loop.length) %}
                                     <span{% if outer_loop.index == loop.index %} class="m-active"{% endif %}></span>
                                 {% endfor %}
@@ -293,6 +295,7 @@ The GovLab:   -->
                         </div>
                     </div>
                 </section>
+                {% endif %}    
             {% endfor %}
         </div>
     </div>

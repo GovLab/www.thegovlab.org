@@ -768,7 +768,7 @@ button:focus {
   height: 680px; }
   @media (min-width: 1025px) {
     .b-landing-questions {
-      height: 500px;
+      height: 400px;
       padding: 0; } }
   .b-landing-questions canvas {
     position: absolute;
@@ -782,7 +782,7 @@ button:focus {
     line-height: 1.4;
     text-transform: uppercase;
     color: white;
-    margin: 80px auto 50px auto;
+    margin: 40px auto 50px auto;
     font-weight: 400;
     letter-spacing: 1px;
     margin-bottom: 65px; }
