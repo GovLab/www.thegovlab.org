@@ -6,17 +6,27 @@
         background-color: $gray-10;
         padding-top: 20px;
         padding-bottom: 40px;
+        text-align: center;
+        vertical-align: baseline;
 
-        @include breakpoint($desktop) {padding: 0;}
 
-        h1 { 
-            text-align: center;
-            font-weight: 400;
-            font-size: 24px;
+        @include breakpoint($desktop) { padding: 0; }
+
+        h2 { 
+            font-weight: 600;
+            font-size: 20px;
             text-transform: uppercase;
-            color: $white-90;
-            margin: 0;
+            margin: 0 20px;
             padding-bottom: 20px;
+            display: inline-block;
+            color: $white-20;
+            line-height: 1;
+
+        }
+
+        h2.m-active {
+            font-size: 24px;
+            color: $white-80;
         }
     }
 }
@@ -96,18 +106,6 @@
         }
     }
 
-    .e-event-item:nth-child(2n):after {
-        background-color: $gray-05;
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        z-index: 10;
-        content: '';
-        pointer-events: none;
-    }
-
     .e-long-description {
         max-height: 0;
         height: auto;
@@ -116,7 +114,7 @@
         background-color: $black;
         color: $white-60;
         box-shadow: inset 0 0 20px $gray-30;
-        @include transition;
+        transition: all 0.8s ease-in;
 
         a {text-decoration: underline;}
 
@@ -127,7 +125,23 @@
     }
 }
 
+.e-event-item::before {
+    background-color: $gray-05;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    content: '';
+    pointer-events: none;
+}
+
+.e-event-item:nth-child(2n)::before {
+    background-color: $gray-50;
+}
+
 .e-event-item.m-active + .e-long-description {
     max-height: 2000px !important;
-    @include transition;
+    transition: all 0.8s ease-out;
 }

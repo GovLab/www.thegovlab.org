@@ -1439,18 +1439,24 @@ button:focus {
   .b-events-landing header {
     background-color: rgba(0, 0, 0, 0.1);
     padding-top: 20px;
-    padding-bottom: 40px; }
+    padding-bottom: 40px;
+    text-align: center;
+    vertical-align: baseline; }
     @media (min-width: 1025px) {
       .b-events-landing header {
         padding: 0; } }
-    .b-events-landing header h1 {
-      text-align: center;
-      font-weight: 400;
-      font-size: 24px;
+    .b-events-landing header h2 {
+      font-weight: 600;
+      font-size: 20px;
       text-transform: uppercase;
-      color: rgba(255, 255, 255, 0.9);
-      margin: 0;
-      padding-bottom: 20px; }
+      margin: 0 20px;
+      padding-bottom: 20px;
+      display: inline-block;
+      color: rgba(255, 255, 255, 0.2);
+      line-height: 1; }
+    .b-events-landing header h2.m-active {
+      font-size: 24px;
+      color: rgba(255, 255, 255, 0.8); }
 
 .b-event-list {
   background-color: #523080; }
@@ -1506,16 +1512,6 @@ button:focus {
       letter-spacing: 1px; }
     .b-event-list .e-event-item .e-action {
       margin-top: 20px; }
-  .b-event-list .e-event-item:nth-child(2n):after {
-    background-color: rgba(0, 0, 0, 0.05);
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 10;
-    content: '';
-    pointer-events: none; }
   .b-event-list .e-long-description {
     max-height: 0;
     height: auto;
@@ -1524,7 +1520,7 @@ button:focus {
     background-color: #333;
     color: rgba(255, 255, 255, 0.6);
     box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.3);
-    transition: all .4s ease; }
+    transition: all 0.8s ease-in; }
     .b-event-list .e-long-description a {
       text-decoration: underline; }
     .b-event-list .e-long-description .e-wrap {
@@ -1533,8 +1529,22 @@ button:focus {
       margin-right: auto;
       padding: 40px 0; }
 
+.e-event-item::before {
+  background-color: rgba(0, 0, 0, 0.05);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  content: '';
+  pointer-events: none; }
+
+.e-event-item:nth-child(2n)::before {
+  background-color: rgba(0, 0, 0, 0.5); }
+
 .e-event-item.m-active + .e-long-description {
   max-height: 2000px !important;
-  transition: all .4s ease; }
+  transition: all 0.8s ease-out; }
 
 /*# sourceMappingURL=styles.css.map */
