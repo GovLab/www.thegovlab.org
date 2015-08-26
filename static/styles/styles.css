@@ -1072,9 +1072,12 @@ button:focus {
     max-width: 1025px;
     margin-left: auto;
     margin-right: auto;
+    -webkit-display: flex;
     display: flex;
+    -webkit-flex-wrap: wrap;
     flex-wrap: wrap; }
   .b-single-results .e-half {
+    -webkit-flex: 1;
     flex: 1;
     min-width: 350px; }
     @media (min-width: 1025px) {
@@ -1447,13 +1450,16 @@ button:focus {
       padding-bottom: 20px;
       display: inline-block;
       color: rgba(255, 255, 255, 0.2);
-      line-height: 1; }
+      line-height: 1;
+      cursor: pointer; }
     .b-events-landing header h2.m-active {
       font-size: 24px;
       color: rgba(255, 255, 255, 0.8); }
 
 .b-event-list {
   background-color: #523080; }
+  .b-event-list .e-event-passed {
+    display: none; }
   .b-event-list .e-event-item {
     padding: 40px 0;
     background-repeat: no-repeat;
