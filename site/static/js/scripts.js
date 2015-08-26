@@ -40,6 +40,22 @@ $(document).ready(function($) {
 
 
     // Events Page
+    $('.e-list-selector .e-show-passed').click(function() {
+        $('.e-show-upcoming').removeClass('m-active');
+        $(this).addClass('m-active');
+
+        $('.b-event-list .e-event-upcoming').hide();
+        $('.b-event-list .e-event-passed').show();
+    });
+    $('.e-list-selector .e-show-upcoming').click(function() {
+        $('.e-show-passed').removeClass('m-active');
+        $(this).addClass('m-active');
+
+        $('.b-event-list .e-event-passed').hide();
+        $('.b-event-list .e-event-upcoming').show();
+    });
+
+
     $('.js-event-trigger').click(function() {
         $(this).parent().parent().parent().parent().addClass('m-active');
         $overlay.addClass('m-active');

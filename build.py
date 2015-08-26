@@ -1,44 +1,59 @@
 # -*- coding: utf-8 -*-
 
 from os import path, getcwd, makedirs, listdir, remove
+from sys import argv
 from yaml import load
 from shutil import rmtree
 from slugify import slugify
+from datetime import date, datetime
 from staticjinja import make_site
 
+_AUTO_RELOAD = True
 
-# We define constants for the deployment.
+_TODAY = date.today()
+
+# Define constants for the deployment.
 _SEARCHPATH = path.join(getcwd(), 'templates')
 _OUTPUTPATH = path.join(getcwd(), 'site')
 
-# We load the data we want to use in the templates.
-_EVENTS = load(open('data/events.yaml'))
-_PROJECTS = load(open('data/projects.yaml'))
+# Load the data we want to use in the templates.
+_EVENTS = path.join(getcwd(), 'data/events.yaml')
+_PROJECTS = path.join(getcwd(), 'data/projects.yaml')
+
+_SLUG = lambda x: slugify(x.lower() if x else '')
 
 
-# Create a filter for slugs.
-def slug(text):
-    return slugify(text.lower() if text else '')
+def filters():
+    return {'slug': _SLUG}
 
 
-def loadData():
-    evt = []
+def context():
     dic = {}
 
-    for x in _EVENTS:
-        if x.get('is_featured'):
-            # x['date'] = parse_to_date(x['date'])
-            #
-            # if x['date'] > today:
+    dic['events'] = load(open(_EVENTS))
+    dic['projects'] = load(open(_PROJECTS))
 
-            evt.append(x)
+    for x in dic['events']:
+        x['date'] = datetime.strptime(x['date'], '%m-%d-%Y').date()
+        x['has_passed'] = x['date'] <= _TODAY
+        x['is_featured'] = str(x.get('is_featured', '')).lower()
 
-    # evt.sort(key=lambda x: x['date'])
+        if x['is_featured'] in ['1', 'true', 'yes', 'on']:
+            x['is_featured'] = True
 
-    dic['events'] = _EVENTS
-    dic['projects'] = _PROJECTS
-    dic['featured_events'] = evt[:3]
-    dic['featured_projects'] = [x for x in _PROJECTS if x.get('is_featured')]
+        else:
+            x['is_featured'] = False
+
+    for x in dic['projects']:
+        x['is_featured'] = str(x.get('is_featured', '')).lower()
+
+        if x['is_featured'] in ['1', 'true', 'yes', 'on']:
+            x['is_featured'] = True
+
+        else:
+            x['is_featured'] = False
+
+    dic['events'].sort(key=lambda x: x['date'])
 
     return dic
 
@@ -58,11 +73,11 @@ def cleanup():
     makedirs(_OUTPUTPATH)
 
 
-def create_custom_templates():
+def create_custom_templates(projects):
     template = open('%s/project.html' % _SEARCHPATH).read()
 
-    for index, project in enumerate(_PROJECTS):
-        filename = slug(project['title'])
+    for index, project in enumerate(projects):
+        filename = _SLUG(project['title'])
         new_file = open('%s/project-%s.html' % (_SEARCHPATH, filename), 'w+')
         new_page = template.replace('projects[0]', 'projects[%d]' % index)
 
@@ -71,16 +86,28 @@ def create_custom_templates():
 
 
 if __name__ == '__main__':
-    site = make_site(
-        filters={'slug': lambda x: slug(x)},
-        outpath=_OUTPUTPATH,
-        contexts=[(r'.*.html', loadData)],
-        searchpath=_SEARCHPATH,
-        staticpaths=['static', '../data']
-    )
+    auto = _AUTO_RELOAD
+    ctxt = context()
+    filt = filters()
+    site = {}
 
     cleanup()
+    create_custom_templates(ctxt['projects'])
 
-    create_custom_templates()
+    # Accept CLI parameter to turn the auto reloader on and off.
+    if len(argv) == 2:
+        arg = argv[1].lower()
 
-    site.render(use_reloader=True)
+        if arg in ['0', 'false', 'off', 'no']:
+            auto = False
+
+        elif arg in ['1', 'true', 'on', 'yes']:
+            auto = True
+
+    site['filters'] = filt
+    site['outpath'] = _OUTPUTPATH
+    site['contexts'] = [(r'.*.html', lambda: ctxt)]
+    site['searchpath'] = _SEARCHPATH
+    site['staticpaths'] = ['static']
+
+    make_site(**site).render(use_reloader=auto)

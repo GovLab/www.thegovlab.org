@@ -5,15 +5,18 @@
 
     .e-wrap {
         @include wrap;
+        -webkit-display: flex;
         display: flex;
+        -webkit-flex-wrap: wrap;
         flex-wrap: wrap;
     }
 
     .e-half {
+        -webkit-flex: 1;
         flex: 1;
         min-width: 350px;
 
-        &:nth-of-type(2n) { 
+        &:nth-of-type(2n) {
             @include breakpoint($desktop) { padding-right: 30px; }
         }
     }

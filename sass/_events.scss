@@ -12,7 +12,7 @@
 
         @include breakpoint($desktop) { padding: 0; }
 
-        h2 { 
+        h2 {
             font-weight: 600;
             font-size: 20px;
             text-transform: uppercase;
@@ -21,6 +21,7 @@
             display: inline-block;
             color: $white-20;
             line-height: 1;
+            cursor: pointer;
 
         }
 
@@ -33,6 +34,10 @@
 
 .b-event-list {
     background-color: $purple;
+
+    .e-event-passed {
+        display: none;
+    }
 
     .e-event-item {
         padding: 40px 0;
@@ -84,9 +89,9 @@
             font-weight: 400;
             margin-bottom: 40px;
         }
-            
+
         h3 { font-weight: 400; }
-        
+
         .e-event-type {
             font-size: 18px;
             text-transform: uppercase;
@@ -118,8 +123,8 @@
 
         a {text-decoration: underline;}
 
-        .e-wrap { 
-            @include wrap; 
+        .e-wrap {
+            @include wrap;
             padding: 40px 0;
         }
     }

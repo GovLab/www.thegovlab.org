@@ -35,8 +35,8 @@ The GovLab:   -->
     </section>
     <div class="b-featured-content-wrapper">
         <div class="e-banner-container">
-            {% for project in featured_projects %}
-                <section id="{{project.title | slug}}" class="b-featured-content m-project">
+            {% for project in projects if project.is_featured %}
+                <section id="{{project.title|slug}}" class="b-featured-content m-project">
                     <header>
                         <div class="e-banner-controls">
                             <i class="material-icons e-banner-control m-prev">keyboard_arrow_left</i>
@@ -245,9 +245,8 @@ The GovLab:   -->
         </div>
 
         <div class="e-banner-container">
-            {% for event in events %}
-                {% if event.is_featured %}
-                <section id="{{event.guest | slug}}" class="b-featured-content m-event" style="background-image: url(static/img/events/{{event.image}})">
+            {% for event in events if event.is_featured and not event.has_passed %}
+                <section id="{{event.guest|slug}}" class="b-featured-content m-event" style="background-image: url(static/img/events/{{event.image}})">
                     <header>
                         <div class="e-banner-controls">
                             <i class="material-icons e-banner-control m-prev">keyboard_arrow_left</i>
@@ -256,7 +255,7 @@ The GovLab:   -->
                         <div class="e-wrap">
                             <div class="e-banner-index">
                                 {% set outer_loop = loop %}
-                                
+
                                 <!-- Esse loop está pegando o número total de eventos, e não somente os "is_fatured" -->
                                 {% for x in range(outer_loop.length) %}
                                     <span{% if outer_loop.index == loop.index %} class="m-active"{% endif %}></span>
@@ -275,7 +274,7 @@ The GovLab:   -->
                                 </div>
                             </div>
                             <div class="e-half">
-                                <h4 class="e-event-heading">{{event.date}}</h4>
+                                <h4 class="e-event-heading">{{event.date.strftime("%B %d")}}</h4>
                                 <div class="e-content">
                                     <p>{{event.short_description}}</p>
                                 </div>
@@ -295,7 +294,6 @@ The GovLab:   -->
                         </div>
                     </div>
                 </section>
-                {% endif %}    
             {% endfor %}
         </div>
     </div>

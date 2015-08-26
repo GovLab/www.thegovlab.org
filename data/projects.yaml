@@ -1,12 +1,12 @@
-- title:  Network of Innovators 
+- title:  Network of Innovators
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
-  is_featured: 1
+  is_featured: 1 #integer
   is_active: True
   tagline: Find collaborators. <br>Create alliances. <br>Learn from others. #oneliner
   related_question: How to match the <strong>demand to the supply of expertise</strong> #question
   project_website: noi.thegovlab.org #url
   github: https://github.com/GovLab/ottawa-final
-  location: 
+  location:
     - Australia
     - Argentina
     - Canada
@@ -21,7 +21,7 @@
     - "Chile, Ministerio de la Secretaria General de la Presidencia"
     - "Mexico, Directora General de Datos Abiertos, Coordinación de Estrategia Digital Nacional Presidencia de la República and Director General de Innovación y Participación Ciudadana, Estrategia Digital Nacional, Presidencia de la Republica"
     - "United Kingdom, Director of Open Data and Government Innovation at the Cabinet Office, Open Government Lead"
-  team: 
+  team:
     - name: Beth Noveck
       job: Director of the GovLab
     - name: Arnaud Sahuguet
@@ -66,14 +66,14 @@
     - network-of-innovators-06.jpg
     - network-of-innovators-07.jpg
     - network-of-innovators-08.jpg
-  results: > 
+  results: >
     <p>This project is still in its infancy with deployments of the platform in eight countries anticipated during 2015. The anticipated impact, however, is greater understanding and demonstration of how targeting people -- in this case government employees -- on the basis of their skills can accelerate innovation.</p>
   related_articles:
     - "https://medium.com/@bethnoveck/matching-demand-to-the-supply-of-open-data-know-how-the-network-of-innovators-experiment-e410df91556a"
     - "http://thegovlab.org/network-of-innovators-expert-networking-for-open-data/"
     - "https://medium.com/@bethnoveck/the-network-of-innovators-experiment-what-we-are-learning-about-expertise-matching-6470ebe5fbe0"
 
-- title: 'Docker for Data' 
+- title: 'Docker for Data'
   type: 'Data' # Data, Collective Intelligence or Design Thinking
   is_featured: 1 #integer
   is_active: True
@@ -81,10 +81,10 @@
   related_question: How to enable data sharing from the <strong>public sector</strong> and <strong>private sectors</strong>
   project_website: http://dockerfordata.com
   github:
-  location: 
+  location:
     - Global
   partners: 'Open Source GovLab Platform'
-  team: 
+  team:
     - name: John Krauss
       job: Senior Engineer
   tags:
@@ -109,7 +109,7 @@
         - platform
   status: test
   problem_statement: How to make open data usable?
-  short_description: > 
+  short_description: >
     <p>Docker for Data is a cloud-based software toolkit to speed up the extraction and loading of large open datasets. Using Docker for Data, a user can load data like New York City’s deeds and mortgages directly into a powerful SQL database in just minutes instead of hours. Docker for Data helps to answer the question: how do we make open data more useful?</p>
   tooltip: >
     Users no longer have to worry about schemas, transformations, load processes, or waiting for slow data portals. Data from many formats is standardized and ready to go, fast. Installation is a snap: users don’t even need a SQL database installed beforehand. Docker for Data can be installed with <a href="https://github.com/talos/docker4data#try-it-out">one line of code</a>.
@@ -120,7 +120,7 @@
     <p>Docker for Data gives open data users a command that can install a broad variety of data sets into a SQL database directly.</p>
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
-  results: > 
+  results: >
     <p>Because Docker for Data archives the extracted data sets, it functions as a repository for usable open data. On Docker, you can find:</p>
     <ul>
       <li>Over 100GB of data</li>
@@ -133,16 +133,16 @@
 
 - title: 'The GovLab Public Projects Canvas' #will generate slug from this attr
   type: 'Design Thinking' # Data, Collective Intelligence or Design Thinking
-  is_featured: #integer
+  is_featured: 0 #integer
   is_active: True
   tagline: Taking a public interest project from idea to implementation
   related_question: How to take innovative public interest projects <strong>from idea to implementation</strong>
   project_website: http://govlabacademy.org/canvas/
   github:
-  location: 
+  location:
     - Global
   partners: John S. and James L. Knight Foundation
-  team: 
+  team:
     - name: Beth Simone Noveck
       job: Director of The GovLab
     - name: Dinorah Cantu
@@ -170,7 +170,7 @@
         - 'training, coaching & mentorship'
   status: complete
   problem_statement: How to catalyze more governance innovators and policy entrepreneurs?
-  short_description: > 
+  short_description: >
     <p>The GovLab Public Projects Canvas is a 20-question fillable form available to help public interest innovators develop more effective projects. The Canvas platform enables teams to collaborate on drafting. Each question has a comments field to facilitate mentors and experts offering feedback.</p>
   tooltip: >
   long_description: >
@@ -184,21 +184,21 @@
     </ul>
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
-  results: > 
+  results: >
     <p>The Canvas has supported coaching programs for 80+ project teams from 20+ countries with the assistance of faculty members and coaches from 5 universities and a variety of governments NGOs such as the World Bank and companies as well as  12 semester-long Masters-level academic courses delivered to students from several professional schools at NYU, MIT, and Arizona State University, as well as to more than 70 non-credit participants from more than a dozen US cities and half a dozen foreign countries. In aggregate, 500+ participants working on 250 projects have used the Canvas.</p>
   related_articles:
     - "http://www.nesta.org.uk/blog/tech4labs-issue-4-canvassing-value-proposition-your-public-lab-project#sthash.QtPH0Mtv.dpuf"
 
 - title: The GovLab Academy #will generate slug from this attr
   type: 'Design Thinking' # Data, Collective Intelligence or Design Thinking
-  is_featured: #integer
+  is_featured: 0 #integer
   is_active: True
   tagline: #oneliner
   related_question: How to take innovative public interest projects <strong>from idea to implementation</strong>
   project_website: #url
-  location: 
-  partners: 
-  team: 
+  location:
+  partners:
+  team:
     - name: #name
       job: #job
   tags:
@@ -210,9 +210,9 @@
         - #tag
     product_category:
         - #tag
-  status: 
+  status:
   problem_statement: How to catalyze more governance innovators and policy entrepreneurs? #question
-  short_description: > 
+  short_description: >
     <p></p>
   tooltip: >
     <p></p>
@@ -223,7 +223,7 @@
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
     - #url
-  results: > 
+  results: >
     <p></p>
   related_articles:
     - #url
@@ -231,15 +231,15 @@
 
 - title: Data Collaboratives  #will generate slug from this attr
   type: 'Data' # Data, Collective Intelligence or Design Thinking
-  is_featured: #integer
+  is_featured: 0 #integer
   is_active: True
   tagline: Sharing private data for public good #oneliner
   related_question: How to enable data sharing from the <strong>public sector</strong> and <strong>private sectors</strong> #question
   project_website: https://data-collaboratives.topi.com/ #url
-  location: 
+  location:
     - United States
   partners: World Economic Forum
-  team: 
+  team:
     - name: Stefaan Verhulst #name
       job: #job
   tags:
@@ -262,7 +262,7 @@
         - strategy
   status: define
   problem_statement: How to combine private and public data to solve problems? #question
-  short_description: > 
+  short_description: >
     <p>The Data Collaboratives Directory is a repository and taxonomy of case studies showing how public and private organizations work together to exchange data. The Directory seeks to enable those exploring the value and practice of data. The GovLab and partners are also developing the first iteration of a practical toolkit to help those wishing to create new data collaboratives or accelerate those already in place. collaboratives to learn more about their value propositions, use cases, technical arrangements, legal frameworks, andpotential impact for the public good. Taken together, these case studies can also demonstrate the proof of concept necessary to build a foundation for future research and the acceleration of data collaboratives.</p>
   tooltip: >
     <p></p>
@@ -273,22 +273,22 @@
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
     - #url
-  results: > 
+  results: >
     <p></p>
   related_articles:
     - #url
 
 - title: NETmundial Solutions Map #will generate slug from this attr
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
-  is_featured: #integer
+  is_featured: 0 #integer
   is_active: True
   tagline: A tool to support distributed and participatory Internet governance built for the Internet Governance community by the community. #oneliner
   related_question: How to develop an <strong>open data map</strong> of responses and actors by <strong>leveraging collective intelligence</strong> #question
   project_website: https://map.netmundial.org/
-  location: 
+  location:
     - Global
-  partners: 
-  team: 
+  partners:
+  team:
     - name: Stefaan Verhulst #name
       job: #job
   tags:
@@ -300,16 +300,16 @@
         - Data
         - Open data
         - Collective Intelligence
-        - Crowdsourcing 
+        - Crowdsourcing
         - Design Thinking
         - Rapid Prototyping
     product_category:
-        - open data 
+        - open data
         - platform
         - mapping
   status: prototype
   problem_statement: 'How to map and visualize a dataset of policy alternatives, leveraging the crowd, to help policymakers make more informed choices?'#question
-  short_description: > 
+  short_description: >
     <p></p>
   tooltip: >
     <p></p>
@@ -332,21 +332,21 @@
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
     - #url
-  results: > 
+  results: >
     <p></p>
   related_articles:
     - "http://thegovlab.org/?s=Netmundial+solutions+map"
 
 - title: Open Data 500 Global Network  #will generate slug from this attr
   type: 'Data' # Data, Collective Intelligence or Design Thinking
-  is_featured: #integer
+  is_featured: 0 #integer
   is_active: True
   tagline: 'Making open government data more relevant, accessible, and actionable'#oneliner
   related_question: How to enable data sharing from the <strong>public sector</strong> and <strong>private sectors</strong> #question
   project_website: http://www.opendata500.com/ #url
-  location: 
-  partners: 
-  team: 
+  location:
+  partners:
+  team:
     - name: #name
       job: #job
   tags:
@@ -358,9 +358,9 @@
         - #tag
     product_category:
         - #tag
-  status: 
+  status:
   problem_statement: The OD500 Global Network starts from the assumption that only by mapping the use of Open Data within and across countries can new approaches for understanding the economic and social impact of open government data can be generated. #question
-  short_description: > 
+  short_description: >
     <p></p>
   tooltip: >
     <p></p>
@@ -371,21 +371,21 @@
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
     - #url
-  results: > 
+  results: >
     <p></p>
   related_articles:
     - #url
 
 - title: OPEN NYU #will generate slug from this attr
   type: 'Crowdsourcing Wisely' # Data, Collective Intelligence or Design Thinking
-  is_featured: #integer
+  is_featured: 0 #integer
   is_active: True
   tagline: #oneliner
   related_question: How to match the <strong>demand to the supply of expertise</strong> #question
   project_website: #url
-  location: 
-  partners: 
-  team: 
+  location:
+  partners:
+  team:
     - name: #name
       job: #job
   tags:
@@ -397,9 +397,9 @@
         - #tag
     product_category:
         - #tag
-  status: 
+  status:
   problem_statement: #question
-  short_description: > 
+  short_description: >
     <p></p>
   tooltip: >
     <p></p>
@@ -410,7 +410,7 @@
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
     - #url
-  results: > 
+  results: >
     <p></p>
   related_articles:
     - #url
@@ -499,14 +499,14 @@
 
 # - title:  #will generate slug from this attr
 #   type: '' # Data, Collective Intelligence or Design Thinking
-#   is_featured: #integer
+#   is_featured: 0 #integer
 # is_active: True
 #   tagline: #oneliner
 #   related_question: #question
 #   project_website: #url
-#   location: 
-#   partners: 
-#   team: 
+#   location:
+#   partners:
+#   team:
 #     - name: #name
 #       job: #job
 #   tags:
@@ -518,9 +518,9 @@
 #         - #tag
 #     product_category:
 #         - #tag
-#   status: 
+#   status:
 #   problem_statement: #question
-#   short_description: > 
+#   short_description: >
 #     <p></p>
 #   tooltip: >
 #     <p></p>
@@ -531,7 +531,7 @@
 #   social_media: #in the future we can have custom shareable messages for each project
 #   images: #images or screenshots of the project
 #     - #url
-#   results: > 
+#   results: >
 #     <p></p>
 #   related_articles:
 #     - #url

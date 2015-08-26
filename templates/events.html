@@ -3,22 +3,26 @@
 <section class="b-events-landing">
     <header class="b-top-section">
         <div class="e-list-selector">
-            <h2 class="m-active">Upcoming Events</h2>
-            <h2>Past Events</h2>
+            <h2 class="e-show-upcoming m-active">Upcoming Events</h2>
+            <h2 class="e-show-passed">Past Events</h2>
         </div>
     </header>
 </section>
 <section class="b-event-list">
-    
     {% for event in events %}
-        <div class="e-event-item m-{{event.type | slug}}" style="background-image:url(static/img/events/{{event.image}})">
+        <div class="e-event-item m-{{event.type|slug}}{% if event.has_passed %} e-event-passed{% else %} e-event-upcoming{% endif %}" style="background-image:url(static/img/events/{{event.image}})">
             <div class="e-wrap">
                 <div>
                     <div class="e-half">
                         <h4 class="e-event-type">{{event.type}}</h4>
                     </div>
                     <div class="e-half">
-                        <h4 class="e-event-heading">{{event.date}}</h4>
+                        {% if event.has_passed %}
+                            <h4 class="e-event-heading">{{event.date.strftime("%Y")}}</h4>
+
+                        {% else %}
+                            <h4 class="e-event-heading">{{event.date.strftime("%B %d")}}</h4>
+                        {% endif %}
                     </div>
                 </div>
                 <div>
@@ -38,12 +42,13 @@
                 </div>
             </div>
         </div>
+
         <div class="e-long-description">
             <div class="e-wrap">
                 {{event.long_description}}
             </div>
         </div>
-    {% endfor %}    
+    {% endfor %}
 </section>
 
 </div>
