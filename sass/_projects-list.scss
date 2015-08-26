@@ -72,7 +72,7 @@
 
 
     .e-project-question {
-        background-color: $teal-20k;
+        background-color: $gray-70;
         margin: 0;
         display: block;
         color: $white;
@@ -84,9 +84,9 @@
         @include breakpoint($desktop) { padding: 20px 40px; }
     }
 
-    &.m-data .e-project-question { background-color: $teal-20k;}
-    &.m-collective-intelligence .e-project-question { background-color: $orange-20k;}
-    &.m-design-thinking .e-project-question { background-color: $blue-20k;}
+    // &.m-data .e-project-question { background-color: $teal-20k;}
+    // &.m-collective-intelligence .e-project-question { background-color: $orange-20k;}
+    // &.m-design-thinking .e-project-question { background-color: $blue-20k;}
 
 
 

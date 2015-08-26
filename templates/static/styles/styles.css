@@ -1269,7 +1269,7 @@ button:focus {
     -webkit-flex: 4;
     flex: 4; } }
 .b-projects-list-wrapper .e-project-question {
-  background-color: #00616b;
+  background-color: rgba(0, 0, 0, 0.7);
   margin: 0;
   display: block;
   color: white;
@@ -1280,12 +1280,6 @@ button:focus {
   @media (min-width: 1025px) {
     .b-projects-list-wrapper .e-project-question {
       padding: 20px 40px; } }
-.b-projects-list-wrapper.m-data .e-project-question {
-  background-color: #00616b; }
-.b-projects-list-wrapper.m-collective-intelligence .e-project-question {
-  background-color: #be4936; }
-.b-projects-list-wrapper.m-design-thinking .e-project-question {
-  background-color: #006e8f; }
 @media (max-width: 800px) {
   .b-projects-list-wrapper .e-project-item {
     margin: 15px; } }
