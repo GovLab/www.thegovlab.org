@@ -38,18 +38,22 @@ $(document).ready(function($) {
         $overlay.removeClass('m-active');
     });
 
+    $('.js-bio-toggle').click(function() {
+        $(this).parent().toggleClass('m-active');
+    });
+
 
     // Events Page
     $('.e-list-selector .e-show-passed').click(function() {
-        $('.e-show-upcoming').removeClass('m-active');
-        $(this).addClass('m-active');
+        $('.e-show-upcoming').parent().removeClass('m-upcoming');
+        $(this).parent().addClass('m-passed');
 
         $('.b-event-list .e-event-upcoming').hide();
         $('.b-event-list .e-event-passed').show();
     });
     $('.e-list-selector .e-show-upcoming').click(function() {
-        $('.e-show-passed').removeClass('m-active');
-        $(this).addClass('m-active');
+        $('.e-show-passed').parent().removeClass('m-passed');
+        $(this).parent().addClass('m-upcoming');
 
         $('.b-event-list .e-event-passed').hide();
         $('.b-event-list .e-event-upcoming').show();
