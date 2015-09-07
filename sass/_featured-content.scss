@@ -75,6 +75,10 @@
         > div {
             display: -webkit-flex;
             display: flex;
+
+            @include breakpoint($mobile-only) {
+                flex-flow: column;
+            }
         }
     }
 
@@ -90,6 +94,11 @@
     .e-tags {
         list-style-type: none;
         padding-left: 0;
+        margin: 15px 0;
+
+        h5, li {
+            @include breakpoint($mobile-only) { display: inline-block; }
+        }
 
         h5 {
             font-size: 14px;
@@ -100,16 +109,16 @@
             margin-bottom: 0;
             color: $white-20;
 
+            @include breakpoint($mobile-only) { margin: 0; }
         }
 
         .e-tag {
             display: inline-block;
-            // background-color: $gray-10;
-            // padding: 2px 8px;
             margin-bottom: 4px;
             color: $white-80;
             font-size: 14px;
             letter-spacing: .6px;
+            @include breakpoint($mobile-only) { margin: 0; }
         }
     }
 
@@ -130,15 +139,17 @@
     .e-question {
         color: $white-70;
         font-weight: 200;
-        margin-top: 0;
-        margin-bottom: 30px;
+        margin: 0;
+        
         font-size: 18px;
         letter-spacing: .5px;
         line-height: 1.35;
         @include wrap;
 
-
-        @include breakpoint($desktop) { font-size: 22px; }
+        @include breakpoint($desktop) { 
+            font-size: 22px; 
+            margin-bottom: 30px;
+        }
     }
 
     .e-article-name {
@@ -170,14 +181,21 @@
 
     .e-content {
         color: $white-90;
-        @include breakpoint($desktop) {
-            margin-right: 40px;
-        }
+        @include breakpoint($desktop) { margin-right: 40px; }
 
         p {
-            @include breakpoint($desktop) {
-                margin-top: 0;
-            }
+            @include breakpoint($desktop) { margin-top: 0; }
+        }
+
+        a { 
+            color: $white-90;
+            text-decoration: underline;
+        }
+    }
+
+    .e-action-group {
+        @include breakpoint($mobile-only) {
+            margin-top: 20px;
         }
     }
 
@@ -199,6 +217,8 @@
             color: $white-10;
             cursor: pointer;
             @include transition;
+
+            // @include breakpoint($mobile-only) { opacity: 0;}
 
             &:hover { color: $white-50; }
 

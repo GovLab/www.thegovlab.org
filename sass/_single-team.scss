@@ -8,46 +8,67 @@
         font-size: 22px;
         text-transform: uppercase;
         letter-spacing: 1px;
+        padding: 0 0 20px;
     }
 
-    .e-wrap {
-        @include wrap;
+    .e-container {
+        text-align: center;
     }
 
     .e-person {
-        display: inline-block;
-        text-align: center;
-        padding: 20px;
-
-        @include breakpoint($desktop) { width: 33%; }
-        @include breakpoint($mobile-only) { display: block; }
-
+        @include breakpoint($mobile-only) { 
+            display: block; 
+            margin-bottom: 30px;
+        }
+        @include breakpoint($desktop) { 
+            display: inline-block; 
+            text-align: center;
+            padding: 0;
+            position: relative;
+            height: 0;
+        }
     }
 
     .e-person-pic {
         background-color: $white-20;
-        width: 150px;
-        height: 150px;
-        @include circle;
-        margin: 0 auto 10px;
+        margin: 0;
+        @include breakpoint($mobile-only) { 
+            width: 70%;
+            height: 0;
+            padding-bottom: 70%;  
+        }
+        display: inline-block;
+        min-height: 120px;
+        min-width: 120px;
         background-size: cover;
-        background-position: center top;
+        background-position: center center;
+        @include circle;
+        @include breakpoint($desktop) {
+            height: 150px;
+            width: 150px;
+            margin: 0 20px;
+        }
     }
 
     .e-team-info {
         vertical-align: top;
-        color: $white-70;
+        
         letter-spacing: .5px;
     }
 
     .e-team-name {
         margin: 0;
         font-weight: 600;
+        font-size: 18px;
+        color: $white-70;
     }
 
     .e-team-job {
         margin: 0;
         font-weight: 400;
         line-height: 1;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: $white-40;
     }
 }

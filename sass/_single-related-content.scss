@@ -1,3 +1,5 @@
+
+
 .b-single-related-content {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -12,49 +14,55 @@
 
     .e-wrap {
         @include wrap;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-flex-wrap: wrap;
-        flex-wrap: wrap;
     }
 
-    .e-article-type {
-        font-size: 18px;
-        text-transform: uppercase;
-        margin-bottom: 0;
-        color: $gray-60;
-    }
+    .e-article {
+        padding: 10px;
+        border-bottom: 1px solid $gray-10;
+        cursor: pointer;
 
-    .e-title {
-        font-size: 28px;
-        line-height: 1.3;
-        font-weight: 800;
-        color: $teal;
-        text-transform: uppercase;
-    }
-
-    .e-half {
-        -webkit-flex: 1;
-        flex: 1;
-        min-width: 350px;
-        align-items: stretch;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-flex-flow: column;
-        flex-flow: column;
-
-        &:nth-of-type(odd) {
-            @include breakpoint($desktop) { padding-right: 60px; }
+        &:hover {
+            background-color: $gray-05;
         }
     }
-
-    .e-content {
-        -webkit-flex: 1;
-        flex: 1;
-    }
-
-    .b-button.m-naked {
-        color: $teal;
-        &:hover {background-color: $gray-10;}
-    }
 }
+//     .e-article-type {
+//         font-size: 18px;
+//         text-transform: uppercase;
+//         margin-bottom: 0;
+//         color: $gray-60;
+//     }
+
+//     .e-title {
+//         font-size: 28px;
+//         line-height: 1.3;
+//         font-weight: 800;
+//         color: $teal;
+//         text-transform: uppercase;
+//     }
+
+//     .e-half {
+//         -webkit-flex: 1;
+//         flex: 1;
+//         min-width: 350px;
+//         align-items: stretch;
+//         display: -webkit-flex;
+//         display: flex;
+//         -webkit-flex-flow: column;
+//         flex-flow: column;
+
+//         &:nth-of-type(odd) {
+//             @include breakpoint($desktop) { padding-right: 60px; }
+//         }
+//     }
+
+//     .e-content {
+//         -webkit-flex: 1;
+//         flex: 1;
+//     }
+
+//     .b-button.m-naked {
+//         color: $teal;
+//         &:hover {background-color: $gray-10;}
+//     }
+// }

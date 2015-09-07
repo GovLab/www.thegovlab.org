@@ -1,7 +1,17 @@
+{# Define a macro to render each project item #}
+{% macro team(name) -%}
+    <a class="e-person" href="./team.html#{{name | slug}}">
+        <div class="e-person-pic" style="background-image: url(./static/img/team/{{name | slug}}.jpg"></div>
+        <div class="e-team-info">
+            <h3 class="e-team-name">{{name}}</h3>
+        </div>
+    </a>
+{%- endmacro %} 
+
 {% extends "base.html" %}
-{% set project = projects[14] %}
+{% set project = projects[10] %}
 {% block content %}
-{% if project.tagline %}
+{% if project.problem_statement %}
 <section class="b-single-landing">
     <header class="b-top-section">
         <div class="b-breadcrumbs">
@@ -45,7 +55,7 @@
         <div class="e-half">
             <div class="e-content e-background">
                 <h4>Background</h4>
-                {{project.long_description}}
+                {{project.background}}
             </div>
         </div>
         <div class="e-progress m-{{project.status}}"><span></span><span></span><span></span><span></span></div>
@@ -65,8 +75,10 @@
 <section class="b-single-description {% if project.images %}m-slider{% endif %}">
     <div class="e-wrap">
         <h2>Description</h2>
-        <p class="e-description">An expert network of individuals, organizations and the projects they have worked on. Together with the communications tools to ask a question, create groups, and engage other for collaboration.
-        </p>
+        <div class="e-description">
+            {% if project.long_description %}{{ project.long_description }}
+            {% else %}{{project.short_description}}{% endif %}
+        </div>
     </div>
     {% if project.images %}
     <div class="b-project-slider slick">
@@ -76,13 +88,15 @@
     </div>
     {% endif %}
 </section>
+{% if project.results %}
 <section class="b-single-results">
     <div class="e-wrap">
-        <div class="e-half">
-            <h2 class="e-title">Results &amp; Impact</h2>
-            <p>These are the results and real world impact of this project. Otas eaque et quo inciisci veriorrorum aut veni omnis quatus cusdanditas dolum dem exeria di conescid quam dolorpo ratur, nullignima doluptis sedi officid etCerferion rati sint aut quam quas vero ipsame dolorum quiberiatis eium assum es eatempo rehento tatem.</p>
-        </div>
-        <div class="e-half">
+        <h2 class="e-title">Results &amp; Impact</h2>
+        {{ project.results }}
+        <!-- <div class="e-half">
+            
+        </div> -->
+        <!-- <div class="e-half">
             <img src="static/img/results-1.png" alt="">
         </div>
         <div class="e-half">
@@ -90,13 +104,19 @@
         </div>
         <div class="e-half">
             <img src="static/img/results-3.png" alt="">
-        </div>
+        </div> -->
     </div>
 </section>
+{% endif %}
+
+{% if project.related_articles %}
 <section class="b-single-related-content">
-    <h2>Articles About the Network of Innovators</h2>
+    <h2>More About the {{project.title}}</h2>
     <div class="e-wrap">
-        <article class="e-half e-blog">
+        {% for article in project.related_articles %}
+        <div class="e-article"><a href="{{article}}" target="_blank">Go to Article</a></div>
+        {% endfor %}
+        <!-- <article class="e-half e-blog">
             <h3 class="e-article-type">Blog</h3>
             <h2 class="e-title">The Role of the Network of Innovators</h2>
             <div class="e-content">
@@ -120,23 +140,22 @@
             <div class="e-action">
                 <a class="b-button m-naked" href="">Read More<i class="material-icons">arrow_forward</i></a>
             </div>
-        </article>
+        </article> -->
     </div>
 </section>
+{% endif %}
+
+{% if project.team %}
 <section class="b-team">
     <h2>Team</h2>
-    <div class="e-wrap">
-    {% for person in project.team %}
-    <div class="e-person">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/{{person.name | slug}}.jpg"></div>
-        <hgroup class="e-team-info">
-            <h4 class="e-team-name">{{ person.name }}</h4>
-            <h5 class="e-team-job">{{ person.job }}</h5>
-        </hgroup>
-    </div>
-    {% endfor %}
+    <div class="e-container">
+        {% for person in project.team %}
+            {{ team(person) }}
+        {% endfor %}
     </div>
 </section>
+{% endif %}
+
 {% endif %}
 
 {% endblock %}

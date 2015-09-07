@@ -48,13 +48,14 @@
 
         > form {
             display: block;
-            padding: 25px 0 0;
+            padding: 0;
 
             @include breakpoint($desktop) {
                 -webkit-flex: 3;
                 flex: 3;
                 display: -webkit-flex;
                 display: flex;
+                padding: 25px 0 0;
             }
 
             input {

@@ -1,12 +1,306 @@
-- title:  Network of Innovators
+- title: Docker for Data #will generate slug from this attr
+  type: 'Data' # Data, Collective Intelligence or Design Thinking
+  is_featured: 1 #integer
+  is_active: True
+  related_question: How to enable data sharing from the <strong>public sector</strong> and <strong>private sectors</strong>
+  project_website: http://dockerfordata.com
+  location: 
+    - Global
+  partners:
+  team:
+    - John Krauss
+  tags:
+    governance_area:
+      - Global Governance
+    type_of_institution:
+      - Nonprofit
+      - Academic
+      - Corporate/Business
+      - Public Sector
+    innovative_capability:
+      - Open data
+      - Big data
+    product_category:
+      - database
+      - dataset
+      - platform
+  status: test # define, prototype, test, complete
+  problem_statement: "How to make open data accessible & usable?" #question
+  short_description: >
+    <p>Docker for Data is a cloud-based open source toolkit to speed up the extraction and loading of large open datasets. It gives open data users a command that can install a broad variety of data sets into a SQL database directly. A user can load data like New York City’s deeds and mortgages directly into a powerful SQL database in just minutes instead of hours. </p>
+  long_description: >
+    <p>Docker for Data is a cloud-based open source toolkit to speed up the extraction and loading of large open datasets. It gives open data users a command that can install a broad variety of data sets into a SQL database directly. A user can load data like New York City’s deeds and mortgages directly into a powerful SQL database in just minutes instead of hours.</p>
+    <p>Users no longer have to worry about schemas, transformations, load processes, or waiting for slow data portals.  Data from many formats is standardized and ready to go, fast. Installation is a snap: users don’t even need a SQL database installed beforehand. Docker for Data can be installed with <a href="https://github.com/talos/docker4data#try-it-out" target="_blank">one line of code</a>.</p>
+  background: >
+    <p>Existing open data portals are focused on views of single data sets in the browser. This is great until you need to do deep analysis or build a business on it.</p>
+    <p>Downloading big datasets can take hours. It can take many more hours finding the location of important small datasets, especially those not living on the same portal. Add in a few more hours to load everything into a real database and figure out the relations, and you've spent days (or thousands of dollars) on something trivial. </p>
+    <p>It doesn’t have to be this hard.</p>
+  social_media: #in the future we can have custom shareable messages for each project
+  images: #images or screenshots of the project
+  results: 
+  related_articles:
+    - "https://docs.google.com/document/d/1B72xIrZxaSWvBh3BLysK5TdF0UuDaSKN99xfTmPLVLs/edit"
+
+
+# ==========================================================================================================================================================================================================================================#
+
+
+- title: The GovLab Public Projects Canvas #will generate slug from this attr
+  type: 'Design Thinking' # Data, Collective Intelligence or Design Thinking
+  is_featured: 1 #integer
+  is_active: True
+  related_question: How to take innovative public interest projects <strong>from idea to implementation</strong> #question
+  project_website: http://govlabacademy.org/canvas/ #url
+  location: 
+    - Global
+  partners: 
+    - John S. and James L. Knight Foundation
+  team:
+    - Beth Simone Noveck
+    - Dinorah Cantu
+    - Claudio Mendonca
+  tags:
+    governance_area:
+      - Internet Governance
+      - Global Governance
+      - Regional Governance
+      - National Governance
+      - Local Governance
+    type_of_institution:
+      - Nonprofit
+      - Academic
+      - Public Sector
+    innovative_capability:
+      - Design Thinking
+      - Agile Research
+      - Rapid Prototyping
+    product_category:
+      - platform
+      - "training, coaching & mentorship"
+  status: complete # define, prototype, test, complete
+  problem_statement: How to catalyze more governance innovators and policy entrepreneurs? #question
+  short_description: >
+    <p>Based on our experience <a href="http://govlabacademy.org/" target="_blank">teaching civic innovators</a>, the GovLab designed the Public Projects Canvas, a 20-question, collaborative framework to help those working on civic projects to become more impactful. In contrast to developing the business plan for a for-profit product, public projects demand consideration of key issues not captured by traditional canvasses, such as Sustainability and Impact, which are captured by the GovLab Canvas. </p>
+  long_description: >
+    <p>Based on our experience <a href="http://govlabacademy.org/" target="_blank">teaching civic innovators</a>, the GovLab designed the Public Projects Canvas, a 20-question, collaborative framework to help those working on civic projects to become more impactful. In contrast to developing the business plan for a for-profit product, public projects demand consideration of key issues not captured by traditional canvasses, such as Sustainability and Impact, which are captured by the GovLab Canvas. </p>
+    <p>At GovLab, we are using canvas for our internal projects and also for the coaching of 'students' in the context of the GovLab Academy. A canvas is a good way to bootstrap a brand new project. It can be also very useful for existing projects or even past projects.</p>
+  background: >
+    <p>According to Forbes, the Valley of Death is a common term in the startup world, referring to the difficulty of covering the negative cash flow in the early stages of a startup. For most Public interest projects,  the common death-traps include: </p>
+    <ul>
+      <li>Defining the problem clearly</li>
+      <li>Knowing how to navigate the necessary bureaucracies</li>
+      <li>Developing compelling materials to convince the decision-makers</li>
+      <li>Identifying how to measure what works.</li>
+    </ul>
+    <p>Canvases - proven frameworks to facilitate idea generation & structured discussions - have been widely used by companies and entrepreneurs; but not so much by non-profits or social actors, as they haven’t been able to capture the challenges that are unique to social and public ventures.</p>
+  social_media: #in the future we can have custom shareable messages for each project
+  images: #images or screenshots of the project
+  results: >
+    <p>80+ teams from 20+ countries used the Canvas to take their project from idea to implementation</p>
+  related_articles:
+    - "http://www.nesta.org.uk/blog/tech4labs-issue-4-canvassing-value-proposition-your-public-lab-project#sthash.QtPH0Mtv.dpuf"
+
+
+# ==========================================================================================================================================================================================================================================#
+
+
+- title: The GovLab Academy #will generate slug from this attr
+  type: 'Design Thinking' # Data, Collective Intelligence or Design Thinking
+  is_featured: 0 #integer
+  is_active: True
+  related_question: How to take innovative public interest projects <strong>from idea to implementation</strong> #question
+  project_website: http://govlabacademy.org #url
+  location: 
+    - Global
+  partners:
+    - John S. and James L. Knight Foundation
+  team:
+    - Beth Simone Noveck
+    - Alan Kantrow
+    - Dinorah Cantu
+  tags:
+    governance_area:
+      - National Governance
+      - Local Governance
+    type_of_institution:
+      - Nonprofit
+      - Academic
+      - Corporate/Business
+      - Public Sector
+    innovative_capability:
+      - Open innovation
+      - design thinking
+      - Agile Research
+      - Rapid Prototyping
+    product_category:
+      - "training, coaching & mentorship"
+  status: test # define, prototype, test, complete
+  problem_statement: "How to empower civic & policy entrepreneurs to develop impactful real-word projects?" #question
+  short_description: >
+    <p>Through coaching programs, workshops, courses and project clinics, and master classes, The GovLab Academy offers teams and individuals who are passionate about solving a public problem access to high-quality, curated content aimed at busy practitioners, mentoring designed to help take public interest projects from idea to implementation, connections to subject-matter experts, and tools for peer-to-peer learning and skill sharing.</p>
+  background: >
+    <p>Although many schools and programs teach the skills relevant to business innovation, aspiring public and social sector innovators have very few places to turn to receive the mentoring and support needed to take a technology-driven governance innovation project across a wide range of social issues from idea to implementation. Our objective has been to focus sharply on delivering learning experiences and support that make for successful governance innovation projects.</p>
+  social_media: #in the future we can have custom shareable messages for each project
+  images: #images or screenshots of the project
+  results: >
+    <p>500+ participants, 250 projects, 20+ countries, Faculty and coaches from 5 universities, 12 semester-long Masters-level academic courses delivered to students from NYU, MIT, and Arizona State University, +70 non-credit participants from more than a dozen US cities and half a dozen foreign countries. 
+    Governments & NGOs coached, including the World Bank</p>
+  related_articles:
+    - http://thegovlab.org/usda-and-govlab-academy-teamed-up-to-provide-a-first-of-its-kind-camp-for-dc-area-teens-focused-specifically-on-open-data-and-agriculture/
+    - http://thegovlab.org/the-govlab-academy-a-students-perspective/
+    - http://thegovlab.org/govlab-academy-coaching-programs-updates/
+    - http://thegovlab.org/intellibins-llc-announces-launch-of-private-beta-mobile-app/
+    - http://thegovlab.org/people-driven-governance-spains-podemos-party/
+    - http://thegovlab.org/dr-samir-k-brahmachari-on-the-open-source-drug-discovery-project/ 
+    - http://thegovlab.org/from-the-classroom-to-the-community-a-students-journey-post-solving-public-problems-using-technology/ 
+    - http://thegovlab.org/solving-public-problems-with-technology/ 
+
+- title: Data Collaboratives #will generate slug from this attr
+  type: 'Data' # Data, Collective Intelligence or Design Thinking
+  is_featured: 0 #integer
+  is_active: True
+  related_question: How to enable data sharing from the <strong>public and private sectors</strong>? #question
+  project_website: https://data-collaboratives.topi.com/
+  location: 
+    - United States
+  partners:
+    - World Economic Forum
+    - Leiden university
+  team:
+    - Stefaan Verhulst
+  tags:
+    governance_area:
+      - National Governance
+      - Local Governance
+    type_of_institution:
+      - Corporate/Business
+      - Public Sector
+    innovative_capability:
+      - Open data
+    product_category:
+      - case studies
+      - event / workshop
+      - strategy
+  status: define # define, prototype, test, complete
+  problem_statement: How to combine private and public data to solve problems? #question
+  short_description: >
+    <p>The Data Collaboratives Directory is a collection of case studies showing how public and private organizations work together to exchange data. The Directory seeks to enable those exploring the value and practice of data. We explore data collaboratives to learn more about their value propositions, use cases, technical arrangements, legal frameworks, and their potential impact for public good. Taken together, these case studies can also demonstrate the proof of concept necessary to build a foundation for future research and the acceleration of data collaboratives.</p>
+  long_description: >
+    <p>The Data Collaboratives Directory is a collection of case studies showing how public and private organizations work together to exchange data. The Directory seeks to enable those exploring the value and practice of data. We explore data collaboratives to learn more about their value propositions, use cases, technical arrangements, legal frameworks, and their potential impact for public good. Taken together, these case studies can also demonstrate the proof of concept necessary to build a foundation for future research and the acceleration of data collaboratives.</p>
+    <p>The GovLab and partners are also developing the first iteration of a practical toolkit to help those wishing to create new data collaboratives or to accelerate those that already in place.</p>
+  background: >
+    <p>Several of society’s greatest challenges — from addressing climate change to public health to job creation — require greater access to data. Yet for all the potential for using big data, a limiting factor is that much of the data valuable for solving public problems resides within the private sector. If we truly want to leverage the potential of data to improve people’s lives, then we need to accelerate the creation and use of “data collaboratives” in which participants from different sectors — including private companies, research institutions, and government agencies — can exchange data to help solve public problems.</p>
+  social_media: #in the future we can have custom shareable messages for each project
+  images: #images or screenshots of the project
+  related_articles:
+
+
+# ==========================================================================================================================================================================================================================================#
+
+
+- title: NETmundial Solutions Map #will generate slug from this attr
+  type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
+  is_featured: 0 #integer
+  is_active: True
+  related_question: How to develop an <strong>open data map</strong> of responses and actors by <strong>leveraging collective intelligence</strong> #question
+  project_website: https://map.netmundial.org/
+  location: 
+    - Global
+  partners:
+  team:
+    - Stefaan Verhulst
+  tags:
+    governance_area:
+      - Internet Governance
+    type_of_institution:
+      - Nonprofit
+    innovative_capability:
+      - Open data
+      - Crowdsourcing 
+    product_category:
+      - platform
+      - mapping
+  status: prototype # define, prototype, test, complete
+  problem_statement: "How to map and visualize a dataset of policy alternatives, leveraging the crowd, to help policymakers make more informed choices?" #question
+  short_description: >
+    <p>The <a href="https://map.netmundial.org/" target="_blank">NETmundial Solutions Map</a>, an activity of the <a href="https://www.netmundial.org/" target="_blank">NETmundial Initiative</a>, is a tool to support decision makers at all levels and across sectors to make informed decisions on how to govern different aspects of the Internet by providing an open platform of information sharing and collaboration across Internet governance issues. It is designed to facilitate a “distributed Internet governance ecosystem that can propel the Internet as a shared, neutral, and global resource for human solidarity and economic progress (<a href="https://www.netmundial.org/" target="_blank">NETmundial Initiative</a>).” </p>
+  long_description: >
+    <p>The <a href="https://map.netmundial.org/" target="_blank">NETmundial Solutions Map</a>, an activity of the <a href="https://www.netmundial.org/" target="_blank">NETmundial Initiative</a>, is a tool to support decision makers at all levels and across sectors to make informed decisions on how to govern different aspects of the Internet by providing an open platform of information sharing and collaboration across Internet governance issues. It is designed to facilitate a “distributed Internet governance ecosystem that can propel the Internet as a shared, neutral, and global resource for human solidarity and economic progress (<a href="https://www.netmundial.org/" target="_blank">NETmundial Initiative</a>).” </p>
+    <p>The Map, currently released in Beta,  is organized around connections between Internet governance issues, actors, solutions and resources and supports several functionalities, including:</p>
+    <ul>
+      <li>A searchable, interactive open database of issues, actors, solutions and resources</li>
+      <li>A visualization of connections between actors, responses and resources</li>
+      <li>A crowdsourced content repository</li>
+      <li>A platform to support action</li>
+    </ul>
+  background: >
+    <p>Across the world, the Internet has rapidly become essential to people’s daily lives. Access to the Internet impacts all aspects of society. Subsequently, how the Internet is governed has grown in importance but also has become much more complex to navigate. In particular: </p>
+    <ul>
+      <li>Information about internet governance is scattered and hard to find.</li>
+      <li>Internet governance is a global issue that requires collaboration and coordination, yet identifying who is already working on what issue within and across countries is currently difficult;</li>
+      <li>Information sharing on Internet governance can enable bottom-up participation and lead to increasingly legitimate and effective solutions</li>
+    </ul>
+
+  social_media: #in the future we can have custom shareable messages for each project
+  images: #images or screenshots of the project
+  related_articles:
+    - "http://thegovlab.org/?s=Netmundial+solutions+map"
+
+# ==========================================================================================================================================================================================================================================#
+
+
+- title: Open Data 500 Global Network #will generate slug from this attr
+  type: 'Data' # Data, Collective Intelligence or Design Thinking
+  is_featured: 0 #integer
+  is_active: True
+  related_question: How to enable data sharing from <strong>public sector</strong> to <strong>private sector</strong>
+  project_website: http://www.opendata500.com/
+  location:
+    - Australia
+    - Italy
+    - Korea
+    - Mexico
+    - U.S.
+  partners:
+  team:
+    - Stefaan Verhulst
+    - Julia Root
+    - John Krauss
+  tags:
+    governance_area:
+      - National Governance
+    type_of_institution:
+      - Corporate/Business
+      - Public Sector
+    innovative_capability:
+      - Open data
+    product_category:
+      - case studies
+      - dataset
+      - platform
+  status: test# define, prototype, test, complete
+  problem_statement: "How to make open government data more relevant, accessible, and actionable?"
+  short_description: >
+    <p>In 2014, GovLab launched <a href="http://www.opendata500.com" target="_blank">Open Data 500</a>, supported by the John S. and James L. Knight Foundation. The OD500 is the first comprehensive study of U.S. based companies that use open government data as a key business resource. The name “OD500” originates from the research ambition to identify 500 U.S. companies that are using open government data. The tool provides a way to map and visualize the relationships between companies and open government datasets, as well as to conduct other sector-by-sector analyses.</p>
+  long_description: >
+    <p>The <a href="http://www.opendata500.com" target="_blank">OD500 Global Network</a> is an international network of organizations that seek to study the use and impact of open data. Coordinated by the GovLab,  the OD500 Global Network enables participating organizations to analyze open data in their country in a manner that is both globally comparable and locally specific. The OD500 Global Network starts from the assumption that only by mapping the use of Open Data within and across countries can new approaches for understanding the economic and social impact of open government data can be generated.</p>
+  background:
+  social_media: #in the future we can have custom shareable messages for each project
+  images: #images or screenshots of the project
+  results: 
+  related_articles:
+
+
+# ==========================================================================================================================================================================================================================================#
+
+
+- title: Network of Innovators #will generate slug from this attr
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 1 #integer
   is_active: True
-  tagline: Find collaborators. <br>Create alliances. <br>Learn from others. #oneliner
   related_question: How to match the <strong>demand to the supply of expertise</strong> #question
   project_website: noi.thegovlab.org #url
-  github: https://github.com/GovLab/ottawa-final
-  location:
+  location: 
     - Australia
     - Argentina
     - Canada
@@ -16,56 +310,41 @@
     - United Kingdom
   partners:
     - "Argentina, Office of the Chief Technology Officer of Buenos Aires"
-    - "South Australia, Office of Participation and Partnerships External Relations, Strategic Engagement and Communications, Department of the Premier and Cabinet, Government of South Australia"
+    - "South Australia, Office of Participation and Partnerships"
+    - "External Relations, Strategic Engagement and Communications, Department of the Premier and Cabinet, Government of South Australia"
     - "Canada, Policy Innovation, Central Innovation HUB and Executive Director, Citizen Engagement, Government Communications and Public Engagement, British Columbia"
-    - "Chile, Ministerio de la Secretaria General de la Presidencia"
-    - "Mexico, Directora General de Datos Abiertos, Coordinación de Estrategia Digital Nacional Presidencia de la República and Director General de Innovación y Participación Ciudadana, Estrategia Digital Nacional, Presidencia de la Republica"
+    - "Chile, Ministerio de la Secretaria General de la Presidencia Mexico, Directora General de Datos Abiertos, Coordinación de strategia Digital Nacional Presidencia de la República and Director General de Innovación y Participación Ciudadana, Estrategia Digital Nacional, Presidencia de la Republica"
     - "United Kingdom, Director of Open Data and Government Innovation at the Cabinet Office, Open Government Lead"
   team:
-    - name: Beth Noveck
-      job: Director of the GovLab
-    - name: Arnaud Sahuguet
-      job: CTO
-    - name: Batu Sayici
-      job: Director of User Experience
-    - name: Andrew Young
-      job: Associate Director of Research
-    - name: Claudio Mendonca
-      job: Front-end Designer and Developer
-    - name: Anupama Sharma
-      job: Intern
+    - Beth Simone Noveck
+    - Arnaud Sahuguet
+    - Batu Sayici
+    - Anupama Sharma
+    - Andrew Young
+    - John Krauss
+    - Claudio Mendonca
   tags:
     governance_area:
-        - Regional Governance
-        - National Governance
+      - Regional Governance
+      - National Governance
     type_of_institution:
-        - Public Sector
+      - Public Sector #tag
     innovative_capability:
-        - Collective Intelligence
-        - Expert Networks
-        - Design Thinking
-        - Rapid Prototyping
+      - Collective Intelligence
+      - Expert networks
+      - Design Thinking
+      - Rapid Prototyping
     product_category:
-        - Digital Platform
-  status: prototype
-  problem_statement: Does targeting expertise within government accelerate innovation? #question
-  short_description:
-  tooltip: >
-    <p></p>
-  long_description: >
+      - platform #tag
+  status: prototype # define, prototype, test, complete
+  problem_statement: Can we accelerate innovation in government by making expertise of individuals searchable? #question
+  short_description: >
     <p>An expert network to match innovative individuals, organizations and the projects they have worked on within and across governments. NoI adopts a more nuanced way of sharing and finding expertise — one that looks beyond traditional credentials to focus on real world know-how. Instead of rigid categories or open-ended tags, NoI attempts to get at what people know by asking the kinds of questions they could answer. In response to those questions, they can specify the expertise they have and want to share: whether they have the ability to do something, to tell someone about it, or to refer them to others knowledgeable about the topic.</p>
+  long_description:
   background: >
-    <p>There is possibly no more important public issue today than how to enable our governing organizations to recognize and implement innovative and effective solutions to problems. Administration that is supposed to solve critical problems on its own is inadequate for a complex, networked world. Governments need to learn to make use of the expertise of others — formal scientific knowledge and credentials, skills and experiences inside and outside of government — to tackle the challenges society will face in the coming years.</p>
+    <p>There is possibly no more important public issue today than how to enable our governing organizations to recognize and implement innovative and effective solutions to problems. Administrations that are supposed to solve critical problems on their own are inadequate for a complex, networked world. Governments need to learn to make use of the expertise of others — formal scientific knowledge and credentials, skills and experiences inside and outside of government — to tackle the challenges society will face in the coming years.</p>
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
-    - network-of-innovators-01.jpg
-    - network-of-innovators-02.jpg
-    - network-of-innovators-03.jpg
-    - network-of-innovators-04.jpg
-    - network-of-innovators-05.jpg
-    - network-of-innovators-06.jpg
-    - network-of-innovators-07.jpg
-    - network-of-innovators-08.jpg
   results: >
     <p>This project is still in its infancy with deployments of the platform in eight countries anticipated during 2015. The anticipated impact, however, is greater understanding and demonstration of how targeting people -- in this case government employees -- on the basis of their skills can accelerate innovation.</p>
   related_articles:
@@ -73,320 +352,64 @@
     - "http://thegovlab.org/network-of-innovators-expert-networking-for-open-data/"
     - "https://medium.com/@bethnoveck/the-network-of-innovators-experiment-what-we-are-learning-about-expertise-matching-6470ebe5fbe0"
 
-- title: 'Docker for Data'
-  type: 'Data' # Data, Collective Intelligence or Design Thinking
-  is_featured: 1 #integer
-  is_active: True
-  tagline: Making Open Data Sets Accessible
-  related_question: How to enable data sharing from the <strong>public sector</strong> and <strong>private sectors</strong>
-  project_website: http://dockerfordata.com
-  github:
-  location:
-    - Global
-  partners: 'Open Source GovLab Platform'
-  team:
-    - name: John Krauss
-      job: Senior Engineer
-  tags:
-    governance_area:
-        - internet governance
-        - global governance
-        - regional governance
-        - national governance
-        - local governance
-    type_of_institution:
-        - nonprofit
-        - academic
-        - corporate/business
-        - public sector
-    innovative_capability:
-        - data
-        - open data
-        - big data
-    product_category:
-        - database
-        - dataset
-        - platform
-  status: test
-  problem_statement: How to make open data usable?
-  short_description: >
-    <p>Docker for Data is a cloud-based software toolkit to speed up the extraction and loading of large open datasets. Using Docker for Data, a user can load data like New York City’s deeds and mortgages directly into a powerful SQL database in just minutes instead of hours. Docker for Data helps to answer the question: how do we make open data more useful?</p>
-  tooltip: >
-    Users no longer have to worry about schemas, transformations, load processes, or waiting for slow data portals. Data from many formats is standardized and ready to go, fast. Installation is a snap: users don’t even need a SQL database installed beforehand. Docker for Data can be installed with <a href="https://github.com/talos/docker4data#try-it-out">one line of code</a>.
-  long_description: >
-    <p>Docker for Data is a cloud-based software toolkit to speed up the extraction and loading of large open datasets. Using Docker for Data, a user can load data like New York City’s deeds and mortgages directly into a powerful SQL database in just minutes instead of hours. Docker for Data helps to answer the question: how do we make open data more useful?</p>
-    <p>Users no longer have to worry about schemas, transformations, load processes, or waiting for slow data portals. Data from many formats is standardized and ready to go, fast. Installation is a snap: users don’t even need a SQL database installed beforehand. Docker for Data can be installed with <a href="https://github.com/talos/docker4data#try-it-out">one line of code</a>.</p>
-  background: >
-    <p>Docker for Data gives open data users a command that can install a broad variety of data sets into a SQL database directly.</p>
-  social_media: #in the future we can have custom shareable messages for each project
-  images: #images or screenshots of the project
-  results: >
-    <p>Because Docker for Data archives the extracted data sets, it functions as a repository for usable open data. On Docker, you can find:</p>
-    <ul>
-      <li>Over 100GB of data</li>
-      <li>8229 datasets</li>
-      <li>55 different data portals</li>
-    </ul>
-    <p>For example, New York City maintains a free dataset online containing every deed and mortgage, back to 1966 (“open data”).  Although these records could make it possible to understand economic development, urban revitalization, migration trends, and more, the dataset is so big and so little documented that a researcher, entrepreneur or student might need a full day just to get the data into a database. With Docker, this data set is now converted into XXXX</p>
-  related_articles:
-    - "https://docs.google.com/document/d/1B72xIrZxaSWvBh3BLysK5TdF0UuDaSKN99xfTmPLVLs/edit"
 
-- title: 'The GovLab Public Projects Canvas' #will generate slug from this attr
-  type: 'Design Thinking' # Data, Collective Intelligence or Design Thinking
-  is_featured: 0 #integer
-  is_active: True
-  tagline: Taking a public interest project from idea to implementation
-  related_question: How to take innovative public interest projects <strong>from idea to implementation</strong>
-  project_website: http://govlabacademy.org/canvas/
-  github:
-  location:
-    - Global
-  partners: John S. and James L. Knight Foundation
-  team:
-    - name: Beth Simone Noveck
-      job: Director of The GovLab
-    - name: Dinorah Cantu
-      job: Research Fellow
-    - name: Claudio Mendonca
-      job: Lead Designer and Developer
-  tags:
-    governance_area:
-        - Internet Governance
-        - Global Governance
-        - Regional Governance
-        - National Governance
-        - Local Governance
-    type_of_institution:
-        - Nonprofit
-        - Academic
-        - Corporate/Business
-        - Public Sector
-    innovative_capability:
-        - Design Thinking
-        - Agile Research
-        - Rapid Prototyping
-    product_category:
-        - platform
-        - 'training, coaching & mentorship'
-  status: complete
-  problem_statement: How to catalyze more governance innovators and policy entrepreneurs?
-  short_description: >
-    <p>The GovLab Public Projects Canvas is a 20-question fillable form available to help public interest innovators develop more effective projects. The Canvas platform enables teams to collaborate on drafting. Each question has a comments field to facilitate mentors and experts offering feedback.</p>
-  tooltip: >
-  long_description: >
-  background: >
-    <p>Based on our experience <a href="http://govlabacademy.org/">teaching civic innovators</a>, the GovLab developed the Public Projects Canvas, a worksheet to help those working on civic projects for the common good become more impactful. This canvas includes twenty questions helps problem solvers cross the Valley of Death. According to Forbes, the “valley of death” is a common term in the startup world, referring to the difficulty of covering the negative cash flow in the early stages of a startup, before a new product generates revenue. But when you are passionate about solving a public problem, the common deathraps include:</p>
-    <ul>
-    <li>Defining the problem clearly enough in order to develop a solution that really works;</li>
-    <li>Knowing how to navigate the necessary bureaucracies, legal regimes, and institutions to get things done;</li>
-    <li>Developing materials compelling enough to persuade the “no machines” you must convince;</li>
-    <li>Identifying how to measure what works.</li>
-    </ul>
-  social_media: #in the future we can have custom shareable messages for each project
-  images: #images or screenshots of the project
-  results: >
-    <p>The Canvas has supported coaching programs for 80+ project teams from 20+ countries with the assistance of faculty members and coaches from 5 universities and a variety of governments NGOs such as the World Bank and companies as well as  12 semester-long Masters-level academic courses delivered to students from several professional schools at NYU, MIT, and Arizona State University, as well as to more than 70 non-credit participants from more than a dozen US cities and half a dozen foreign countries. In aggregate, 500+ participants working on 250 projects have used the Canvas.</p>
-  related_articles:
-    - "http://www.nesta.org.uk/blog/tech4labs-issue-4-canvassing-value-proposition-your-public-lab-project#sthash.QtPH0Mtv.dpuf"
+# ==========================================================================================================================================================================================================================================#
 
-- title: The GovLab Academy #will generate slug from this attr
-  type: 'Design Thinking' # Data, Collective Intelligence or Design Thinking
-  is_featured: 0 #integer
-  is_active: True
-  tagline: #oneliner
-  related_question: How to take innovative public interest projects <strong>from idea to implementation</strong>
-  project_website: #url
-  location:
-  partners:
-  team:
-    - name: #name
-      job: #job
-  tags:
-    governance_area:
-        - #tag
-    type_of_institution:
-        - #tag
-    innovative_capability:
-        - #tag
-    product_category:
-        - #tag
-  status:
-  problem_statement: How to catalyze more governance innovators and policy entrepreneurs? #question
-  short_description: >
-    <p></p>
-  tooltip: >
-    <p></p>
-  long_description: >
-    <p></p>
-  background: >
-    <p>,/p>
-  social_media: #in the future we can have custom shareable messages for each project
-  images: #images or screenshots of the project
-    - #url
-  results: >
-    <p></p>
-  related_articles:
-    - #url
-
-
-- title: Data Collaboratives  #will generate slug from this attr
-  type: 'Data' # Data, Collective Intelligence or Design Thinking
-  is_featured: 0 #integer
-  is_active: True
-  tagline: Sharing private data for public good #oneliner
-  related_question: How to enable data sharing from the <strong>public sector</strong> and <strong>private sectors</strong> #question
-  project_website: https://data-collaboratives.topi.com/ #url
-  location:
-    - United States
-  partners: World Economic Forum
-  team:
-    - name: Stefaan Verhulst #name
-      job: #job
-  tags:
-    governance_area:
-        - Global Governance
-        - Regional Governance
-        - National Governance
-        - Local Governance
-    type_of_institution:
-        - Nonprofit
-        - Academic
-        - Corporate/Business
-        - Public Sector
-    innovative_capability:
-        - Data
-        - Open Data
-    product_category:
-        - case studies
-        - event / workshop
-        - strategy
-  status: define
-  problem_statement: How to combine private and public data to solve problems? #question
-  short_description: >
-    <p>The Data Collaboratives Directory is a repository and taxonomy of case studies showing how public and private organizations work together to exchange data. The Directory seeks to enable those exploring the value and practice of data. The GovLab and partners are also developing the first iteration of a practical toolkit to help those wishing to create new data collaboratives or accelerate those already in place. collaboratives to learn more about their value propositions, use cases, technical arrangements, legal frameworks, andpotential impact for the public good. Taken together, these case studies can also demonstrate the proof of concept necessary to build a foundation for future research and the acceleration of data collaboratives.</p>
-  tooltip: >
-    <p></p>
-  long_description: >
-    <p></p>
-  background: >
-    <p>Several of society’s greatest challenges — from addressing climate change to public health to job creation — require greater access to data. Yet for all the potential for using big data, a limiting factor is that much of the data valuable for solving public problems resides within the private sector. If we truly want to leverage the potential of data to improve people’s lives, then we need to accelerate the creation and use of “data collaboratives” in which participants from different sectors — including private companies, research institutions, and government agencies — can exchange data to help solve public problems.</p>
-  social_media: #in the future we can have custom shareable messages for each project
-  images: #images or screenshots of the project
-    - #url
-  results: >
-    <p></p>
-  related_articles:
-    - #url
-
-- title: NETmundial Solutions Map #will generate slug from this attr
-  type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
-  is_featured: 0 #integer
-  is_active: True
-  tagline: A tool to support distributed and participatory Internet governance built for the Internet Governance community by the community. #oneliner
-  related_question: How to develop an <strong>open data map</strong> of responses and actors by <strong>leveraging collective intelligence</strong> #question
-  project_website: https://map.netmundial.org/
-  location:
-    - Global
-  partners:
-  team:
-    - name: Stefaan Verhulst #name
-      job: #job
-  tags:
-    governance_area:
-        - Internet Governance
-    type_of_institution:
-        - Nonprofit
-    innovative_capability:
-        - Data
-        - Open data
-        - Collective Intelligence
-        - Crowdsourcing
-        - Design Thinking
-        - Rapid Prototyping
-    product_category:
-        - open data
-        - platform
-        - mapping
-  status: prototype
-  problem_statement: 'How to map and visualize a dataset of policy alternatives, leveraging the crowd, to help policymakers make more informed choices?'#question
-  short_description: >
-    <p></p>
-  tooltip: >
-    <p></p>
-  long_description: >
-    <p> The Map, currently released in Beta,  is organized around connections between Internet governance issues, actors, solutions and resources and supports several functionalities, including:</p>
-    <ul>
-      <li>A searchable, interactive open database of issues, actors, solutions and resources</li>
-      <li>A visualization of connections between actors, responses and resources</li>
-      <li>A crowdsourced content repository</li>
-      <li>A platform to support action</li>
-    </ul>
-  background: >
-    <p>Across the world, the Internet has rapidly become essential to people’s daily lives. Access to the Internet impacts all aspects of society. Subsequently, how the Internet is governed has grown in importance but also has become much more complex to navigate. In particular:</p>
-      <ul>
-        <li>Today, information about internet governance is scattered and hard to find.</li>
-        <li>Internet governance is a global issue that requires collaboration and coordination, yet identifying who is already working on what issue within and across countries is currently difficult;</li>
-        <li>Information sharing on Internet governance can enable bottom-up participation and lead to increased legitimate and effective solutions</li>
-      </ul>
-      <p>The <a href="https://map.netmundial.org/">NETmundial Solutions Map</a>, an activity of the <a href="https://www.netmundial.org/">NETmundial Initiative</a>, is a tool to support decision makers at all levels and across sectors to make informed decisions on how to govern different aspects of the Internet by providing an open platform of information sharing and collaboration across Internet governance issues. It is designed to facilitate a “distributed Internet governance ecosystem that can propel the Internet as a shared, neutral, and global resource for human solidarity and economic progress (NETmundial Initiative).” </p>
-  social_media: #in the future we can have custom shareable messages for each project
-  images: #images or screenshots of the project
-    - #url
-  results: >
-    <p></p>
-  related_articles:
-    - "http://thegovlab.org/?s=Netmundial+solutions+map"
-
-- title: Open Data 500 Global Network  #will generate slug from this attr
-  type: 'Data' # Data, Collective Intelligence or Design Thinking
-  is_featured: 0 #integer
-  is_active: True
-  tagline: 'Making open government data more relevant, accessible, and actionable'#oneliner
-  related_question: How to enable data sharing from the <strong>public sector</strong> and <strong>private sectors</strong> #question
-  project_website: http://www.opendata500.com/ #url
-  location:
-  partners:
-  team:
-    - name: #name
-      job: #job
-  tags:
-    governance_area:
-        - #tag
-    type_of_institution:
-        - #tag
-    innovative_capability:
-        - #tag
-    product_category:
-        - #tag
-  status:
-  problem_statement: The OD500 Global Network starts from the assumption that only by mapping the use of Open Data within and across countries can new approaches for understanding the economic and social impact of open government data can be generated. #question
-  short_description: >
-    <p></p>
-  tooltip: >
-    <p></p>
-  long_description: >
-    <p></p>
-  background: >
-    <p>,/p>
-  social_media: #in the future we can have custom shareable messages for each project
-  images: #images or screenshots of the project
-    - #url
-  results: >
-    <p></p>
-  related_articles:
-    - #url
 
 - title: OPEN NYU #will generate slug from this attr
-  type: 'Crowdsourcing Wisely' # Data, Collective Intelligence or Design Thinking
+  type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
-  tagline: #oneliner
-  related_question: How to match the <strong>demand to the supply of expertise</strong> #question
+  related_question: How and when to use <strong>the crowd</strong> to get better ideas faster into governing #question
   project_website: #url
-  location:
+  location: 
+    - United States
+  partners:
+    - NYU University Enterprise Initiatives
+  team:
+    - Beth Simone Noveck
+    - Julia Root
+    - Batu Sayici
+    - Chris Wong
+  tags:
+    governance_area:
+      - Local Governance
+    type_of_institution:
+      - Academic
+    innovative_capability:
+      - Collective Intelligence
+      - Expert networks
+      - Open innovation
+      - Design Thinking
+    product_category:
+        - platform
+        - strategy
+  status: define # define, prototype, test, complete
+  problem_statement: How can universities tap into the knowledge and skills that exist in their diverse communities? #question
+  short_description: >
+    <p>The GovLab is designing and operationalizing an expert network tool at NYU where data science expertise can be found and made manifest by internal users as well as external decision-makers like policymakers in the White House, Congress, and other public institutions. The goal is to overcome the practical problem that there is currently no way for policymakers to find specialized outside expertise quickly. In developing a working prototype, we are testing the hypothesis that when people are matched to the right opportunity to answer compelling questions on the basis of their skills, they are more likely to use their skills to solve public policy dilemmas.</p>
+  background: >
+    <p>In mid-2013, The GovLab was invited to advise New York University on how to use cutting-edge Information & Communication Technology  tools and an open innovation process for collaborative decision-making. Called the Open Peer Engagement Network (Open NYU), the goal of the project has been to develop techniques and platforms for NYU to tap into the knowledge and talents that exist within its diverse community of students, faculty, staff, researchers, alumni and administrative leadership.</p>
+  social_media: #in the future we can have custom shareable messages for each project
+  images: #images or screenshots of the project
+  results: 
+  related_articles:
+
+
+# ==========================================================================================================================================================================================================================================#
+
+
+- title: OrgPedia #will generate slug from this attr
+  type: 'Data' # Data, Collective Intelligence or Design Thinking
+  is_featured: 0 #integer
+  is_active: False
+  related_question: How to open up <strong>government data</strong> for solving problems
+  project_website: #url
+  location: 
+    - Global
   partners:
   team:
-    - name: #name
+    - #name
       job: #job
   tags:
     governance_area:
@@ -397,117 +420,214 @@
         - #tag
     product_category:
         - #tag
-  status:
+  status: define # define, prototype, test, complete
   problem_statement: #question
   short_description: >
-    <p></p>
-  tooltip: >
-    <p></p>
+    <p>To build the foundation for the OrgPedia Project, the proposal is to develop the methodology, prototype, platform, and pilot a program that solicits, aggregates, and organizes crowdsourced intelligence on a select number of corporations in the oil, gas, and mining sector. The project is to be designed with the goal of understanding whether it is possible to:</p>
   long_description: >
-    <p></p>
+    <p>To build the foundation for the OrgPedia Project, the proposal is to develop the methodology, prototype, platform, and pilot a program that solicits, aggregates, and organizes crowdsourced intelligence on a select number of corporations in the oil, gas, and mining sector. The project is to be designed with the goal of understanding whether it is possible to:</p>
+      <ul>
+        <li>Build an open, public business intelligence system combining crowdsourcing and open data;</li>
+        <li>See the provenance and reliability (reputation) of data drawn from these different sources;</li>
+        <li>Understand what kinds of information crowdsourcing will yield, including information about what a company does, what it produces, who its owners, partners and collaborators are, and what channels and asset flows it uses. </li>
+      </ul>
   background: >
-    <p>In mid-2013, The GovLab was invited to advise New York University on how to use cutting-edge ICT tools and an open innovation process for collaborative decision-making. Called the Open Peer Engagement Network (Open NYU) the goal of the project has been to develop techniques and platforms for NYU to tap into the knowledge and talents that exist within its diverse community of students, faculty, staff, researchers, alumni and administrative leadership.</p>
+    <p>Both corporate identities and activities remain too opaque and complex to get a full 3D view of any given company. To advance the goal of more comprehensive, reliable, and intelligible information about companies, the OrgPedia project aims to prototype the tools, processes and incentives for combining open government data, such as regulatory filings, with open private data, such as NGO reports, and crowdsourced data gathered from individuals about companies.</p>
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
-    - #url
-  results: >
-    <p></p>
+  results: 
   related_articles:
-    - #url
 
-- title: Arnold #will generate slug from this attr
-  is_active: False
-  related_question: How to open up <strong>government data</strong> for solving problems #question
-  type: 'Data' # Data, Collective Intelligence or Design Thinking
-  problem_statement: #question
 
-- title: OrgPedia #will generate slug from this attr
-  is_active: False
-  related_question: How to open up <strong>government data</strong> for solving problems #question
-  type: 'Data' # Data, Collective Intelligence or Design Thinking
-  problem_statement: #question
+# ==========================================================================================================================================================================================================================================#
+
 
 - title: Legisletters #will generate slug from this attr
+  type: '' # Data, Collective Intelligence or Design Thinking
+  is_featured: 0 #integer
   is_active: False
-  related_question: How to open up <strong>government data</strong> for solving problems #question
+  related_question: How to open up <strong>government data</strong> for solving problems
+  project_website: http://legisletters.com/
+  location: 
+    - United States
+  partners:
+  team:
+    - John Krauss
+    - Andrew Miller
+  tags:
+    governance_area:
+        - National Governance
+    type_of_institution:
+        - Public Sector
+    innovative_capability:
+        - Open data
+    product_category:
+        - database
+        - platform
+  status: prototype # define, prototype, test, complete
+  problem_statement: #question
+  short_description: >
+    <p>Legisletters is an automatic web crawler that gathers and classifies letters written by Members of Congress from legislators' websites. Because letters often are published in ways that are difficult to automatically read, in particular PDF formats, we have a long-term vision of user participation to improve the quality of Legisletters:</p>
+  long_description: >
+    <p>Legisletters is an automatic web crawler that gathers and classifies letters written by Members of Congress from legislators' websites. Because letters often are published in ways that are difficult to automatically read, in particular PDF formats, we have a long-term vision of user participation to improve the quality of Legisletters:</p>
+    <ul>
+      <li>Engaging the offices of congresspeople to help them publish their documents in open formats.</li>
+      <li>Asking users to improve the quality of existing letters by allowing them to classify different sections and fix errors.</li>
+      <li>Permitting the addition of letters that have not been automatically discovered, both by link and upload.</li>
+    </ul>
+  background: >
+    <p>Members of Congress send formal “oversight” letters to cabinet departments and independent agencies on a dizzying array of topics. These letters can contain many different kinds of “asks” of the executive branch, including issuing or revising a particular regulation, changing an interpretation of an existing rule, initiating an investigation and many others. Such communication is a core component of Congress’s oversight work and a key way for Members to shape policy. Yet, there exists no simple, accessible way to discover which Members have written which agencies on which issues, and with what outcomes. The Legisletters project aims to fix that by creating a living, searchable archive of the formal letters that Members of Congress send.</p>
+  social_media: #in the future we can have custom shareable messages for each project
+  images: #images or screenshots of the project
+  results: 
+  related_articles:
+
+
+# ==========================================================================================================================================================================================================================================#
+
+
+- title: Open Grantmaking #will generate slug from this attr
+  type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
+  is_featured: 0 #integer
+  is_active: False
+  related_question: How and when to use <strong>the crowd</strong> to get better ideas faster into governing
+  project_website: https://docs.google.com/a/thegovlab.org/document/d/1A4ZFHxxIoRNvWg4m6C_wnIfvyA4ftNo-Mmt5bD4XtEs/edit?usp=sharing
+  location: 
+    - United States
+  partners:
+  team:
+    - Beth Noveck
+    - Andrew Miller
+  tags:
+    governance_area:
+        - #tag
+    type_of_institution:
+        - #tag
+    innovative_capability:
+        - #tag
+    product_category:
+        - #tag
+  status: # define, prototype, test, complete
+  problem_statement: #question
+  short_description: >
+    <p>In an effort to safeguard the legitimacy and fairness of the grantmaking process, public funding agencies have traditionally done grantmaking behind closed doors. Whether to states or individuals, introducing greater openness at all stages of the grantmaking process has the potential to spur more creative problem-solving strategies and, ultimately, more effective outcomes because open processes enable greater diversity of expertise to be brought to bear.</p>
+  background: >
+    <p>Examining grantmaking innovations in the corporate philanthropic and and public sectors that the US Federal government could adopt.</p>
+  social_media: #in the future we can have custom shareable messages for each project
+  images: #images or screenshots of the project
+  results: 
+  related_articles:
+
+
+# ==========================================================================================================================================================================================================================================#
+
+
+- title: Crowdsorcerer #will generate slug from this attr
+  type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
+  is_featured: 0 #integer
+  is_active: False
+  related_question: How and when to use <strong>the crowd</strong> to get better ideas faster into governing
+  project_website: http://crowdsourcingadvisor.org/
+  location: 
+    - Global
+  partners:
+  team:
+    - Beth Simone Noveck (past contributors: Luis Daniel and Arnaud)#name
+    - Dinorah Cantu
+    - Irene Tello-Arista
+    - Arnaud Sahuguet
+    - Luis Daniel
+  tags:
+    governance_area:
+      - Global Governance
+      - Regional Governance
+      - National Governance
+      - Local Governance
+    type_of_institution:
+      - Nonprofit
+      - Academic
+      - Corporate/Business
+      - Public Sector
+    innovative_capability:
+      - Collective Intelligence
+      - Crowdsourcing
+      - Citizen Engagement
+    product_category:
+      - case studies
+      - guide
+      - platform
+  status: test # define, prototype, test, complete
+  problem_statement: #question
+  short_description: >
+    <p>Through a guided interview, the Crowdsourcing Advisor not only helps to identify the key elements one must consider when designing a crowdsourcing project, but also provides a report of the most important case studies (drawn from our knowledge-base) and learnings tailored to the needs and circumstances of the user.</p>
+  background: >
+    <p>Knowing when and how to use crowdsourcing is hard: there are more than 40 different definitions of crowdsourcing; there is little conclusive evidence of what works and when and, even though there is an abundance of tools and examples, information is disorganized and not well-suited to help a decision-maker know what to do. Under the assumption that there is no single right way of doing crowdsourcing but, rather, engagement must be tailored to each needs and circumstances, the Advisor builds on the experience of others and attempts to help decision-makers in the public and private sectors make an informed decision about when and how to use crowdsourcing.</p>
+  social_media: #in the future we can have custom shareable messages for each project
+  images: #images or screenshots of the project
+  results: 
+  related_articles:
+    - "http://thegovlab.org/is-crowdsourcing-the-right-tool-for-your-project/"
+
+
+# ==========================================================================================================================================================================================================================================#
+
+
+- title: Arnold #will generate slug from this attr
   type: 'Data' # Data, Collective Intelligence or Design Thinking
-  problem_statement: #question
-
-- title: NHS Open Data #will generate slug from this attr
-  is_active: False
-  related_question: How to open up <strong>government data</strong> for solving problems #question
-  type: 'Data' # Data, Collective Intelligence or Design Thinking
-  problem_statement: #question
-
-- title: Municipal Open Data Impact Barometer #will generate slug from this attr
-  is_active: False
-  related_question: How to open up <strong>government data</strong> for solving problems #question
-  type: 'Data' # Data, Collective Intelligence or Design Thinking
-  problem_statement: #question
-
-- title: Open 990 #will generate slug from this attr
-  is_active: False
-  related_question: How to open up <strong>government data</strong> for solving problems #question
-  type: 'Data' # Data, Collective Intelligence or Design Thinking
-  problem_statement: #question
-
-- title: Crowd Sorcerer #will generate slug from this attr
-  is_active: False
-  related_question: How and when to use <strong>the crowd</strong> to get better ideas faster into governing #question
-  type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
-  problem_statement: #question
-
-- title: Open Grants #will generate slug from this attr
-  is_active: False
-  related_question: How and when to use <strong>the crowd</strong> to get better ideas faster into governing #question
-  type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
-  problem_statement: #question
-
-- title: Quito #will generate slug from this attr
-  is_active: False
-  related_question: How and when to use <strong>the crowd</strong> to get better ideas faster into governing #question
-  type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
-  problem_statement: #question
-
-- title: Educonnector #will generate slug from this attr
-  is_active: False
-  related_question: How to match the <strong>demand to the supply of expertise</strong>
-  type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
-  problem_statement: #question
-
-- title: Peer to Patent #will generate slug from this attr
-  is_active: False
-  related_question: How to match the <strong>demand to the supply of expertise</strong>
-  type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
-  problem_statement: #question
-
-- title: "Agile Empirical: FDA"#will generate slug from this attr
-  is_active: False
-  related_question: How to do <strong>agile research</strong> about innovation in governance
-  type: 'Design Thinking' # Data, Collective Intelligence or Design Thinking
-  problem_statement: #question
-
-- title: MacArthur Reseach Network #will generate slug from this attr
-  is_active: False
-  related_question: How to do <strong>agile research</strong> about innovation in governance
-  type: 'Design Thinking' # Data, Collective Intelligence or Design Thinking
-  problem_statement: #question
+  is_featured: 0 #integer
+  is_active: True
+  related_question: How to open up <strong>government data</strong> for solving problems
+  project_website: #url
+  location: 
+    - United States
+  partners:
+    - White House Office of Science and Technology Policy
+    - Laura and John Arnold Foundation
+  team:
+    - Beth Simone Noveck
+  tags:
+    governance_area:
+      - National Governance
+    type_of_institution:
+      - Public Sector
+    innovative_capability:
+      - Open data
+      - Big data
+      - Collective Intelligence
+      - Expert networks
+      - Open innovation
+      - Agile Research
+    product_category:
+      - mapping
+      - policy or law
+      - strategy
+  status: define # define, prototype, test, complete
+  problem_statement: How can data be used to increase public safety and reduce incarceration?
+  short_description: >
+    <p>Building on the GovLab’s experience in data-driven governance innovation in the fields of health care and education and working closely with a Criminal Justice Data and Innovation fellow working with the U.S. Chief Data Scientist at the White House, we are embarking on a year long project to analyze and document how data flows through the criminal justice system, identify policy and legal barriers to effective data sharing, and create pilot projects to replicate successful innovations in the field or test new approaches. Recognizing that many jurisdictions have already tackled these problems, we are actively seeking insights from experts in the field at the local, state and federal level to identify innovation already occurring, brainstorm new approaches, and build out key policies to help improve and expand criminal justice data sharing.</p>
+  long_description: 
+  background: >
+    <p>Jurisdictions across the country have found success implementing new evidence-based practices to reduce jail and prison populations, link more people with effective treatment in their communities, and generate cost savings without corresponding increases in crime; yet challenges in collecting, sharing and analyzing data continue to present significant barriers to widespread adoption of proven reforms and stifle opportunities for new innovation.</p>
+  social_media: #in the future we can have custom shareable messages for each project
+  images: #images or screenshots of the project
+  results: 
+  related_articles:
 
 
 
+# ==========================================================================================================================================================================================================================================#
 
 
 # - title:  #will generate slug from this attr
 #   type: '' # Data, Collective Intelligence or Design Thinking
 #   is_featured: 0 #integer
-# is_active: True
-#   tagline: #oneliner
+#   is_active: True
 #   related_question: #question
 #   project_website: #url
 #   location:
 #   partners:
 #   team:
-#     - name: #name
+#     - #name
 #       job: #job
 #   tags:
 #     governance_area:
@@ -518,7 +638,7 @@
 #         - #tag
 #     product_category:
 #         - #tag
-#   status:
+#   status: # define, prototype, test, complete
 #   problem_statement: #question
 #   short_description: >
 #     <p></p>
@@ -527,7 +647,7 @@
 #   long_description: >
 #     <p></p>
 #   background: >
-#     <p>,/p>
+#     <p></p>
 #   social_media: #in the future we can have custom shareable messages for each project
 #   images: #images or screenshots of the project
 #     - #url
@@ -535,3 +655,21 @@
 #     <p></p>
 #   related_articles:
 #     - #url
+
+- title: Open 990 #will generate slug from this attr
+  is_active: False
+  related_question: How to open up <strong>government data</strong> for solving problems #question
+  type: 'Data' # Data, Collective Intelligence or Design Thinking
+  problem_statement: #question
+
+- title: Peer to Patent #will generate slug from this attr
+  is_active: False
+  related_question: How to match the <strong>demand to the supply of expertise</strong>
+  type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
+  problem_statement: #question
+
+- title: NHS - Open Data #will generate slug from this attr
+  is_active: False
+  related_question: How to open up <strong>government data</strong> for solving problems #question
+  type: 'Data' # Data, Collective Intelligence or Design Thinking
+  problem_statement: #question

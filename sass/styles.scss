@@ -24,6 +24,8 @@ $white-80: rgba(255,255,255,0.8);
 $white-90: rgba(255,255,255,0.9);
 
 $purple: rgba(82,48,128,1);
+$purple-20k: #47266f;
+$purple-40k: #381759;
 $orange: rgba(238,91,67,1);
 $orange-20k: #be4936;
 $teal: rgba(0,136,149,1);
@@ -79,6 +81,7 @@ $desktop: 1025px;
 @import 'projects-landing';
 @import 'projects-list';
 @import 'events';
+@import 'team';
 
 
 // .material-icons {

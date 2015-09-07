@@ -1,9 +1,9 @@
 {% extends "base.html" %}
 {% block content %}
 <section class="b-events-landing">
-    <header class="b-top-section">
-        <div class="e-list-selector">
-            <h2 class="e-show-upcoming m-active">Upcoming Events</h2>
+    <header>
+        <div class="e-list-selector m-upcoming">
+            <h2 class="e-show-upcoming">Upcoming Events</h2>
             <h2 class="e-show-passed">Past Events</h2>
         </div>
     </header>
@@ -18,7 +18,7 @@
                     </div>
                     <div class="e-half">
                         {% if event.has_passed %}
-                            <h4 class="e-event-heading">{{event.date.strftime("%Y")}}</h4>
+                            <h4 class="e-event-heading">{{event.date.strftime("%B %Y")}}</h4>
 
                         {% else %}
                             <h4 class="e-event-heading">{{event.date.strftime("%B %d")}}</h4>

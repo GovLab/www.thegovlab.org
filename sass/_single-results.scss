@@ -1,7 +1,6 @@
 .b-single-results {
     background-color: $gray-05;
-    padding: 40px 0 20px;
-    @include breakpoint($desktop) { padding-top: 80px; }
+    padding: 30px 0 40px;
 
     .e-wrap {
         @include wrap;

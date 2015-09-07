@@ -19,6 +19,7 @@ _OUTPUTPATH = path.join(getcwd(), 'site')
 # Load the data we want to use in the templates.
 _EVENTS = path.join(getcwd(), 'data/events.yaml')
 _PROJECTS = path.join(getcwd(), 'data/projects.yaml')
+_TEAM = path.join(getcwd(), 'data/team.yaml')
 
 _SLUG = lambda x: slugify(x.lower() if x else '')
 
@@ -32,6 +33,7 @@ def context():
 
     dic['events'] = load(open(_EVENTS))
     dic['projects'] = load(open(_PROJECTS))
+    dic['team'] = load(open(_TEAM))
 
     for x in dic['events']:
         x['date'] = datetime.strptime(x['date'], '%m-%d-%Y').date()
