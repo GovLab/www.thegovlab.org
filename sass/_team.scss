@@ -62,6 +62,15 @@
         -webkit-flex: 4;
         flex: 4;
         order: 1;
+        @include breakpoint($desktop) { max-height: 400px;}
+        @include breakpoint($mobile-only) { max-height: 1000px;}
+        height: auto;
+        @include transition;
+
+        &.m-active {
+            max-height: 4000px;
+            @include transition;
+        }
 
         p { margin-bottom: 15px; }
 

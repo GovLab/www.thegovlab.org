@@ -125,7 +125,7 @@ input {
   right: 100%;
   z-index: 20;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-  background-color: #523080;
+  background-color: #333;
   -webkit-flex-flow: column;
   flex-flow: column;
   transition: all .4s ease; }
@@ -813,7 +813,7 @@ button:focus {
           display: inline; } }
   .b-landing-questions .b-button {
     position: relative;
-    z-index: 100; }
+    z-index: 19; }
 
 .b-single-landing {
   background-color: #008ab3; }
@@ -1050,8 +1050,11 @@ button:focus {
     text-transform: uppercase;
     letter-spacing: 1px; }
   .b-single-description h2,
-  .b-single-description .e-description {
+  .b-single-description .e-description,
+  .b-single-description .e-description a {
     color: white; }
+  .b-single-description .e-description a {
+    text-decoration: underline; }
   .b-single-description .e-wrap {
     max-width: 1025px;
     margin-left: auto;
@@ -1087,6 +1090,9 @@ button:focus {
 .b-single-results {
   background-color: rgba(0, 0, 0, 0.05);
   padding: 30px 0 40px; }
+  @media (min-width: 1025px) {
+    .b-single-results {
+      padding-top: 60px; } }
   .b-single-results .e-wrap {
     max-width: 1025px;
     margin-left: auto;
@@ -1095,6 +1101,8 @@ button:focus {
     display: flex;
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap; }
+    .b-single-results .e-wrap .e-title {
+      width: 100%; }
   .b-single-results .e-half {
     -webkit-flex: 1;
     flex: 1;
@@ -1633,7 +1641,18 @@ button:focus {
   .b-team .e-team-member .e-bio {
     -webkit-flex: 4;
     flex: 4;
-    order: 1; }
+    order: 1;
+    height: auto;
+    transition: all .4s ease; }
+    @media (min-width: 1025px) {
+      .b-team .e-team-member .e-bio {
+        max-height: 400px; } }
+    @media (max-width: 800px) {
+      .b-team .e-team-member .e-bio {
+        max-height: 1000px; } }
+    .b-team .e-team-member .e-bio.m-active {
+      max-height: 4000px;
+      transition: all .4s ease; }
     .b-team .e-team-member .e-bio p {
       margin-bottom: 15px; }
     .b-team .e-team-member .e-bio p:not(:first-of-type) {

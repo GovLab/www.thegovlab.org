@@ -10,7 +10,11 @@
         letter-spacing: 1px;
     }
     h2,
-    .e-description { color: $white; }
+    .e-description,
+    .e-description a { color: $white; }
+
+    .e-description a { text-decoration: underline;}
+
 
     .e-wrap {
         @include wrap;
@@ -41,7 +45,6 @@
 
             @include breakpoint($mobile-only) { max-height: 240px; }
             @include breakpoint($desktop) { max-height: 500px; }
-
         }
 
         &:not(.slick-current) .e-project-image {

@@ -117,7 +117,7 @@
     right: 100%;
     z-index: 20;
     box-shadow: 0 0 20px $gray-40;
-    background-color: $purple;
+    background-color: $black;
     -webkit-flex-flow: column;
     flex-flow: column;
 
@@ -130,7 +130,7 @@
         right: 0;
 
         @include breakpoint($desktop) { right: 72%; }
-        }
+    }
 
     a {
         display: block;

@@ -37,7 +37,16 @@
     <p>It doesn’t have to be this hard.</p>
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
-  results: 
+    - docker-for-data-1.jpg
+    - docker-for-data-2.jpg
+    - docker-for-data-3.jpg
+  results: >
+    <p>Because Docker for Data archives the extracted data sets, it functions as a repository for usable open data. On Docker, you can find:</p>
+    <ul>
+      <li>Over 100GB of data</li>
+      <li>8229 datasets</li>
+      <li>55 different data portals</li>
+    </ul>
   related_articles:
     - "https://docs.google.com/document/d/1B72xIrZxaSWvBh3BLysK5TdF0UuDaSKN99xfTmPLVLs/edit"
 
@@ -95,6 +104,10 @@
     <p>Canvases - proven frameworks to facilitate idea generation & structured discussions - have been widely used by companies and entrepreneurs; but not so much by non-profits or social actors, as they haven’t been able to capture the challenges that are unique to social and public ventures.</p>
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
+    - canvas-1.jpg
+    - canvas-2.jpg
+    - canvas-3.jpg
+    - canvas-4.jpg
   results: >
     <p>80+ teams from 20+ countries used the Canvas to take their project from idea to implementation</p>
   related_articles:
@@ -142,6 +155,11 @@
     <p>Although many schools and programs teach the skills relevant to business innovation, aspiring public and social sector innovators have very few places to turn to receive the mentoring and support needed to take a technology-driven governance innovation project across a wide range of social issues from idea to implementation. Our objective has been to focus sharply on delivering learning experiences and support that make for successful governance innovation projects.</p>
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
+    - academy-1.jpg
+    - academy-2.jpg
+    - academy-3.jpg
+    - academy-4.jpg
+    - academy-5.jpg
   results: >
     <p>500+ participants, 250 projects, 20+ countries, Faculty and coaches from 5 universities, 12 semester-long Masters-level academic courses delivered to students from NYU, MIT, and Arizona State University, +70 non-credit participants from more than a dozen US cities and half a dozen foreign countries. 
     Governments & NGOs coached, including the World Bank</p>
@@ -154,6 +172,8 @@
     - http://thegovlab.org/dr-samir-k-brahmachari-on-the-open-source-drug-discovery-project/ 
     - http://thegovlab.org/from-the-classroom-to-the-community-a-students-journey-post-solving-public-problems-using-technology/ 
     - http://thegovlab.org/solving-public-problems-with-technology/ 
+
+# ==========================================================================================================================================================================================================================================#
 
 - title: Data Collaboratives #will generate slug from this attr
   type: 'Data' # Data, Collective Intelligence or Design Thinking
@@ -207,6 +227,21 @@
   location: 
     - Global
   partners:
+    - SecondRise
+    - Association for Progressive Communications
+    - Berkman
+    - Center for Global Communication studies
+    - Friends of the IGF
+    - Global Internet Policy Observatory
+    - Global Partners Digital
+    - Internet Policy Observatory
+    - Internet & Jurisdiction
+    - Instituto de Tecnologia & Sociedade do Rio
+    - Media Change and Innovation
+    - MacArthur Foundation Research Network on Opening Governance
+    - Observatório da Internet no Brasil
+    - University of Oxford
+    - FGV - Fundação Getúlio Vargas - Direito Rio
   team:
     - Stefaan Verhulst
   tags:
@@ -243,6 +278,8 @@
 
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
+    - netmundial-1.jpg
+    - netmundial-2.jpg
   related_articles:
     - "http://thegovlab.org/?s=Netmundial+solutions+map"
 
@@ -287,6 +324,9 @@
   background:
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
+    - open-data-network-1.jpg
+    - open-data-network-2.jpg
+    - open-data-network-3.jpg
   results: 
   related_articles:
 
@@ -345,6 +385,7 @@
     <p>There is possibly no more important public issue today than how to enable our governing organizations to recognize and implement innovative and effective solutions to problems. Administrations that are supposed to solve critical problems on their own are inadequate for a complex, networked world. Governments need to learn to make use of the expertise of others — formal scientific knowledge and credentials, skills and experiences inside and outside of government — to tackle the challenges society will face in the coming years.</p>
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
+    - network-of-innovators-1.jpg
   results: >
     <p>This project is still in its infancy with deployments of the platform in eight countries anticipated during 2015. The anticipated impact, however, is greater understanding and demonstration of how targeting people -- in this case government employees -- on the basis of their skills can accelerate innovation.</p>
   related_articles:
@@ -479,6 +520,7 @@
     <p>Members of Congress send formal “oversight” letters to cabinet departments and independent agencies on a dizzying array of topics. These letters can contain many different kinds of “asks” of the executive branch, including issuing or revising a particular regulation, changing an interpretation of an existing rule, initiating an investigation and many others. Such communication is a core component of Congress’s oversight work and a key way for Members to shape policy. Yet, there exists no simple, accessible way to discover which Members have written which agencies on which issues, and with what outcomes. The Legisletters project aims to fix that by creating a living, searchable archive of the formal letters that Members of Congress send.</p>
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
+    - legisletters.jpg
   results: 
   related_articles:
 
@@ -564,6 +606,9 @@
     <p>Knowing when and how to use crowdsourcing is hard: there are more than 40 different definitions of crowdsourcing; there is little conclusive evidence of what works and when and, even though there is an abundance of tools and examples, information is disorganized and not well-suited to help a decision-maker know what to do. Under the assumption that there is no single right way of doing crowdsourcing but, rather, engagement must be tailored to each needs and circumstances, the Advisor builds on the experience of others and attempts to help decision-makers in the public and private sectors make an informed decision about when and how to use crowdsourcing.</p>
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
+    - crowdsoucerer-1.jpg
+    - crowdsoucerer-2.jpg
+    - crowdsoucerer-3.jpg
   results: 
   related_articles:
     - "http://thegovlab.org/is-crowdsourcing-the-right-tool-for-your-project/"
