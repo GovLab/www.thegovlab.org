@@ -38,22 +38,18 @@ $(document).ready(function($) {
         $overlay.removeClass('m-active');
     });
 
-    $('.js-bio-toggle').click(function() {
-        $(this).parent().toggleClass('m-active');
-    });
-
 
     // Events Page
     $('.e-list-selector .e-show-passed').click(function() {
-        $('.e-show-upcoming').parent().removeClass('m-upcoming');
-        $(this).parent().addClass('m-passed');
+        $('.e-show-upcoming').removeClass('m-active');
+        $(this).addClass('m-active');
 
         $('.b-event-list .e-event-upcoming').hide();
         $('.b-event-list .e-event-passed').show();
     });
     $('.e-list-selector .e-show-upcoming').click(function() {
-        $('.e-show-passed').parent().removeClass('m-passed');
-        $(this).parent().addClass('m-upcoming');
+        $('.e-show-passed').removeClass('m-active');
+        $(this).addClass('m-active');
 
         $('.b-event-list .e-event-passed').hide();
         $('.b-event-list .e-event-upcoming').show();
@@ -118,7 +114,7 @@ $(document).ready(function($) {
         infinite: false,
         draggable: false,
         centerMode: true,
-        slidesToShow: 5,
+        slidesToShow: 1,
         variableWidth: true,
         focusOnSelect: true,
         swipeToSlide: true,
@@ -127,7 +123,7 @@ $(document).ready(function($) {
                 breakpoint: 800,
                 settings: {
                     draggable: true,
-                    slidesToShow: 3,
+                    slidesToShow: 1,
                 }
             }
         ]
