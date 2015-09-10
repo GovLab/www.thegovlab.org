@@ -34,14 +34,20 @@ def context():
     dic['events'] = load(open(_EVENTS))
     dic['projects'] = load(open(_PROJECTS))
     dic['team'] = load(open(_TEAM))
+    dic['team'] = load(open(_TEAM))
+    dic['events_slider_counter'] = 0
+    dic['projects_slider_counter'] = 0
 
     for x in dic['events']:
         x['date'] = datetime.strptime(x['date'], '%m-%d-%Y').date()
-        x['has_passed'] = x['date'] <= _TODAY
+        x['has_passed'] = x['date'] < _TODAY
         x['is_featured'] = str(x.get('is_featured', '')).lower()
 
         if x['is_featured'] in ['1', 'true', 'yes', 'on']:
             x['is_featured'] = True
+
+            if x['date'] >= _TODAY:
+                dic['events_slider_counter'] += 1
 
         else:
             x['is_featured'] = False
@@ -51,6 +57,7 @@ def context():
 
         if x['is_featured'] in ['1', 'true', 'yes', 'on']:
             x['is_featured'] = True
+            dic['projects_slider_counter'] += 1
 
         else:
             x['is_featured'] = False
@@ -90,7 +97,6 @@ def create_custom_templates(projects):
 if __name__ == '__main__':
     auto = _AUTO_RELOAD
     ctxt = context()
-    filt = filters()
     site = {}
 
     cleanup()
@@ -106,7 +112,7 @@ if __name__ == '__main__':
         elif arg in ['1', 'true', 'on', 'yes']:
             auto = True
 
-    site['filters'] = filt
+    site['filters'] = filters()
     site['outpath'] = _OUTPUTPATH
     site['contexts'] = [(r'.*.html', lambda: ctxt)]
     site['searchpath'] = _SEARCHPATH

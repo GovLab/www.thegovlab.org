@@ -46,7 +46,7 @@ The GovLab:   -->
                             <div class="e-banner-index">
                                 {% set outer_loop = loop %}
 
-                                {% for x in range(outer_loop.length) %}
+                                {% for x in range(projects_slider_counter) %}
                                     <span{% if outer_loop.index == loop.index %} class="m-active"{% endif %}></span>
                                 {% endfor %}
                             </div>
@@ -257,7 +257,7 @@ The GovLab:   -->
                                 {% set outer_loop = loop %}
 
                                 <!-- Esse loop está pegando o número total de eventos, e não somente os "is_fatured" -->
-                                {% for x in range(outer_loop.length) %}
+                                {% for x in range(events_slider_counter) %}
                                     <span{% if outer_loop.index == loop.index %} class="m-active"{% endif %}></span>
                                 {% endfor %}
                             </div>
