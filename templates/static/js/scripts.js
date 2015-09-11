@@ -16,7 +16,7 @@ $(document).ready(function($) {
         $(this).removeClass('m-active');
     });
 
-    // Search Logic
+    // Search Field Logic
     $('.js-search-trigger').click(function() {
         $('.e-search').addClass('m-active');
         $overlay.addClass('m-active');
@@ -37,6 +37,10 @@ $(document).ready(function($) {
         $('.e-project-item').removeClass('m-active');
         $overlay.removeClass('m-active');
     });
+
+    $('.js-bio-toggle').click(function() {
+        $(this).parent().toggleClass('m-active');
+    })
 
 
     // Events Page
