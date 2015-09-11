@@ -486,7 +486,7 @@
 - title: Legisletters #will generate slug from this attr
   type: '' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
-  is_active: False
+  is_active: True
   related_question: How to open up <strong>government data</strong> for solving problems
   project_website: http://legisletters.com/
   location: 
@@ -567,7 +567,7 @@
 - title: Crowdsorcerer #will generate slug from this attr
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
-  is_active: False
+  is_active: True
   related_question: How and when to use <strong>the crowd</strong> to get better ideas faster into governing
   project_website: http://crowdsourcingadvisor.org/
   location: 
