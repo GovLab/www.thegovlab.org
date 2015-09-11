@@ -486,7 +486,7 @@
 - title: Legisletters #will generate slug from this attr
   type: '' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
-  is_active: True
+  is_active: False
   related_question: How to open up <strong>government data</strong> for solving problems
   project_website: http://legisletters.com/
   location: 
