@@ -514,6 +514,9 @@ button:focus {
     .b-featured-content .e-banner-controls .e-banner-control.m-next:hover {
       right: 10px; }
 
+.b-featured-content-wrapper.m-project {
+  background-color: #523080; }
+
 .b-featured-content.m-project {
   background-color: #523080; }
   .b-featured-content.m-project .e-banner-control {
