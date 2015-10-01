@@ -617,7 +617,7 @@
 # ==========================================================================================================================================================================================================================================#
 
 
-- title: Arnold #will generate slug from this attr
+- title: Data Driven Criminal Justice Innovation #will generate slug from this attr
   type: 'Data' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
