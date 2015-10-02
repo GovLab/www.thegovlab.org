@@ -129,7 +129,7 @@
     - John S. and James L. Knight Foundation
   team:
     - Beth Simone Noveck
-    - Alan Kantrow
+    # - Alan Kantrow
     - Dinorah Cantu
   tags:
     governance_area:
@@ -321,7 +321,9 @@
     <p>In 2014, GovLab launched <a href="http://www.opendata500.com" target="_blank">Open Data 500</a>, supported by the John S. and James L. Knight Foundation. The OD500 is the first comprehensive study of U.S. based companies that use open government data as a key business resource. The name “OD500” originates from the research ambition to identify 500 U.S. companies that are using open government data. The tool provides a way to map and visualize the relationships between companies and open government datasets, as well as to conduct other sector-by-sector analyses.</p>
   long_description: >
     <p>The <a href="http://www.opendata500.com" target="_blank">OD500 Global Network</a> is an international network of organizations that seek to study the use and impact of open data. Coordinated by the GovLab,  the OD500 Global Network enables participating organizations to analyze open data in their country in a manner that is both globally comparable and locally specific. The OD500 Global Network starts from the assumption that only by mapping the use of Open Data within and across countries can new approaches for understanding the economic and social impact of open government data can be generated.</p>
-  background:
+  background: >
+    <p>In 2014, GovLab launched Open Data 500 (www.opendata500.com), supported by the John S. and James L. Knight Foundation. The OD500 is the first comprehensive study of U.S. based companies that use open government data as a key business resource. The name “OD500” originates from the research ambition to identify 500 U.S. companies that are using open government data. The tool provides a way to map and visualize the relationships between companies and open government datasets, as well as to conduct other sector-by-sector analyses. </p>
+
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
     - open-data-network-1.jpg
@@ -357,7 +359,7 @@
     - "United Kingdom, Director of Open Data and Government Innovation at the Cabinet Office, Open Government Lead"
   team:
     - Beth Simone Noveck
-    - Arnaud Sahuguet
+    # - Arnaud Sahuguet
     - Batu Sayici
     - Anupama Sharma
     - Andrew Young
@@ -411,7 +413,7 @@
     - Beth Simone Noveck
     - Julia Root
     - Batu Sayici
-    - Chris Wong
+    - Christopher Wong
   tags:
     governance_area:
       - Local Governance
@@ -440,7 +442,7 @@
 # ==========================================================================================================================================================================================================================================#
 
 
-- title: OrgPedia #will generate slug from this attr
+- title: OrgPedia - Crowdsourcing and Impact Modeling #will generate slug from this attr
   type: 'Data' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
@@ -449,34 +451,41 @@
   location: 
     - Global
   partners:
+    - 'American International Group, Inc. (AIG)'
   team:
-    - #name
+    - Beth Simone Noveck
+    - Batu Sayici
   tags:
     governance_area:
-        - #tag
+      - National Governance
     type_of_institution:
-        - #tag
+      - Corporate/Business
     innovative_capability:
-        - #tag
+      - Open data
+      - Collective Intelligence
+      - Crowdsourcing
+      - Open innovation
+      - Design Thinking
     product_category:
-        - #tag
+        - Platform
   status: define # define, prototype, test, complete
-  problem_statement: #question
+  problem_statement: How can crowdsourcing and open data be used to gain better information about companies?
   short_description: >
-    <p>To build the foundation for the OrgPedia Project, the proposal is to develop the methodology, prototype, platform, and pilot a program that solicits, aggregates, and organizes crowdsourced intelligence on a select number of corporations in the oil, gas, and mining sector. The project is to be designed with the goal of understanding whether it is possible to:</p>
+    <p>To build the foundation for the OrgPedia Project, the GovLab is developing the methodology, prototype, platform, and pilot a program to solicit, aggregate, and organize crowdsourced intelligence on a select number of corporations in the Extractives Industry – i.e., the oil, gas, and mining sectors. The project is to be designed with the goal of understanding whether it is possible to: </p>
   long_description: >
-    <p>To build the foundation for the OrgPedia Project, the proposal is to develop the methodology, prototype, platform, and pilot a program that solicits, aggregates, and organizes crowdsourced intelligence on a select number of corporations in the oil, gas, and mining sector. The project is to be designed with the goal of understanding whether it is possible to:</p>
-      <ul>
-        <li>Build an open, public business intelligence system combining crowdsourcing and open data;</li>
-        <li>See the provenance and reliability (reputation) of data drawn from these different sources;</li>
-        <li>Understand what kinds of information crowdsourcing will yield, including information about what a company does, what it produces, who its owners, partners and collaborators are, and what channels and asset flows it uses. </li>
-      </ul>
+    <p>To build the foundation for the OrgPedia Project, the GovLab is developing the methodology, prototype, platform, and pilot a program to solicit, aggregate, and organize crowdsourced intelligence on a select number of corporations in the Extractives Industry – i.e., the oil, gas, and mining sectors. The project is to be designed with the goal of understanding whether it is possible to: </p>
+    <ul>
+    <li>Build an open, public business intelligence system combining crowdsourcing and open data; </li>
+    <li>See the provenance and reliability (reputation) of data drawn from these different sources; </li>
+    <li>Understand what kinds of information crowdsourcing will yield, including information about what a company does, what it produces, who its owners, partners and collaborators are, and what channels and asset flows it uses.</li>
+    </ul>
   background: >
-    <p>Both corporate identities and activities remain too opaque and complex to get a full 3D view of any given company. To advance the goal of more comprehensive, reliable, and intelligible information about companies, the OrgPedia project aims to prototype the tools, processes and incentives for combining open government data, such as regulatory filings, with open private data, such as NGO reports, and crowdsourced data gathered from individuals about companies.</p>
+    <p>Both corporate identities and activities remain too opaque and complex to get a full 3D view of any given company. To gain a greater understanding of corporations and their activities, the OrgPedia project aims to prototype the tools, processes and incentives for combining open government data, such as regulatory filings, with open private data, such as NGO reports, and crowdsourced data gathered from individuals about companies.</p>
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
-  results: 
+  results: '<p>By making information about players in the Extractives industry more accessible, the project will seek to increase the transparency and accountability of those actors. Moreover, the initial pilot phase of the project will help to uncover an optimal methodology for combining crowdsourcing and open data to yield new insights into institutional behaviors.</p>'
   related_articles:
+    - http://dotank.nyls.edu/2011/02/15/orgpedia/
 
 
 # ==========================================================================================================================================================================================================================================#
@@ -493,7 +502,7 @@
   partners:
   team:
     - John Krauss
-    - Andrew Miller
+    # - Andrew Miller
   tags:
     governance_area:
         - National Governance
@@ -505,7 +514,7 @@
         - database
         - platform
   status: prototype # define, prototype, test, complete
-  problem_statement: #question
+  problem_statement: How can Congressional oversight processes be made more efficient and transparent?
   short_description: >
     <p>Legisletters is an automatic web crawler that gathers and classifies letters written by Members of Congress from legislators' websites. Because letters often are published in ways that are difficult to automatically read, in particular PDF formats, we have a long-term vision of user participation to improve the quality of Legisletters:</p>
   long_description: >
@@ -538,7 +547,7 @@
   partners:
   team:
     - Beth Noveck
-    - Andrew Miller
+    # - Andrew Miller
   tags:
     governance_area:
         - #tag
@@ -576,8 +585,8 @@
     - Beth Simone Noveck
     - Dinorah Cantu
     - Irene Tello-Arista
-    - Arnaud Sahuguet
-    - Luis Daniel
+    # - Arnaud Sahuguet
+    # - Luis Daniel
   tags:
     governance_area:
       - Global Governance
@@ -594,20 +603,20 @@
       - Crowdsourcing
       - Citizen Engagement
     product_category:
-      - case studies
-      - guide
-      - platform
+      - Case Studies
+      - Guide
+      - Platform
   status: test # define, prototype, test, complete
-  problem_statement: #question
+  problem_statement: How can we give decision-makers the information necessary to develop impactful crowdsourcing initiatives?
   short_description: >
     <p>Through a guided interview, the Crowdsourcing Advisor not only helps to identify the key elements one must consider when designing a crowdsourcing project, but also provides a report of the most important case studies (drawn from our knowledge-base) and learnings tailored to the needs and circumstances of the user.</p>
   background: >
     <p>Knowing when and how to use crowdsourcing is hard: there are more than 40 different definitions of crowdsourcing; there is little conclusive evidence of what works and when and, even though there is an abundance of tools and examples, information is disorganized and not well-suited to help a decision-maker know what to do. Under the assumption that there is no single right way of doing crowdsourcing but, rather, engagement must be tailored to each needs and circumstances, the Advisor builds on the experience of others and attempts to help decision-makers in the public and private sectors make an informed decision about when and how to use crowdsourcing.</p>
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
-    - crowdsoucerer-1.jpg
-    - crowdsoucerer-2.jpg
-    - crowdsoucerer-3.jpg
+    - crowdsourcerer-1.jpg
+    - crowdsourcerer-2.jpg
+    - crowdsourcerer-3.jpg
   results: 
   related_articles:
     - "http://thegovlab.org/is-crowdsourcing-the-right-tool-for-your-project/"
@@ -705,10 +714,10 @@
 # ==========================================================================================================================================================================================================================================#
 
 - title: 'Information for Impact: Liberating Nonprofit Sector Data' #will generate slug from this attr
-  type: '' # Data, Collective Intelligence or Design Thinking
+  type: 'Data' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
-  related_question: #question
+  related_question: How to open up <strong>government data</strong> for solving problems
   project_website: #url
   location:
     - United States
@@ -720,28 +729,27 @@
     - Beth Simone Noveck
   tags:
     governance_area:
-        - #tag
+      - National Governance
     type_of_institution:
-        - #tag
+      - Nonprofit
     innovative_capability:
-        - #tag
+      - Open data
+      - Big data
     product_category:
-        - #tag
-  status: # define, prototype, test, complete
-  problem_statement: 'How to obtain better, more usable data about the nonprofit sector and whether such open data can help to improve the performance of the sector?' #question
+      - Publication
+  status: complete # define, prototype, test, complete
+  problem_statement: 'How to obtain more usable data about the nonprofit sector and whether open data can improve the performance of nonprofits' #question
   short_description: >
     <p>We argue in this paper that open 990 data may increase transparency for nonprofit organizations, making it easier for state and federal authorities to detect fraud, spur innovation in the nonprofit sector and, above all, help us to understand the potential value of the 990 data. However, as also is the case for the 990s, “liberating” government data from paper-based technologies and processes is neither straightforward nor free. While myriad benefits may justify the costs, there is a need for practical strategies to overcome technical, political, and cultural impediments. In addition to exploring the costs and benefits of strategies for achieving open 990 data, the paper focused on how to build a community willing to examine the quality of 990 data and build innovative tools to create a better understanding of the nonprofit sector than we currently have and that we so desperately need.</p>
-  tooltip: >
-    <p></p>
-  long_description: >
-    <p></p>
+  tooltip: 
+  long_description: 
   background: >
     <p>In 2010, there were 1.5 million tax-exempt organizations in the United States with $1.51 trillion in revenues. Through the Form 990 in its several varieties, the Internal Revenue Service (IRS) gathers a large amount of information about tax-exempt organizations. Like other important data collected by governments, information contained in the 990s could potentially be far more useful if it were not only public but “open” data that are available to all, free of charge, in a standard format, published without proprietary conditions, and available online as a bulk download rather than only through single-entry lookup. This report was designed to address whether and how making the Form 990 data truly open in this sense would not only make it easier to use for the organizations that already process it, but would also make it useful to researchers, advocates, entrepreneurs, technologists, and nonprofits that do not have the resources to use the data in its current form. </p>
   social_media: #in the future we can have custom shareable messages for each project
-  images: #images or screenshots of the project
-    - #url
+  images:
+    - information-for-impact.jpg
   results: >
-    <p>As a result in part of the work done in collaboration with and under the auspices of the Aspen Institute to make the case for opening up IRS-held data about the nonprofit sector and to explain why this could be transformative, the IRS issued a statement on June 30, 2015 that: “The IRS has made substantial progress in developing a technology solution that, when perfected, will allow the IRS to provide electronically-filed Forms 990 in a machine-readable format. This solution will ensure that sensitive or personally identifiable information continues to be protected from public distribution. The IRS expects that this technology solution should be in place in early 2016.” </p>
+    <p>As a result in part of the work done in collaboration with and under the auspices of the Aspen Institute to make the case for opening up IRS-held data about the nonprofit sector and to explain why this could be transformative, the IRS issued a statement on June 30, 2015 that: “The IRS has made substantial progress in developing a technology solution that, when perfected, will allow the IRS to provide electronically-filed Forms 990 in a machine-readable format. This solution will ensure that sensitive or personally identifiable information continues to be protected from public distribution. The IRS expects that this technology solution should be in place in early 2016.”</p>
   related_articles:
     - https://medium.com/on-philanthropy/improving-non-profits-with-open-data-81033d71242e
     - https://philanthropy.com/article/IRS-Plans-to-Begin-Releasing/231265
@@ -751,14 +759,14 @@
 # ==========================================================================================================================================================================================================================================#
 
 - title: Peer to Patent #will generate slug from this attr
-  related_question: How to match the <strong>demand to the supply of expertise</strong>
+  related_question: How and when to use <strong>the crowd</strong> to get better ideas faster into governing
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
   project_website: http://peertopatent.org
   location:
     - United States
-    - Unite Kingdom
+    - United Kingdom
     - Japan
     - Australia
   partners:
@@ -772,34 +780,38 @@
     - HP
     - Red Hat
   team:
-    - Chris Wong
     - Beth Simone Noveck
+    - Christopher Wong
   tags:
     governance_area:
-        - #tag
+      - National Governance
     type_of_institution:
-        - #tag
+      - Public Sector
     innovative_capability:
-        - #tag
+      - Collective Intelligence
+      - Crowdsourcing
     product_category:
-        - #tag
+        - platform
   status: complete # define, prototype, test, complete
-  problem_statement: How to get better expertise into government through crowdsourcing and whether such crowdsourcing improves the quality of examined patent applications.
+  problem_statement: Can crowdsourcing improve the quality of patent applications?
   short_description: >
-    <p>Developed and run by the New York Law School Institute for Information Law and Policy (the precursor to the GovLab @ NYU), Peer To Patent is a historic initiative by the United States Patent and Trademark Office (USPTO) that opens the patent examination process to public participation for the first time. Peer to Patent is an online system that aims to improve the quality of issued patents by enabling the public to supply the USPTO with information relevant to assessing the claims of pending patent applications.This pilot project connects an open network for community input to the legal decision-making process. The community supplies information and research based on its expertise. The patent examiner makes the final determination on the basis of legal standards. This process combines the democracy of open participation with the legitimacy and effectiveness of administrative decision making.</p>
-  tooltip: >
-    <p></p>
-  long_description: >
-    <p></p>
+    <p>Developed and run by the New York Law School Institute for Information Law and Policy (the precursor to the GovLab @ NYU), Peer To Patent is a historic initiative by the <a href="https://en.wikipedia.org/wiki/United_States_Patent_and_Trademark_Office" target="_blank">United States Patent and Trademark Office</a> (USPTO) that opens the patent examination process to public participation for the first time. Peer to Patent is an online system that aims to improve the quality of issued patents by enabling the public to supply the USPTO with information relevant to assessing the claims of pending patent applications.This pilot project connects an open network for community input to the legal decision-making process. The community supplies information and research based on its expertise. The patent examiner makes the final determination on the basis of legal standards. This process combines the democracy of open participation with the legitimacy and effectiveness of administrative decision making.</p>
+  tooltip: 
+  long_description:
   background: >
-    <p>The Peer To Patent project is an initiative that seeks to assist patent offices in improving patent quality by gathering public input in a structured, productive manner. Peer To Patent is the first social-software project directly linked to decision-making by the federal government. An initial pilot project in collaboration with the United States Patent and Trademark Office (USPTO) was completed June 15, 2009. That pilot examined more than 220 patent applications in the fields of software and business methods. The Peer To Patent project has issued two anniversary reports from the initial pilot. Following the conclusion of the initial pilot the USPTO undertook an evaluation of Peer To Patent assisted by students from Worcester Polytechnic Institute. That evaluation concluded that the program had merit and should be continued. On October 19, 2010, the USPTO and New York Law School jointly announced a new pilot program commencing October 25, 2010, and continuing through September 30, 2011 (with the review period extending through December 31, 2011). This new pilot included patent applications covering subject matter included in the initial pilot, it also included telecommunications, speech recognition, translation, biotechnology, bioinformatics and biopharmaceuticals</p>
+    <p>The Peer To Patent project is an initiative that seeks to assist patent offices in improving patent quality by gathering public input in a structured, productive manner. Peer To Patent is the first social-software project directly linked to decision-making by the federal government. An initial pilot project in collaboration with the United States Patent and Trademark Office (USPTO) was completed June 15, 2009. That pilot examined more than 220 patent applications in the fields of software and business methods. The Peer To Patent project has issued two anniversary reports from the initial pilot. Following the conclusion of the initial pilot the USPTO undertook an evaluation of Peer To Patent assisted by students from Worcester Polytechnic Institute. That evaluation concluded that the program had merit and should be continued. On October 19, 2010, the USPTO and New York Law School jointly announced a new pilot program commencing October 25, 2010, and continuing through September 30, 2011 (with the review period extending through December 31, 2011). This new pilot included patent applications covering subject matter included in the initial pilot, it also included telecommunications, speech recognition, translation, biotechnology, bioinformatics and biopharmaceuticals.</p>
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
-    - #url
+    - peer-to-patent.jpg
   results: >
     <p>Peer to Patent was the first expert network used in government. It catalyzed similar pilot projects including UK Intellectual Property Office, IP Australia, the Japan Patent Office, and the Korean Intellectual Property Office and led, eventually, to a relaxation of the rules against third party protests against pending patent applications. Those policy changes became enshrined in law in the America Invents Acts (2011). In 2011, New York Law School recommended that Stack Exchange use its Q&A platform, Stack Overflow, to run citizen engagement in patent examination and Ask Patents was established: http://patents.stackexchange.com/. Subsequently, the White House named a Presidential Innovation Fellow in 2014-15 to continue the project and ensure that citizen engagement would become part of mainstream patent practice at the USPTO. That Fellow - Christopher Wong - joined the GovLab in 2015. This pathbreaking citizen participation initiative, which demonstrated that, if asked, people would participate in ways that could help civil servants make a better informed decision, was the inspiration for the White House Open Government Initiative, launched during the first term of the Obama Presidency in 2009.</p>
   related_articles:
-    - #url
+    - https://en.wikipedia.org/wiki/Peer-to-Patent
+    - http://www.amazon.com/Wiki-Government-Technology-Democracy-Stronger/dp/0815705107
+    - http://www.peertopatent.org/video/
+    - http://www.peertopatent.org/instructions-for-using-peer-to-patent/
+    - http://www.peertopatent.org/press/
+
 
 # ==========================================================================================================================================================================================================================================#
 
@@ -833,15 +845,12 @@
   short_description: >
     <p>As one of its duties, the Food and Drug Administration manages the process of pre-market approval of all medical devices to ensure that patients and providers have timely access to safe, effective, and high quality devices, as well as the post-market review of medical devices to ensure that any unsafe medical devices are identified and recalled from the market. In both of these contexts, the FDA seeks to provide the medical device industry with productive, consistent, transparent, and efficient regulatory pathways.</p>
     <p>In a pilot program, the GovLab, MacArthur Foundation Research Network on Opening Governance and partners will evaluate several potential impacts of the introduction of a piece of expert networking software, FDA Profiles. This software is designed to decrease frictions in identifying qualified government employees to participate in medical device regulatory review panels. FDA Profiles aggregates information about the expertise of potential reviewers including information from internal databases, publications on PubMed, and self-reported information about an individual’s skills and experience.</p>
-  tooltip: >
-    <p></p>
-  long_description: >
-    <p></p>
+  tooltip: 
+  long_description: 
   background: >
     <p>With thousands of devices -- sometimes leveraging cutting-edge technology -- to examine each year, the US Food and Drug Administration (FDA) is faced with the challenge of finding the right internal and external expertise to help the agency quickly study a device’s safety and efficacy. Done right, lives can be saved and companies can prosper from bringing innovations to market. Done wrong, bad devices kill.</p>
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
-    - #url
   results: >
     <p>The experimentation around the rollout of FDA Profiles will allow researchers to identify how and when changes in the assembly, composition, and efficiency of a review panel change when expert networking software is introduced and will identify the impact of the software on each of these factors.  </p>
     <p>Additionally, the agile empirical manner in which the experimentation will occur will seek to accelerate the pace of research by developing replicable methods for studying governance innovations in the wild.</p>
@@ -849,6 +858,116 @@
     - 'http://www.democracyjournal.org/34/bridging-the-knowledge-gap-in-search-of-expertise.php?page=all'
     - 'http://www.governing.com/columns/smart-mgmt/col-macarthur-foundation-research-network-opening-governance-public-innovation.html'
     - 'https://litigation-essentials.lexisnexis.com/webcd/app?action=DocumentDisplay&crawlid=1&doctype=cite&docid=32+Yale+L.+%26+Pol%27y+Rev.+545&srctype=smi&srcid=3B15&key=0fecf1ae72fe78e33741b9b9143b335b' 
+
+
+# ==========================================================================================================================================================================================================================================#
+
+
+- title: NHS Public Data Science Network #will generate slug from this attr
+  type: 'Data' # Data, Collective Intelligence or Design Thinking
+  is_featured: 0 #integer
+  is_active: True
+  related_question: How and when to <strong>target specific people</strong> in the crowd
+  project_website: http://nhs.networkofinnovators.org
+  location:
+    - United Kingdom
+  partners:
+    - MacArthur Foundation
+    - NHS in England
+    - NYU
+  team:
+    - Julia Root
+    - Christopher Wong
+    - Andrew Young
+    - Batu Sayici
+    - Beth Simone Noveck
+    - John Krauss
+  tags:
+    governance_area:
+      - National Governance
+    type_of_institution:
+      - Public Sector
+    innovative_capability:
+      - Open data
+      - Big data
+      - Small data
+      - Collective Intelligence
+      - Crowdsourcing
+      - Expert networks
+    product_category:
+      - platform
+      - mapping
+      - strategy
+  status: prototype # define, prototype, test, complete
+  problem_statement: How to connect a public institution to data science expertise inside and outside the institution
+  short_description: >
+    <p>The NHS Public Data Science Network project is rooted in the belief that many people possess expertise and will share it, especially if they are asked to contribute. In this first phase, GovLab is collaborating with the NHS in England to focus on mapping the demand for and supply of expertise to the end of eventually designing, developing, and launching a beta version of the data science brain trust populated by data science experts from UK universities and NHS professionals. We are engaging in ethnographic research, including extensive interviews to understand the demand for data science expertise within the NHS in England</p>
+  tooltip: >
+  long_description: >
+  background: >
+    <p>Better use of data has the potential to improve the quality of healthcare for all, reduce costs, and promote innovation.</p>
+    <p>Access to high quality, relevant data is essential but to make use of that data, public institutions like NHS England also need to build capacity for using data to improve people’s lives. Right now, most public institutions suffer from a “data expertise gap.”</p>
+    <p>There is a demand for more expertise, especially in the latest big data tools and techniques and in bringing together those with data science and public health know how to address strategies for turning data into improved health outcomes.</p>
+    <p>Even where expertise exists it can be hard to find both within the NHS and across Britain’s universities, making it hard for NHS to realize the benefit without an infrastructure to make that expertise searchable.</p>
+
+  social_media: #in the future we can have custom shareable messages for each project
+  images: #images or screenshots of the project
+  results: >
+    <p>The first stage of the project will involve identifying questions to which the NHS needs answers and measure whether the institution was able to get better, more diverse, more innovative, or faster expertise in response as a result of targeting expertise.</p>
+  related_articles:
+    - #url
+
+
+# ==========================================================================================================================================================================================================================================#
+
+
+- title: NHS - Open Data #will generate slug from this attr
+  type: 'Data' # Data, Collective Intelligence or Design Thinking
+  is_featured: 0 #integer
+  is_active: True
+  related_question: How to open up <strong>government data</strong> for solving problems
+  project_website: http://images.thegovlab.org/wordpress/wp-content/uploads/2014/10/nhs-full-report-21.pdf
+  location:
+    - United Kingdom
+  partners:
+    - NHS England
+  team:
+    - Stefaan Verhulst
+  tags:
+    governance_area:
+        - National Governance
+    type_of_institution:
+        - Public Sector
+    innovative_capability:
+        - Open Data
+        - Big Data
+    product_category:
+        - Guide
+        - Strategy
+  status: complete # define, prototype, test, complete
+  problem_statement: How to begin implementing and measuring the impact of open data in healthcare
+  short_description: >
+    <p>NHS England and The GovLab released The Open Data Era in Health and Social Care in May 2014 as a model for measuring the impact of open data in healthcare to inform future priorities and investments in open data programs. Specifically, this model identifies and evaluates the following six value propositions for impact measurement:</p>
+  tooltip: >
+    <p></p>
+  long_description: >
+    <p>NHS England and The GovLab released The Open Data Era in Health and Social Care in May 2014 as a model for measuring the impact of open data in healthcare to inform future priorities and investments in open data programs. Specifically, this model identifies and evaluates the following six value propositions for impact measurement:</p>
+    <ul>
+    <li><strong>Accountability:</strong> The use of data to hold healthcare organizations and providers accountable for treatment outcomes.</li>
+    <li><strong>Choice:</strong> Providing open data to help patients make informed choices from among the healthcare options available to them.</li>
+    <li><strong>Efficiency:</strong> Improving the efficiency and cost-effectiveness of healthcare delivery.</li>
+    <li><strong>Outcomes:</strong> Improving treatment outcomes by using open data to make the results of different treatments, healthcare organizations, and providers’ work more transparent.</li>
+    <li><strong>Patient satisfaction and customer service:</strong> Using open data to educate patients and their families and make healthcare institutions more responsive.</li>
+    <li><strong>Economic growth and innovation:</strong> Using open data to fuel new healthcare companies and initiatives, and to spur innovation in the broader economy.</li>
+    </ul>
+  background: >
+    <p>The National Health Service England has launched a series of initiatives to begin opening its healthcare data with the intent to positively impact outcomes. Despite widespread recognition of the value proposition of open data, there is little understanding of whether and how open data initiatives definitively lead to improved outcomes in healthcare. This project aims to establish a healthcare open data model that can be used by researchers and program managers to design their open data initiatives and then measure their impact.</p>
+  social_media: #in the future we can have custom shareable messages for each project
+  images: #images or screenshots of the project
+  results: >
+    <p>The goal is that researchers and healthcare managers can use this open data model to help design and measure their own open data initiatives.</p>
+  related_articles:
+    - http://thegovlab.org/nhs/
 
 # ==========================================================================================================================================================================================================================================#
 
@@ -890,16 +1009,5 @@
 #   related_articles:
 #     - #url
 
-- title: Open 990 #will generate slug from this attr
-  is_active: False
-  related_question: How to open up <strong>government data</strong> for solving problems #question
-  type: 'Data' # Data, Collective Intelligence or Design Thinking
-  problem_statement: #question
-
-- title: NHS - Open Data #will generate slug from this attr
-  is_active: False
-  related_question: How to open up <strong>government data</strong> for solving problems #question
-  type: 'Data' # Data, Collective Intelligence or Design Thinking
-  problem_statement: #question
 
 
