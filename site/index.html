@@ -19,9 +19,9 @@ The GovLab:   -->
     <link rel="stylesheet" href="static/vendor/slick.css">
     <link rel="stylesheet" href="static/styles/styles.css">
 </head>
-<body>
+<body id="homepage">
     <!-- Class for google material icons ".material-icons" -->
-    <header class="b-top-nav">
+    <header class="b-top-nav ">
         <div class="e-nav-group">
             <div class="e-nav-item js-nav-trigger e-nav-trigger">
                 <i class="material-icons">menu</i>
@@ -48,17 +48,19 @@ The GovLab:   -->
 
     <!-- Main Menu (Off Canvas) -->
     <nav class="b-main-menu">
-        <a href="./">Index</a>
+        <a href="./">Home</a>
+        <a href="./about.html">About</a>
         <a href="./projects.html">Projects</a>
         <a href="./events.html">Events</a>
         <a href="./team.html">Team</a>
+        <a href="http://thegovlab.org/contact-us/" target="_blank">Contact</a>
     </nav>
 
     
     <section id="homepage-banner" class="b-landing-questions b-top-section large-header">
         <canvas id="demo-canvas"></canvas>
         <h2 class="e-question">Deepening our understanding of how to govern<br> more effectively and legitimately using technology</h2>
-        <a href="#" class="b-button m-purple">Find out More<i class="material-icons">arrow_forward</i></a>
+        <a href="./about.html" class="b-button m-purple">Find out More<i class="material-icons">arrow_forward</i></a>
     </section>
     <section class="b-govlab-fronts">
         <div class="e-mobile-wrap">
@@ -424,63 +426,14 @@ The GovLab:   -->
 
         <div class="e-banner-container">
             
-                <section id="patrick-meier" class="b-featured-content m-event" style="background-image: url(static/img/events/october-8.jpg)">
-                    <header>
-                        <div class="e-banner-controls">
-                            <i class="material-icons e-banner-control m-prev">keyboard_arrow_left</i>
-                            <i class="material-icons e-banner-control m-next">keyboard_arrow_right</i>
-                        </div>
-                        <div class="e-wrap">
-                            <div class="e-banner-index">
-                                
-
-                                <!-- Esse loop está pegando o número total de eventos, e não somente os "is_fatured" -->
-                                
-                                    <span class="m-active"></span>
-                                
-                            </div>
-
-                        </div>
-                    </header>
-                    <div class="e-wrap">
-                        <div>
-                            <div class="e-half">
-                                <h4 class="e-event-heading">IdeasLunch</h4>
-                                <div class="e-content">
-                                    <h2 class="e-event-name">Book Talk: <br> Digital Humanitarians</h2>
-                                    <p class="e-guest">Patrick Meier</p>
-                                </div>
-                            </div>
-                            <div class="e-half">
-                                <h4 class="e-event-heading">September 30</h4>
-                                <div class="e-content">
-                                    <p>Patrick Meier is an internationally recognized thought leader on humanitarian technology and innovation. His new book, “Digital Humanitarians” has been endorsed by Harvard, MIT, Stanford, Oxford, UN, Red Cross, World Bank, USAID and others. He tweets at @patrickmeier.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="e-action-group">
-                            <div class="e-half">
-                                <div class="e-action">
-                                    <a class="b-button m-naked" href="events.html">All Events<i class="material-icons">arrow_forward</i></a>
-                                </div>
-                            </div>
-                            <div class="e-half">
-                                <div class="e-action">
-                                    <a class="b-button m-naked" href="#">RSVP<i class="material-icons">arrow_forward</i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            
         </div>
     </div>
-    <section class="b-sticky">
+    <!-- <section class="b-sticky">
         <div class="e-wrap">
             <i class="material-icons e-close js-close">close</i>
             <p><strong class="e-title">Sticky Announcement</strong> This is an announcement ad section is fixed at the <a href="#">bottom of the browser</a> window.</p>
         </div>
-    </section>
+    </section> -->
 
 
 
@@ -491,21 +444,28 @@ The GovLab:   -->
 
     <footer class='b-footer'>
         <div class="e-wrap">
-            <div class="e-content">
-                <h4>Title for footer section</h4>
-                <p>Pissitio. Eque millace stiumquibus eum qui ut officte sequam voluptate aperior a que eaquunt. Nulloreritia ellorer ionsequia volupta spitibusda nos ditatur res qui dionse dolorunt aped quam, con pro omnisque nus eum anducitat inveri nos endanditam, te odis alitatem recea.</p>
+            <div class="e-content m-sections">
+                <h4>Sections</h4>
+                <a href="./">Home</a>
+                <a href="./about.html">About</a>
+                <a href="./projects.html">Projects</a>
+                <a href="./events.html">Events</a>
+                <a href="./team.html">Team</a>
+                <a href="http://thegovlab.org/contact-us/" target="_blank">Contact</a>
             </div>
             <div class="e-content">
-                <h4>Title for footer section</h4>
-                <p>Pissitio. Eque millace stiumquibus eum qui ut officte sequam voluptate aperior a que eaquunt. Nulloreritia ellorer ionsequia volupta spitibusda nos ditatur res qui dionse dolorunt aped quam, con pro omnisque nus eum anducitat inveri nos endanditam, te odis alitatem recea.</p>
+                <h4>Supporters</h4>
+                <p><img class="e-partner-logo" src="static/img/partners/macarthur-logo-white.png" alt=""></p>
+                <p><img class="e-partner-logo" src="static/img/partners/knight-logo-white.png" alt=""></p>
             </div>
             <div class="e-content">
                 <h4>Partners</h4>
                 <p><img class="e-partner-logo" src="static/img/partners/nyu.png" alt=""></p>
+                <p><img class="e-partner-logo" src="static/img/partners/mit-logo-white.png" alt=""></p>
             </div>
         </div>
     </footer>
-    <div class="b-build-team">
+    <!-- <div class="b-build-team">
         <div class="e-wrap">
             <div class="e-social-media">
                 <a href="#" class="e-nav-item"><i class="e-social-media-item fa fa-lg fa-twitter"></i></a>
@@ -514,7 +474,7 @@ The GovLab:   -->
         </div>
             <p>This website was created by these <a href="#">GovLabbers</a>.</p>
         </div>
-    </div>
+    </div> -->
     <div class="b-copyright">
         <div class="e-wrap">
             <a class="e-cc-badge" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>

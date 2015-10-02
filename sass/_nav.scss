@@ -134,15 +134,21 @@
 
     a {
         display: block;
-        font-size: 32px;
-        padding: 40px;
+        font-size: 18px;
+        padding: 30px;
         color: $white-70;
         text-align: center;
-        border-bottom: 1px solid $white-20;
+        border-bottom: 1px solid $white-10;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 1px;
 
         @include breakpoint($desktop) { text-align: right; }
 
-        &:hover { background-color: $gray-10; }
+        &:hover { 
+            background-color: $gray-10; 
+            color: $white;
+        }
     }
 
 

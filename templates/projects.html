@@ -42,7 +42,7 @@
             <h3 class="e-project-question">How to enable data sharing from <strong>public sector</strong> to <strong>private sector</strong></h3>
             <div class="e-project-group">
                 {% for project in projects %}
-                    {% if project.related_question == 'How to enable data sharing from the <strong>public sector</strong> and <strong>private sectors</strong>' %}
+                    {% if project.related_question == 'How to enable data sharing from <strong>public sector</strong> to <strong>private sector</strong>' %}
                     
                         {{ item(project.title, project.problem_statement, project.is_active, project.tooltip) }}
                     
@@ -53,7 +53,7 @@
     </section>
     <section class="b-projects-list-wrapper m-collective-intelligence">
         <div class="e-project-type">
-            <h4>Better Governance Through</h4>
+            <h4>Smarter Governance Through</h4>
             <h2>Collective Inteligence</h2>
         </div>
         <div class="e-project-list">
@@ -67,16 +67,17 @@
                     {% endif %}
                 {% endfor %}
             </div>
-            <h3 class="e-project-question">How and when to use <strong>the crowd</strong> to get better ideas faster into governing</h3>
+            <h3 class="e-project-question">How and when to <strong>target specific people</strong> in the crowd</h3>
             <div class="e-project-group">
                 {% for project in projects %}
-                    {% if project.related_question == 'How to match the <strong>demand to the supply of expertise</strong>' %}
+                    {% if project.related_question == 'How and when to <strong>target specific people</strong> in the crowd' %}
                     
                     {{ item(project.title, project.problem_statement, project.is_active, project.tooltip) }}
 
                     {% endif %}
                 {% endfor %}
             </div>
+
         </div>
     </section>
     <section class="b-projects-list-wrapper m-design-thinking">

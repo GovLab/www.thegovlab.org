@@ -28,7 +28,26 @@
             color: $white
         }
 
-        .e-partner-logo { max-width: 90%; }
+        .e-partner-logo { 
+            max-width: 90%; 
+            max-height: 50px;
+        }
+    }
+
+    .e-content.m-sections {
+        a {
+            display: block;
+            color: $white-70;
+            padding: 5px 0;
+            width: 45%;
+
+            @include breakpoint($desktop) { display: inline-block; }
+
+            &:hover {
+                color: $white;
+                text-decoration: underline;
+            }
+        }
     }
 }
 

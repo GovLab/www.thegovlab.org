@@ -1,4 +1,7 @@
 .b-team {
+    background-color: $purple;
+    padding: 1px 0 0;
+
 
     h1 {
         margin-top: 80px;
@@ -9,7 +12,18 @@
         text-align: center;
     }
 
+    h2 {
+        text-align: center;
+        color: $white-70;
+        font-size: 22px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        padding: 0 0 20px;
+    }
+
+
 .e-team-list {
+    background-color: $white;
 
 }
 
@@ -18,10 +32,10 @@
     margin: 0;
     position: relative;
     height: auto;
-    border-bottom: 1px solid $gray-50;
+    border-bottom: 1px solid $gray-10;
     
     h3, h4, p {
-        color: $white-80;
+        color: $gray-80;
         margin: 0;
     }
     
@@ -33,7 +47,7 @@
     h4 {
         font-weight: 400;
         text-transform: uppercase;
-        color: $white-50;
+        color: $gray-50;
         margin-bottom: 20px;
     }
 
@@ -80,10 +94,7 @@
 
         &.m-active p { display: block; }
 
-        .b-button { margin-top: 30px; }
-
-        
-
+        .b-button { color: $purple; }
     }
 }
 
@@ -99,9 +110,8 @@
 
     @include breakpoint($desktop) {
         position: absolute;
-        left: 0;
+        left: -80px;
         top: 0;
-        bottom: 0;
         height: 220px;
         width: 220px;
         margin: 20px 50px;
@@ -123,4 +133,70 @@
 //         text-align: right;
 //     }
 // }
+}
+
+.b-team {
+    
+
+    
+    .e-container {
+        text-align: center;
+    }
+
+    .e-person {
+        @include breakpoint($mobile-only) { 
+            display: block; 
+            margin-bottom: 30px;
+        }
+        @include breakpoint($desktop) { 
+            display: inline-block; 
+            text-align: center;
+            padding: 0;
+            position: relative;
+            height: 0;
+        }
+    }
+
+    .e-person-pic {
+        background-color: $white-20;
+        margin: 0;
+        @include breakpoint($mobile-only) { 
+            width: 70%;
+            height: 0;
+            padding-bottom: 70%;  
+        }
+        display: inline-block;
+        min-height: 120px;
+        min-width: 120px;
+        background-size: cover;
+        background-position: center center;
+        @include circle;
+        @include breakpoint($desktop) {
+            height: 150px;
+            width: 150px;
+            margin: 0 20px;
+        }
+    }
+
+    .e-team-info {
+        vertical-align: top;
+        
+        letter-spacing: .5px;
+    }
+
+    .e-team-name {
+        margin: 0;
+        font-weight: 600;
+        font-size: 18px;
+        color: $white-70;
+    }
+
+    .e-team-job {
+        margin: 0;
+        font-weight: 400;
+        line-height: 1;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: $white-40;
+    }
 }

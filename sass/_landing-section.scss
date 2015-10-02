@@ -1,3 +1,9 @@
+#homepage .e-logo img { 
+    max-width: 300px; 
+    margin-top: 60px;
+}
+
+
 .b-landing-questions {
     text-align: center;
     background-color: $black;
@@ -5,10 +11,10 @@
     background-size: contain;
     background-position: bottom left;
     padding: 80px 20px;
-    height: 680px;
+    
 
     @include breakpoint($desktop) {
-        height: 400px;    
+        height: 70vh; 
         padding: 0;
     }
 
@@ -27,7 +33,7 @@
         line-height: 1.4;
         text-transform: uppercase;
         color: $white;
-        margin: 40px auto 50px auto;
+        margin: 150px auto 50px auto;
         font-weight: 400;
         letter-spacing: 1px;
         margin-bottom: 65px;

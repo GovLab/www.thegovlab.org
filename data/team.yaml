@@ -1,17 +1,17 @@
 - name: Ali Claire
   job: Research Assistant
-  bio: <p>Ali Claire is a Research Assistant at The GovLab. Ali has just completed her MSc. in Global Affairs at the NYU Center for Global Affairs. Prior to joining NYU, she worked as a lawyer for the Australian Attorney-General and the UN International Criminal Tribunal for the Former Yugoslavia. Ali also has experience working on human rights advocacy and public policy for the UN, Human Rights Watch and International Crisis Group in New York. She is currently in the process of launching Iraq Re:Coded (@IraqReCoded) which aims to advance durable solutions solutions for Syrian youth refugees by accelerating livelihoods opportunities through 21st century market-orientated skills training.</p>
+  bio: '<p>Ali Claire is a Research Assistant at The GovLab. Ali has just completed her MSc. in Global Affairs at the NYU Center for Global Affairs. Prior to joining NYU, she worked as a lawyer for the Australian Attorney-General and the UN International Criminal Tribunal for the Former Yugoslavia. Ali also has experience working on human rights advocacy and public policy for the UN, Human Rights Watch and International Crisis Group in New York. She is currently in the process of launching Iraq Re:Coded (@IraqReCoded) which aims to advance durable solutions solutions for Syrian youth refugees by accelerating livelihoods opportunities through 21st century market-orientated skills training.</p>'
 
 - name: Andrew Young
   job: Associate Director of Research
   bio: > 
     <p>Andrew Young is the Associate Director of Research at The GovLab. He earned his Master’s degree in the Media, Culture and Communication department of NYU’s Steinhardt School of Culture, Education and Human Development, with a focus on Technology and Society. In addition to open governance, his research interests include privacy, Internet activism, values in design and the ethical implications of the use of new technologies in politics. His Master’s thesis explored the largely unexamined use of data-tracking technologies on congressional campaign websites to inform microtargeting efforts, and won the department’s Outstanding Thesis Award.</p>
     <p>Before arriving at the GovLab, Andrew worked with Chief of Research Stefaan Verhulst at the Markle Foundation, where his research centered on the use of technology to bolster economic security.</p>
-    <p>Prior to his graduate work at NYU, Andrew attended Pennsylvania State University, where he studied English and Communications. He also spent two semesters at Goldsmiths College, University of London. He can be found on Twitter at @_AndrewYoung.</p>'
+    <p>Prior to his graduate work at NYU, Andrew attended Pennsylvania State University, where he studied English and Communications. He also spent two semesters at Goldsmiths College, University of London. He can be found on Twitter at @_AndrewYoung.</p>
 
 - name: Anupama Sharma
   job: Intern
-  bio: <p>Anu Sharma is an Intern at the GovLab. She has both a Masters and an undergraduate degree in computer science, is currently a first-year student at NYU Wagner. She has been a software engineer for eBay and Yahoo, a web developer for Oracle, and a product manager/marketing engineer for a technology start-up in India that provides location-based services. In addition, she is co-founded of an India-based non-profit organization that promotes community involvement in local social causes.</p>
+  bio: '<p>Anu Sharma is an Intern at the GovLab. She has both a Masters and an undergraduate degree in computer science, is currently a first-year student at NYU Wagner. She has been a software engineer for eBay and Yahoo, a web developer for Oracle, and a product manager/marketing engineer for a technology start-up in India that provides location-based services. In addition, she is co-founded of an India-based non-profit organization that promotes community involvement in local social causes.</p>'
 
 - name: Batu Sayici
   job: Director of User Experience
@@ -33,6 +33,12 @@
     <p>Claudio Mendonca is the Graphic Designer at The GovLab. Working as a visual communicator for more than 10 years, he earned his Bachelor’s degree in Graphic Design in 2005. He has extensive experience in branding and interaction design.</p>
     <p>Claudio’s previous experience includes 3 years developing graphical material for several government institutions in Brazil, publications and interface design for startups. He also designs webapps for the Centre of Direct Democracy and works as a design consultant for the World Bank Institute for several open gov projects such as Open Government, Open Contracting, Open Development and Technology Alliance.</p>
     <p>At The GovLab, Claudio is responsible for branding and interaction design for The GovLab projects. He can be found at http://claudiomendonca.ca/.</p>
+
+- name: Christopher Wong
+  job: Director of Product
+  bio: >
+    <p>Christopher Wong is Director of Product at the GovLab. Christopher joins the GovLab after serving as a Presidential Innovation Fellow, where he worked with the US Patent and Trademark Office to deliver on the White House's Executive Action to better utilize crowdsourcing as a mechanism for improving patent quality. The Executive Action expands upon previous work by Christopher and GovLab Director Beth Simone Noveck in launching Peer to Patent, the historic initiative to allow the public to participate in the patent examination process and one of the federal government's first uses of Web 2.0 technology.</p>
+    <p>Prior to his service as a Presidential Innovation Fellow, Christopher was the Executive Director of the Engelberg Center on Innovation Law & Policy at NYU School of Law and a Visiting Fellow at both the Yale Law School Information Society Project and the Princeton University Center for Information Technology Policy. Christopher holds a JD from New York Law School and a BSBA in Information Technology from the University of Denver. He tweets at @chrswng.</p>
 
 - name: Dinorah Cantú
   job: Research Fellow

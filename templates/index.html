@@ -5,11 +5,12 @@ GovLab Observatory: Reporting on innovations in governance
 The GovLab:   -->
 
 {% extends "base.html" %}
+{% block page_id %}homepage{% endblock %}
 {% block content %}
     <section id="homepage-banner" class="b-landing-questions b-top-section large-header">
         <canvas id="demo-canvas"></canvas>
         <h2 class="e-question">Deepening our understanding of how to govern<br> more effectively and legitimately using technology</h2>
-        <a href="#" class="b-button m-purple">Find out More<i class="material-icons">arrow_forward</i></a>
+        <a href="./about.html" class="b-button m-purple">Find out More<i class="material-icons">arrow_forward</i></a>
     </section>
     <section class="b-govlab-fronts">
         <div class="e-mobile-wrap">
@@ -297,12 +298,12 @@ The GovLab:   -->
             {% endfor %}
         </div>
     </div>
-    <section class="b-sticky">
+    <!-- <section class="b-sticky">
         <div class="e-wrap">
             <i class="material-icons e-close js-close">close</i>
             <p><strong class="e-title">Sticky Announcement</strong> This is an announcement ad section is fixed at the <a href="#">bottom of the browser</a> window.</p>
         </div>
-    </section>
+    </section> -->
 
 
 
