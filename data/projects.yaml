@@ -222,7 +222,7 @@
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
-  related_question: How to develop an <strong>open data map</strong> of responses and actors by <strong>leveraging collective intelligence</strong> #question
+  related_question: How and when to use <strong>the crowd</strong> to get better ideas faster into governing #question
   project_website: https://map.netmundial.org/
   location: 
     - Global
@@ -256,7 +256,7 @@
       - platform
       - mapping
   status: prototype # define, prototype, test, complete
-  problem_statement: "How to map and visualize a dataset of policy alternatives, leveraging the crowd, to help policymakers make more informed choices?" #question
+  problem_statement: "How to develop an open map of the field of Internet Governance through crowdsourcing?" #question
   short_description: >
     <p>The <a href="https://map.netmundial.org/" target="_blank">NETmundial Solutions Map</a>, an activity of the <a href="https://www.netmundial.org/" target="_blank">NETmundial Initiative</a>, is a tool to support decision makers at all levels and across sectors to make informed decisions on how to govern different aspects of the Internet by providing an open platform of information sharing and collaboration across Internet governance issues. It is designed to facilitate a “distributed Internet governance ecosystem that can propel the Internet as a shared, neutral, and global resource for human solidarity and economic progress (<a href="https://www.netmundial.org/" target="_blank">NETmundial Initiative</a>).” </p>
   long_description: >
@@ -529,42 +529,6 @@
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
     - legisletters.jpg
-  results: 
-  related_articles:
-
-
-# ==========================================================================================================================================================================================================================================#
-
-
-- title: Open Grantmaking #will generate slug from this attr
-  type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
-  is_featured: 0 #integer
-  is_active: False
-  related_question: How and when to use <strong>the crowd</strong> to get better ideas faster into governing
-  project_website: https://docs.google.com/a/thegovlab.org/document/d/1A4ZFHxxIoRNvWg4m6C_wnIfvyA4ftNo-Mmt5bD4XtEs/edit?usp=sharing
-  location: 
-    - United States
-  partners:
-  team:
-    - Beth Noveck
-    # - Andrew Miller
-  tags:
-    governance_area:
-        - #tag
-    type_of_institution:
-        - #tag
-    innovative_capability:
-        - #tag
-    product_category:
-        - #tag
-  status: # define, prototype, test, complete
-  problem_statement: #question
-  short_description: >
-    <p>In an effort to safeguard the legitimacy and fairness of the grantmaking process, public funding agencies have traditionally done grantmaking behind closed doors. Whether to states or individuals, introducing greater openness at all stages of the grantmaking process has the potential to spur more creative problem-solving strategies and, ultimately, more effective outcomes because open processes enable greater diversity of expertise to be brought to bear.</p>
-  background: >
-    <p>Examining grantmaking innovations in the corporate philanthropic and and public sectors that the US Federal government could adopt.</p>
-  social_media: #in the future we can have custom shareable messages for each project
-  images: #images or screenshots of the project
   results: 
   related_articles:
 
@@ -968,6 +932,108 @@
     <p>The goal is that researchers and healthcare managers can use this open data model to help design and measure their own open data initiatives.</p>
   related_articles:
     - http://thegovlab.org/nhs/
+
+# ==========================================================================================================================================================================================================================================#
+
+
+- title: '#Crowdlaw' #will generate slug from this attr
+  type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
+  is_featured: 0 #integer
+  is_active: True
+  related_question: How and when to <strong>target specific people</strong> in the crowd
+  project_website: #url
+  location:
+   - Global
+  partners:
+  team:
+    - Beth Simone Noveck
+    - Maria Hermosilla
+    - Irene Tello-Arista
+    - Julia Root
+  tags:
+    governance_area:
+        - National Governance
+    type_of_institution:
+        - Public Sector
+    innovative_capability:
+        - Open data
+        - Big data
+        - Small data
+        - Collective Intelligence
+        - Crowdsourcing
+        - Expert networks
+    product_category:
+        - Platform
+        - Mapping
+        - Strategy
+  status: define # define, prototype, test, complete
+  problem_statement: How can crowdsourcing enable greater citizen participation in the legislation and constitution drafting process?
+  short_description: >
+    <p>Crowdlaw is an emerging field of practice that is comprised of lawyers, platform developers, lawyers, government employees and research scientists, among others including citizen advocates. GovLab plays a convening role to engage practitioners from around the world and has initiated a dialogue in order to identify case studies and pilots, assess impact and inspire greater innovation across political, government and civil society actors.</p>
+  tooltip: >
+    <p></p>
+  long_description: >
+    <p>Crowdlaw is an emerging field of practice that is comprised of lawyers, platform developers, lawyers, government employees and research scientists, among others including citizen advocates. GovLab plays a convening role to engage practitioners from around the world and has initiated a dialogue in order to identify case studies and pilots, assess impact and inspire greater innovation across political, government and civil society actors.</p>
+    <p>GovLab has sponsored and organized three online conferences (open to all members of the public) with participants showcasing crowdlaw projects from around the world that include Austria, Chile, Brazil, Finland, Iceland, Italy, Libya, Mexico, Philippines, Mexico, Spain, and the U.S.  The goal of each session varies, but ultimately we help advocates to gain a better understanding of what makes a successful and legitimate crowdlaw project, how common challenges may be anticipated and mitigated, and ideas for future discussions and collaborations around establishing meaningful best practices going forward.</p>
+  background: >
+    <p>Since 2014, GovLab has designed, hosted and moderated a series of online conferences to support the burgeoning network of crowdlaw leaders and practitioners from around the world.  Crowdlaw, or open, collaborative crowdsourced lawmaking, is a tech-enabled approach for drafting legislation or constitutions, that offers an alternative to the traditional method of policymaking, which typically occurs behind closed doors and with little input from the people it affects. </p>
+    <p>The goal of these peer-to-peer learning events are to deepen the collective understanding of what works, what doesn’t, how to assess impact, and accelerate the implementation of more effective and legitimate participatory lawmaking practices. </p>
+  social_media: #in the future we can have custom shareable messages for each project
+  images: #images or screenshots of the project
+    - crowdlaw-1.png
+    - crowdlaw-2.png
+  results: >
+    <p>The goal of the CrowdLaw Conferences is to bring together practitioners and researchers of this emerging policy making field to learn from one another of what works, what doesn’t, what are the best practices and the challenges in the institutionalization of CrowdLaw. From the insights and learnings that come from these conferences we will create a framework to better understand the state of the field of crowdsourcing policy. We also will create a report with the findings of the conferences, a list of selected readings on the topic and twitter lists of the experts of the field, to give people the tools to understand more about using crowdsourcing in the process of policymaking. </p>
+  related_articles:
+    - http://thegovlab.org/a-growing-community-of-global-crowdlaw-practitioners/
+    - http://thegovlab.org/expanding-insights-crowdlaw-session-2-highlights-need-for-experimentation-collaboration/
+    - http://thegovlab.org/crowdlaw-in-action-details-a-preview-of-next-weeks-online-event/
+
+
+
+# Conference 1 - June 2, 2014: http://thegovlab.org/toward-more-inclusive-lawmaking-what-we-know-still-most-need-to-know-about-crowdlaw/
+# Conference 2: June 16, 2014:
+# http://thegovlab.org/expanding-insights-crowdlaw-session-2-highlights-need-for-experimentation-collaboration/
+# Conference 3 - September 24, 2015 http://thegovlab.org/a-growing-community-of-global-crowdlaw-practitioners/
+
+
+# ==========================================================================================================================================================================================================================================#
+
+
+- title: Open Grantmaking #will generate slug from this attr
+  type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
+  is_featured: 0 #integer
+  is_active: False
+  related_question: How and when to use <strong>the crowd</strong> to get better ideas faster into governing
+  project_website: https://docs.google.com/a/thegovlab.org/document/d/1A4ZFHxxIoRNvWg4m6C_wnIfvyA4ftNo-Mmt5bD4XtEs/edit?usp=sharing
+  location: 
+    - United States
+  partners:
+  team:
+    - Beth Noveck
+    # - Andrew Miller
+  tags:
+    governance_area:
+        - #tag
+    type_of_institution:
+        - #tag
+    innovative_capability:
+        - #tag
+    product_category:
+        - #tag
+  status: # define, prototype, test, complete
+  problem_statement: #question
+  short_description: >
+    <p>In an effort to safeguard the legitimacy and fairness of the grantmaking process, public funding agencies have traditionally done grantmaking behind closed doors. Whether to states or individuals, introducing greater openness at all stages of the grantmaking process has the potential to spur more creative problem-solving strategies and, ultimately, more effective outcomes because open processes enable greater diversity of expertise to be brought to bear.</p>
+  background: >
+    <p>Examining grantmaking innovations in the corporate philanthropic and and public sectors that the US Federal government could adopt.</p>
+  social_media: #in the future we can have custom shareable messages for each project
+  images: #images or screenshots of the project
+  results: 
+  related_articles:
+
+
+
 
 # ==========================================================================================================================================================================================================================================#
 
