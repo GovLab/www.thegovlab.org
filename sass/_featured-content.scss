@@ -43,6 +43,7 @@
         color: $white-90;
         font-size: 14px;
         letter-spacing: .5px;
+        font-weight: 600;
 
         @include breakpoint($desktop) { font-size: 20px; }
     }

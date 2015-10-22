@@ -114,7 +114,7 @@
     <h2>More About the {{project.title}}</h2>
     <div class="e-wrap">
         {% for article in project.related_articles %}
-        <div class="e-article"><a href="{{article}}" target="_blank">Go to Article</a></div>
+        <div class="e-article"><a href="{{article.url}}" target="_blank">{{article.name}}</a></div>
         {% endfor %}
         <!-- <article class="e-half e-blog">
             <h3 class="e-article-type">Blog</h3>

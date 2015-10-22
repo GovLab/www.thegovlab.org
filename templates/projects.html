@@ -32,7 +32,7 @@
             <h3 class="e-project-question">How to open up <strong>government data</strong> for solving problems</h3>
             <div class="e-project-group">
                 {% for project in projects %}
-                    {% if project.related_question == 'How to open up <strong>government data</strong> for solving problems' %}
+                    {% if project.related_question == 1 %}
 
                         {{ item(project.title, project.problem_statement, project.is_active, project.tooltip) }}
                     
@@ -42,7 +42,7 @@
             <h3 class="e-project-question">How to enable data sharing from <strong>public sector</strong> to <strong>private sector</strong></h3>
             <div class="e-project-group">
                 {% for project in projects %}
-                    {% if project.related_question == 'How to enable data sharing from <strong>public sector</strong> to <strong>private sector</strong>' %}
+                    {% if project.related_question == 2 %}
                     
                         {{ item(project.title, project.problem_statement, project.is_active, project.tooltip) }}
                     
@@ -60,7 +60,7 @@
             <h3 class="e-project-question">How and when to use <strong>the crowd</strong> to get better ideas faster into governing</h3>
             <div class="e-project-group">
                 {% for project in projects %}
-                    {% if project.related_question == 'How and when to use <strong>the crowd</strong> to get better ideas faster into governing' %}
+                    {% if project.related_question == 3 %}
                         
                         {{ item(project.title, project.problem_statement, project.is_active, project.tooltip) }}
 
@@ -70,7 +70,7 @@
             <h3 class="e-project-question">How and when to <strong>target specific people</strong> in the crowd</h3>
             <div class="e-project-group">
                 {% for project in projects %}
-                    {% if project.related_question == 'How and when to <strong>target specific people</strong> in the crowd' %}
+                    {% if project.related_question == 4 %}
                     
                     {{ item(project.title, project.problem_statement, project.is_active, project.tooltip) }}
 
@@ -99,7 +99,7 @@
             <h3 class="e-project-question">How to take innovative public interest projects <strong>from idea to implementation</strong></h3>
             <div class="e-project-group">
                 {% for project in projects %}
-                    {% if project.related_question == 'How to take innovative public interest projects <strong>from idea to implementation</strong>' %}
+                    {% if project.related_question == 5 %}
                     
                     {{ item(project.title, project.problem_statement, project.is_active, project.tooltip) }}
 

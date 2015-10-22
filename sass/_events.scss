@@ -156,7 +156,7 @@
         height: auto;
         overflow: hidden;
         padding: 0;
-        background-color: $purple-40k;
+        background-color: $black;
         color: $white-60;
         box-shadow: inset 0 0 20px $gray-30;
         transition: all 0.8s ease-in;
@@ -165,12 +165,43 @@
 
         .e-wrap {
             @include wrap;
-            padding: 40px 0;
+            padding: 40px 40px 40px 0;
 
             @include breakpoint($mobile-only) { 
                 margin-left: 20px;
                 margin-right: 20px;
             }
+        }
+
+        .e-close {
+            float: right;
+            cursor: pointer;
+            font-size: 30px;
+            margin-right: -40px;
+            padding: 5px;
+            @include transition;
+
+            &:hover {
+                @include transition;
+            }
+        }
+
+        h3 {
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+
+        ul {
+            padding: 0;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        a {
+            color: currentColor;
+            text-decoration: none;
         }
     }
 }

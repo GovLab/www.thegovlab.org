@@ -10,7 +10,7 @@
 </section>
 <section class="b-event-list">
     {% for event in events %}
-        <div class="e-event-item m-{{event.type|slug}}{% if event.has_passed %} e-event-passed{% else %} e-event-upcoming{% endif %}" style="background-image:url(static/img/events/{{event.image}})">
+        <div class="e-event-item m-{{event.type|slug}}{% if event.has_passed %} e-event-passed{% else %} e-event-upcoming{% endif %}" style="background-image:url(static/img/events/{{event.guest | slug}}.jpg)">
             <div class="e-wrap">
                 <div>
                     <div class="e-half">
@@ -45,7 +45,9 @@
 
         <div class="e-long-description">
             <div class="e-wrap">
+                <i class="material-icons js-close e-close">close</i>
                 {{event.long_description}}
+                <p><strong>Lunch will be served. Please RSVP so we have accurate numbers for food.</strong></p>
             </div>
         </div>
     {% endfor %}

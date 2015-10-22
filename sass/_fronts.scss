@@ -36,7 +36,10 @@
             height: 0;
         }
 
-        h2 { text-transform: uppercase; }
+        h2 { 
+            text-transform: uppercase; 
+            font-weight: 600;
+        }
 
         .e-explanation {
             font-size: 18px;
