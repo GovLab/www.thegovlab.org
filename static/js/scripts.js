@@ -54,8 +54,6 @@ $(document).ready(function($) {
         $('.b-event-list .e-event-passed').show();
     });
 
-
-
     $('.e-list-selector .e-show-upcoming').click(function() {
         $('.e-show-passed').removeClass('m-active');
         $(this).addClass('m-active');
@@ -72,9 +70,9 @@ $(document).ready(function($) {
         $overlay.addClass('m-active');
     });
 
-    $overlay.click(function() {
+    $('.js-close').click(function() {
         $('.e-event-item').removeClass('m-active');
-        $(this).removeClass('m-active');
+        // $(this).removeClass('m-active');
     });
 
     // Projects Grid/List View Logic
@@ -182,7 +180,7 @@ var render = function(posts) {
 };
 
 window.Feed({
-    url: 'http://thegovlab.org/featured-website/feed/',
+    url: 'http://thegovlab.org/category/featured-website/feed/',
     number: 3,
     callback: render
 });

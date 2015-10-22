@@ -298,7 +298,8 @@ button:focus {
         padding: 15% 0 35%;
         height: 0; } }
     .b-govlab-fronts .e-govlab-front h2 {
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      font-weight: 600; }
     .b-govlab-fronts .e-govlab-front .e-explanation {
       font-size: 18px;
       line-height: 24px;
@@ -368,7 +369,8 @@ button:focus {
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.9);
     font-size: 14px;
-    letter-spacing: .5px; }
+    letter-spacing: .5px;
+    font-weight: 600; }
     @media (min-width: 1025px) {
       .b-featured-content h4 {
         font-size: 20px; } }
@@ -1352,7 +1354,7 @@ button:focus {
     cursor: pointer;
     border: 1px dotted rgba(0, 0, 0, 0.2); } }
 .b-project-view.m-grid .b-projects-list-wrapper .e-project-item h2 {
-  font-weight: 800;
+  font-weight: 600;
   text-transform: uppercase;
   line-height: 1.2;
   font-size: 18px; }
@@ -1526,7 +1528,7 @@ button:focus {
     height: auto;
     overflow: hidden;
     padding: 0;
-    background-color: #381759;
+    background-color: #333;
     color: rgba(255, 255, 255, 0.6);
     box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.3);
     transition: all 0.8s ease-in; }
@@ -1536,11 +1538,30 @@ button:focus {
       max-width: 1025px;
       margin-left: auto;
       margin-right: auto;
-      padding: 40px 0; }
+      padding: 40px 40px 40px 0; }
       @media (max-width: 800px) {
         .b-event-list .e-long-description .e-wrap {
           margin-left: 20px;
           margin-right: 20px; } }
+    .b-event-list .e-long-description .e-close {
+      float: right;
+      cursor: pointer;
+      font-size: 30px;
+      margin-right: -40px;
+      padding: 5px;
+      transition: all .4s ease; }
+      .b-event-list .e-long-description .e-close:hover {
+        transition: all .4s ease; }
+    .b-event-list .e-long-description h3 {
+      text-transform: uppercase;
+      font-weight: 600; }
+    .b-event-list .e-long-description ul {
+      padding: 0; }
+    .b-event-list .e-long-description li {
+      list-style-type: none; }
+    .b-event-list .e-long-description a {
+      color: currentColor;
+      text-decoration: none; }
 
 .e-event-item::before {
   background-color: rgba(0, 0, 0, 0.05);
