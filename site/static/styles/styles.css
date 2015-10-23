@@ -715,6 +715,9 @@ button:focus {
     .b-footer .e-content .e-partner-logo {
       max-width: 90%;
       max-height: 50px; }
+    .b-footer .e-content .m-google {
+      max-height: 40px;
+      max-width: 70%; }
   .b-footer .e-content.m-sections a {
     display: block;
     color: rgba(255, 255, 255, 0.7);
@@ -1232,7 +1235,7 @@ button:focus {
     line-height: 1.1; }
     @media (min-width: 1025px) {
       .b-projects-list-wrapper .e-project-type h2 {
-        font-size: 44px;
+        font-size: 33px;
         margin-top: 15px; } }
 .b-projects-list-wrapper.m-data .e-project-type {
   background-color: #008895; }
@@ -1829,6 +1832,8 @@ button:focus {
   font-size: 22px; }
   .b-about.m-how-we-do-it .e-tagline {
     margin: 0; }
+  .b-about.m-how-we-do-it .e-download .b-button {
+    margin: 0 auto; }
 
 .b-about.m-footer {
   background-color: #523080;
