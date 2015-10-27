@@ -57,7 +57,7 @@
 
 - title: The GovLab Public Projects Canvas #will generate slug from this attr
   type: 'Design Thinking' # Data, Collective Intelligence or Design Thinking
-  is_featured: 1 #integer
+  is_featured: 0 #integer
   is_active: True
   related_question: 5 #question
   project_website: http://govlabacademy.org/canvas/ #url
@@ -229,7 +229,7 @@
 
 - title: NETmundial Solutions Map #will generate slug from this attr
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
-  is_featured: 0 #integer
+  is_featured: 1 #integer
   is_active: True
   related_question: 3 #question
   project_website: https://map.netmundial.org/
@@ -971,7 +971,7 @@
 
 - title: '#Crowdlaw' #will generate slug from this attr
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
-  is_featured: 1 #integer
+  is_featured: 0 #integer
   is_active: True
   related_question: 4
   project_website: #url
