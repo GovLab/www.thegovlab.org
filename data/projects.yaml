@@ -1074,6 +1074,54 @@
 # ==========================================================================================================================================================================================================================================#
 
 
+- title: Open Data Impact Case Studies #will generate slug from this attr
+  type: 'Data' # Data, Collective Intelligence or Design Thinking
+  is_featured: 1 #integer
+  is_active: True
+  related_question: 1 #question
+  project_website: http://odimpact.org
+  location:
+    - global
+  partners:
+    - Omidyar Network
+  team:
+    - Andrew Young
+    - Stefaan Verhulst
+  tags:
+    governance_area:
+        - national governance
+        - regional governance
+    type_of_institution:
+        - public sector
+        - nonprofit
+    innovative_capability:
+        - open data
+    product_category:
+        - case studies
+  status: test # define, prototype, test, complete
+  problem_statement: What are the global impacts of open data? #question
+  short_description: >
+  tooltip: >
+  long_description: >
+    <p>In collaboration with <a href="https://www.omidyar.com/" target="_blank">Omidyar Network</a>, the GovLab has conducted <strong>19 detailed case studies of open data projects around the world.</strong> The case studies were selected for their sectoral and geographic representativeness. They were built in part from secondary sources (“desk research”), but also from a number of first-hand interviews with important players and key stakeholders. The GovLab is currently undertaking an <a href="http://odimpact.org" target="_blank">open peer review</a> of the case studies and a key findings paper. Final versions will be published in the new year.</p>
+  background: >
+    <p>Recent years have witnessed considerable enthusiasm over open data. Several studies have documented its potential to spur economic innovation and social transformation, and to usher in fresh forms of political and government accountability. Yet for all the enthusiasm, we know little about how open data actually works, and what forms of impact it is really having.</p>
+  social_media: #in the future we can have custom shareable messages for each project
+  images: 
+    - open-data-impact-1.png #images or screenshots of the project
+  results:
+  related_articles:
+    - name: "Wanted: Peer Reviewers on the Impact of Open Data"
+      url: http://thegovlab.org/wanted-peer-reviewers-on-the-impact-of-open-data/
+    - name: "The Impact of Open Data – Initial Findings from Case Studies"
+      url: http://thegovlab.org/the-impact-of-open-data-initial-findings-from-case-studies/
+    - name: "New Project: Open Data Impact Studies"
+      url: http://thegovlab.org/open-data-impact-studies/
+
+
+# ==========================================================================================================================================================================================================================================#
+
+
 # - title:  #will generate slug from this attr
 #   type: '' # Data, Collective Intelligence or Design Thinking
 #   is_featured: 0 #integer
