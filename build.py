@@ -21,6 +21,7 @@ _OUTPUTPATH = path.join(getcwd(), 'site')
 _EVENTS = path.join(getcwd(), 'data/events.yaml')
 _PROJECTS = path.join(getcwd(), 'data/projects.yaml')
 _TEAM = path.join(getcwd(), 'data/team.yaml')
+_FUNDERS = path.join(getcwd(), 'data/funders.yaml')
 
 _SLUG = lambda x: slugify(unidecode(x.lower()) if x else '')
 
@@ -34,7 +35,7 @@ def context():
     dic['events'] = load(open(_EVENTS))
     dic['projects'] = load(open(_PROJECTS))
     dic['team'] = load(open(_TEAM))
-    dic['team'] = load(open(_TEAM))
+    dic['funders'] = load(open(_FUNDERS))
     dic['events_slider_counter'] = 0
     dic['projects_slider_counter'] = 0
 
