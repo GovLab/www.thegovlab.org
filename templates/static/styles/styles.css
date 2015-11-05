@@ -1869,13 +1869,20 @@ button:focus {
 .b-our-transparency .b-our-tranparency-table table tr:nth-child(2n) {
   background-color: rgba(0, 0, 0, 0.05); }
 .b-our-transparency .b-our-tranparency-table table td, .b-our-transparency .b-our-tranparency-table table th {
-  padding: 10px;
-  font-size: 16px; }
-.b-our-transparency .b-our-tranparency-table table .e-name {
-  width: 25%; }
-.b-our-transparency .b-our-tranparency-table table .e-project {
+  padding: 15px;
+  font-size: 16px;
+  vertical-align: top; }
+.b-our-transparency .b-our-tranparency-table table .e-funder {
   width: 75%; }
 .b-our-transparency .b-our-tranparency-table table .e-amount {
-  text-align: right; }
+  text-align: right;
+  width: 25%;
+  font-size: 16px; }
+.b-our-transparency .b-our-tranparency-table table td p {
+  margin: 0;
+  line-height: 1.2; }
+.b-our-transparency .b-our-tranparency-table table .e-project {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.6); }
 
 /*# sourceMappingURL=styles.css.map */

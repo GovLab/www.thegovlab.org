@@ -38,13 +38,29 @@
             tr:nth-child(2n) { background-color: $gray-05; }
 
             td, th {
-                padding: 10px;
+                padding: 15px;
+                font-size: 16px;
+                vertical-align: top;
+
+            }
+
+            .e-funder { width: 75%; }
+            .e-amount { 
+                text-align: right;
+                width: 25%;
                 font-size: 16px;
             }
 
-            .e-name { width: 25%; }
-            .e-project { width: 75%; }
-            .e-amount { text-align: right; }
+            td p {
+                margin: 0;
+                line-height: 1.2;
+            }
+
+            .e-name {}
+            .e-project {
+                font-size: 12px;
+                color: $gray-60;
+            }
         }
     }
 }

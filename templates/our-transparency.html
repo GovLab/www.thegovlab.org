@@ -12,15 +12,16 @@
             <table>
                 <thead>
                     <th class="e-name">Funder</th>
-                    <th class="e-project">Project</th>
                     <th class="e-amount">Amount</th>
                 </thead>
                 
                 {% for funder in funders %}
                 <tr>
-                    <td class="e-name">{{funder.name}}</td>
-                    <td class="e-project">{{funder.project}}</td>
-                    <td class="e-amount">{{funder.amount}}</td>
+                    <td class="e-funder">
+                        <p class="e-name">{{funder.name}}</p>
+                        <p class="e-project">{{funder.project}}</p>
+                    </td>
+                    <td class="e-amount">$ {{funder.amount}}</td>
                 </tr>
                 {% endfor %}
             </table>
