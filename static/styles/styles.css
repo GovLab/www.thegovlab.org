@@ -1844,21 +1844,23 @@ button:focus {
 
 .b-our-transparency .b-top-section {
   background-color: #523080;
-  padding-bottom: 30px; }
-  .b-our-transparency .b-top-section h2 {
+  padding-bottom: 15px; }
+  .b-our-transparency .b-top-section h2, .b-our-transparency .b-top-section h3 {
     text-align: center;
     color: white;
+    font-weight: 600; }
+  .b-our-transparency .b-top-section h2 {
     text-transform: uppercase;
-    font-weight: 600;
     letter-spacing: 1px; }
 .b-our-transparency .e-wrap {
   max-width: 1025px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  padding: 20px 0; }
 .b-our-transparency .b-our-tranparency-table table tr {
   text-align: left; }
-  .b-our-transparency .b-our-tranparency-table table tr:nth-child(2n) {
-    background-color: rgba(0, 0, 0, 0.05); }
+.b-our-transparency .b-our-tranparency-table table tr:nth-child(2n) {
+  background-color: rgba(0, 0, 0, 0.05); }
 .b-our-transparency .b-our-tranparency-table table td, .b-our-transparency .b-our-tranparency-table table th {
   padding: 10px;
   font-size: 16px; }
