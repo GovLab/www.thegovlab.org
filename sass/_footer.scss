@@ -20,6 +20,8 @@
         &:nth-child(3n) { margin-right: 0; }
 
         @include breakpoint($desktop) { margin-right: 60px; }
+            
+        @include breakpoint($mobile-only) { text-align: center; }
 
         h4 {
             margin: 40px 0 0;
@@ -61,9 +63,12 @@
         display: block;
         color: $white-70;
         padding: 5px 0;
-        width: 45%;
+        
 
-        @include breakpoint($desktop) { display: inline-block; }
+        @include breakpoint($desktop) { 
+            display: inline-block; 
+            width: 45%;
+        }
 
         &:hover {
             color: $white;

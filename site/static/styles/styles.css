@@ -707,6 +707,9 @@ button:focus {
     @media (min-width: 1025px) {
       .b-footer .e-content {
         margin-right: 60px; } }
+    @media (max-width: 800px) {
+      .b-footer .e-content {
+        text-align: center; } }
     .b-footer .e-content h4 {
       margin: 40px 0 0;
       font-weight: 600;
@@ -731,11 +734,11 @@ button:focus {
   .b-footer .e-content.m-sections a {
     display: block;
     color: rgba(255, 255, 255, 0.7);
-    padding: 5px 0;
-    width: 45%; }
+    padding: 5px 0; }
     @media (min-width: 1025px) {
       .b-footer .e-content.m-sections a {
-        display: inline-block; } }
+        display: inline-block;
+        width: 45%; } }
     .b-footer .e-content.m-sections a:hover {
       color: white;
       text-decoration: underline; }
