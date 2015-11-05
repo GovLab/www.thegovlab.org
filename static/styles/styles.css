@@ -1843,20 +1843,27 @@ button:focus {
     font-size: 30px; }
 
 .b-our-transparency .b-top-section {
-  background-color: #523080;
-  padding-bottom: 15px; }
+  background-color: #523080; }
   .b-our-transparency .b-top-section h2, .b-our-transparency .b-top-section h3 {
     text-align: center;
-    color: white;
-    font-weight: 600; }
+    color: white; }
   .b-our-transparency .b-top-section h2 {
     text-transform: uppercase;
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-size: 30px; }
+  .b-our-transparency .b-top-section h3 {
+    background-color: #333;
+    padding: 10px 0;
+    font-weight: 400; }
 .b-our-transparency .e-wrap {
   max-width: 1025px;
   margin-left: auto;
   margin-right: auto;
   padding: 20px 0; }
+.b-our-transparency .b-our-tranparency-table table th {
+  background-color: rgba(0, 0, 0, 0.1);
+  text-transform: uppercase; }
 .b-our-transparency .b-our-tranparency-table table tr {
   text-align: left; }
 .b-our-transparency .b-our-tranparency-table table tr:nth-child(2n) {
