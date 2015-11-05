@@ -1,0 +1,50 @@
+.b-our-transparency {
+    .b-top-section {
+        background-color: $purple; 
+        padding-bottom: 30px;
+
+        h2 {
+            text-align: center;
+            color: $white;
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }   
+    }
+
+    .e-wrap {
+        @include wrap;
+    }
+
+    .b-our-tranparency-table {
+        table {
+            tr {
+                text-align: left;
+
+                &:nth-child(2n) {
+                    background-color: $gray-05;
+                }
+            }
+
+            td, th {
+                padding: 10px;
+                font-size: 16px;
+
+                
+            }
+
+            .e-name {
+                width: 25%;
+            }
+
+            .e-project {
+                width: 75%;
+            }
+
+            .e-amount {
+                text-align: right;
+            }
+        }
+    }
+    
+}
