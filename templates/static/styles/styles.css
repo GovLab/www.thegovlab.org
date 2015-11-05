@@ -713,11 +713,21 @@ button:focus {
       text-transform: uppercase;
       color: white; }
     .b-footer .e-content .e-partner-logo {
-      max-width: 90%;
-      max-height: 50px; }
-    .b-footer .e-content .m-google {
-      max-height: 40px;
-      max-width: 70%; }
+      display: block; }
+      .b-footer .e-content .e-partner-logo > img {
+        max-width: 90%;
+        padding: 10px 0;
+        max-height: 60px;
+        opacity: .5;
+        transition: all .4s ease; }
+        .b-footer .e-content .e-partner-logo > img:hover {
+          opacity: 1;
+          transition: all .4s ease; }
+      .b-footer .e-content .e-partner-logo.m-google img {
+        max-height: 50px;
+        max-width: 70%; }
+      .b-footer .e-content .e-partner-logo.m-mit img {
+        max-height: 70px; }
   .b-footer .e-content.m-sections a {
     display: block;
     color: rgba(255, 255, 255, 0.7);
@@ -729,35 +739,6 @@ button:focus {
     .b-footer .e-content.m-sections a:hover {
       color: white;
       text-decoration: underline; }
-
-.b-build-team {
-  background-color: rgba(0, 0, 0, 0.7);
-  padding: 20px;
-  text-align: center; }
-  @media (min-width: 1025px) {
-    .b-build-team {
-      text-align: left;
-      padding: 20px 0; } }
-  .b-build-team .e-wrap {
-    max-width: 1025px;
-    margin-left: auto;
-    margin-right: auto; }
-    .b-build-team .e-wrap .e-social-media {
-      text-align: center; }
-      @media (min-width: 1025px) {
-        .b-build-team .e-wrap .e-social-media {
-          float: right; } }
-      .b-build-team .e-wrap .e-social-media a {
-        padding: 10px 15px;
-        cursor: pointer; }
-    .b-build-team .e-wrap a {
-      color: rgba(255, 255, 255, 0.7);
-      font-weight: 400; }
-      .b-build-team .e-wrap a:hover {
-        color: white; }
-    .b-build-team .e-wrap p {
-      margin: 0;
-      color: rgba(255, 255, 255, 0.6); }
 
 .b-copyright {
   background-color: rgba(0, 0, 0, 0.9);

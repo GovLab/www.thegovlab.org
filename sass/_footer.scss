@@ -28,71 +28,89 @@
             color: $white
         }
 
-        .e-partner-logo { 
-            max-width: 90%; 
-            max-height: 50px;
-        }
+        .e-partner-logo {
+            display: block;
 
-        .m-google {
-            max-height: 40px;
-            max-width: 70%;
+
+            > img { 
+                max-width: 90%; 
+                padding: 10px 0;
+                max-height: 60px;
+                opacity: .5;
+                @include transition;
+
+                &:hover {
+                    opacity: 1;
+                    @include transition;
+                }   
+            }
+
+            &.m-google img {
+                max-height: 50px;
+                max-width: 70%;
+            }
+
+            &.m-mit img {
+                max-height: 70px;
+            }
         }
     }
 
-    .e-content.m-sections {
-        a {
-            display: block;
-            color: $white-70;
-            padding: 5px 0;
-            width: 45%;
+.e-content.m-sections {
+    a {
+        display: block;
+        color: $white-70;
+        padding: 5px 0;
+        width: 45%;
 
-            @include breakpoint($desktop) { display: inline-block; }
+        @include breakpoint($desktop) { display: inline-block; }
 
-            &:hover {
-                color: $white;
-                text-decoration: underline;
-            }
+        &:hover {
+            color: $white;
+            text-decoration: underline;
         }
     }
 }
 
-.b-build-team {
-    background-color: $gray-70;
-    padding: 20px;
-    text-align: center;
+// .b-build-team {
+//     background-color: $gray-70;
+//     padding: 20px;
+//     text-align: center;
 
 
-    @include breakpoint($desktop) {
-        text-align: left;
-        padding: 20px 0;
-    }
+//     @include breakpoint($desktop) {
+//         text-align: left;
+//         padding: 20px 0;
+//     }
 
-    .e-wrap {
-        @include wrap;
+//     .e-wrap {
+//         @include wrap;
 
-        .e-social-media {
-            text-align: center;
+//         .e-social-media {
+//             text-align: center;
 
-            @include breakpoint($desktop) { float: right; }
+//             @include breakpoint($desktop) { float: right; }
 
-            a {
-                padding: 10px 15px;
-                cursor: pointer;
-            }
-        }
+//             a {
+//                 padding: 10px 15px;
+//                 cursor: pointer;
+//             }
+//         }
 
-        a {
-            color: $white-70;
-            font-weight: 400;
+//         a {
+//             color: $white-70;
+//             font-weight: 400;
 
-            &:hover { color: $white; }
-        }
+//             &:hover { color: $white; }
+//         }
 
-        p {
-            margin: 0;
-            color: $white-60;
-        }
-    }
+//         p {
+//             margin: 0;
+//             color: $white-60;
+//         }
+//     }
+// }
+
 }
 
 .b-copyright {
@@ -129,3 +147,4 @@
 
     }
 }
+
