@@ -461,7 +461,7 @@
 # ==========================================================================================================================================================================================================================================#
 
 
-- title: OrgPedia - Crowdsourcing and Impact Modeling #will generate slug from this attr
+- title: "OrgPedia - Crowdsourcing and Impact Modeling" #will generate slug from this attr
   type: 'Data' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
@@ -917,7 +917,7 @@
 # ==========================================================================================================================================================================================================================================#
 
 
-- title: NHS - Open Data #will generate slug from this attr
+- title: "NHS - Open Data" #will generate slug from this attr
   type: 'Data' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True

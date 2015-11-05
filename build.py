@@ -7,6 +7,7 @@ from shutil import rmtree
 from slugify import slugify
 from datetime import date, datetime
 from staticjinja import make_site
+from unidecode import unidecode
 
 _AUTO_RELOAD = True
 
@@ -22,8 +23,7 @@ _PROJECTS = path.join(getcwd(), 'data/projects.yaml')
 _TEAM = path.join(getcwd(), 'data/team.yaml')
 _FUNDERS = path.join(getcwd(), 'data/funders.yaml')
 
-_SLUG = lambda x: slugify(x.lower() if x else '')
-
+_SLUG = lambda x: slugify(unidecode(x.lower()) if x else '')
 
 def filters():
     return {'slug': _SLUG}
