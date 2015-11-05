@@ -1,11 +1,115 @@
 -   name: Amazon Web Services
     project: Sponsorship of Open Data 500 Roundtable
-    amount: '25,000'
+    amount: '25,000.00'
 
 -   name: Anonymous
     project: Primer on international insights and ideas in how to innovate in government
-    amount: '18,180'
+    amount: '18,180.00'
 
 -   name: Australia
     project: Open Data 500 Collaboration and membership in the OD 500 Network
-    amount: '20,000'
+    amount: '20,000.00'
+
+-   name: 'British Columbia'	
+    project: 'Benchmarking Study: Comparing British Columbia with other governments'
+    amount: '20,000.00'
+
+-   name: 'Data Transparency Coalition'	
+	project: 'Open Data 500 Roundtable Sponsorship'	
+	amount: '2,500.00'
+
+-   name: 'Google.org'
+	project: 'To develop empirical research methods for open gov'
+	amount: '300,000.00'
+
+-   name: 'ICANN'
+	project: 'Operationalizing Principles of a Distributed Internet Governance Framework (July 1-December 31, 2014)'
+	amount: '312,254.00'
+
+-   name: 'ICANN'
+	project: 'Supporting ICANN Strategy Panels'
+	amount: '480,410.00'
+
+-   name: 'ICANN'
+	project: 'To develop a Prototype of the NETmundial Solutions Map'
+	amount: '59,998.00'
+
+-   name: 'ICANN'
+	project: 'Open Data 500 Mexico Study as a member of the OD500 Global Network'
+	amount: '53,465.05'
+
+-   name: 'INFOTEC (on behalf of the Mexican Government)'
+	project: 'Operationalization Memo – – “Toward a Distributed Collaborative Internet Governance Ecosystem”'
+	amount: '114,222.00'
+
+-   name: 'John S. and James L. Knight Foundation'
+	project: 'To conduct a census of existing companies using open data to be able to provide insight and recommendations that will lead to a better understanding of opportunities for companies to invest in open data.'
+	amount: '74,900.00'	
+
+-   name: 'John S. and James L. Knight Foundation'
+	project: 'To convene an Interdisciplinary Conference on Innovation in Governance (GovLab Experiment)'
+	amount: '75,000.00'	
+
+-   name: 'John S. and James L. Knight Foundation'
+	project: 'To develop a multi-school, multi-disciplinary network of students, faculty and professionals working to design and implement ways of using technology for citizen engagement'
+	amount: '3,200,000.00'
+
+-   name: 'John D. and Catherine T. MacArthur Foundation'
+	project: 'Pre-Research Network Planning Grant'
+	amount: '800,000.00'
+
+-   name: 'John D. and Catherine T. MacArthur Foundation'
+	project: 'Research Network on Opening Governance'
+	amount: '5,000,000.00'
+
+-   name: 'Laura and John Arnold Foundation'
+	project: 'Data Driven criminal Justice Innovation'
+	amount: '851,600.00'
+
+-   name: 'Markle Foundation'
+	project: 'Economic Value of Open Data Whitepaper'
+	amount: '80,551.00'
+
+-   name: 'New York University'
+	project: 'OPEN NYU: Bringing openness to university governance'
+	amount: '395,047.00'
+
+-   name: 'New York University'
+	project: 'To design an expert network and open governance innovations for the university'
+	amount: '350,000.00'
+
+-   name: 'New York University'
+	project: 'To design, implement and test the use of open innovation in administrative and faculty governance at NYU'
+	amount: '375,000.00'
+
+-   name: 'NHS England'
+	project: 'To support the development of a research and evaluation programme for the open data era in health and social care'
+	amount: '131,880.80'
+
+-   name: 'NYU-AIG Partnership'
+	project: 'Research proposal solicitation and management'
+	amount: '50,000.00'
+
+-   name: 'Open Data Institute'
+	project: 'Open Data 500 Research Collaboration'
+	amount: '10,000.00'
+
+-   name: 'PWC'
+	project: 'Open Data 500 Roundtable sponsorship'
+	amount: '2,500.00'
+
+-   name: 'South Australia'
+	project: 'Membership in the Network of Innovators'
+	amount: '20,000.00'
+
+-   name: 'South Korea'
+	project: 'Open Data 500 Collaboration and membership in the OD 500 Network'
+	amount: '20,000.00'
+
+-   name: 'World Bank'
+	project: 'Building a Research Repository on Open Gov Research'
+	amount: '10,000.00'
+
+-   name: 'World Economic Forum'
+	project: 'Promoting Public Engagement with NETmundial Solutions Map'
+	amount: '120,000.00'
