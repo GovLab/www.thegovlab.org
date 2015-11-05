@@ -1,17 +1,24 @@
 .b-our-transparency {
     .b-top-section {
         background-color: $purple; 
-        padding-bottom: 15px;
 
         h2, h3 {
             text-align: center;
             color: $white;
-            font-weight: 600;
         }
 
         h2 {
             text-transform: uppercase;
             letter-spacing: 1px;
+            font-weight: 100;
+            font-size: 30px;
+        }
+
+        h3 {
+            background-color: $black;
+            padding: 10px 0;
+            font-weight: 400;
+
         }
     }
 
@@ -22,6 +29,11 @@
 
     .b-our-tranparency-table {
         table {
+            th { 
+                background-color: $gray-10;
+                text-transform: uppercase;
+            }
+
             tr { text-align: left; }
             tr:nth-child(2n) { background-color: $gray-05; }
 
