@@ -3,17 +3,20 @@
 <div class="b-our-transparency">
     <section class="b-top-section">
         <header>
-            <h2 class="e-show-upcoming">Our Transparency</h2>
+            <h2>Our Transparency</h2>
+            <h3>GovLab Grants and Contracts 2013-To Date</h3>
         </header>
     </section>
     <section class="b-our-tranparency-table">
         <div class="e-wrap">
+
             <table>
                 <thead>
                     <th class="e-name">Funder</th>
                     <th class="e-project">Project</th>
                     <th class="e-amount">Amount</th>
                 </thead>
+                
                 {% for funder in funders %}
                 <tr>
                     <td class="e-name">{{funder.name}}</td>

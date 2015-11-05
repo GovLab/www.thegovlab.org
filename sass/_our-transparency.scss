@@ -1,50 +1,38 @@
 .b-our-transparency {
     .b-top-section {
         background-color: $purple; 
-        padding-bottom: 30px;
+        padding-bottom: 15px;
 
-        h2 {
+        h2, h3 {
             text-align: center;
             color: $white;
-            text-transform: uppercase;
             font-weight: 600;
+        }
+
+        h2 {
+            text-transform: uppercase;
             letter-spacing: 1px;
-        }   
+        }
     }
 
     .e-wrap {
         @include wrap;
+        padding: 20px 0;
     }
 
     .b-our-tranparency-table {
         table {
-            tr {
-                text-align: left;
-
-                &:nth-child(2n) {
-                    background-color: $gray-05;
-                }
-            }
+            tr { text-align: left; }
+            tr:nth-child(2n) { background-color: $gray-05; }
 
             td, th {
                 padding: 10px;
                 font-size: 16px;
-
-                
             }
 
-            .e-name {
-                width: 25%;
-            }
-
-            .e-project {
-                width: 75%;
-            }
-
-            .e-amount {
-                text-align: right;
-            }
+            .e-name { width: 25%; }
+            .e-project { width: 75%; }
+            .e-amount { text-align: right; }
         }
     }
-    
 }
