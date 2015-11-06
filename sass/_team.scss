@@ -1,6 +1,4 @@
-#team .b-top-nav { 
-    background-color: $purple; 
-}
+#team .b-top-nav { background-color: $purple; }
 
 .b-team {
     padding-top: 50px;
@@ -64,9 +62,8 @@
 
     }
 
-    .e-info, .e-bio {
-        margin: 20px;
-    }
+    .e-info,
+    .e-bio { margin: 20px; }
 
     .e-info {
         -webkit-flex: 1;
@@ -83,9 +80,14 @@
         height: auto;
         @include transition;
 
+        .b-button.m-less { display: none; }
+
         &.m-active {
             max-height: 4000px;
             @include transition;
+
+            .b-button.m-more { display: none; }
+            .b-button.m-less { display: inline-block; }
         }
 
         p { margin-bottom: 15px; }
@@ -149,15 +151,14 @@
         text-align: center;
     }
        
-    .e-container {
-        text-align: center;
-    }
+    .e-container { text-align: center; }
 
     .e-person {
         @include breakpoint($mobile-only) { 
             display: block; 
             margin-bottom: 30px;
         }
+
         @include breakpoint($desktop) { 
             display: inline-block; 
             text-align: center;
@@ -172,17 +173,20 @@
     .e-person-pic {
         background-color: $white-20;
         margin: 0;
+
         @include breakpoint($mobile-only) { 
             width: 70%;
             height: 0;
             padding-bottom: 70%;  
         }
+        
         display: inline-block;
         min-height: 120px;
         min-width: 120px;
         background-size: cover;
         background-position: center center;
         @include circle;
+        
         @include breakpoint($desktop) {
             height: 150px;
             width: 150px;
@@ -192,7 +196,6 @@
 
     .e-team-info {
         vertical-align: top;
-        
         letter-spacing: .5px;
     }
 
