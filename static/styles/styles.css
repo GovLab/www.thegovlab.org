@@ -1617,7 +1617,8 @@ button:focus {
       @media (max-width: 800px) {
         .b-team .e-team-member .e-wrap {
           flex-flow: column; } }
-    .b-team .e-team-member .e-info, .b-team .e-team-member .e-bio {
+    .b-team .e-team-member .e-info,
+    .b-team .e-team-member .e-bio {
       margin: 20px; }
     .b-team .e-team-member .e-info {
       -webkit-flex: 1;
@@ -1635,9 +1636,15 @@ button:focus {
       @media (max-width: 800px) {
         .b-team .e-team-member .e-bio {
           max-height: 1000px; } }
+      .b-team .e-team-member .e-bio .b-button.m-less {
+        display: none; }
       .b-team .e-team-member .e-bio.m-active {
         max-height: 4000px;
         transition: all .4s ease; }
+        .b-team .e-team-member .e-bio.m-active .b-button.m-more {
+          display: none; }
+        .b-team .e-team-member .e-bio.m-active .b-button.m-less {
+          display: inline-block; }
       .b-team .e-team-member .e-bio p {
         margin-bottom: 15px; }
       .b-team .e-team-member .e-bio p:not(:first-of-type) {
