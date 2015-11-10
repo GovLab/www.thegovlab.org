@@ -145,7 +145,7 @@ input {
       left: -28%; } }
   .b-main-menu.m-active {
     left: 0;
-    right: 0; }
+    right: 70px; }
     @media (min-width: 1025px) {
       .b-main-menu.m-active {
         right: 72%; } }
@@ -798,8 +798,12 @@ button:focus {
 
 /* Header */
 #homepage .e-logo img {
-  max-width: 300px;
-  margin-top: 60px; }
+  max-width: 200px;
+  margin-top: 80px; }
+  @media (min-width: 1025px) {
+    #homepage .e-logo img {
+      max-width: 300px;
+      margin-top: 60px; } }
 
 .b-landing-questions {
   text-align: center;
