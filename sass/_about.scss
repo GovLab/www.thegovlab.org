@@ -81,6 +81,7 @@
 
 .b-about.m-who-we-are {
     background-color: $white;
+    padding: 0 20px;
 }
 
 .b-about.m-what-we-do {
@@ -93,12 +94,13 @@
 
     .e-full {
         width: 100%;
-        display: flex;
+        @include breakpoint($desktop) { display: flex; }
 
         .e-box {
-            flex: 1;
+            
             padding: 20px 30px;
             text-align: center;
+            @include breakpoint($desktop) { flex: 1; }
         }
     }
     

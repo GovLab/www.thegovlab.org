@@ -10,8 +10,10 @@
 
     @include breakpoint($desktop) {
         padding: 10px;
-
     }
+
+    @include breakpoint($mobile-only) { height: 90px; }
+    
 
     .e-nav-group,
     .e-social-media,
