@@ -52,8 +52,6 @@ $(document).ready(function($) {
         }
     });
 
-
-
     // Events Page
     $('.e-list-selector .e-show-passed').click(function() {
         $('.e-show-upcoming').removeClass('m-active');
