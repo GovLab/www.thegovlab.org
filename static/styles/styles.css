@@ -81,22 +81,33 @@ input {
     position: relative;
     z-index: 20;
     margin: 0; }
-    .b-top-nav .e-search input[type='text'] {
-      padding: 4px 6px;
+    .b-top-nav .e-search input {
+      max-height: 30px;
       vertical-align: 5px;
       opacity: 0;
-      -webkit-flex: 1;
-      flex: 1;
-      margin-left: 10px;
       transition: all .4s ease; }
       @media (min-width: 1025px) {
-        .b-top-nav .e-search input[type='text'] {
+        .b-top-nav .e-search input {
           margin: 8px 0 22px; } }
-    .b-top-nav .e-search.m-active input[type='text'] {
+    .b-top-nav .e-search input[type='text'] {
+      padding: 4px 6px;
+      -webkit-flex: 1;
+      flex: 1;
+      margin-left: 10px; }
+    .b-top-nav .e-search input[type='submit'] {
+      background-color: rgba(255, 255, 255, 0.2);
+      border: 0;
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 14px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: .6px;
+      padding: 4px 12px; }
+    .b-top-nav .e-search.m-active input {
       opacity: 1;
       transition: all .4s ease; }
       @media (min-width: 1025px) {
-        .b-top-nav .e-search.m-active input[type='text'] {
+        .b-top-nav .e-search.m-active input {
           max-width: 300px; } }
   .b-top-nav .e-logo {
     text-align: center;
