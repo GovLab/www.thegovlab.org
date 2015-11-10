@@ -42,6 +42,9 @@ input {
   @media (min-width: 1025px) {
     .b-top-nav {
       padding: 10px; } }
+  @media (max-width: 800px) {
+    .b-top-nav {
+      height: 90px; } }
   .b-top-nav .e-nav-group,
   .b-top-nav .e-social-media,
   .b-top-nav .e-logo {
@@ -1808,7 +1811,8 @@ button:focus {
         padding-right: 30px; } }
 
 .b-about.m-who-we-are {
-  background-color: white; }
+  background-color: white;
+  padding: 0 20px; }
 
 .b-about.m-what-we-do {
   background-color: #333;
@@ -1818,12 +1822,16 @@ button:focus {
   .b-about.m-what-we-do h1, .b-about.m-what-we-do h2, .b-about.m-what-we-do h3, .b-about.m-what-we-do p {
     color: white; }
   .b-about.m-what-we-do .e-full {
-    width: 100%;
-    display: flex; }
+    width: 100%; }
+    @media (min-width: 1025px) {
+      .b-about.m-what-we-do .e-full {
+        display: flex; } }
     .b-about.m-what-we-do .e-full .e-box {
-      flex: 1;
       padding: 20px 30px;
       text-align: center; }
+      @media (min-width: 1025px) {
+        .b-about.m-what-we-do .e-full .e-box {
+          flex: 1; } }
   .b-about.m-what-we-do .e-box.m-build {
     background-color: #523080; }
   .b-about.m-what-we-do .e-box.m-train {
