@@ -60,26 +60,38 @@
         position: relative;
         z-index: 20;
         margin: 0;
+        
+        input {
+            max-height: 30px;
+            vertical-align: 5px;
+            opacity: 0;
+            @include transition;
+            @include breakpoint($desktop) { margin: 8px 0 22px; }
+        }
 
         input[type='text'] {
             padding: 4px 6px;
-            vertical-align: 5px;
-            opacity: 0;
             -webkit-flex: 1;
             flex: 1;
             margin-left: 10px;
-            @include breakpoint($desktop) { margin: 8px 0 22px; }
+        }
 
-            @include transition;
+        input[type='submit'] {
+            background-color: $white-20;
+            border: 0;
+            color: $white-70;
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: .6px;
+            padding: 4px 12px;
         }
 
         &.m-active {
 
-            input[type='text'] {
+            input {
                 opacity: 1;
-
                 @include transition;
-
                 @include breakpoint($desktop) {
                     max-width: 300px;
                 }

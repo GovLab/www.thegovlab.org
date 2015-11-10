@@ -43,6 +43,17 @@ $(document).ready(function($) {
     })
 
 
+    // Search
+    $('.js-search-submit').click(function(event) {
+        var param = $('.js-search-value').val();
+        event.preventDefault();
+        if (param != '') {
+            window.location.href = "http://thegovlab.org/?s=" + param;    
+        }
+    });
+
+
+
     // Events Page
     $('.e-list-selector .e-show-passed').click(function() {
         $('.e-show-upcoming').removeClass('m-active');
