@@ -41,6 +41,16 @@
                     <li>{% for tag in project.tags.product_category %}
                         <span class="e-tag">{{ tag }}</span>{% endfor %}</li>
                 </ul>
+            </div>
+        </div>
+        <div class="e-half">
+            <div class="e-content e-background">
+                <h4>Background</h4>
+                {{project.background}}
+            </div>
+        </div>
+        <div class="e-half">
+            <div class="e-content">
                 <div class="e-location">
                     <h4>Location</h4>
 
@@ -53,9 +63,16 @@
             </div>
         </div>
         <div class="e-half">
-            <div class="e-content e-background">
-                <h4>Background</h4>
-                {{project.background}}
+            <div class="e-content">
+                <div class="e-partners">
+                    <h4>Partners</h4>
+
+                    {% if project.partners %}
+                        {% for partner in project.partners %}
+                        <div class="e-partner">{{partner}}</div>
+                        {% endfor %}
+                    {% endif %}
+                </div>
             </div>
         </div>
         <div class="e-progress m-{{project.status}}"><span></span><span></span><span></span><span></span></div>
