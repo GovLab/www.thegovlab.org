@@ -953,8 +953,9 @@ button:focus {
   @media (min-width: 1025px) {
     .b-single-landing .e-location {
       margin-right: 100px; } }
+  .b-single-landing .e-location h4 {
+    margin-bottom: 10px; }
   .b-single-landing .e-location .e-place {
-    color: rgba(255, 255, 255, 0.6);
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.1);
     padding: 5px 18px;
@@ -965,13 +966,26 @@ button:focus {
         display: inline-block;
         font-size: 16px;
         padding: 3px 9px; } }
+  .b-single-landing .e-partners h4 {
+    margin-bottom: 10px; }
+  .b-single-landing .e-partners .e-partner {
+    display: inline-block;
+    padding: 5px 0;
+    margin-bottom: 4px;
+    color: rgba(255, 255, 255, 0.6); }
+    @media (min-width: 1025px) {
+      .b-single-landing .e-partners .e-partner {
+        display: inline-block;
+        font-size: 16px;
+        padding: 3px 0; } }
   @media (max-width: 800px) {
     .b-single-landing .e-progress {
       border: 1px solid rgba(255, 255, 255, 0.4);
       padding: 3px 0;
       display: block;
       width: 100%;
-      text-align: center; } }
+      text-align: center;
+      margin-top: 20px; } }
   @media (min-width: 1025px) {
     .b-single-landing .e-progress {
       width: 100%;
