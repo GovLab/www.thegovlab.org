@@ -109,6 +109,8 @@ $(document).ready(function($) {
         arrows: false,
         draggable: false,
         swipeToSlide: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
         responsive: [
             {
                 breakpoint: 800,
