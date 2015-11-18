@@ -746,7 +746,7 @@ button:focus {
       .b-footer .e-content .e-partner-logo.m-mit img {
         max-height: 70px; }
   .b-footer .e-content.m-sections a {
-    display: inline-block;
+    display: block;
     box-sizing: border-box;
     color: rgba(255, 255, 255, 0.7);
     padding: 5px 10px;
