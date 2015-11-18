@@ -23,7 +23,7 @@ _PROJECTS = path.join(getcwd(), 'data/projects.yaml')
 _TEAM = path.join(getcwd(), 'data/team.yaml')
 _FUNDERS = path.join(getcwd(), 'data/funders.yaml')
 
-_SLUG = lambda x: slugify(unidecode(x.lower()) if x else '')
+_SLUG = lambda x: slugify(unicode(unidecode(unicode(x).lower())) if x else u'')
 
 def filters():
     return {'slug': _SLUG}
