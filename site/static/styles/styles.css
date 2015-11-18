@@ -746,16 +746,22 @@ button:focus {
       .b-footer .e-content .e-partner-logo.m-mit img {
         max-height: 70px; }
   .b-footer .e-content.m-sections a {
-    display: block;
+    display: inline-block;
+    box-sizing: border-box;
     color: rgba(255, 255, 255, 0.7);
-    padding: 5px 0; }
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-left: -10px;
+    margin-right: 10px;
+    transition: all .4s ease; }
     @media (min-width: 1025px) {
       .b-footer .e-content.m-sections a {
         display: inline-block;
-        width: 45%; } }
+        width: 49%; } }
     .b-footer .e-content.m-sections a:hover {
       color: white;
-      text-decoration: underline; }
+      background-color: rgba(255, 255, 255, 0.1);
+      transition: all .4s ease; }
 
 .b-copyright {
   background-color: rgba(0, 0, 0, 0.9);

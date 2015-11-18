@@ -60,19 +60,26 @@
 
 .e-content.m-sections {
     a {
-        display: block;
+        display: inline-block;
+        box-sizing: border-box;
         color: $white-70;
-        padding: 5px 0;
+        padding: 5px 10px;
+        text-decoration: none;
+        margin-left: -10px;
+        margin-right: 10px;
+        @include transition;
         
 
         @include breakpoint($desktop) { 
             display: inline-block; 
-            width: 45%;
+            width: 49%;
         }
 
         &:hover {
             color: $white;
-            text-decoration: underline;
+            background-color: $white-10;
+            @include transition;
+            
         }
     }
 }
