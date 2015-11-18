@@ -81,7 +81,11 @@
 
 .b-about.m-who-we-are {
     background-color: $white;
-    padding: 0 20px;
+    @include breakpoint($mobile-only) { padding: 0 20px; }
+
+    .e-tagline {
+        @include breakpoint($mobile-only) { font-size: 20px; }        
+    }
 }
 
 .b-about.m-what-we-do {
@@ -97,7 +101,7 @@
         @include breakpoint($desktop) { display: flex; }
 
         .e-box {
-            
+            display: block;
             padding: 20px 30px;
             text-align: center;
             @include breakpoint($desktop) { flex: 1; }

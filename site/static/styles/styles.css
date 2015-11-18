@@ -1825,8 +1825,13 @@ button:focus {
         padding-right: 30px; } }
 
 .b-about.m-who-we-are {
-  background-color: white;
-  padding: 0 20px; }
+  background-color: white; }
+  @media (max-width: 800px) {
+    .b-about.m-who-we-are {
+      padding: 0 20px; } }
+  @media (max-width: 800px) {
+    .b-about.m-who-we-are .e-tagline {
+      font-size: 20px; } }
 
 .b-about.m-what-we-do {
   background-color: #333;
@@ -1841,6 +1846,7 @@ button:focus {
       .b-about.m-what-we-do .e-full {
         display: flex; } }
     .b-about.m-what-we-do .e-full .e-box {
+      display: block;
       padding: 20px 30px;
       text-align: center; }
       @media (min-width: 1025px) {
