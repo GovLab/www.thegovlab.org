@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from os import path, getcwd, makedirs, listdir, remove
+from os import path, getcwd, makedirs, listdir, remove, chdir
 from sys import argv
 from yaml import load
 from shutil import rmtree
@@ -8,12 +8,16 @@ from slugify import slugify
 from datetime import date, datetime
 from staticjinja import make_site
 from unidecode import unidecode
+import subprocess
+import threading
+import atexit
 
 _AUTO_RELOAD = True
 
 _TODAY = date.today()
 
 # Define constants for the deployment.
+_SASSPATH = path.join(getcwd(), 'sass')
 _SEARCHPATH = path.join(getcwd(), 'templates')
 _OUTPUTPATH = path.join(getcwd(), 'site')
 
@@ -24,6 +28,17 @@ _TEAM = path.join(getcwd(), 'data/team.yaml')
 _FUNDERS = path.join(getcwd(), 'data/funders.yaml')
 
 _SLUG = lambda x: slugify(unicode(unidecode(unicode(x).lower())) if x else u'')
+
+# http://stackoverflow.com/a/287944
+class bcolors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
 
 def filters():
     return {'slug': _SLUG}
@@ -95,6 +110,49 @@ def create_custom_templates(projects):
         new_file.close()
 
 
+def start_web_server():
+    def run_server():
+        import SimpleHTTPServer
+        import SocketServer
+
+        PORT = 7000
+
+        Handler = SimpleHTTPServer.SimpleHTTPRequestHandler
+        httpd = SocketServer.TCPServer(("", PORT), Handler)
+
+        print bcolors.BOLD + \
+              ("Starting HTTP server at port %d." % PORT) + \
+              bcolors.ENDC
+        httpd.serve_forever()
+
+    # We'd prefer to not have to change the directory of the current
+    # process, but SimpleHTTPServer makes this hard.
+    chdir(_OUTPUTPATH)
+
+    thread = threading.Thread(target=run_server)
+    thread.daemon = True
+    thread.start()
+
+
+def start_sass():
+    src_path = path.join(_SASSPATH, 'styles.scss')
+    dest_path = path.join(_SEARCHPATH, 'static', 'styles', 'styles.css')
+
+    print bcolors.BOLD + "Starting SASS." + bcolors.ENDC
+
+    try:
+        process = subprocess.Popen([
+            'sass',
+            '--watch',
+            '%s:%s' % (src_path, dest_path)
+        ])
+        atexit.register(process.kill)
+    except OSError, e:
+        print bcolors.FAIL
+        print "SASS failure: %s" % e
+        print "SASS files will not be built."
+        print bcolors.ENDC
+
 if __name__ == '__main__':
     auto = _AUTO_RELOAD
     ctxt = context()
@@ -119,4 +177,6 @@ if __name__ == '__main__':
     site['searchpath'] = _SEARCHPATH
     site['staticpaths'] = ['static']
 
+    start_sass()
+    start_web_server()
     make_site(**site).render(use_reloader=auto)
