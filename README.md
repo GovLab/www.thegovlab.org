@@ -4,6 +4,7 @@ This is the new GovLab website.
 
 * Python 2.7
 * [pip and virtualenv](http://stackoverflow.com/q/4324558)
+* [SASS](http://sass-lang.com/install)
 
 ## Quick Start
 
@@ -16,11 +17,11 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-To build the site and continuously rebuild it as you change the source,
-run `python build.py`.
+To develop the site, run `python build.py` and visit
+http://localhost:7000/. All static assets will be rebuilt as
+you change them.
 
-The `site` directory will contain the generated website files. You can
-run `python -m SimpleHTTPServer` in that directory for easy development.
+The `site` directory will contain the generated website files.
 
 ## Deployment
 

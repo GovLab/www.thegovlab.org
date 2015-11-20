@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from os import path, getcwd, makedirs, listdir, remove
+from os import path, getcwd, makedirs, listdir, remove, chdir
 from sys import argv
 from yaml import load
 from shutil import rmtree
@@ -8,12 +8,16 @@ from slugify import slugify
 from datetime import date, datetime
 from staticjinja import make_site
 from unidecode import unidecode
+import subprocess
+import threading
+import atexit
 
 _AUTO_RELOAD = True
 
 _TODAY = date.today()
 
 # Define constants for the deployment.
+_SASSPATH = path.join(getcwd(), 'sass')
 _SEARCHPATH = path.join(getcwd(), 'templates')
 _OUTPUTPATH = path.join(getcwd(), 'site')
 
@@ -95,6 +99,42 @@ def create_custom_templates(projects):
         new_file.close()
 
 
+def start_web_server():
+    def run_server():
+        import SimpleHTTPServer
+        import SocketServer
+
+        PORT = 7000
+
+        Handler = SimpleHTTPServer.SimpleHTTPRequestHandler
+        httpd = SocketServer.TCPServer(("", PORT), Handler)
+
+        print "Starting HTTP server at port %d." % PORT
+        httpd.serve_forever()
+
+    # We'd prefer to not have to change the directory of the current
+    # process, but SimpleHTTPServer makes this hard.
+    chdir(_OUTPUTPATH)
+
+    thread = threading.Thread(target=run_server)
+    thread.daemon = True
+    thread.start()
+
+
+def start_sass():
+    src_path = path.join(_SASSPATH, 'styles.scss')
+    dest_path = path.join(_SEARCHPATH, 'static', 'styles', 'styles.css')
+
+    print "Starting SASS."
+
+    process = subprocess.Popen([
+        'sass',
+        '--watch',
+        '%s:%s' % (src_path, dest_path)
+    ])
+    atexit.register(process.kill)
+
+
 if __name__ == '__main__':
     auto = _AUTO_RELOAD
     ctxt = context()
@@ -119,4 +159,6 @@ if __name__ == '__main__':
     site['searchpath'] = _SEARCHPATH
     site['staticpaths'] = ['static']
 
+    start_sass()
+    start_web_server()
     make_site(**site).render(use_reloader=auto)
