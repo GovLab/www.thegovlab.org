@@ -145,13 +145,14 @@ def start_sass():
             'sass',
             '--watch',
             '%s:%s' % (src_path, dest_path)
-        ])
+        ], shell=True)
         atexit.register(process.kill)
     except OSError, e:
         print bcolors.FAIL
         print "SASS failure: %s" % e
         print "SASS files will not be built."
         print bcolors.ENDC
+
 
 if __name__ == '__main__':
     auto = _AUTO_RELOAD
