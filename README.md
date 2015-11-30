@@ -26,4 +26,4 @@ The `site` directory will contain the generated website files.
 
 ## Deployment
 
-To deploy the site, run `git subtree push --prefix site origin master`.
+To deploy the site, run `git subtree push --prefix site origin gh-pages`.
