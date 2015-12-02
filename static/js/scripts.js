@@ -150,18 +150,10 @@ $(document).ready(function($) {
     });
 });
 
-function stripHTML(dirtyString) {
-    var container = document.createElement('div');
-
-    container.innerHTML = dirtyString;
-
-    return container.textContent || container.innerText;
-}
-
 var render = function(posts) {
-    posts.feed.entries.forEach(function (element, index) {
+    posts.forEach(function (element, index) {
         var title = element.title,
-            content = stripHTML(element.content);
+            content = element.content;
 
         if (title.length > 100) {
             title = title.substr(0, 100) + '...';
@@ -190,10 +182,18 @@ var render = function(posts) {
     });
 };
 
-window.Feed({
-    url: 'http://thegovlab.org/category/featured-website/feed/',
-    number: 3,
-    callback: render
+// Note that this assumes that thegovlab.org has CORS headers.
+$.get('http://thegovlab.org/category/featured-website/feed/', function(xml) {
+    var posts = [];
+    $('item', xml).each(function() {
+        posts.push({
+            title: $('title', this).text(),
+            author: $('dc\\:creator', this).text(),
+            content: $('description', this).text(),
+            link: $('link', this).text()
+        });
+    });
+    render(posts);
 });
 
 // functions for the effect on the homepage main banner
