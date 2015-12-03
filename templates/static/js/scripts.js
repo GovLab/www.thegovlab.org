@@ -188,7 +188,8 @@ $.get('http://thegovlab.org/category/featured-website/feed/', function(xml) {
     $('item', xml).each(function() {
         posts.push({
             title: $('title', this).text(),
-            author: $('dc\\:creator', this).text(),
+            author: $('dc\\:creator', this).text() /* Firefox */ ||
+                    $('creator', this).text() /* Webkit */,
             content: $('description', this).text(),
             link: $('link', this).text()
         });
