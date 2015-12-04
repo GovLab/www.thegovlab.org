@@ -85,7 +85,7 @@ def cleanup():
 
 
 def create_custom_templates(projects):
-    template = open('%s/project.html' % _SEARCHPATH).read()
+    template = open('%s/_project.html' % _SEARCHPATH).read()
 
     for index, project in enumerate(projects):
         filename = _SLUG(project['title'])
