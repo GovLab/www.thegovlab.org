@@ -56,13 +56,6 @@
     <p>As a fellow at the GovLab she will be researching and testing how experts systems can be used as a tool to better share knowledge and expertise. Ultimately, she hopes to explore and re-imagine our present, forming new communities and organizational structures guided by the principles of empathy and collaboration.Before she moved here, she was the founder and director of the Human Rights Center of the Facultad Libre de Derecho de Monterrey and volunteered for pro bono legal services.</p>
     <p>In her free time she is developing an online platform that will nurture a collaborative network of legal practitioners, activists and stakeholders.The platform will be intended to crowdsource legal arguments, infographics and visual media, a social media campaign and plaintiffs. The ultimate goal of the project is to create ready-to-print, ready-to-be-filed legal motions for constitutional control (Amparo) by anyone interested in advocating for any human rights cause.</p>
 
-# - name: Erika Harris
-#   job: Program Administrator
-#   bio: > 
-#     <p>Erika Harris is a Program Administrator at The GovLab. She joins GovLab from the NYU Office of Global Programs where she provided financial operations and budgeting support to NYU’s global sites and the Global Programs NY operations. Prior to Global, she provided academic and administrative support at the NYU Center for European and Mediterranean Studies. She has previously worked in healthcare administration, at a microfinance startup and in New York City Council.</p>
-#     <p>Erika is currently pursuing a MPA at NYU Wagner where she specializes in International Policy and Finance. Her research interests include international development, financial inclusion and environmental policy. She holds a MA in French Studies from NYU where she researched immigration policy and human rights in the postcolonial context.</p>
-#     <p>Erika is interested in how data and technology can improve climate governance and climate change mitigation and adaption strategies locally and internationally.</p>
-
 - name: Eran Raviv
   job: Research Fellow
   bio: >
@@ -81,30 +74,27 @@
   job: Intern
   bio: <p>Irene Tello is an Intern at the GovLab. She is studying for a Masters in International Relations at NYU. Prior to moving to New York, she used to work at Transparencia Mexicana, the Mexican chapter of Transparency International, as the Assistant Researcher of the Chair of the Board. Before working there she was the Program Coordinator of Presta tu Voz (Share your Voice) a program that creates audiobooks for people with visual impairment or blindness. Irene received her BA in Philosophy from the National Autonomous University in Mexico. She is currently a Fulbright Grantee and is interested in crowdsourcing as a tool to fight corruption. In her free time, she makes videos of philosophical themes in Spanish. This is where she tweets and this is her YouTube channel.</p>
 
-# - name: John Krauss
-#   job: Technical Research Fellow
-#   bio: <p>John Krauss is a Technical Research Fellow at the GovLab. He’s active in New York City’s civic hacking scene, working to standardize and visualize transportation, safety, and housing data. John joins the GovLab after several years freelancing in the startup scene, where he experimented with scraping and continuous integration while building open data tools like Crashmapper on the side. His background is in architecture and housing; he received his B.A. in architecture and history from Columbia University and went on to consult on data and web design for NYU’s Furman Center for Real Estate and Urban Policy. In his spare time, John likes to bike, and once cycled from Santiago de Compostela to Berlin. He occasionally blogs, almost never tweets, but often codes.</p>
-
 - name: Jos Berens
   job: Visiting Fellow
   bio: > 
     <p>Jos Berens is a Visiting Fellow at The GovLab and the coordinator of the Data Governance Project, an international multidisciplinary collaboration between The GovLab, the World Economic Forum, and Leiden University. The collaboration focuses on building an expert network to solve questions regarding corporate data sharing for social good, especially in a development context. Working with a number of international organisations, the DGP looks at concrete issues in the data for development space. Based on the solutions found, the DGP is developing a framework for corporate data sharing for social good.</p>
     <p>Jos holds an LL.B in Dutch Law and a BA in Philosophy of a Specific Discipline, both obtained at Groningen University. He is currently pursuing an LL.M in Dutch Criminal Law and an LL.M in Public International Law, the former in Groningen and the latter at Utrecht University. He specialises in privacy issues and risk assessment regarding large scale data collection and use.</p>
 
-# - name: Julia Lane
-#   job: Senior Fellow
-#   bio: > 
-#     <p>Julia Ingrid Lane is a Senior Fellow at The GovLab, as well as a Professor of Public Service at the NYU Wagner Graduate School of Public Service, a Professor of Practice at the NYU Center for Urban Science and Progress, and a NYU Provostial Fellow for Innovation Analytics.</p>
-#     <p>Previous to this, Julia was a Senior Managing Economist and Institute Fellow at American Institutes for Research. In this role Julia established the Center for Science of Science and Innovation Policy Program, and co-founded the Institute for Research on Innovation and Science (IRIS) at the University of Michigan. Julia has held positions at the National Science Foundation, The Urban Institute, The World Bank, American University and NORC at the University at Chicago.</p>
-#     <p>In these positions, Julia has led many initiatives, including co-founding the UMETRICS and STAR METRICS programs at the National Science Foundation. She conceptualized and established a data enclave at NORC/University of Chicago. This provides a confidential, protected environment within which authorized researchers canaccess sensitive microdata remotely and provides data producers with a secure disseminationplatform. She also initiated and led the creation and permanent establishment of the Longitudinal Employer-Household Dynamics Program at the U.S. Census Bureau. This program began as a small two year ASA Census Bureau fellowship and evolved into the first large-scale linked employer-employee dataset in the United States. It is now a permanent Census Bureau program with appropriated funds of $11 million per year.</p>
-#     <p>Julia has published over 65 articles in leading economics journals, and authored or edited eight books. She has been the recipient of over $40 million in grants; from foundations such as the National Science Foundation, the Sloan Foundation, the MacArthur Foundation, the Russell Sage Foundation, the Spencer Foundation, the National Institute of Health; from government agencies such as the Departments of Commerce, Labor, and Health and Human Services in the U.S., the ESRC in the U.K., and the Department of Labour and Statistics New Zealand in New Zealand, as well as from international organizations such as the World Bank. Julia is the recipient of the 2014 Julius Shiskin award and the 2014 Roger Herriot award.</p>
-#     <p>Julia received her PhD in Economics and Master’s in Statistics from the University of Missouri.</p>
-
 - name: Julia Root
   job: Fellow
   bio: > 
     <p>Julia Root is a Fellow at the GovLab and Project Lead for Open NYU and the Open Data 500 Global Network. With experience across many organizational and urban themes, as well as across sectors, as a strategist, idea connector, and network builder, Julia’s areas of expertise include open data and urban informatics; expert networks; cross-sector network building; higher education strategy; civic innovation; and intercultural business performance. Immediately prior to joint GovLab, she was Assistant Director for Student Services at NYU CUSP (Center for Urban Science + Progress).  Before that, she worked as a consultant with a boutique international consulting firm focused on advising higher education, public sector, and engineering clients on urban issues and cross-sector network building. She has contributed research and writing for academic and policy institutes and has consulted with organizations on business development, marketing, and organizational development.</p>
     <p>Before coming to NYC, Julia was the Associate Director of Development for the largest health and human service provider in New Orleans and the Gulf Coast and a field office manager for an advocacy nonprofit located in Los Angeles. Julia has lived and/or worked in Los Angeles, San Diego, Barcelona, New Orleans and New York City.  She has a B.A. from the University of California, San Diego and an M.P.A from NYU’s Robert F. Wagner Graduate School of Public Service.</p>
+
+- name: Kirsten Gollatz
+  job: Visiting Fellow
+  bio: >
+    <p>Kirsten is a Project Manager at the Alexander von Humboldt Institute for Internet and Society (HIIG) in Berlin where she has worked in the field of Internet Policy and Governance since she joined the institute in 2011. She is currently conducting research with a focus on the conditions for exercising freedom of expression on the Internet. She has also started working on transparency and the role of numbers in Internet governance processes.</p>
+    <p>Since 2014 Kirsten has been writing her doctoral thesis with the University of Zurich. In her thesis she investigates the evolution of a transnational governance regime that private social media companies apply to user content on their online platforms.</p>
+    <p>Kirsten was involved in international research projects, including the Ranking Digital Rights project lead by Rebecca MacKinnon, and a case study series on Multistakeholder as Governance Groups edited by the Global Network of Interdisciplinary Internet & Society Research Centers (NoC). She also contributed research to a recent UNESCO report titled "Fostering Freedom Online: the Role of Internet Intermediaries".</p>
+    <p>Kirsten participated in the 2015 summer school "Advanced Topics in Internet Governance, Civil Society and Policy Advocacy" at Central European University (CEU) in Budapest. In 2012 Kirsten was a research intern at Harvard’s Berkman Center for Internet and Society. Before that, she worked as a research assistant to the project field Cultural Sources of Newness at the Berlin Social Science Center (WZB). </p>
+    <p>Kirsten has a Master’s Degree in Media and Political Communication from the Free University Berlin. </p>
+    <p>For publications and presentations visit her website: <a href="http://www.hiig.de/en/staff/kirsten-gollatz">http://www.hiig.de/en/staff/kirsten-gollatz</a></p>
 
 - name: Lauren Yu
   job: Director of Operations
@@ -123,13 +113,6 @@
     <p>Dr. Kleiman is a clinical professor at New York University, teaching graduate-level courses on policy development, urban innovation, and new approaches to technology and big data at both the Wagner School of Public Service and the Center for Urban Science and Progress.</p>
     <p>As Director of the NYU Wagner Innovation Labs, he supports the development of initiatives and programs to address pressing urban challenges, both nationally and globally. He has worked closely with Bloomberg Philanthropies, Citibank and the Ford Foundation on international initiatives to improve government efficiency and reform.</p>
     <p>He is also Deputy Executive Director of Policy, Research, and Evaluation for the National Resource Network. Funded with $10 million from the U.S. Department of Housing and Urban Development, the Network is the nation’s first one-stop resource for cities seeking customized solutions to their most pressing challenges.</p>
-
-# - name: Ryan Sibley
-#   job: Senior Fellow
-#   bio: > 
-#     <p>Ryan Sibley has worked as a writer, reporter and researcher for 8 years. She’s covered a number of issues including government spending, campaign finance, lobbying, the legislative process and the criminal justice system. She’s spent a good deal of her professional career so far digging into the various ways money influences politics and trying to figure out how to relate the implications of that to the general public. Her work on criminal justice has focused on policies that have shaped the current state of the system. At the GovLab, she’ll work to identify new, data-focused ways that can improve our criminal justice system.</p>
-#     <p>Prior to joining the GovLab, Ryan worked at the Sunlight Foundation in Washington D.C. There she researched and reported on the issues listed above while keeping in mind that the one of the keys to improving how government works is creating an open and inclusive one.</p>
-#     <p>Ryan graduated from California State University, Long Beach with a bachelor’s in English Literature. She went on to receive a master’s degree in journalism from American University in Washington D.C. Ryan is originally from southern California.</p>
 
 - name: Stefaan Verhulst
   job: Co-Founder and Chief Research and Development Officer
