@@ -150,11 +150,11 @@ def start_sass():
     print bcolors.BOLD + "Starting SASS." + bcolors.ENDC
 
     try:
-        process = subprocess.Popen([
+        process = subprocess.Popen(' '.join([
             'sass',
             '--watch',
             '%s:%s' % (src_path, dest_path)
-        ], shell=True)
+        ]), shell=True)
         atexit.register(process.kill)
     except OSError, e:
         print bcolors.FAIL
