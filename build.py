@@ -112,13 +112,22 @@ def create_custom_templates(projects):
 
 def start_web_server():
     def run_server():
+        import socket
         import SimpleHTTPServer
         import SocketServer
 
         PORT = 7000
 
         Handler = SimpleHTTPServer.SimpleHTTPRequestHandler
-        httpd = SocketServer.TCPServer(("", PORT), Handler)
+
+        # http://stackoverflow.com/a/18858817
+        class MyTCPServer(SocketServer.TCPServer):
+            def server_bind(self):
+                self.socket.setsockopt(socket.SOL_SOCKET,
+                                       socket.SO_REUSEADDR, 1)
+                self.socket.bind(self.server_address)
+
+        httpd = MyTCPServer(("", PORT), Handler)
 
         print bcolors.BOLD + \
               ("Starting HTTP server at port %d." % PORT) + \
