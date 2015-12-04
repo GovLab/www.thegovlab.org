@@ -281,17 +281,8 @@ button:focus {
     text-decoration: underline; }
 
 .b-govlab-fronts {
-  display: block; }
-  @media (min-width: 1025px) {
-    .b-govlab-fronts {
-      display: -webkit-flex;
-      display: flex; } }
-  @media (min-width: 1025px) {
-    .b-govlab-fronts .e-mobile-wrap {
-      display: -webkit-flex;
-      display: flex;
-      -webkit-flex: 1;
-      flex: 1; } }
+  display: block;
+  margin-bottom: -10px; }
   .b-govlab-fronts .e-govlab-front {
     color: rgba(255, 255, 255, 0.8);
     letter-spacing: 1px;
@@ -305,25 +296,28 @@ button:focus {
     background-size: cover; }
     @media (min-width: 1025px) {
       .b-govlab-fronts .e-govlab-front {
-        -webkit-flex: 1;
-        flex: 1;
         font-size: 22px;
+        display: inline-block;
         line-height: 1;
-        padding: 15% 0 35%; } }
+        width: 25%;
+        padding: 5% 0 20% 0;
+        height: 0;
+        margin: 0;
+        position: relative; } }
     .b-govlab-fronts .e-govlab-front h2 {
       text-transform: uppercase;
       font-weight: 600; }
     .b-govlab-fronts .e-govlab-front .e-explanation {
       font-size: 18px;
       line-height: 24px;
-      padding: 15px;
-      position: relative;
-      top: 600px;
-      transition: all .4s ease;
-      background-color: rgba(0, 0, 0, 0.3); }
+      top: 100%;
+      transition: all .4s ease; }
       @media (min-width: 1025px) {
         .b-govlab-fronts .e-govlab-front .e-explanation {
-          height: 300px; } }
+          padding: 120px 15px;
+          height: 110%;
+          position: absolute;
+          background-color: rgba(0, 0, 0, 0.8); } }
       @media (max-width: 800px) {
         .b-govlab-fronts .e-govlab-front .e-explanation {
           top: 0;
@@ -331,7 +325,7 @@ button:focus {
           text-transform: uppercase;
           padding: 0 20px; } }
     .b-govlab-fronts .e-govlab-front:hover .e-explanation {
-      top: 0; }
+      top: -10%; }
     .b-govlab-fronts .e-govlab-front.m-projects {
       background-color: #523080; }
       @media (min-width: 1025px) {

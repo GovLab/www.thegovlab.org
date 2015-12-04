@@ -1,19 +1,6 @@
 .b-govlab-fronts {
     display: block;
-
-    @include breakpoint($desktop) {
-        display: -webkit-flex;
-        display: flex;
-    }
-
-    .e-mobile-wrap {
-        @include breakpoint($desktop) {
-            display: -webkit-flex;
-            display: flex;
-            -webkit-flex: 1;
-            flex: 1;
-        }
-    }
+    margin-bottom: -10px;
 
     .e-govlab-front {
         color: $white-80;
@@ -28,16 +15,14 @@
         background-size: cover;
 
         @include breakpoint($desktop) {
-            -webkit-flex: 1;
-            flex: 1;
             font-size: 22px;
+            display: inline-block;
             line-height: 1;
-            padding: 15% 0 35%;
-
-            // Commenting this out as a temporary fix for
-            // https://github.com/GovLab/www.thegovlab.org/issues/1.
-            // height: 0;
-
+            width: 25%;
+            padding: 5% 0 20% 0;
+            height: 0;
+            margin: 0;
+            position: relative;
         }
 
         h2 { 
@@ -48,13 +33,16 @@
         .e-explanation {
             font-size: 18px;
             line-height: 24px;
-            padding: 15px;
-            position: relative;
-            top: 600px;
+            top: 100%;
             @include transition;
-            background-color: $gray-30;
 
-            @include breakpoint($desktop) { height: 300px; }
+            @include breakpoint($desktop) { 
+                padding: 120px 15px;
+                height: 110%; 
+                position: absolute;
+                background-color: $gray-80;
+
+            }
             @include breakpoint($mobile-only) {
                 top: 0;
                 background-color: transparent;
@@ -63,7 +51,7 @@
             }
         }
 
-        &:hover .e-explanation { top: 0; }
+        &:hover .e-explanation { top: -10%; }
 
         // The background-images will be replaced by JS interactive graphics in the future
         &.m-projects {
