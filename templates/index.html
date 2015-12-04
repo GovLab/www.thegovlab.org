@@ -30,59 +30,8 @@ The GovLab:   -->
             <p class="e-explanation">Get answers to your questions, share knowledge and find collaborators</p>
         </a>
     </section>
-    <div class="b-featured-content-wrapper m-project">
-        <div class="e-banner-container">
-            {% for project in projects if project.is_featured %}
-                <section id="{{project.title|slug}}" class="b-featured-content m-project">
-                    <header>
-                        <div class="e-banner-controls">
-                            <i class="material-icons e-banner-control m-prev">keyboard_arrow_left</i>
-                            <i class="material-icons e-banner-control m-next">keyboard_arrow_right</i>
-                        </div>
-                        <div class="e-wrap">
-                            <div class="e-banner-index">
-                                {% set outer_loop = loop %}
-
-                                {% for x in range(projects_slider_counter) %}
-                                    <span{% if outer_loop.index == loop.index %} class="m-active"{% endif %}></span>
-                                {% endfor %}
-                            </div>
-                            <h4>Featured Project</h4>
-                        </div>
-                    </header>
-                    
-                    <div class="e-wrap">
-                        <div>
-                            <div class="e-half">
-                                <div class="e-content">
-                                    <h2 class="e-project-name">{{project.title}}</h2>
-                                    <h3 class="e-question">{{project.problem_statement}}</h3>
-                                </div>
-                            </div>
-                            <div class="e-half">
-                                <div class="e-content">
-                                    {% if project.short_description %} {{project.short_description}}
-                                    {% else %} {{project.long_description}}{% endif %}
-                                </div>
-                            </div>
-                        </div>
-                        <div class="e-action-group">
-                            <div class="e-half">
-                                <div class="e-action">
-                                    <a class="b-button m-naked" href="./projects.html">All Projects<i class="material-icons">arrow_forward</i></a>
-                                </div>
-                            </div>
-                            <div class="e-half">
-                                <div class="e-action">
-                                    <a class="b-button m-naked" href="project-{{project.title|slug}}.html">Find out more<i class="material-icons">arrow_forward</i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            {% endfor %}
-        </div>
-        <div class="e-banner-container">
+    
+    <div class="e-banner-container">
             <!-- this will be pulled via RSS -->
             <section class="b-featured-content m-article">
                 <header>
@@ -234,6 +183,60 @@ The GovLab:   -->
                 <p><a href="http://thegovlab.org/category/govlab-digest/" target="_blank" class="b-button m-naked">Go to Digest<i class="material-icons">arrow_forward</i></a></p>
             </div>
         </div>
+
+    <div class="b-featured-content-wrapper m-project">
+        <div class="e-banner-container">
+            {% for project in projects if project.is_featured %}
+                <section id="{{project.title|slug}}" class="b-featured-content m-project">
+                    <header>
+                        <div class="e-banner-controls">
+                            <i class="material-icons e-banner-control m-prev">keyboard_arrow_left</i>
+                            <i class="material-icons e-banner-control m-next">keyboard_arrow_right</i>
+                        </div>
+                        <div class="e-wrap">
+                            <div class="e-banner-index">
+                                {% set outer_loop = loop %}
+
+                                {% for x in range(projects_slider_counter) %}
+                                    <span{% if outer_loop.index == loop.index %} class="m-active"{% endif %}></span>
+                                {% endfor %}
+                            </div>
+                            <h4>Featured Project</h4>
+                        </div>
+                    </header>
+                    
+                    <div class="e-wrap">
+                        <div>
+                            <div class="e-half">
+                                <div class="e-content">
+                                    <h2 class="e-project-name">{{project.title}}</h2>
+                                    <h3 class="e-question">{{project.problem_statement}}</h3>
+                                </div>
+                            </div>
+                            <div class="e-half">
+                                <div class="e-content">
+                                    {% if project.short_description %} {{project.short_description}}
+                                    {% else %} {{project.long_description}}{% endif %}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="e-action-group">
+                            <div class="e-half">
+                                <div class="e-action">
+                                    <a class="b-button m-naked" href="./projects.html">All Projects<i class="material-icons">arrow_forward</i></a>
+                                </div>
+                            </div>
+                            <div class="e-half">
+                                <div class="e-action">
+                                    <a class="b-button m-naked" href="project-{{project.title|slug}}.html">Find out more<i class="material-icons">arrow_forward</i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            {% endfor %}
+        </div>
+        
 
         <div class="e-banner-container">
             {% for event in events if event.is_featured and not event.has_passed %}
