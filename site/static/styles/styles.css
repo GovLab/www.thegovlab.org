@@ -309,8 +309,7 @@ button:focus {
         flex: 1;
         font-size: 22px;
         line-height: 1;
-        padding: 15% 0 35%;
-        height: 0; } }
+        padding: 15% 0 35%; } }
     .b-govlab-fronts .e-govlab-front h2 {
       text-transform: uppercase;
       font-weight: 600; }
