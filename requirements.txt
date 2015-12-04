@@ -1,3 +1,4 @@
 slugify==0.0.1
 git+git://github.com/Ceasar/staticjinja.git@70b3d1bf8a37de7603e0818490007e1641f933ce#egg=staticjinja
 Unidecode==0.4.18
+git+git://github.com/GovLab/govlab-static-tools.git#egg=govlab-static-tools
