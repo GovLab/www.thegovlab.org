@@ -33,7 +33,11 @@
             font-size: 22px;
             line-height: 1;
             padding: 15% 0 35%;
-            height: 0;
+
+            // Commenting this out as a temporary fix for
+            // https://github.com/GovLab/www.thegovlab.org/issues/1.
+            // height: 0;
+
         }
 
         h2 { 
