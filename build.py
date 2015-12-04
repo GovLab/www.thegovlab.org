@@ -6,12 +6,9 @@ from yaml import load
 from shutil import rmtree
 from slugify import slugify
 from datetime import date, datetime
-from staticjinja import make_site
 from unidecode import unidecode
 
-import govlabstatic
-
-_AUTO_RELOAD = True
+import govlabstatic.cli
 
 _TODAY = date.today()
 
@@ -100,22 +97,11 @@ def create_custom_templates(projects):
 
 
 if __name__ == '__main__':
-    auto = _AUTO_RELOAD
     ctxt = context()
     site = {}
 
     cleanup()
     create_custom_templates(ctxt['projects'])
-
-    # Accept CLI parameter to turn the auto reloader on and off.
-    if len(argv) == 2:
-        arg = argv[1].lower()
-
-        if arg in ['0', 'false', 'off', 'no']:
-            auto = False
-
-        elif arg in ['1', 'true', 'on', 'yes']:
-            auto = True
 
     site['filters'] = filters()
     site['outpath'] = _OUTPUTPATH
@@ -123,10 +109,10 @@ if __name__ == '__main__':
     site['searchpath'] = _SEARCHPATH
     site['staticpaths'] = ['static']
 
-    govlabstatic.init()
-    govlabstatic.start_sass(
-        src_path=path.join(_SASSPATH, 'styles.scss'),
-        dest_path=path.join(_SEARCHPATH, 'static', 'styles', 'styles.css')
+    govlabstatic.cli.run(
+        sass_src_path=path.join(_SASSPATH, 'styles.scss'),
+        sass_dest_path=path.join(_SEARCHPATH, 'static', 'styles',
+                                 'styles.css'),
+        site=site,
+        name='www.thegovlab.org',
     )
-    govlabstatic.start_web_server(root_dir=_OUTPUTPATH)
-    make_site(**site).render(use_reloader=auto)
