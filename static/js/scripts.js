@@ -17,15 +17,15 @@ $(document).ready(function($) {
     });
 
     // Search Field Logic
-    $('.js-search-trigger').click(function() {
-        $('.e-search').addClass('m-active');
-        $overlay.addClass('m-active');
-    });
+    // $('.js-search-trigger').click(function() {
+    //     $('.e-search').addClass('m-active');
+    //     $overlay.addClass('m-active');
+    // });
 
-    $overlay.click(function() {
-        $('.e-search').removeClass('m-active');
-        $(this).removeClass('m-active');
-    });
+    // $overlay.click(function() {
+    //     $('.e-search').removeClass('m-active');
+    //     $(this).removeClass('m-active');
+    // });
 
     // Tooltip Logic
     $('.js-tooltip-trigger').click(function() {
