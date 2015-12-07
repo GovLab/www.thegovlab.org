@@ -42,6 +42,10 @@ def cleanup():
 
 
 def render_project_detail_pages(env, template, **kwargs):
+    '''
+    staticjinja rule for generating all individual project detail pages.
+    '''
+
     template = env.get_template('_project.html')
     for index, project in enumerate(kwargs['projects']):
         out = 'project-%s.html' % (_SLUG(project['title']),)
@@ -50,6 +54,11 @@ def render_project_detail_pages(env, template, **kwargs):
 
 
 class ReloadingContext(FileSystemEventHandler):
+    '''
+    Regenerates a template context, and the static site, whenever files
+    in the data directory change.
+    '''
+
     path = _DATAPATH
 
     def __init__(self):
