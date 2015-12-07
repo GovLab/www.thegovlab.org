@@ -7,8 +7,9 @@ from shutil import rmtree
 from slugify import slugify
 from datetime import date, datetime
 from unidecode import unidecode
+import staticjinja
 
-import govlabstatic.cli
+from govlabstatic.cli import Manager
 
 _TODAY = date.today()
 
@@ -98,21 +99,24 @@ def create_custom_templates(projects):
 
 if __name__ == '__main__':
     ctxt = context()
-    site = {}
 
     cleanup()
     create_custom_templates(ctxt['projects'])
 
-    site['filters'] = filters()
-    site['outpath'] = _OUTPUTPATH
-    site['contexts'] = [(r'.*.html', lambda: ctxt)]
-    site['searchpath'] = _SEARCHPATH
-    site['staticpaths'] = ['static']
+    site = staticjinja.make_site(
+        filters=filters(),
+        outpath=_OUTPUTPATH,
+        contexts=[(r'.*.html', lambda: ctxt)],
+        searchpath=_SEARCHPATH,
+        staticpaths=['static']
+    )
 
-    govlabstatic.cli.run(
+    manager = Manager(
         sass_src_path=path.join(_SASSPATH, 'styles.scss'),
         sass_dest_path=path.join(_SEARCHPATH, 'static', 'styles',
                                  'styles.css'),
         site=site,
-        name='www.thegovlab.org',
+        site_name='www.thegovlab.org',
     )
+
+    manager.run()
