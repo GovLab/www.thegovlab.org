@@ -71,13 +71,6 @@ def context():
 
 
 def cleanup():
-    # Remove templates that are no longer needed.
-    for filename in listdir(_SEARCHPATH):
-        filepath = '%s/%s' % (_SEARCHPATH, filename)
-
-        if filename.startswith('project-') and path.isfile(filepath):
-            remove(filepath)
-
     # Clean the output folder.
     if path.exists(_OUTPUTPATH):
         rmtree(_OUTPUTPATH)
@@ -85,28 +78,28 @@ def cleanup():
     makedirs(_OUTPUTPATH)
 
 
-def create_custom_templates(projects):
-    template = open('%s/_project.html' % _SEARCHPATH).read()
-
-    for index, project in enumerate(projects):
-        filename = _SLUG(project['title'])
-        new_file = open('%s/project-%s.html' % (_SEARCHPATH, filename), 'w+')
-        new_page = template.replace('projects[0]', 'projects[%d]' % index)
-
-        new_file.write(new_page)
-        new_file.close()
-
+def render_project_detail_pages(env, template, **kwargs):
+    template = env.get_template('_project.html')
+    for index, project in enumerate(kwargs['projects']):
+        out = 'project-%s.html' % (_SLUG(project['title']),)
+        template.stream(project=project, **kwargs).\
+            dump(path.join(env.outpath, out))
 
 if __name__ == '__main__':
     ctxt = context()
 
     cleanup()
-    create_custom_templates(ctxt['projects'])
 
     site = staticjinja.make_site(
         filters=filters(),
         outpath=_OUTPUTPATH,
-        contexts=[(r'.*.html', lambda: ctxt)],
+        contexts=[
+            (r'.*.html', lambda: ctxt),
+            (r'project-detail-pages.custom', lambda: ctxt),
+        ],
+        rules=[
+            (r'project-detail-pages.custom', render_project_detail_pages)
+        ],
         searchpath=_SEARCHPATH,
         staticpaths=['static']
     )
