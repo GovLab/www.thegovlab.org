@@ -1,13 +1,15 @@
 # -*- coding: utf-8 -*-
 
-from os import path, getcwd, makedirs, listdir, remove, chdir
+from os import path, getcwd, listdir, remove, chdir
 from sys import argv
+import subprocess
 from yaml import load
 from shutil import rmtree
 from slugify import slugify
 from datetime import date, datetime
 from unidecode import unidecode
 import staticjinja
+import argh
 from watchdog.events import FileSystemEventHandler
 
 from govlabstatic.cli import Manager
@@ -33,12 +35,13 @@ def filters():
     return {'slug': _SLUG}
 
 
-def cleanup():
-    # Clean the output folder.
+def clean():
+    '''
+    Clean the output folder.
+    '''
+
     if path.exists(_OUTPUTPATH):
         rmtree(_OUTPUTPATH)
-
-    makedirs(_OUTPUTPATH)
 
 
 def render_project_detail_pages(env, template, **kwargs):
@@ -117,10 +120,18 @@ class ReloadingContext(FileSystemEventHandler):
 
         return dic
 
+def deploy():
+    '''
+    Deploy the site to production.
+    '''
+
+    subprocess.check_call(
+        'git subtree push --prefix site origin gh-pages',
+        shell=True
+    )
+
 if __name__ == '__main__':
     context = ReloadingContext()
-
-    cleanup()
 
     site = staticjinja.make_site(
         filters=filters(),
@@ -144,5 +155,6 @@ if __name__ == '__main__':
         site_name='www.thegovlab.org',
     )
     context.add_to(manager)
+    argh.add_commands(manager.parser, [deploy, clean])
 
     manager.run()

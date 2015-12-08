@@ -28,4 +28,4 @@ The `site` directory will contain the generated website files.
 
 ## Deployment
 
-To deploy the site, run `git subtree push --prefix site origin gh-pages`.
+To deploy the site, run `python build.py deploy`.
