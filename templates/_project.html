@@ -24,7 +24,9 @@
     <div class="e-wrap">
         <div class="e-half">
             <div class="e-content">
+                {% if project.project_website -%}
                 <a href="{{project.project_website}}" target="_blank" class="e-project-link">Project Website<i class="material-icons">link</i></a>
+                {%- endif %}
                 <ul class="e-tags">
                     <h5>Governance Area</h5>
                     <li>{% for tag in project.tags.governance_area %}

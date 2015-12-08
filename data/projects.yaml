@@ -353,7 +353,7 @@
   is_featured: 1 #integer
   is_active: True
   related_question: 4 #question
-  project_website: noi.thegovlab.org #url
+  project_website: http://noi.thegovlab.org #url
   location: 
     - Australia
     - Argentina
