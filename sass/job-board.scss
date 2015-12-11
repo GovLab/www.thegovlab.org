@@ -1,0 +1,34 @@
+.b-job-board {
+
+    .b-top-section {
+        background-color: $purple; 
+
+        h2, h3 {
+            text-align: center;
+            color: $white;
+        }
+
+        h2 {
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 100;
+            font-size: 30px;
+        }
+
+        h3 {
+            background-color: $blue;
+            padding: 10px 0;
+            font-weight: 400;
+        }
+    }
+
+    .e-wrap {
+        @include wrap;
+        padding: 20px 0;
+    }
+
+    .b-job-post {
+        border-bottom: 1px solid $purple;
+    }
+
+}
