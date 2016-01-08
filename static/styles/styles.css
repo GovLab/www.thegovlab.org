@@ -262,6 +262,10 @@ button:focus {
   background-color: #523080;
   color: white; }
 
+.b-button.m-dark {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white; }
+
 .b-breadcrumbs {
   max-width: 1025px;
   margin-left: auto;
@@ -1763,6 +1767,9 @@ button:focus {
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.4); }
 
+#beth-simone-noveck .b-button {
+  display: inline-block; }
+
 .b-about-landing {
   background-color: #523080;
   margin-bottom: 0; }
@@ -1939,5 +1946,69 @@ button:focus {
   padding: 20px 0; }
 .b-job-board .b-job-post {
   border-bottom: 1px solid #523080; }
+
+.b-fancy-bio .b-top-section {
+  background-size: cover;
+  width: 100%; }
+.b-fancy-bio .e-wrap {
+  max-width: 1025px;
+  margin-left: auto;
+  margin-right: auto; }
+.b-fancy-bio h1 {
+  margin: 0;
+  font-weight: 100;
+  color: white; }
+.b-fancy-bio h2 {
+  margin: 0 0 20px 0;
+  font-weight: 400;
+  color: white; }
+.b-fancy-bio .e-bio-section {
+  padding: 50px 0;
+  position: relative; }
+  .b-fancy-bio .e-bio-section .e-wrap {
+    display: flex;
+    max-width: 850px; }
+  .b-fancy-bio .e-bio-section .e-main-content {
+    flex: 1; }
+  .b-fancy-bio .e-bio-section aside {
+    text-align: right;
+    padding-right: 80px; }
+    .b-fancy-bio .e-bio-section aside li {
+      list-style: none; }
+
+#beth-page-temp .b-top-nav {
+  background-color: #523080; }
+#beth-page-temp .b-top-section {
+  text-align: center;
+  background-color: #333; }
+  #beth-page-temp .b-top-section .e-info {
+    position: relative;
+    padding-bottom: 30px; }
+  #beth-page-temp .b-top-section .e-links {
+    position: absolute;
+    right: 0; }
+  #beth-page-temp .b-top-section .b-social-media {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    margin-left: 15px; }
+#beth-page-temp .e-pic {
+  background-image: url("../img/team/beth-simone-noveck.jpg");
+  background-size: cover;
+  background-position: center top;
+  overflow: hidden;
+  border-radius: 50%;
+  width: 240px;
+  height: 240px;
+  margin: 50px 0 0;
+  display: inline-block;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6); }
+
+.b-social-media {
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: #523080;
+  padding: 12px 18px;
+  color: white;
+  display: inline-block; }
 
 /*# sourceMappingURL=styles.css.map */
