@@ -4,6 +4,22 @@
 <div class="b-team">
     <div class="e-team-list">
         <h1>Team</h1>
+        <div class="e-team-member" id="beth-simone-noveck">
+            <div class="e-wrap">
+                <div class="e-team-picture" style="background-image: url('./static/img/team/beth-simone-noveck.jpg')"></div>
+                <div class="e-info">
+                    
+                </div>
+                <div class="e-bio">
+                    <h3>Beth Simone Noveck</h3>
+                    <h4>Co-founder and Director</h4>
+                    <p>Beth Simone Noveck is Co-Founder and Director of The GovLab and its MacArthur Research Network on Opening Governance. Funded by the John D. and Catherine T. MacArthur Foundation, the John S. and James L. Knight Foundation and Google.org, the GovLab strives to improve people’s lives by changing how we govern. The GovLab designs and tests technology, policy and strategies for fostering more open and collaborative approaches to strengthen the ability of people and institutions to work together to solve problems, make decisions, resolve conflict and govern themselves more effectively and legitimately.</p>
+                    
+                    <a href="beth-noveck.html" class="b-button m-naked">More <i class="material-icons">keyboard_arrow_down</i></a>
+                </div>
+            </div>
+        </div>
+
         {% for person in team %}
             <div class="e-team-member" id="{{person.name | slug }}">
                 <div class="e-wrap">
