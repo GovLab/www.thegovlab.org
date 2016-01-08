@@ -7,3 +7,5 @@ install:
   - pip install -r requirements.txt
 script:
   - python build.py test
+notifications:
+  slack: govlab:KLK7vzipwKmNg6927T5KPrjc
