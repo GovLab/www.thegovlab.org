@@ -1968,11 +1968,21 @@ button:focus {
   .b-fancy-bio .e-bio-section .e-wrap {
     display: flex;
     max-width: 850px; }
+    @media (max-width: 800px) {
+      .b-fancy-bio .e-bio-section .e-wrap {
+        display: block;
+        padding: 0 10px; } }
   .b-fancy-bio .e-bio-section .e-main-content {
     flex: 1; }
   .b-fancy-bio .e-bio-section aside {
     text-align: right;
     padding-right: 80px; }
+    @media (max-width: 800px) {
+      .b-fancy-bio .e-bio-section aside {
+        text-align: left; } }
+    @media (max-width: 800px) {
+      .b-fancy-bio .e-bio-section aside ul {
+        padding: 0 0 40px 0; } }
     .b-fancy-bio .e-bio-section aside li {
       list-style: none; }
 
