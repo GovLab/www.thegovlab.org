@@ -32,10 +32,13 @@
         padding: 50px 0;
         position: relative;
 
-        .e-wrap { 
+        .e-wrap {
             display: flex;
             max-width: 850px;
-
+            @include breakpoint($mobile-only) {
+                display: block;
+                padding: 0 10px;
+            }
         }
 
         .e-main-content {
@@ -45,7 +48,16 @@
         aside {
             text-align: right;
             padding-right: 80px;
-            
+
+            @include breakpoint($mobile-only) {
+                text-align: left;
+            }
+
+            ul {
+                @include breakpoint($mobile-only) {
+                    padding: 0 0 40px 0;
+                }
+            }
 
             li {
                 list-style: none;
