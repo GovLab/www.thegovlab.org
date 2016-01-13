@@ -202,6 +202,10 @@ $.get('http://thegovlab.org/category/featured-website/feed/', function(xml) {
 (function() {
     var width, height, largeHeader, canvas, ctx, points, target, animateHeader = true;
 
+    // This is a temporary fix for
+    // https://github.com/GovLab/www.thegovlab.org/issues/4.
+    return;
+
     // Main
     if (document.getElementById('homepage-banner')) {
         initHeader();
