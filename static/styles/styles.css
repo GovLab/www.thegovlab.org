@@ -1651,6 +1651,7 @@ button:focus {
       z-index: 1; }
       @media (max-width: 800px) {
         .b-team .e-team-member .e-wrap {
+          -webkit-flex-flow: column;
           flex-flow: column; } }
     .b-team .e-team-member .e-info,
     .b-team .e-team-member .e-bio {
