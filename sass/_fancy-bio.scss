@@ -46,9 +46,11 @@
         }
 
         .e-footer-content {
-            // text-align: right;
             max-width: 850px;
             margin: 0 auto;
+            @include breakpoint($mobile-only) {
+                padding: 0 10px;
+            }
         }
 
         aside {
