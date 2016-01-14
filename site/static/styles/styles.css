@@ -412,7 +412,7 @@ button:focus {
       display: flex; }
       @media (max-width: 800px) {
         .b-featured-content .e-wrap > div {
-          flex-flow: column; } }
+          flex-flow: column-reverse; } }
   .b-featured-content .e-half {
     -webkit-flex: 1;
     flex: 1; }
@@ -1974,6 +1974,9 @@ button:focus {
         padding: 0 10px; } }
   .b-fancy-bio .e-bio-section .e-main-content {
     flex: 1; }
+  .b-fancy-bio .e-bio-section .e-footer-content {
+    max-width: 850px;
+    margin: 0 auto; }
   .b-fancy-bio .e-bio-section aside {
     text-align: right;
     padding-right: 80px; }
@@ -1985,6 +1988,45 @@ button:focus {
         padding: 0 0 40px 0; } }
     .b-fancy-bio .e-bio-section aside li {
       list-style: none; }
+  .b-fancy-bio .e-bio-section aside.m-right {
+    position: absolute;
+    right: 0; }
+  .b-fancy-bio .e-bio-section .e-twitter {
+    text-align: center; }
+  .b-fancy-bio .e-bio-section ul.e-books {
+    list-style: none;
+    -webkit-padding-start: 0;
+    text-align: center; }
+    .b-fancy-bio .e-bio-section ul.e-books li {
+      display: inline-block;
+      padding: 20px;
+      position: relative; }
+      .b-fancy-bio .e-bio-section ul.e-books li figure {
+        color: white;
+        box-shadow: 0 0 12px rgba(0, 0, 0, 0.1); }
+        .b-fancy-bio .e-bio-section ul.e-books li figure .e-image {
+          background-size: contain;
+          background-position: center center;
+          background-repeat: no-repeat;
+          height: 225px;
+          width: 150px;
+          transition: all .4s ease; }
+          .b-fancy-bio .e-bio-section ul.e-books li figure .e-image:hover {
+            transform: scale(1.2, 1.2);
+            transition: all .4s ease; }
+        .b-fancy-bio .e-bio-section ul.e-books li figure .e-dark-panel {
+          text-align: left;
+          display: block;
+          padding: 10px;
+          opacity: 0;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(0, 0, 0, 0.5);
+          z-index: 999; }
+          .b-fancy-bio .e-bio-section ul.e-books li figure .e-dark-panel:hover {
+            color: white;
+            opacity: 1;
+            transition: all .4s ease; }
 
 #beth-page-temp .b-top-nav {
   background-color: #523080; }

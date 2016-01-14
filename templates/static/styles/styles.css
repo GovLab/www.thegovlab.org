@@ -412,7 +412,7 @@ button:focus {
       display: flex; }
       @media (max-width: 800px) {
         .b-featured-content .e-wrap > div {
-          flex-flow: column; } }
+          flex-flow: column-reverse; } }
   .b-featured-content .e-half {
     -webkit-flex: 1;
     flex: 1; }
