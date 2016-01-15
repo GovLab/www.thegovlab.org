@@ -58,7 +58,10 @@
         position: relative;
         z-index: 1;
 
-        @include breakpoint($mobile-only) { flex-flow: column; }
+        @include breakpoint($mobile-only) {
+            -webkit-flex-flow: column;
+            flex-flow: column;
+        }
 
     }
 

@@ -78,7 +78,7 @@
             display: flex;
 
             @include breakpoint($mobile-only) {
-                flex-flow: column;
+                flex-flow: column-reverse;
             }
         }
     }
@@ -141,14 +141,14 @@
         color: $white-70;
         font-weight: 200;
         margin: 0;
-        
+
         font-size: 18px;
         letter-spacing: .5px;
         line-height: 1.35;
         @include wrap;
 
-        @include breakpoint($desktop) { 
-            font-size: 22px; 
+        @include breakpoint($desktop) {
+            font-size: 22px;
             margin-bottom: 30px;
         }
     }
@@ -188,7 +188,7 @@
             @include breakpoint($desktop) { margin-top: 0; }
         }
 
-        a { 
+        a {
             color: $white-90;
             text-decoration: underline;
         }
@@ -274,11 +274,11 @@
         a { color: $white-80; }
         a:hover { text-decoration: underline; }
     }
-    
+
     .e-action {
-        @include breakpoint($desktop) { 
-            margin-top: 30px; 
-            margin-bottom: 20px; 
+        @include breakpoint($desktop) {
+            margin-top: 30px;
+            margin-bottom: 20px;
         }
     }
 }
