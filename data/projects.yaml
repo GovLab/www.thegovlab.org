@@ -328,12 +328,9 @@
   status: test# define, prototype, test, complete
   problem_statement: "How to make open government data more relevant, accessible, and actionable?"
   short_description: >
-    <p>In 2014, GovLab launched <a href="http://www.opendata500.com" target="_blank">Open Data 500</a>, supported by the John S. and James L. Knight Foundation. The OD500 is the first comprehensive study of U.S. based companies that use open government data as a key business resource. The name “OD500” originates from the research ambition to identify 500 U.S. companies that are using open government data. The tool provides a way to map and visualize the relationships between companies and open government datasets, as well as to conduct other sector-by-sector analyses.</p>
-  long_description: >
-    <p>The <a href="http://www.opendata500.com" target="_blank">OD500 Global Network</a> is an international network of organizations that seek to study the use and impact of open data. Coordinated by the GovLab,  the OD500 Global Network enables participating organizations to analyze open data in their country in a manner that is both globally comparable and locally specific. The OD500 Global Network starts from the assumption that only by mapping the use of Open Data within and across countries can new approaches for understanding the economic and social impact of open government data can be generated.</p>
+    <p>The <a href="http://www.opendata500.com" target="_blank">OD500 Global Network</a> is an international network of organizations that seeks to study the use and economic impact of open government data. Coordinated by The GovLab, an action research institute at New York University, the OD500 Global Network enables participating organizations to analyze how open government data is being used in their country in a manner that is both globally comparative and domestically specific.</p> 
   background: >
     <p>In 2014, GovLab launched Open Data 500 (www.opendata500.com), supported by the John S. and James L. Knight Foundation. The OD500 is the first comprehensive study of U.S. based companies that use open government data as a key business resource. The name “OD500” originates from the research ambition to identify 500 U.S. companies that are using open government data. The tool provides a way to map and visualize the relationships between companies and open government datasets, as well as to conduct other sector-by-sector analyses. </p>
-
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
     - open-data-network-1.jpg
@@ -393,8 +390,9 @@
   status: prototype # define, prototype, test, complete
   problem_statement: Can we accelerate innovation in government by making expertise of individuals searchable? #question
   short_description: >
-    <p>An expert network to match innovative individuals, organizations and the projects they have worked on within and across governments. NoI adopts a more nuanced way of sharing and finding expertise — one that looks beyond traditional credentials to focus on real world know-how. Instead of rigid categories or open-ended tags, NoI attempts to get at what people know by asking the kinds of questions they could answer. In response to those questions, they can specify the expertise they have and want to share: whether they have the ability to do something, to tell someone about it, or to refer them to others knowledgeable about the topic.</p>
-  long_description:
+    <p>Network of Innovators (NoI) is a skill sharing network enabling government and civic innovators to assess their problem-solving skills and get matched to those with complementary knowledge for mutual learning.</p>    
+  long_description: >
+    <p>NoI is premised on the belief that traditional titles and academic credentials do not adequately convey the skills and experiences people have and would willingly share.  By promoting the exchange of knowledge about more agile, data-driven, open and collaborative approaches to working, NoI aims to enhance how we govern and solve public problems.</p>
   background: >
     <p>There is possibly no more important public issue today than how to enable our governing organizations to recognize and implement innovative and effective solutions to problems. Administrations that are supposed to solve critical problems on their own are inadequate for a complex, networked world. Governments need to learn to make use of the expertise of others — formal scientific knowledge and credentials, skills and experiences inside and outside of government — to tackle the challenges society will face in the coming years.</p>
   social_media: #in the future we can have custom shareable messages for each project
@@ -645,7 +643,7 @@
   status: define # define, prototype, test, complete
   problem_statement: How can data be used to increase public safety and reduce incarceration?
   short_description: >
-    <p>Building on the GovLab’s experience in data-driven governance innovation in the fields of health care and education and working closely with a Criminal Justice Data and Innovation fellow working with the U.S. Chief Data Scientist at the White House, we are embarking on a year long project to analyze and document how data flows through the criminal justice system, identify policy and legal barriers to effective data sharing, and create pilot projects to replicate successful innovations in the field or test new approaches. Recognizing that many jurisdictions have already tackled these problems, we are actively seeking insights from experts in the field at the local, state and federal level to identify innovation already occurring, brainstorm new approaches, and build out key policies to help improve and expand criminal justice data sharing.</p>
+    <p>To accelerate trusted access to data for improved management of our criminal justice system, the Governance Lab with the support of the Laura and John Arnold Foundation, is working to articulate principles, policies, practices, and tools for trusted data sharing that safeguard civil liberties while maximizing the opportunity for evidence-based policy making and reform.  The goal of the project is to enable greater collaboration between government and the research community to the end of improving effectiveness and legitimacy of our nation’s criminal justice system.</p>
   long_description: 
   background: >
     <p>Jurisdictions across the country have found success implementing new evidence-based practices to reduce jail and prison populations, link more people with effective treatment in their communities, and generate cost savings without corresponding increases in crime; yet challenges in collecting, sharing and analyzing data continue to present significant barriers to widespread adoption of proven reforms and stifle opportunities for new innovation.</p>
