@@ -34,7 +34,7 @@
 
         .e-wrap {
             display: flex;
-            max-width: 850px;
+            // max-width: 850px;
             @include breakpoint($mobile-only) {
                 display: block;
                 padding: 0 10px;
@@ -45,17 +45,10 @@
             flex: 1;
         }
 
-        .e-footer-content {
-            max-width: 850px;
-            margin: 0 auto;
-            @include breakpoint($mobile-only) {
-                padding: 0 10px;
-            }
-        }
-
         aside {
             text-align: right;
             padding-right: 80px;
+            max-width: 300px;
 
             @include breakpoint($mobile-only) {
                 text-align: left;
@@ -72,35 +65,44 @@
             }
         }
 
-        aside.m-right {
-            position: absolute;
-            right: 0;
+        .e-more-content {
+            ul {
+                padding: 0;
+            }
+
+            li {
+                padding: 10px 0;
+                list-style-type: none;
+                border-bottom: 1px solid $gray-10;
+                font-size: 14px;
+            }
         }
 
         .e-twitter {
-            text-align: center;
+
         }
 
-        ul.e-books {
+        .e-books {
             list-style: none;
             -webkit-padding-start: 0;
-            text-align: center;
+            text-align: right;
 
             li {
                 display: inline-block;
-                padding: 20px;
+                padding: 0;
                 position: relative;
 
                 figure {
                     color: $white;
                     box-shadow: 0 0 12px $gray-10;
+                    margin: 10px 0;
 
                     .e-image {
                         background-size: contain;
                         background-position: center center;
                         background-repeat: no-repeat;
-                        height: 225px;
-                        width: 150px;
+                        height: 180px;
+                        width: 120px;
                         &:hover {
                             transform: scale(1.2,1.2);
                             @include transition;
