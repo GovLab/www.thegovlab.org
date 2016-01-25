@@ -229,7 +229,7 @@
 
 - title: NETmundial Solutions Map #will generate slug from this attr
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
-  is_featured: 1 #integer
+  is_featured: 0 #integer
   is_active: True
   related_question: 3 #question
   project_website: https://map.netmundial.org/
@@ -1041,7 +1041,7 @@
 
 - title: Open Grantmaking #will generate slug from this attr
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
-  is_featured: 0 #integer
+  is_featured: 1 #integer
   is_active: False
   related_question: 3
   project_website: https://docs.google.com/a/thegovlab.org/document/d/1A4ZFHxxIoRNvWg4m6C_wnIfvyA4ftNo-Mmt5bD4XtEs/edit?usp=sharing
@@ -1061,7 +1061,7 @@
     product_category:
         - #tag
   status: # define, prototype, test, complete
-  problem_statement: #question
+  problem_statement: Improving the Effectiveness and Legitimacy of Government Grant Funding #question
   short_description: >
     <p>In an effort to safeguard the legitimacy and fairness of the grantmaking process, public funding agencies have traditionally done grantmaking behind closed doors. Whether to states or individuals, introducing greater openness at all stages of the grantmaking process has the potential to spur more creative problem-solving strategies and, ultimately, more effective outcomes because open processes enable greater diversity of expertise to be brought to bear.</p>
   background: >
