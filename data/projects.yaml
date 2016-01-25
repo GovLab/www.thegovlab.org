@@ -4,7 +4,7 @@
   is_active: True
   related_question: 2
   project_website: http://dockerfordata.com
-  location: 
+  location:
     - Global
   partners:
   team:
@@ -61,9 +61,9 @@
   is_active: True
   related_question: 5 #question
   project_website: http://govlabacademy.org/canvas/ #url
-  location: 
+  location:
     - Global
-  partners: 
+  partners:
     - John S. and James L. Knight Foundation
   team:
     - Beth Simone Noveck
@@ -124,7 +124,7 @@
   is_active: True
   related_question: 5 #question
   project_website: http://govlabacademy.org #url
-  location: 
+  location:
     - Global
   partners:
     - John S. and James L. Knight Foundation
@@ -162,7 +162,7 @@
     - academy-4.jpg
     - academy-5.jpg
   results: >
-    <p>500+ participants, 250 projects, 20+ countries, Faculty and coaches from 5 universities, 12 semester-long Masters-level academic courses delivered to students from NYU, MIT, and Arizona State University, +70 non-credit participants from more than a dozen US cities and half a dozen foreign countries. 
+    <p>500+ participants, 250 projects, 20+ countries, Faculty and coaches from 5 universities, 12 semester-long Masters-level academic courses delivered to students from NYU, MIT, and Arizona State University, +70 non-credit participants from more than a dozen US cities and half a dozen foreign countries.
     Governments & NGOs coached, including the World Bank</p>
   related_articles:
     - name: USDA and GovLab Academy teamed up to provide a “First of Its Kind” Camp for DC-Area Teens Focused Specifically on Open Data and Agriculture
@@ -176,9 +176,9 @@
     - name: "People-Driven Governance: Spain’s Podemos Party"
       url: "http://thegovlab.org/people-driven-governance-spains-podemos-party/"
     - name: Dr. Samir K. Brahmachari on the Open Source Drug Discovery project
-      url: "http://thegovlab.org/dr-samir-k-brahmachari-on-the-open-source-drug-discovery-project/" 
+      url: "http://thegovlab.org/dr-samir-k-brahmachari-on-the-open-source-drug-discovery-project/"
     - name: "From the Classroom to the Community: A Student’s Journey post-Solving Public Problems Using Technology"
-      url: "http://thegovlab.org/from-the-classroom-to-the-community-a-students-journey-post-solving-public-problems-using-technology/" 
+      url: "http://thegovlab.org/from-the-classroom-to-the-community-a-students-journey-post-solving-public-problems-using-technology/"
     - name: Solving Public Problems With Technology
       url: "http://thegovlab.org/solving-public-problems-with-technology/"
 
@@ -190,7 +190,7 @@
   is_active: True
   related_question: 2 #question
   project_website: https://data-collaboratives.topi.com/
-  location: 
+  location:
     - United States
   partners:
     - World Economic Forum
@@ -233,7 +233,7 @@
   is_active: True
   related_question: 3 #question
   project_website: https://map.netmundial.org/
-  location: 
+  location:
     - Global
   partners:
     - SecondRise
@@ -260,7 +260,7 @@
       - Nonprofit
     innovative_capability:
       - Open data
-      - Crowdsourcing 
+      - Crowdsourcing
     product_category:
       - platform
       - mapping
@@ -328,7 +328,7 @@
   status: test# define, prototype, test, complete
   problem_statement: "How to make open government data more relevant, accessible, and actionable?"
   short_description: >
-    <p>The <a href="http://www.opendata500.com" target="_blank">OD500 Global Network</a> is an international network of organizations that seeks to study the use and economic impact of open government data. Coordinated by The GovLab, an action research institute at New York University, the OD500 Global Network enables participating organizations to analyze how open government data is being used in their country in a manner that is both globally comparative and domestically specific.</p> 
+    <p>The <a href="http://www.opendata500.com" target="_blank">OD500 Global Network</a> is an international network of organizations that seeks to study the use and economic impact of open government data. Coordinated by The GovLab, an action research institute at New York University, the OD500 Global Network enables participating organizations to analyze how open government data is being used in their country in a manner that is both globally comparative and domestically specific.</p>
   background: >
     <p>In 2014, GovLab launched Open Data 500 (www.opendata500.com), supported by the John S. and James L. Knight Foundation. The OD500 is the first comprehensive study of U.S. based companies that use open government data as a key business resource. The name “OD500” originates from the research ambition to identify 500 U.S. companies that are using open government data. The tool provides a way to map and visualize the relationships between companies and open government datasets, as well as to conduct other sector-by-sector analyses. </p>
   social_media: #in the future we can have custom shareable messages for each project
@@ -336,7 +336,7 @@
     - open-data-network-1.jpg
     - open-data-network-2.jpg
     - open-data-network-3.jpg
-  results: 
+  results:
   related_articles:
     - name: OpenData 500 One Pager
       url: static/files/od500-onepager.pdf
@@ -351,7 +351,7 @@
   is_active: True
   related_question: 4 #question
   project_website: http://noi.thegovlab.org #url
-  location: 
+  location:
     - Australia
     - Argentina
     - Canada
@@ -390,7 +390,7 @@
   status: prototype # define, prototype, test, complete
   problem_statement: Can we accelerate innovation in government by making expertise of individuals searchable? #question
   short_description: >
-    <p>Network of Innovators (NoI) is a skill sharing network enabling government and civic innovators to assess their problem-solving skills and get matched to those with complementary knowledge for mutual learning.</p>    
+    <p>Network of Innovators (NoI) is a skill sharing network enabling government and civic innovators to assess their problem-solving skills and get matched to those with complementary knowledge for mutual learning.</p>
   long_description: >
     <p>NoI is premised on the belief that traditional titles and academic credentials do not adequately convey the skills and experiences people have and would willingly share.  By promoting the exchange of knowledge about more agile, data-driven, open and collaborative approaches to working, NoI aims to enhance how we govern and solve public problems.</p>
   background: >
@@ -422,7 +422,7 @@
   is_active: True
   related_question: 4 #question
   project_website: #url
-  location: 
+  location:
     - United States
   partners:
     - NYU University Enterprise Initiatives
@@ -452,7 +452,7 @@
     <p>In mid-2013, The GovLab was invited to advise New York University on how to use cutting-edge Information & Communication Technology  tools and an open innovation process for collaborative decision-making. Called the Open Peer Engagement Network (Open NYU), the goal of the project has been to develop techniques and platforms for NYU to tap into the knowledge and talents that exist within its diverse community of students, faculty, staff, researchers, alumni and administrative leadership.</p>
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
-  results: 
+  results:
   related_articles:
 
 
@@ -465,7 +465,7 @@
   is_active: True
   related_question: 1
   project_website: #url
-  location: 
+  location:
     - Global
   partners:
     - 'American International Group, Inc. (AIG)'
@@ -515,7 +515,7 @@
   is_active: True
   related_question: 1
   project_website: http://legisletters.com/
-  location: 
+  location:
     - United States
   partners:
   team:
@@ -547,7 +547,7 @@
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
     - legisletters.jpg
-  results: 
+  results:
   related_articles:
 
 
@@ -560,7 +560,7 @@
   is_active: True
   related_question: 3
   project_website: http://crowdsourcingadvisor.org/
-  location: 
+  location:
     - Global
   partners:
   team:
@@ -599,7 +599,7 @@
     - crowdsourcerer-1.jpg
     - crowdsourcerer-2.jpg
     - crowdsourcerer-3.jpg
-  results: 
+  results:
   related_articles:
     - name: Is Crowdsourcing the right tool for your project?
       url: "http://thegovlab.org/is-crowdsourcing-the-right-tool-for-your-project/"
@@ -614,7 +614,7 @@
   is_active: True
   related_question: 1
   project_website: #url
-  location: 
+  location:
     - United States
   partners:
     - White House Office of Science and Technology Policy
@@ -644,12 +644,12 @@
   problem_statement: How can data be used to increase public safety and reduce incarceration?
   short_description: >
     <p>To accelerate trusted access to data for improved management of our criminal justice system, the Governance Lab with the support of the Laura and John Arnold Foundation, is working to articulate principles, policies, practices, and tools for trusted data sharing that safeguard civil liberties while maximizing the opportunity for evidence-based policy making and reform.  The goal of the project is to enable greater collaboration between government and the research community to the end of improving effectiveness and legitimacy of our nation’s criminal justice system.</p>
-  long_description: 
+  long_description:
   background: >
     <p>Jurisdictions across the country have found success implementing new evidence-based practices to reduce jail and prison populations, link more people with effective treatment in their communities, and generate cost savings without corresponding increases in crime; yet challenges in collecting, sharing and analyzing data continue to present significant barriers to widespread adoption of proven reforms and stifle opportunities for new innovation.</p>
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
-  results: 
+  results:
   related_articles:
     - name: One-Pager
       url: "static/files/criminal-justice-one-pager-web.pdf"
@@ -728,8 +728,8 @@
   problem_statement: 'How to obtain more usable data about the nonprofit sector and whether open data can improve the performance of nonprofits' #question
   short_description: >
     <p>We argue in this paper that open 990 data may increase transparency for nonprofit organizations, making it easier for state and federal authorities to detect fraud, spur innovation in the nonprofit sector and, above all, help us to understand the potential value of the 990 data. However, as also is the case for the 990s, “liberating” government data from paper-based technologies and processes is neither straightforward nor free. While myriad benefits may justify the costs, there is a need for practical strategies to overcome technical, political, and cultural impediments. In addition to exploring the costs and benefits of strategies for achieving open 990 data, the paper focused on how to build a community willing to examine the quality of 990 data and build innovative tools to create a better understanding of the nonprofit sector than we currently have and that we so desperately need.</p>
-  tooltip: 
-  long_description: 
+  tooltip:
+  long_description:
   background: >
     <p>In 2010, there were 1.5 million tax-exempt organizations in the United States with $1.51 trillion in revenues. Through the Form 990 in its several varieties, the Internal Revenue Service (IRS) gathers a large amount of information about tax-exempt organizations. Like other important data collected by governments, information contained in the 990s could potentially be far more useful if it were not only public but “open” data that are available to all, free of charge, in a standard format, published without proprietary conditions, and available online as a bulk download rather than only through single-entry lookup. This report was designed to address whether and how making the Form 990 data truly open in this sense would not only make it easier to use for the organizations that already process it, but would also make it useful to researchers, advocates, entrepreneurs, technologists, and nonprofits that do not have the resources to use the data in its current form. </p>
   social_media: #in the future we can have custom shareable messages for each project
@@ -787,7 +787,7 @@
   problem_statement: Can crowdsourcing improve the quality of patent applications?
   short_description: >
     <p>Developed and run by the New York Law School Institute for Information Law and Policy (the precursor to the GovLab @ NYU), Peer To Patent is a historic initiative by the <a href="https://en.wikipedia.org/wiki/United_States_Patent_and_Trademark_Office" target="_blank">United States Patent and Trademark Office</a> (USPTO) that opens the patent examination process to public participation for the first time. Peer to Patent is an online system that aims to improve the quality of issued patents by enabling the public to supply the USPTO with information relevant to assessing the claims of pending patent applications.This pilot project connects an open network for community input to the legal decision-making process. The community supplies information and research based on its expertise. The patent examiner makes the final determination on the basis of legal standards. This process combines the democracy of open participation with the legitimacy and effectiveness of administrative decision making.</p>
-  tooltip: 
+  tooltip:
   long_description:
   background: >
     <p>The Peer To Patent project is an initiative that seeks to assist patent offices in improving patent quality by gathering public input in a structured, productive manner. Peer To Patent is the first social-software project directly linked to decision-making by the federal government. An initial pilot project in collaboration with the United States Patent and Trademark Office (USPTO) was completed June 15, 2009. That pilot examined more than 220 patent applications in the fields of software and business methods. The Peer To Patent project has issued two anniversary reports from the initial pilot. Following the conclusion of the initial pilot the USPTO undertook an evaluation of Peer To Patent assisted by students from Worcester Polytechnic Institute. That evaluation concluded that the program had merit and should be continued. On October 19, 2010, the USPTO and New York Law School jointly announced a new pilot program commencing October 25, 2010, and continuing through September 30, 2011 (with the review period extending through December 31, 2011). This new pilot included patent applications covering subject matter included in the initial pilot, it also included telecommunications, speech recognition, translation, biotechnology, bioinformatics and biopharmaceuticals.</p>
@@ -837,12 +837,12 @@
     product_category:
         - Platform
   status: define # define, prototype, test, complete
-  problem_statement: Can targeting opportunities to participate in regulatory reviews of medical devices based on skills and experience improve efficacy? 
+  problem_statement: Can targeting opportunities to participate in regulatory reviews of medical devices based on skills and experience improve efficacy?
   short_description: >
     <p>As one of its duties, the Food and Drug Administration manages the process of pre-market approval of all medical devices to ensure that patients and providers have timely access to safe, effective, and high quality devices, as well as the post-market review of medical devices to ensure that any unsafe medical devices are identified and recalled from the market. In both of these contexts, the FDA seeks to provide the medical device industry with productive, consistent, transparent, and efficient regulatory pathways.</p>
     <p>In a pilot program, the GovLab, MacArthur Foundation Research Network on Opening Governance and partners will evaluate several potential impacts of the introduction of a piece of expert networking software, FDA Profiles. This software is designed to decrease frictions in identifying qualified government employees to participate in medical device regulatory review panels. FDA Profiles aggregates information about the expertise of potential reviewers including information from internal databases, publications on PubMed, and self-reported information about an individual’s skills and experience.</p>
-  tooltip: 
-  long_description: 
+  tooltip:
+  long_description:
   background: >
     <p>With thousands of devices -- sometimes leveraging cutting-edge technology -- to examine each year, the US Food and Drug Administration (FDA) is faced with the challenge of finding the right internal and external expertise to help the agency quickly study a device’s safety and efficacy. Done right, lives can be saved and companies can prosper from bringing innovations to market. Done wrong, bad devices kill.</p>
   social_media: #in the future we can have custom shareable messages for each project
@@ -1045,7 +1045,7 @@
   is_active: False
   related_question: 3
   project_website: https://docs.google.com/a/thegovlab.org/document/d/1A4ZFHxxIoRNvWg4m6C_wnIfvyA4ftNo-Mmt5bD4XtEs/edit?usp=sharing
-  location: 
+  location:
     - United States
   partners:
   team:
@@ -1068,7 +1068,7 @@
     <p>Examining grantmaking innovations in the corporate philanthropic and and public sectors that the US Federal government could adopt.</p>
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
-  results: 
+  results:
   related_articles:
 
 
@@ -1101,16 +1101,16 @@
         - open data
     product_category:
         - case studies
-  status: test # define, prototype, test, complete
+  status: complete # define, prototype, test, complete
   problem_statement: What are the global impacts of open data? #question
   short_description: >
   tooltip: >
   long_description: >
-    <p>In collaboration with <a href="https://www.omidyar.com/" target="_blank">Omidyar Network</a>, the GovLab has conducted <strong>19 detailed case studies of open data projects around the world.</strong> The case studies were selected for their sectoral and geographic representativeness. They were built in part from secondary sources (“desk research”), but also from a number of first-hand interviews with important players and key stakeholders. The GovLab is currently undertaking an <a href="http://odimpact.org" target="_blank">open peer review</a> of the case studies and a key findings paper. Final versions will be published in the new year.</p>
+    <p>In collaboration with <a href="https://www.omidyar.com/" target="_blank">Omidyar Network</a>, the GovLab has conducted <strong>19 detailed case studies of open data projects around the world</strong> and developed a key findings paper describing lessons learned across the projects examined. The case studies were selected for their sectoral and geographic representativeness. They were built in part from secondary sources (“desk research”), but also from a number of first-hand interviews with important players and key stakeholders. The case studies, key findings paper and other resources will be posted on the Open Data’s Impact repository in early 2016.</p>
   background: >
     <p>Recent years have witnessed considerable enthusiasm over open data. Several studies have documented its potential to spur economic innovation and social transformation, and to usher in fresh forms of political and government accountability. Yet for all the enthusiasm, we know little about how open data actually works, and what forms of impact it is really having.</p>
   social_media: #in the future we can have custom shareable messages for each project
-  images: 
+  images:
     - open-data-impact-1.png #images or screenshots of the project
   results:
   related_articles:
