@@ -134,6 +134,7 @@
     background-color: $black;
     -webkit-flex-flow: column;
     flex-flow: column;
+    overflow: scroll;
 
     @include breakpoint($desktop) { left: -28%; }
 
