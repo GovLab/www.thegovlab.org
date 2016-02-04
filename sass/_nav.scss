@@ -143,6 +143,7 @@
     &.m-active {
         left: 0;
         right: 70px;
+        overflow-y: auto;
 
         @include breakpoint($desktop) { right: 72%; }
     }

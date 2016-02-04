@@ -9,11 +9,13 @@ $(document).ready(function($) {
     $('.js-nav-trigger').click(function() {
         $('.b-main-menu').addClass('m-active');
         $overlay.addClass('m-active');
+        $(body).addClass('no-scroll');
     });
 
     $overlay.click(function() {
         $('.b-main-menu').removeClass('m-active');
         $(this).removeClass('m-active');
+        $(body).removeClass('no-scroll');
     });
 
     // Search Field Logic
@@ -40,7 +42,7 @@ $(document).ready(function($) {
 
     $('.js-bio-toggle').click(function() {
         $(this).parent().toggleClass('m-active');
-    })
+    });
 
 
     // Search

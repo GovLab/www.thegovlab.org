@@ -59,3 +59,7 @@ button:focus {
 
   &.m-active { display: block; } 
 }
+
+.no-scroll {
+  overflow: hidden;
+}
