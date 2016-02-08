@@ -1,0 +1,59 @@
+{# Define a macro to render each project item #}
+{% macro item(title, problem_statement, is_active, tooltip) -%}
+<div class="e-project-item js-tooltip-trigger m-clickable" data-open="#modal-{{title | slug}}">
+    <h2><a href="#">{{title}}</a></h2>
+    <div class="e-project-blurb">
+        {% if problem_statement %}<p>{{problem_statement}}</p>{% endif %}
+        {#{% if tooltip %}<div class="e-project-tooltip">{{tooltip}}</div>{% endif %}#}
+    </div>
+</div>
+{%- endmacro %}
+
+{% extends "_base.html" %}
+{% block content %}
+
+{# here we start the template#}
+
+<div id="smarter-state-case-studies">
+    <section class="b-projects-landing b-top-section">
+        <h2>Smarter State Case Studies</h2>
+        <h3>A GovLab initiative to design and test how public decision-making could improve if institutions knew how to leverage citizens’ and civil servants’ expertise.</h3>
+        <div class="e-view-switcher">
+            <i class="e-view-button material-icons js-view-grid-trigger m-active" title="View in Grid Layout">view_module</i>
+            <i class="e-view-button material-icons js-view-list-trigger" title="View in List Layout">view_headline</i>
+        </div>
+    </section>
+    <div class="b-project-view m-grid">
+        <section class="b-projects-list-wrapper m-data">
+            <div class="e-project-list">
+                <h3 class="e-project-question">All Case Studies</h3>
+                <div class="e-project-group">
+                    {% for study in studies %}
+
+                    {{ item(study.title, study.problem, study.is_active, study.tooltip) }}
+
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+    </div>
+
+    {% for study in studies %}
+    <div class="b-modal" id="modal-{{study.title | slug}}">
+        <div class="e-content">
+            <h2>{{study.title}}</h2>
+            <p>{{study.summary}}</p>
+<!--             <h3>Platform</h3>
+            <p>{{study.platform}}</p>
+            <h3>Design Basics</h3>
+            <p>{{study.design}}</p> -->
+            <p>
+                <a class="b-button js-close-modal m-dark" href="#">Close</a>
+                <a class="b-button m-purple" href="{{study.download}}">Download PDF<i class="material-icons">file_download</i></a>
+            </p>
+        </div>
+    </div>
+    {% endfor %}
+
+</div>
+{% endblock %}

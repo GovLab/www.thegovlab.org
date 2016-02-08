@@ -1,12 +1,14 @@
 {# Define a macro to render each project item #}
 {% macro item(title, problem_statement, is_active, tooltip) -%}
-    <div class="e-project-item js-tooltip-trigger m-active-{{is_active}}">
+<!-- <a href="project-{{title | slug}}.html"> -->
+    <div class="e-project-item m-active-{{is_active}}">
         <h2><a href="project-{{title | slug}}.html">{{title}}</a></h2>
         <div class="e-project-blurb">
             {% if problem_statement %}<p>{{problem_statement}}</p>{% endif %}
             {#{% if tooltip %}<div class="e-project-tooltip">{{tooltip}}</div>{% endif %}#}
         </div>
     </div>
+<!-- </a> -->
 {%- endmacro %}
 
 {% extends "_base.html" %}
@@ -35,7 +37,7 @@
                     {% if project.related_question == 1 %}
 
                         {{ item(project.title, project.problem_statement, project.is_active, project.tooltip) }}
-                    
+
                     {% endif %}
                 {% endfor %}
             </div>
@@ -43,9 +45,9 @@
             <div class="e-project-group">
                 {% for project in projects %}
                     {% if project.related_question == 2 %}
-                    
+
                         {{ item(project.title, project.problem_statement, project.is_active, project.tooltip) }}
-                    
+
                     {% endif %}
                 {% endfor %}
             </div>
@@ -61,7 +63,7 @@
             <div class="e-project-group">
                 {% for project in projects %}
                     {% if project.related_question == 3 %}
-                        
+
                         {{ item(project.title, project.problem_statement, project.is_active, project.tooltip) }}
 
                     {% endif %}
@@ -71,7 +73,7 @@
             <div class="e-project-group">
                 {% for project in projects %}
                     {% if project.related_question == 4 %}
-                    
+
                     {{ item(project.title, project.problem_statement, project.is_active, project.tooltip) }}
 
                     {% endif %}
@@ -90,7 +92,7 @@
             <div class="e-project-group">
                 {% for project in projects %}
                     {% if project.related_question == 'How to do <strong>agile research</strong> about innovation in governance' %}
-                    
+
                     {{ item(project.title, project.problem_statement, project.is_active, project.tooltip) }}
 
                     {% endif %}
@@ -100,7 +102,7 @@
             <div class="e-project-group">
                 {% for project in projects %}
                     {% if project.related_question == 5 %}
-                    
+
                     {{ item(project.title, project.problem_statement, project.is_active, project.tooltip) }}
 
                     {% endif %}
@@ -110,7 +112,7 @@
             <div class="e-project-group">
                 {% for project in projects %}
                     {% if project.related_question == 'How to develop an <strong>open data map</strong> of responses and actors by <strong>leveraging collective intelligence</strong>' %}
-                    
+
                     {{ item(project.title, project.problem_statement, project.is_active, project.tooltip) }}
 
                     {% endif %}

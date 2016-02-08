@@ -149,13 +149,15 @@
     .e-project-item {
         @include breakpoint($desktop) {
             background-color: $gray-05;
-            cursor: pointer;
             display: -webkit-flex;
             display: flex;
             border-bottom: 1px solid $gray-10;
             -webkit-flex-wrap: wrap;
             flex-wrap: wrap;
             padding: 20px 0;
+            &.m-clickable {
+                cursor: pointer;
+            }
         }
 
         h2 {
@@ -220,8 +222,10 @@
             margin: 15px;
             vertical-align: top;
             position: relative;
-            cursor: pointer;
             border: 1px dotted $gray-20;
+            &.m-clickable {
+                cursor: pointer;
+            }
         }
 
         h2 {
@@ -299,4 +303,63 @@
             }
         }
     }
+}
+
+#smarter-state-case-studies {
+    .b-project-view.m-grid .b-projects-list-wrapper {
+        .e-project-item {
+            @include breakpoint($desktop) {
+                width: calc(25% - 34px);
+                padding-bottom: calc(25% - 34px);
+            }
+        }
+    }
+    .b-modal {
+        background: $white;
+        position: fixed;
+        width: 50%;
+        top: 12vh;
+        left: 50%;
+        margin: 0 0 0 -25%;
+
+        /* Embiggen */
+        transform: scale(1.5); /* prefix me */
+
+        /* Hidden */
+        opacity: 0;
+        pointer-events: none;
+        box-shadow: 0 0 10px $gray-50;
+
+        padding: 30px 45px;
+        @include transition;
+        z-index: 11;
+
+        .e-content {
+            max-height: 70vh;
+            overflow-y: scroll;
+
+            :first-child { margin-top: 0; }
+
+            h2 { font-size: 20px; }
+            h3 { font-size: 18px; }
+            h4 { font-size: 16px; }
+        }
+
+        .b-button:hover i.material-icons {
+            left: initial;
+            padding: initial;
+        }
+    }
+
+    .b-modal.m-active {
+
+      /* Regular size and visible */
+      transform: scale(1); /* prefix me */
+      opacity: 1;
+      @include transition;
+
+      /* Clickable */
+      pointer-events: auto;
+
+  }
 }
