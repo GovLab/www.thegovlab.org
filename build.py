@@ -27,6 +27,7 @@ _EVENTS = path.join(_DATAPATH, 'events.yaml')
 _PROJECTS = path.join(_DATAPATH, 'projects.yaml')
 _TEAM = path.join(_DATAPATH, 'team.yaml')
 _FUNDERS = path.join(_DATAPATH, 'funders.yaml')
+_SMARTER_STATE_STUDIES = path.join(_DATAPATH, 'smarter-state-studies.yaml')
 
 _SLUG = lambda x: slugify(unicode(unidecode(unicode(x).lower())) if x else u'')
 
@@ -89,6 +90,7 @@ class ReloadingContext(FileSystemEventHandler):
         dic['projects'] = load(open(_PROJECTS))
         dic['team'] = load(open(_TEAM))
         dic['funders'] = load(open(_FUNDERS))
+        dic['studies'] = load(open(_SMARTER_STATE_STUDIES))
         dic['events_slider_counter'] = 0
         dic['projects_slider_counter'] = 0
 

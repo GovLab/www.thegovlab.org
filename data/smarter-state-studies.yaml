@@ -1,0 +1,106 @@
+- title: 'Department of Defense: Aristotle' #will generate slug from this attr
+  owner: The Department of Defense
+  creator: Air Force Research Laboratory (AFRL)
+  sector: Defense
+  audience: Employees of the Department of Defense
+  problem: Making human expertise searchable
+  summary: >
+    Aristotle was a Department of Defense directory of employee expertise that lists people’s credentials and experience, making it fast and easy to discover who knows and who has done what
+  platform: >
+    The Aristotle application was hosted on a Unix based operating system with an Apache web server to link to the Aristotle database.
+  design: >
+    Pre-populated profiles that could be edited and augmented. Search for expertise based on people, projects, and topics as well as associated document search.
+  is_featured: 0 #integer
+  is_active: True
+  project_website:
+  team:
+    - name: Dr. Alok Das
+      position: 'Senior Scientist for Innovation Design and Rapid Response Team Lead, AFRL'
+      email: 'alok.das@us.af.mil'
+  tooltip: Smarter State Case Study
+  tags:
+    -
+  download: study.pdf
+  status: test # define, prototype, test, complete
+
+# ==========================================================================================================================================================================================================================================#
+
+- title: 'Test 2' #will generate slug from this attr
+  owner: The Department of Defense
+  creator: Air Force Research Laboratory (AFRL)
+  sector: Defense
+  audience: Employees of the Department of Defense
+  problem: Making human expertise searchable
+  summary: >
+    Aristotle was a Department of Defense directory of employee expertise that lists people’s credentials and experience, making it fast and easy to discover who knows and who has done what
+  platform: >
+    The Aristotle application was hosted on a Unix based operating system with an Apache web server to link to the Aristotle database.
+  design: >
+    Pre-populated profiles that could be edited and augmented. Search for expertise based on people, projects, and topics as well as associated document search.
+  is_featured: 0 #integer
+  is_active: True
+  project_website:
+  team:
+    - name: Dr. Alok Das
+      position: 'Senior Scientist for Innovation Design and Rapid Response Team Lead, AFRL'
+      email: 'alok.das@us.af.mil'
+  tooltip: Smarter State Case Study
+  tags:
+    -
+  download: study.pdf
+  status: test # define, prototype, test, complete
+
+# ==========================================================================================================================================================================================================================================#
+
+- title: 'Test 3' #will generate slug from this attr
+  owner: The Department of Defense
+  creator: Air Force Research Laboratory (AFRL)
+  sector: Defense
+  audience: Employees of the Department of Defense
+  problem: Making human expertise searchable
+  summary: >
+    Aristotle was a Department of Defense directory of employee expertise that lists people’s credentials and experience, making it fast and easy to discover who knows and who has done what
+  platform: >
+    The Aristotle application was hosted on a Unix based operating system with an Apache web server to link to the Aristotle database.
+  design: >
+    Pre-populated profiles that could be edited and augmented. Search for expertise based on people, projects, and topics as well as associated document search.
+  is_featured: 0 #integer
+  is_active: True
+  project_website:
+  team:
+    - name: Dr. Alok Das
+      position: 'Senior Scientist for Innovation Design and Rapid Response Team Lead, AFRL'
+      email: 'alok.das@us.af.mil'
+  tooltip: Smarter State Case Study
+  tags:
+    -
+  status: test # define, prototype, test, complete
+
+# ==========================================================================================================================================================================================================================================#
+
+- title: 'Test 4' #will generate slug from this attr
+  owner: The Department of Defense
+  creator: Air Force Research Laboratory (AFRL)
+  sector: Defense
+  audience: Employees of the Department of Defense
+  problem: Making human expertise searchable
+  summary: >
+    Aristotle was a Department of Defense directory of employee expertise that lists people’s credentials and experience, making it fast and easy to discover who knows and who has done what
+  platform: >
+    The Aristotle application was hosted on a Unix based operating system with an Apache web server to link to the Aristotle database.
+  design: >
+    Pre-populated profiles that could be edited and augmented. Search for expertise based on people, projects, and topics as well as associated document search.
+  is_featured: 0 #integer
+  is_active: True
+  project_website:
+  team:
+    - name: Dr. Alok Das
+      position: 'Senior Scientist for Innovation Design and Rapid Response Team Lead, AFRL'
+      email: 'alok.das@us.af.mil'
+  tooltip: Smarter State Case Study
+  tags:
+    -
+  download: study.pdf
+  status: test # define, prototype, test, complete
+
+# ==========================================================================================================================================================================================================================================#
