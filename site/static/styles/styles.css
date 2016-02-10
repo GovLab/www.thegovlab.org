@@ -258,6 +258,9 @@ button:focus {
       background-color: rgba(0, 0, 0, 0.2);
       margin-left: 0;
       transition: all .4s ease; }
+  .b-button.m-icon-only i {
+    margin-left: 0;
+    float: none; }
 
 .b-button.m-purple {
   background-color: #523080;
@@ -1453,19 +1456,66 @@ button:focus {
   pointer-events: none;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   padding: 30px 45px;
-  transition: all .4s ease;
-  z-index: 11; }
+  z-index: 11;
+  transition: all .4s ease; }
+  #smarter-state-case-studies .b-modal .e-details {
+    display: block; }
+  @media (min-width: 1025px) {
+    #smarter-state-case-studies .b-modal .e-buttons > :nth-child(2) {
+      display: none; } }
+  @media (max-width: 800px) {
+    #smarter-state-case-studies .b-modal {
+      width: 100%;
+      top: initial;
+      left: 0;
+      bottom: 0;
+      margin: 0; }
+      #smarter-state-case-studies .b-modal .e-details {
+        display: none; }
+      #smarter-state-case-studies .b-modal .e-buttons > :first-child {
+        display: none; }
+      #smarter-state-case-studies .b-modal .e-buttons > :nth-child(2) {
+        display: inline;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        background-color: transparent; } }
   #smarter-state-case-studies .b-modal .e-content {
     max-height: 70vh;
     overflow-y: scroll; }
     #smarter-state-case-studies .b-modal .e-content :first-child {
       margin-top: 0; }
     #smarter-state-case-studies .b-modal .e-content h2 {
-      font-size: 20px; }
+      font-size: 20px;
+      max-width: 90%; }
+      #smarter-state-case-studies .b-modal .e-content h2 i {
+        display: block;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        position: absolute;
+        right: 25px;
+        top: 25px;
+        padding: 10px 0 0 10px;
+        font-size: 30px; }
+        #smarter-state-case-studies .b-modal .e-content h2 i.m-gray {
+          background-color: rgba(0, 0, 0, 0.2);
+          color: white; }
+        @media (max-width: 800px) {
+          #smarter-state-case-studies .b-modal .e-content h2 i {
+            display: none; } }
     #smarter-state-case-studies .b-modal .e-content h3 {
-      font-size: 18px; }
+      font-size: 18px;
+      margin-bottom: 0; }
+      #smarter-state-case-studies .b-modal .e-content h3 + p {
+        margin-top: 0; }
     #smarter-state-case-studies .b-modal .e-content h4 {
       font-size: 16px; }
+    #smarter-state-case-studies .b-modal .e-content .m-sm {
+      font-size: 0.85em; }
+    #smarter-state-case-studies .b-modal .e-content .m-center {
+      text-align: center; }
   #smarter-state-case-studies .b-modal .b-button:hover i.material-icons {
     left: initial;
     padding: initial; }
