@@ -118,7 +118,7 @@
     -
   download: 'static/files/smarterstate/saopaulo.pdf'
   status:
-  icon: explore
+  icon: group_work
   category: collaboration # talent_bank, collaboration, projects
 
 # ==========================================================================================================================================================================================================================================#
