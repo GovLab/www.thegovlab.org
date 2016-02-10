@@ -30,7 +30,7 @@
                 <div class="e-project-group">
                     {% for study in studies %}
 
-                    {{ item(study.title, study.problem, study.is_active, study.tooltip) }}
+                    {{ item(study.title, study.subtitle, study.is_active, study.tooltip) }}
 
                     {% endfor %}
                 </div>
@@ -41,14 +41,17 @@
     {% for study in studies %}
     <div class="b-modal" id="modal-{{study.title | slug}}">
         <div class="e-content">
-            <h2>{{study.title}}</h2>
-            <p>{{study.summary}}</p>
-<!--             <h3>Platform</h3>
-            <p>{{study.platform}}</p>
-            <h3>Design Basics</h3>
-            <p>{{study.design}}</p> -->
-            <p>
-                <a class="b-button js-close-modal m-dark" href="#">Close</a>
+            <h2>{{study.title}}<i class="material-icons m-gray">{{study.icon}}</i></h2>
+            <p>{{study.summary | truncate(250)}}</p>
+            <div class="e-details m-sm">
+                <h3>Problem</h3>
+                <p>{{study.problem | truncate(250)}}</p>
+                <h3>Design</h3>
+                <p>{{study.design | truncate(250)}}</p>
+            </div>
+            <p class="e-buttons">
+                <a class="b-button js-close-modal m-dark m-icon-only" href="#">Close</a>
+                <a class="b-button js-close-modal m-naked m-icon-only" href="#"><i class="material-icons">close</i></a>
                 <a class="b-button m-purple" href="{{study.download}}">Download PDF<i class="material-icons">file_download</i></a>
             </p>
         </div>
