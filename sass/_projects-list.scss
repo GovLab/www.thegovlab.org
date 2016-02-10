@@ -306,6 +306,16 @@
 }
 
 #smarter-state-case-studies {
+    .b-project-view.m-grid .b-projects-list-wrapper {
+
+        .e-project-item {
+            @include breakpoint($desktop) {
+                width: calc(25% - 34px);
+                padding-bottom: calc(25% - 34px);
+            }
+        }
+    }
+
     .b-project-view .b-projects-list-wrapper {
         .e-project-question {
             text-transform: uppercase;
@@ -320,12 +330,6 @@
                 font-size: 1.5em;
                 margin-right: 20px;
                 padding: 5px;
-            }
-        }
-        .e-project-item {
-            @include breakpoint($desktop) {
-                width: calc(25% - 34px);
-                padding-bottom: calc(25% - 34px);
             }
         }
     }
