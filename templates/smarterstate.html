@@ -26,12 +26,36 @@
     <div class="b-project-view m-grid">
         <section class="b-projects-list-wrapper m-data">
             <div class="e-project-list">
-                <h3 class="e-project-question">All Case Studies</h3>
+                <h3 class="e-project-question">Talent Bank</h3>
                 <div class="e-project-group">
                     {% for study in studies %}
-
+                    {% if study.category is equalto 'talent_bank' %}
                     {{ item(study.title, study.subtitle, study.is_active, study.tooltip) }}
-
+                    {% endif %}
+                    {% endfor %}
+                </div>
+                <h3 class="e-project-question">Collaboration</h3>
+                <div class="e-project-group">
+                    {% for study in studies %}
+                    {% if study.category is equalto 'collaboration' %}
+                    {{ item(study.title, study.subtitle, study.is_active, study.tooltip) }}
+                    {% endif %}
+                    {% endfor %}
+                </div>
+                <h3 class="e-project-question">Projects</h3>
+                <div class="e-project-group">
+                    {% for study in studies %}
+                    {% if study.category is equalto 'projects' %}
+                    {{ item(study.title, study.subtitle, study.is_active, study.tooltip) }}
+                    {% endif %}
+                    {% endfor %}
+                </div>
+                <h3 class="e-project-question">Toolkits</h3>
+                <div class="e-project-group">
+                    {% for study in studies %}
+                    {% if study.category is equalto 'toolkits' %}
+                    {{ item(study.title, study.subtitle, study.is_active, study.tooltip) }}
+                    {% endif %}
                     {% endfor %}
                 </div>
             </div>
