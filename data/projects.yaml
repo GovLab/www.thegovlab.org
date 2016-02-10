@@ -1121,6 +1121,49 @@
     - name: "New Project: Open Data Impact Studies"
       url: http://thegovlab.org/open-data-impact-studies/
 
+# ==========================================================================================================================================================================================================================================#
+
+
+- title: Smarter State Case Studies #will generate slug from this attr
+  type: 'Data' # Data, Collective Intelligence or Design Thinking
+  is_featured: 1 #integer
+  is_active: True
+  related_question: 4 #question
+  project_website: http://www.thegovlab.org/smarterstate.html #url
+  location:
+    - Global
+  partners:
+    -
+  team:
+    - Beth Simone Noveck
+  tags:
+    governance_area:
+        - Regional Governance
+        - National Governance
+    type_of_institution:
+        - Public Sector
+    innovative_capability:
+        - Collective Intelligence
+        - Crowdsourcing
+        - Expert Networks
+    product_category:
+        - Case Studies
+  status: prototype # define, prototype, test, complete
+  problem_statement: How could public decision-making improve if institutions knew how to leverage citizens’ and civil servants’ expertise? #question
+  short_description: >
+    <p>A GovLab initiative to design and test how public decision-making could improve if institutions knew how to leverage citizens’ and civil servants’ expertise.</p>
+  tooltip: >
+    <p></p>
+  long_description: >
+    <p>New tools—what GovLab calls technologies of expertise— are making it possible to match the supply of citizen expertise to the demand for it in government. Smarter State is a GovLab initiative to design and test how public decision-making could improve if institutions knew how to use the technologies of expertise to tap the wisdom of citizens’ and civil servants.</p>
+  background: >
+    <p>Government “of the people, by the people, for the people” expresses an ideal that resonates in all democracies. Yet poll after poll reveals deep distrust of institutions that seem to have left “the people” out of the equation. Government bureaucracies that are supposed to solve critical problems on their own are a troublesome outgrowth of the professionalization of public life in the industrial age. They are especially ill-suited to confronting today’s complex challenges. Offering a far-reaching program for innovation, the book Smart Citizens, Smarter State by Beth Simone Noveck suggests that public decision-making could be more effective and legitimate if our institutions knew how to use technology to leverage citizens’ expertise.
+    </p><p>Drawing on a wide range of disciplines and practical examples from her work as an adviser to governments on innovation, Noveck explores how to create more open and collaborative institutions. She puts forward a profound new vision for participatory democracy rooted not in the paltry act of occasional voting or the serendipity of crowdsourcing, but in people’s knowledge and know-how.</p>
+  social_media: #in the future we can have custom shareable messages for each project
+  images: #images or screenshots of the project
+  results:
+  related_articles:
+
 
 # ==========================================================================================================================================================================================================================================#
 
