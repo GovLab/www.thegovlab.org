@@ -37,16 +37,22 @@
             background-color: $gray-20;
             margin-left: 0;
             @include transition;
-        }    
+        }
     }
+
+    &.m-icon-only i {
+        margin-left: 0;
+        float: none;
+    }
+
 }
 
-.b-button.m-purple { 
+.b-button.m-purple {
     background-color: $purple;
     color: $white;
 }
 
-.b-button.m-dark { 
+.b-button.m-dark {
     background-color: $gray-40;
     color: $white;
 }
