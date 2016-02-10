@@ -307,6 +307,21 @@
 
 #smarter-state-case-studies {
     .b-project-view.m-grid .b-projects-list-wrapper {
+        .e-project-question {
+            text-transform: uppercase;
+            font-weight: 800;
+            padding-top: 10px;
+            i.material-icons {
+                position: relative;
+                top: 5px;
+                color: $white-50;
+                background-color: $white-20;
+                border-radius: 50%;
+                font-size: 1.5em;
+                margin-right: 20px;
+                padding: 5px;
+            }
+        }
         .e-project-item {
             @include breakpoint($desktop) {
                 width: calc(25% - 34px);
