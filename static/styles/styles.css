@@ -1437,6 +1437,10 @@ button:focus {
     right: calc(18%);
     left: auto; } }
 
+@media (min-width: 1025px) {
+  #smarter-state-case-studies .b-project-view.m-grid .b-projects-list-wrapper .e-project-item {
+    width: calc(25% - 34px);
+    padding-bottom: calc(25% - 34px); } }
 #smarter-state-case-studies .b-project-view .b-projects-list-wrapper .e-project-question {
   text-transform: uppercase;
   font-weight: 800;
@@ -1450,10 +1454,6 @@ button:focus {
     font-size: 1.5em;
     margin-right: 20px;
     padding: 5px; }
-@media (min-width: 1025px) {
-  #smarter-state-case-studies .b-project-view .b-projects-list-wrapper .e-project-item {
-    width: calc(25% - 34px);
-    padding-bottom: calc(25% - 34px); } }
 #smarter-state-case-studies .b-modal {
   background: white;
   position: fixed;
