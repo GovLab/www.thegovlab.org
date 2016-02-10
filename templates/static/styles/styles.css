@@ -1437,6 +1437,19 @@ button:focus {
     right: calc(18%);
     left: auto; } }
 
+#smarter-state-case-studies .b-project-view.m-grid .b-projects-list-wrapper .e-project-question {
+  text-transform: uppercase;
+  font-weight: 800;
+  padding-top: 10px; }
+  #smarter-state-case-studies .b-project-view.m-grid .b-projects-list-wrapper .e-project-question i.material-icons {
+    position: relative;
+    top: 5px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    font-size: 1.5em;
+    margin-right: 20px;
+    padding: 5px; }
 @media (min-width: 1025px) {
   #smarter-state-case-studies .b-project-view.m-grid .b-projects-list-wrapper .e-project-item {
     width: calc(25% - 34px);
