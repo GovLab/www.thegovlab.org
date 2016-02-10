@@ -1,4 +1,5 @@
 - title: 'Department of Defense: Aristotle' #will generate slug from this attr
+  subtitle: 'Making Skills and Know How More Searchable at the Department of Defense'
   owner: The Department of Defense
   creator: Air Force Research Laboratory (AFRL)
   sector: Defense
@@ -20,87 +21,284 @@
   tooltip: Smarter State Case Study
   tags:
     -
-  download: study.pdf
-  status: test # define, prototype, test, complete
+  download: 'static/files/smarterstate/aristotle.pdf'
+  status: # define, prototype, test, complete
+  icon: search
 
 # ==========================================================================================================================================================================================================================================#
 
-- title: 'Test 2' #will generate slug from this attr
-  owner: The Department of Defense
-  creator: Air Force Research Laboratory (AFRL)
-  sector: Defense
-  audience: Employees of the Department of Defense
-  problem: Making human expertise searchable
+- title: 'ENVIRONMENTAL PROTECTION AGENCY: ONE EPA SKILLS MARKETPLACE'
+  subtitle: 'This Program Helps Civil Servants Break Out of Silos and Create Project Teams across the Agency.'
+  owner: 'The Environmental Protection Agency, Administrator’s Office'
+  creator:
+  sector: Environmental
+  audience: All civil servants in the department
+  problem: Overcoming programmatic and geographical silos and furthering employee development in a more nimble way.
   summary: >
-    Aristotle was a Department of Defense directory of employee expertise that lists people’s credentials and experience, making it fast and easy to discover who knows and who has done what
+    A project marketplace to encourage cross-agency staffing
   platform: >
-    The Aristotle application was hosted on a Unix based operating system with an Apache web server to link to the Aristotle database.
+    Microsoft SharePoint
   design: >
-    Pre-populated profiles that could be edited and augmented. Search for expertise based on people, projects, and topics as well as associated document search.
+    Managers post projects. Employees create profiles and then apply to work on projects with permission from their supervisor. The selection process is decided by the project owner based on the project requirements. Communication between project owners and selected applicants for discussions, maintaining project documents, plans etc is encouraged through the use of collaboration sites on the SharePoint platform.
   is_featured: 0 #integer
   is_active: True
   project_website:
   team:
-    - name: Dr. Alok Das
-      position: 'Senior Scientist for Innovation Design and Rapid Response Team Lead, AFRL'
-      email: 'alok.das@us.af.mil'
+    - name: Noha Gaber
+      position: 'Director, Office of Internal Communications, Administrator’s Office, USEPA'
+      email: 'gaber.noha@epa.gov'
   tooltip: Smarter State Case Study
   tags:
     -
-  download: study.pdf
-  status: test # define, prototype, test, complete
+  download: 'static/files/smarterstate/epa.pdf'
+  status:
+  icon: explore
 
 # ==========================================================================================================================================================================================================================================#
 
-- title: 'Test 3' #will generate slug from this attr
-  owner: The Department of Defense
-  creator: Air Force Research Laboratory (AFRL)
-  sector: Defense
-  audience: Employees of the Department of Defense
-  problem: Making human expertise searchable
+- title: 'HEALTH AND HUMAN SERVICES: HHS PROFILES'
+  subtitle: 'Using Expert Networking to Improve Safety and Efficiency of Medical Device Review'
+  owner: 'Center for Devices and Radiological Health, Food and Drug Administration, Department of Health and Human Services'
+  creator:
+  sector: Health
+  audience: Employees of the Department of Health and Human Services
+  problem: >
+    It is diffcult to quickly convene a qualified group of reviewers for the diversity of new medical devices coming to market.
   summary: >
-    Aristotle was a Department of Defense directory of employee expertise that lists people’s credentials and experience, making it fast and easy to discover who knows and who has done what
+    An expert network for the regulatory review of medical devices
   platform: >
-    The Aristotle application was hosted on a Unix based operating system with an Apache web server to link to the Aristotle database.
+    Customized version of Harvard Catalyst Profiles
   design: >
-    Pre-populated profiles that could be edited and augmented. Search for expertise based on people, projects, and topics as well as associated document search.
+    Employees create profiles drawing from a number of data sources describing their skills and experiences. Representatives of the Office for Device Evaluation (ODE) use those expertise profiles to identify the most qualified individuals to participate in the regulatory review of a given medical device.
   is_featured: 0 #integer
   is_active: True
   project_website:
   team:
-    - name: Dr. Alok Das
-      position: 'Senior Scientist for Innovation Design and Rapid Response Team Lead, AFRL'
-      email: 'alok.das@us.af.mil'
+    - name: 'Jessica N. Hernandez, MA, MS'
+      position: 'Team Leader, Innovation and Technology Solutions (ITS), Center for Devices and Radiological Health, U.S. Food and Drug Administration'
+      email: 'Jessica.Hernandez@fda.hhs.gov'
+    - name: 'Nichole Rosamilia'
+      position: 'Technical Information Specialist, Center for Devices and Radiological Health, U.S. Food and Drug Administration'
+      email: 'Nichole.Rosamilia@fda.hhs.gov'
   tooltip: Smarter State Case Study
   tags:
     -
-  status: test # define, prototype, test, complete
+  download: 'static/files/smarterstate/HHS.pdf'
+  status:
+  icon: search
 
 # ==========================================================================================================================================================================================================================================#
 
-- title: 'Test 4' #will generate slug from this attr
-  owner: The Department of Defense
-  creator: Air Force Research Laboratory (AFRL)
-  sector: Defense
-  audience: Employees of the Department of Defense
-  problem: Making human expertise searchable
+- title: 'CITY OF SÃO PAULO: AGENTS OF OPEN GOVERNMENT'
+  subtitle: 'Brazil’s largest city is embarking on a massive experiment to have citizens educate its public employees.'
+  owner: Open Government Committee of the City of São Paulo City
+  creator:
+  sector: Open Government
+  audience: 'Government employees, elected community representatives, social activists and the general population'
+  problem: >
+    Government doesn’t possess all the knowledge it needs to solve public problems.
   summary: >
-    Aristotle was a Department of Defense directory of employee expertise that lists people’s credentials and experience, making it fast and easy to discover who knows and who has done what
+    Open government training provided by citizen teachers
   platform: >
-    The Aristotle application was hosted on a Unix based operating system with an Apache web server to link to the Aristotle database.
+    Courses are done in person. Sign up can be done online on the City’s website or in person.
   design: >
-    Pre-populated profiles that could be edited and augmented. Search for expertise based on people, projects, and topics as well as associated document search.
+    Citizen trainers commit to offering the course 10 hours per month for six months for 40 people per class. The city provides physical spaces and a stipend for teachers. Training is offered in four subject areas.
   is_featured: 0 #integer
   is_active: True
   project_website:
   team:
-    - name: Dr. Alok Das
-      position: 'Senior Scientist for Innovation Design and Rapid Response Team Lead, AFRL'
-      email: 'alok.das@us.af.mil'
+    - name: Gustavo Vidigal
+      position: 'Adjunct Secretary of International and Federal Relations - City of São Paulo'
+      email: 'gustavovidigal@prefeitura.sp.gov.br'
   tooltip: Smarter State Case Study
   tags:
     -
-  download: study.pdf
-  status: test # define, prototype, test, complete
+  download: 'static/files/smarterstate/saopaulo.pdf'
+  status:
+  icon: explore
+
+# ==========================================================================================================================================================================================================================================#
+
+
+- title: 'THE WORLD BANK: SKILLFINDER'
+  subtitle: 'This Expert Network Accelerates The Search For Talent'
+  owner: 'World Bank, World Bank Group Information and Technology Solutions'
+  creator:
+  sector: Intergovernmental Organization
+  audience: 'Employees, consultants, and alumni of the World Bank'
+  problem: >
+    It is diffcult to identify and leverage expertise in a globally decentralized organization with hierarchical titles thereby increasing transaction costs to deploy talent in service of client needs.
+  summary: >
+    An expert and talent network in an international development organization
+  platform: >
+    WebSphere
+  design: >
+    SkillFinder allows you to search for people within the World Bank Group using different criteria such as geography, specializations, projects and products. Personal expertise profiles are built with data from the user, from institutional records and endorsements.
+  is_featured: 0 #integer
+  is_active: True
+  project_website:
+  team:
+  tooltip: Smarter State Case Study
+  tags:
+    -
+  download: 'static/files/smarterstate/skillfinder.pdf'
+  status:
+  icon: search
+
+# ==========================================================================================================================================================================================================================================#
+
+
+- title: 'OFFICE OF MANAGEMENT AND BUDGET: MAX.GOV'
+  subtitle: 'The governmentwide collaboration site whose robust authentication system enables working and sharing knowledge across agency boundaries'
+  owner: 'Office of Budget and Management'
+  creator:
+  sector: Intergovernmental Organization
+  audience: 'Federal employees and staff and federal contractors.'
+  problem: >
+    Absence of a secure space for collaboration among and between federal agencies.
+  summary: >
+    MAX provides a broad palette of tools for finding and working with potential collaborators.
+  platform: >
+    MAX is a web service maintained by OMB and the Budget Formulation and Execution Line of Business.
+  design: >
+    MAX authenticates users and gives them access to its web services, which include a number of tools for working together.
+  is_featured: 0 #integer
+  is_active: True
+  project_website:
+  team:
+    - name: 'Phil Wenger'
+      position: 'Office of Budget and Management'
+      email: 'maxsupport@omb.eop.gov'
+  tooltip: Smarter State Case Study
+  tags:
+    -
+  download: 'static/files/smarterstate/MAX.pdf'
+  status:
+  icon: group_work
+
+# ==========================================================================================================================================================================================================================================#
+
+
+- title: 'NOVAGOB'
+  subtitle: 'Creating a community of Spanish speaking public employees across national and institutional borders'
+  owner: 'Novagob'
+  creator:
+  sector: Public Administration
+  audience: 'Public employees at all levels of government in spanish speaking countries, academics, consultants, students and others interested in public sector improvement.'
+  problem: >
+    It is time consuming and difficult to connect with professionals in the public sector across national and institutional borders.
+  summary: >
+    A social network for Spanish speaking public sector professionals.
+  platform: >
+    Open source software Elgg
+  design: >
+    The platform’s structure aims to build community with several features: Professional profiles, groups, debates, blogs, calendar of events, wikis and tweet streams.
+  is_featured: 0 #integer
+  is_active: True
+  project_website:
+  team:
+    - name: 'J. Ignacio Criado'
+      position: 'Vice-dean of Research & Innovation Faculty of Law, Universidad Autónoma de Madrid'
+      email: 'ignacio.criado@uam.es'
+  tooltip: Smarter State Case Study
+  tags:
+    -
+  download: 'static/files/smarterstate/novagob.pdf'
+  status:
+  icon: group_work
+
+# ==========================================================================================================================================================================================================================================#
+
+
+- title: 'MAYOR’S OFFICE OF NEW YORK: VOLUNTEER LANGUAGE BANK'
+  subtitle: 'This expert network is matching the supply of multilingual civil servants to the demand for translation services'
+  owner: 'Citywide Language Access Initiative, Mayor’s Office of Immigrant Affairs, New York City'
+  creator:
+  sector:
+  audience: 'Civil servants that know a second language, matched up with civil servants who need translation or interpretation.'
+  problem: >
+    Providing translation and interpretation services on a large scale. 25% of New Yorkers are not proficient in English (1.8 M), which creates an important barrier for communicating effectively about City services. Executive Order 120 instructs its agencies that are public facing to make sure language is not a barrier to access services.
+  summary: >
+    The Volunteer Language Bank tapped the language skills of city employees to provide fast response to the needs of agencies serving residents in 70 languages.
+  platform: >
+    The Language Bank is hosted on the City’s intranet. The database was created in-house by an application developer at the Mayor’s MIS unit.
+  design: >
+    The tool allows agencies to ask for interpretation or translation assistance in a specific language; post a document for translation; or leave information about the situation that needs to be interpreted. Volunteers sign up online after they obtain permission from their supervisors.
+  is_featured: 0 #integer
+  is_active: True
+  project_website:
+  team:
+    - name: 'Azadeh Khalili'
+      position: "Executive Director Citywide Language Access Initiatives Mayor's Office of Immigrant Affairs"
+      email: 'AKhalili@moia.nyc.gov'
+  tooltip: Smarter State Case Study
+  tags:
+    -
+  download: 'static/files/smarterstate/NYC-volunteer-bank.pdf'
+  status:
+  icon: search
+
+# ==========================================================================================================================================================================================================================================#
+
+
+- title: 'OECD: Observatory for Public Sector Innovation'
+  subtitle: 'This Library Connects Distributed Innovators to Information and to One Another'
+  owner: 'The Observatory for Public Sector Innovation'
+  creator:
+  sector: Intergovernmental Organization
+  audience: 'Innovators within, across and outside OECD member governments.'
+  problem: >
+    The lack of a one-stop place for learning about public sector innovation initiatives and from public sector innovators.
+  summary: >
+    A place for sharing, discussing and co-creating solutions that work.
+  platform: >
+    Online library and toolkit.
+  design: >
+    Innovations are searchable across level of government, sector, stage of innovation, region, and other criteria. Each innovation page has tabs showing the project description, results, development and lessons learned. Users can compare innovations from different contexts against one another based on a number of criteria. Users can submit their own innovations and share knowledge through a collaboration forum.
+  is_featured: 0 #integer
+  is_active: True
+  project_website:
+  team:
+    - name: 'Edwin Lau'
+      position: "Head of Division for Reform of the Public Sector Directorate for Public Governance and Territorial Development Organization for Economic Coordination and Development"
+      email: 'opsi@oecd.org'
+  tooltip: Smarter State Case Study
+  tags:
+    -
+  download: 'static/files/smarterstate/OPSI.pdf'
+  status:
+  icon: content_paste
+
+# ==========================================================================================================================================================================================================================================#
+
+
+
+- title: 'TORFAEN COUNTY BOROUGH COUNCIL: WISDOM BANK TORFAEN'
+  subtitle: 'This neighbor-helping-neighbor expert network attempts to replace the “pub conversation”'
+  owner: 'Torfaen Local Service Board (LSB)'
+  creator:
+  sector: County Government
+  audience: 'All citizens of the Borough of Torfaen, Wales.'
+  problem: >
+    Local individuals possess knowledge and experience that is useful to other residents but hard to target.
+  summary: >
+    A local expert and social network to connect citizens and allow them to share wisdom and use their experience to solve problems facing other members of the community.
+  platform: >
+    Online library and toolkit
+  design: >
+    Simple email based sign up. Citizens can ask questions or request advice, answer questions or post content such as videos for the benefit of other users. It allows for one-to-one conversation between users if they need it.
+  is_featured: 0 #integer
+  is_active: True
+  project_website:
+  team:
+    - name: 'Gareth Philips'
+      position: "Digital Transformation Manager"
+      email: 'garethj.phillips@torfaen.gov.uk'
+  tooltip: Smarter State Case Study
+  tags:
+    -
+  download: 'static/files/smarterstate/torfaen.pdf'
+  status:
+  icon: search
 
 # ==========================================================================================================================================================================================================================================#
