@@ -1437,6 +1437,14 @@ button:focus {
     right: calc(18%);
     left: auto; } }
 
+#smarter-state-case-studies .b-download {
+  text-align: center;
+  margin: 40px 0 20px 0; }
+#smarter-state-case-studies .b-button.m-no-anim:hover {
+  margin-left: -10px; }
+  #smarter-state-case-studies .b-button.m-no-anim:hover i.material-icons {
+    left: initial;
+    padding: initial; }
 @media (min-width: 1025px) {
   #smarter-state-case-studies .b-project-view.m-grid .b-projects-list-wrapper .e-project-item {
     width: calc(25% - 34px);
