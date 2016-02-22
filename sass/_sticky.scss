@@ -24,7 +24,7 @@
 
                 &:after { content: ':'; }
 
-                @include breakpoint($mobile-only) { 
+                @include breakpoint($mobile-only) {
                     display: block;
                     font-size: 16px;
 
@@ -47,7 +47,19 @@
             opacity: .6;
             cursor: pointer;
 
-            &:hover { opacity: 1; }   
+            &:hover { opacity: 1; }
+        }
+    }
+
+    &.m-gray {
+        background-color: $gray-80;
+    }
+    .e-book {
+        margin: 20px 0;
+        img {
+            margin-right: 40px;
+            max-height: 150px;
+            float: left;
         }
     }
 }

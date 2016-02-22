@@ -11,9 +11,17 @@ body {
 a {
     text-decoration: none;
     color: $purple;
+    &.m-white {
+      color: $white-70;
+      @include transition;
+      &:hover {
+        color: $white;
+        @include transition;
+      }
+    }
 }
 
-input[type="text"] { 
+input[type="text"] {
     border: 0;
     color: $white;
     background-color: $white-10;
@@ -57,5 +65,5 @@ button:focus {
   display: none;
   // background-color: green;
 
-  &.m-active { display: block; } 
+  &.m-active { display: block; }
 }
