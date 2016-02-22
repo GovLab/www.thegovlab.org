@@ -306,6 +306,20 @@
 }
 
 #smarter-state-case-studies {
+    .b-download {
+        text-align: center;
+        margin: 40px 0 20px 0;
+    }
+
+    .b-button.m-no-anim:hover {
+        margin-left: -10px;
+
+        i.material-icons {
+            left: initial;
+            padding: initial;
+        }
+    }
+
     .b-project-view.m-grid .b-projects-list-wrapper {
 
         .e-project-item {
