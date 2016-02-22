@@ -182,6 +182,12 @@ body {
 a {
   text-decoration: none;
   color: #523080; }
+  a.m-white {
+    color: rgba(255, 255, 255, 0.7);
+    transition: all .4s ease; }
+    a.m-white:hover {
+      color: white;
+      transition: all .4s ease; }
 
 input[type="text"] {
   border: 0;
@@ -698,6 +704,14 @@ button:focus {
       cursor: pointer; }
       .b-sticky .e-wrap .e-close:hover {
         opacity: 1; }
+  .b-sticky.m-gray {
+    background-color: rgba(0, 0, 0, 0.8); }
+  .b-sticky .e-book {
+    margin: 20px 0; }
+    .b-sticky .e-book img {
+      margin-right: 40px;
+      max-height: 150px;
+      float: left; }
 
 .b-footer {
   background-color: rgba(0, 0, 0, 0.8);
