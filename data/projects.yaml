@@ -1078,6 +1078,7 @@
     <p>Grantmaking plays a vital role in helping our government, our researchers, and our communities confront 21st-century challenges. Yet we still have a decidedly 20th-century system in place for deciding how we make these billions of dollars of crucial investments. In order to make the most of limited funding — and to help build confidence in the ability of public investments to make a positive difference — it is essential for our government agencies to try more strategic approaches to designing, awarding, and measuring their grantmaking.</p>
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
+    - open-grantmaking.jpg 
   results:
   related_articles:
     - name: "The Innovation the Grantmaking Process Needs"
