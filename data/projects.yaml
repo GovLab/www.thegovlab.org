@@ -826,7 +826,7 @@
     - Stanford University
   team:
     - Beth Simone Noveck
-    - Andrew Young
+    # - Andrew Miller
   tags:
     governance_area:
         - Public Sector
@@ -1042,35 +1042,60 @@
 - title: Open Grantmaking #will generate slug from this attr
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 1 #integer
-  is_active: False
+  is_active: True
   related_question: 3
-  project_website: https://docs.google.com/a/thegovlab.org/document/d/1A4ZFHxxIoRNvWg4m6C_wnIfvyA4ftNo-Mmt5bD4XtEs/edit?usp=sharing
+  project_website: https://medium.com/open-grantmaking-innovations
   location:
     - United States
-  partners:
+  partners: 
+    - GrantCraft, a service of Foundation Center
   team:
-    - Beth Noveck
-    # - Andrew Miller
+    - Beth Simone Noveck
+    - Andrew Young
   tags:
     governance_area:
-        - #tag
+        - national governance
+        - regional governance
     type_of_institution:
-        - #tag
+        - public Sector
+        - nonprofit
     innovative_capability:
-        - #tag
+        - open data
+        - expert networking
+        - collective intelligence
+        - crowdsourcing
+        - prizes and challenges
+
     product_category:
-        - #tag
-  status: # define, prototype, test, complete
+        - publication
+  status: test # define, prototype, test, complete
   problem_statement: Improving the Effectiveness and Legitimacy of Government Grant Funding #question
   short_description: >
-    <p>In an effort to safeguard the legitimacy and fairness of the grantmaking process, public funding agencies have traditionally done grantmaking behind closed doors. Whether to states or individuals, introducing greater openness at all stages of the grantmaking process has the potential to spur more creative problem-solving strategies and, ultimately, more effective outcomes because open processes enable greater diversity of expertise to be brought to bear.</p>
+    <p>In collaboration with GrantCraft, a service of Foundation Center, The GovLab is exploring how new innovations can increase the openness and effectiveness of grantmaking. In a number of publications available on Medium, we sketch out the range and potential impact of open and effective grantmaking innovations at all stages of the process. Through these posts, we asking readers to help us gather and curate information about open and effective grantmaking innovations, analyze their potential uses, and encourage their adoption where appropriate. This open input process is a first toward building a conversation and a broader case for putting grantmaking innovations into practice throughout government at all levels.</p>
   background: >
-    <p>Examining grantmaking innovations in the corporate philanthropic and and public sectors that the US Federal government could adopt.</p>
+    <p>Grantmaking plays a vital role in helping our government, our researchers, and our communities confront 21st-century challenges. Yet we still have a decidedly 20th-century system in place for deciding how we make these billions of dollars of crucial investments. In order to make the most of limited funding — and to help build confidence in the ability of public investments to make a positive difference — it is essential for our government agencies to try more strategic approaches to designing, awarding, and measuring their grantmaking.</p>
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
   results:
   related_articles:
-
+    - name: "The Innovation the Grantmaking Process Needs"
+      url: http://www.governing.com/columns/smart-mgmt/col-innovation-government-grantmaking-process-needs.html
+    - name: "Introduction to Open and Effective Grantmaking"
+      url: http://medium.com/open-grantmaking-innovations/introduction-to-open-grantmaking-9301089a8780#.8wrprb7h2
+    - name: "Innovations Pre-Granting: Ideation Challenges"
+      url: http://medium.com/open-grantmaking-innovations/innovations-pre-judging-ideation-challenges-c8c08f103225#.q8l7g52e7
+    - name: "Innovations Pre-Granting: Improving the Quality of Applications through Matchmaking"
+      url: http://medium.com/open-grantmaking-innovations/innovations-pre-granting-improving-the-quality-of-applications-through-matchmaking-d52b76669fa#.oemmxiaug
+    - name: "Innovations Pre-Granting: Prioritizing Bottom-Up Participation"
+      url: http://medium.com/open-grantmaking-innovations/innovations-pre-granting-prioritizing-bottom-up-participation-c9cd748672a#.lm584pnzb
+    - name: "Innovations in Granting: Evidence-Based Grantmaking"
+      url: http://medium.com/open-grantmaking-innovations/innovations-in-granting-evidence-based-grantmaking-a-little-evidence-a-little-money-a-lot-of-c40bdd9b9dfc#.78zjq3dal
+    - name: "Innovations in Granting: Open Alternatives to Grants"
+      url: http://medium.com/open-grantmaking-innovations/innovations-in-granting-open-alternatives-to-grants-crowdfunding-micropayments-and-prize-f99c090721f0#.8okikzwiz
+    - name: "Innovations in Granting: Expert Networking"
+      url: http://medium.com/open-grantmaking-innovations/innovations-in-granting-expert-networking-matching-experts-to-opportunities-fd7f9b69febd#.1y0tjeom4
+    - name: "Innovations in Granting: Open Peer Review and Participatory Judging"
+      url: http://medium.com/open-grantmaking-innovations/innovations-in-granting-open-peer-review-and-participatory-judging-4bc48e904e41#.8482cui9v
 
 
 
