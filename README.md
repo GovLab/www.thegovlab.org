@@ -24,13 +24,12 @@ npm i
 
 virtualenv venv
 
-# see (1)
 source venv/bin/activate
 
 pip install -r requirements.txt
 ```
 
-(1) On Windows, use `source venv\Scripts\activate`
+(Note) On Windows, use `source venv\Scripts\activate` instead
 
 ### Development
 
