@@ -8,4 +8,5 @@ install:
 script:
   - python build.py test
 notifications:
-  slack: govlab:KLK7vzipwKmNg6927T5KPrjc
+#  slack: govlab:KLK7vzipwKmNg6927T5KPrjc
+  slack: govlab:NduM67bOSx8tjUONmf3MCSdp
