@@ -5,7 +5,7 @@ The GovLab website.
 ## Quick Start
 
 ### NOTE:
-If you are updating from any commit prior to [1.0.0](e425c0ae65ad6fe046bdf29895df1a27ec1d7875), run `npm i` before developing
+If you are updating from any commit prior to [1.0.0] e425c0ae65ad6fe046bdf29895df1a27ec1d7875, run `npm i` before developing
 
 ### Installation
 
