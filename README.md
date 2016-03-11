@@ -17,7 +17,7 @@ Make sure the following are installed on your machine:
 * [SASS](http://sass-lang.com/install) (Optional, however, if `sass` isn't on your command-line,
 your SASS files won't be rebuilt.)
 
-Run the following commands:
+Run the following commands in the base of your cloned repo:
 
 ```
 npm i
