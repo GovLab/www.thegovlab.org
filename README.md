@@ -29,7 +29,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-(Note) On Windows, use `source venv\Scripts\activate` instead
+(Note) On Windows, use `venv\Scripts\activate` instead of `source`
 
 ### Development
 
