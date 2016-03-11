@@ -1,12 +1,12 @@
 language: python
 python:
-  - "2.7"
+- '2.7'
 before_install:
-  - gem install sass
+- gem install sass
 install:
-  - pip install -r requirements.txt
+- pip install -r requirements.txt
 script:
-  - python build.py test
+- python build.py test
 notifications:
-#  slack: govlab:KLK7vzipwKmNg6927T5KPrjc
-  slack: govlab:NduM67bOSx8tjUONmf3MCSdp
+  slack:
+    secure: tCvsmJR3pbc2QgPqH7aK5SlCAxemfGVNh2U+YLzvP1D8Rk81u7Tw+PIPmDZR65SkGktzYhQcKaIFPrTeEYeUfuL+Vmj+oJTMzH5wZGP4wH7Z+kyuBOqpmuR1DZlxrXH2VdnFtVBQZ6JLC5FvvhqWY1U/N1pWvAXO0bLnGe6q2REMoyFsTid3Zv+CjkJdidaOEBK77oTj2LJcOCzPuGZFIG+SnmhJfLQ0lvHPHdpXVVlLkx5o8sz4EHjsvKPfJ20BL5N+fxmQhNh2fUyVXWWcv67YXaTys8ou2Ks4Uwp9mDjChP7he4mnjqDQ5v3daiXcXSa2rB2hq3AJBMFPKmJxM9AeA4+Oec3tVVjL1NC9qc6SGoYFp4Tjwe3LDV2P1TTe85rScgVceD5eKZR3VnbKk5Z2xGTWXZkJ5WBIMtvVk3Ip4x1x2AAFXle/kTXHDrMlFCKtACv0CENj4fI+2zpxyIYAWYSq0VvoGhSPHv/5Bz5YVBtwBnmlIPSZpmGEcu8IlMhaMLWCvKTXa4OtqW9dc7buerI3gHKQe+kgZIiQhUhiJWwLdll0AWosRFO27zFHoyyePdQebf+ADImlimGAN+ORmH+LrOTyQycOHn605EHxGuTh7TT1Z3x4gri3UjG16+EZkguA7/KszrdxHMojPgGuRJBO/uzQSQb3VincrDM=
