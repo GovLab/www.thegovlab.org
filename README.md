@@ -37,9 +37,13 @@ From within local repo, run:
 
 ```
 source venv/bin/activate
+```
+if `virtualenv` is not already running in your shell session, and then:
 
+```
 python build.py runserver
 ```
+to start the server.
 
 Site will be served at http://localhost:7000 by default.
 
