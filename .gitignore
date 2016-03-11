@@ -3,3 +3,4 @@
 venv
 support/*
 config.codekit
+node_modules

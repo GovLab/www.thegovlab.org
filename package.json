@@ -1,0 +1,26 @@
+{
+  "name": "www.thegovlab.org",
+  "version": "1.0.0",
+  "description": "nyu govlab website",
+  "main": "index.js",
+  "scripts": {
+    "test": "python build.py test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GovLab/www.thegovlab.org.git"
+  },
+  "keywords": [
+    "open",
+    "data"
+  ],
+  "author": "mocxd",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/GovLab/www.thegovlab.org/issues"
+  },
+  "homepage": "https://github.com/GovLab/www.thegovlab.org#readme",
+  "devDependencies": {
+    "govlab-styleguide": "^1.0.9"
+  }
+}
