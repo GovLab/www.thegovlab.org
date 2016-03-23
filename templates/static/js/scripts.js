@@ -135,6 +135,22 @@ $(document).ready(function($) {
         ]
     });
 
+    $('.b-slider').slick({
+        arrows: false,
+        draggable: false,
+        swipeToSlide: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        responsive: [
+            {
+                breakpoint: 800,
+                settings: {
+                    draggable: true,
+                }
+            }
+        ]
+    });
+
     $('.m-prev').click(function() {
         $(this).closest('.e-banner-container').slick('slickPrev');
     });
@@ -425,5 +441,7 @@ $.get('http://thegovlab.org/category/featured-website/feed/', function(xml) {
     function getDistance(p1, p2) {
         return Math.pow(p1.x - p2.x, 2) + Math.pow(p1.y - p2.y, 2);
     }
+
+
 
 })();

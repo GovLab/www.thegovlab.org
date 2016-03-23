@@ -1,74 +1,170 @@
 {% extends "_base.html" %}
 
-{% block styles %}
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+ {% block styles %}
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
     rel="stylesheet">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="static/vendor/normalize.css">
     <link rel="stylesheet" href="static/vendor/slick.css">
-    <link rel="stylesheet" href="../node_modules/govlab-styleguide/dist/css/govlab-styleguide.css">
-{% endblock %}
+    <link rel="stylesheet" href="static/styles/govlab-styleguide.css">
+ {% endblock %}
 
-{% block content %}
-<section class="b-events-landing">
-    <header>
-        <div class="e-list-selector m-upcoming">
-            <h2 class="e-show-upcoming">Upcoming Events</h2>
-            <h2 class="e-show-passed">Past Events</h2>
+  {% block content %}
+  <section class="b-events-landing">
+    <header class="b-top-section m-purple">
+      <div class="row">
+        <div class="column small-12">
+          <h2>Events</h2>
         </div>
+      </div>
     </header>
-</section>
-<section class="b-event-list">
-    {% for event in events %}
-        <div class="e-event-item m-{{event.type|slug}}{% if event.has_passed %} e-event-passed{% else %} e-event-upcoming{% endif %}" style="background-image:url(static/img/events/{{event.guest | slug}}.jpg)">
-            <div class="e-wrap">
-                <div>
-                    <div class="e-half">
-                        <h4 class="e-event-type">{{event.type}}</h4>
-                    </div>
-                    <div class="e-half">
-                        {% if event.has_passed %}
-                            <h4 class="e-event-heading">{{event.date.strftime("%B %Y")}}</h4>
+  </section>
 
-                        {% else %}
-                            <h4 class="e-event-heading">{{event.date.strftime("%B %d")}}</h4>
-                        {% endif %}
-                    </div>
-                </div>
-                <div>
-                    <div class="e-half">
-                        <h2>{{event.title}}</h2>
-                        <h3>{{event.guest}}</h3>
-                    </div>
-                    <div class="e-half">
-                        <p>{{event.short_description}}</p>
-                    </div>
-                </div>
+
+  <div class="b-divider">
+    <h1>UPCOMING EVENT</h1>
+  </div>
+
+  <div class="b-slider slick">
+    <section id="slide-id" class="b-slide m-purple">
+        <header>
+            <h4>Featured Project</h4>
+        </header>
+        <div class="row e-content">
+            <div class="column medium-6">
+                <h2 class="e-project-name">Project Title</h2>
+                <h3 class="e-question">Lorem ipsum dolor sit amet, consectetur adipisicing elit, enim adipisci dicta.</h3>
+            </div>
+            <div class="column medium-6">
+                <p>Project description Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint recusandae nostrum eos saepe officia vero illum fuga quae at, corporis unde quas sit adipisci neque doloremque fugiat possimus nisi minima.</p>
+                <p>Project description Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipisicing elit. Sint recusandae nostrum eos saepe officia vero illum fuga quae at, corporis unde quas sit adipisci neque doloremque fugiat possimus nisi minima.</p>
+            </div>
+        </div>
+        <div class="row e-content">
+            <div class="column medium-6">
                 <div class="e-action">
-                    <div class="e-half"><a class="b-button m-naked" href="{{event.url}}">{% if event.type == 'IdeasLunch' %}RSVP{% else %}Learn More{%endif%}<i class="material-icons">arrow_forward</i></a></div>
-                    <div class="e-half">
-                        <span class="b-button m-naked js-event-trigger">More Info<i class="material-icons">expand_more</i></span>
-                    </div>
+                    <a class="b-button m-naked" href="./projects.html">All Projects<i class="material-icons">arrow_forward</i></a>
+                </div>
+            </div>
+            <div class="column medium-6">
+                <div class="e-action">
+                    <a class="b-button m-naked" href="#">Find out more<i class="material-icons">arrow_forward</i></a>
                 </div>
             </div>
         </div>
-
-        <div class="e-long-description">
-            <div class="e-wrap">
-                <i class="material-icons js-close e-close">close</i>
-                {{event.long_description}}
-                <p><strong>Lunch will be served. Please RSVP so we have accurate numbers for food.</strong></p>
+    </section>
+    <section id="slide-id" class="b-slide">
+        <header>
+            <h4>Featured Project</h4>
+        </header>
+        <div class="row e-content">
+            <div class="column medium-6">
+                <h2 class="e-project-name">Project Title</h2>
+                <h3 class="e-question">Lorem ipsum dolor sit amet, consectetur adipisicing elit, enim adipisci dicta.</h3>
+            </div>
+            <div class="column medium-6">
+                <p>Project description Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint recusandae nostrum eos saepe officia vero illum fuga quae at, corporis unde quas sit adipisci neque doloremque fugiat possimus nisi minima.</p>
+                <p>Project description Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipisicing elit. Sint recusandae nostrum eos saepe officia vero illum fuga quae at, corporis unde quas sit adipisci neque doloremque fugiat possimus nisi minima.</p>
             </div>
         </div>
-    {% endfor %}
-</section>
-
+        <div class="row e-content">
+            <div class="column medium-6">
+                <div class="e-action">
+                    <a class="b-button m-naked" href="./projects.html">All Projects<i class="material-icons">arrow_forward</i></a>
+                </div>
+            </div>
+            <div class="column medium-6">
+                <div class="e-action">
+                    <a class="b-button m-naked" href="#">Find out more<i class="material-icons">arrow_forward</i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="slide-id" class="b-slide m-teal">
+        <header>
+            <h4>From Our Blog</h4>
+        </header>
+        <div class="row e-content">
+            <div class="column medium-6">
+                <h2>Bloc title Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+                <h3><strong>By: </strong>Claudio Mendonca</h3>
+            </div>
+            <div class="column medium-6">
+                <p>Project description Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint recusandae nostrum eos saepe officia vero illum fuga quae at, corporis unde quas sit adipisci neque doloremque fugiat possimus nisi minima.</p>
+                <p>Project description Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipisicing elit. Sint recusandae nostrum eos saepe officia vero illum fuga quae at, corporis unde quas sit adipisci neque doloremque fugiat possimus nisi minima.</p>
+            </div>
+        </div>
+        <div class="row e-content">
+            <div class="column medium-6">
+                <div class="e-action">
+                    <a class="b-button m-naked" href="./projects.html">All Projects<i class="material-icons">arrow_forward</i></a>
+                </div>
+            </div>
+            <div class="column medium-6">
+                <div class="e-action">
+                    <a class="b-button m-naked" href="#">Find out more<i class="material-icons">arrow_forward</i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="slide-id" class="b-slide m-orange">
+        <header>
+            <h4>Featured Project</h4>
+        </header>
+        <div class="row e-content">
+            <div class="column medium-6">
+                <h2 class="e-project-name">Project Title</h2>
+                <h3 class="e-question">Lorem ipsum dolor sit amet, consectetur adipisicing elit, enim adipisci dicta.</h3>
+            </div>
+            <div class="column medium-6">
+                <p>Project description Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint recusandae nostrum eos saepe officia vero illum fuga quae at, corporis unde quas sit adipisci neque doloremque fugiat possimus nisi minima.</p>
+                <p>Project description Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipisicing elit. Sint recusandae nostrum eos saepe officia vero illum fuga quae at, corporis unde quas sit adipisci neque doloremque fugiat possimus nisi minima.</p>
+            </div>
+        </div>
+        <div class="row e-content">
+            <div class="column medium-6">
+                <div class="e-action">
+                    <a class="b-button m-naked" href="./projects.html">All Projects<i class="material-icons">arrow_forward</i></a>
+                </div>
+            </div>
+            <div class="column medium-6">
+                <div class="e-action">
+                    <a class="b-button m-naked" href="#">Find out more<i class="material-icons">arrow_forward</i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="slide-id" class="b-slide m-blue">
+        <header>
+            <h4>Featured Project</h4>
+        </header>
+        <div class="row e-content">
+            <div class="column medium-6">
+                <h2 class="e-project-name">Project Title</h2>
+                <h3 class="e-question">Lorem ipsum dolor sit amet, consectetur adipisicing elit, enim adipisci dicta.</h3>
+            </div>
+            <div class="column medium-6">
+                <p>Project description Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint recusandae nostrum eos saepe officia vero illum fuga quae at, corporis unde quas sit adipisci neque doloremque fugiat possimus nisi minima.</p>
+                <p>Project description Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipisicing elit. Sint recusandae nostrum eos saepe officia vero illum fuga quae at, corporis unde quas sit adipisci neque doloremque fugiat possimus nisi minima.</p>
+            </div>
+        </div>
+        <div class="row e-content">
+            <div class="column medium-6">
+                <div class="e-action">
+                    <a class="b-button m-naked" href="./projects.html">All Projects<i class="material-icons">arrow_forward</i></a>
+                </div>
+            </div>
+            <div class="column medium-6">
+                <div class="e-action">
+                    <a class="b-button m-naked" href="#">Find out more<i class="material-icons">arrow_forward</i></a>
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
-</section>
-{% endblock %}
 
 
 
 
 
-
+  {% endblock %}
