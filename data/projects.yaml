@@ -657,6 +657,10 @@
   related_articles:
     - name: One-Pager
       url: "static/files/criminal-justice-one-pager-web.pdf"
+    - name: Criminal Justice & Social Service Data Sharing Questionnaire (October 2015)
+      url: "http://govlab.typeform.com/to/qPeday"
+    - name: Toward a New Paradigm - Results of Surveys on Data Sharing and Data Readiness
+      url: "static/files/data-sharing-survey-results-web.pdf"
 
 # ==========================================================================================================================================================================================================================================#
 
