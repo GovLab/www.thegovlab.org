@@ -183,7 +183,12 @@
       url: "http://thegovlab.org/from-the-classroom-to-the-community-a-students-journey-post-solving-public-problems-using-technology/"
     - name: Solving Public Problems With Technology
       url: "http://thegovlab.org/solving-public-problems-with-technology/"
-
+    - name: Training the Next Generation of Public Problem Solvers (Report)
+      url: "static/files/academy final report.pdf"
+    - name: Training the Next Generation of Public Problem Solvers (Slide Deck)
+      url: "static/files/GovLab Academy Final Deck.pdf"
+    - name: Academy One Pager
+      url: "static/files/academy-one-pager.pdf"
 # ==========================================================================================================================================================================================================================================#
 
 - title: Data Collaboratives #will generate slug from this attr
