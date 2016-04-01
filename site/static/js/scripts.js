@@ -136,7 +136,7 @@ $(document).ready(function($) {
     });
 
     $('.b-slider').slick({
-        arrows: false,
+        arrows: true,
         draggable: false,
         swipeToSlide: true,
         autoplay: true,

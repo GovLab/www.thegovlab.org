@@ -5972,6 +5972,8 @@ Markup:
 .m-purple - $purple background
 .m-teal - $teal background
 .m-orange - $orange background
+.m-purple-40k - $purple-40k background
+.m-blue-20k - $blue-20k background
 
 Styleguide 3.4
 */
@@ -6011,6 +6013,12 @@ Styleguide 3.4
 
 .b-divider.m-teal {
   background-color: #008895; }
+
+.b-divider.m-purple-40k {
+  background-color: #381759; }
+
+.b-divider.m-blue-20k {
+  background-color: #006e8f; }
 
 /*
 Slide
@@ -6772,6 +6780,198 @@ Coming Soon
 
 Styleguide 6.2
 */
+/*
+Data Visualization
+
+Styleguide 6.3
+*/
+/*
+Bubble map
+
+Data driven bubble map via D3, loosely based on several examples from Mike Bostock <a href="http://bl.ocks.org/mbostock">http://bl.ocks.org/mbostock</a>
+
+Markup:
+<div class="b-map"></div>
+<!-- ----------------------------------------- -->
+<!-- ignore, just used to link to example page -->
+<a class="b-button" href="map1.html">Map I</a>
+<!-- ----------------------------------------- -->
+
+Styleguide 6.3.1
+*/
+.b-map .background {
+  fill: none;
+  pointer-events: all; }
+
+.b-map .feature {
+  fill: #ccc;
+  cursor: pointer; }
+  .b-map .feature.active {
+    fill: orange; }
+
+.b-map .country {
+  fill: none;
+  stroke: #fff;
+  stroke-linecap: round;
+  stroke-linejoin: round; }
+
+.b-map .node.fade circle {
+  opacity: .15;
+  transition: opacity 0.5s; }
+
+.b-map .node circle {
+  opacity: .75;
+  cursor: pointer;
+  transition: opacity 0.5s; }
+  .b-map .node circle.active {
+    opacity: .9;
+    fill: #008ab3 !important;
+    transition: opacity 0.1s; }
+
+.b-map .node text {
+  fill: #fff;
+  cursor: pointer; }
+
+.b-map .region {
+  fill: #ddd;
+  cursor: pointer;
+  transition: fill 0.1s; }
+  .b-map .region.active {
+    fill: #bbb;
+    transition: fill 0.1s; }
+
+/*
+Packlayout map
+
+D3 based bubble map that uses packlayout to nest collections of bubbles into region bounding boxes.
+
+Markup:
+<div class="b-pack-map"></div>
+<!-- ----------------------------------------- -->
+<!-- ignore, just used to link to example page -->
+<a class="b-button" href="map2.html">Map II</a>
+<!-- ----------------------------------------- -->
+
+Styleguide 6.3.2
+*/
+.b-pack-map .background {
+  fill: none;
+  pointer-events: all; }
+
+.b-pack-map .feature {
+  fill: #ccc;
+  cursor: pointer; }
+  .b-pack-map .feature.active {
+    fill: orange; }
+
+.b-pack-map .country {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round; }
+
+.b-pack-map .parent.fade circle {
+  opacity: .15;
+  transition: opacity 0.2s; }
+
+.b-pack-map .parent circle {
+  opacity: .6;
+  cursor: pointer;
+  transition: opacity 0.2s; }
+  .b-pack-map .parent circle.active {
+    opacity: 1;
+    transition: opacity 0.2s; }
+
+.b-pack-map .parent.sector circle {
+  opacity: .5; }
+
+.b-pack-map .parent text {
+  font-size: 22px; }
+
+.b-pack-map .parent.invisible text {
+  visibility: hidden; }
+
+.b-pack-map .parent.invisible circle {
+  opacity: 0;
+  visibility: visible; }
+
+.b-pack-map .parent.invisible.sector circle {
+  opacity: .2; }
+
+.b-pack-map .node.fade circle {
+  opacity: .15;
+  transition: opacity 0.5s; }
+
+.b-pack-map .node circle {
+  opacity: 1;
+  cursor: pointer;
+  transition: opacity 0.2s; }
+  .b-pack-map .node circle.active {
+    opacity: 1;
+    transition: opacity 0.2s; }
+
+.b-pack-map .node text {
+  font-size: 26px; }
+  .b-pack-map .node text.sector-text {
+    font-size: 16px; }
+
+.b-pack-map .node.study {
+  display: none; }
+  .b-pack-map .node.study.fade circle {
+    opacity: .8;
+    transition: opacity 0.5s; }
+    .b-pack-map .node.study.fade circle.active {
+      opacity: 1;
+      transition: opacity 0.2s; }
+  .b-pack-map .node.study text {
+    fill: rgba(0, 0, 0, 0.6);
+    font-size: 16px; }
+  .b-pack-map .node.study.show {
+    display: initial; }
+
+.b-pack-map .region {
+  fill: #ddd;
+  cursor: pointer;
+  transition: fill 0.2s; }
+  .b-pack-map .region.active {
+    fill: #bbb;
+    transition: fill 0.2s; }
+
+.b-pack-map text {
+  fill: #fff;
+  cursor: pointer; }
+
+.b-pack-map .parent {
+  opacity: 0;
+  visibility: hidden; }
+  .b-pack-map .parent.show {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s; }
+
+.b-pack-map .node {
+  opacity: 0;
+  visibility: hidden; }
+  .b-pack-map .node.show {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s; }
+
+.map-ui .b-button, .map-ui .b-form input[type="submit"], .b-form .map-ui input[type="submit"] {
+  color: #fff;
+  background-color: rgba(0, 138, 179, 0.4); }
+  .map-ui .b-button.m-active, .map-ui .b-form input.m-active[type="submit"], .b-form .map-ui input.m-active[type="submit"] {
+    background-color: #008ab3; }
+
+.tooltip {
+  color: white;
+  font-size: 16px;
+  border-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: opacity 0.02s;
+  width: 200px; }
+  .tooltip::before {
+    border-bottom-color: rgba(0, 0, 0, 0.5); }
+
 .kss-title:hover, .kss-title *:hover {
   text-decoration: none; }
 
