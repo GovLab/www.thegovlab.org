@@ -1563,9 +1563,6 @@ button:focus {
   /* Clickable */
   pointer-events: auto; }
 
-.b-divider {
-  background-color: #381759; }
-
 #team .b-top-nav {
   background-color: #523080; }
 
