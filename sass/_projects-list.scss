@@ -465,4 +465,20 @@
       pointer-events: auto;
 
   }
+
+  .e-project-item {
+    @include breakpoint($mobile-only) { height: unset; }
+    @include breakpoint($desktop) { height: 360px; }
+    h2 {
+        margin-top: 10px;
+        padding-top: 0;
+        position: static;
+    }
+    .e-card-image {
+        height: 150px;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
 }

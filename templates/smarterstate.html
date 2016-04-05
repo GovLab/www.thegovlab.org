@@ -1,12 +1,24 @@
 {# Define a macro to render each project item #}
-{% macro item(title, problem_statement, is_active, tooltip) -%}
+{% macro item(title, problem_statement, is_active, tooltip, image) -%}
 <div class="e-project-item js-tooltip-trigger m-clickable" data-open="#modal-{{title | slug}}">
+    {% if image %}<div class="e-card-image" style="background-image: url('static/img/smarterstate/{{image}}')"></div>{% endif %}
     <h2><a href="#">{{title}}</a></h2>
     <div class="e-project-blurb">
         {% if problem_statement %}<p>{{problem_statement}}</p>{% endif %}
         {#{% if tooltip %}<div class="e-project-tooltip">{{tooltip}}</div>{% endif %}#}
     </div>
 </div>
+
+<!-- <div class="e-card-sg js-tooltip-trigger" data-open="#modal-{{title | slug}}">
+    <a href="#">
+        <div class="e-card-inner-sg">
+            <p class="e-card-name-sg">{{title}}</p>
+            <p class="e-card-description-sg">
+                {% if problem_statement %}{{problem_statement}}{% endif %}
+            </p>
+        </div>
+    </a>
+</div> -->
 {%- endmacro %}
 
 {% extends "_base.html" %}
@@ -37,7 +49,7 @@
                 <div class="e-project-group">
                     {% for study in studies %}
                     {% if study.category is equalto 'talent_bank' %}
-                    {{ item(study.title, study.subtitle, study.is_active, study.tooltip) }}
+                    {{ item(study.title, study.subtitle, study.is_active, study.tooltip, study.image) }}
                     {% endif %}
                     {% endfor %}
                 </div>
@@ -45,7 +57,7 @@
                 <div class="e-project-group">
                     {% for study in studies %}
                     {% if study.category is equalto 'collaboration' %}
-                    {{ item(study.title, study.subtitle, study.is_active, study.tooltip) }}
+                    {{ item(study.title, study.subtitle, study.is_active, study.tooltip, study.image) }}
                     {% endif %}
                     {% endfor %}
                 </div>
@@ -53,7 +65,7 @@
                 <div class="e-project-group">
                     {% for study in studies %}
                     {% if study.category is equalto 'projects' %}
-                    {{ item(study.title, study.subtitle, study.is_active, study.tooltip) }}
+                    {{ item(study.title, study.subtitle, study.is_active, study.tooltip, study.image) }}
                     {% endif %}
                     {% endfor %}
                 </div>
@@ -61,7 +73,7 @@
                 <div class="e-project-group">
                     {% for study in studies %}
                     {% if study.category is equalto 'toolkits' %}
-                    {{ item(study.title, study.subtitle, study.is_active, study.tooltip) }}
+                    {{ item(study.title, study.subtitle, study.is_active, study.tooltip, study.image) }}
                     {% endif %}
                     {% endfor %}
                 </div>
