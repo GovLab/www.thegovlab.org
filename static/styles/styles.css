@@ -1562,6 +1562,21 @@ button:focus {
   transition: all .4s ease;
   /* Clickable */
   pointer-events: auto; }
+@media (max-width: 800px) {
+  #smarter-state-case-studies .e-project-item {
+    height: unset; } }
+@media (min-width: 1025px) {
+  #smarter-state-case-studies .e-project-item {
+    height: 360px; } }
+#smarter-state-case-studies .e-project-item h2 {
+  margin-top: 10px;
+  padding-top: 0;
+  position: static; }
+#smarter-state-case-studies .e-project-item .e-card-image {
+  height: 150px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 .b-events-landing {
   background-color: #523080;
@@ -2195,5 +2210,47 @@ button:focus {
   padding: 12px 18px;
   color: white;
   display: inline-block; }
+
+.e-card-sg {
+  display: inline-block; }
+  .e-card-sg .e-card-inner-sg {
+    position: relative;
+    vertical-align: top;
+    width: 276px;
+    height: 350px;
+    margin: 15px; }
+    .e-card-sg .e-card-inner-sg p {
+      padding: 0 20px; }
+      .e-card-sg .e-card-inner-sg p.e-card-name-sg {
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: uppercase; }
+      .e-card-sg .e-card-inner-sg p.e-card-description-sg {
+        position: absolute;
+        bottom: 0; }
+    .e-card-sg .e-card-inner-sg .e-card-image-sg {
+      height: 150px;
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+    .e-card-sg .e-card-inner-sg:hover {
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.3); }
+  .e-card-sg .e-card-inner-sg {
+    color: #008895;
+    background-color: rgba(0, 0, 0, 0.05); }
+    .e-card-sg .e-card-inner-sg .e-card-description-sg {
+      color: rgba(0, 0, 0, 0.6); }
+  .e-card-sg.m-orange .e-card-inner-sg {
+    color: white;
+    background-color: #ee5b43; }
+  .e-card-sg.m-blue .e-card-inner-sg {
+    color: white;
+    background-color: #008ab3; }
+  .e-card-sg.m-unreleased .e-card-inner-sg {
+    background-color: rgba(0, 0, 0, 0.3); }
+    .e-card-sg.m-unreleased .e-card-inner-sg:hover {
+      box-shadow: none; }
+  .e-card-sg a:hover {
+    text-decoration: none; }
 
 /*# sourceMappingURL=styles.css.map */
