@@ -1,4 +1,5 @@
 - title: 'Department of Defense: Aristotle' #will generate slug from this attr
+  image: aristotle.jpg
   subtitle: 'Making Skills and Know How More Searchable at the Department of Defense'
   owner: The Department of Defense
   creator: Air Force Research Laboratory (AFRL)
@@ -29,6 +30,7 @@
 # ==========================================================================================================================================================================================================================================#
 
 - title: 'ENVIRONMENTAL PROTECTION AGENCY: ONE EPA SKILLS MARKETPLACE'
+  image: epa.jpg
   subtitle: 'This Program Helps Civil Servants Break Out of Silos and Create Project Teams across the Agency.'
   owner: 'The Environmental Protection Agency, Administrator’s Office'
   creator:
@@ -59,6 +61,7 @@
 # ==========================================================================================================================================================================================================================================#
 
 - title: 'HEALTH AND HUMAN SERVICES: HHS PROFILES'
+  image: hhs.jpg
   subtitle: 'Using Expert Networking to Improve Safety and Efficiency of Medical Device Review'
   owner: 'Center for Devices and Radiological Health, Food and Drug Administration, Department of Health and Human Services'
   creator:
@@ -93,6 +96,7 @@
 # ==========================================================================================================================================================================================================================================#
 
 - title: 'CITY OF SÃO PAULO: AGENTS OF OPEN GOVERNMENT'
+  image: sao-paulo.jpg
   subtitle: 'Brazil’s largest city is embarking on a massive experiment to have citizens educate its public employees.'
   owner: Open Government Committee of the City of São Paulo City
   creator:
@@ -125,6 +129,7 @@
 
 
 - title: 'THE WORLD BANK: SKILLFINDER'
+  image: world-bank.jpg
   subtitle: 'This Expert Network Accelerates The Search For Talent'
   owner: 'World Bank, World Bank Group Information and Technology Solutions'
   creator:
@@ -154,6 +159,7 @@
 
 
 - title: 'OFFICE OF MANAGEMENT AND BUDGET: MAX.GOV'
+  image: budget.jpg
   subtitle: 'The governmentwide collaboration site whose robust authentication system enables working and sharing knowledge across agency boundaries'
   owner: 'Office of Budget and Management'
   creator:
@@ -185,7 +191,8 @@
 # ==========================================================================================================================================================================================================================================#
 
 
-- title: 'NOVAGOB<br>&nbsp;'
+- title: 'NOVAGOB'
+  image: novagob.jpg
   subtitle: 'Creating a community of Spanish speaking public employees across national and institutional borders'
   owner: 'Novagob'
   creator:
@@ -218,6 +225,7 @@
 
 
 - title: 'MAYOR’S OFFICE OF NEW YORK: VOLUNTEER LANGUAGE BANK'
+  image: ny.jpg
   subtitle: 'This expert network is matching the supply of multilingual civil servants to the demand for translation services'
   owner: 'Citywide Language Access Initiative, Mayor’s Office of Immigrant Affairs, New York City'
   creator:
@@ -283,6 +291,7 @@
 
 
 - title: 'TORFAEN COUNTY BOROUGH COUNCIL: WISDOM BANK TORFAEN'
+  image: torfaen.jpg
   subtitle: 'This neighbor-helping-neighbor expert network attempts to replace the “pub conversation”'
   owner: 'Torfaen Local Service Board (LSB)'
   creator:
