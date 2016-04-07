@@ -1,7 +1,7 @@
 {# Define a macro to render each project item #}
 {% macro item(title, problem_statement, is_active, tooltip, image) -%}
 <div class="e-project-item js-tooltip-trigger m-clickable" data-open="#modal-{{title | slug}}">
-    {% if image %}<div class="e-card-image" style="background-image: url('static/img/smarterstate/{{image}}')"></div>{% endif %}
+    {% if image %}<div class="e-card-image" style="background-image: url('static/img/smarterstate/sm/{{image}}')"></div>{% endif %}
     <h2><a href="#">{{title}}</a></h2>
     <div class="e-project-blurb">
         {% if problem_statement %}<p>{{problem_statement}}</p>{% endif %}
