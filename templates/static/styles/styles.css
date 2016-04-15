@@ -1915,7 +1915,7 @@ button:focus {
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.4); }
 
-#beth-simone-noveck .b-button {
+#beth-simone-noveck .b-button, #stefaan-verhulst .b-button {
   display: inline-block; }
 
 .b-about-landing {
