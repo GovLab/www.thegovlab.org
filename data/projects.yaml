@@ -346,7 +346,7 @@
   results:
   related_articles:
     - name: OpenData 500 One Pager
-      url: static/files/od500-onepager-crop.pdf
+      url: static/files/od500-onepager-cropped.pdf
 
 
 # ==========================================================================================================================================================================================================================================#
@@ -411,7 +411,7 @@
     <p>This project is still in its infancy with deployments of the platform in eight countries anticipated during 2015. The anticipated impact, however, is greater understanding and demonstration of how targeting people -- in this case government employees -- on the basis of their skills can accelerate innovation.</p>
   related_articles:
     - name: Network of Innovators One Pager
-      url: static/files/noi-one-pager-crop.pdf
+      url: static/files/noi-one-pager-cropped.pdf
     - name: "Matching Demand to the Supply of Open Data Know How: The Network of Innovators Experiment"
       url: "https://medium.com/@bethnoveck/matching-demand-to-the-supply-of-open-data-know-how-the-network-of-innovators-experiment-e410df91556a"
     - name: "Network of Innovators: Expert Networking for Open Data"
