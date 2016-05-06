@@ -1,5 +1,12 @@
 
 {% extends "_base.html" %}
+
+{% block og %}
+    <meta content="The GovLab | Job Board" property="og:title"/>
+    <meta content="http://www.thegovlab.org/job-board.html" property="og:url"  />
+    <meta content="Current job openings at The Governance Lab at NYU Tandon School of Engineering." property="og:description">
+{% endblock %}
+
 {% block content %}
 <div class="b-job-board">
     <section class="b-top-section">
