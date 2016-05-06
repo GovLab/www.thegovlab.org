@@ -9,6 +9,12 @@
 {%- endmacro %}
 
 {% extends "_base.html" %}
+
+{% block og %}
+    <meta content="The GovLab | {{project.title}}" property="og:title"/>
+    <meta content="{{project.problem_statement}}" property="og:description">
+{% endblock %}
+
 {% block content %}
 {% if project.problem_statement %}
 <section class="b-single-landing">
