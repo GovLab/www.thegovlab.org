@@ -563,7 +563,7 @@
 # ==========================================================================================================================================================================================================================================#
 
 
-- title: Crowdsourcerer #will generate slug from this attr
+- title: Crowdsorcerer #will generate slug from this attr
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
