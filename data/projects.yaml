@@ -611,7 +611,8 @@
   results:
   related_articles:
     - name: Is Crowdsourcing the right tool for your project?
-      url: "http://thegovlab.org/is-crowdsourcing-the-right-tool-for-your-project/"
+      url: >
+        http://thegovlab.org/is-crowdsourcing-the-right-tool-for-your-project/
 
 
 # ==========================================================================================================================================================================================================================================#
