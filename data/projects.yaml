@@ -563,7 +563,7 @@
 # ==========================================================================================================================================================================================================================================#
 
 
-- title: Crowdsorcerer #will generate slug from this attr
+- title: Crowdsourcerer #will generate slug from this attr
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
@@ -611,8 +611,7 @@
   results:
   related_articles:
     - name: Is Crowdsourcing the right tool for your project?
-      url: >
-        http://thegovlab.org/is-crowdsourcing-the-right-tool-for-your-project/
+      url: "http://thegovlab.org/is-crowdsourcing-the-right-tool-for-your-project/"
 
 
 # ==========================================================================================================================================================================================================================================#
