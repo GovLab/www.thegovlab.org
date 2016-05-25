@@ -22,3 +22,29 @@ gulp.task('2k', function () {
     .pipe(imageResize({ width : 2000 }))
     .pipe(gulp.dest(baseImageFolder + outputSubFolder));
 });
+
+gulp.task('sass', function() {
+ return gulp.src('./sass/styles.scss')
+ .pipe(sass().on('error', sass.logError))
+ .pipe(gulp.dest('./site/static/styles'))
+});
+
+gulp.task('browserSync', function() {
+  browserSync({
+    server: {
+      baseDir: 'site' // This is the DIST folder browsersync will serve
+    },
+    open: false
+  })
+})
+
+
+gulp.task('default', ['sass'], function (){
+ gulp.watch('./sass/styles-sg.scss', ['sass']);
+
+});
+
+// Claudio's Design Task
+gulp.task('design', ['browserSync', 'sass'], function (){
+  gulp.watch('./sass/**/*.scss', ['sass']);
+});
