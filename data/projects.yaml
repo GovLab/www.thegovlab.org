@@ -61,7 +61,7 @@
   type: 'Design Thinking' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
-  related_question: 5 #question
+  related_question: 6 #question
   project_website: http://govlabacademy.org/canvas/ #url
   location:
     - Global
@@ -124,7 +124,7 @@
   type: 'Design Thinking' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
-  related_question: 5 #question
+  related_question: 6 #question
   project_website: http://govlabacademy.org #url
   location:
     - Global
@@ -1226,7 +1226,7 @@
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 1 #integer
   is_active: True
-  related_question: 4 #question
+  related_question: 5 #question
   project_website: http://tu-reportas.devsu.us/ #url
   location: 
     - Quito, Ecuador

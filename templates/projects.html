@@ -85,6 +85,16 @@
                     {% endif %}
                 {% endfor %}
             </div>
+            <h3 class="e-project-question">How can crowdsourcing help build agile networks of experts that can quickly react to provide effective assistance to hard and urgent problems?</h3>
+            <div class="e-project-group">
+                {% for project in projects %}
+                    {% if project.related_question == 5 %}
+
+                    {{ item(project.title, project.problem_statement, project.is_active, project.tooltip) }}
+
+                    {% endif %}
+                {% endfor %}
+            </div>
 
         </div>
     </section>
@@ -107,7 +117,7 @@
             <h3 class="e-project-question">How to take innovative public interest projects <strong>from idea to implementation</strong>?</h3>
             <div class="e-project-group">
                 {% for project in projects %}
-                    {% if project.related_question == 5 %}
+                    {% if project.related_question == 6 %}
 
                     {{ item(project.title, project.problem_statement, project.is_active, project.tooltip) }}
 
