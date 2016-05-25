@@ -1155,7 +1155,7 @@
   status: complete # define, prototype, test, complete
   problem_statement: What are the global impacts of open data? #question
   short_description: >
-  tooltip: >
+    <p></p>
   long_description: >
     <p>In collaboration with <a href="https://www.omidyar.com/" target="_blank">Omidyar Network</a>, the GovLab has conducted <strong>19 detailed case studies of open data projects around the world</strong> and developed a key findings paper describing lessons learned across the projects examined. The case studies were selected for their sectoral and geographic representativeness. They were built in part from secondary sources (“desk research”), but also from a number of first-hand interviews with important players and key stakeholders. The case studies, key findings paper and other resources will be posted on the Open Data’s Impact repository in early 2016.</p>
   background: >
@@ -1222,6 +1222,82 @@
 # ==========================================================================================================================================================================================================================================#
 
 
+- title: Crowdsourcing Innovations in Disaster Management 
+  type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
+  is_featured: 1 #integer
+  is_active: True
+  related_question: 4 #question
+  project_website: http://tu-reportas.devsu.us/ #url
+  location: 
+    - Quito, Ecuador
+  partners:
+    - Secretary General for Planning and Open Government of Quito
+    - LINQ Lab
+  team:
+    - Beth Simone Noveck
+    - Dinorah Cantu #name
+  tags:
+    governance_area:
+        - Municipal Governance #tag
+    type_of_institution:
+        - Public Sector #tag
+    innovative_capability:
+        - Collective Intelligence
+        - Crowdsourcing
+        - Expert Networks
+        - Design Thinking
+        - Rapid Prototyping #tag
+    product_category:
+        - Training
+        - Coaching & mentoring
+        - Strategy #tag
+  status: test # define, prototype, test, complete
+  problem_statement: How can targeted crowdsourcing help the City of Quito, Ecuador get smarter about how to prepare for a likely volcano eruption? #question
+  short_description: 
+  tooltip: 
+  long_description: >
+    <p>The online sessions had the intention to help the city of Quito: better define and understand the nature of the problem; help connect those people with relevant experience and know how to city officials to help Quito better manage the impending disaster; identify innovative and practical ways, especially using new technology, to tackle the challenge at hand; and, last but not least, find out ways to do things differently and potentially save lives by optimizing resources and financing solutions for the ow for money to be spent on what matters most.</p>
+    <p>The issues discussed during each session were identified by the Risk Department of the Secretary of Security of the Municipality of Quito. Overall, the topics essentially focused on communications (within the Government and messages to the public), mobility plans, risk issues and evacuation plans among.</p>
+  background: >
+    <p>Through a curated call for help to global experts, the GovLab Academy organized a series of online advice and mentoring sessions to help the city of Quito get smarter about how to prepare for the then (September 2015) likely eruption of the Cotopaxi Volcano.</p>
+    <p>At the time of the call, Cotopaxi was spewing ash (latest images below). The last large-scale eruption was in 1877, and it was believed that another one is inevitable. If it erupts, some communities will have less than half an hour to evacuate.The scale of the challenge is overwhelming. However, by mobilizing expertise - both credentialed know-how and experiential wisdom - we hoped to bring the best thinking to bear and translate good ideas for how to mitigate the risks and create actionable proposals, especially using technology and innovation.</p>
+  social_media: #in the future we can have custom shareable messages for each project
+  images: #images or screenshots of the project
+    - cotopaxi1.png 
+    - cotopaxi2.png 
+    - cotopaxi3.png 
+    - cotopaxi4.png 
+    - cotopaxi5.png #url
+  results: >
+    <p>This project was the first effort to solicit expertise and help for emergency response before the disaster happens. 65 international experts self-selected themselves to join online coaching sessions and help the City of Quito leverage their expertise on specific problems like: 
+      <ul>
+        <li>Coordination of communication,</li>
+        <li>Evacuation planning,</li>
+        <li>Cost-effective shelters,</li>
+        <li>Citizen sensing and citizen science.</li>
+      </ul>
+    </p>
+    <p>As a result of the collective analysis of the problem, a single major problem was identified: the absence of real-time data before, during and after the disaster. If officials could have access to real-time data directly from citizens, information gaps could be bridged so authorities can take better and data-driven decisions.</p>
+    <p>The latter materialized in the development of <strong><em>Mi Quito Reporta*</em></strong>, a two-way communications platform between authorities and the community to be used as the mechanism for people to express their worries and create real-time reports of relevant issued, and for authorities to collect meaningful data and push out the latest information.</p>
+    <p>*The beta version of tool is ready as a web service and also available for <a href="http://tu-reportas.devsu.us/">download</a> (Android and iOS)</p>
+  related_articles:
+    - name: "Latest images of the Cotopaxi Volcano provided by Ministerio Coordinador Seguridad Ecuador"
+      url: https://www.flickr.com/photos/coordinacionseguridadecuador/sets/72157657373794816
+    - name: "Cotopaxi Keeps Rumbling as Ecuador Prepares for Eruption"
+      url: http://www.wired.com/2015/08/cotopaxi-continues-rumble-ecuador-prepares-eruption/
+    - name: "Don’t know where to go when the volcano blows? Crowdsource it."
+      url: http://thrivingearthexchange.org/dont-know-where-to-go-when-the-volcano-blows-crowdsource-it/
+    - name: "As Cotopaxi awakens, Quito and its suburbs get ready for a volcanic eruption"
+      url: http://citiscope.org/story/2016/cotopaxi-awakens-quito-and-its-suburbs-get-ready-volcanic-eruption#sthash.DwVMCfrN.h8gP6boG.dpuf
+    - name: "Online Call For Experts on Innovations in Disaster Management"
+      url: http://thegovlab.org/crowdsourcing-innovations-in-disaster-management-for-cotopaxi/
+    - name: "Communication regarding the first online session by the Innovation Laboratory Quito-LINQ"
+      url: http://linq.quito.gob.ec/en/first-session-of-cotopaxi-coaching-workshop-by-linq-and-new-york-innovation-lab-govlab/
+
+
+# ==========================================================================================================================================================================================================================================#
+
+
 # - title:  #will generate slug from this attr
 #   type: '' # Data, Collective Intelligence or Design Thinking
 #   is_featured: 0 #integer
@@ -1258,6 +1334,5 @@
 #     <p></p>
 #   related_articles:
 #     - #url
-
 
 
