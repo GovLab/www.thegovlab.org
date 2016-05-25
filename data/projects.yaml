@@ -1015,7 +1015,7 @@
         - Platform
         - Mapping
         - Strategy
-  status: define # define, prototype, test, complete
+  status: test # define, prototype, test, complete
   problem_statement: How can crowdsourcing enable greater citizen participation in the legislation and constitution drafting process?
   short_description: >
     <p>Crowdlaw is an emerging field of practice that is comprised of lawyers, platform developers, lawyers, government employees and research scientists, among others including citizen advocates. GovLab plays a convening role to engage practitioners from around the world and has initiated a dialogue in order to identify case studies and pilots, assess impact and inspire greater innovation across political, government and civil society actors.</p>
