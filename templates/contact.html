@@ -10,6 +10,17 @@
 {% block page_id %}contact-page{% endblock %}
 
 {% block content %}
+
+<style type="text/css">
+    /* some quick fixes for the z-index, should address properly in SG later */
+    .b-main-menu {
+        z-index: 20;
+    }
+    .leaflet-top {
+        z-index: 10;
+    }
+</style>
+
   <main role="main">
     <!-- main content starts here -->
     <div class="b-top-section m-purple">
@@ -20,27 +31,27 @@
     <div class="b-divider" id="directions">
     	<h3>Directions</h3>
     </div>
-     
+
     <div class="b-page-section b-directions">
 	    <div class="row">
 
 				<div class="medium-8 small-11 small-centered medium-centered columns">
 				<h3>The Governance Lab @ NYU</h3>
           <div id="map"></div>
-          
+
 					<div class="row">
 						<div class="medium-12 medium-centered columns">
       				<h6>Subways</h6>
       				<p class="b-subway-lines"><span class="e-line m-blue">A</span> <span class="e-line m-blue">C</span> <span class="e-line m-orange">F</span> to Jay Street-Metrotech <em>(exit towards "Myrtle Promenade")</em><br>
       				<span class="e-line m-yellow">R</span> to Jay Street-Metrotech <em>(exit towards "Lawrence Street")</em></p>
       				<p class="b-subway-lines"><span class="e-line m-red">2 </span> <span class="e-line m-red">3</span> <span class="e-line m-green">4</span> <span class="e-line m-green">5</span> to Borough Hall, <span class="e-line m-light-green">G</span> to Hoyt-Schemerhorn Streets</p>
-      				
+
               <h6>By taxi</h6>
       				<p>The closest physical address is 111 Lawrence Street, Brooklyn (Khim’s Market). From there you will see Hale & Hearty across Metrotech Roadway to the north. The NYU Tandon entrance is next to Hale & Hearty and across from Chipotle.</p>
       			</div>
       		</div>
-      		
-				</div>   	
+
+				</div>
       </div>
     </div>
 
@@ -81,7 +92,7 @@
 	          	<p>The Govlab | NYU Tandon School of Engineering<br>
 					2 MetroTech Center, 9th Floor Brooklyn, NY 11201</p>
 	          </div>
-	        </div> 
+	        </div>
 				</div>
 			</div>
 		</div>
@@ -90,8 +101,8 @@
 	<script>
 		L.mapbox.accessToken = 'pk.eyJ1IjoiYW5uYWJpYWxhcyIsImEiOiJjaWh3bzVybjUwMm92dGZraHFwcnY4bG16In0.j2Sl8c2UoLY_yHBjO1vAfQ';
 		var map = L.mapbox.map('map', 'annabialas.c1658c05', {
-			infoControl: false, 
-			attributionControl: false, 
+			infoControl: false,
+			attributionControl: false,
 			legendControl: {
 	      			position: 'topright'
 	  		}
@@ -104,9 +115,9 @@
 
 		map.scrollWheelZoom.disable();
 
-		
+
 		map.legendControl.addLegend('<strong>The GovLab</strong><br>NYU Tandon School of Engineering<br>2 MetroTech Center, 9th Floor<br>Brooklyn, NY 11201<br><em>(Entrance at Lawrence Street)</em>');
-			
+
 
 		var marker = L.mapbox.featureLayer({
 	 			type: 'Feature',
