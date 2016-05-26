@@ -227,7 +227,8 @@ button:focus {
   left: 0;
   right: 0;
   z-index: 10;
-  display: none; }
+  display: none;
+  background-color: transparent !important; }
   #overlay.m-active {
     display: block; }
 
