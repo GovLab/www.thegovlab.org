@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title></title>
-    
+
     <!-- OG TAGS -->
     <meta property="og:title" content="The Governance Lab" />
     <meta property="og:type" content="website" />
@@ -12,11 +12,11 @@
     <meta content="The GovLab" property="og:site_name">
     <meta content="Deepening Our Understanding of How to Govern More Effectively and Legitimately Through Technology" property="og:description">
     <!-- ENDS OG TAGS -->
-    
+
     <!-- Typekit -->
     <script src="//use.typekit.net/zez3buj.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
-    
+
     <!-- Base CSS links -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -55,7 +55,7 @@
             <a href="https://twitter.com/TheGovLab" class="e-nav-item" target="_blank"><i class="e-social-media-item fa fa-twitter"></i></a>
             <a href="https://www.youtube.com/user/TheGovLab" class="e-nav-item" target="_blank"><i class="e-social-media-item fa fa-youtube-play"></i></a>
         </div>
-       
+
     </header>
 
     <!-- Main Menu (Off Canvas) -->
@@ -68,10 +68,21 @@
         <a href="./team.html">Team</a>
         <a href="./our-transparency.html">Our Transparency</a>
         <a href="./job-board.html">Job Board</a>
-        <a href="./contact.html" target="_blank">Contact</a>
+        <a href="./contact.html">Contact</a>
     </nav>
 
     
+
+<style type="text/css">
+    /* some quick fixes for the z-index, should address properly in SG later */
+    .b-main-menu {
+        z-index: 20;
+    }
+    .leaflet-top {
+        z-index: 10;
+    }
+</style>
+
   <main role="main">
     <!-- main content starts here -->
     <div class="b-top-section m-purple">
@@ -82,27 +93,27 @@
     <div class="b-divider" id="directions">
     	<h3>Directions</h3>
     </div>
-     
+
     <div class="b-page-section b-directions">
 	    <div class="row">
 
 				<div class="medium-8 small-11 small-centered medium-centered columns">
 				<h3>The Governance Lab @ NYU</h3>
           <div id="map"></div>
-          
+
 					<div class="row">
 						<div class="medium-12 medium-centered columns">
       				<h6>Subways</h6>
       				<p class="b-subway-lines"><span class="e-line m-blue">A</span> <span class="e-line m-blue">C</span> <span class="e-line m-orange">F</span> to Jay Street-Metrotech <em>(exit towards "Myrtle Promenade")</em><br>
       				<span class="e-line m-yellow">R</span> to Jay Street-Metrotech <em>(exit towards "Lawrence Street")</em></p>
       				<p class="b-subway-lines"><span class="e-line m-red">2 </span> <span class="e-line m-red">3</span> <span class="e-line m-green">4</span> <span class="e-line m-green">5</span> to Borough Hall, <span class="e-line m-light-green">G</span> to Hoyt-Schemerhorn Streets</p>
-      				
+
               <h6>By taxi</h6>
       				<p>The closest physical address is 111 Lawrence Street, Brooklyn (Khim’s Market). From there you will see Hale & Hearty across Metrotech Roadway to the north. The NYU Tandon entrance is next to Hale & Hearty and across from Chipotle.</p>
       			</div>
       		</div>
-      		
-				</div>   	
+
+				</div>
       </div>
     </div>
 
@@ -143,7 +154,7 @@
 	          	<p>The Govlab | NYU Tandon School of Engineering<br>
 					2 MetroTech Center, 9th Floor Brooklyn, NY 11201</p>
 	          </div>
-	        </div> 
+	        </div>
 				</div>
 			</div>
 		</div>
@@ -152,8 +163,8 @@
 	<script>
 		L.mapbox.accessToken = 'pk.eyJ1IjoiYW5uYWJpYWxhcyIsImEiOiJjaWh3bzVybjUwMm92dGZraHFwcnY4bG16In0.j2Sl8c2UoLY_yHBjO1vAfQ';
 		var map = L.mapbox.map('map', 'annabialas.c1658c05', {
-			infoControl: false, 
-			attributionControl: false, 
+			infoControl: false,
+			attributionControl: false,
 			legendControl: {
 	      			position: 'topright'
 	  		}
@@ -166,9 +177,9 @@
 
 		map.scrollWheelZoom.disable();
 
-		
+
 		map.legendControl.addLegend('<strong>The GovLab</strong><br>NYU Tandon School of Engineering<br>2 MetroTech Center, 9th Floor<br>Brooklyn, NY 11201<br><em>(Entrance at Lawrence Street)</em>');
-			
+
 
 		var marker = L.mapbox.featureLayer({
 	 			type: 'Feature',
@@ -202,7 +213,7 @@
                     <a href="./team.html">Team</a>
                     <a href="./our-transparency.html">Our Transparency</a>
                     <a href="./job-board.html">Job Board</a>
-                    <a href="http://thegovlab.org/contact-us/" target="_blank">Contact</a>
+                    <a href="./contact.html">Contact</a>
                 </div>
             </div>
             <div class="medium-4 column">
