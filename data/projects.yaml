@@ -1154,8 +1154,7 @@
         - case studies
   status: complete # define, prototype, test, complete
   problem_statement: What are the global impacts of open data? #question
-  short_description: >
-    <p></p>
+  short_description:
   long_description: >
     <p>In collaboration with <a href="https://www.omidyar.com/" target="_blank">Omidyar Network</a>, the GovLab has conducted <strong>19 detailed case studies of open data projects around the world</strong> and developed a key findings paper describing lessons learned across the projects examined. The case studies were selected for their sectoral and geographic representativeness. They were built in part from secondary sources (“desk research”), but also from a number of first-hand interviews with important players and key stakeholders. The case studies, key findings paper and other resources will be posted on the Open Data’s Impact repository in early 2016.</p>
   background: >
