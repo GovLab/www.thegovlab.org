@@ -215,8 +215,8 @@ The GovLab:   -->
                             </div>
                             <div class="e-half">
                                 <div class="e-content">
-                                    {% if project.short_description %} {{project.short_description}}
-                                    {% else %} {{project.long_description}}{% endif %}
+                                    {% if project.short_description %} {{project.short_description | truncate(550)}}
+                                    {% else %} {{project.long_description | truncate(550) }}{% endif %}
                                 </div>
                             </div>
                         </div>
