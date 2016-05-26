@@ -45,6 +45,21 @@
         float: none;
     }
 
+    &.m-icon-left {
+        margin-left: 0;
+        i {
+            margin-left: 0;
+            margin-right: 10px;
+            float: left;
+        }
+    }
+
+    &.m-icon-left:hover i {
+        left: 0;
+        padding-right: 10px;
+        @include transition;
+    }
+
 }
 
 .b-button.m-purple {

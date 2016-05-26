@@ -1,0 +1,42 @@
+{% extends "_base-sg.html" %}
+
+{% block styles %}
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+{% endblock %}
+
+{% block page_id %}thanks-page{% endblock %}
+
+{% block content %}
+<main role="main">
+    <!-- main content starts here -->
+    <div class="b-top-section m-purple">
+        <h2>Thank You!</h2>
+        <h3>Thank you for sending us a message. We will respond as soon as we can.</h3>
+        <h3><a class="b-button m-naked m-icon-left" href="contact.html"><i class="material-icons">arrow_back</i>Back to Contact Page</a></h3>
+    </div>
+
+    <div class="b-divider" id="directions">
+        <h3>More Contact Info</h3>
+    </div>
+
+    <div class="b-page-section">
+      <div class="row">
+        <div class="column medium-8 medium-centered">
+            <div class="row">
+                <div class="column medium-5">
+                    <p><i class="material-icons">phone</i></p>
+                    <p>(646) 997-3150 <br>
+                      <a href="mailto:info@thegovlab.org">info@thegovlab.org</a></p>
+                  </div>
+                  <div class="column medium-7">
+                    <p><i class="fa fa-paper-plane fa-lg"></i></p>
+                    <p>The Govlab | NYU Tandon School of Engineering<br>
+                        2 MetroTech Center, 9th Floor Brooklyn, NY 11201</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+{% endblock %}

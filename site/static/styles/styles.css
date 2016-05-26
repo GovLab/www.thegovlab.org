@@ -267,6 +267,16 @@ button:focus {
   .b-button.m-icon-only i {
     margin-left: 0;
     float: none; }
+  .b-button.m-icon-left {
+    margin-left: 0; }
+    .b-button.m-icon-left i {
+      margin-left: 0;
+      margin-right: 10px;
+      float: left; }
+  .b-button.m-icon-left:hover i {
+    left: 0;
+    padding-right: 10px;
+    transition: all .4s ease; }
 
 .b-button.m-purple {
   background-color: #523080;
