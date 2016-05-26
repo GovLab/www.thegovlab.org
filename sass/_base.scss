@@ -64,6 +64,7 @@ button:focus {
   z-index: 10;
   display: none;
   //background-color: green;
+  background-color: transparent !important;
 
   &.m-active { display: block; }
 }
