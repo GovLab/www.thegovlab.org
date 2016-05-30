@@ -1569,6 +1569,9 @@ button:focus {
 .e-project-date-teal {
   color: #00616b; }
 
+.material-icons {
+  color: rgba(255, 255, 255, 0.2); }
+
 #team .b-top-nav {
   background-color: #523080; }
 
