@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <script src="//use.typekit.net/zez3buj.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
-    {% block styles %}
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
     rel="stylesheet">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="static/vendor/normalize.css">
     <link rel="stylesheet" href="static/vendor/slick.css">
     <link rel="stylesheet" href="static/styles/styles.css">
-    {% endblock %}
+    {% block styles %}{% endblock %}
 </head>
 <body id="{% block page_id %}{% endblock %}">
     <!-- Class for google material icons ".material-icons" -->
@@ -47,8 +47,7 @@
         <a href="./">Home</a>
         <a href="./about.html">About</a>
         <a href="./projects.html">Projects</a>
-        <a href="http://thegovlab.org/category/ideas-lunch-page/" target="_blank">Events</a>
-        <!-- <a href="./events.html">Events</a> -->
+        <a href="./events.html">Events</a>
         <a href="./team.html">Team</a>
         <a href="./our-transparency.html">Our Transparency</a>
         <a href="./job-board.html">Job Board</a>

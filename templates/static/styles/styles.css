@@ -1563,6 +1563,9 @@ button:focus {
   /* Clickable */
   pointer-events: auto; }
 
+.e-project-date {
+  color: #381759; }
+
 #team .b-top-nav {
   background-color: #523080; }
 
