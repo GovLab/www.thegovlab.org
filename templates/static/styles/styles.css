@@ -1569,8 +1569,8 @@ button:focus {
 .e-project-date-teal {
   color: #00616b; }
 
-.material-icons {
-  color: rgba(255, 255, 255, 0.2); }
+#events-arrows-1, #events-arrows-2, #events-arrows-3, #events-arrows-4, #events-arrows-5, #events-arrows-6, #events-arrows-7, #events-arrows-8, #events-arrows-9, #events-arrows-10, #events-arrows-11, #events-arrows-12, #events-arrows-13, #events-arrows-14, #events-arrows-15, #events-arrows-16, #events-arrows-17, #events-arrows-18 {
+  color: rgba(255, 255, 255, 0.5); }
 
 #team .b-top-nav {
   background-color: #523080; }
