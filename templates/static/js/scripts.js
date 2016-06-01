@@ -197,7 +197,7 @@ var render = function(posts) {
 };
 
 // Note that this assumes that thegovlab.org has CORS headers.
-$.get('http://thegovlab.org/category/featured-website/feed/', function(xml) {
+$.get('http://thegovlab.org/featured-website/feed/', function(xml) {
     var posts = [];
     $('item', xml).each(function() {
         posts.push({
@@ -210,6 +210,7 @@ $.get('http://thegovlab.org/category/featured-website/feed/', function(xml) {
     });
     render(posts);
 });
+
 
 // functions for the effect on the homepage main banner
 
