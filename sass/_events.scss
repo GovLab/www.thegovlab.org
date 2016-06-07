@@ -5,8 +5,14 @@
   color: $teal-20k;
 }
 
-
 #events-arrows-1, #events-arrows-2, #events-arrows-3, #events-arrows-4, #events-arrows-5, #events-arrows-6, #events-arrows-7, #events-arrows-8, #events-arrows-9, #events-arrows-10, #events-arrows-11, #events-arrows-12, #events-arrows-13, #events-arrows-14, #events-arrows-15, #events-arrows-16, #events-arrows-17, #events-arrows-18{
   color: $white-50;
+}
 
+#twitter-icon, #facebook-icon, #youtube-icon, #medium-icon, #vimeo-icon {
+  margin: 0 10px;
+}
+#alan-kantrow-1{
+  background-image: url(./static/img/events/alan-kantrow.jpg);
+  background-position: cover;
 }
