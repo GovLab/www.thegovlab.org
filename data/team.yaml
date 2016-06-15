@@ -65,10 +65,10 @@
     <p>Anirudh Dinesh is a Graduate Research Assistant at the GovLab. Anirudh is a first year graduate student at NYU Tandon, pursuing a master’s degree in Computer Engineering. He holds an undergraduate degree in Electronics and Communication Engineering from the Visvesvaraya Technological University in India. While studying there, he interned at the Defence Research and Development Organization and at EI Labs, where his accomplishments included implementing the autonomous indoor navigation of a quadcopter and the development of an android application for leisure taxi services.  He was also the co-organizer of TEDxBNMIT 2015, an independently organized TEDx event.</p>
     <p>Anirudh is an avid blogger and his writings can be found at <a href="http://www.dudurudh.blogspot.com">www.dudurudh.blogspot.com.</a></p>
 
-- name: Atul Varma
-  job: Lead Technical Architect
-  bio: >
-    <p>Atul enjoys building bridges of understanding between humans and machines. He has written illuminating software that's been used as the centerpiece of TED Talks, in maker events around the world, and by individuals who are just trying to have a less frustrating time using their computer. But his favorite moments are very personal: understanding where another person is coming from, constructing a metaphor they can relate to, and using it to explain technology in a way that liberates, excites, and empowers.</p>
+# - name: Atul Varma
+#   job: Lead Technical Architect
+#   bio: >
+#     <p>Atul enjoys building bridges of understanding between humans and machines. He has written illuminating software that's been used as the centerpiece of TED Talks, in maker events around the world, and by individuals who are just trying to have a less frustrating time using their computer. But his favorite moments are very personal: understanding where another person is coming from, constructing a metaphor they can relate to, and using it to explain technology in a way that liberates, excites, and empowers.</p>
 
 - name: Batu Sayici
   job: Director of User Experience
@@ -132,9 +132,9 @@
   job: Chief Financial Officer
   bio: '<p>Fred DeJohn is the Chief Financial Officer at GovLab.  Fred is an attorney with extensive experience in finance, budget and human resources in both government and higher education.  Prior to joining GovLab, Fred served as the Acting Vice President for Human Resources at the Fashion Institute of Technology.  Previously he spent more than eighteen years as the Vice President for Finance and Administration at New York Law School.  His earlier career was with New York City government where he held high level positions in a number of City agencies, including Deputy Commissioner for Finance and Administration at the Department of Housing, Preservation and Development, First Deputy Commissioner at the Department of General Services and First Deputy Director at the Department of Personnel.  He finished his City service as a Special Assistant to Mayor David Dinkins, focusing on municipal labor issues.</p>'
 
-- name: Irene Tello-Arista
-  job: Intern
-  bio: '<p>Irene Tello is an Intern at the GovLab. She is studying for a Masters in International Relations at NYU. Prior to moving to New York, she used to work at Transparencia Mexicana, the Mexican chapter of Transparency International, as the Assistant Researcher of the Chair of the Board. Before working there she was the Program Coordinator of Presta tu Voz (Share your Voice) a program that creates audiobooks for people with visual impairment or blindness. Irene received her BA in Philosophy from the National Autonomous University in Mexico. She is currently a Fulbright Grantee and is interested in crowdsourcing as a tool to fight corruption. In her free time, she makes videos of philosophical themes in Spanish. This is where she tweets and this is her YouTube channel.</p>'
+# - name: Irene Tello-Arista
+#   job: Intern
+#   bio: '<p>Irene Tello is an Intern at the GovLab. She is studying for a Masters in International Relations at NYU. Prior to moving to New York, she used to work at Transparencia Mexicana, the Mexican chapter of Transparency International, as the Assistant Researcher of the Chair of the Board. Before working there she was the Program Coordinator of Presta tu Voz (Share your Voice) a program that creates audiobooks for people with visual impairment or blindness. Irene received her BA in Philosophy from the National Autonomous University in Mexico. She is currently a Fulbright Grantee and is interested in crowdsourcing as a tool to fight corruption. In her free time, she makes videos of philosophical themes in Spanish. This is where she tweets and this is her YouTube channel.</p>'
 
 - name: Jos Berens
   job: Visiting Fellow
@@ -170,11 +170,11 @@
     <p>Lauren Yu is the Director of Operations at The GovLab. She holds a Masters Degree in Social Work from Columbia University where she focused on advanced clinical practice in health, mental health, and disabilities. She has worked in schools, hospitals, and community mental health centers where her target populations have included at-risk children, transplant patients, and homeless mentally ill adults. Lauren earned a BA in psychology from Occidental College.</p>
     <p>Prior to joining The GovLab team, Lauren was living in Kathmandu, Nepal where she started a counseling program serving 1st-12th grade students. She also created the school’s service learning program involving middle school and high students in community service projects throughout Kathmandu and in surrounding rural villages.</p>
 
-- name: Lila Rimalovski
-  job: Intern
-  bio: >
-    <p>Lila Rimalovski is a first year student at the NYU Gallatin School of Individualized Study. She is a graduate of Newark Academy High School in New Jersey and, during her junior year, attended a one semester program at the School for Ethics and Global Leadership in Washington, DC. At age 15, she took classes in web design and Python computer programming in addition to attending the IDEO Design and Innovation Summer Bootcamp in Palo Alto.</p>
-    <p>Lila is quite an active student, serving as the Event Director for the NYU College Democrats and a Student Organizer for the NYU Entrepreneurs Festival, as well as being a Student Contributor to the 2015 NYU Policy Symposium on Criminal Justice Reform. Lila is is an alumnus of the National Outdoor Leadership School, attending wilderness leadership courses in mountains of Alaska and the desert of Arizona. She is also a published author of The High School Truth book and blog, a non-fiction, life-based guidebook for high school students, written by high school students. Lila is a passionate social justice activist, dog owner, and backpacker and will be a student in the Global Leadership Scholars Program at the NYU Washington, DC campus for the fall 2016 semester. </p>
+# - name: Lila Rimalovski
+#   job: Intern
+#   bio: >
+#     <p>Lila Rimalovski is a first year student at the NYU Gallatin School of Individualized Study. She is a graduate of Newark Academy High School in New Jersey and, during her junior year, attended a one semester program at the School for Ethics and Global Leadership in Washington, DC. At age 15, she took classes in web design and Python computer programming in addition to attending the IDEO Design and Innovation Summer Bootcamp in Palo Alto.</p>
+#     <p>Lila is quite an active student, serving as the Event Director for the NYU College Democrats and a Student Organizer for the NYU Entrepreneurs Festival, as well as being a Student Contributor to the 2015 NYU Policy Symposium on Criminal Justice Reform. Lila is is an alumnus of the National Outdoor Leadership School, attending wilderness leadership courses in mountains of Alaska and the desert of Arizona. She is also a published author of The High School Truth book and blog, a non-fiction, life-based guidebook for high school students, written by high school students. Lila is a passionate social justice activist, dog owner, and backpacker and will be a student in the Global Leadership Scholars Program at the NYU Washington, DC campus for the fall 2016 semester. </p>
 
 - name: María Hermosilla
   job: Research Fellow
