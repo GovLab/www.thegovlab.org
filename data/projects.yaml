@@ -990,7 +990,7 @@
   is_featured: 0 #integer
   is_active: True
   related_question: 4
-  project_website: #url
+  project_website: http://twitter.com/TheGovLab/lists/crowdlaw #url
   location:
    - Global
   partners:
@@ -1033,6 +1033,7 @@
     - crowdlaw-2.png
   results: >
     <p>The goal of the CrowdLaw Conferences is to bring together practitioners and researchers of this emerging policy making field to learn from one another of what works, what doesn’t, what are the best practices and the challenges in the institutionalization of CrowdLaw. From the insights and learnings that come from these conferences we will create a framework to better understand the state of the field of crowdsourcing policy. We also will create a report with the findings of the conferences, a list of selected readings on the topic and twitter lists of the experts of the field, to give people the tools to understand more about using crowdsourcing in the process of policymaking. </p>
+    <p><strong>Please, see The GovLab's CrowdLaw Twitter list <a href="https://twitter.com/TheGovLab/lists/crowdlaw">here</a>.</strong></p>
   related_articles:
     - name: "A growing community of global #CrowdLaw practitioners"
       url: "http://thegovlab.org/a-growing-community-of-global-crowdlaw-practitioners/"
