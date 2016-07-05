@@ -1,7 +1,34 @@
 {% extends "_base-sg.html" %}
 
-{% block page_id %}contact-page{% endblock %}
+{% block page_id %}publications-page{% endblock %}
 
 {% block content %}
-<h2>hello</h2>
+
+<main role="main">
+  <div class="b-top-section m-purple">
+    <h2>Publications</h2> 
+  </div>
+
+      {% for pub in publications %}
+
+      <section class="b-page-section">
+        <div class="row">
+          <div class="columns large-5 large-offset-1">
+            <a href="./static/files/publications/{{ pub.file }}"><h3>{{ pub.title}}</h3></a>
+            <p>By {{pub.author}}</p>
+            <p>{{pub.date}}</p>
+          </div>
+          <div class="large-5 end columns">
+          {% if pub.subtitle %}
+            <p>{{pub.subtitle}}</p>
+          {% endif %}
+            <a href="./static/files/publications/{{ pub.file }}" class='b-button m-purple'>Download</a>
+          </div>
+        </div>
+      </section>
+
+      {% endfor %}
+
+
+</main>
 {% endblock %}
