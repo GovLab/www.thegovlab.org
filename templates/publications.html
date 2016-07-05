@@ -22,7 +22,11 @@
           {% if pub.subtitle %}
             <p>{{pub.subtitle}}</p>
           {% endif %}
-            <a href="./static/files/publications/{{ pub.file }}" class='b-button m-purple'>Download</a>
+
+          <a class="th" href="./static/files/publications/{{ pub.file }}">
+          <img src="./static/files/publications/{{ pub.thumbnail }}">
+          </a>
+            
           </div>
         </div>
       </section>

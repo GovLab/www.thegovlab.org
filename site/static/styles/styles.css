@@ -2340,4 +2340,9 @@ button:focus {
   .b-subway-lines .e-line.m-light-green {
     background-color: #a0d86d; }
 
+#publications-page .b-top-section h2 {
+  margin: 40px 0 40px 0; }
+#publications-page .th img {
+  max-width: 150px; }
+
 /*# sourceMappingURL=styles.css.map */
