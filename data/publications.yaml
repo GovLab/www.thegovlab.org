@@ -1,8 +1,14 @@
 - title: "Mapping and Comparing Responsible Data Approaches"
   author: "Jos Berens, Ulrich Mans, and Stefaan Verhulst"
   date: June 2016
-  file: ocha-report-4.pdf
-  thumbnail: ocha-report-4-thumbnail.png
+  file: ocha.pdf
+  thumbnail: ocha-thumbnail.png
+
+- title: Building Data Responsibility into Humanitarian Action
+  author: Nathaniel Raymond, Ziad Al Achkar, Stefaan Verhulst, and Jos Berens. Edited by Lilian Barajas and Matthew Easton.
+  date: May 2016
+  file: TB18_Data Responsibility_Online.pdf
+  thumbnail: TB18_Data Responsibility_Online-thumbnail.png
 
 - title: "Open Data Impact: When Demand and Supply Meet"
   subtitle: Key Findings of the Open Data Impact Case Studies
