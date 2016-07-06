@@ -20,5 +20,10 @@
       width: 125px;
     }
   }
-  .b-top-nav { background-color: $purple; }
+  .b-top-nav { 
+    background-color: $purple; 
+  }
+  .b-page-section:nth-child(2n) {
+      background-color: rgba(0,0,0,0.05);
+  }
 }

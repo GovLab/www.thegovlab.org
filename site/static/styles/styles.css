@@ -2355,5 +2355,7 @@ button:focus {
   width: 125px; }
 #publications-page .b-top-nav {
   background-color: #523080; }
+#publications-page .b-page-section:nth-child(2n) {
+  background-color: rgba(0, 0, 0, 0.05); }
 
 /*# sourceMappingURL=styles.css.map */
