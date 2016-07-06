@@ -2353,8 +2353,7 @@ button:focus {
       font-size: 28px; } }
 #publications-page .th img {
   width: 125px; }
-
-.b-top-nav {
+#publications-page .b-top-nav {
   background-color: #523080; }
 
 /*# sourceMappingURL=styles.css.map */
