@@ -2085,6 +2085,7 @@ button:focus {
   color: rgba(0, 0, 0, 0.6); }
 
 .b-job-board .b-top-section {
+  height: 200px;
   background-color: #523080; }
   .b-job-board .b-top-section h2, .b-job-board .b-top-section h3 {
     text-align: center;
