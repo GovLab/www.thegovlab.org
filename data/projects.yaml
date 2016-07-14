@@ -1351,6 +1351,8 @@
   results:
   related_articles:
 
+
+
 # ==========================================================================================================================================================================================================================================#
 
 # - title: Crowdsourcing Smarter for Mosquito Borne Diseases
@@ -1394,6 +1396,65 @@
 #   results: >
 #     <p>The project aims to generate innovative and implementable solutions that help governments prepare for and respond to mosquito borne illnesses. It will also create an informal, rapid and agile network of experts to get in good ideas for tackling the mosquito borne pandemics and making government more effective.</p>
 #   related_articles:
+
+# ==========================================================================================================================================================================================================================================#
+
+- title: Open Innovation for Solving Public Problems in Latin American Cities
+  type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
+  is_featured: 1 #integer
+  is_active: True
+  related_question: 3 #question
+  project_website:  http://www.thegovlab.org/projects.html #url
+  location: 
+    - San Pedro Garza García, México
+  partners:
+    - Codeando México and the Municipality of San Pedro Garza García
+  team:
+    - Dinorah Cantu
+  tags:
+    governance_area:
+        - Municipal Governance #tag
+    type_of_institution:
+        - Public Sector #tag
+    innovative_capability:
+        - Collective Intelligence
+        - Crowdsourcing
+        - Expert Networks
+        - Design Thinking
+        - Rapid Prototyping #tag
+    product_category:
+        - Training
+        - Coaching & Mentoring
+        - Strategy #tag
+  status: test # define, prototype, test, complete
+  problem_statement: How can open innovation help to tap into the skills, talents and abilities of diverse citizens to solve social problems more quickly and effectively? #question
+  short_description: 
+  tooltip: 
+  long_description: >
+    <p>The goal of the project is to pilot and evaluate a replicable process for Latin American cities to tap into the skills, talents and abilities of diverse citizens to solve social problems more quickly and effectively. By creating the “conversational infrastructure” -- the method and tools -- to source and, above all, implement novel approaches from civil servants and the public the hope is to spark a potential shift from the traditional top-down, closed governing approaches to more decentralized, collaborative, and open practices of solving public problems that take the intelligence and expertise of the public seriously and encourage active forms of citizenship.</p>
+    <p>Rather than rely on prize-backed challenges alone, however, the design of the project combines open innovation to source a wide array of ideas with ICT-enabled training to shape those ideas into implementable new policies and services.</p>
+    <p>Over the course of the year, the GovLab in collaboration with the Mayor’s office of the Municipality of San Pedro Garza García (SPGG), Mexico will: 
+    <ul>
+    <li>DESIGN: Design and launch 3-5 open innovation challenges designed to solicit good ideas to solve hard problems facing the city from the public and civil servants.</li>
+    <li>TRAIN: Train challenge winners and city officials to further develop their proposals into actionable and implementable policies.</li>
+    <li>CONNECT: To support this desire for peer-to-peer learning, we built an expert network called the Network of Innovators (NoI). NoI will be used as the skill sharing platform that matches the selected public entrepreneurs to participate on the coaching programs with complementary skills and innovators around the world working on the same issues.</li>
+    <li>LEARN: Evaluate the lessons learned from running these pilots to the end of articulating a replicable method for Latin American cities.</li>
+    </ul>
+    </p>
+  background: >
+    <p>Cities need to solve increasingly complex problems for growing populations with fewer resources. To do more with less, municipal governments need to become more agile in how they identify the knowledge and expertise spread across their community to the end of implementing more effective policies and services.</p>
+    <p>To that end, public institutions are turning to open innovation--also known as crowdsourcing--to open up the process of identifying both good ideas and the evidence to support their implementation to citizens, civil servants, and organizations.</p>
+    <p>But despite an increasing number of municipal open innovation success stories, only a few cities use crowds effectively—if at all. Hardly any know how to institutionalize open innovation as standard operating procedure.</p>
+    <p>San Pedro Garza García is widely recognized as one of the most influential municipalities in Latin America and also the first municipality of Mexico to have two independent councilmembers (i.e., with no political affiliation). It is through the request and efforts of these councilmembers that the initiative of the present project first began. Thanks to a process of socialization on the importance of open government and the potential of open innovation to the municipality officials, they decided to join the councilmembers efforts in pursuing the present project, which ultimately resulted in the full support of the Mayor and his office on launching the San Pedro’s Open Innovation Challenges for Solving Public Problems (DesafíoSP).</p>
+  social_media: #in the future we can have custom shareable messages for each project
+  images: #images or screenshots of the project
+    - open-innovation-1.jpg
+    - open-innovation-2.jpg
+    - open-innovation-3.jpg
+    - open-innovation-4.jpg
+  results: >
+    <p>Through these pilot programs, we hope to learn how best to design an effective open innovation effort with the public and with civil servants. We also help to hone the method for turning winning ideas into implementable proposals. In the process, we hope to answer the question whether open innovation (also known as crowdsourcing) can lead to meaningful solutions to public problems and meaningful citizen engagement practices. Success will be measured, not merely by the numbers of people participating, but by the downstream impact of the projects they create.</p>
+  related_articles:
 
 # ==========================================================================================================================================================================================================================================#
 
