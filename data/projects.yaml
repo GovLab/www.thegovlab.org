@@ -1399,7 +1399,7 @@
 
 # ==========================================================================================================================================================================================================================================#
 
-- title: Open Innovation for Solving Public Problems in Latin American Cities
+- title: Open Innovation for Solving Public Problems
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 1 #integer
   is_active: True
@@ -1410,7 +1410,9 @@
   partners:
     - Codeando México and the Municipality of San Pedro Garza García
   team:
+    - Beth Simone Noveck
     - Dinorah Cantu
+    - Maria Hermosilla
   tags:
     governance_area:
         - Municipal Governance #tag
