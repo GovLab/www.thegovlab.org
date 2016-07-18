@@ -1488,7 +1488,7 @@
         - Open Data #tag
     product_category:
         - Case Studies #tag
-  status: Define # define, prototype, test, complete
+  status: define # define, prototype, test, complete
   problem_statement: What is the social and economic value of open data for developing economies? #question
   short_description: >
     <p></p>
