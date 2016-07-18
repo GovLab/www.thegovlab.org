@@ -1010,6 +1010,9 @@ button:focus {
         display: inline-block;
         font-size: 16px;
         padding: 3px 0; } }
+    .b-single-landing .e-partners .e-partner a {
+      color: rgba(255, 255, 255, 0.6);
+      text-decoration: underline; }
   @media (max-width: 800px) {
     .b-single-landing .e-progress {
       border: 1px solid rgba(255, 255, 255, 0.4);
