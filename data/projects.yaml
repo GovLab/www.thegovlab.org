@@ -1,3 +1,53 @@
+
+- title: Open Data for Developing Economies  #will generate slug from this attr
+  type: 'Data' # Data, Collective Intelligence or Design Thinking
+  is_featured: 1 #integer
+  is_active: True
+  related_question: 1 #question
+  project_website: #url
+  location: 
+    - Global
+  partners:
+    - Web Foundation
+    - <a href="https://mstarproject.wordpress.com/">Mobile Solutions, Technical Assistance and Research (mSTAR)</a> 
+    - Program funded by the <a href="https://www.usaid.gov/GlobalDevLab">Global Development Lab at the United States Agency for International Development</a> (USAID)
+
+  team:
+    - Stefaan Verhulst
+    - Andrew Young
+    #- Juliet McMurren
+    - Prianka Srinivasan #name
+  tags:
+    governance_area:
+        - National and Global Governance #tag
+    type_of_institution:
+        - Government #tag
+    innovative_capability:
+        - Open Data #tag
+    product_category:
+        - Case Studies #tag
+  status: define # define, prototype, test, complete
+  problem_statement: What is the social and economic value of open data for developing economies? #question
+  short_description: >
+    <p>This project seeks to build an evidence base identifying: a) the conditions under which open data is most (and least) effective in the development process; b) strategies to maximize the positive contributions of open data to development; and c) means for limiting open data’s harms on developing countries.</p>
+  tooltip: 
+  long_description: >
+    <p>This project seeks to build an evidence base identifying: a) the conditions under which open data is most (and least) effective in the development process; b) strategies to maximize the positive contributions of open data to development; and c) means for limiting open data’s harms on developing countries.</p>
+    <p>Toward that end, we are landscaping the current field of research investigating the value of open data in low and middle income contexts and developing a collection of  in-depth, illustrative and detailed case studies to better understand how developing countries are responding to public demand to open their data, who is making use of that data and for what, and what impact it is having in several key domains.</p>
+  background: >
+    <p>Recent years have witnessed considerable speculation about the potential of open data to bring about wide-scale transformation. The bulk of existing evidence about the impact of open data, however, focuses on high-income countries. Much less is known about open data’s role and value in low- and middle-income countries, and more generally about its possible contributions to economic and social development. The field lacks a coherent Theory of Change for how and in what contexts open data supports or hampers development.</p>
+  social_media: #in the future we can have custom shareable messages for each project
+  # images: #images or screenshots of the project
+    -  #url
+  # results: >
+  #   <p></p>
+  related_articles:
+    #- name: URL for Announcement Blog 
+    #  url: #TBD 
+
+# ==========================================================================================================================================================================================================================================#
+
+
 - title: Docker for Data #will generate slug from this attr
   type: 'Data' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
@@ -1064,7 +1114,7 @@
 
 - title: Open Grantmaking #will generate slug from this attr
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
-  is_featured: 1 #integer
+  is_featured: 0 #integer
   is_active: True
   related_question: 3
   project_website: https://medium.com/open-grantmaking-innovations
@@ -1128,7 +1178,7 @@
 
 - title: Open Data's Impact #will generate slug from this attr
   type: 'Data' # Data, Collective Intelligence or Design Thinking
-  is_featured: 1 #integer
+  is_featured: 0 #integer
   is_active: True
   related_question: 1 #question
   project_website: http://odimpact.org
@@ -1178,7 +1228,7 @@
 
 - title: Smarter State Case Studies #will generate slug from this attr
   type: 'Data' # Data, Collective Intelligence or Design Thinking
-  is_featured: 1 #integer
+  is_featured: 0 #integer
   is_active: True
   related_question: 4 #question
   project_website: http://www.thegovlab.org/smarterstate.html #url
@@ -1225,7 +1275,7 @@
 
 - title: Crowdsourcing Innovations in Disaster Management 
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
-  is_featured: 1 #integer
+  is_featured: 0 #integer
   is_active: True
   related_question: 5 #question
   project_website: http://tu-reportas.devsu.us/ #url
@@ -1457,55 +1507,6 @@
   results: >
     <p>Through these pilot programs, we hope to learn how best to design an effective open innovation effort with the public and with civil servants. We also help to hone the method for turning winning ideas into implementable proposals. In the process, we hope to answer the question whether open innovation (also known as crowdsourcing) can lead to meaningful solutions to public problems and meaningful citizen engagement practices. Success will be measured, not merely by the numbers of people participating, but by the downstream impact of the projects they create.</p>
   related_articles:
-
-
-# ==========================================================================================================================================================================================================================================#
-
-- title: Open Data for Developing Economies  #will generate slug from this attr
-  type: 'Data' # Data, Collective Intelligence or Design Thinking
-  is_featured: 1 #integer
-  is_active: True
-  related_question: 1 #question
-  project_website: #url
-  location: 
-    - Global
-  partners:
-    - Web Foundation
-    - <a href="https://mstarproject.wordpress.com/">Mobile Solutions, Technical Assistance and Research (mSTAR)</a> 
-    - Program funded by the <a href="https://www.usaid.gov/GlobalDevLab">Global Development Lab at the United States Agency for International Development</a> (USAID)
-
-  team:
-    - Stefaan Verhulst
-    - Andrew Young
-    #- Juliet McMurren
-    - Prianka Srinivasan #name
-  tags:
-    governance_area:
-        - National and Global Governance #tag
-    type_of_institution:
-        - Government #tag
-    innovative_capability:
-        - Open Data #tag
-    product_category:
-        - Case Studies #tag
-  status: define # define, prototype, test, complete
-  problem_statement: What is the social and economic value of open data for developing economies? #question
-  short_description: >
-    <p></p>
-  tooltip: 
-  long_description: >
-    <p>This project seeks to build an evidence base identifying: a) the conditions under which open data is most (and least) effective in the development process; b) strategies to maximize the positive contributions of open data to development; and c) means for limiting open data’s harms on developing countries.</p>
-    <p>Toward that end, we are landscaping the current field of research investigating the value of open data in low and middle income contexts and developing a collection of  in-depth, illustrative and detailed case studies to better understand how developing countries are responding to public demand to open their data, who is making use of that data and for what, and what impact it is having in several key domains.</p>
-  background: >
-    <p>Recent years have witnessed considerable speculation about the potential of open data to bring about wide-scale transformation. The bulk of existing evidence about the impact of open data, however, focuses on high-income countries. Much less is known about open data’s role and value in low- and middle-income countries, and more generally about its possible contributions to economic and social development. The field lacks a coherent Theory of Change for how and in what contexts open data supports or hampers development.</p>
-  social_media: #in the future we can have custom shareable messages for each project
-  # images: #images or screenshots of the project
-    -  #url
-  # results: >
-  #   <p></p>
-  related_articles:
-    #- name: URL for Announcement Blog 
-    #  url: #TBD 
 
 
 # ==========================================================================================================================================================================================================================================#
