@@ -55,9 +55,9 @@
     while simultaneously pursuing coursework in web design. In her studies, Anna explores the relationship between
     bodies and data, tracing the history of data visualization and tracking technologies.</p>
 
-- name: Anupama Sharma
-  job: Intern
-  bio: '<p>Anu Sharma is an Intern at the GovLab. She has both a Masters and an undergraduate degree in computer science, is currently a first-year student at NYU Wagner. She has been a software engineer for eBay and Yahoo, a web developer for Oracle, and a product manager/marketing engineer for a technology start-up in India that provides location-based services. In addition, she is co-founded of an India-based non-profit organization that promotes community involvement in local social causes.</p>'
+# - name: Anupama Sharma
+#   job: Intern
+#   bio: '<p>Anu Sharma is an Intern at the GovLab. She has both a Masters and an undergraduate degree in computer science, is currently a first-year student at NYU Wagner. She has been a software engineer for eBay and Yahoo, a web developer for Oracle, and a product manager/marketing engineer for a technology start-up in India that provides location-based services. In addition, she is co-founded of an India-based non-profit organization that promotes community involvement in local social causes.</p>'
 
 - name: Anirudh Dinesh
   job: Research Assistant
@@ -85,7 +85,7 @@
 #     <p>Beth is the author of Wiki Government: How Technology Can Make Government Better, Democracy Stronger and Citizens More Powerful, which has also appeared in Arabic, Russian, Chinese and in an audio edition, and co-editor of The State of Play: Law, Games and Virtual Worlds. Her book Smart Citizens, Smarter State: The Technologies of Expertise and the Future of Governing was published by the Harvard University Press in 2015. She tweets <a href="https://twitter.com/bethnoveck" target="_blank">@bethnoveck</a> and writes on Medium <a href="https://medium.com/@bethnoveck" target="_blank">@bethnoveck</a>.</p>
 
 - name: Claudio Mendonca
-  job: Visual Designer
+  job: Creative Director
   bio: >
     <p>Claudio Mendonca is the Graphic Designer at the GovLab. Working as a visual communicator for more than 10 years, he earned his Bachelor’s degree in Graphic Design in 2005. He has extensive experience in branding and interaction design.</p>
     <p>Claudio’s previous experience includes 3 years developing graphical material for several government institutions in Brazil, publications and interface design for startups. He also designs webapps for the Centre of Direct Democracy and works as a design consultant for the World Bank Institute for several open gov projects such as Open Government, Open Contracting, Open Development and Technology Alliance.</p>
@@ -146,11 +146,11 @@
     <p>Jos Berens is a Visiting Fellow at The GovLab and the coordinator of the Data Governance Project, an international multidisciplinary collaboration between The GovLab, the World Economic Forum, and Leiden University. The collaboration focuses on building an expert network to solve questions regarding corporate data sharing for social good, especially in a development context. Working with a number of international organisations, the DGP looks at concrete issues in the data for development space. Based on the solutions found, the DGP is developing a framework for corporate data sharing for social good.</p>
     <p>Jos holds an LL.B in Dutch Law and a BA in Philosophy of a Specific Discipline, both obtained at Groningen University. He is currently pursuing an LL.M in Dutch Criminal Law and an LL.M in Public International Law, the former in Groningen and the latter at Utrecht University. He specialises in privacy issues and risk assessment regarding large scale data collection and use.</p>
 
-- name: Julia Chrusciel
-  job: Developer
-  bio: >
-    <p>Julia Chrusciel is a Developer at the GovLab, with experience in digital media both as a writer and technologist. While working as a journalist, she explored the evolution of social media platforms as an alternative to conventional media and as a vehicle for citizen journalism globally. Seeking to unite her interests in the democratization of media discourse and the technology that powers digital platforms, Julia learned several programming languages and began developing data-centric apps, including an interactive travel guide to Istanbul, and a Chicago neighborhood app for users searching for local attractions.</p>
-    <p>Prior to becoming a developer, Julia studied Turkish as a U.S. State Department Critical Language Scholar. She earned a B.A. in Anthropology and English from Wellesley College in 2010, where she focused on language and media in society.</p>
+# - name: Julia Chrusciel
+#   job: Developer
+#   bio: >
+#     <p>Julia Chrusciel is a Developer at the GovLab, with experience in digital media both as a writer and technologist. While working as a journalist, she explored the evolution of social media platforms as an alternative to conventional media and as a vehicle for citizen journalism globally. Seeking to unite her interests in the democratization of media discourse and the technology that powers digital platforms, Julia learned several programming languages and began developing data-centric apps, including an interactive travel guide to Istanbul, and a Chicago neighborhood app for users searching for local attractions.</p>
+#     <p>Prior to becoming a developer, Julia studied Turkish as a U.S. State Department Critical Language Scholar. She earned a B.A. in Anthropology and English from Wellesley College in 2010, where she focused on language and media in society.</p>
 
 - name: Julia Root
   job: Fellow
