@@ -703,7 +703,16 @@
   problem_statement: How can data be used to increase public safety and reduce incarceration?
   short_description: >
     <p>To accelerate trusted access to data for improved management of our criminal justice system, the Governance Lab with the support of the Laura and John Arnold Foundation, is working to articulate principles, policies, practices, and tools for trusted data sharing that safeguard civil liberties while maximizing the opportunity for evidence-based policy making and reform.  The goal of the project is to enable greater collaboration between government and the research community to the end of improving effectiveness and legitimacy of our nation’s criminal justice system.</p>
-  long_description:
+  long_description: >
+   <p>To accelerate trusted access to data for improved management of our criminal justice system, the Governance Lab with the support of the Laura and John Arnold Foundation, is working to articulate principles, policies, practices, and tools for trusted data sharing that safeguard civil liberties while maximizing the opportunity for evidence-based policy making and reform.  The goal of the project is to enable greater collaboration between government and the research community to the end of improving effectiveness and legitimacy of our nation’s criminal justice system.</p>
+   <p>
+    <ul>
+      <li><a href="static/files/DDCJ_outline.pdf">Program Outline</a></li>
+      <li><a href="static/files/agenda_1.pdf">1st Session Agenda</a></li>
+      <li><a href="static/files/agenda_2.pdf">2nd Session Agenda</a></li>
+      <li><a href="static/files/agenda_3.pdf">3rd Session Agenda</a></li>
+    </ul>
+   </p>
   background: >
     <p>Jurisdictions across the country have found success implementing new evidence-based practices to reduce jail and prison populations, link more people with effective treatment in their communities, and generate cost savings without corresponding increases in crime; yet challenges in collecting, sharing and analyzing data continue to present significant barriers to widespread adoption of proven reforms and stifle opportunities for new innovation.</p>
   social_media: #in the future we can have custom shareable messages for each project
