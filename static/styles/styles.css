@@ -2112,7 +2112,16 @@ button:focus {
 
 .b-fancy-bio .b-top-section {
   background-size: cover;
-  width: 100%; }
+  width: 100%;
+  padding-bottom: 1em; }
+  .b-fancy-bio .b-top-section a {
+    text-decoration: none;
+    padding: 0 10px;
+    color: rgba(255, 255, 255, 0.6);
+    transition: all .4s ease; }
+  .b-fancy-bio .b-top-section a:hover {
+    color: white;
+    transform: scale(1.4); }
 .b-fancy-bio .e-wrap {
   max-width: 1025px;
   margin-left: auto;
