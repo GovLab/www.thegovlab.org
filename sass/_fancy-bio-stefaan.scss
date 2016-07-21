@@ -1,192 +1,192 @@
 .b-fancy-bio-stefaan {
-    .b-top-section {
-        background-size: cover;
-        width: 100%;
-    }
-
-    .e-wrap {
-        @include wrap;
-    }
-
-    h1 {
-        margin: 0;
-        font-weight: 100;
-        color: $white;
-    }
-
-    h2 {
-        margin: 0 0 20px 0;
-        font-weight: 400;
-        color: $white;
-    }
-
-    // .e-info {
-    //     text-align: left;
-    //     display: flex;
-    // }
-
-    // .e-links { margin: 20px 0; }
-    // .e-names { flex: 1; }
-
-    .e-bio-section {
-        padding: 50px 0;
-        position: relative;
-
-        .e-wrap {
-            display: flex;
-            // max-width: 850px;
-            @include breakpoint($mobile-only) {
-                display: block;
-                padding: 0 10px;
-            }
-        }
-
-        .e-main-content {
-            flex: 1;
-        }
-
-        aside {
-            text-align: right;
-            padding-right: 80px;
-            max-width: 300px;
-
-            @include breakpoint($mobile-only) {
-                text-align: left;
-            }
-
-            ul {
-                @include breakpoint($mobile-only) {
-                    padding: 0 0 40px 0;
-                }
-            }
-
-            li {
-                list-style: none;
-            }
-        }
-
-        .e-more-content {
-            ul {
-                padding: 0;
-            }
-
-            li {
-                padding: 10px 0;
-                list-style-type: none;
-                border-bottom: 1px solid $gray-10;
-                font-size: 14px;
-            }
-        }
-
-        .e-twitter {
-
-        }
-
-        .e-books {
-            list-style: none;
-            -webkit-padding-start: 0;
-            text-align: right;
-
-            li {
-                display: inline-block;
-                padding: 0;
-                position: relative;
-
-                figure {
-                    color: $white;
-                    box-shadow: 0 0 12px $gray-10;
-                    margin: 10px 0;
-
-                    .e-image {
-                        background-size: contain;
-                        background-position: center center;
-                        background-repeat: no-repeat;
-                        height: 180px;
-                        width: 120px;
-                        &:hover {
-                            transform: scale(1.2,1.2);
-                            @include transition;
-                        }
-                        @include transition;
-                    }
-
-                    .e-dark-panel {
-                        text-align: left;
-                        display: block;
-                        padding: 10px;
-                        opacity: 0;
-                        width: 100%;
-                        height: 100%;
-                        background-color: $gray-50;
-                        z-index: 999;
-                        &:hover {
-                            color: $white;
-                            opacity: 1;
-                            @include transition;
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-
-#stefaan-page-temp {
-    .b-top-nav {
-        background-color: $purple;
-    }
-
-    .b-top-section {
-        text-align: center;
-        background-color: $black;
-
-        .e-info {
-            position: relative;
-            padding-bottom: 30px;
-        }
-
-        .e-links {
-            position: absolute;
-            right: 0;
-        }
-
-        .b-social-media {
-            background-color: $white-10;
-            color: $white;
-            margin-left: 15px;
-        }
-
-    }
-
-    .e-pic {
-        background-image: url("../img/team/stefaan-verhulst.jpg");
-        background-size: cover;
-        background-position: center top;
-        @include circle;
-        width: 240px;
-        height: 240px;
-        margin-top:50px;
-        display: inline-block;
-        box-shadow: 0 0 10px $gray-60;
-    }
-}
-
-// #beth-page {
-//     .b-top-nav {
-//         background-color: $gray-40;
-//     }
-
-//     .b-top-section {
-//         background-image: url("../img/team/beth-simone-noveck.jpg");
-//         padding-top: 64vh;
-//     }
-// }
-
-.b-social-media {
-    @include circle;
-    background-color: $purple;
-    padding: 12px 18px;
-    color: $white;
-    display: inline-block;
-}
+     .b-top-section {
+         background-size: cover;
+         width: 100%;
+     }
+ 
+     .e-wrap {
+         @include wrap;
+     }
+ 
+     h1 {
+         margin: 0;
+         font-weight: 100;
+         color: $white;
+     }
+ 
+     h2 {
+         margin: 0 0 20px 0;
+         font-weight: 400;
+         color: $white;
+     }
+ 
+     // .e-info {
+     //     text-align: left;
+     //     display: flex;
+     // }
+ 
+     // .e-links { margin: 20px 0; }
+     // .e-names { flex: 1; }
+ 
+     .e-bio-section {
+         padding: 50px 0;
+         position: relative;
+ 
+         .e-wrap {
+             display: flex;
+             // max-width: 850px;
+             @include breakpoint($mobile-only) {
+                 display: block;
+                 padding: 0 10px;
+             }
+         }
+ 
+         .e-main-content {
+             flex: 1;
+         }
+ 
+         aside {
+             text-align: right;
+             padding-right: 80px;
+             max-width: 300px;
+ 
+             @include breakpoint($mobile-only) {
+                 text-align: left;
+             }
+ 
+             ul {
+                 @include breakpoint($mobile-only) {
+                     padding: 0 0 40px 0;
+                 }
+             }
+ 
+             li {
+                 list-style: none;
+             }
+         }
+ 
+         .e-more-content {
+             ul {
+                 padding: 0;
+             }
+ 
+             li {
+                 padding: 10px 0;
+                 list-style-type: none;
+                 border-bottom: 1px solid $gray-10;
+                 font-size: 14px;
+             }
+         }
+ 
+         .e-twitter {
+ 
+         }
+ 
+         .e-books {
+             list-style: none;
+             -webkit-padding-start: 0;
+             text-align: right;
+ 
+             li {
+                 display: inline-block;
+                 padding: 0;
+                 position: relative;
+ 
+                 figure {
+                     color: $white;
+                     box-shadow: 0 0 12px $gray-10;
+                     margin: 10px 0;
+ 
+                     .e-image {
+                         background-size: contain;
+                         background-position: center center;
+                         background-repeat: no-repeat;
+                         height: 180px;
+                         width: 120px;
+                         &:hover {
+                             transform: scale(1.2,1.2);
+                             @include transition;
+                         }
+                         @include transition;
+                     }
+ 
+                     .e-dark-panel {
+                         text-align: left;
+                         display: block;
+                         padding: 10px;
+                         opacity: 0;
+                         width: 100%;
+                         height: 100%;
+                         background-color: $gray-50;
+                         z-index: 999;
+                         &:hover {
+                             color: $white;
+                             opacity: 1;
+                             @include transition;
+                         }
+                     }
+                 }
+             }
+         }
+     }
+ }
+ 
+ 
+ #stefaan-page-temp {
+     .b-top-nav {
+         background-color: $purple;
+     }
+ 
+     .b-top-section {
+         text-align: center;
+         background-color: $black;
+ 
+         .e-info {
+             position: relative;
+             padding-bottom: 30px;
+         }
+ 
+         .e-links {
+             position: absolute;
+             right: 0;
+         }
+ 
+         .b-social-media {
+             background-color: $white-10;
+             color: $white;
+             margin-left: 15px;
+         }
+ 
+     }
+ 
+     .e-pic {
+         background-image: url("../img/team/stefaan-verhulst.jpg");
+         background-size: cover;
+         background-position: center top;
+         @include circle;
+         width: 240px;
+         height: 240px;
+         margin-top:50px;
+         display: inline-block;
+         box-shadow: 0 0 10px $gray-60;
+     }
+ }
+ 
+ // #beth-page {
+ //     .b-top-nav {
+ //         background-color: $gray-40;
+ //     }
+ 
+ //     .b-top-section {
+ //         background-image: url("../img/team/beth-simone-noveck.jpg");
+ //         padding-top: 64vh;
+ //     }
+ // }
+ 
+ .b-social-media {
+     @include circle;
+     background-color: $purple;
+     padding: 12px 18px;
+     color: $white;
+     display: inline-block;
+ } 

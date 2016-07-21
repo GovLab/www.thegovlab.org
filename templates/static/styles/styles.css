@@ -2235,6 +2235,122 @@ button:focus {
   color: white;
   display: inline-block; }
 
+.b-fancy-bio-stefaan .b-top-section {
+  background-size: cover;
+  width: 100%; }
+.b-fancy-bio-stefaan .e-wrap {
+  max-width: 1025px;
+  margin-left: auto;
+  margin-right: auto; }
+.b-fancy-bio-stefaan h1 {
+  margin: 0;
+  font-weight: 100;
+  color: white; }
+.b-fancy-bio-stefaan h2 {
+  margin: 0 0 20px 0;
+  font-weight: 400;
+  color: white; }
+.b-fancy-bio-stefaan .e-bio-section {
+  padding: 50px 0;
+  position: relative; }
+  .b-fancy-bio-stefaan .e-bio-section .e-wrap {
+    display: flex; }
+    @media (max-width: 800px) {
+      .b-fancy-bio-stefaan .e-bio-section .e-wrap {
+        display: block;
+        padding: 0 10px; } }
+  .b-fancy-bio-stefaan .e-bio-section .e-main-content {
+    flex: 1; }
+  .b-fancy-bio-stefaan .e-bio-section aside {
+    text-align: right;
+    padding-right: 80px;
+    max-width: 300px; }
+    @media (max-width: 800px) {
+      .b-fancy-bio-stefaan .e-bio-section aside {
+        text-align: left; } }
+    @media (max-width: 800px) {
+      .b-fancy-bio-stefaan .e-bio-section aside ul {
+        padding: 0 0 40px 0; } }
+    .b-fancy-bio-stefaan .e-bio-section aside li {
+      list-style: none; }
+  .b-fancy-bio-stefaan .e-bio-section .e-more-content ul {
+    padding: 0; }
+  .b-fancy-bio-stefaan .e-bio-section .e-more-content li {
+    padding: 10px 0;
+    list-style-type: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 14px; }
+  .b-fancy-bio-stefaan .e-bio-section .e-books {
+    list-style: none;
+    -webkit-padding-start: 0;
+    text-align: right; }
+    .b-fancy-bio-stefaan .e-bio-section .e-books li {
+      display: inline-block;
+      padding: 0;
+      position: relative; }
+      .b-fancy-bio-stefaan .e-bio-section .e-books li figure {
+        color: white;
+        box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+        margin: 10px 0; }
+        .b-fancy-bio-stefaan .e-bio-section .e-books li figure .e-image {
+          background-size: contain;
+          background-position: center center;
+          background-repeat: no-repeat;
+          height: 180px;
+          width: 120px;
+          transition: all .4s ease; }
+          .b-fancy-bio-stefaan .e-bio-section .e-books li figure .e-image:hover {
+            transform: scale(1.2, 1.2);
+            transition: all .4s ease; }
+        .b-fancy-bio-stefaan .e-bio-section .e-books li figure .e-dark-panel {
+          text-align: left;
+          display: block;
+          padding: 10px;
+          opacity: 0;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(0, 0, 0, 0.5);
+          z-index: 999; }
+          .b-fancy-bio-stefaan .e-bio-section .e-books li figure .e-dark-panel:hover {
+            color: white;
+            opacity: 1;
+            transition: all .4s ease; }
+
+#stefaan-page-temp .b-top-nav {
+  background-color: #523080; }
+#stefaan-page-temp .b-top-section {
+  text-align: center;
+  background-color: #333; }
+  #stefaan-page-temp .b-top-section .e-info {
+    position: relative;
+    padding-bottom: 30px; }
+  #stefaan-page-temp .b-top-section .e-links {
+    position: absolute;
+    right: 0; }
+  #stefaan-page-temp .b-top-section .b-social-media {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    margin-left: 15px; }
+#stefaan-page-temp .e-pic {
+  background-image: url("../img/team/stefaan-verhulst.jpg");
+  background-size: cover;
+  background-position: center top;
+  overflow: hidden;
+  border-radius: 50%;
+  width: 240px;
+  height: 240px;
+  margin-top: 50px;
+  display: inline-block;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6); }
+
+.b-social-media {
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: #523080;
+  padding: 12px 18px;
+  color: white;
+  display: inline-block; }
+
 .e-card-sg {
   display: inline-block; }
   .e-card-sg .e-card-inner-sg {
