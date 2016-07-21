@@ -456,7 +456,13 @@
     <p>There is possibly no more important public issue today than how to enable our governing organizations to recognize and implement innovative and effective solutions to problems. Administrations that are supposed to solve critical problems on their own are inadequate for a complex, networked world. Governments need to learn to make use of the expertise of others — formal scientific knowledge and credentials, skills and experiences inside and outside of government — to tackle the challenges society will face in the coming years.</p>
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
-    - network-of-innovators-1.jpg
+    - noi-home-1.png
+    - noi-home-2.png 
+    - noi-newsfeed-1.png
+    - noi-newsfeed-2.png
+    - noi-event-results.png
+    - noi-profile-badge.png
+    - noi-discuss.png
   results: >
     <p>This project is still in its infancy with deployments of the platform in eight countries anticipated during 2015. The anticipated impact, however, is greater understanding and demonstration of how targeting people -- in this case government employees -- on the basis of their skills can accelerate innovation.</p>
   related_articles:
