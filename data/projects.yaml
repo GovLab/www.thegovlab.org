@@ -1,4 +1,65 @@
 
+- title: Data Driven Criminal Justice #will generate slug from this attr
+  type: 'Data' # Data, Collective Intelligence or Design Thinking
+  is_featured: 1 #integer
+  is_active: True
+  related_question: 1
+  project_website: #url
+  location:
+    - United States
+  partners:
+    - White House Office of Science and Technology Policy
+    - Laura and John Arnold Foundation
+  team:
+    - Ana Tovar
+    - Beth Simone Noveck
+    - Christopher Wong
+    - Dinorah Cantú
+  tags:
+    governance_area:
+      - National Governance
+    type_of_institution:
+      - Public Sector
+    innovative_capability:
+      - Open data
+      - Big data
+      - Collective Intelligence
+      - Expert networks
+      - Open innovation
+      - Agile Research
+    product_category:
+      - mapping
+      - policy or law
+      - strategy
+  status: define # define, prototype, test, complete
+  problem_statement: How can data be used to increase public safety and reduce incarceration?
+  short_description: >
+    <p>To accelerate trusted access to data for improved management of our criminal justice system, the Governance Lab with the support of the Laura and John Arnold Foundation, is working to articulate principles, policies, practices, and tools for trusted data sharing that safeguard civil liberties while maximizing the opportunity for evidence-based policy making and reform.  The goal of the project is to enable greater collaboration between government and the research community to the end of improving effectiveness and legitimacy of our nation’s criminal justice system.</p>
+  long_description: >
+   <p>To accelerate trusted access to data for improved management of our criminal justice system, the Governance Lab with the support of the Laura and John Arnold Foundation, is working to articulate principles, policies, practices, and tools for trusted data sharing that safeguard civil liberties while maximizing the opportunity for evidence-based policy making and reform.  The goal of the project is to enable greater collaboration between government and the research community to the end of improving effectiveness and legitimacy of our nation’s criminal justice system.</p>
+   <p>
+      <a href="static/files/DDCJ_outline.pdf">Program Outline</a><br>
+      <a href="static/files/agenda_1.pdf">1st Session Agenda</a><br>
+      <a href="static/files/agenda_2.pdf">2nd Session Agenda</a><br>
+      <a href="static/files/agenda_3.pdf">3rd Session Agenda</a>
+   </p>
+  background: >
+    <p>Jurisdictions across the country have found success implementing new evidence-based practices to reduce jail and prison populations, link more people with effective treatment in their communities, and generate cost savings without corresponding increases in crime; yet challenges in collecting, sharing and analyzing data continue to present significant barriers to widespread adoption of proven reforms and stifle opportunities for new innovation.</p>
+  social_media: #in the future we can have custom shareable messages for each project
+  images: #images or screenshots of the project
+  results:
+  related_articles:
+    - name: One-Pager
+      url: "static/files/criminal-justice-one-pager-web.pdf"
+    - name: Criminal Justice & Social Service Data Sharing Questionnaire (October 2015)
+      url: "http://govlab.typeform.com/to/qPeday"
+    - name: Toward a New Paradigm - Results of Surveys on Data Sharing and Data Readiness
+      url: "static/files/data-sharing-survey-results-web.pdf"
+
+
+# ==========================================================================================================================================================================================================================================#
+
+
 - title: Open Data for Developing Economies  #will generate slug from this attr
   type: 'Data' # Data, Collective Intelligence or Design Thinking
   is_featured: 1 #integer
@@ -669,66 +730,6 @@
     - name: Is Crowdsourcing the right tool for your project?
       url: "http://thegovlab.org/is-crowdsourcing-the-right-tool-for-your-project/"
 
-
-# ==========================================================================================================================================================================================================================================#
-
-
-- title: Data Driven Criminal Justice #will generate slug from this attr
-  type: 'Data' # Data, Collective Intelligence or Design Thinking
-  is_featured: 0 #integer
-  is_active: True
-  related_question: 1
-  project_website: #url
-  location:
-    - United States
-  partners:
-    - White House Office of Science and Technology Policy
-    - Laura and John Arnold Foundation
-  team:
-    - Ana Tovar
-    - Beth Simone Noveck
-    - Christopher Wong
-    - Dinorah Cantú
-  tags:
-    governance_area:
-      - National Governance
-    type_of_institution:
-      - Public Sector
-    innovative_capability:
-      - Open data
-      - Big data
-      - Collective Intelligence
-      - Expert networks
-      - Open innovation
-      - Agile Research
-    product_category:
-      - mapping
-      - policy or law
-      - strategy
-  status: define # define, prototype, test, complete
-  problem_statement: How can data be used to increase public safety and reduce incarceration?
-  short_description: >
-    <p>To accelerate trusted access to data for improved management of our criminal justice system, the Governance Lab with the support of the Laura and John Arnold Foundation, is working to articulate principles, policies, practices, and tools for trusted data sharing that safeguard civil liberties while maximizing the opportunity for evidence-based policy making and reform.  The goal of the project is to enable greater collaboration between government and the research community to the end of improving effectiveness and legitimacy of our nation’s criminal justice system.</p>
-  long_description: >
-   <p>To accelerate trusted access to data for improved management of our criminal justice system, the Governance Lab with the support of the Laura and John Arnold Foundation, is working to articulate principles, policies, practices, and tools for trusted data sharing that safeguard civil liberties while maximizing the opportunity for evidence-based policy making and reform.  The goal of the project is to enable greater collaboration between government and the research community to the end of improving effectiveness and legitimacy of our nation’s criminal justice system.</p>
-   <p>
-      <a href="static/files/DDCJ_outline.pdf">Program Outline</a><br>
-      <a href="static/files/agenda_1.pdf">1st Session Agenda</a><br>
-      <a href="static/files/agenda_2.pdf">2nd Session Agenda</a><br>
-      <a href="static/files/agenda_3.pdf">3rd Session Agenda</a>
-   </p>
-  background: >
-    <p>Jurisdictions across the country have found success implementing new evidence-based practices to reduce jail and prison populations, link more people with effective treatment in their communities, and generate cost savings without corresponding increases in crime; yet challenges in collecting, sharing and analyzing data continue to present significant barriers to widespread adoption of proven reforms and stifle opportunities for new innovation.</p>
-  social_media: #in the future we can have custom shareable messages for each project
-  images: #images or screenshots of the project
-  results:
-  related_articles:
-    - name: One-Pager
-      url: "static/files/criminal-justice-one-pager-web.pdf"
-    - name: Criminal Justice & Social Service Data Sharing Questionnaire (October 2015)
-      url: "http://govlab.typeform.com/to/qPeday"
-    - name: Toward a New Paradigm - Results of Surveys on Data Sharing and Data Readiness
-      url: "static/files/data-sharing-survey-results-web.pdf"
 
 # ==========================================================================================================================================================================================================================================#
 
@@ -1464,7 +1465,7 @@
 
 - title: Open Innovation for Solving Public Problems
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
-  is_featured: 1 #integer
+  is_featured: 0 #integer
   is_active: True
   related_question: 3 #question
   project_website:  http://www.thegovlab.org/projects.html #url
