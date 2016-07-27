@@ -70,8 +70,8 @@
     - Global
   partners:
     - Web Foundation
-    - <a href="https://mstarproject.wordpress.com/">Mobile Solutions, Technical Assistance and Research (mSTAR)</a> 
-    - Program funded by the <a href="https://www.usaid.gov/GlobalDevLab">Global Development Lab at the United States Agency for International Development</a> (USAID)
+    - Mobile Solutions, Technical Assistance and Research (mSTAR)
+    - Program funded by the Global Development Lab at the United States Agency for International Development (USAID)
 
   team:
     - Stefaan Verhulst
@@ -95,6 +95,18 @@
   long_description: >
     <p>This project seeks to build an evidence base identifying: a) the conditions under which open data is most (and least) effective in the development process; b) strategies to maximize the positive contributions of open data to development; and c) means for limiting open data’s harms on developing countries.</p>
     <p>Toward that end, we are landscaping the current field of research investigating the value of open data in low and middle income contexts and developing a collection of  in-depth, illustrative and detailed case studies to better understand how developing countries are responding to public demand to open their data, who is making use of that data and for what, and what impact it is having in several key domains.</p>
+    <h4>Advisory Board Members:</h4>
+    <ul>
+      <li>Izabela Corrêa, Former Coordinator for the Promotion of Ethics, Transparency, and Integrity, Directorate for Corruption Prevention, Brazil</li>
+      <li>Elena Ignatova, BlueSquare</li>
+      <li>André Laperrière, Executive Director, Global Open Data Initiative for Agriculture and Nutrition (GODAN)</li>
+      <li>Maurice McNaughton, Director of the Centre of Excellence for IT Enabled Innovation, Mona School of Business and Management, University of the West Indies, Jamaica</li>
+      <li>Jean Philbert Nsengimana, Minister of Youth and Information Communication Technology, Rwanda</li>
+      <li>David Selassie Opoku, Africa Open Data Challenge Co-ordinator, Open Knowledge International</li>
+      <li>Fernando Perini, International Development Research Center, Canada</li>
+      <li>Nii Narku Quaynor, Chairman, Network Computer Systems, Ghana</li>
+      <li>Nicole Stremlau, Programme in Comparative Media Law and Policy, University of Oxford, UK</li>
+    </ul>
   background: >
     <p>Recent years have witnessed considerable speculation about the potential of open data to bring about wide-scale transformation. The bulk of existing evidence about the impact of open data, however, focuses on high-income countries. Much less is known about open data’s role and value in low- and middle-income countries, and more generally about its possible contributions to economic and social development. The field lacks a coherent Theory of Change for how and in what contexts open data supports or hampers development.</p>
   social_media: #in the future we can have custom shareable messages for each project
