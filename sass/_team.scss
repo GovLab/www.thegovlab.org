@@ -83,23 +83,36 @@
         height: auto;
         @include transition;
 
-        .b-button.m-less { display: none; }
+        .m-less { display: none; }
+        .b-button.m-hide { display: none; }
+        .e-project { display: none; }
 
         &.m-active {
             max-height: 4000px;
             @include transition;
 
-            .b-button.m-more { display: none; }
-            .b-button.m-less { display: inline-block; }
+            .m-more { display: none; }
+            .m-less { display: inline-block; }
+        }
+
+        &.m-show {
+            max-height: 4000px;
+            @include transition;
+
+            .e-project { display: block; }
+
+            .b-button.m-show{ display: none;}
+            .b-button.m-hide { display: inline-block; }
         }
 
         p { margin-bottom: 15px; }
 
         p:not(:first-of-type) { display: none; }
 
-        p:only-of-type ~ .b-button { display: none; }
+        p:only-of-type ~ .m-more { display: none; }
 
         &.m-active p { display: block; }
+        &.m-active span { display: none; }
 
         .b-button { color: $purple; }
     }
@@ -220,7 +233,6 @@
 }
 
 #beth-simone-noveck, #stefaan-verhulst {
-    .b-button {
-        display: inline-block;
-    }
+
+    .b-button { display: inline-block; }
 }
