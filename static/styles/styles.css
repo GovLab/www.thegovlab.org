@@ -1833,23 +1833,38 @@ button:focus {
       @media (max-width: 800px) {
         .b-team .e-team-member .e-bio {
           max-height: 1000px; } }
-      .b-team .e-team-member .e-bio .b-button.m-less {
+      .b-team .e-team-member .e-bio .m-less {
+        display: none; }
+      .b-team .e-team-member .e-bio .b-button.m-hide {
+        display: none; }
+      .b-team .e-team-member .e-bio .e-project {
         display: none; }
       .b-team .e-team-member .e-bio.m-active {
         max-height: 4000px;
         transition: all .4s ease; }
-        .b-team .e-team-member .e-bio.m-active .b-button.m-more {
+        .b-team .e-team-member .e-bio.m-active .m-more {
           display: none; }
-        .b-team .e-team-member .e-bio.m-active .b-button.m-less {
+        .b-team .e-team-member .e-bio.m-active .m-less {
+          display: inline-block; }
+      .b-team .e-team-member .e-bio.m-show {
+        max-height: 4000px;
+        transition: all .4s ease; }
+        .b-team .e-team-member .e-bio.m-show .e-project {
+          display: block; }
+        .b-team .e-team-member .e-bio.m-show .b-button.m-show {
+          display: none; }
+        .b-team .e-team-member .e-bio.m-show .b-button.m-hide {
           display: inline-block; }
       .b-team .e-team-member .e-bio p {
         margin-bottom: 15px; }
       .b-team .e-team-member .e-bio p:not(:first-of-type) {
         display: none; }
-      .b-team .e-team-member .e-bio p:only-of-type ~ .b-button {
+      .b-team .e-team-member .e-bio p:only-of-type ~ .m-more {
         display: none; }
       .b-team .e-team-member .e-bio.m-active p {
         display: block; }
+      .b-team .e-team-member .e-bio.m-active span {
+        display: none; }
       .b-team .e-team-member .e-bio .b-button {
         color: #523080; }
   .b-team .e-team-picture {

@@ -56,6 +56,11 @@ $(document).ready(function($) {
         $(this).parent().toggleClass('m-active');
     })
 
+    $('.js-project-toggle').click(function() {
+        $(this).parent().toggleClass('m-show');
+    })
+
+
 
     // Search
     $('.js-search-submit').click(function(event) {
