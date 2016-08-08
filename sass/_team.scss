@@ -84,8 +84,10 @@
         @include transition;
 
         .b-button.m-less { display: none; }
-        .b-button.m-hide { display: none; }
-        .b-button.m-hide { margin-bottom: 10px; }
+        .b-button.m-hide { 
+            display: none; 
+            margin-bottom: 10px; 
+        }
         .e-project { 
             display: none; 
             padding: 10px;
