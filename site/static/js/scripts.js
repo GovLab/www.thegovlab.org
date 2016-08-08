@@ -61,11 +61,11 @@ $(document).ready(function($) {
     })
 
     $('.js-articles-toggle').click(function() {
-        $(this).parent().toggleClass('m-expand');
+        $(this).parent().parent().toggleClass('m-expand');
     })
 
     $('.js-resources-toggle').click(function() {
-        $(this).parent().toggleClass('m-display');
+        $(this).parent().parent().toggleClass('m-display');
     })
 
 
