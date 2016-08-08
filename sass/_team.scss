@@ -84,6 +84,22 @@
         @include transition;
 
         .b-button.m-less { display: none; }
+        .b-button.m-hide { display: none; }
+        .b-button.m-hide { margin-bottom: 10px; }
+        .e-project { 
+            display: none; 
+            padding: 10px;
+            border-bottom: 1px solid $gray-10;
+            cursor: pointer;
+            
+            &:hover {
+                background-color: $gray-05;
+            }
+
+            &:last-child {
+                border-bottom: none;
+            }
+        }
 
         &.m-active {
             max-height: 4000px;
@@ -93,11 +109,21 @@
             .b-button.m-less { display: inline-block; }
         }
 
+        &.m-show {
+            max-height: 4000px;
+            @include transition;
+
+            .e-project { display: block; }
+
+            .b-button.m-show{ display: none;}
+            .b-button.m-hide { display: inline-block; }
+        }
+
         p { margin-bottom: 15px; }
 
         p:not(:first-of-type) { display: none; }
 
-        p:only-of-type ~ .b-button { display: none; }
+        p:only-of-type ~ .m-more { display: none; }
 
         &.m-active p { display: block; }
 
@@ -219,8 +245,7 @@
     }
 }
 
-#beth-simone-noveck, #stefaan-verhulst {
-    .b-button {
-        display: inline-block;
-    }
-}
+// #beth-simone-noveck, #stefaan-verhulst {
+
+    // .b-button { display: inline-block; }
+// }

@@ -1835,6 +1835,19 @@ button:focus {
           max-height: 1000px; } }
       .b-team .e-team-member .e-bio .b-button.m-less {
         display: none; }
+      .b-team .e-team-member .e-bio .b-button.m-hide {
+        display: none; }
+      .b-team .e-team-member .e-bio .b-button.m-hide {
+        margin-bottom: 10px; }
+      .b-team .e-team-member .e-bio .e-project {
+        display: none;
+        padding: 10px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        cursor: pointer; }
+        .b-team .e-team-member .e-bio .e-project:hover {
+          background-color: rgba(0, 0, 0, 0.05); }
+        .b-team .e-team-member .e-bio .e-project:last-child {
+          border-bottom: none; }
       .b-team .e-team-member .e-bio.m-active {
         max-height: 4000px;
         transition: all .4s ease; }
@@ -1842,11 +1855,20 @@ button:focus {
           display: none; }
         .b-team .e-team-member .e-bio.m-active .b-button.m-less {
           display: inline-block; }
+      .b-team .e-team-member .e-bio.m-show {
+        max-height: 4000px;
+        transition: all .4s ease; }
+        .b-team .e-team-member .e-bio.m-show .e-project {
+          display: block; }
+        .b-team .e-team-member .e-bio.m-show .b-button.m-show {
+          display: none; }
+        .b-team .e-team-member .e-bio.m-show .b-button.m-hide {
+          display: inline-block; }
       .b-team .e-team-member .e-bio p {
         margin-bottom: 15px; }
       .b-team .e-team-member .e-bio p:not(:first-of-type) {
         display: none; }
-      .b-team .e-team-member .e-bio p:only-of-type ~ .b-button {
+      .b-team .e-team-member .e-bio p:only-of-type ~ .m-more {
         display: none; }
       .b-team .e-team-member .e-bio.m-active p {
         display: block; }
@@ -1928,9 +1950,6 @@ button:focus {
     font-size: 14px;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.4); }
-
-#beth-simone-noveck .b-button, #stefaan-verhulst .b-button {
-  display: inline-block; }
 
 .b-about-landing {
   background-color: #523080;
