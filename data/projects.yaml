@@ -14,6 +14,7 @@
     - Ana Tovar
     - Anirudh Dinesh
     - Beth Simone Noveck
+    - Batu Sayici
     - Christopher Wong
     - Dinorah Cantú
     - Denny Tek
@@ -260,7 +261,10 @@
     # - Alan Kantrow
     - Dinorah Cantú
     - Denny Tek
+    - Christopher Wong
+    - Claudio Mendonca
     - Anna Bialas
+
   tags:
     governance_area:
       - National Governance
@@ -448,6 +452,10 @@
     - Julia Root
     - John Krauss
     - Denny Tek
+    - David Naffis
+    - Christopher Wong
+    - Claudio Mendonca
+    - Mark Adkins-Hastings
   tags:
     governance_area:
       - National Governance
@@ -512,6 +520,8 @@
     - Christopher Wong
     - Atul Varma
     - David Naffis
+    - Mark Adkins-Hastings
+    - Anna Bialas
   tags:
     governance_area:
       - Regional Governance
@@ -619,6 +629,7 @@
     - Christopher Wong
     - Claudio Mendonca
     - Anna Bialas
+    - Mark Adkins-Hastings
   tags:
     governance_area:
       - National Governance
@@ -1276,7 +1287,10 @@
     - Andrew Young
     - Anirudh Dinesh
     - Beth Simone Noveck
+    - Christopher Wong
+    - Claudio Mendonca
     - María Hermosilla
+    - Mark Adkins-Hastings
   tags:
     governance_area:
         - Regional Governance
