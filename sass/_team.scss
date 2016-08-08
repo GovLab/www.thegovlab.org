@@ -83,16 +83,30 @@
         height: auto;
         @include transition;
 
-        .m-less { display: none; }
+        .b-button.m-less { display: none; }
         .b-button.m-hide { display: none; }
-        .e-project { display: none; }
+        .b-button.m-hide { margin-bottom: 10px; }
+        .e-project { 
+            display: none; 
+            padding: 10px;
+            border-bottom: 1px solid $gray-10;
+            cursor: pointer;
+            
+            &:hover {
+                background-color: $gray-05;
+            }
+
+            &:last-child {
+                border-bottom: none;
+            }
+        }
 
         &.m-active {
             max-height: 4000px;
             @include transition;
 
-            .m-more { display: none; }
-            .m-less { display: inline-block; }
+            .b-button.m-more { display: none; }
+            .b-button.m-less { display: inline-block; }
         }
 
         &.m-show {
@@ -112,7 +126,6 @@
         p:only-of-type ~ .m-more { display: none; }
 
         &.m-active p { display: block; }
-        &.m-active span { display: none; }
 
         .b-button { color: $purple; }
     }
@@ -232,7 +245,7 @@
     }
 }
 
-#beth-simone-noveck, #stefaan-verhulst {
+// #beth-simone-noveck, #stefaan-verhulst {
 
-    .b-button { display: inline-block; }
-}
+    // .b-button { display: inline-block; }
+// }

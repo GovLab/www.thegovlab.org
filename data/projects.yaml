@@ -1375,58 +1375,58 @@
 
 # ==========================================================================================================================================================================================================================================#
 
-- title: GovLab Open Source #will generate slug from this attr
-  type: 'Data' # Data, Collective Intelligence or Design Thinking
-  # is_featured: 1 #integer
-  is_active: True
-  # related_question: 1 #question
-  project_website: https://github.com/GovLab/govlab-opensource
-  location:
-    # - global
-  partners:
-  team:
-    - Christopher Wong
-    - Claudio Mendonca
-    - Batu Sayici
-    - Mark Adkins-Hastings
-    - Julia Chrusciel
-    - Denny Tek
-    - Anna Bialas
-    - Andrew Young
-    - Dinorah Cantu
-  tags:
-    # governance_area:
-    #     - national governance
-    #     - regional governance
-    # type_of_institution:
-    #     - public sector
-    #     - nonprofit
-    # innovative_capability:
-    #     - open data
-    # product_category:
-    #     - database
-    #     - dataset
-    #     - platform
-  status: complete # define, prototype, test, complete
-  problem_statement:  " " #question
-  short_description:
-  long_description: >
-    <p>The GovLab is proud to develop our products as open source projects and reuse of our code is encouraged, though we ask that you observe our usage guidelines:
-    <ol>
-    <li>GovLab code may only be used for non-commercial purposes.</li>
-    <li>Please include the following attribution on your project/website:</li>
-    “The code for this platform was originally developed for the [Name of the GovLab Project and link to project] and is available for reuse [link to relevant GovLab Github repo] courtesy of the GovLab [link to GovLab] [and link to other partners if involved].”
-    <li>Include the <a href="https://github.com/GovLab/govlab-opensource">Powered by GovLab Open Source</a> banner in your project/website footer and link through to the GovLab Open Source project page.</li>
-    <li>We strongly encourage changing the color palette used in our project code in order to suit your needs and help you differentiate your work from ours.</li>
-    </ol>
-    </p>
-  background: >
-    <p>In keeping with the spirit of openness and collaboration that defines the field of open governance, GovLab Open Source makes accessible the source code of a variety of GovLab technical products. From institutional collaboration platforms to dissemination mechanisms for original research publications, the GovLab’s original technologies can be forked and redeployed through the open source platform GitHub. Through this effort we aim both to amplify the reach and impact of the GovLab’s development efforts, and to provide the field with free, flexible tech solutions for a broad variety of projects, regardless of any direct affiliation with the GovLab.</p>
-  social_media: #in the future we can have custom shareable messages for each project
-  images:
-    - govlab-opensource.png #images or screenshots of the project
-  results:
-  related_articles:
+# - title: GovLab Open Source #will generate slug from this attr
+#   type: 'Data' # Data, Collective Intelligence or Design Thinking
+#   # is_featured: 1 #integer
+#   is_active: True
+#   # related_question: 1 #question
+#   project_website: https://github.com/GovLab/govlab-opensource
+#   location:
+#     # - global
+#   partners:
+#   team:
+#     - Christopher Wong
+#     - Claudio Mendonca
+#     - Batu Sayici
+#     - Mark Adkins-Hastings
+#     - Julia Chrusciel
+#     - Denny Tek
+#     - Anna Bialas
+#     - Andrew Young
+#     - Dinorah Cantu
+#   tags:
+#     # governance_area:
+#     #     - national governance
+#     #     - regional governance
+#     # type_of_institution:
+#     #     - public sector
+#     #     - nonprofit
+#     # innovative_capability:
+#     #     - open data
+#     # product_category:
+#     #     - database
+#     #     - dataset
+#     #     - platform
+#   status: complete # define, prototype, test, complete
+#   problem_statement:  " " #question
+#   short_description:
+#   long_description: >
+#     <p>The GovLab is proud to develop our products as open source projects and reuse of our code is encouraged, though we ask that you observe our usage guidelines:
+#     <ol>
+#     <li>GovLab code may only be used for non-commercial purposes.</li>
+#     <li>Please include the following attribution on your project/website:</li>
+#     “The code for this platform was originally developed for the [Name of the GovLab Project and link to project] and is available for reuse [link to relevant GovLab Github repo] courtesy of the GovLab [link to GovLab] [and link to other partners if involved].”
+#     <li>Include the <a href="https://github.com/GovLab/govlab-opensource">Powered by GovLab Open Source</a> banner in your project/website footer and link through to the GovLab Open Source project page.</li>
+#     <li>We strongly encourage changing the color palette used in our project code in order to suit your needs and help you differentiate your work from ours.</li>
+#     </ol>
+#     </p>
+#   background: >
+#     <p>In keeping with the spirit of openness and collaboration that defines the field of open governance, GovLab Open Source makes accessible the source code of a variety of GovLab technical products. From institutional collaboration platforms to dissemination mechanisms for original research publications, the GovLab’s original technologies can be forked and redeployed through the open source platform GitHub. Through this effort we aim both to amplify the reach and impact of the GovLab’s development efforts, and to provide the field with free, flexible tech solutions for a broad variety of projects, regardless of any direct affiliation with the GovLab.</p>
+#   social_media: #in the future we can have custom shareable messages for each project
+#   images:
+#     - govlab-opensource.png #images or screenshots of the project
+#   results:
+#   related_articles:
 
 
 
