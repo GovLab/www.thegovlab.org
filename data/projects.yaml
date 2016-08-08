@@ -16,6 +16,7 @@
     - Beth Simone Noveck
     - Christopher Wong
     - Dinorah Cantú
+    - Denny Tek
   tags:
     governance_area:
       - National Governance
@@ -258,6 +259,8 @@
     - Beth Simone Noveck
     # - Alan Kantrow
     - Dinorah Cantú
+    - Denny Tek
+    - Anna Bialas
   tags:
     governance_area:
       - National Governance
@@ -444,6 +447,7 @@
     - Stefaan Verhulst
     - Julia Root
     - John Krauss
+    - Denny Tek
   tags:
     governance_area:
       - National Governance
@@ -507,6 +511,7 @@
     - Claudio Mendonca
     - Christopher Wong
     - Atul Varma
+    - David Naffis
   tags:
     governance_area:
       - Regional Governance
@@ -611,6 +616,9 @@
   team:
     - Beth Simone Noveck
     - Batu Sayici
+    - Christopher Wong
+    - Claudio Mendonca
+    - Anna Bialas
   tags:
     governance_area:
       - National Governance
@@ -1220,6 +1228,7 @@
     - Batu Sayici
     - Claudio Mendonca
     - Mark Adkins-Hastings
+    - Denny Tek
   tags:
     governance_area:
         - national governance
