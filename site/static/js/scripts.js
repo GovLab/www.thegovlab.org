@@ -60,6 +60,14 @@ $(document).ready(function($) {
         $(this).parent().toggleClass('m-show');
     })
 
+    $('.js-articles-toggle').click(function() {
+        $(this).parent().toggleClass('m-expand');
+    })
+
+    $('.js-resources-toggle').click(function() {
+        $(this).parent().toggleClass('m-display');
+    })
+
 
 
     // Search

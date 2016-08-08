@@ -57,6 +57,64 @@
 
         .e-main-content {
             flex: 1;
+
+            .e-collapsed {
+                margin-top:35px;
+                margin-bottom:35px;
+
+                .b-button.m-hide, .b-button.m-undisplay, .b-button.m-collapse { 
+                    display: none; 
+                }
+
+                .e-projects, .e-additional-resources, .e-selected-articles { 
+                    display: none; 
+
+                    ul {
+                        padding: 0;
+                    }
+
+                    li {
+                        padding: 10px 0;
+                        list-style-type: none;
+                        border-bottom: 1px solid $gray-10;
+                        font-size: 14px;
+                    }
+                }
+
+                &.m-show {
+                    max-height: 4000px;
+                    @include transition;
+
+                    .e-projects { display: block; }
+     
+                    .b-button.m-show{ display: none;}
+                    .b-button.m-hide { display: inline-block; }
+                }
+
+                &.m-display {
+                    max-height: 4000px;
+                    @include transition;
+
+                    .e-additional-resources { display: block; }
+     
+                    .b-button.m-display{ display: none;}
+                    .b-button.m-undisplay { display: inline-block; }
+                }
+
+                 &.m-expand {
+                    max-height: 4000px;
+                    @include transition;
+
+                    .e-selected-articles { display: block; }
+     
+                    .b-button.m-expand{ display: none;}
+                    .b-button.m-collapse { display: inline-block; }
+                }
+
+                .b-button { color: $purple; font-weight: bold;}
+
+            }
+
         }
 
         aside {
@@ -79,21 +137,9 @@
             }
         }
 
-        .e-more-content {
-            ul {
-                padding: 0;
-            }
-
-            li {
-                padding: 10px 0;
-                list-style-type: none;
-                border-bottom: 1px solid $gray-10;
-                font-size: 14px;
-            }
-        }
 
         .e-twitter {
-
+    
         }
 
         .e-books {

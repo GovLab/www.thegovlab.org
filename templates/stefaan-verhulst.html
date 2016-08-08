@@ -62,6 +62,22 @@
                 <p>Verhulst is also founder and editor of numerous journals including the International Journal of Communications Law and Policy, and the Communications Law in Transition Newsletter.</p>
                 <p>Currently he is the Curator and Editor of the <a href="http://thegovlab.org/category/govlab-digest/" target="_blank">Govlab Weekly Digest</a>.</p>
 
+                <div class="e-collapsed">
+
+                    <div class="b-button m-show m-naked js-project-toggle">Stefaan's Projects at The GovLab <i class="material-icons"><i class="material-icons">keyboard_arrow_down</i></i></div>
+                        <div class="b-button m-hide m-naked js-project-toggle">Stefaan's Projects at The GovLab <i class="material-icons"><i class="material-icons">keyboard_arrow_up</i></i></div>
+
+                        <div class="e-projects">
+                            <ul>
+                                {% for project in projects %}
+                                {% if "Stefaan Verhulst" in project.team %}
+                                <li><a href="http://www.thegovlab.org/project-{{project.title | slug}}.html">{{project.title}}</a></li>
+                                {% endif %}
+                                {% endfor %}
+                            </ul>
+                        </div>
+                </div>
+
                 <!-- <div class="e-more-content">
                     <h3>Media</h3>
                     <ul>

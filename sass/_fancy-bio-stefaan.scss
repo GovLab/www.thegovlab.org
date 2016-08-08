@@ -43,6 +43,43 @@
  
          .e-main-content {
              flex: 1;
+
+             .e-collapsed {
+                margin-top:35px;
+                margin-bottom:35px;
+
+                .b-button.m-hide { 
+                    display: none; 
+                }
+
+                .e-projects { 
+                    display: none; 
+
+                    ul {
+                        padding: 0;
+                    }
+
+                    li {
+                        padding: 10px 0;
+                        list-style-type: none;
+                        border-bottom: 1px solid $gray-10;
+                        font-size: 14px;
+                    }
+                }
+
+                &.m-show {
+                    max-height: 4000px;
+                    @include transition;
+
+                    .e-projects { display: block; }
+     
+                    .b-button.m-show{ display: none;}
+                    .b-button.m-hide { display: inline-block; }
+                }
+
+                .b-button { color: $purple; font-weight: bold;}
+
+            }
          }
  
          aside {
