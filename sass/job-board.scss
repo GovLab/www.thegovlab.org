@@ -26,10 +26,35 @@
     .e-wrap {
         @include wrap;
         padding: 20px 0;
-    }
 
-    .b-job-post {
-        border-bottom: 1px solid $purple;
+        div {
+            .b-button { color: $purple; }
+            .b-job-post { display: none; }
+
+            .b-button:after {
+                @extend .u-material-icons;
+                content: 'keyboard_arrow_down';
+                margin-left: 15px;
+                vertical-align: bottom;
+                position: relative;
+            }
+
+            &.m-active {
+                max-height: 4000px;
+                @include transition;
+
+                .b-button:after {
+                    content: 'keyboard_arrow_up';    
+                }
+                
+
+                .b-job-post { display: block; }
+            }
+        }
+
+
     }
 
 }
+
+

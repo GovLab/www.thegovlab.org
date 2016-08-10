@@ -2125,8 +2125,22 @@ button:focus {
   margin-left: auto;
   margin-right: auto;
   padding: 20px 0; }
-.b-job-board .b-job-post {
-  border-bottom: 1px solid #523080; }
+  .b-job-board .e-wrap div .b-button {
+    color: #523080; }
+  .b-job-board .e-wrap div .b-job-post {
+    display: none; }
+  .b-job-board .e-wrap div .b-button:after {
+    content: 'keyboard_arrow_down';
+    margin-left: 15px;
+    vertical-align: bottom;
+    position: relative; }
+  .b-job-board .e-wrap div.m-active {
+    max-height: 4000px;
+    transition: all .4s ease; }
+    .b-job-board .e-wrap div.m-active .b-button:after {
+      content: 'keyboard_arrow_up'; }
+    .b-job-board .e-wrap div.m-active .b-job-post {
+      display: block; }
 
 .b-fancy-bio .b-top-section {
   background-size: cover;
@@ -2567,5 +2581,27 @@ button:focus {
   background-color: #523080; }
 #publications-page .b-page-section:nth-child(2n) {
   background-color: rgba(0, 0, 0, 0.05); }
+
+.u-material-icons, .b-job-board .e-wrap div .b-button:after {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: 'liga'; }
 
 /*# sourceMappingURL=styles.css.map */

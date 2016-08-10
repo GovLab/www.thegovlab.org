@@ -52,13 +52,24 @@ $(document).ready(function($) {
         $overlay.removeClass('m-active');
     });
 
+    // Team page
+
     $('.js-bio-toggle').click(function() {
         $(this).parent().toggleClass('m-active');
     })
 
+    // Job board
+
+    $('.js-job-toggle').click(function() {
+        $(this).parent().toggleClass('m-active');
+    })
+
+
+    // Beth + Stefaan's pages fixes
+
     $('.js-project-toggle').click(function() {
         $(this).parent().toggleClass('m-show');
-    })
+    }) // This one is also present on the team page
 
     $('.js-articles-toggle').click(function() {
         $(this).parent().parent().toggleClass('m-expand');

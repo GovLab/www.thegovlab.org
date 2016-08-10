@@ -1,0 +1,96 @@
+{% extends "_base-sg.html" %}
+
+{% block og %}
+    <meta property="og:title" content="The GovLab | Brand Guide" />
+    <meta content="" property="og:description">
+{% endblock %}
+
+{% block page_id %}brand{% endblock %}
+
+{% block content %}
+
+<style type="text/css">
+    /* some quick fixes for the z-index, should address properly in SG later */
+    .b-main-menu {
+        z-index: 20;
+    }
+</style>
+
+  <main role="main">
+    <!-- main content starts here -->
+    <div class="b-top-section m-purple">
+        <h2>Contact us</h2>
+        <h3>We’d love to hear from you. Use the <a href="./contact.html#directions">map below</a> to see where we're located, or scroll down to <a href="./contact.html#contact-form">start the conversation</a>.</h3>
+    </div>
+
+    <div class="b-divider" id="directions">
+    	<h3>Directions</h3>
+    </div>
+
+    <div class="b-page-section b-directions">
+	    <div class="row">
+
+				<div class="medium-8 small-11 small-centered medium-centered columns">
+				<h3>The Governance Lab @ NYU</h3>
+          <div id="map"></div>
+
+					<div class="row">
+						<div class="medium-12 medium-centered columns">
+      				<h6>Subways</h6>
+      				<p class="b-subway-lines"><span class="e-line m-blue">A</span> <span class="e-line m-blue">C</span> <span class="e-line m-orange">F</span> to Jay Street-Metrotech <em>(exit towards "Myrtle Promenade")</em><br>
+      				<span class="e-line m-yellow">R</span> to Jay Street-Metrotech <em>(exit towards "Lawrence Street")</em></p>
+      				<p class="b-subway-lines"><span class="e-line m-red">2 </span> <span class="e-line m-red">3</span> <span class="e-line m-green">4</span> <span class="e-line m-green">5</span> to Borough Hall, <span class="e-line m-light-green">G</span> to Hoyt-Schemerhorn Streets</p>
+
+              <h6>By taxi</h6>
+      				<p>The closest physical address is 111 Lawrence Street, Brooklyn (Khim’s Market). From there you will see Hale & Hearty across Metrotech Roadway to the north. The NYU Tandon entrance is next to Hale & Hearty and across from Chipotle.</p>
+      			</div>
+      		</div>
+
+				</div>
+      </div>
+    </div>
+
+		<div class="b-divider">
+			<h3>Contact Us</h3>
+		</div>
+
+		<div class="b-page-section" id="contact-form">
+			<div class="row">
+				<div class="medium-8 small-11 medium-centered small-centered columns">
+	        <div class="row">
+						<div class="medium-12 medium-centered columns">
+							<p>We'd love to hear from you. Please, feel free to contact us using this form or the directions below it, and we will reply to you promptly.</p>
+	           	<form class="b-form" action="http://formspree.io/info@thegovlab.org" method="POST">
+	            	<input id="name" type="text" placeholder="Name*" name="name" required>
+	            	<input id="org" type="text" placeholder="Organization" name="organization">
+	            	<input id="email" type="email" placeholder="Email*" name="email">
+	            	<textarea id="msg" placeholder="Message*" name="message" required></textarea>
+	            	<input type="hidden" name="_next" value="thanks.html" />
+	            	<input type="submit" value="Send">
+	           	</form>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="b-page-section">
+      <div class="row">
+        <div class="column medium-8 medium-centered">
+        	<div class="row">
+	        	<div class="column medium-5">
+	        		<p><i class="material-icons">phone</i></p>
+	        		<p>(646) 997-3150 <br>
+              <a href="mailto:info@thegovlab.org">info@thegovlab.org</a></p>
+	        	</div>
+		        <div class="column medium-7">
+	          	<p><i class="fa fa-paper-plane fa-lg"></i></p>
+	          	<p>The Govlab | NYU Tandon School of Engineering<br>
+					2 MetroTech Center, 9th Floor Brooklyn, NY 11201</p>
+	          </div>
+	        </div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+{% endblock %}
