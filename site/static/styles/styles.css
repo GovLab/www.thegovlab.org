@@ -766,9 +766,15 @@ button:focus {
         .b-footer .e-content .e-partner-logo > img:hover {
           opacity: 1;
           transition: all .4s ease; }
-      .b-footer .e-content .e-partner-logo.m-google img {
-        max-height: 50px;
-        max-width: 70%; }
+      .b-footer .e-content .e-partner-logo.m-omidyar img {
+        max-height: 120px;
+        max-width: 100%;
+        margin-left: -10px;
+        padding: 0;
+        margin-top: -10px; }
+      .b-footer .e-content .e-partner-logo.m-ljaf img {
+        max-height: 60px;
+        padding: 0; }
       .b-footer .e-content .e-partner-logo.m-mit img {
         max-height: 70px; }
   .b-footer .e-content.m-sections a {
