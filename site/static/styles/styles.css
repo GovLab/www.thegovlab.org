@@ -778,6 +778,8 @@ button:focus {
         margin-top: -17px; }
       .b-footer .e-content .e-partner-logo.m-mit img {
         max-height: 70px; }
+      .b-footer .e-content .e-partner-logo.m-mit img {
+        max-height: 70px; }
   .b-footer .e-content.m-sections a {
     display: block;
     box-sizing: border-box;
@@ -2588,6 +2590,205 @@ button:focus {
   background-color: #523080; }
 #publications-page .b-page-section:nth-child(2n) {
   background-color: rgba(0, 0, 0, 0.05); }
+
+.b-divider h3 {
+  text-align: center; }
+
+.b-divider p {
+  text-align: center; }
+
+#brand .b-top-section h2 {
+  margin-top: 20px; }
+#brand .b-top-section h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: white;
+  letter-spacing: .5px;
+  max-width: 1025px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 650px;
+  -webkit-margin-before: 1.83em;
+  -webkit-margin-after: 1em; }
+#brand .b-top-section a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none; }
+#brand .b-top-section a:hover, #brand .b-top-section a:focus {
+  color: white;
+  text-decoration: none; }
+#brand .b-top-nav {
+  background-color: #523080; }
+#brand .box {
+  padding: 20px;
+  background-color: #F6F6F6;
+  margin-bottom: 16px; }
+  #brand .box h2 {
+    font-size: 16px;
+    margin-bottom: 16px; }
+  #brand .box p {
+    font-size: 14px;
+    margin-bottom: 0px; }
+#brand .b-page-section h1 {
+  text-align: left; }
+#brand .b-page-section h4 {
+  font-size: 18px;
+  margin-bottom: 16px;
+  font-weight: bold; }
+#brand .b-page-section h5 {
+  font-weight: bold; }
+#brand .b-page-section .logo {
+  font-weight: bold;
+  font-size: 54px; }
+  #brand .b-page-section .logo.m-gray {
+    color: rgba(0, 0, 0, 0.3); }
+@media screen and (max-width: 1024px) {
+  #brand .b-page-section .name {
+    text-align: center; } }
+#brand .b-page-section .m-text {
+  font-size: 11px; }
+#brand .b-page-section .m-light {
+  font-weight: 300; }
+#brand .b-page-section .m-semibold {
+  font-weight: 600; }
+#brand .b-page-section .m-top-30 {
+  margin-top: 30px; }
+#brand .b-page-section .m-top-60 {
+  margin-top: 60px; }
+#brand .b-page-section .m-bottom-16 {
+  margin-bottom: 16px; }
+#brand .b-page-section .m-bottom-30 {
+  margin-bottom: 30px; }
+#brand .b-page-section .m-bottom-60 {
+  margin-bottom: 60px; }
+#brand .b-page-section img {
+  border: solid 20px; }
+  #brand .b-page-section img.m-transparent {
+    color: transparent; }
+  #brand .b-page-section img.m-gray {
+    color: rgba(0, 0, 0, 0.1); }
+  #brand .b-page-section img.m-background {
+    background-color: rgba(0, 0, 0, 0.1); }
+  #brand .b-page-section img.m-background-dark {
+    background-color: #523080; }
+  #brand .b-page-section img.m-sides {
+    border-width: 0px 50px 0px 50px; }
+  #brand .b-page-section img.m-borderless {
+    border: none; }
+#brand .b-page-section .card-1 {
+  padding: 7px;
+  border: 1px solid rgba(51, 51, 51, 0.1);
+  margin-bottom: 30px;
+  position: relative; }
+  #brand .b-page-section .card-1__content {
+    text-align: left;
+    color: white;
+    padding-top: 65%; }
+    #brand .b-page-section .card-1__content h1, #brand .b-page-section .card-1__content h2 {
+      background-color: rgba(51, 51, 51, 0.5); }
+    #brand .b-page-section .card-1__content h2 {
+      text-transform: none; }
+  #brand .b-page-section .card-1 h1 {
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 0;
+    padding: 5% 20px 0; }
+  #brand .b-page-section .card-1 h2 {
+    font-size: 1rem;
+    margin: 0;
+    font-weight: normal;
+    padding: 0 20px 10px; }
+#brand .b-page-section .card-1--purple .card-1__content {
+  background-color: #523080; }
+#brand .b-page-section .card-1--teal .card-1__content {
+  background-color: #008895; }
+#brand .b-page-section .card-1--orange .card-1__content {
+  background-color: #ee5b43; }
+#brand .b-page-section .card-1--blue .card-1__content {
+  background-color: #008ab3; }
+#brand .b-page-section .card-1--grey .card-1__content {
+  background-color: rgba(51, 51, 51, 0.8); }
+#brand .b-page-section .card-2 {
+  padding: 7px;
+  border: 1px solid rgba(51, 51, 51, 0.1);
+  margin-bottom: 30px;
+  position: relative; }
+  #brand .b-page-section .card-2__content {
+    text-align: left;
+    color: white;
+    padding-top: 65%; }
+    #brand .b-page-section .card-2__content h1, #brand .b-page-section .card-2__content h2 {
+      background-color: rgba(51, 51, 51, 0.5); }
+    #brand .b-page-section .card-2__content h2 {
+      text-transform: none; }
+  #brand .b-page-section .card-2 h1 {
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 0;
+    padding: 5% 20px 0; }
+  #brand .b-page-section .card-2 h2 {
+    font-size: 1rem;
+    margin: 0;
+    font-weight: normal;
+    padding: 0 20px 10px; }
+#brand .b-page-section .card-2--purple .card-2__content {
+  background-color: #523080; }
+#brand .b-page-section .card-2--purple--1 .card-2__content {
+  background-color: #512984; }
+#brand .b-page-section .card-2--purple--2 .card-2__content {
+  background-color: #643f90; }
+#brand .b-page-section .card-2--purple--3 .card-2__content {
+  background-color: #745999; }
+#brand .b-page-section .card-2--purple--4 .card-2__content {
+  background-color: #9782B3; }
+#brand .b-page-section .card-2--purple--5 .card-2__content {
+  background-color: #A897BF; }
+#brand .b-page-section .card-2--teal .card-2__content {
+  background-color: #008895; }
+#brand .b-page-section .card-2--teal--1 .card-2__content {
+  background-color: #0799a6; }
+#brand .b-page-section .card-2--teal--2 .card-2__content {
+  background-color: #3aa8b4; }
+#brand .b-page-section .card-2--teal--3 .card-2__content {
+  background-color: #5ab5bf; }
+#brand .b-page-section .card-2--teal--4 .card-2__content {
+  background-color: #74c0c9; }
+#brand .b-page-section .card-2--teal--5 .card-2__content {
+  background-color: #8DCACF; }
+#brand .b-page-section .card-2--orange .card-2__content {
+  background-color: #ee5b43; }
+#brand .b-page-section .card-2--orange--1 .card-2__content {
+  background-color: #f47155; }
+#brand .b-page-section .card-2--orange--2 .card-2__content {
+  background-color: #f68770; }
+#brand .b-page-section .card-2--orange--3 .card-2__content {
+  background-color: #f89987; }
+#brand .b-page-section .card-2--orange--4 .card-2__content {
+  background-color: #faa797; }
+#brand .b-page-section .card-2--orange--5 .card-2__content {
+  background-color: #F7B5AB; }
+#brand .b-page-section .card-2--blue .card-2__content {
+  background-color: #008ab3; }
+#brand .b-page-section .card-2--blue--1 .card-2__content {
+  background-color: #1e9fc5; }
+#brand .b-page-section .card-2--blue--2 .card-2__content {
+  background-color: #41A7C6; }
+#brand .b-page-section .card-2--blue--3 .card-2__content {
+  background-color: #7DC3D8; }
+#brand .b-page-section .card-2--blue--4 .card-2__content {
+  background-color: #97CFE0; }
+#brand .b-page-section .card-2--blue--5 .card-2__content {
+  background-color: #B3DCE8; }
+#brand .b-footer .e-content h4 {
+  font-size: 16px; }
+@media screen and (max-width: 639px) {
+  #brand .b-footer .e-content h4 {
+    text-align: center; }
+  #brand .b-footer .e-content.m-sections a {
+    text-align: center;
+    margin: 0; }
+  #brand .b-footer .e-content .e-partner-logo {
+    text-align: center; } }
 
 .u-material-icons, .b-job-board .e-wrap div .b-button:after {
   font-family: 'Material Icons';
