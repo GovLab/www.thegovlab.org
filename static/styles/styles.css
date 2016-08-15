@@ -2629,6 +2629,16 @@ button:focus {
   #brand .box p {
     font-size: 14px;
     margin-bottom: 0px; }
+#brand .b-page-section a {
+  text-decoration: none;
+  color: #008895; }
+#brand .b-page-section .b-button {
+  color: white; }
+#brand .b-page-section .b-button:after {
+  content: 'file_download';
+  margin-left: 15px;
+  vertical-align: bottom;
+  position: relative; }
 #brand .b-page-section h1 {
   text-align: left; }
 #brand .b-page-section h4 {
@@ -2665,9 +2675,11 @@ button:focus {
   border: solid 20px; }
   #brand .b-page-section img.m-transparent {
     color: transparent; }
-  #brand .b-page-section img.m-gray {
-    color: rgba(0, 0, 0, 0.1); }
+  #brand .b-page-section img.m-blue {
+    color: #008ab3; }
   #brand .b-page-section img.m-background {
+    background-color: #008ab3; }
+  #brand .b-page-section img.m-background-gray {
     background-color: rgba(0, 0, 0, 0.1); }
   #brand .b-page-section img.m-background-dark {
     background-color: #523080; }
@@ -2790,7 +2802,7 @@ button:focus {
   #brand .b-footer .e-content .e-partner-logo {
     text-align: center; } }
 
-.u-material-icons, .b-job-board .e-wrap div .b-button:after {
+.u-material-icons, .b-job-board .e-wrap div .b-button:after, #brand .b-page-section .b-button:after {
   font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;
