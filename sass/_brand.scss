@@ -46,6 +46,17 @@
 
   .b-page-section {
 
+      a { text-decoration: none; color: $teal; }
+
+      .b-button { color: $white; }
+      .b-button:after {
+          @extend .u-material-icons;
+          content: 'file_download';
+          margin-left: 15px;
+          vertical-align: bottom;
+          position: relative;
+      }
+
       h1 { text-align: left; }
       h4 { font-size: 18px; margin-bottom: 16px; font-weight: bold; }
       h5 { font-weight: bold; }
@@ -70,8 +81,9 @@
       img { border: solid 20px;
 
           &.m-transparent { color: transparent; }
-          &.m-gray { color: $gray-10; }
-          &.m-background { background-color: $gray-10; }
+          &.m-blue { color: $blue; }
+          &.m-background { background-color: $blue; }
+          &.m-background-gray { background-color: $gray-10; }
           &.m-background-dark { background-color: $purple; }
           &.m-sides { border-width: 0px 50px 0px 50px; }
           &.m-borderless { border: none; }
