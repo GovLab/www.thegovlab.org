@@ -1,21 +1,21 @@
-{% extends "_base.html" %}
-
-{% block styles %}
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    rel="stylesheet">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="static/vendor/normalize.css">
-    <link rel="stylesheet" href="static/vendor/slick.css">
-    <link rel="stylesheet" href="../node_modules/govlab-styleguide/dist/css/govlab-styleguide.css">
-{% endblock %}
+{% extends "_base-sg.html" %}
 
 {% block og %}
     <meta content="The GovLab | Events" property="og:title"/>
     <meta content="" property="og:description">  
 {% endblock %}
 
+{% block page_id %}events{% endblock %}
+
 {% block content %}
-<section class="b-events-landing">
+<div class="b-top-section m-purple">
+        <h2>Events</h2>
+</div>
+
+{% endblock %}
+
+
+<!-- <section class="b-events-landing">
     <header>
         <div class="e-list-selector m-upcoming">
             <h2 class="e-show-upcoming">Upcoming Events</h2>
@@ -69,8 +69,8 @@
 </section>
 
 </div>
-</section>
-{% endblock %}
+</section> -->
+
 
 
 

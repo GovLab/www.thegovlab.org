@@ -135,7 +135,7 @@
 
 {% if project.related_articles %}
 <section class="b-single-related-content">
-    <h2>More About the {{project.title}}</h2>
+    <h2>More About {{project.title}}</h2>
     <div class="e-wrap">
         {% for article in project.related_articles %}
         <div class="e-article"><a href="{{article.url}}" target="_blank">{{article.name}}</a></div>
