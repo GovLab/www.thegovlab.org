@@ -1,4 +1,59 @@
 
+- title: Crowdsourcing Smarter for Mosquito Borne Diseases
+  type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
+  is_featured: 1 #integer
+  is_active: True
+  related_question: 5 #question
+  project_website:  http://zika.smartercrowdsourcing.org/
+  location: 
+    - Latin America
+  partners:
+    - Inter-American Development Bank
+    - City of Rio de Janeiro
+    - Government of Argentina
+    - Government of Panama
+    - Government of Colombia
+  team:
+    - Beth Simone Noveck
+    - Maria Hermosilla 
+    - Rafael F. Ayoub 
+    - Eleonore Pauwels #name
+  tags:
+    governance_area:
+        - National Governance #tag
+    type_of_institution:
+        - Public Sector #tag
+    innovative_capability:
+        - Collective Intelligence
+        - Crowdsourcing
+        - Expert Networks #tag
+    product_category:
+        - Event/Workshop
+        - Mapping
+        - Strategy #tag
+  status: test # define, prototype, test, complete
+  problem_statement: Can targeted crowdsourcing help countries prepare for and respond to public health crises such as mosquito borne diseases? #question
+  short_description: 
+  tooltip: 
+  long_description: >
+    <p>In collaboration with IDB and government partners, GovLab will articulate cross-cutting problems that will benefit from diverse input, and convene experts, practitioners, researchers and government partners from across interdisciplinary domains such as public health, water, sanitation and technology. Over four months, we will design and host a series of online conferences with the participation of global experts. The conferences will be focused on  identifying innovative approaches to tackle the identified problems.</p>
+  background: >
+    <p>Global and complex public health emergencies, such as Zika, Dengue and Chikungunya, threaten public health and well-being, risk disruption to global and regional trade and economic stability, and cause widespread uncertainty and concern. They are complex and interdependent problems that demand access to expertise that is diverse and widely dispersed. But mobilizing this expertise -- both credentialed know-how and experiential wisdom-- demands coordination and curation to bring the best thinking to bear and translate good ideas into actionable proposals backed by evidence.</p>
+  social_media: #in the future we can have custom shareable messages for each project
+  images: #images or screenshots of the project
+  results: >
+    <p>The project aims to generate innovative and implementable solutions that help governments prepare for and respond to mosquito borne illnesses. It will also create an informal, rapid and agile network of experts to get in good ideas for tackling the mosquito borne pandemics and making government more effective.</p>
+  related_articles:
+    - name: Project website
+      url: "http://zika.smartercrowdsourcing.org/"
+    - name: Blog - Smarter Crowdsourcing for Zika
+      url: "http://thegovlab.org/smarter-crowdsourcing-for-zika/"
+    - name: Crowdsourcing Inteligente, Buscamos Expertos en Zika y Otras Enfermedades Transmitidas por Mosquitos
+      url: "http://blogs.iadb.org/salud/2016/08/22/zika-3/"
+
+# ==========================================================================================================================================================================================================================================#
+
+
 - title: Data Driven Criminal Justice #will generate slug from this attr
   type: 'Data' # Data, Collective Intelligence or Design Thinking
   is_featured: 1 #integer
@@ -1454,50 +1509,6 @@
 #   related_articles:
 
 
-
-# ==========================================================================================================================================================================================================================================#
-
-# - title: Crowdsourcing Smarter for Mosquito Borne Diseases
-#   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
-#   is_featured: 1 #integer
-#   is_active: True
-#   related_question: 5 #question
-#   project_website:  #url
-#   location: 
-#     - Latin America
-#   partners:
-#     - Inter-American Development Bank
-#   team:
-#     - Beth Simone Noveck
-#     - Maria Hermosilla 
-#     - Rafael F. Ayoub 
-#     - Eleonore Pauwels #name
-#   tags:
-#     governance_area:
-#         - National Governance #tag
-#     type_of_institution:
-#         - Public Sector #tag
-#     innovative_capability:
-#         - Collective Intelligence
-#         - Crowdsourcing
-#         - Expert Networks #tag
-#     product_category:
-#         - Event/Workshop
-#         - Mapping
-#         - Strategy #tag
-#   status: define # define, prototype, test, complete
-#   problem_statement: Can targeted crowdsourcing help countries prepare for and respond to public health crises such as mosquito borne diseases? #question
-#   short_description: 
-#   tooltip: 
-#   long_description: >
-#     <p>In collaboration with IDB and government partners, GovLab will articulate cross-cutting problems that will benefit from diverse input, and convene experts, practitioners, researchers and government partners from across interdisciplinary domains such as public health, water, sanitation and technology. Over four months, we will design and host a series of online conferences with the participation of global experts. The conferences will be focused on  identifying innovative approaches to tackle the identified problems.</p>
-#   background: >
-#     <p>Global and complex public health emergencies, such as Zika, Dengue and Chikungunya, threaten public health and well-being, risk disruption to global and regional trade and economic stability, and cause widespread uncertainty and concern. They are complex and interdependent problems that demand access to expertise that is diverse and widely dispersed. But mobilizing this expertise -- both credentialed know-how and experiential wisdom-- demands coordination and curation to bring the best thinking to bear and translate good ideas into actionable proposals backed by evidence.</p>
-#   social_media: #in the future we can have custom shareable messages for each project
-#   images: #images or screenshots of the project
-#   results: >
-#     <p>The project aims to generate innovative and implementable solutions that help governments prepare for and respond to mosquito borne illnesses. It will also create an informal, rapid and agile network of experts to get in good ideas for tackling the mosquito borne pandemics and making government more effective.</p>
-#   related_articles:
 
 # ==========================================================================================================================================================================================================================================#
 
