@@ -1008,13 +1008,13 @@ button:focus {
   .b-single-landing .e-partners h4 {
     margin-bottom: 10px; }
   .b-single-landing .e-partners .e-partner {
-    display: inline-block;
+    display: block;
     padding: 5px 0;
     margin-bottom: 4px;
     color: rgba(255, 255, 255, 0.6); }
     @media (min-width: 1025px) {
       .b-single-landing .e-partners .e-partner {
-        display: inline-block;
+        display: block;
         font-size: 16px;
         padding: 3px 0; } }
     .b-single-landing .e-partners .e-partner a {
