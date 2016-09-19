@@ -276,7 +276,7 @@
 - name: Robert Montano
   firstname: Robert
   job: Graduate Research Assistant
-  projects: false
+  projects: true
   bio: >
     <p>Robert is a Research Assistant at GovLab. He has a BA in Political Science and International Relations from Fordham University and is currently a second-year MA Candidate in NYU's Department of International Relations. Before joining the GovLab team, Robert has worked for various humanitarian organizations, including the International Rescue Committee, the Center for International Health and Communication, and The Women's Islamic Initiative in Spirituality and Equality.</p>
   
