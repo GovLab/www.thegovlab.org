@@ -279,7 +279,13 @@
   projects: true
   bio: >
     <p>Robert is a Research Assistant at GovLab. He has a BA in Political Science and International Relations from Fordham University and is currently a second-year MA Candidate in NYU's Department of International Relations. Before joining the GovLab team, Robert has worked for various humanitarian organizations, including the International Rescue Committee, the Center for International Health and Communication, and The Women's Islamic Initiative in Spirituality and Equality.</p>
-  
+
+- name: Saroj Bista
+  firstname: Saroj
+  job: Community Solutions Program Visiting Fellow
+  projects: true
+  bio: >
+    <p>Saroj Bista is a Visiting Fellow at GovLab. He has over four years of legal experience working on FOI advocacy, transparency and open-data. Saroj is the Open-Data Coordinator at Young Innovations, leading the open contracting data standards and advocacy in Nepal, and acts as a Country Expert for Nepal in the Varieties of Democracy Project at the University of Gothenberg, Sweden. Saroj is visiting GovLab as part of his fellowship at the Community Solutions Program 2016.</p>
 
   # name: name
   # short_bio: text
