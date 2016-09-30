@@ -53,6 +53,8 @@
       url: "http://thegovlab.org/smarter-crowdsourcing-for-zika/"
     - name: Crowdsourcing Inteligente, Buscamos Expertos en Zika y Otras Enfermedades Transmitidas por Mosquitos
       url: "http://blogs.iadb.org/salud/2016/08/22/zika-3/"
+    - name: One-Pager
+      url: "static/files/zika-one-pager-iodc.pdf"
 
 # ==========================================================================================================================================================================================================================================#
 
@@ -548,7 +550,7 @@
   results:
   related_articles:
     - name: OpenData 500 One Pager
-      url: static/files/od500-onepager-cropped.pdf
+      url: static/files/od500-one-pager-2016.pdf
 
 
 # ==========================================================================================================================================================================================================================================#
