@@ -1338,6 +1338,8 @@
       url: http://thegovlab.org/the-impact-of-open-data-initial-findings-from-case-studies/
     - name: "New Project: Open Data Impact Studies"
       url: http://thegovlab.org/open-data-impact-studies/
+    - name: "One-Pager"
+      url: static/files/odimpact-one-pager.pdf
 
 # ==========================================================================================================================================================================================================================================#
 
