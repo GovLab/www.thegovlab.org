@@ -149,12 +149,12 @@
     <p>Eleonore is in the final year as co-PI of a 4 million Euro grant from the European Commission to promote responsible research and innovation in genomics and new health technologies. Her current work focuses on developing regulatory and governance mechanisms for the fast-growing ecosystem of health innovators, built around maker spaces and community bio labs, to support responsible innovation in distributed networks.</p>
     <p>Eleonore collaborates with a range of players on the biology and open science frontier to encourage citizen participation in new health technologies and develop a culture of responsibility that reflects a pluralistic and open-source ethos. Eleonore regularly testifies before U.S. and European authorities including the U.S. Department of State, NAS, NIH, NCI, FDA, the National Intelligence Council, the European Commission and the UN. But she is also well-versed in communicating complex and novel scientific developments for lay audiences and her writing has been featured in media outlets such as Nature, The New York Times, The Guardian, Scientific American, Le Monde, Slate and The Miami Herald. Originally from Belgium and bilingual in French and English, her blog can be found here and she tweets @EleonorPauwels.</p>
 
-- name: Ena Bek
+- name: Ena Bekanovic
   firstname: Ena
   job: Developer
   projects: false
   bio: >
-    <p>Ena is a Web Developer at the the GovLab. She has a B.S. in Media Communication Studies from Florida State University where she focused on communication theory and philosophy. Shortly after starting her career in Marketing, Ena found herself taking a greater interest in the creative and technical side of the industry. After realizing that coding was a great way to create more meaningful and fulfilling work, Ena dedicated herself to learning the skills she needed to become a member of the engineering community.</p>
+    <p>Ena is a Developer at the the GovLab. She has a B.S. in Media Communication Studies from Florida State University where she focused on communication theory and philosophy. Ena began her career in Marketing but soon found herself taking a greater interest in the creative and technical side of the industry. After realizing that coding could lead to more meaningful and fulfilling work, Ena dedicated herself to learning the skills she needed to become a member of the engineering community. Since then, Ena has led multiple projects from conceptualization to implementation, such as an app to make sharing responsibilities amongst roommates easier to manage, and a generator to help organizations quickly create and customize their own wikis.</p>
 
 # - name: Eran Raviv
 #   firstname: Eran
