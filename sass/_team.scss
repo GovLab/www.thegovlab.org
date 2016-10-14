@@ -130,6 +130,11 @@
         &.m-active p { display: block; }
 
         .b-button { color: $purple; }
+
+        a:hover {
+            @include transition;
+            color: $purple-40k;
+        }
     }
 }
 

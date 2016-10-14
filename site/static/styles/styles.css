@@ -1716,6 +1716,9 @@ button:focus {
         display: block; }
       .b-team .e-team-member .e-bio .b-button {
         color: #523080; }
+      .b-team .e-team-member .e-bio a:hover {
+        transition: all .4s ease;
+        color: #381759; }
   .b-team .e-team-picture {
     z-index: 0;
     background-size: cover;
