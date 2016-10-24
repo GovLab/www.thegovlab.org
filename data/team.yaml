@@ -253,6 +253,13 @@
     <p>Mark Adkins-Hastings is a software developer with diverse expertise in both technology and design. He joins GovLab's development and design team to build civic technologies that help institutions work more openly and collaboratively. Previously, Mark worked on citizen-centric technology projects for the United States federal government, including the Department of Justice and the Patent and Trademark Office (USPTO). At USTPO, he developed the Office's electronic patent application filing system as part of a team promoting the adoption of more agile and modern design practices, including the use of citizen ethnography to ensure that government websites serve the public better.</p>
     <p>Recently, Mark collaborated with a team from the USPTO and the White House, including members of the Presidential Innovation Fellows corps, to help develop a process and platform for crowdsourcing public expertise to enhance the patent examination process. His work was showcased to the US Undersecretary of Commerce for Intellectual Property and the White House Office of the Chief Technology Officer.</p>
 
+- name: Michael Gill
+  firstname: Michael
+  job: Research Fellow
+  projects: false
+  bio: >
+    <p>Michael is a Moore-Sloan Data Science Fellow at the Center for Data Science at NYU, and a Research Fellow at the GovLab. Michael's substantive interests include the study of special interest groups, the causes and effects of government transparency, and U.S. foreign policy. Methodologically, his research focuses on applications of machine learning methods for causal inference problems in the social sciences, experimental methods, and the analysis of text-as-data. He received his Ph.D. in Government from Harvard University, where he was an affiliate of the Institute for Quantitative Social Sciences.</p>
+
 - name: Neil Kleiman
   firstname: Neil
   job: Senior Fellow
