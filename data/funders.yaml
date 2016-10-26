@@ -6,12 +6,20 @@
     project: Primer on international insights and ideas in how to innovate in government
     amount: '18,180.00'
 
+-   name: Anonymous Family Foundation
+    project: Testing Open Innovation for Solving Public Problems in Latin American Cities
+    amount: '91,000.00'
+
 -   name: Australia
     project: Open Data 500 Collaboration and membership in the OD 500 Network
     amount: '20,000.00'
 
 -   name: 'British Columbia'
     project: 'Benchmarking Study: Comparing British Columbia with other governments'
+    amount: '20,000.00'
+
+-   name: "Canada's Open Data Exchange"
+    project: Open Data 500 Collaboration and membership in the OD500 network
     amount: '20,000.00'
 
 -   name: 'Data Transparency Coalition' 
@@ -37,6 +45,18 @@
 -   name: 'ICANN'
     project: 'Open Data 500 Mexico Study as a member of the OD500 Global Network'
     amount: '53,465.05'
+
+-   name: 'ICANN'
+    project: Sustaining and Expanding the NETmundial Solutions Map
+    amount: '40,000.00'
+
+-   name: 'FHI360 (USAID)'
+    project: MStar SubAward for Open Data
+    amount: '112,000.00'
+
+-   name: 'Inter-American Development Bank'
+    project: 'Crowdsourcing to Support Preparedness and Response to Zika Virus and Other Public Health Emergencies'
+    amount: '208,000.00'
 
 -   name: 'INFOTEC (on behalf of the Mexican Government)'
     project: 'Operationalization Memo – “Toward a Distributed Collaborative Internet Governance Ecosystem”'
@@ -86,13 +106,33 @@
     project: 'To support the development of a research and evaluation programme for the open data era in health and social care'
     amount: '131,880.80'
 
+-   name: 'NHS England'
+    project: 'Develop approaches to assessing and overcoming the data science capacity gap'
+    amount: '133,666.00'
+
 -   name: 'NYU-AIG Partnership'
     project: 'Research proposal solicitation and management'
     amount: '50,000.00'
 
+-   name: 'NYU-AIG Partnership'
+    project: 'Develop prototype tool for crowdsourcing in contruction/extractives industries'
+    amount: '125,000.00'
+
 -   name: 'Open Data Institute'
     project: 'Open Data 500 Research Collaboration'
     amount: '10,000.00'
+
+-   name: 'Organization of American States'
+    project: 'Coaching Program for OAS Fellowship on Open Government.'
+    amount: '13,000.00'
+
+-   name: 'Omidyar Foundation'
+    project: 'Development of OpenData Case Studies and Web Site to House Them'
+    amount: '125,000.00'
+
+-   name: 'PinkTank'
+    project: 'Preparation of innovation briefs to inform the Shared Services Worshop Research project'
+    amount: '19,965.00'
 
 -   name: 'PWC'
     project: 'Open Data 500 Roundtable sponsorship'
@@ -106,6 +146,14 @@
     project: 'Open Data 500 Collaboration and membership in the OD 500 Network'
     amount: '20,000.00'
 
+-   name: 'United Nations OCHA'
+    project: 'Research support to develop an OCHA Data Policy'
+    amount: '29,000.00'
+
+-   name: 'United States Department of Agrictulure'
+    project: 'USDA Open Data Summer Camp'
+    amount: '22,500.00'
+
 -   name: 'World Bank'
     project: 'Building a Research Repository on Open Gov Research'
     amount: '10,000.00'
@@ -113,3 +161,7 @@
 -   name: 'World Economic Forum'
     project: 'Promoting Public Engagement with NETmundial Solutions Map'
     amount: '120,000.00'
+
+-   name: 'World Economic Forum'
+    project: 'Sustaining and Expanding the NETmundial Solutions Map'
+    amount: '50,000.00'
