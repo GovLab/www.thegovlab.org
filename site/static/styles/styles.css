@@ -684,6 +684,8 @@ button:focus {
   left: 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   z-index: 1; }
+  .b-sticky--index {
+    display: none; }
   .b-sticky .e-wrap {
     max-width: 1025px;
     margin-left: auto;

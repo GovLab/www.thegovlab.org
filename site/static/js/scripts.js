@@ -5,6 +5,14 @@ $(document).ready(function($) {
         $('.b-sticky').fadeOut('fast');
     });
 
+    $(window).scroll(function(){
+        if ($(document).scrollTop() > 140) {
+            $('.b-sticky--index').fadeIn('fast');
+        } else {
+            $('.b-sticky--index').css('display','none');
+        }
+    });
+
     // Main nav logic
     $('.js-nav-trigger').click(function() {
         $('.b-main-menu').addClass('m-active');

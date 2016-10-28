@@ -1,4 +1,6 @@
-.b-sticky {
+
+
+.b-sticky{
     background-color: #333;
     padding: 20px 0;
     position: fixed;
@@ -8,6 +10,8 @@
     left: 0;
     box-shadow: 0 0 10px $gray-20;
     z-index: 1;
+
+    &--index { display: none; }
 
     .e-wrap {
         @include wrap;
