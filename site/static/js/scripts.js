@@ -1,12 +1,14 @@
 $(document).ready(function($) {
     var $overlay = $('#overlay');
-
+    
+    var closed = false;  
     $('.js-close').click(function() {
         $('.b-sticky').fadeOut('fast');
+        closed = true;
     });
 
     $(window).scroll(function(){
-        if ($(document).scrollTop() > 140) {
+        if (!closed && $(document).scrollTop() > 140) {
             $('.b-sticky--index').fadeIn('fast');
         } else {
             $('.b-sticky--index').css('display','none');
