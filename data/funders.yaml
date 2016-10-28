@@ -83,7 +83,7 @@
     amount: '5,000,000.00'
 
 -   name: 'Laura and John Arnold Foundation'
-    project: 'Data Driven criminal Justice Innovation'
+    project: 'Data Driven Criminal Justice Innovation'
     amount: '851,600.00'
 
 -   name: 'Markle Foundation'
@@ -115,7 +115,11 @@
     amount: '50,000.00'
 
 -   name: 'NYU-AIG Partnership'
-    project: 'Develop prototype tool for crowdsourcing in contruction/extractives industries'
+    project: 'Develop prototype tool for crowdsourcing in construction/extractives industries'
+    amount: '125,000.00'
+
+-   name: 'Omidyar Foundation'
+    project: 'Development of OpenData Case Studies and Web Site to House Them'
     amount: '125,000.00'
 
 -   name: 'Open Data Institute'
@@ -125,10 +129,6 @@
 -   name: 'Organization of American States'
     project: 'Coaching Program for OAS Fellowship on Open Government.'
     amount: '13,000.00'
-
--   name: 'Omidyar Foundation'
-    project: 'Development of OpenData Case Studies and Web Site to House Them'
-    amount: '125,000.00'
 
 -   name: 'PinkTank'
     project: 'Preparation of innovation briefs to inform the Shared Services Worshop Research project'
@@ -150,9 +150,9 @@
     project: 'Research support to develop an OCHA Data Policy'
     amount: '29,000.00'
 
--   name: 'United States Department of Agrictulure'
-    project: 'USDA Open Data Summer Camp'
-    amount: '22,500.00'
+# -   name: 'United States Department of Agrictulure'
+#     project: 'USDA Open Data Summer Camp'
+#     amount: '22,500.00'
 
 -   name: 'World Bank'
     project: 'Building a Research Repository on Open Gov Research'
