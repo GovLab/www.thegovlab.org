@@ -11,6 +11,8 @@
 
       {% for pub in publications %}
 
+      {% if pub.file %}
+
       <section class="b-page-section">
         <div class="row">
           <div class="columns large-7 large-offset-1">
@@ -30,6 +32,30 @@
           </div>
         </div>
       </section>
+
+      {% else %}
+
+      <section class="b-page-section">
+        <div class="row">
+          <div class="columns large-7 large-offset-1">
+            <a href="{{ pub.redirect }}"><h3>{{ pub.title}}</h3></a>
+            <p><em>{{pub.subtitle}}</em></p>
+            <p>By {{pub.author}}</p>
+            <p>{{pub.date}}</p>
+          </div>
+          <div class="large-3 large-offset-1 end columns">
+          {% if pub.subtitle %}
+          {% endif %}
+
+          <a class="th" href="{{ pub.redirect }}">
+          <img src="./static/files/publications/{{ pub.thumbnail }}">
+          </a>
+            
+          </div>
+        </div>
+      </section>
+
+      {% endif %}
 
       {% endfor %}
 
