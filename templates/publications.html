@@ -9,56 +9,81 @@
     <h2>Publications</h2> 
   </div>
 
+      <div id="publications">
+
+      <!-- Sorting Controllers -->
+      <p>Sort by:</p>
+      <button class="sort" data-sort="name">Publication Name</button>
+      <button class="sort" data-sort="date">Publication Date</button>
+
+      <div class="list">
+
       {% for pub in publications %}
 
-      {% if pub.file %}
-
       <section class="b-page-section">
         <div class="row">
           <div class="columns large-7 large-offset-1">
-            <a href="./static/files/publications/{{ pub.file }}"><h3>{{ pub.title}}</h3></a>
+            {% if pub.file %}
+              <a href="./static/files/publications/{{ pub.file }}">
+            {% else %}
+              <a href="{{ pub.redirect }}">
+            {% endif %}
+                <h3 class="name">{{ pub.title}}</h3>
+              </a>
             <p><em>{{pub.subtitle}}</em></p>
             <p>By {{pub.author}}</p>
-            <p>{{pub.date}}</p>
+            <p class="date">{{pub.date}}</p>
           </div>
           <div class="large-3 large-offset-1 end columns">
           {% if pub.subtitle %}
           {% endif %}
 
+          {% if pub.file %}
           <a class="th" href="./static/files/publications/{{ pub.file }}">
-          <img src="./static/files/publications/{{ pub.thumbnail }}">
-          </a>
-            
-          </div>
-        </div>
-      </section>
-
-      {% else %}
-
-      <section class="b-page-section">
-        <div class="row">
-          <div class="columns large-7 large-offset-1">
-            <a href="{{ pub.redirect }}"><h3>{{ pub.title}}</h3></a>
-            <p><em>{{pub.subtitle}}</em></p>
-            <p>By {{pub.author}}</p>
-            <p>{{pub.date}}</p>
-          </div>
-          <div class="large-3 large-offset-1 end columns">
-          {% if pub.subtitle %}
-          {% endif %}
-
+          {% else %}
           <a class="th" href="{{ pub.redirect }}">
+          {% endif %}
           <img src="./static/files/publications/{{ pub.thumbnail }}">
           </a>
             
           </div>
         </div>
       </section>
-
-      {% endif %}
 
       {% endfor %}
+      </div>
+      </div>
 
 
 </main>
+<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.3.0/list.min.js"></script>
+<script type="text/javascript">
+    // Sortable list through list.js
+    var options = {
+        valueNames: [ "name", "date" ],
+    };
+    var pubList = new List('publications', options);
+    // Tags functionality through list.js
+    // $(".filter").on("click", function(){
+    //     var tagName = ($(this).attr("id"));
+    //     var $overlay = $('#overlay');
+    //     contactList.filter(function(item) {
+    //        if (item.values().tags.includes(tagName)){
+    //            return true;
+    //        } else {
+    //            return false;
+    //        }
+    //     });
+    //     $(".filter").removeClass("m-clicked");
+    //     $(this).addClass("m-clicked");
+    //     $(".b-modal").removeClass("m-active");
+    //     $overlay.removeClass('m-active');
+    // });
+    // $("#display-all").on("click", function(){
+    //     $(".filter").removeClass("m-clicked");
+    //     contactList.filter();
+    // });
+</script>
+
 {% endblock %}
