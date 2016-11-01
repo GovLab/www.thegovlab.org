@@ -74,6 +74,13 @@ $(document).ready(function($) {
         $(this).parent().toggleClass('m-active');
     })
 
+     // Publications
+
+    $('.sort').click(function() {
+        $(this).toggleClass('m-active');
+        $(this).siblings().removeClass('m-active');
+    })
+
 
     // Beth + Stefaan's pages fixes
 
