@@ -2440,7 +2440,8 @@ button:focus {
   background-color: rgba(0, 0, 0, 0.05); }
 #publications-page .b-controllers {
   margin: 30px auto 30px auto;
-  max-width: 700px; }
+  max-width: 700px;
+  text-align: center; }
   #publications-page .b-controllers .m-active {
     background-color: #381759; }
   #publications-page .b-controllers .m-inline {
