@@ -20,10 +20,24 @@
       width: 125px;
     }
   }
+
   .b-top-nav { 
     background-color: $purple; 
   }
+
   .b-page-section:nth-child(2n) {
       background-color: rgba(0,0,0,0.05);
   }
+
+  .b-controllers {
+      margin: 30px auto 30px auto;
+      max-width: 700px;
+
+      .m-active { background-color: $purple-40k; }
+
+
+      .m-inline { display: inline; text-transform: uppercase; margin-right: 15px; }
+  }
+
+  
 }

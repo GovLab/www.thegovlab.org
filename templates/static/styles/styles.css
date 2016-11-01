@@ -2438,6 +2438,15 @@ button:focus {
   background-color: #523080; }
 #publications-page .b-page-section:nth-child(2n) {
   background-color: rgba(0, 0, 0, 0.05); }
+#publications-page .b-controllers {
+  margin: 30px auto 30px auto;
+  max-width: 700px; }
+  #publications-page .b-controllers .m-active {
+    background-color: #381759; }
+  #publications-page .b-controllers .m-inline {
+    display: inline;
+    text-transform: uppercase;
+    margin-right: 15px; }
 
 .b-divider h3 {
   text-align: center; }
