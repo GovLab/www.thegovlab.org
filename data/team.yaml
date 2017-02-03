@@ -175,7 +175,7 @@
 - name: Fred DeJohn
   firstname: Fred
   job: Chief Financial Officer
-  projects: false
+  projects: true
   bio: >
     <p>Fred DeJohn is the Chief Financial Officer at GovLab. Fred is an attorney with extensive experience in finance, budget and human resources in both government and higher education. Prior to joining the GovLab, Fred served as the Acting Vice President for Human Resources at the Fashion Institute of Technology.  Before that, he spent more than eighteen years as the Vice President for Finance and Administration at New York Law School.</p>
     <p>Fred's earlier career was with New York City government where he held high level positions in a number of City agencies, including Deputy Commissioner for Finance and Administration at the Department of Housing, Preservation and Development, First Deputy Commissioner at the Department of General Services and First Deputy Director at the Department of Personnel. He finished his City service as a Special Assistant to Mayor David Dinkins, focusing on municipal labor issues.</p>
