@@ -386,6 +386,57 @@
       url: "static/files/GovLab Academy Final Deck.pdf"
     - name: Academy One Pager
       url: "static/files/academy-one-pager.pdf"
+
+# ==========================================================================================================================================================================================================================================#
+
+- title: 'Data Collaboratives: Creating Public Value by Exchanging Data' #will generate slug from this attr
+  type: 'Data' # Data, Collective Intelligence or Design Thinking
+  is_featured: 0 #integer
+  is_active: True
+  related_question: 2 #question
+  project_website: http://datacollaboratives.org/
+  location:
+    - Global
+  partners:
+    - Omidyar Network
+    - UNICEF
+  team:
+    - Stefaan Verhulst
+    - Andrew Young
+    - Prianka Srinivasan
+    - Robert Montano
+    - Christopher Wong
+    - Claudio Mendonca
+    - Ena Bek
+    - Denny Tek
+    - Mark Adkins-Hastings
+    - Anna Bialas
+  tags:
+    governance_area:
+      - International Governance
+      - National Governance
+      - Local Governance 
+    type_of_institution:
+      - International Organization
+      - Public Sector
+      - Corporate/Business
+    innovative_capability:
+      - Data Collaboratives
+    product_category:
+      - Case Studies
+      - Website
+  status: test # define, prototype, test, complete
+  problem_statement: How to combine private and public data to solve problems? #question
+  short_description: >
+    <p>The GovLab is advancing a number of initiatives focused on increasing our understanding of data collaboratives. The hub of this work, DataCollaboratives.org, is a resource on creating public value by exchanging data, collecting examples of data collaboratives from around the world, and providing information on how to develop and implement a data collaborative. The site, and the GovLab’s work on the topic in general, seeks to provide insight on how the responsible exchange of corporate data can improve people’s lives. The GovLab’s partnership with UNICEF on <a href="http://www.thegovlab.org/project-data-collaboratives-to-improve-childrens-lives.html" target="_blank">Data Collaboratives to Improve Children’s Lives</a> falls within this broader Data Collaboratives effort.</p>
+  long_description: >
+    <p>The GovLab is advancing a number of initiatives focused on increasing our understanding of data collaboratives. The hub of this work, DataCollaboratives.org, is a resource on creating public value by exchanging data, collecting examples of data collaboratives from around the world, and providing information on how to develop and implement a data collaborative. The site, and the GovLab’s work on the topic in general, seeks to provide insight on how the responsible exchange of corporate data can improve people’s lives. The GovLab’s partnership with UNICEF on <a href="http://www.thegovlab.org/project-data-collaboratives-to-improve-childrens-lives.html" target="_blank">Data Collaboratives to Improve Children’s Lives</a> falls within this broader Data Collaboratives effort.</p>
+  background: >
+    <p>As public problems grow in complexity and increasingly require new insights, decision-makers both inside and outside government have begun exploring ways to be more data-driven and collaborative. Several of society’s greatest challenges—from addressing climate change to achieving the Sustainable Development Goals—require greater access to data, ability to analyze particular kinds of datasets, and collaboration between public- and private-sector entities. However, much of the most useful, timely and comprehensive data resides with the private sector—in the form of, for instance, Web clicks, online purchases, market research, sensor data, and data generated from the use of mobile phones. If we truly want to leverage the potential of data to improve people’s lives, then we need to accelerate the creation and use of “data collaboratives” in which participants from different sectors — including private companies, research institutions, and government agencies — can exchange data to help solve public problems.</p>
+  social_media: #in the future we can have custom shareable messages for each project
+  images: #images or screenshots of the project
+  related_articles:
+
 # ==========================================================================================================================================================================================================================================#
 
 - title: Data Collaboratives to Improve Children’s Lives #will generate slug from this attr
