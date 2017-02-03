@@ -398,12 +398,11 @@
     - Global
   partners:
     - UNICEF
-    - UN Global Pulse
+    - Omidyar Network
   team:
     - Stefaan Verhulst
     - Andrew Young
     - Prianka Srinivasan
-    - Robert Montano
   tags:
     governance_area:
       - International Governance
@@ -419,14 +418,14 @@
       - Strategy
       - Website
   status: prototype # define, prototype, test, complete
-  problem_statement: How to combine private and public data to solve problems? #question
+  problem_statement: How to leverage cross-sector data-sharing to improve the lives of children? #question
   short_description: >
     <p>Working together with UNICEF, in collaboration with the UN Global Pulse, the GovLab is seeking to leverage the potential of private sector data to improve children’s lives through the study and creation of data collaboratives. To accelerate solutions to the problems UNICEF works on and to bolster UNICEF’s efforts to become more open and data-driven, the GovLab will help UNICEF and the UN Global Pulse identify and craft data philanthropy collaborations with private sector companies in support of UNICEF’s mission.</p>
   long_description: >
     <p>Working together with UNICEF, in collaboration with the UN Global Pulse, the GovLab is seeking to leverage the potential of private sector data to improve children’s lives through the study and creation of data collaboratives. To accelerate solutions to the problems UNICEF works on and to bolster UNICEF’s efforts to become more open and data-driven, the GovLab will help UNICEF and the UN Global Pulse identify and craft data philanthropy collaborations with private sector companies in support of UNICEF’s mission.</p>
     <p>The 18-month initiative being comprises a number of activities aimed at increasing insight on current data collaboratives practice, what works and what doesn’t, how to share data in a trusted manner using data governance frameworks, and what steps and conditions must be in place in order to ensure the exchange of value. New resources developed for the project (available at DataCollaboratives.org) aim to: map the current data collaboratives ecosystem, articulate policies and frameworks for responsibly sharing data for the public good, and help practitioners operationalize this next generation of public-private partnership to solve big public problems, including but not limited to improving the lives of children around the world.</p>
   background: >
-    <p>As public problems grow in complexity and increasingly require new insights, decision-makers both inside and outside government have begun exploring ways to be more data-driven and collaborative. Several of society’s greatest challenges—from addressing climate change to achieving the Sustainable Development Goals—require greater access to data, ability to analyze particular kinds of datasets, and collaboration between public- and private-sector entities. However, much of the most useful, timely and comprehensive data resides with the private sector—in the form of, for instance, Web clicks, online purchases, market research, sensor data, and data generated from the use of mobile phones. If we truly want to leverage the potential of data to improve people’s lives, then we need to accelerate the creation and use of “data collaboratives” in which participants from different sectors — including private companies, research institutions, and government agencies — can exchange data to help solve public problems.</p>
+    <p>Recent years have seen exponential growth in the amount of data being generated and stored around the world. There is increasing recognition that this data can play a key role in solving some of the most difficult public problems we face – including problems facing children around the world. However, much of the potentially useful data is currently privately held and not available for public insights. Data in the form of web clicks, social “likes,” geolocation and online purchases are typically tightly controlled, usually by entities in the private sector. Companies today generate an ever-growing stream of information from our proliferating sensors and devices. Increasingly, they—and various other actors—are asking if there is a way to make this data available for the public good. There is an ongoing search for new models of corporate responsibility in the digital era around data toward the creation of “data collaboratives”.</p>
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
   related_articles:
