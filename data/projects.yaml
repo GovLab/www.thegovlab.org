@@ -341,8 +341,8 @@
       - Corporate/Business
       - Public Sector
     innovative_capability:
-      - Open innovation
-      - design thinking
+      - Open Innovation
+      - Design Thinking
       - Agile Research
       - Rapid Prototyping
     product_category:
@@ -386,6 +386,69 @@
       url: "static/files/GovLab Academy Final Deck.pdf"
     - name: Academy One Pager
       url: "static/files/academy-one-pager.pdf"
+
+# ==========================================================================================================================================================================================================================================#
+
+# - title: Open Governance Research Exchange (OGRX)
+#   type: '' # Data, Collective Intelligence or Design Thinking
+#   is_featured: 0 #integer
+#   is_active: True
+#   related_question: #question
+#   project_website: #url
+#   location: Global
+#   partners:
+#   team:
+#     - Stefaan Verhulst
+#     - Andrew Young
+#     - Greyson Nevins-Archer
+#     - Christopher Wong
+#     - Claudio Mendonca
+#     - Mark Adkins-Hastings
+#     - Denny Tek
+#     - Anna Bialas
+#   tags:
+#     governance_area:
+#         - International Governance
+#         - National Governance
+#         - Local Governance
+#     type_of_institution:
+#         - International Organization
+#         - Public Sector
+#     innovative_capability:
+#         - Behavioral Science and Nudges
+#         - Big Data
+#         - Crowdsourcing
+#         - Collective Intelligence
+#         - Civic Technology
+#         - Expert Networking
+#         - Innovation Labs
+#         - Open Data
+#     product_category:
+#         - Website
+#   status: # define, prototype, test, complete
+#   problem_statement: How to make accessible insights on solving public problems? #question
+#   short_description: >
+#     <p>OGRX is a platform for browsing and sharing research findings about new, innovative ways to solve public problems. It seeks to curate and make accessible a diversity of findings on innovating governance.</p>
+#   long_description: >
+#     <p>OGRX is a platform for browsing and sharing research findings about new, innovative ways to solve public problems. It seeks to curate and make accessible a diversity of findings on innovating governance.</p>
+#     <p>Developed by the GovLab in collaboration with founding partners the World Bank Digital Engagement Evaluation Team and mySociety, OGRX provides:</p>
+#     <ul>
+#       <li>A platform for researchers to share findings and methodologies;</li>
+#       <li>A repository of theoretical and applied research on open and innovative governance techniques and tools;</li>
+#       <li>A diversity of publication types – from research reports and journal articles to books and dissertations;</li>
+#       <li>A taxonomy for browsing research by type of innovation, objective, region, sector or tool;</li>
+#       <li>The ability to submit new research for inclusion on the site; and</li>
+#       <li>A community for those interested and committed to studying the impact of governance innovations and a place for those with research questions to connect to those with projects to study.</li>
+#     </ul>
+#   background: >
+#     <p>From crowdsourcing to nudges to open data to participatory budgeting, more open and innovative ways to tackle society's problems and make public institutions more effective are emerging. Yet little is known about what innovations actually work, when, why, for whom and under what conditions. Anyone seeking existing research relating to open data is confronted with sources that are widely dispersed across disciplines, often locked behind pay walls, and hard to search because of the absence of established taxonomies. As the demand to confront problems in new ways grows, so too does the urgency for making learning about governance innovations more accessible.</p>
+#   social_media: #in the future we can have custom shareable messages for each project
+#   images: #images or screenshots of the project
+#     - #url
+#   results: >
+#     <p></p>
+#   related_articles:
+#     - #url
 
 # ==========================================================================================================================================================================================================================================#
 
