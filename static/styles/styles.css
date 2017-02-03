@@ -723,7 +723,8 @@ button:focus {
     margin: 20px 0; }
     .b-sticky .e-book img {
       margin-right: 40px;
-      max-height: 150px;
+      max-height: 140px;
+      margin-bottom: 20px;
       float: left; }
 
 .b-footer {
