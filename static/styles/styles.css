@@ -1984,7 +1984,6 @@ button:focus {
     vertical-align: bottom;
     position: relative; }
   .b-job-board .e-wrap div.m-active {
-    max-height: 4000px;
     transition: all .4s ease; }
     .b-job-board .e-wrap div.m-active .b-button:after {
       content: 'keyboard_arrow_up'; }
