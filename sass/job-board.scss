@@ -2,7 +2,7 @@
 
     .b-top-section {
         height: 200px;
-        background-color: $purple; 
+        background-color: $purple;
 
         h2, h3 {
             text-align: center;
@@ -29,7 +29,7 @@
 
         div {
             .b-button { color: $purple; }
-            
+
             .b-job-post { display: none; }
 
             .b-button:after {
@@ -41,13 +41,13 @@
             }
 
             &.m-active {
-                max-height: 4000px;
+                // max-height: 4000px;
                 @include transition;
 
                 .b-button:after {
-                    content: 'keyboard_arrow_up';    
+                    content: 'keyboard_arrow_up';
                 }
-                
+
 
                 .b-job-post { display: block; }
             }
