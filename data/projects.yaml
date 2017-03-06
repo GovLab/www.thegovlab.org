@@ -196,7 +196,7 @@
   is_featured: 0 #integer
   is_active: True
   related_question: 2
-  project_website: http://dockerfordata.com
+  project_website: 
   location:
     - Global
   partners:
