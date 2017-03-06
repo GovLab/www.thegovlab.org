@@ -241,8 +241,6 @@
       <li>55 different data portals</li>
     </ul>
   related_articles:
-    - name: Docker for Data
-      url: "https://docs.google.com/document/d/1B72xIrZxaSWvBh3BLysK5TdF0UuDaSKN99xfTmPLVLs/edit"
     - name: “Docker” for (open)data
       url: "static/files/docker-for-open-data.pdf"
 
