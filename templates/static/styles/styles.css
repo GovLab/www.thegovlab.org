@@ -2245,7 +2245,7 @@ button:focus {
         box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
         margin: 10px 0; }
         .b-fancy-bio-stefaan .e-bio-section .e-books li figure .e-image {
-          background-size: contain;
+          background-size: cover;
           background-position: center center;
           background-repeat: no-repeat;
           height: 180px;
