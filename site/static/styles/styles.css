@@ -2267,6 +2267,8 @@ button:focus {
             color: white;
             opacity: 1;
             transition: all .4s ease; }
+        .b-fancy-bio-stefaan .e-bio-section .e-books li figure #paris-21 {
+          height: 170px; }
 
 #stefaan-page-temp .b-top-nav {
   background-color: #523080; }
