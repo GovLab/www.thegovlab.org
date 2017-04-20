@@ -88,13 +88,13 @@
 #   bio: >
 #     <p>Atul enjoys building bridges of understanding between humans and machines. He has written illuminating software that's been used as the centerpiece of TED Talks, in maker events around the world, and by individuals who are just trying to have a less frustrating time using their computer. But his favorite moments are very personal: understanding where another person is coming from, constructing a metaphor they can relate to, and using it to explain technology in a way that liberates, excites, and empowers.</p>
 
-- name: Batu Sayici
-  firstname: Batu
-  job: Director of User Experience
-  projects: true
-  bio: >
-    <p>Batu Sayici is Fellow and Director of User Experience at the GovLab. Batu is a user experience designer and researcher, whose passion is using design and technology to create meaningful social impact. Before moving into UX design, he led digital research strategy for Procter & Gamble’s Europe, Middle-East & Africa division; reporting to Senior VP of Consumer Insights. He has seven years of experience with global brands including Head & Shoulders, Old Spice, Braun and Gillette. He was part of P&G’s digital innovation team. There, he collaborated on the design of the first digital research strategy, setting up digital ethnography, online communities and crowdsourcing as innovative ways of connecting with consumers.</p>
-    <p>Batu brings extensive experience with research methods, data analysis, brand strategy and digital innovation. He has a masters degree in interaction design from NYU ITP, where he designed new products and experiences for internet of things, mobile platforms, virtual and augmented reality. His interaction design thesis is a mobile game for participatory democracy and a political simulation tool. He holds a previous masters degree in strategic marketing and a BSc in economics from Carnegie Mellon University.</p>
+# - name: Batu Sayici
+#   firstname: Batu
+#   job: Director of User Experience
+#   projects: true
+#   bio: >
+#     <p>Batu Sayici is Fellow and Director of User Experience at the GovLab. Batu is a user experience designer and researcher, whose passion is using design and technology to create meaningful social impact. Before moving into UX design, he led digital research strategy for Procter & Gamble’s Europe, Middle-East & Africa division; reporting to Senior VP of Consumer Insights. He has seven years of experience with global brands including Head & Shoulders, Old Spice, Braun and Gillette. He was part of P&G’s digital innovation team. There, he collaborated on the design of the first digital research strategy, setting up digital ethnography, online communities and crowdsourcing as innovative ways of connecting with consumers.</p>
+#     <p>Batu brings extensive experience with research methods, data analysis, brand strategy and digital innovation. He has a masters degree in interaction design from NYU ITP, where he designed new products and experiences for internet of things, mobile platforms, virtual and augmented reality. His interaction design thesis is a mobile game for participatory democracy and a political simulation tool. He holds a previous masters degree in strategic marketing and a BSc in economics from Carnegie Mellon University.</p>
 
 # - name: Beth Simone Noveck
 #   job: Co-Founder and Director
@@ -190,13 +190,13 @@
     <p>Fred DeJohn is the Chief Financial Officer at GovLab. Fred is an attorney with extensive experience in finance, budget and human resources in both government and higher education. Prior to joining the GovLab, Fred served as the Acting Vice President for Human Resources at the Fashion Institute of Technology.  Before that, he spent more than eighteen years as the Vice President for Finance and Administration at New York Law School.</p>
     <p>Fred's earlier career was with New York City government where he held high level positions in a number of City agencies, including Deputy Commissioner for Finance and Administration at the Department of Housing, Preservation and Development, First Deputy Commissioner at the Department of General Services and First Deputy Director at the Department of Personnel. He finished his City service as a Special Assistant to Mayor David Dinkins, focusing on municipal labor issues.</p>
 
-- name: Greyson Nevins-Archer
-  firstname: Greyson
-  job: Undergraduate Research Assistant
-  projects: false
-  bio: >
-    <p>Greyson Nevins-Archer is an Undergraduate Research Assistant at the GovLab. He is a senior pursuing a B.S. in Science and Technology at NYU Tandon School of Engineering. While Greyson has enjoyed learning to code and working with startups, he has found a newer passion in technology policy, social, and legal research as they relate to the Internet.</p>
-    <p>Prior to working with GovLab’s research team, Greyson has had the chance to research with the Internet Society and Google. During his time at ISOC, Greyson collaborated on the beginning phase of ISOC’s Future of the Internet scenario planning project through global surveys and thought research curation. While at Google, Greyson assisted in Google’s efforts to understand the need for digital preservation as it relates to society’s dependence on technology to store cultural artifacts forever through research into the legal, technical, and social implications.</p>
+# - name: Greyson Nevins-Archer
+#   firstname: Greyson
+#   job: Undergraduate Research Assistant
+#   projects: false
+#   bio: >
+#     <p>Greyson Nevins-Archer is an Undergraduate Research Assistant at the GovLab. He is a senior pursuing a B.S. in Science and Technology at NYU Tandon School of Engineering. While Greyson has enjoyed learning to code and working with startups, he has found a newer passion in technology policy, social, and legal research as they relate to the Internet.</p>
+#     <p>Prior to working with GovLab’s research team, Greyson has had the chance to research with the Internet Society and Google. During his time at ISOC, Greyson collaborated on the beginning phase of ISOC’s Future of the Internet scenario planning project through global surveys and thought research curation. While at Google, Greyson assisted in Google’s efforts to understand the need for digital preservation as it relates to society’s dependence on technology to store cultural artifacts forever through research into the legal, technical, and social implications.</p>
 
 # - name: Irene Tello-Arista
 #   job: Intern
@@ -216,14 +216,14 @@
 #     <p>Julia Chrusciel is a Developer at the GovLab, with experience in digital media both as a writer and technologist. While working as a journalist, she explored the evolution of social media platforms as an alternative to conventional media and as a vehicle for citizen journalism globally. Seeking to unite her interests in the democratization of media discourse and the technology that powers digital platforms, Julia learned several programming languages and began developing data-centric apps, including an interactive travel guide to Istanbul, and a Chicago neighborhood app for users searching for local attractions.</p>
 #     <p>Prior to becoming a developer, Julia studied Turkish as a U.S. State Department Critical Language Scholar. She earned a B.A. in Anthropology and English from Wellesley College in 2010, where she focused on language and media in society.</p>
 
-- name: Julia Root
-  firstname: Julia
-  job: Fellow
-  projects: true
-  bio: >
-    <p>Julia Root is a Fellow at the GovLab and Project Lead for Open NYU and the Open Data 500 Global Network. With experience across many organizational and urban themes, as well as across sectors, as a strategist, idea connector, and network builder, Julia’s areas of expertise include open data and urban informatics; expert networks; cross-sector network building; higher education strategy; civic innovation; and intercultural business performance.</p> 
-    <p>Immediately prior to joining the GovLab, she was Assistant Director for Student Services at NYU CUSP (Center for Urban Science + Progress). Before that, she worked as a consultant with a boutique international consulting firm focused on advising higher education, public sector, and engineering clients on urban issues and cross-sector network building. She has contributed research and writing for academic and policy institutes and has consulted with organizations on business development, marketing, and organizational development.</p>
-    <p>Before coming to NYC, Julia was the Associate Director of Development for the largest health and human service provider in New Orleans and the Gulf Coast and a field office manager for an advocacy nonprofit located in Los Angeles. Julia has lived and/or worked in Los Angeles, San Diego, Barcelona, New Orleans and New York City. She has a B.A. from the University of California, San Diego and an M.P.A from NYU’s Robert F. Wagner Graduate School of Public Service.</p>
+# - name: Julia Root
+#   firstname: Julia
+#   job: Fellow
+#   projects: true
+#   bio: >
+#     <p>Julia Root is a Fellow at the GovLab and Project Lead for Open NYU and the Open Data 500 Global Network. With experience across many organizational and urban themes, as well as across sectors, as a strategist, idea connector, and network builder, Julia’s areas of expertise include open data and urban informatics; expert networks; cross-sector network building; higher education strategy; civic innovation; and intercultural business performance.</p> 
+#     <p>Immediately prior to joining the GovLab, she was Assistant Director for Student Services at NYU CUSP (Center for Urban Science + Progress). Before that, she worked as a consultant with a boutique international consulting firm focused on advising higher education, public sector, and engineering clients on urban issues and cross-sector network building. She has contributed research and writing for academic and policy institutes and has consulted with organizations on business development, marketing, and organizational development.</p>
+#     <p>Before coming to NYC, Julia was the Associate Director of Development for the largest health and human service provider in New Orleans and the Gulf Coast and a field office manager for an advocacy nonprofit located in Los Angeles. Julia has lived and/or worked in Los Angeles, San Diego, Barcelona, New Orleans and New York City. She has a B.A. from the University of California, San Diego and an M.P.A from NYU’s Robert F. Wagner Graduate School of Public Service.</p>
 
 # - name: Kirsten Gollatz
 #   firstname: Kirsten
