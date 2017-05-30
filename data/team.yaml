@@ -74,13 +74,13 @@
 
 - name: Anirudh Dinesh
   firstname: Anirudh
-  job: Graduate Research Assistant
+  job: Research/Tech Associate Fellow
   projects: true
   bio: >
-    <p>A Graduate Research Assistant at the GovLab, Anirudh Dinesh is pursuing a master’s degree in Computer Engineering at NYU. At GovLab, Anirudh conducts research on governance innovation. He is a member of the research team studying how public institutions use knowledge networks to leverage the expertise of their employees and constituents. The team has produced ten original <a href="http://www.smarterstate.org">Smarter State case studies</a>. He has also researched and authored reports on <a href="http://www.thegovlab.org/project-open-data-for-developing-economies.html">Open Data for Developing Economies</a>, a project to explore the social and economic impact of opening government data.</p>
+    <p>Anirudh conducts research on governance innovation. He is a member of the research team studying how public institutions use knowledge networks to leverage the expertise of their employees and constituents. The team has produced ten original <a href="http://www.smarterstate.org">Smarter State case studies</a>. He has also researched and authored reports on <a href="http://www.thegovlab.org/project-open-data-for-developing-economies.html">Open Data for Developing Economies</a>, a project to explore the social and economic impact of opening government data.</p>
     <p>In his job, Anirudh organizes events at the GovLab. He is part of the organizing team of the <a href="http://collectiveintelligenceconference.org">Collective Intelligence Conference</a> which will be hosted at NYU Tandon in June 2017. He has coordinated multiple online classes and coaching programs for the GovLab Academy, including the ones on <a href="http://govlabacademy.org/innovations-in-tech-enabled-disaster-management-detail.html">innovations in tech-enabled disaster management</a> and <a href="http://govlabacademy.org/coaching-program-for-data-driven-criminal-justice-projects-detail.html">data driven criminal justice</a>. He previously co-produced <a href="https://www.ted.com/tedx/events/14384">TEDxBNMIT 2015</a>, an independently organized TEDx event in Bangalore, India.</p>
     <p>In addition to his research and event planning roles, Anirudh works with GovLab Engineering on a variety of civic tech projects, often helping to translate user needs into technical requirements.</p>
-    <p>Anirudh holds an undergraduate degree in Electronics and Communication Engineering from the Visvesvaraya Technological University in India. While studying there, he interned at the Defence Research and Development Organization, where he implemented the autonomous indoor navigation of a quadcopter.</p>
+    <p>Anirudh holds a master’s degree in Computer Engineering from New York University and an undergraduate degree in Electronics and Communication Engineering from the Visvesvaraya Technological University in India. While studying there, he interned at the Defence Research and Development Organization, where he implemented the autonomous indoor navigation of a quadcopter.</p>
     <p>Anirudh is an avid blogger and his writings can be found at <a href="http://www.dudurudh.com">www.dudurudh.com</a>.</p>
 
 # - name: Atul Varma
@@ -147,7 +147,7 @@
   job: The GovLab Academy Coordinator
   projects: true
   bio: >
-    <p>Dinorah Cantu coordinates the GovLab Academy, an online institute aimed at helping government and social innovators take innovative projects from idea to implementation. Under her direction, the Academy has worked with over five hundred innovators from more than 30 countries online and off over the last two years. Thousands more have watched its skill-building videos. She has put together over 12 Coaching Programs, the Academy’s signature mentoring and peer to peer learning initiative, where over 95% of whose participants complete the program. The Academy is a project of the Governance Lab, based at New York University. GovLab focuses on the use of technology to improve how we govern.</p> 
+    <p>Dinorah Cantu coordinates the GovLab Academy, an online institute aimed at helping government and social innovators take innovative projects from idea to implementation. Under her direction, the Academy has worked with over five hundred innovators from more than 30 countries online and off over the last two years. Thousands more have watched its skill-building videos. She has put together over 12 Coaching Programs, the Academy’s signature mentoring and peer to peer learning initiative, where over 95% of whose participants complete the program. The Academy is a project of the Governance Lab, based at New York University. GovLab focuses on the use of technology to improve how we govern.</p>
     <p>Dinorah has also designed the GovLab’s Crowdsorcerer expert system, a software tool to deliver customized case studies to government leaders about open innovation. Working together with lawyers and education experts from NYU, she also designed an expert system to help universities determine the legal requirements for offering online education. She also runs the GovLab’s Demos for Democracy video series where she interviews leading technologists about new platforms to advance the public interest.</p>
     <p>A lawyer by training, Dinorah founded and directed the Human Rights Center of the Facultad Libre de Derecho de Monterrey prior to coming to New York in 2012. She holds an MPA in Public and Nonprofit Management and Policy at NYU Robert F. Wagner School of Public Service and is passionate about the value of civic technology for strengthening human rights. She is bilingual in English and Spanish and tweets at @dinorah_cantu.<a href="https://twitter.com/dinorah_cantu" target="_blank">@dinorah_cantu</a>.</p>
 
@@ -221,7 +221,7 @@
 #   job: Fellow
 #   projects: true
 #   bio: >
-#     <p>Julia Root is a Fellow at the GovLab and Project Lead for Open NYU and the Open Data 500 Global Network. With experience across many organizational and urban themes, as well as across sectors, as a strategist, idea connector, and network builder, Julia’s areas of expertise include open data and urban informatics; expert networks; cross-sector network building; higher education strategy; civic innovation; and intercultural business performance.</p> 
+#     <p>Julia Root is a Fellow at the GovLab and Project Lead for Open NYU and the Open Data 500 Global Network. With experience across many organizational and urban themes, as well as across sectors, as a strategist, idea connector, and network builder, Julia’s areas of expertise include open data and urban informatics; expert networks; cross-sector network building; higher education strategy; civic innovation; and intercultural business performance.</p>
 #     <p>Immediately prior to joining the GovLab, she was Assistant Director for Student Services at NYU CUSP (Center for Urban Science + Progress). Before that, she worked as a consultant with a boutique international consulting firm focused on advising higher education, public sector, and engineering clients on urban issues and cross-sector network building. She has contributed research and writing for academic and policy institutes and has consulted with organizations on business development, marketing, and organizational development.</p>
 #     <p>Before coming to NYC, Julia was the Associate Director of Development for the largest health and human service provider in New Orleans and the Gulf Coast and a field office manager for an advocacy nonprofit located in Los Angeles. Julia has lived and/or worked in Los Angeles, San Diego, Barcelona, New Orleans and New York City. She has a B.A. from the University of California, San Diego and an M.P.A from NYU’s Robert F. Wagner Graduate School of Public Service.</p>
 
@@ -318,6 +318,20 @@
   projects: true
   bio: >
     <p>Robert is a Research Assistant at GovLab. He has a BA in Political Science and International Relations from Fordham University and is currently a second-year MA Candidate in NYU's Department of International Relations. Before joining the GovLab team, Robert has worked for various humanitarian organizations, including the International Rescue Committee, the Center for International Health and Communication, and The Women's Islamic Initiative in Spirituality and Equality.</p>
+
+- name: Martin Feuerstein-Mendik
+  firstname: Marty
+  job: Intern
+  projects: false
+  bio: >
+    <p>Marty is a summer intern. He is a rising Senior and Johns Hopkins University studying Applied Mathematics, and pure Mathematics, with a minor in Economics. Previously, he has worked at The Robin Hood Foundation helping to clean up their database and analyzing whatever was accurate. He is excited to work at GovLab and hopes to improve lives through Governance on top of the non-profit work he has already done.</p>
+
+- name: Audrie Pirkl
+  firstname: Audrie
+  job: Intern
+  projects: false
+  bio: >
+    <p>A senior at Arizona State University, Audrie Pirkl is pursuing concurrent degrees in Global Politics and Public Service & Public Policy, as well as certificates in International Business, Leadership in Business, and Public Administration & Public Management within the W.P. Carey School of Business. Prior to interning with The GovLab at NYU, she studied globalization and its international effects at the Alliance Manchester Business School in the United Kingdom. With a particular interest in Panopticism in the modern city, Audrie is also working with the Center for Policy Informatics to draw connections between millennial identity and accountability by measuring empathy levels within various communities.</p>
 
 # - name: Saroj Bista
 #   firstname: Saroj
