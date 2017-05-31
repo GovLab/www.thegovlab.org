@@ -104,6 +104,13 @@
 #     <p>A graduate of Harvard University and Yale Law School, she serves on the Global Commission on Internet Governance and chaired the ICANN Strategy Panel on Multi-Stakeholder Innovation. She is a member of the Advisory Board of the Open Contracting Partnership. She was named one of the “Foreign Policy 100″ by Foreign Policy, one of the “100 Most Creative People in Business” by Fast Company and one of the “Top Women in Technology” by Huffington Post. She has also been honored by both the National Democratic Institute and Public Knowledge for her work in civic technology.</p>
 #     <p>Beth is the author of Wiki Government: How Technology Can Make Government Better, Democracy Stronger and Citizens More Powerful, which has also appeared in Arabic, Russian, Chinese and in an audio edition, and co-editor of The State of Play: Law, Games and Virtual Worlds. Her book Smart Citizens, Smarter State: The Technologies of Expertise and the Future of Governing was published by the Harvard University Press in 2015. She tweets <a href="https://twitter.com/bethnoveck" target="_blank">@bethnoveck</a> and writes on Medium <a href="https://medium.com/@bethnoveck" target="_blank">@bethnoveck</a>.</p>
 
+- name: Audrie Pirkl
+  firstname: Audrie
+  job: Intern
+  projects: false
+  bio: >
+    <p>A senior at Arizona State University, Audrie Pirkl is pursuing concurrent degrees in Global Politics and Public Service & Public Policy, as well as certificates in International Business, Leadership in Business, and Public Administration & Public Management within the W.P. Carey School of Business. Prior to interning with The GovLab at NYU, she studied globalization and its international effects at the Alliance Manchester Business School in the United Kingdom. With a particular interest in Panopticism in the modern city, Audrie is also working with the Center for Policy Informatics to draw connections between millennial identity and accountability by measuring empathy levels within various communities.</p>
+
 - name: Claudio Mendonca
   firstname: Claudio
   job: Creative Director
@@ -202,6 +209,13 @@
 #   job: Intern
 #   bio: '<p>Irene Tello is an Intern at the GovLab. She is studying for a Masters in International Relations at NYU. Prior to moving to New York, she used to work at Transparencia Mexicana, the Mexican chapter of Transparency International, as the Assistant Researcher of the Chair of the Board. Before working there she was the Program Coordinator of Presta tu Voz (Share your Voice) a program that creates audiobooks for people with visual impairment or blindness. Irene received her BA in Philosophy from the National Autonomous University in Mexico. She is currently a Fulbright Grantee and is interested in crowdsourcing as a tool to fight corruption. In her free time, she makes videos of philosophical themes in Spanish. This is where she tweets and this is her YouTube channel.</p>'
 
+- name: Hendrick Townley
+  firstname: Henry
+  job: Intern
+  projects: false
+  bio: >
+    <p>Henry is a summer intern at the GovLab. He is a junior at Yale University currently working towards a B.S. in Computer Science with additional academic interests in physics, technology policy and theater. Before joining the GovLab Henry was involved in physics research as a research assistant at the Yale Quantum Institute and in arts administration as a board member of the Yale Dramatic Association.</p>
+
 - name: Jos Berens
   firstname: Jos
   job: Visiting Fellow
@@ -279,6 +293,13 @@
     <p>Mark is a Student Research Fellow. Currently in his final year at the Yale School of Management MBA program, Mark is the Community Engagement Manager for The Data Justice Network, a hub for data-minded criminal justice practitioners to connect and learn from one another. During grad school, Mark worked in Illinois supporting the implementation and evaluation of diversion courts, special courts that divert offenders from incarceration toward treatment of underlying issues, using data and research to guide policy development and support courts personnel.</p>
     <p>Mark previously worked at the American Institutes for Research where he conducted behavioral science research to improve access to and quality of care for disadvantaged populations. He focused on patient engagement and methods for incorporating patient input into healthcare policy and physician decisionmaking and helped run the Center for Patient and Consumer Engagement, a learning network focused on helping practitioners and researchers empower patients to be proactive in their care.</p>
 
+- name: Martin Feuerstein-Mendik
+  firstname: Marty
+  job: Intern
+  projects: false
+  bio: >
+    <p>Marty is a summer intern. He is a rising Senior and Johns Hopkins University studying Applied Mathematics, and pure Mathematics, with a minor in Economics. Previously, he has worked at The Robin Hood Foundation helping to clean up their database and analyzing whatever was accurate. He is excited to work at GovLab and hopes to improve lives through Governance on top of the non-profit work he has already done.</p>
+
 - name: Michael Gill
   firstname: Michael
   job: Research Fellow
@@ -296,12 +317,12 @@
     <p>As Director of the NYU Wagner Innovation Labs, he supports the development of initiatives and programs to address pressing urban challenges, both nationally and globally. He has worked closely with Bloomberg Philanthropies, Citibank and the Ford Foundation on international initiatives to improve government efficiency and reform.</p>
     <p>He is also Deputy Executive Director of Policy, Research, and Evaluation for the National Resource Network. Funded with $10 million from the U.S. Department of Housing and Urban Development, the Network is the nation’s first one-stop resource for cities seeking customized solutions to their most pressing challenges.</p>
 
-- name: Prianka Srinivasan
-  firstname: Prianka
-  job: Graduate Research Assistant
-  projects: true
-  bio: >
-    <p>Prianka is a Research Intern at Govlab. She has a BA in Political Science and International Relations from the University of Melbourne and is currently enrolled in NYU’s joint Masters Program in Journalism and International Relations. Prior to enrolling at NYU, Prianka worked at a number of jobs in Melbourne, including managing a book store and serving as a Community Development Project Officer at the Asylum Seeker Welcome Centre, an organization that provides recreational, educational and social support for asylum seekers living in the Melbourne community. She also spent a year in Vanuatu, working as a Community Project Officer with the Marae Village Development Council.  Among her projects was a post-disaster assessment report following Cyclone Luis which she researched, produced and edited.</p>
+# - name: Prianka Srinivasan
+#   firstname: Prianka
+#   job: Graduate Research Assistant
+#   projects: true
+#   bio: >
+#     <p>Prianka is a Research Intern at Govlab. She has a BA in Political Science and International Relations from the University of Melbourne and is currently enrolled in NYU’s joint Masters Program in Journalism and International Relations. Prior to enrolling at NYU, Prianka worked at a number of jobs in Melbourne, including managing a book store and serving as a Community Development Project Officer at the Asylum Seeker Welcome Centre, an organization that provides recreational, educational and social support for asylum seekers living in the Melbourne community. She also spent a year in Vanuatu, working as a Community Project Officer with the Marae Village Development Council.  Among her projects was a post-disaster assessment report following Cyclone Luis which she researched, produced and edited.</p>
 
 # - name: Rafael F. Ayoub
 #   firstname: Rafael
@@ -312,26 +333,13 @@
 #     <p>After developing a new algorithm for screening for mental health conditions, Rafael founded Mental Care in 2011 to commercialize this service with the intent of improving the quality of life of workers and productivity. Mental Care, where he still consults, provides services to organizations like General Motors and the Special Forces of Sao Paulo Military Police. Rafael also served as Medical Director and Chief of Staff at AFIP-Association and Fund for Research Incentive Research - and was responsible for managing the team of physicians, nurses and technicians that provided over 300 medical evaluations a day.</p>
 #     <p>Rafael holds a M.D. degree from the University of Sao Paulo, a Masters in Photography from Speos Paris Photographic Institute and a M.P.A. in Health Management and Policy from New York University. At NYU, he worked with Prof. Victor Rodwin in the World Cities project on health systems and avoidable mortality in the BRIC countries. He also taught the undergraduate course “Medical Care and Health Systems: Comparative Perspectives.” You can find him on Instagram @rfayoub.</p>
 
-- name: Robert Montano
-  firstname: Robert
-  job: Graduate Research Assistant
-  projects: true
-  bio: >
-    <p>Robert is a Research Assistant at GovLab. He has a BA in Political Science and International Relations from Fordham University and is currently a second-year MA Candidate in NYU's Department of International Relations. Before joining the GovLab team, Robert has worked for various humanitarian organizations, including the International Rescue Committee, the Center for International Health and Communication, and The Women's Islamic Initiative in Spirituality and Equality.</p>
+# - name: Robert Montano
+#   firstname: Robert
+#   job: Graduate Research Assistant
+#   projects: true
+#   bio: >
+#     <p>Robert is a Research Assistant at GovLab. He has a BA in Political Science and International Relations from Fordham University and is currently a second-year MA Candidate in NYU's Department of International Relations. Before joining the GovLab team, Robert has worked for various humanitarian organizations, including the International Rescue Committee, the Center for International Health and Communication, and The Women's Islamic Initiative in Spirituality and Equality.</p>
 
-- name: Martin Feuerstein-Mendik
-  firstname: Marty
-  job: Intern
-  projects: false
-  bio: >
-    <p>Marty is a summer intern. He is a rising Senior and Johns Hopkins University studying Applied Mathematics, and pure Mathematics, with a minor in Economics. Previously, he has worked at The Robin Hood Foundation helping to clean up their database and analyzing whatever was accurate. He is excited to work at GovLab and hopes to improve lives through Governance on top of the non-profit work he has already done.</p>
-
-- name: Audrie Pirkl
-  firstname: Audrie
-  job: Intern
-  projects: false
-  bio: >
-    <p>A senior at Arizona State University, Audrie Pirkl is pursuing concurrent degrees in Global Politics and Public Service & Public Policy, as well as certificates in International Business, Leadership in Business, and Public Administration & Public Management within the W.P. Carey School of Business. Prior to interning with The GovLab at NYU, she studied globalization and its international effects at the Alliance Manchester Business School in the United Kingdom. With a particular interest in Panopticism in the modern city, Audrie is also working with the Center for Policy Informatics to draw connections between millennial identity and accountability by measuring empathy levels within various communities.</p>
 
 # - name: Saroj Bista
 #   firstname: Saroj
