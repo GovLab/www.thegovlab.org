@@ -339,6 +339,13 @@
     <p>As Director of the NYU Wagner Innovation Labs, he supports the development of initiatives and programs to address pressing urban challenges, both nationally and globally. He has worked closely with Bloomberg Philanthropies, Citibank and the Ford Foundation on international initiatives to improve government efficiency and reform.</p>
     <p>He is also Deputy Executive Director of Policy, Research, and Evaluation for the National Resource Network. Funded with $10 million from the U.S. Department of Housing and Urban Development, the Network is the nation’s first one-stop resource for cities seeking customized solutions to their most pressing challenges.</p>
 
+- name: Rafael Garcia Aceves
+  firstname: Rafael
+  job: Summer Research Fellow
+  projects: false
+  bio: >
+    <p>Rafael is a Summer Research Fellow on secondment from Transparency International and collaborating on the Smarter Crowdsourcing against Corruption project. Previously, he coordinated Transparency International Mexico’s Program on Open Government, which focuses on the use of open data, technology and citizens’ participation to address corruption risks. As coordinator, he led the development of the #3de3 initiative (<a href="www.3de3.mx">www.3de3.mx</a>) –which allows citizens to access politicians’ assets and interest declarations– and the “Social Witness 2.0” platform (<a href="www.testigosocial.mx">www.testigosocial.mx</a>) –an online tool for monitoring public procurement in Mexico. Rafael is a co-author of the “Open Up Guide: Using Open Data to Combat Corruption,” developed for the Open Data Charter.</p>
+
 - name: Timi Lewis
   firstname: Timi
   job: Director of Communications
@@ -364,13 +371,6 @@
 #     <p>Rafael F. Ayoub, MD is a physician, social entrepreneur, and health policy expert working on the use of data and collective intelligence to respond to public health crises, including mosquito-borne diseases. A native of Brazil, he has ten years of experience in internal medicine. Prior to coming to the GovLab, Rafael co-founded CCB - Centro de Criogenia Brasil- the first Stem Cell lab and autologous bank in Brazil. While at CCB, Rafael executed a partnership between CCB and AirLiquide, the world's second largest supplier of industrial gases, to develop a new fully automatic and safe system for cryogenic banks.</p>
 #     <p>After developing a new algorithm for screening for mental health conditions, Rafael founded Mental Care in 2011 to commercialize this service with the intent of improving the quality of life of workers and productivity. Mental Care, where he still consults, provides services to organizations like General Motors and the Special Forces of Sao Paulo Military Police. Rafael also served as Medical Director and Chief of Staff at AFIP-Association and Fund for Research Incentive Research - and was responsible for managing the team of physicians, nurses and technicians that provided over 300 medical evaluations a day.</p>
 #     <p>Rafael holds a M.D. degree from the University of Sao Paulo, a Masters in Photography from Speos Paris Photographic Institute and a M.P.A. in Health Management and Policy from New York University. At NYU, he worked with Prof. Victor Rodwin in the World Cities project on health systems and avoidable mortality in the BRIC countries. He also taught the undergraduate course “Medical Care and Health Systems: Comparative Perspectives.” You can find him on Instagram @rfayoub.</p>
-
-- name: Rafael Garcia Aceves
-  firstname: Rafael
-  job: Summer Research Fellow
-  projects: false
-  bio: >
-    <p>Rafael is a Summer Research Fellow on secondment from Transparency International and collaborating on the Smarter Crowdsourcing against Corruption project. Previously, he coordinated Transparency International Mexico’s Program on Open Government, which focuses on the use of open data, technology and citizens’ participation to address corruption risks. As coordinator, he led the development of the #3de3 initiative (<a href="www.3de3.mx">www.3de3.mx</a>) –which allows citizens to access politicians’ assets and interest declarations– and the “Social Witness 2.0” platform (<a href="www.testigosocial.mx">www.testigosocial.mx</a>) –an online tool for monitoring public procurement in Mexico. Rafael is a co-author of the “Open Up Guide: Using Open Data to Combat Corruption,” developed for the Open Data Charter.</p>
 
 # - name: Robert Montano
 #   firstname: Robert
