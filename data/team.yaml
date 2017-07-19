@@ -197,6 +197,14 @@
     <p>Fred DeJohn is the Chief Financial Officer at GovLab. Fred is an attorney with extensive experience in finance, budget and human resources in both government and higher education. Prior to joining the GovLab, Fred served as the Acting Vice President for Human Resources at the Fashion Institute of Technology.  Before that, he spent more than eighteen years as the Vice President for Finance and Administration at New York Law School.</p>
     <p>Fred's earlier career was with New York City government where he held high level positions in a number of City agencies, including Deputy Commissioner for Finance and Administration at the Department of Housing, Preservation and Development, First Deputy Commissioner at the Department of General Services and First Deputy Director at the Department of Personnel. He finished his City service as a Special Assistant to Mayor David Dinkins, focusing on municipal labor issues.</p>
 
+- name: Gabriella Capone
+  firstname: Gabriella
+  job: Summer Research Fellow
+  projects: false
+  bio: >
+    <p>A JD/MBA candidate at Yale University and a graduate of Swarthmore College, where she majored in political science, Latin American studies, and spatial analytics for public policy, Gabriella (Gabby) Capone is a Summer Research Fellow researching, designing and advocating for public engagement in lawmaking (“crowdlaw”). She is currently completing a global survey of parliaments using crowdlaw practices and platforms to improve the effectiveness of their legislative procedures. Her work also involves tracking crowdlaw legislation and working with researchers at Harvard University on developing model crowdlaw legislation to institutionalize public engagement. Previously, she spent two years at Locus Analytics/Syntax LLC, a data analytics and investment management firm, where she worked on taxonomy building for economic data analytics. She is also on the team of Revmax, a fleet management start-up, and has experience in the public and nonprofit sectors in Colombia.</p>
+    <p>Gabby is fluent in Spanish. She tweets <a href="https://twitter.com/crowdlawyale">@crowdlawyale</a>.</p>
+
 # - name: Greyson Nevins-Archer
 #   firstname: Greyson
 #   job: Undergraduate Research Assistant
@@ -204,6 +212,12 @@
 #   bio: >
 #     <p>Greyson Nevins-Archer is an Undergraduate Research Assistant at the GovLab. He is a senior pursuing a B.S. in Science and Technology at NYU Tandon School of Engineering. While Greyson has enjoyed learning to code and working with startups, he has found a newer passion in technology policy, social, and legal research as they relate to the Internet.</p>
 #     <p>Prior to working with GovLab’s research team, Greyson has had the chance to research with the Internet Society and Google. During his time at ISOC, Greyson collaborated on the beginning phase of ISOC’s Future of the Internet scenario planning project through global surveys and thought research curation. While at Google, Greyson assisted in Google’s efforts to understand the need for digital preservation as it relates to society’s dependence on technology to store cultural artifacts forever through research into the legal, technical, and social implications.</p>
+
+- name: Hanna Deleanu
+  firstname: Hanna
+  job: Summer Research Fellow
+  projects: false
+  bio: '<p>Hanna is a Summer Research Fellow at the GovLab, working on the Smarter Crowdsourcing against Corruption Project. Hanna holds a BSc, MSc, and a PhD in Economics and Law from Utrecht University. Her dissertation, entitled “Anti-money laundering efforts: failures, fixes and the future”, concluded with a set of actionable projects in the area of cash-based tax evasion, law enforcement cooperation, and statistics-based country evaluation. Prior to joining GovLab, Hanna was a visiting researcher at Yale Law School, where she worked on estimating the likelihood that members of the BITCOIN business ecosystem cater to potential white-collar criminals. Complementing her research, Hanna was also actively engaged in designing and executing two large-scale consultancy projects, on money laundering, and on corruption, at the request of the European Commission, and the European Anti-Fraud Office, respectively. She is, currently, a member of the Utrecht University Resilient Societies project, and of the European Centre for Alternative Finance, where she works on (re)designing the regulation of financial innovation in Europe.</p>'
 
 # - name: Irene Tello-Arista
 #   job: Intern
@@ -250,6 +264,14 @@
 #     <p>Kirsten has a Master’s Degree in Media and Political Communication from the Free University Berlin. </p>
 #     <p>For publications and presentations visit her website: <a href="http://www.hiig.de/en/staff/kirsten-gollatz">http://www.hiig.de/en/staff/kirsten-gollatz</a></p>
 
+- name: Kaitlin Koga
+  firstname: Kaitlin
+  job: Summer Research Fellow
+  projects: false
+  bio: >
+    <p>Lauren Yu is the Director of Operations at The GovLab. She holds a Masters Degree in Social Work from Columbia University where she focused on advanced clinical practice in health, mental health, and disabilities. She has worked in schools, hospitals, and community mental health centers where her target populations have included at-risk children, transplant patients, and homeless mentally ill adults. Lauren earned a BA in psychology from Occidental College.</p>
+    <p>Prior to joining The GovLab team, Lauren was living in Kathmandu, Nepal where she started a counseling program serving 1st-12th grade students. She also created the school’s service learning program involving middle school and high students in community service projects throughout Kathmandu and in surrounding rural villages.</p>
+
 - name: Lauren Yu
   firstname: Lauren
   job: Director of Operations
@@ -285,20 +307,20 @@
     <p>Mark Adkins-Hastings is a software developer with diverse expertise in both technology and design. He joins GovLab's development and design team to build civic technologies that help institutions work more openly and collaboratively. Previously, Mark worked on citizen-centric technology projects for the United States federal government, including the Department of Justice and the Patent and Trademark Office (USPTO). At USTPO, he developed the Office's electronic patent application filing system as part of a team promoting the adoption of more agile and modern design practices, including the use of citizen ethnography to ensure that government websites serve the public better.</p>
     <p>Recently, Mark collaborated with a team from the USPTO and the White House, including members of the Presidential Innovation Fellows corps, to help develop a process and platform for crowdsourcing public expertise to enhance the patent examination process. His work was showcased to the US Undersecretary of Commerce for Intellectual Property and the White House Office of the Chief Technology Officer.</p>
 
-- name: Mark Rosenberg
-  firstname: Mark
-  job: Student Research Fellow
-  projects: false
-  bio: >
-    <p>Mark is a Student Research Fellow. Currently in his final year at the Yale School of Management MBA program, Mark is the Community Engagement Manager for The Data Justice Network, a hub for data-minded criminal justice practitioners to connect and learn from one another. During grad school, Mark worked in Illinois supporting the implementation and evaluation of diversion courts, special courts that divert offenders from incarceration toward treatment of underlying issues, using data and research to guide policy development and support courts personnel.</p>
-    <p>Mark previously worked at the American Institutes for Research where he conducted behavioral science research to improve access to and quality of care for disadvantaged populations. He focused on patient engagement and methods for incorporating patient input into healthcare policy and physician decisionmaking and helped run the Center for Patient and Consumer Engagement, a learning network focused on helping practitioners and researchers empower patients to be proactive in their care.</p>
-
-# - name: Martin Feuerstein-Mendik
-#   firstname: Marty
-#   job: Intern
+# - name: Mark Rosenberg
+#   firstname: Mark
+#   job: Student Research Fellow
 #   projects: false
 #   bio: >
-#     <p>Marty is a summer intern. He is a rising Senior at Johns Hopkins University studying Applied Mathematics, and pure Mathematics, with a minor in Economics. Previously, he has worked at The Robin Hood Foundation helping to clean up their database and analyzing whatever was accurate. He is excited to work at GovLab and hopes to improve lives through Governance on top of the non-profit work he has already done.</p>
+#     <p>Mark is a Student Research Fellow. Currently in his final year at the Yale School of Management MBA program, Mark is the Community Engagement Manager for The Data Justice Network, a hub for data-minded criminal justice practitioners to connect and learn from one another. During grad school, Mark worked in Illinois supporting the implementation and evaluation of diversion courts, special courts that divert offenders from incarceration toward treatment of underlying issues, using data and research to guide policy development and support courts personnel.</p>
+#     <p>Mark previously worked at the American Institutes for Research where he conducted behavioral science research to improve access to and quality of care for disadvantaged populations. He focused on patient engagement and methods for incorporating patient input into healthcare policy and physician decisionmaking and helped run the Center for Patient and Consumer Engagement, a learning network focused on helping practitioners and researchers empower patients to be proactive in their care.</p>
+
+- name: Martin Feuerstein-Mendik
+  firstname: Marty
+  job: Intern
+  projects: false
+  bio: >
+    <p>Marty is a summer intern. He is a rising Senior at Johns Hopkins University, studying Applied Mathematics and pure Mathematics, with a minor in Economics. Previously, he interned at The Robin Hood Foundation helping to clean and analyze data.  While at GovLab, he is doing research on the use of administrative data to simplify the delivery of public benefits and services and also using his data science skills to assist with a project on matching the supply of academic expertise to the demand for it in government.</p>
 
 - name: Michael Gill
   firstname: Michael
@@ -316,6 +338,13 @@
     <p>Dr. Kleiman is a clinical professor at New York University, teaching graduate-level courses on policy development, urban innovation, and new approaches to technology and big data at both the Wagner School of Public Service and the Center for Urban Science and Progress.</p>
     <p>As Director of the NYU Wagner Innovation Labs, he supports the development of initiatives and programs to address pressing urban challenges, both nationally and globally. He has worked closely with Bloomberg Philanthropies, Citibank and the Ford Foundation on international initiatives to improve government efficiency and reform.</p>
     <p>He is also Deputy Executive Director of Policy, Research, and Evaluation for the National Resource Network. Funded with $10 million from the U.S. Department of Housing and Urban Development, the Network is the nation’s first one-stop resource for cities seeking customized solutions to their most pressing challenges.</p>
+
+- name: Rafael Garcia Aceves
+  firstname: Rafael
+  job: Summer Research Fellow
+  projects: false
+  bio: >
+    <p>Rafael is a Summer Research Fellow on secondment from Transparency International and collaborating on the Smarter Crowdsourcing against Corruption project. Previously, he coordinated Transparency International Mexico’s Program on Open Government, which focuses on the use of open data, technology and citizens’ participation to address corruption risks. As coordinator, he led the development of the #3de3 initiative (<a href="www.3de3.mx">www.3de3.mx</a>) –which allows citizens to access politicians’ assets and interest declarations– and the “Social Witness 2.0” platform (<a href="www.testigosocial.mx">www.testigosocial.mx</a>) –an online tool for monitoring public procurement in Mexico. Rafael is a co-author of the “Open Up Guide: Using Open Data to Combat Corruption,” developed for the Open Data Charter.</p>
 
 - name: Timi Lewis
   firstname: Timi
