@@ -205,11 +205,11 @@
 
 - name: Gabriella Capone
   firstname: Gabriella
-  job: Student Research Fellow
+  job: GRADUATE RESEARCH FELLOW
   projects: false
   bio: >
-    <p>A JD/MBA candidate at Yale University and a graduate of Swarthmore College, where she majored in political science, Latin American studies, and spatial analytics for public policy, Gabriella (Gabby) Capone is a Summer Research Fellow researching, designing and advocating for public engagement in lawmaking (“crowdlaw”). She is currently completing a global survey of parliaments using crowdlaw practices and platforms to improve the effectiveness of their legislative procedures. Her work also involves tracking crowdlaw legislation and working with researchers at Harvard University on developing model crowdlaw legislation to institutionalize public engagement. Previously, she spent two years at Locus Analytics/Syntax LLC, a data analytics and investment management firm, where she worked on taxonomy building for economic data analytics. She is also on the team of Revmax, a fleet management start-up, and has experience in the public and nonprofit sectors in Colombia.</p>
-    <p>Gabby is fluent in Spanish. She tweets <a href="https://twitter.com/crowdlawyale">@crowdlawyale</a>.</p>
+    <p>Gabriella (Gabby) researches, designs, and advocates for public participation in lawmaking (“crowdlaw”). She is pursuing a JD/MBA at the Yale Law School and Yale School of Management. Her work includes completing a global survey of legislative initiatives that use crowdlaw to improve the effectiveness of legislative procedure and outcomes. She is also tracking public engagement legislation and collaborating with researchers at Harvard University to develop a model legal framework for institutionalizing public engagement. She believes that crowdlaw can help communities to make more informed, effective, and democratic decisions.</p>
+    <p>Previously, Gabby was a Project Manager at Locus Analytics/Syntax Funds, a data analytics and investment management firm, where she built data organization structures for risk stratification in portfolio management and community development. She also has experience in intellectual property strategy, fleet management technology, as well as in the Colombian public and nonprofit sectors. A graduate of Swarthmore College, she studied political science, Latin American studies, and spatial analytics for public policy. Gabby is fluent in Spanish. She tweets <a href="https://twitter.com/crowdlawyale">@crowdlawyale</a>.</p>
 
 # - name: Greyson Nevins-Archer
 #   firstname: Greyson
@@ -224,6 +224,13 @@
   job: Summer Research Fellow
   projects: false
   bio: '<p>Hanna is a Summer Research Fellow at the GovLab, working on the Smarter Crowdsourcing against Corruption Project. Hanna holds a BSc, MSc, and a PhD in Economics and Law from Utrecht University. Her dissertation, entitled “Anti-money laundering efforts: failures, fixes and the future”, concluded with a set of actionable projects in the area of cash-based tax evasion, law enforcement cooperation, and statistics-based country evaluation. Prior to joining GovLab, Hanna was a visiting researcher at Yale Law School, where she worked on estimating the likelihood that members of the BITCOIN business ecosystem cater to potential white-collar criminals. Complementing her research, Hanna was also actively engaged in designing and executing two large-scale consultancy projects, on money laundering, and on corruption, at the request of the European Commission, and the European Anti-Fraud Office, respectively. She is, currently, a member of the Utrecht University Resilient Societies project, and of the European Centre for Alternative Finance, where she works on (re)designing the regulation of financial innovation in Europe.</p>'
+
+- name: HANNAH PIERCE
+  firstname: Hanna
+  job: RESEARCH ASSISTANT
+  projects: false
+  bio: >
+    <p>Hannah is a Research Assistant at the GovLab. She is an interdisciplinary strategist who works across art, design and social science on projects designed to foster more dynamic, equitable, and civically engaged cities.  Currently, she works on GovLab projects focused on the use of data, especially open data and public-private data partnerships, for social good. Before joining the research team, she designed the curriculum and taught the GovLab's Open Data Summer Camp. A collaboration with the USDA, the Camp taught data science to 7-12th graders. Hannah has previously collaborated in the design of a platform to inform and engage New York City residents on the issue of rezoning. Hannah is a graduate of Parsons The New School for Design, where she earned a BBA in Strategic Design Management.</p>
 
 # - name: Irene Tello-Arista
 #   job: Intern
@@ -350,6 +357,13 @@
   projects: false
   bio: >
     <p>Rafael is a Summer Research Fellow on secondment from Transparency International and collaborating on the Smarter Crowdsourcing against Corruption project. Previously, he coordinated Transparency International Mexico’s Program on Open Government, which focuses on the use of open data, technology and citizens’ participation to address corruption risks. As coordinator, he led the development of the #3de3 initiative (<a href="www.3de3.mx">www.3de3.mx</a>) –which allows citizens to access politicians’ assets and interest declarations– and the “Social Witness 2.0” platform (<a href="www.testigosocial.mx">www.testigosocial.mx</a>) –an online tool for monitoring public procurement in Mexico. Rafael is a co-author of the “Open Up Guide: Using Open Data to Combat Corruption,” developed for the Open Data Charter.</p>
+
+- name: SAM DEJOHN
+  firstname: Sam
+  job: RESEARCH ASSISTANT
+  projects: false
+  bio: >
+    <p>Sam DeJohn is a Research Assistant at The GovLab who recently graduated from Penn State University with a Bachelor’s Degree in Psychology. His current research focuses on governance innovations in Latin American countries and Spain. He is part of the team evaluating the Organization of American States Fellowship Program and he is conducting a study of the Decide Madrid public engagement platform. Sam contributes to the GovLab blog and serves as a communications assistant to GovLab's Director of Communications. He is fluent in Spanish.</p>
 
 - name: Timi Lewis
   firstname: Timi
