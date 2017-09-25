@@ -5,7 +5,7 @@
   is_active: True
   related_question: 5 #question
   project_website:  http://zika.smartercrowdsourcing.org/
-  location: 
+  location:
     - Latin America
   partners:
     - Inter-American Development Bank
@@ -15,12 +15,12 @@
     - Government of Colombia
   team:
     - Beth Simone Noveck
-    - Maria Hermosilla 
-    - Rafael F. Ayoub 
+    - Maria Hermosilla
+    - Rafael F. Ayoub
     - Eleonore Pauwels
     - Denny Tek
     - Christopher Wong
-    - Claudio Mendonca 
+    - Claudio Mendonca
     - Anna Bialas
     - Ena Bek #name
   tags:
@@ -38,8 +38,8 @@
         - Strategy #tag
   status: test # define, prototype, test, complete
   problem_statement: Can targeted crowdsourcing help countries prepare for and respond to public health crises such as mosquito borne diseases? #question
-  short_description: 
-  tooltip: 
+  short_description:
+  tooltip:
   long_description: >
     <p>In collaboration with IDB and government partners, GovLab will articulate cross-cutting problems that will benefit from diverse input, and convene experts, practitioners, researchers and government partners from across interdisciplinary domains such as public health, water, sanitation and technology. Over four months, we will design and host a series of online conferences with the participation of global experts. The conferences will be focused on  identifying innovative approaches to tackle the identified problems.</p>
   background: >
@@ -135,7 +135,7 @@
   is_active: True
   related_question: 1 #question
   project_website: #url
-  location: 
+  location:
     - Global
   partners:
     - Web Foundation
@@ -148,7 +148,7 @@
     - Anirudh Dinesh
     #- Juliet McMurren
     - Prianka Srinivasan
-    - Robert Montano 
+    - Robert Montano
     - Saroj Bista #name
   tags:
     governance_area:
@@ -159,11 +159,11 @@
         - Open Data #tag
     product_category:
         - Case Studies #tag
-  status: define # define, prototype, test, complete
+  status: complete # define, prototype, test, complete
   problem_statement: What is the social and economic value of open data for developing economies? #question
   short_description: >
     <p>This project seeks to build an evidence base identifying: a) the conditions under which open data is most (and least) effective in the development process; b) strategies to maximize the positive contributions of open data to development; and c) means for limiting open data’s harms on developing countries.</p>
-  tooltip: 
+  tooltip:
   long_description: >
     <p>This project seeks to build an evidence base identifying: a) the conditions under which open data is most (and least) effective in the development process; b) strategies to maximize the positive contributions of open data to development; and c) means for limiting open data’s harms on developing countries.</p>
     <p>Toward that end, we are landscaping the current field of research investigating the value of open data in low and middle income contexts and developing a collection of  in-depth, illustrative and detailed case studies to better understand how developing countries are responding to public demand to open their data, who is making use of that data and for what, and what impact it is having in several key domains.</p>
@@ -187,8 +187,8 @@
   # results: >
   #   <p></p>
   related_articles:
-    #- name: URL for Announcement Blog 
-    #  url: #TBD 
+    #- name: URL for Announcement Blog
+    #  url: #TBD
 
 # ==========================================================================================================================================================================================================================================#
 
@@ -198,7 +198,7 @@
   is_featured: 0 #integer
   is_active: True
   related_question: 2
-  project_website: 
+  project_website:
   location:
     - Global
   partners:
@@ -396,7 +396,7 @@
   is_active: True
   related_question: 3 #question
   project_website: http://ogrx.org/ #url
-  location: 
+  location:
     - Global
   partners:
   team:
@@ -475,7 +475,7 @@
     governance_area:
       - International Governance
       - National Governance
-      - Local Governance 
+      - Local Governance
     type_of_institution:
       - International Organization
       - Public Sector
@@ -637,7 +637,7 @@
     - Claudio Mendonca
     - Mark Adkins-Hastings
     - Anna Bialas
-    - Ena Bek 
+    - Ena Bek
   tags:
     governance_area:
       - National Governance
@@ -730,7 +730,7 @@
   images: #images or screenshots of the project
     - noi-logged-out-index.png
     - noi-logged-in-search_expertise.png
-    - noi-add-skills.png 
+    - noi-add-skills.png
     - noi-match-me.png
     - noi-match-me-results.png
     - noi-discourse.png
@@ -1350,7 +1350,7 @@
   project_website: https://medium.com/open-grantmaking-innovations
   location:
     - United States
-  partners: 
+  partners:
     - GrantCraft, a service of Foundation Center
   team:
     - Beth Simone Noveck
@@ -1379,7 +1379,7 @@
     <p>Grantmaking plays a vital role in helping our government, our researchers, and our communities confront 21st-century challenges. Yet we still have a decidedly 20th-century system in place for deciding how we make these billions of dollars of crucial investments. In order to make the most of limited funding — and to help build confidence in the ability of public investments to make a positive difference — it is essential for our government agencies to try more strategic approaches to designing, awarding, and measuring their grantmaking.</p>
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
-    - open-grantmaking.jpg 
+    - open-grantmaking.jpg
   results:
   related_articles:
     - name: "The Innovation the Grantmaking Process Needs"
@@ -1509,13 +1509,13 @@
 # ==========================================================================================================================================================================================================================================#
 
 
-- title: Crowdsourcing Innovations in Disaster Management 
+- title: Crowdsourcing Innovations in Disaster Management
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
   related_question: 5 #question
   project_website: http://tu-reportas.devsu.us/ #url
-  location: 
+  location:
     - Quito, Ecuador
   partners:
     - Secretary General for Planning and Open Government of Quito
@@ -1540,8 +1540,8 @@
         - Strategy #tag
   status: test # define, prototype, test, complete
   problem_statement: How can targeted crowdsourcing help the City of Quito, Ecuador get smarter about how to prepare for a likely volcano eruption? #question
-  short_description: 
-  tooltip: 
+  short_description:
+  tooltip:
   long_description: >
     <p>The online sessions had the intention to help the city of Quito: better define and understand the nature of the problem; help connect those people with relevant experience and know how to city officials to help Quito better manage the impending disaster; identify innovative and practical ways, especially using new technology, to tackle the challenge at hand; and, last but not least, find out ways to do things differently and potentially save lives by optimizing resources and financing solutions for the ow for money to be spent on what matters most.</p>
     <p>The issues discussed during each session were identified by the Risk Department of the Secretary of Security of the Municipality of Quito. Overall, the topics essentially focused on communications (within the Government and messages to the public), mobility plans, risk issues and evacuation plans among.</p>
@@ -1550,13 +1550,13 @@
     <p>At the time of the call, Cotopaxi was spewing ash (latest images below). The last large-scale eruption was in 1877, and it was believed that another one is inevitable. If it erupts, some communities will have less than half an hour to evacuate.The scale of the challenge is overwhelming. However, by mobilizing expertise - both credentialed know-how and experiential wisdom - we hoped to bring the best thinking to bear and translate good ideas for how to mitigate the risks and create actionable proposals, especially using technology and innovation.</p>
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
-    - cotopaxi1.png 
-    - cotopaxi2.png 
-    - cotopaxi3.png 
-    - cotopaxi4.png 
+    - cotopaxi1.png
+    - cotopaxi2.png
+    - cotopaxi3.png
+    - cotopaxi4.png
     - cotopaxi5.png #url
   results: >
-    <p>This project was the first effort to solicit expertise and help for emergency response before the disaster happens. 65 international experts self-selected themselves to join online coaching sessions and help the City of Quito leverage their expertise on specific problems like: 
+    <p>This project was the first effort to solicit expertise and help for emergency response before the disaster happens. 65 international experts self-selected themselves to join online coaching sessions and help the City of Quito leverage their expertise on specific problems like:
       <ul>
         <li>Coordination of communication,</li>
         <li>Evacuation planning,</li>
@@ -1647,7 +1647,7 @@
   is_active: True
   related_question: 3 #question
   project_website:  http://www.thegovlab.org/projects.html #url
-  location: 
+  location:
     - San Pedro Garza García, México
   partners:
     - Codeando México and the Municipality of San Pedro Garza García
@@ -1672,12 +1672,12 @@
         - Strategy #tag
   status: test # define, prototype, test, complete
   problem_statement: How can open innovation help to tap into the skills, talents and abilities of diverse citizens to solve social problems more quickly and effectively? #question
-  short_description: 
-  tooltip: 
+  short_description:
+  tooltip:
   long_description: >
     <p>The goal of the project is to pilot and evaluate a replicable process for Latin American cities to tap into the skills, talents and abilities of diverse citizens to solve social problems more quickly and effectively. By creating the “conversational infrastructure” -- the method and tools -- to source and, above all, implement novel approaches from civil servants and the public the hope is to spark a potential shift from the traditional top-down, closed governing approaches to more decentralized, collaborative, and open practices of solving public problems that take the intelligence and expertise of the public seriously and encourage active forms of citizenship.</p>
     <p>Rather than rely on prize-backed challenges alone, however, the design of the project combines open innovation to source a wide array of ideas with ICT-enabled training to shape those ideas into implementable new policies and services.</p>
-    <p>Over the course of the year, the GovLab in collaboration with the Mayor’s office of the Municipality of San Pedro Garza García (SPGG), Mexico will: 
+    <p>Over the course of the year, the GovLab in collaboration with the Mayor’s office of the Municipality of San Pedro Garza García (SPGG), Mexico will:
     <ul>
     <li>DESIGN: Design and launch 3-5 open innovation challenges designed to solicit good ideas to solve hard problems facing the city from the public and civil servants.</li>
     <li>TRAIN: Train challenge winners and city officials to further develop their proposals into actionable and implementable policies.</li>
