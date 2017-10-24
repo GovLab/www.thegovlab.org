@@ -63,16 +63,16 @@
 
     <p>Prior to his graduate work at NYU, Andrew attended Pennsylvania State University and Goldsmiths College, University of London, where he studied English and Communications. His writings can be found at the GovLab Blog, Opening Governance Research Network Blog, the Social Science Research Network, Open Government Partnership blog, GrantCraft, and Governing, among others. He tweets at <a href="https://twitter.com/_AndrewYoung">@_AndrewYoung</a>.</p>
 
-- name: Anna Bialas
-  firstname: Anna
-  job: Web Intern
-  projects: true
-  bio: >
-    <p>Anna is an Intern at the GovLab. She is a junior pursuing a B.S. in Media, Culture, and Communication
-    with a focus on Technology and Society at NYU Steinhardt. Before joining GovLab’s development and design team,
-    Anna worked as content writer and editor at the Marketing and Communications Department at NYU Tandon,
-    while simultaneously pursuing coursework in web design. In her studies, Anna explores the relationship between
-    bodies and data, tracing the history of data visualization and tracking technologies.</p>
+# - name: Anna Bialas
+#   firstname: Anna
+#   job: Web Intern
+#   projects: true
+#   bio: >
+#     <p>Anna is an Intern at the GovLab. She is a junior pursuing a B.S. in Media, Culture, and Communication
+#     with a focus on Technology and Society at NYU Steinhardt. Before joining GovLab’s development and design team,
+#     Anna worked as content writer and editor at the Marketing and Communications Department at NYU Tandon,
+#     while simultaneously pursuing coursework in web design. In her studies, Anna explores the relationship between
+#     bodies and data, tracing the history of data visualization and tracking technologies.</p>
 
 # - name: Anupama Sharma
 #   job: Intern
@@ -125,13 +125,13 @@
     <p>Claudio Mendonca is the Creative Director at the GovLab where he is responsible for branding and interaction design of the digital projects. Working as a visual communicator for more than 10 years, he earned his Bachelor’s degree in Graphic Design in 2005. He has extensive experience in branding and interaction design, including 3 years developing graphical material for several government institutions in Brazil, publications and interface design for startups.</p>
     <p>Outside of his work at The GovLab, Claudio also designs webapps for the Centre of Direct Democracy and works as a design consultant for the World Bank Institute for several open gov projects such as Open Government, Open Contracting, Open Development and Technology Alliance. He can be found at http://claudiomendonca.ca/.</p>
 
-- name: Christopher Wong
-  firstname: Christopher
-  job: Director of Product
-  projects: true
-  bio: >
-    <p>Christopher Wong is Director of Product at the GovLab. Christopher joined the GovLab after serving as a Presidential Innovation Fellow, where he worked with the US Patent and Trademark Office to deliver on the White House's Executive Action to better utilize crowdsourcing as a mechanism for improving patent quality. The Executive Action expands upon previous work by Christopher and GovLab Director Beth Simone Noveck in launching Peer to Patent, the historic initiative to allow the public to participate in the patent examination process and one of the federal government's first uses of Web 2.0 technology.</p>
-    <p>Prior to his service as a Presidential Innovation Fellow, Christopher was the Executive Director of the Engelberg Center on Innovation Law & Policy at NYU School of Law and a Visiting Fellow at both the Yale Law School Information Society Project and the Princeton University Center for Information Technology Policy. Christopher holds a JD from New York Law School and a BSBA in Information Technology from the University of Denver. He tweets at @chrswng.</p>
+# - name: Christopher Wong
+#   firstname: Christopher
+#   job: Director of Product
+#   projects: true
+#   bio: >
+#     <p>Christopher Wong is Director of Product at the GovLab. Christopher joined the GovLab after serving as a Presidential Innovation Fellow, where he worked with the US Patent and Trademark Office to deliver on the White House's Executive Action to better utilize crowdsourcing as a mechanism for improving patent quality. The Executive Action expands upon previous work by Christopher and GovLab Director Beth Simone Noveck in launching Peer to Patent, the historic initiative to allow the public to participate in the patent examination process and one of the federal government's first uses of Web 2.0 technology.</p>
+#     <p>Prior to his service as a Presidential Innovation Fellow, Christopher was the Executive Director of the Engelberg Center on Innovation Law & Policy at NYU School of Law and a Visiting Fellow at both the Yale Law School Information Society Project and the Princeton University Center for Information Technology Policy. Christopher holds a JD from New York Law School and a BSBA in Information Technology from the University of Denver. He tweets at @chrswng.</p>
 
 # - name: Cristiano Ferri
 #   firstname: Cristiano
@@ -141,19 +141,19 @@
 #     <p>Cristiano is a Visiting Research Fellow at the GovLab working on CrowdLaw. Cristiano is the Founder and Director of the Hacker Laboratory at the Brazilian House of Representatives, where he has developed and managed the legislative e-Democracy Program. As the House's senior official since 1993, his main fields of interest and expertise are lawmaking, public labs, open parliament, participation, parliamentary informatics, transparency, open innovation in public sector and quality of law (legistic).</p>
 #     <p>Cristiano is also a research associate from Ash Center for Democratic Governance and Innovation, Harvard Kennedy School. He holds a PhD in sociology and political science from the Institute for Social and Political Studies, State University from Rio de Janeiro, and a Master's of Science in public policy from Queen Mary's College, University of London. He is the author of <a href="http://bd.camara.gov.br/bd/handle/bdcamara/12756">The open parliament in the age of the internet: Can the people now collaborate with legislatures in lawmaking?</a></p>
 
-- name: David Naffis
-  firstname: David
-  job: Lead Technical Architect
-  projects: true
-  bio: >
-    <p>David is the Lead Technical Architect at the GovLab. A former Presidential Innovation Fellow, David is an entrepreneur and software developer with experience in software services, product development, strategy, and operations. He is a founder of Intridea, an Inc 500 winning software development firm where he oversaw several successful product spinouts and acquisitions. Before starting Intridea, David worked as a software engineer and architect at companies including AOL, Cisco, and McKinsey. He holds a masters in Systems Engineering from The University of Virginia, has contributed to a number of open-source projects, and has spoken at numerous regional and national conferences. He lives in Washington, DC with his wife, Aubrey.
+# - name: David Naffis
+#   firstname: David
+#   job: Lead Technical Architect
+#   projects: true
+#   bio: >
+#     <p>David is the Lead Technical Architect at the GovLab. A former Presidential Innovation Fellow, David is an entrepreneur and software developer with experience in software services, product development, strategy, and operations. He is a founder of Intridea, an Inc 500 winning software development firm where he oversaw several successful product spinouts and acquisitions. Before starting Intridea, David worked as a software engineer and architect at companies including AOL, Cisco, and McKinsey. He holds a masters in Systems Engineering from The University of Virginia, has contributed to a number of open-source projects, and has spoken at numerous regional and national conferences. He lives in Washington, DC with his wife, Aubrey.
 
-- name: Denny Tek
-  firstname: Denny
-  job: Developer
-  projects: true
-  bio: >
-    <p>Denny Tek is a Developer at the GovLab. She enjoys working on projects that empower and connect communities. She is also a volunteer teacher with ScriptEd, an organization that brings web development classes and internship opportunities to students in under-resourced high schools in NYC. Prior to joining the GovLab, Denny developed and commissioned scholarly works on music for a global academic publisher. She has a B.F.A. in Music Technology from the City College of New York.</p>
+# - name: Denny Tek
+#   firstname: Denny
+#   job: Developer
+#   projects: true
+#   bio: >
+#     <p>Denny Tek is a Developer at the GovLab. She enjoys working on projects that empower and connect communities. She is also a volunteer teacher with ScriptEd, an organization that brings web development classes and internship opportunities to students in under-resourced high schools in NYC. Prior to joining the GovLab, Denny developed and commissioned scholarly works on music for a global academic publisher. She has a B.F.A. in Music Technology from the City College of New York.</p>
 
 - name: Dinorah Cantú-Pedraza
   firstname: Dinorah
@@ -164,19 +164,19 @@
     <p>Dinorah has also designed the GovLab’s Crowdsorcerer expert system, a software tool to deliver customized case studies to government leaders about open innovation. Working together with lawyers and education experts from NYU, she also designed an expert system to help universities determine the legal requirements for offering online education. She also runs the GovLab’s Demos for Democracy video series where she interviews leading technologists about new platforms to advance the public interest.</p>
     <p>A lawyer by training, Dinorah founded and directed the Human Rights Center of the Facultad Libre de Derecho de Monterrey prior to coming to New York in 2012. She holds an MPA in Public and Nonprofit Management and Policy at NYU Robert F. Wagner School of Public Service and is passionate about the value of civic technology for strengthening human rights. She is bilingual in English and Spanish and tweets at @dinorah_cantu.<a href="https://twitter.com/dinorah_cantu" target="_blank">@dinorah_cantu</a>.</p>
 
-- name: Eduardo Valdez
-  firtname: Eduardo
-  job: Project Assistant
-  projects: false
-  bio: >
-    <p>Eduardo has a Bachelor’s degree in Political Science and Public Policy from Universidad Iberoamericana in Mexico City. He currently works as Project Assistant of DesafíoSP, our pilot for testing open innovation for solving public problems in Latin American cities. Before joining the team, he contributed with NGO’s and private organizations along Mexico to accomplish change in environmental policy and worked with local officials to creatively solve issues of transparency and accountability.</p>
+# - name: Eduardo Valdez
+#   firtname: Eduardo
+#   job: Project Assistant
+#   projects: false
+#   bio: >
+#     <p>Eduardo has a Bachelor’s degree in Political Science and Public Policy from Universidad Iberoamericana in Mexico City. He currently works as Project Assistant of DesafíoSP, our pilot for testing open innovation for solving public problems in Latin American cities. Before joining the team, he contributed with NGO’s and private organizations along Mexico to accomplish change in environmental policy and worked with local officials to creatively solve issues of transparency and accountability.</p>
 
-- name: Ena Bek
-  firstname: Ena
-  job: Developer
-  projects: true
-  bio: >
-    <p>Ena is a Developer at the the GovLab. She has a B.S. in Media Communication Studies from Florida State University where she focused on communication theory and philosophy. Ena began her career in Marketing but soon found herself taking a greater interest in the creative and technical side of the industry. After realizing that coding could lead to more meaningful and fulfilling work, Ena dedicated herself to learning the skills she needed to become a member of the engineering community. Since then, Ena has led multiple projects from conceptualization to implementation, such as an app to make sharing responsibilities amongst roommates easier to manage, and a generator to help organizations quickly create and customize their own wikis.</p>
+# - name: Ena Bek
+#   firstname: Ena
+#   job: Developer
+#   projects: true
+#   bio: >
+#     <p>Ena is a Developer at the the GovLab. She has a B.S. in Media Communication Studies from Florida State University where she focused on communication theory and philosophy. Ena began her career in Marketing but soon found herself taking a greater interest in the creative and technical side of the industry. After realizing that coding could lead to more meaningful and fulfilling work, Ena dedicated herself to learning the skills she needed to become a member of the engineering community. Since then, Ena has led multiple projects from conceptualization to implementation, such as an app to make sharing responsibilities amongst roommates easier to manage, and a generator to help organizations quickly create and customize their own wikis.</p>
 
 # - name: Eran Raviv
 #   firstname: Eran
@@ -243,13 +243,13 @@
 #   bio: >
 #     <p>Henry is a summer intern at the GovLab. He is a junior at Yale University currently working towards a B.S. in Computer Science with additional academic interests in physics, technology policy and theater. Before joining the GovLab Henry was involved in physics research as a research assistant at the Yale Quantum Institute and in arts administration as a board member of the Yale Dramatic Association.</p>
 
-- name: Jos Berens
-  firstname: Jos
-  job: Visiting Fellow
-  projects: false
-  bio: >
-    <p>Jos Berens is a Visiting Fellow at the GovLab and the coordinator of the Data Governance Project (DGP), an international multidisciplinary collaboration between the GovLab, the World Economic Forum, and Leiden University. Jos holds an LL.B in Dutch Law and a BA in Philosophy, both obtained at Groningen University. He is currently pursuing an LL.M in Dutch Criminal Law and an LL.M in Public International Law, the former in Groningen and the latter at Utrecht University. He specialises in privacy issues and risk assessment regarding large scale data collection and use.</p>
-    <p>Jos' project at the GovLab focuses on building an expert network to solve questions related to corporate data sharing for social good, especially in the development context. Working with a number of international organisations, the DGP looks at concrete issues in the data for development space. Based on the solutions found, the DGP is developing a framework for corporate data sharing for social good.</p>
+# - name: Jos Berens
+#   firstname: Jos
+#   job: Visiting Fellow
+#   projects: false
+#   bio: >
+#     <p>Jos Berens is a Visiting Fellow at the GovLab and the coordinator of the Data Governance Project (DGP), an international multidisciplinary collaboration between the GovLab, the World Economic Forum, and Leiden University. Jos holds an LL.B in Dutch Law and a BA in Philosophy, both obtained at Groningen University. He is currently pursuing an LL.M in Dutch Criminal Law and an LL.M in Public International Law, the former in Groningen and the latter at Utrecht University. He specialises in privacy issues and risk assessment regarding large scale data collection and use.</p>
+#     <p>Jos' project at the GovLab focuses on building an expert network to solve questions related to corporate data sharing for social good, especially in the development context. Working with a number of international organisations, the DGP looks at concrete issues in the data for development space. Based on the solutions found, the DGP is developing a framework for corporate data sharing for social good.</p>
 
 # - name: Julia Chrusciel
 #   job: Developer
@@ -320,6 +320,13 @@
     <p>Mark Adkins-Hastings is a software developer with diverse expertise in both technology and design. He joins GovLab's development and design team to build civic technologies that help institutions work more openly and collaboratively. Previously, Mark worked on citizen-centric technology projects for the United States federal government, including the Department of Justice and the Patent and Trademark Office (USPTO). At USTPO, he developed the Office's electronic patent application filing system as part of a team promoting the adoption of more agile and modern design practices, including the use of citizen ethnography to ensure that government websites serve the public better.</p>
     <p>Recently, Mark collaborated with a team from the USPTO and the White House, including members of the Presidential Innovation Fellows corps, to help develop a process and platform for crowdsourcing public expertise to enhance the patent examination process. His work was showcased to the US Undersecretary of Commerce for Intellectual Property and the White House Office of the Chief Technology Officer.</p>
 
+- name: Michelle Winowatan
+  firstname: Michelle
+  job: Graduate Research Assistant
+  projects: false
+  bio: >
+    <p>Michelle is a Graduate Research Assistant at The GovLab, currently pursuing a Master's degree in Public Policy at NYU Wagner on a Fulbright scholarship. She holds a Bachelor's degree in International Relations from Universitas Pelita Harapan. Previously, she worked in the nonprofit sector in Indonesia where she developed and implemented a number of projects focusing on diversity, equality, inclusion, and conflict resolution.</p>
+
 # - name: Mark Rosenberg
 #   firstname: Mark
 #   job: Student Research Fellow
@@ -328,19 +335,19 @@
 #     <p>Mark is a Student Research Fellow. Currently in his final year at the Yale School of Management MBA program, Mark is the Community Engagement Manager for The Data Justice Network, a hub for data-minded criminal justice practitioners to connect and learn from one another. During grad school, Mark worked in Illinois supporting the implementation and evaluation of diversion courts, special courts that divert offenders from incarceration toward treatment of underlying issues, using data and research to guide policy development and support courts personnel.</p>
 #     <p>Mark previously worked at the American Institutes for Research where he conducted behavioral science research to improve access to and quality of care for disadvantaged populations. He focused on patient engagement and methods for incorporating patient input into healthcare policy and physician decisionmaking and helped run the Center for Patient and Consumer Engagement, a learning network focused on helping practitioners and researchers empower patients to be proactive in their care.</p>
 
-- name: Martin Feuerstein-Mendik
-  firstname: Marty
-  job: Intern
-  projects: false
-  bio: >
-    <p>Marty is a summer intern. He is a rising Senior at Johns Hopkins University, studying Applied Mathematics and pure Mathematics, with a minor in Economics. Previously, he interned at The Robin Hood Foundation helping to clean and analyze data.  While at GovLab, he is doing research on the use of administrative data to simplify the delivery of public benefits and services and also using his data science skills to assist with a project on matching the supply of academic expertise to the demand for it in government.</p>
+# - name: Martin Feuerstein-Mendik
+#   firstname: Marty
+#   job: Intern
+#   projects: false
+#   bio: >
+#     <p>Marty is a summer intern. He is a rising Senior at Johns Hopkins University, studying Applied Mathematics and pure Mathematics, with a minor in Economics. Previously, he interned at The Robin Hood Foundation helping to clean and analyze data.  While at GovLab, he is doing research on the use of administrative data to simplify the delivery of public benefits and services and also using his data science skills to assist with a project on matching the supply of academic expertise to the demand for it in government.</p>
 
-- name: Michael Gill
-  firstname: Michael
-  job: Research Fellow
-  projects: false
-  bio: >
-    <p>Michael is a Moore-Sloan Data Science Fellow at the Center for Data Science at NYU, and a Research Fellow at the GovLab. Michael's substantive interests include the study of special interest groups, the causes and effects of government transparency, and U.S. foreign policy. Methodologically, his research focuses on applications of machine learning methods for causal inference problems in the social sciences, experimental methods, and the analysis of text-as-data. He received his Ph.D. in Government from Harvard University, where he was an affiliate of the Institute for Quantitative Social Sciences.</p>
+# - name: Michael Gill
+#   firstname: Michael
+#   job: Research Fellow
+#   projects: false
+#   bio: >
+#     <p>Michael is a Moore-Sloan Data Science Fellow at the Center for Data Science at NYU, and a Research Fellow at the GovLab. Michael's substantive interests include the study of special interest groups, the causes and effects of government transparency, and U.S. foreign policy. Methodologically, his research focuses on applications of machine learning methods for causal inference problems in the social sciences, experimental methods, and the analysis of text-as-data. He received his Ph.D. in Government from Harvard University, where he was an affiliate of the Institute for Quantitative Social Sciences.</p>
 
 - name: Neil Kleiman
   firstname: Neil
