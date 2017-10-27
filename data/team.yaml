@@ -155,6 +155,13 @@
 #   bio: >
 #     <p>Denny Tek is a Developer at the GovLab. She enjoys working on projects that empower and connect communities. She is also a volunteer teacher with ScriptEd, an organization that brings web development classes and internship opportunities to students in under-resourced high schools in NYC. Prior to joining the GovLab, Denny developed and commissioned scholarly works on music for a global academic publisher. She has a B.F.A. in Music Technology from the City College of New York.</p>
 
+- name: David K. Chai
+  firstname: David
+  job: Senior Advisor
+  projects: false
+  bio: >
+    <p>David is a Senior Advisor at the GovLab.  He brings deep experience in politics, policy and management - having served and advised a President, Vice President, three governors and three big-city mayors. He worked as a communications aide in President Clinton’s White House; was Vice President Al Gore’s press secretary in California for the 2000 presidential campaign; served in a variety of policy roles for the governors of California, Pennsylvania and Washington; and served under the mayors of New York, San Francisco and Oakland. He was chief of staff to Oakland Mayor Ron Dellums, managing some 50 city and state agency heads, and representing the mayor in carrying out important city initiatives, including the analysis and implementation of the Mayor’s Advisory Task Force Groups, an unprecedented level of civic engagement from community leaders that led to over 40 reports and recommendations for the city of Oakland. Currently, David works for the chancellor of the University of California Berkeley as a Senior Advisor managing policy development, external stakeholder engagement and overall communications strategies.</p>
+
 - name: Dinorah Cantú-Pedraza
   firstname: Dinorah
   job: The GovLab Academy Coordinator
@@ -219,11 +226,11 @@
 #     <p>Greyson Nevins-Archer is an Undergraduate Research Assistant at the GovLab. He is a senior pursuing a B.S. in Science and Technology at NYU Tandon School of Engineering. While Greyson has enjoyed learning to code and working with startups, he has found a newer passion in technology policy, social, and legal research as they relate to the Internet.</p>
 #     <p>Prior to working with GovLab’s research team, Greyson has had the chance to research with the Internet Society and Google. During his time at ISOC, Greyson collaborated on the beginning phase of ISOC’s Future of the Internet scenario planning project through global surveys and thought research curation. While at Google, Greyson assisted in Google’s efforts to understand the need for digital preservation as it relates to society’s dependence on technology to store cultural artifacts forever through research into the legal, technical, and social implications.</p>
 
-- name: Hanna Deleanu
-  firstname: Hanna
-  job: Summer Research Fellow
-  projects: false
-  bio: '<p>Hanna is a Summer Research Fellow at the GovLab, working on the Smarter Crowdsourcing against Corruption Project. Hanna holds a BSc, MSc, and a PhD in Economics and Law from Utrecht University. Her dissertation, entitled “Anti-money laundering efforts: failures, fixes and the future”, concluded with a set of actionable projects in the area of cash-based tax evasion, law enforcement cooperation, and statistics-based country evaluation. Prior to joining GovLab, Hanna was a visiting researcher at Yale Law School, where she worked on estimating the likelihood that members of the BITCOIN business ecosystem cater to potential white-collar criminals. Complementing her research, Hanna was also actively engaged in designing and executing two large-scale consultancy projects, on money laundering, and on corruption, at the request of the European Commission, and the European Anti-Fraud Office, respectively. She is, currently, a member of the Utrecht University Resilient Societies project, and of the European Centre for Alternative Finance, where she works on (re)designing the regulation of financial innovation in Europe.</p>'
+# - name: Hanna Deleanu
+#   firstname: Hanna
+#   job: Summer Research Fellow
+#   projects: false
+#   bio: '<p>Hanna is a Summer Research Fellow at the GovLab, working on the Smarter Crowdsourcing against Corruption Project. Hanna holds a BSc, MSc, and a PhD in Economics and Law from Utrecht University. Her dissertation, entitled “Anti-money laundering efforts: failures, fixes and the future”, concluded with a set of actionable projects in the area of cash-based tax evasion, law enforcement cooperation, and statistics-based country evaluation. Prior to joining GovLab, Hanna was a visiting researcher at Yale Law School, where she worked on estimating the likelihood that members of the BITCOIN business ecosystem cater to potential white-collar criminals. Complementing her research, Hanna was also actively engaged in designing and executing two large-scale consultancy projects, on money laundering, and on corruption, at the request of the European Commission, and the European Anti-Fraud Office, respectively. She is, currently, a member of the Utrecht University Resilient Societies project, and of the European Centre for Alternative Finance, where she works on (re)designing the regulation of financial innovation in Europe.</p>'
 
 - name: HANNAH PIERCE
   firstname: Hanna
@@ -359,12 +366,12 @@
     <p>As Director of the NYU Wagner Innovation Labs, he supports the development of initiatives and programs to address pressing urban challenges, both nationally and globally. He has worked closely with Bloomberg Philanthropies, Citibank and the Ford Foundation on international initiatives to improve government efficiency and reform.</p>
     <p>He is also Deputy Executive Director of Policy, Research, and Evaluation for the National Resource Network. Funded with $10 million from the U.S. Department of Housing and Urban Development, the Network is the nation’s first one-stop resource for cities seeking customized solutions to their most pressing challenges.</p>
 
-- name: Rafael Garcia Aceves
-  firstname: Rafael
-  job: Summer Research Fellow
-  projects: false
-  bio: >
-    <p>Rafael is a Summer Research Fellow on secondment from Transparency International and collaborating on the Smarter Crowdsourcing against Corruption project. Previously, he coordinated Transparency International Mexico’s Program on Open Government, which focuses on the use of open data, technology and citizens’ participation to address corruption risks. As coordinator, he led the development of the #3de3 initiative (<a href="www.3de3.mx">www.3de3.mx</a>) –which allows citizens to access politicians’ assets and interest declarations– and the “Social Witness 2.0” platform (<a href="www.testigosocial.mx">www.testigosocial.mx</a>) –an online tool for monitoring public procurement in Mexico. Rafael is a co-author of the “Open Up Guide: Using Open Data to Combat Corruption,” developed for the Open Data Charter.</p>
+# - name: Rafael Garcia Aceves
+#   firstname: Rafael
+#   job: Summer Research Fellow
+#   projects: false
+#   bio: >
+#     <p>Rafael is a Summer Research Fellow on secondment from Transparency International and collaborating on the Smarter Crowdsourcing against Corruption project. Previously, he coordinated Transparency International Mexico’s Program on Open Government, which focuses on the use of open data, technology and citizens’ participation to address corruption risks. As coordinator, he led the development of the #3de3 initiative (<a href="www.3de3.mx">www.3de3.mx</a>) –which allows citizens to access politicians’ assets and interest declarations– and the “Social Witness 2.0” platform (<a href="www.testigosocial.mx">www.testigosocial.mx</a>) –an online tool for monitoring public procurement in Mexico. Rafael is a co-author of the “Open Up Guide: Using Open Data to Combat Corruption,” developed for the Open Data Charter.</p>
 
 - name: SAM DEJOHN
   firstname: Sam
@@ -389,6 +396,25 @@
     <p>Ahead of these roles, Timi was a project manager for the corporate social responsibility practice at Ernst & Young, and an international trade consultant with Ernst & Young, Arthur Andersen, and the Council for Scientific and Industrial Research in Port Elizabeth, South Africa.</p>
     <p>Throughout her career, Timi has also advised small businesses and nonprofits as an independent communications consultant. And she served two terms on the Board of Directors of New York Women in Communications.</p>
     <p>Timi holds a Bachelor of Arts degree in public policy from Duke University, and a Master of Public Policy degree from the University of Michigan, Ann Arbor.</p>
+
+- name: Victoria Alsina
+  firstname: Victoria
+  job: Senior Fellow
+  projects: false
+  bio: >
+    <p>Victoria Alsina is a Senior Fellow at the GovLab and Faculty Associate at the Mossavar-Rahmani Center for Business & Government at the Harvard Kennedy School.</p>
+
+    <p>Her current research focuses on finding innovative solutions to regenerate the public sector, helping communities and institutions to work together to solve problems more effectively and legitimately. Likewise, she explores how collaborative governance can change the way we govern solving some of society's most pressing problems at the intersection of the public and private sectors, developing innovative and practical policy solutions for cities.</p>
+
+    <p>Currently, she collaborates on GovLab Academy projects focused on promoting effective public engagement in lawmaking (CrowdLaw) and training civic leaders and civil servants in how to collaborate with their own communities (Civic Challenges). She has been also part of the Coaching Program Initiative, developing and scaling innovative projects, from idea to implementation.</p>
+
+    <p>At Harvard, she is Chair of the Study Group “The Challenge to Design a Technological Agora” and she leads the projects “Creating new conceptual and analytical frameworks to study public-private collaboration in Southern Europe and Latin America” and “Discovering who transforms Barcelona: Redefining public and private roles in urban transformation. Collaboration models and community impact.” As a member of the Transparency Policy Project at the Ash Center for Democratic Governance and Innovation, she contributes research for a new project on empowering patients through data and technology.</p>
+
+    <p>She is also Senior Researcher for the European Union Erasmus + Jean Monnet Project “Enhancing governance of EU policies: legal and institutional learnings from a US-EU dialogue.” Likewise, she advises numerous public and private institutions, including the OECD, the European Union and the Inter-American Development Bank, and trains civic leaders and civil servants on issues related to public sector reform, public-private collaboration, collaborative governance and democratic regeneration through technology.</p>
+
+    <p>She holds a BA in Political and Administration Sciences from Pompeu Fabra University, an MPA from the Autonomous University of Barcelona, an MA in Public Management from ESADE Business School, and a PhD in Political and Social Sciences from Pompeu Fabra University.
+
+    <p>She tweets <a href="https://twitter.com/_victoriaalsina">@_VictoriaAlsina</a>.</p>
 
 # - name: Prianka Srinivasan
 #   firstname: Prianka
