@@ -1,5 +1,6 @@
 
 - title: Smarter Crowdsourcing Zika
+  image: zika-logo-v2-01.png
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 1 #integer
   is_active: True
@@ -76,6 +77,7 @@
 
 
 - title: Smarter Crowdsourcing Anti Corruption
+  image: anti-corruption-logo-v2-04.png
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 1 #integer
   is_active: True
@@ -114,7 +116,7 @@
         - Mapping
         - Strategy #tag
   status: test # define, prototype, test, complete
-  problem_statement: Worked with the Mexican government, civil society and over 100 global experts in the summer of 2017 to devise specific, workable and impactful solutions to the problem of corruption in Mexico. #question
+  problem_statement: Worked with the Mexican government, civil society and over 100 global experts in the summer of 2017 to devise solutions to the problem of corruption in Mexico. #question
   short_description:
   tooltip:
   long_description: >
@@ -147,6 +149,7 @@
 
 
 - title: Data Driven Criminal Justice #will generate slug from this attr
+  image: data-justice-network-v1-04.png
   type: 'Data' # Data, Collective Intelligence or Design Thinking
   is_featured: 1 #integer
   is_active: True
@@ -213,6 +216,7 @@
 
 
 - title: Open Data for Developing Economies  #will generate slug from this attr
+  image: odimpact.png
   type: 'Data' # Data, Collective Intelligence or Design Thinking
   is_featured: 1 #integer
   is_active: True
@@ -397,6 +401,7 @@
 
 
 - title: The GovLab Academy #will generate slug from this attr
+  image: govlab-academy-logo-orange.png
   type: 'Design Thinking' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
@@ -478,6 +483,7 @@
 # ==========================================================================================================================================================================================================================================#
 
 - title: Open Governance Research Exchange (OGRX)
+  image: ogrx-logo-v2-02.png
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
@@ -537,6 +543,7 @@
 # ==========================================================================================================================================================================================================================================#
 
 - title: 'Data Collaboratives: Creating Public Value by Exchanging Data' #will generate slug from this attr
+  image: data-collab.png
   type: 'Data' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
@@ -587,6 +594,7 @@
 # ==========================================================================================================================================================================================================================================#
 
 - title: Data Collaboratives to Improve Children’s Lives #will generate slug from this attr
+  image: data-collab.png
   type: 'Data' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
@@ -702,6 +710,7 @@
 
 
 - title: Open Data 500 Global Network #will generate slug from this attr
+  image: od500-transparent.png
   type: 'Data' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
@@ -758,6 +767,7 @@
 
 
 - title: Network of Innovators #will generate slug from this attr
+  image: noi-08.png
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 1 #integer
   is_active: True
@@ -1353,6 +1363,7 @@
 
 
 - title: 'CrowdLaw' #will generate slug from this attr
+  image: crowdlaw.png
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
@@ -1499,6 +1510,7 @@
 
 
 - title: Open Data's Impact #will generate slug from this attr
+  image: odimpact.png
   type: 'Data' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
@@ -1602,6 +1614,7 @@
 
 
 - title: Smarter Crowdsourcing Cotopaxi
+  image: cotopaxi-logo-v2-04.png
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
@@ -1734,6 +1747,7 @@
 # ==========================================================================================================================================================================================================================================#
 
 - title: Civic Challenges - San Pedro Garza García
+  image: desafios.png
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
@@ -1764,7 +1778,7 @@
         - Coaching & Mentoring
         - Strategy #tag
   status: test # define, prototype, test, complete
-  problem_statement: 12-month pilot which took place in the Municipality of San Pedro Garza García (SPGG), Mexico, designed to pilot and evaluate a replicable process for Latin American cities to tap into the skills, talents and abilities of diverse citizens to solve social problems more quickly and effectively. #question
+  problem_statement: 12-month pilot which took place in the Municipality of San Pedro Garza García, Mexico, designed to evaluate a replicable process for Latin American cities to solve social problems more quickly and effectively. #question
   short_description:
   tooltip:
   long_description: >
@@ -1811,7 +1825,7 @@
 # ==========================================================================================================================================================================================================================================#
 
 - title: Bertelsmman Handbook on People-Led Innovation
-#will generate slug from this attr
+  image: govlab-academy-logo-orange.png
   type: '' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
@@ -1881,6 +1895,7 @@
 # ==========================================================================================================================================================================================================================================#
 
 - title: The Potential of Social Media Intelligence to Improve People’s Lives #will generate slug from this attr
+  image: data-collab.png
   type: '' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
@@ -1930,6 +1945,7 @@
 # ==========================================================================================================================================================================================================================================#
 
 - title: Gender and Urban Mobility in Chile #will generate slug from this attr
+  image: data-collab.png
   type: '' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
@@ -1980,6 +1996,7 @@
 # ==========================================================================================================================================================================================================================================#
 
 - title: The MacArthur Research Network for Opening Governance #will generate slug from this attr
+  image: maca-logo-vertical.png
   type: '' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
@@ -2034,6 +2051,7 @@
 # ==========================================================================================================================================================================================================================================#
 
 - title: "Blockchange: Blockchain Technology for Social Change" #will generate slug from this attr
+  image: blockchange.png
   type: '' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True

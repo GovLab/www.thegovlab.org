@@ -1438,6 +1438,21 @@ button:focus {
       padding: 20px;
       position: absolute;
       bottom: 0; } }
+@media (max-width: 800px) {
+  .b-project-view.m-grid .b-projects-list-wrapper .e-project-item {
+    height: unset; } }
+@media (min-width: 1025px) {
+  .b-project-view.m-grid .b-projects-list-wrapper .e-project-item {
+    height: 360px; } }
+.b-project-view.m-grid .b-projects-list-wrapper .e-project-item h2 {
+  margin-top: 10px;
+  padding-top: 0;
+  position: static; }
+.b-project-view.m-grid .b-projects-list-wrapper .e-project-item .e-card-image {
+  height: 150px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
 .b-project-view.m-grid .b-projects-list-wrapper .e-project-item .e-project-tooltip {
   display: none; }
 .b-project-view.m-grid .b-projects-list-wrapper .e-project-item.m-active .e-project-tooltip {
