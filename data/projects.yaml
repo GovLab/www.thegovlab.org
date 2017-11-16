@@ -1,12 +1,12 @@
 
-- title: Smarter Crowdsourcing for Zika
+- title: Smarter Crowdsourcing Zika
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 1 #integer
   is_active: True
   related_question: 5 #question
   project_website:  http://zika.smartercrowdsourcing.org/
   location:
-    - Latin America
+    - Global
   partners:
     - Inter-American Development Bank
     - City of Rio de Janeiro
@@ -32,23 +32,35 @@
         - Collective Intelligence
         - Crowdsourcing
         - Expert Networks #tag
+        - Design Thinking #tag
+        - Rapid Prototyping #tag
     product_category:
         - Event/Workshop
         - Mapping
         - Strategy #tag
   status: test # define, prototype, test, complete
-  problem_statement: Can targeted crowdsourcing help countries prepare for and respond to public health crises such as mosquito borne diseases? #question
+  problem_statement: Explored innovative and practical ways to address the causes of mosquito-borne diseases in 4 Latin American countries in 2016. #question
   short_description:
   tooltip:
   long_description: >
-    <p>In collaboration with IDB and government partners, GovLab will articulate cross-cutting problems that will benefit from diverse input, and convene experts, practitioners, researchers and government partners from across interdisciplinary domains such as public health, water, sanitation and technology. Over four months, we will design and host a series of online conferences with the participation of global experts. The conferences will be focused on  identifying innovative approaches to tackle the identified problems.</p>
+    <p>In response, the Governance Lab and the Inter-American Development Bank in partnership with the Governments of the City of Rio de Janeiro, Argentina, Colombia and Panama, hosted a series of online conferences from August-October 2016. Instead of a handful of people meeting once at great expense in a conference room, we used the Internet to mobilize and curate diverse and distributed expertise -- both credentialed know-how and experiential wisdom -- to identify, design and iterate upon implementable ideas that governments can use. Conference topics included:</p>
+    <ol>
+    <li>Assessing Public Awareness </li>
+    <li>Communication and Behavior Change </li>
+    <li>Trash and Standing Water </li>
+    <li>Information Collection/Data Governance </li>
+    <li>Long Term Care </li>
+    <li>Predictive Analytics </li>
+    </ol>
   background: >
     <p>Global and complex public health emergencies, such as Zika, Dengue and Chikungunya, threaten public health and well-being, risk disruption to global and regional trade and economic stability, and cause widespread uncertainty and concern. They are complex and interdependent problems that demand access to expertise that is diverse and widely dispersed. But mobilizing this expertise -- both credentialed know-how and experiential wisdom-- demands coordination and curation to bring the best thinking to bear and translate good ideas into actionable proposals backed by evidence.</p>
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
   results: >
-    <p>The project aims to generate innovative and implementable solutions that help governments prepare for and respond to mosquito borne illnesses. It will also create an informal, rapid and agile network of experts to get in good ideas for tackling the mosquito borne pandemics and making government more effective.</p>
+    <p>The Smarter Crowdsourcing team conducted a series of interviews and research into the ideas that were generated during the conferences, identifying their costs and benefits, the steps required for implementation, and the key strategic decisions that governments would need to make along the way. The team’s findings were combined into an Implementation Report, which consists of twenty initiatives selected for their importance and potential impact as well as their suitability for immediate implementation. The Implementation Report is designed to enable public authorities to translate these new ideas into practical improvements in the way they deliver policies and services. </p>
   related_articles:
+    - name: Report
+      url: "https://publications.iadb.org/bitstream/handle/11319/8522/Smarter-crowdsouring-for-zika-and-other-mosquito-borne-diseases.PDF?sequence=2&isAllowed=y"
     - name: Project website
       url: "http://zika.smartercrowdsourcing.org/"
     - name: Blog - Smarter Crowdsourcing for Zika
@@ -59,6 +71,77 @@
       url: "static/files/zika-one-pager-iodc.pdf"
     - name: El primer cumpleaños de los niños afectados por el virus del zika
       url: "http://elpais.com/elpais/2017/03/30/mamas_papas/1490859066_276188.html"
+
+# ==========================================================================================================================================================================================================================================#
+
+
+- title: Smarter Crowdsourcing Anti Corruption
+  type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
+  is_featured: 1 #integer
+  is_active: True
+  related_question: 5 #question
+  project_website: http://anticorruption.smartercrowdsourcing.org
+  location:
+    - Global
+  partners:
+    - Inter-American Development Bank
+    - City of Rio de Janeiro
+    - Government of Argentina
+    - Government of Panama
+    - Government of Colombia
+  team:
+    - Beth Simone Noveck
+    - Kaitlin Koga
+    - Rafael Garcia Aceves
+    - Hannah Delenau
+    - Denny Tek
+    - Christopher Wong
+    - Claudio Mendonca
+    - Ena Bek #name
+  tags:
+    governance_area:
+        - National Governance #tag
+    type_of_institution:
+        - Public Sector #tag
+    innovative_capability:
+        - Collective Intelligence
+        - Crowdsourcing
+        - Expert Networks #tag
+        - Design Thinking #tag
+        - Rapid Prototyping #tag
+    product_category:
+        - Event/Workshop
+        - Mapping
+        - Strategy #tag
+  status: test # define, prototype, test, complete
+  problem_statement: Worked with the Mexican government, civil society and over 100 global experts in the summer of 2017 to devise specific, workable and impactful solutions to the problem of corruption in Mexico. #question
+  short_description:
+  tooltip:
+  long_description: >
+    <p><a href="http://www.thegovlab.org/">The GovLab</a>, in partnership with the <a href="http://www.iadb.org/">Inter-American Development Bank (IDB)</a> and Mexico’s <a href="http://www.gob.mx/sfp">Secretariat of the Civil Service</a> (Secretaría de la Función Pública, or SFP), held a series of online conferences to generate new, actionable ideas in the fight against corruption in Mexico.</p>
+    <p>Using The GovLab’s <a href="http://thegovlab.org/smarter-crowdsourcing-against-corruption/">Smarter Crowdsourcing</a> method, a collaborative problem-solving technique pairing the agility and diversity of crowdsourcing with the curation of relevant know-how in a format designed to produce effective and implementable outcomes, the series brought together over 100 <a href="http://anticorruption.smartercrowdsourcing.org/map.html">global experts</a> from 25 different countries with representatives from the Mexican government and civil society leaders.  These stakeholders and specialists convened virtually to share insights and identify innovative yet practical strategies capable of achieving measurable progress against corruption in six separate challenge areas:</p>
+    <ul>
+    <li>Measuring Corruption and Its Costs</li>
+    <li>Fostering Openness and Integrity in the Judiciary</li>
+    <li>Facilitating Citizen Participation in Policymaking</li>
+    <li>Ensuring Whistleblower Support and Protection</li>
+    <li>Increasing the Effectiveness of Prosecution</li>
+    <li>Tracking and Analyzing Money Flows</li>
+    </ul>
+    <p>These six areas were delineated following a rigorous research and evaluation process carried out by the Governance Innovation Clinic at the Yale Law School, created and led by The GovLab’s Director Professor Beth Simone Noveck. Graduate students in the Clinic, along with GovLab Research Fellows, conducted interviews and documented each issue extensively in an effort to define the problem of corruption by its root causes. In turn, the briefs they developed would anchor a specialized online session to focus the invited experts on identifying workable solutions in the form of new policies and services.</p>
+  background: >
+    <p>One in every three times a Mexican citizen interacts with government a bribe is paid (read more <a href="http://www.beta.inegi.org.mx/proyectos/enchogares/regulares/encig/2015/">here</a> or <a href="https://www.tm.org.mx/indice-nacional-de-corrupcion-y-buen-gobierno-incbg/">here</a>). The real cost of such a problem goes beyond the billions of diverted taxpayer pesos. It also hinders the delivery of essential government services, harms public safety, and reduces public trust in government. In a recent survey, corruption was named as the second most relevant problem in Mexico behind only crime and ahead of unemployment.</p>
+    <p>In 2016, the challenge of corruption spurred an unprecedented legal reform process, driven by civil society. The passage of the National Anti-Corruption System calls for reforms across the federal government. The new legal framework –which has been <a href="https://www.forbes.com/sites/themexicoinstitute/2016/07/18/mexico-wins-anti-corruption-reform-approved/#40be4e83618b">widely heralded</a>– creates, for example, a specialized court on corruption crimes and it expands and improves the ethics obligations of public servants. Although the Sistema Nacional Anticorrupción (National Anti-Corruption System) has propelled Mexico to global leadership in the reach and strength of its anti-corruption laws, most of the battle still lies ahead, as government agencies, the judiciary, and civil society put this law into practice.
+    </p>
+  social_media: #in the future we can have custom shareable messages for each project
+  images: #images or screenshots of the project
+  results: >
+    <p></p>
+  related_articles:
+    - name: Project website
+      url: "http://anticorruption.smartercrowdsourcing.org"
+    - name: Blog - Smarter Crowdsourcing for Zika
+      url: "https://medium.com/smarter-crowdsourcing/introducing-the-smarter-crowdsourcing-against-corruption-initiative-26d11033d6c7"
 
 # ==========================================================================================================================================================================================================================================#
 
@@ -197,7 +280,7 @@
   type: 'Data' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
-  related_question: 2
+  related_question: 999
   project_website:
   location:
     - Global
@@ -254,7 +337,7 @@
   type: 'Design Thinking' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
-  related_question: 6 #question
+  related_question: 999 #question
   project_website: http://govlabacademy.org/canvas/ #url
   location:
     - Global
@@ -362,8 +445,10 @@
     - academy-4.jpg
     - academy-5.jpg
   results: >
-    <p>500+ participants, 250 projects, 20+ countries, Faculty and coaches from 5 universities, 12 semester-long Masters-level academic courses delivered to students from NYU, MIT, and Arizona State University, +70 non-credit participants from more than a dozen US cities and half a dozen foreign countries.
-    Governments & NGOs coached, including the World Bank</p>
+    <p>In a series of Masters-level courses and online (and offline) workshops and coaching programs funded by the John S. and James L. Knight Foundation, The GovLab and its network of 25 world-class coaches and over 100 mentors helped 446 participants in more than a dozen US cities and thirty countries to take a public interest technology project from idea to implementation. In the process, we’ve learned a lot about the need for new ways of training the next generation of leaders and problem solvers.
+    </p><p>Our participants come from more than 30 different countries
+    </p><p>Our aim has been to aid public entrepreneurs — passionate and innovative people who wish to take advantage of new technology to do good in the world. That’s why we measure success, not by the number of participants in a class, but by the projects participants create and the impact those projects have on communities.
+    </p>
   related_articles:
     - name: USDA and GovLab Academy teamed up to provide a “First of Its Kind” Camp for DC-Area Teens Focused Specifically on Open Data and Agriculture
       url: "http://thegovlab.org/usda-and-govlab-academy-teamed-up-to-provide-a-first-of-its-kind-camp-for-dc-area-teens-focused-specifically-on-open-data-and-agriculture/"
@@ -387,6 +472,8 @@
       url: "static/files/GovLab Academy Final Deck.pdf"
     - name: Academy One Pager
       url: "static/files/academy-one-pager.pdf"
+    - name: Ten Lessons learned
+      url: "https://medium.com/@TheGovLab/training-the-next-generation-of-public-leaders-and-problem-solvers-54df25bb72af"
 
 # ==========================================================================================================================================================================================================================================#
 
@@ -394,7 +481,7 @@
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
-  related_question: 3 #question
+  related_question: 6 #question
   project_website: http://ogrx.org/ #url
   location:
     - Global
@@ -549,7 +636,7 @@
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
-  related_question: 3 #question
+  related_question: 999 #question
   project_website: https://map.netmundial.org/
   location:
     - Global
@@ -674,7 +761,7 @@
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 1 #integer
   is_active: True
-  related_question: 4 #question
+  related_question: 6 #question
   project_website: http://noi.thegovlab.org #url
   location:
     - Australia
@@ -757,7 +844,7 @@
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
-  related_question: 4 #question
+  related_question: 999 #question
   project_website: #url
   location:
     - United States
@@ -800,7 +887,7 @@
   type: 'Data' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
-  related_question: 1
+  related_question: 999
   project_website: #url
   location:
     - Global
@@ -854,7 +941,7 @@
   type: 'Data' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
-  related_question: 1
+  related_question: 999
   project_website: http://legisletters.com/
   location:
     - United States
@@ -899,8 +986,8 @@
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
-  related_question: 3
-  project_website: http://crowdsourcingadvisor.org/
+  related_question: 999
+  poject_website: http://crowdsourcingadvisor.org/
   location:
     - Global
   partners:
@@ -996,7 +1083,7 @@
   type: 'Data' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
-  related_question: 1
+  related_question: 999
   project_website: #url
   location:
     - United States
@@ -1042,7 +1129,7 @@
 # ==========================================================================================================================================================================================================================================#
 
 - title: Peer to Patent #will generate slug from this attr
-  related_question: 3
+  related_question: 999
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
@@ -1107,8 +1194,8 @@
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
-  related_question: 3
-  project_website: #url
+  related_question: 999
+  poject_website: #url
   location:
     - United States
   partners:
@@ -1159,7 +1246,7 @@
   type: 'Data' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
-  related_question: 4
+  related_question: 999
   project_website: http://nhs.networkofinnovators.org
   location:
     - United Kingdom
@@ -1217,7 +1304,7 @@
   type: 'Data' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
-  related_question: 1
+  related_question: 999
   project_website: http://images.thegovlab.org/wordpress/wp-content/uploads/2014/10/nhs-full-report-21.pdf
   location:
     - United Kingdom
@@ -1265,20 +1352,18 @@
 # ==========================================================================================================================================================================================================================================#
 
 
-- title: '#Crowdlaw' #will generate slug from this attr
+- title: 'CrowdLaw' #will generate slug from this attr
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
   related_question: 4
-  project_website: http://twitter.com/TheGovLab/lists/crowdlaw #url
+  project_website: "http://crowd.law/" #url
   location:
-   - Global
+   - Madrid, Spain
   partners:
   team:
     - Beth Simone Noveck
-    - María Hermosilla
-    - Irene Tello-Arista
-    - Julia Root
+    - Gabriella Capone
   tags:
     governance_area:
         - National Governance
@@ -1296,23 +1381,30 @@
         - Mapping
         - Strategy
   status: test # define, prototype, test, complete
-  problem_statement: How can crowdsourcing enable greater citizen participation in the legislation and constitution drafting process?
+  problem_statement: Develop recommendations on how to use crowdlaw to improve the quality of lawmaking. We want to explore when and under what circumstances engagement can result in lawmaking that is either more legitimate, more effective or both.
   short_description: >
     <p>Crowdlaw is an emerging field of practice that is comprised of lawyers, platform developers, lawyers, government employees and research scientists, among others including citizen advocates. GovLab plays a convening role to engage practitioners from around the world and has initiated a dialogue in order to identify case studies and pilots, assess impact and inspire greater innovation across political, government and civil society actors.</p>
   tooltip: >
     <p></p>
   long_description: >
-    <p>Crowdlaw is an emerging field of practice that is comprised of lawyers, platform developers, lawyers, government employees and research scientists, among others including citizen advocates. GovLab plays a convening role to engage practitioners from around the world and has initiated a dialogue in order to identify case studies and pilots, assess impact and inspire greater innovation across political, government and civil society actors.</p>
-    <p>GovLab has sponsored and organized three online conferences (open to all members of the public) with participants showcasing crowdlaw projects from around the world that include Austria, Chile, Brazil, Finland, Iceland, Italy, Libya, Mexico, Philippines, Mexico, Spain, and the U.S.  The goal of each session varies, but ultimately we help advocates to gain a better understanding of what makes a successful and legitimate crowdlaw project, how common challenges may be anticipated and mitigated, and ideas for future discussions and collaborations around establishing meaningful best practices going forward.</p>
+    <p>CrowdLaw is the practice of using technology to tap the intelligence and expertise of the public in order to improve the quality of lawmaking. Around the world, there are already over two dozen examples of local legislatures and national parliaments turning to the Internet to involve the public in legislative drafting and decision-making. These ambitious crowdlaw initiatives show that the public can, in many cases, go beyond contributing opinions and signing petitions online to playing a more substantive role, including: proposing legislation, drafting bills, monitoring implementation, and supplying missing data. Through such processes, the public becomes collaborators and co-creators in the legislative process to the end of improving the quality of legislative outcomes and the effectiveness of governing.</p>
+    <p>Crowdlaw offers an alternative to the traditional method of lawmaking, which is typically done by professional staff and politicians working behind closed doors and with little direct input from the people legislation affects. Instead, we start from the hypothesis that crowdlaw has the potential to enhance the quality of legislation. Designed right, with the aim of improving the quality of outputs, there are opportunities at each stage of the lawmaking process, including problem definition, solution identification, research and drafting, subsequent crafting of implementing regulations, and monitoring of outcomes, to introduce greater expertise into the legislative process efficiently. At the same time, we acknowledge that, designed wrong, without regard for outcomes, engagement may only hamstring decision-making and deepen distrust of government. Thus, we approach this project not as evangelists but as critical researchers whose aim is to understand what works and when.</p>
+    <p>GovLab is supporting legislative bodies in investigating, designing, implementing, and testing crowdlaw initiatives. Our work includes:</p>
+    <ul>
+      <li>Studying and sharing learnings about CrowdLaw practices in use around the world and convening practitioners to share learnings.</li>
+      <li>Synthesizing best practices for the design of CrowdLaw initiatives — including platforms, processes, and policies — through an on-going survey of over 25 public engagement initiatives.</li>
+      <li>Cultivating a thriving network of now more than 90 CrowdLaw and public engagement experts and practitioners.</li>
+      <li>Crafting a model legal framework to accelerate the integration of public input into the legislative process.</li>
+      <li>Advising on the implementation of CrowdLaw practices.</li>
+    </ul>
   background: >
-    <p>Since 2014, GovLab has designed, hosted and moderated a series of online conferences to support the burgeoning network of crowdlaw leaders and practitioners from around the world.  Crowdlaw, or open, collaborative crowdsourced lawmaking, is a tech-enabled approach for drafting legislation or constitutions, that offers an alternative to the traditional method of policymaking, which typically occurs behind closed doors and with little input from the people it affects. </p>
-    <p>The goal of these peer-to-peer learning events are to deepen the collective understanding of what works, what doesn’t, how to assess impact, and accelerate the implementation of more effective and legitimate participatory lawmaking practices. </p>
+    <p>With rates of trust in government at historic lows, the legitimacy of traditional representative models of lawmaking — often conducted by professional staff and politicians working behind closed doors and distorted by political party agendas–is called into question. New forms of public participation could help to improve both legitimacy and effectiveness by introducing more data and diverse viewpoints at each stage of the lawmaking process.</p>
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
     - crowdlaw-1.png
     - crowdlaw-2.png
   results: >
-    <p>The goal of the CrowdLaw Conferences is to bring together practitioners and researchers of this emerging policy making field to learn from one another of what works, what doesn’t, what are the best practices and the challenges in the institutionalization of CrowdLaw. From the insights and learnings that come from these conferences we will create a framework to better understand the state of the field of crowdsourcing policy. We also will create a report with the findings of the conferences, a list of selected readings on the topic and a <a href="https://twitter.com/TheGovLab/lists/crowdlaw">twitter list</a> of the experts of the field, to give people the tools to understand more about using crowdsourcing in the process of policymaking. </p>
+    <p>The goal of this paper is to help the Assembly of the Community of Madrid, the legislature governing one of the seventeen autonomous communities of Spain, and the 179 Ayuntamientos (“City Councils”) within the Madrid region to (1) develop the capacity design and (2) use public engagement to improve the quality, effectiveness and legitimacy of the lawmaking process.</p>
   related_articles:
     - name: "The GovLab's CrowdLaw Twitter list"
       url: "https://twitter.com/TheGovLab/lists/crowdlaw"
@@ -1346,7 +1438,7 @@
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
-  related_question: 3
+  related_question: 999
   project_website: https://medium.com/open-grantmaking-innovations
   location:
     - United States
@@ -1463,7 +1555,7 @@
   type: 'Data' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
-  related_question: 4 #question
+  related_question: 6 #question
   project_website: http://www.thegovlab.org/smarterstate.html #url
   location:
     - Global
@@ -1509,12 +1601,12 @@
 # ==========================================================================================================================================================================================================================================#
 
 
-- title: Crowdsourcing Innovations in Disaster Management
+- title: Smarter Crowdsourcing Cotopaxi
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
   related_question: 5 #question
-  project_website: http://tu-reportas.devsu.us/ #url
+  project_website: http://cotopaxi.smartercrowdsourcing.org/ #url
   location:
     - Quito, Ecuador
   partners:
@@ -1641,12 +1733,12 @@
 
 # ==========================================================================================================================================================================================================================================#
 
-- title: Open Innovation for Solving Public Problems
+- title: Civic Challenges - San Pedro Garza García
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
   related_question: 3 #question
-  project_website:  http://www.thegovlab.org/projects.html #url
+  project_website:  http://desafios.sanpedro.gob.mx/ #url
   location:
     - San Pedro Garza García, México
   partners:
@@ -1654,7 +1746,8 @@
   team:
     - Beth Simone Noveck
     - Dinorah Cantú-Pedraza
-    - María Hermosilla
+    - Anirudh Dinesh
+    - Kaitlin Koga
   tags:
     governance_area:
         - Municipal Governance #tag
@@ -1671,25 +1764,15 @@
         - Coaching & Mentoring
         - Strategy #tag
   status: test # define, prototype, test, complete
-  problem_statement: How can open innovation help to tap into the skills, talents and abilities of diverse citizens to solve social problems more quickly and effectively? #question
+  problem_statement: 12-month pilot which took place in the Municipality of San Pedro Garza García (SPGG), Mexico, designed to pilot and evaluate a replicable process for Latin American cities to tap into the skills, talents and abilities of diverse citizens to solve social problems more quickly and effectively. #question
   short_description:
   tooltip:
   long_description: >
-    <p>The goal of the project is to pilot and evaluate a replicable process for Latin American cities to tap into the skills, talents and abilities of diverse citizens to solve social problems more quickly and effectively. By creating the “conversational infrastructure” -- the method and tools -- to source and, above all, implement novel approaches from civil servants and the public the hope is to spark a potential shift from the traditional top-down, closed governing approaches to more decentralized, collaborative, and open practices of solving public problems that take the intelligence and expertise of the public seriously and encourage active forms of citizenship.</p>
-    <p>Rather than rely on prize-backed challenges alone, however, the design of the project combines open innovation to source a wide array of ideas with ICT-enabled training to shape those ideas into implementable new policies and services.</p>
-    <p>Over the course of the year, the GovLab in collaboration with the Mayor’s office of the Municipality of San Pedro Garza García (SPGG), Mexico will:
-    <ul>
-    <li>DESIGN: Design and launch 3-5 open innovation challenges designed to solicit good ideas to solve hard problems facing the city from the public and civil servants.</li>
-    <li>TRAIN: Train challenge winners and city officials to further develop their proposals into actionable and implementable policies.</li>
-    <li>CONNECT: To support this desire for peer-to-peer learning, we built an expert network called the Network of Innovators (NoI). NoI will be used as the skill sharing platform that matches the selected public entrepreneurs to participate on the coaching programs with complementary skills and innovators around the world working on the same issues.</li>
-    <li>LEARN: Evaluate the lessons learned from running these pilots to the end of articulating a replicable method for Latin American cities.</li>
-    </ul>
+    <p>The goal of the project was to pilot and evaluate a replicable process for Latin American cities to tap into the skills, talents and abilities of diverse citizens to solve social problems more quickly and effectively. By creating the “conversational infrastructure” -- method and tools -- to source and implement novel approaches from civil servants and the public, the hope is to spark a potential shift from the traditional top-down, closed governing approaches to more decentralized, collaborative, and open practices of solving public problems using the intelligence of the public seriously and encouraging active forms of citizenship. Rather than relying on a single approach, such as prize-backed challenges, the design of the project utilizes open innovation to source a wide array of ideas and combines it with ICT-enabled training to shape those ideas into implementable new policies and services.
     </p>
   background: >
-    <p>Cities need to solve increasingly complex problems for growing populations with fewer resources. To do more with less, municipal governments need to become more agile in how they identify the knowledge and expertise spread across their community to the end of implementing more effective policies and services.</p>
-    <p>To that end, public institutions are turning to open innovation--also known as crowdsourcing--to open up the process of identifying both good ideas and the evidence to support their implementation to citizens, civil servants, and organizations.</p>
-    <p>But despite an increasing number of municipal open innovation success stories, only a few cities use crowds effectively—if at all. Hardly any know how to institutionalize open innovation as standard operating procedure.</p>
-    <p>San Pedro Garza García is widely recognized as one of the most influential municipalities in Latin America and also the first municipality of Mexico to have two independent councilmembers (i.e., with no political affiliation). It is through the request and efforts of these councilmembers that the initiative of the present project first began. Thanks to a process of socialization on the importance of open government and the potential of open innovation to the municipality officials, they decided to join the councilmembers efforts in pursuing the present project, which ultimately resulted in the full support of the Mayor and his office on launching the San Pedro’s Open Innovation Challenges for Solving Public Problems (DesafíoSP).</p>
+    <p>W​ith trust in government at an all-time low, it is imperative to demonstrate alternative strategies for how to govern in ways that are more inclusive and participatory. To that end, public institutions are turning to open innovation--also known as crowdsourcing--to open up the process of identifying both good ideas and the evidence to support their implementation to citizens, civil servants, and organizations.</p>
+    <p>The specific people-led innovation method employed in the San Pedro Garza García pilot project enabled the municipality to solve problems and to obtain evidence that demonstrated if, when, and how decentralized, collaborative, and open practices of solving public problems resulted in new creative, data-driven, cost-effective and citizen-centric policies and services.</p>
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
     - open-innovation-1.jpg
@@ -1697,10 +1780,319 @@
     - open-innovation-3.jpg
     - open-innovation-4.jpg
   results: >
-    <p>Through these pilot programs, we hope to learn how best to design an effective open innovation effort with the public and with civil servants. We also help to hone the method for turning winning ideas into implementable proposals. In the process, we hope to answer the question whether open innovation (also known as crowdsourcing) can lead to meaningful solutions to public problems and meaningful citizen engagement practices. Success will be measured, not merely by the numbers of people participating, but by the downstream impact of the projects they create.</p>
+    <p>Over the course of 2016, the GovLab, in collaboration with the Mayor’s Office of the Municipality of San Pedro Garza García (SPGG) in Mexico, undertook to:</p>
+    <ul>
+    <li><b>DESIGN:</b> We developed and launched five open innovation challenges designed to solicit good ideas (from the public and civil servants) to solve hard problems facing the municipality.</li>
+    <li><b>TRAIN:</b> We trained 50 challenge winners to further develop their proposals into actionable and implementable policies, resulting in 10 developed projects.</li>
+    <li><b>CONNECT:</b> We supported the desire for peer-to-peer learning by building an expert network of global and local experts to support the problem definition efforts done by the Municipality and, later, the project development efforts done by the selected participants of each challenge. </li>
+    <li><b>LEARN:</b> We evaluated the lessons learned from running this pilot to the end of articulating a replicable method for Latin American cities.</li>
+    </ul>
+    <p>As a result of the pilot project, we were also able to develop a plan for this crowdsourcing method, which leverages expertise from the public and civil servants to effectively transform ideas into implementable proposals, to be replicated in other Latin American cities. This includes the following five key lessons to take into account when designing a problem solving method:</p>
+
+    <p>While it is too early to determine the impact of projects that were developed through the pilot, we have published several reports highlighting our results and launched a project website, all of which can be found in the “More About” section.</p>
   related_articles:
+    - name: "Project Website"
+      url: "http://desafios.sanpedro.gob.mx:8888/"
+    - name: "Project Plan Slide Deck"
+      url: "http://www.thegovlab.org/static/files/desafiosp_slidedeck.pdf"
+    - name: "Preliminary Findings from San Pedro"
+      url: "https://drive.google.com/file/d/0B9P1gGvCmrkpeXJFZGU1RkRCYjg/view"
+    - name: "Overview of Open Innovation"
+      url: "https://drive.google.com/file/d/0B9P1gGvCmrkpdkNKTFZ6cW9nX2M/view"
+    - name: "Interim Report from San Pedro"
+      url: "https://drive.google.com/file/d/0B9P1gGvCmrkpLWxoTlVWWTRxSmM/view"
+    - name: "Final San Pedro Report"
+      url: "https://docs.google.com/document/d/1QKj4J3MfcKRcGE0ok4DOP-sdsvNXS-fUc_agSYDYybA/edit#heading=h.3tdpgg3067f"
+    - name: "Project Descriptions"
+      url: "https://docs.google.com/document/d/1grxIATb0h8Dj_Nc6SscalYJQVEmGlpmD72DWpbNnxPk/edit#heading=h.we4da0oqzebn"
     - name: "Innovación Abierta: San Pedro Garza García Plan de Proyecto 2016 Slide Deck"
       url: static/files/desafiosp_slidedeck.pdf
+
+# ==========================================================================================================================================================================================================================================#
+
+- title: Bertelsmman Handbook on People-Led Innovation
+#will generate slug from this attr
+  type: '' # Data, Collective Intelligence or Design Thinking
+  is_featured: 0 #integer
+  is_active: True
+  related_question: 6 #question
+  project_website: #url
+  location:
+    - Global
+  partners:
+    - The Bertelsmann Foundation
+  team:
+    - Stefaan Verhulst
+    - Andrew Young
+    - Hannah Pierce
+  tags:
+    governance_area:
+        - Municipal Governance
+        - Regional Governance
+    type_of_institution:
+        - Public Sector
+        - Nonprofit
+    innovative_capability:
+        - Collective Intelligence
+        - Crowdsourcing
+        - Expert Networks
+        - Agile Research
+        - Open Data
+        - Rapid Prototyping
+        - Design Thinking
+        - Civic Technology
+    product_category:
+        - Methodology
+  status: test # define, prototype, test, complete
+  problem_statement: How can we derive people-driven solutions at every step of the problem-solving process? #question
+  short_description: >
+    <p></p>
+  tooltip: >
+    <p></p>
+  long_description: >
+    <p>The Bertelsmann Handbook articulates a method for curating and matching the supply of people’s expertise to the demand of urban challenges. When used in sync with other existing methodologies, People-Led Innovation seeks to provide more sustainable, inclusive, and effective policies and services.</p>
+    <p>The Methodology comprises four key phases, all aimed at tapping into the expertise of the public through a mix a curation and openness:</p>
+    <ul>
+    <li>Define – engaging people to identify, define, prioritize and curate the problem(s) to be solved through an innovation approach.</li>
+    <li>Ideate – curating potential solutions to identified problems by engaging the expertise of the public.</li>
+    <li>Experiment – implementing new solutions in an agile manner and curating the capacity needed to test what works in practice. </li>
+    <li>Communicate – transferring lessons learned to a wide audience and curating feedback received to enable strategic iteration.</li>
+    </ul>
+    <p>
+    Additionally, there are four types of engagement to be utilized in people-led solutions:
+    </p>
+    <ul>
+    <li>Commenting: In this role, the group provides their opinions or experiences to build upon the problem-solving team’s ideas.</li>
+    <li>Co-creating: Stakeholder groups are asked to apply their skills and creativity to develop definitions, solutions, or priorities with the problem-solving team.</li>
+    <li>Reviewing: Similar to the ‘Commenting’ role, stakeholder groups are asked to provide their insights and opinions. However, in this step, the groups are seeking to assess and evaluate proposals and/or interventions.</li>
+    <li>Reporting: In the Reporting role, groups are asked to contribute data and add facts to problem definitions, solution plans, and evaluations.</li>
+    </ul>
+
+  background: >
+    <p>Cities worldwide are seeking to become more resilient to environmental, social, and economic shocks and stresses. However, traditional methods and existing resources often fall short of tackling today’s challenges. Cities need not only provide innovative solutions to a complex array of problems, they also need to innovate in the way that they develop these solutions.</p>
+  social_media: #in the future we can have custom shareable messages for each project
+  images: #images or screenshots of the project
+    -
+  results: >
+    <p></p>
+  related_articles:
+    -
+
+# ==========================================================================================================================================================================================================================================#
+
+- title: The Potential of Social Media Intelligence to Improve People’s Lives #will generate slug from this attr
+  type: '' # Data, Collective Intelligence or Design Thinking
+  is_featured: 0 #integer
+  is_active: True
+  related_question: 2 #question
+  project_website: http://datacollaboratives.org/social-media.html #url
+  location:
+    - Global
+  partners:
+    - Facebook
+  team:
+    - Stefaan Verhulst
+    - Andrew Young
+  tags:
+    governance_area:
+        - National Governance
+        - Regional Governance
+    type_of_institution:
+        - Public Sector
+        - Corporate/Business
+        - Nonprofit
+        - Academic
+    innovative_capability:
+        - Data Collaboratives
+        - Agile Research
+        - Big Data
+    product_category:
+        - Case Studies
+  status: complete # define, prototype, test, complete
+  problem_statement: How can we leverage private social media data for public good? #question
+  short_description: >
+    <p></p>
+  tooltip: >
+    <p></p>
+  long_description: >
+    <p>In this report, we focus on an approach to extract public value from social media data that we believe holds the greatest potential: data collaboratives. Data collaboratives are an emerging form of public-private partnership in which actors from different sectors exchange information to create new public value. Such collaborative arrangements, for example between social media companies and humanitarian organizations or civil society actors, can be seen as possible templates for leveraging privately held data towards the attainment of public goals.</p>
+  background: >
+    <p>The twenty-first century will be challenging on many fronts. From historically catastrophic natural disasters resulting from climate change to inequality to refugee and terrorism crises, it is clear that we need not only new solutions, but new insights and methods of arriving at solutions. Data, and the intelligence gained from it through advances in data science, is increasingly being seen as part of the answer. However, a vast amount of valuable data is held by private companies.</p>
+  social_media: #in the future we can have custom shareable messages for each project
+  images: #images or screenshots of the project
+    -
+  results: >
+    <p></p>
+  related_articles:
+    - name: "Project Website"
+    - url: "http://datacollaboratives.org/social-media.html"
+
+# ==========================================================================================================================================================================================================================================#
+
+- title: Gender and Urban Mobility in Chile #will generate slug from this attr
+  type: '' # Data, Collective Intelligence or Design Thinking
+  is_featured: 0 #integer
+  is_active: True
+  related_question: 2 #question
+  project_website: #url
+  location:
+    - Latin America
+  partners:
+    - UNICEF
+    - Universidad del Desarrollo/Telefónica R&D Center
+    - ISI Foundation
+    - DigitalGlobe
+  team:
+    - Stefaan Verhulst
+    - Andrew Young
+    - Hannah Pierce
+  tags:
+    governance_area:
+        - National Governance
+    type_of_institution:
+        - International Organization
+        - Public Sector
+        - Corporate/Business
+    innovative_capability:
+        - Data Collaboratives
+    product_category:
+        - Dataset
+        - Platform
+        - Mapping
+  status: define # define, prototype, test, complete
+  problem_statement: How can we leverage data collaboratives to make urban transportation planning more gender-inclusive? #question
+  short_description: >
+    <p></p>
+  tooltip: >
+    <p></p>
+  long_description: >
+    <p>This data collaborative project seeks to create a Data Collaborative on Gender and Urban Mobility to pair official government data (census, transport, crime report, socioeconomic indicators) with high-definition satellite imagery from DigitalGlobe, and aggregated, anonymized Call Detail Records from Telefonica to create create a human landscape and mobility map of Santiago.</p>
+  background: >
+    <p>Transportation planning in Chile and elsewhere rarely accounts for gender, yet these decisions impact the urban mobility of women and girls in a number of different ways. For example, women and girls often engage in multi-purpose, multi-stop trips. Safety is also a major concern for women and girls. The location of bus stops or how well-lit streets are can affect movement. The World Health Organization estimates that over 2,000 people die each year as a result of road accidents in the country. Sexual harassment is also a recurring obstacle, with 5 out of 10 women in Chile reporting sexual harassment on the street.</p>
+  social_media: #in the future we can have custom shareable messages for each project
+  images: #images or screenshots of the project
+    -
+  results: >
+    <p></p>
+  related_articles:
+    -
+
+# ==========================================================================================================================================================================================================================================#
+
+- title: The MacArthur Research Network for Opening Governance #will generate slug from this attr
+  type: '' # Data, Collective Intelligence or Design Thinking
+  is_featured: 0 #integer
+  is_active: True
+  related_question: 7 #question
+  project_website:  http://opening-governance.org/index.html  #url
+  location:
+    - United States
+    - United Kingdom
+    - Denmark
+  partners:
+    - Arthur T. and Catherine D. MacArthur Foundation
+  team:
+    - Beth Simone Noveck
+    - Stefaan Verhulst
+    - Andrew Young
+  tags:
+    governance_area:
+        - Municipal Governance
+        - National Governance
+        - Regional Governance
+    type_of_institution:
+        - Public Sector
+        - Nonprofit
+        - Academic
+        - International Organization
+    innovative_capability:
+        - Expert Networks
+    product_category:
+        - Platform
+        - Strategy
+  status: test # define, prototype, test, complete
+  problem_statement: How can we facilitate the exchange of thought and research around open government? #question
+  short_description: >
+    <p></p>
+  tooltip: >
+    <p></p>
+  long_description: >
+    <p>Convened and organized by the GovLab, and made possible by five years of funding support from the John D. and Catherine T. MacArthur Foundation, the MacArthur Foundation Research Network on Opening Governance works to develop the blueprints for more effective and legitimate democratic institutions to the end of improving people’s lives. A core group of twelve members is complemented by an advisory network of academics, technologists, and current and former government officials. Through both face-to-face and online collaboration, the Network is focused on assessing existing innovations in governing and experimenting with new practices and, eventually new norms, for how our institutions make decisions at the local, national, and international level.</p>
+  background: >
+    <p>Research networks are a signature MacArthur “way of working.” They are designed to identify a big problem and bring together researchers, practitioners, and policymakers from multiple disciplines to work collaboratively over an extended period of time, typically six to as many as ten years. Ambitious and innovative −but not prescriptive−research networks liberate their members to pursue work that has the potential to change prevailing paradigms.</p>
+    <p>Unlike project support or institutional operating support, research networks create a more open space for ideation and collaboration, with the goal of breaking new ground on big, timely challenges. Intensive preparatory activities to frame research network inquiries, identify network members, and vet initial and renewal network proposals with outside experts increase the potential for research networks not only to make distinctive conceptual contributions, but also to have real-world relevance and impact.
+    </p>
+  social_media: #in the future we can have custom shareable messages for each project
+  images: #images or screenshots of the project
+    - #url
+  results: >
+    <p></p>
+  related_articles:
+    - name: "Opening Governance Research Network"
+      url: "https://www.macfound.org/networks/research-network-opening-governance/"
+
+# ==========================================================================================================================================================================================================================================#
+
+- title: "Blockchange: Blockchain Technology for Social Change" #will generate slug from this attr
+  type: '' # Data, Collective Intelligence or Design Thinking
+  is_featured: 0 #integer
+  is_active: True
+  related_question: 8 #question
+  project_website: https://blockchan.ge/ #url
+  location:
+    - Global
+  partners:
+    - The Rockefeller Foundation
+    - Raul Zambrano
+  team:
+    - Stefaan Verhulst
+    - Andrew Young
+    - Hannah Pierce
+  tags:
+    governance_area:
+        - Municipal Governance
+        - National Governance
+        - Regional Governance
+    type_of_institution:
+        - Academic
+        - Nonprofit
+        - International Organization
+    innovative_capability:
+        - Expert Networks
+    product_category:
+        - Case Studies
+  status: define # define, prototype, test, complete
+  problem_statement: How can we use blockchain technology for social good? #question
+  short_description: >
+    <p></p>
+  tooltip: >
+    <p></p>
+  long_description: >
+    <p>Blockchange will seek to test the hypothesis that by applying blockchain attributes to identity management, a trusted digital ID can be created that can benefit, for instance:</p>
+    <ul>
+    <li>The estimated 1.1 billion people who are unable to prove their identity to the satisfaction of authorities and other organizations – often excluding them from property ownership, free movement, and social protection as a result;</li>
+    <li>The 1.3 million refugees that are trying to relocate around the world but can’t be identified; and</li>
+    <li>All the women and girls, who disproportionately struggle to obtain IDs, often the result of barriers related to: freedom of travel, distance, financial costs, time constraints, illiteracy, lack of information and awareness, and lack of support from family members.</li>
+    </ul>
+    <p>To become smarter about the application of blockchain technologies for identity, Blockchange will initially seek to:</p>
+    <ul>
+    <li>Map, and provide a taxonomy of blockchain technologies that seeks to provide identity;</li>
+    <li>Develop a primer on the potential and challenges of blockchain technologies across the identity life-cycle (such as creation; verification; authentication; and authorization);</li>
+    <li>Map the actual use of identity provided through blockchain technologies for a variety of social good purposes through case studies; and</li>
+    <li>Co-develop a set of (evidence-based) design principles that can guide the further development and use of blockchain for social change.</li>
+    </ul>
+  background: >
+    <p>In 2008, an unknown source calling itself Satoshi Nakamoto released a paper named Bitcoin: A Peer-to-Peer Electronic Cash System which introduced Blockchain. Blockchain is a novel technology that uses a distributed ledger to record transactions and ensure compliance. Blockchain and other Distributed Ledger technologies (DLTs) rely on an ability to act as a vast, transparent, and secure public database.
+    </p><p>Distributed ledger technologies (DLTs) have disruptive potential beyond innovation in products, services, revenue streams and operating systems within industry. By providing transparency and accountability in new and distributed ways, DLTs have the potential to positively empower underserved populations in myriad ways, including providing a means for establishing a trusted digital identity.
+    </p>
+  social_media: #in the future we can have custom shareable messages for each project
+  images: #images or screenshots of the project
+    -
+  results: >
+    <p></p>
+  related_articles:
+    - url: "http://thegovlab.org/the-govlab-selected-readings-on-blockchain-and-identity/"
+    - url: "http://thegovlab.org/the-govlab-selected-readings-on-blockchain-technology-and-its-potential-for-transforming-governance/"
 
 
 # ==========================================================================================================================================================================================================================================#

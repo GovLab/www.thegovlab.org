@@ -47,10 +47,30 @@
                     {% endif %}
                 {% endfor %}
             </div>
-            <h3 class="e-project-question">How to enable data sharing from <strong>public sector</strong> to <strong>private sector</strong>?</h3>
+            <h3 class="e-project-question"><strong>Data Collaboratives:</strong> How to create public value by exchanging data across sectors?</h3>
             <div class="e-project-group">
                 {% for project in projects %}
                     {% if project.related_question == 2 %}
+
+                        {{ item(project.title, project.problem_statement, project.is_active, project.tooltip) }}
+
+                    {% endif %}
+                {% endfor %}
+            </div>
+            <h3 class="e-project-question">How to create an inter-disciplinary knowledge base of governance innovation?</h3>
+            <div class="e-project-group">
+                {% for project in projects %}
+                    {% if project.related_question == 7 %}
+
+                        {{ item(project.title, project.problem_statement, project.is_active, project.tooltip) }}
+
+                    {% endif %}
+                {% endfor %}
+            </div>
+            <h3 class="e-project-question">How to leverage distributed ledger technologies to improve people's lives?</h3>
+            <div class="e-project-group">
+                {% for project in projects %}
+                    {% if project.related_question == 8 %}
 
                         {{ item(project.title, project.problem_statement, project.is_active, project.tooltip) }}
 
@@ -62,10 +82,10 @@
     <section class="b-projects-list-wrapper m-collective-intelligence">
         <div class="e-project-type">
             <h4>Smarter Governance Through</h4>
-            <h2>Collective Intelligence</h2>
+            <h2>People-led innovation</h2>
         </div>
         <div class="e-project-list">
-            <h3 class="e-project-question">How and when to use <strong>the crowd</strong> to get better ideas faster into governing?</h3>
+            <h3 class="e-project-question">How do we build legitimacy and grow capacity by empowering local experts to solve public problems?</h3>
             <div class="e-project-group">
                 {% for project in projects %}
                     {% if project.related_question == 3 %}
@@ -75,7 +95,7 @@
                     {% endif %}
                 {% endfor %}
             </div>
-            <h3 class="e-project-question">How and when to <strong>target specific people</strong> in the crowd?</h3>
+            <h3 class="e-project-question"><b>CrowdLaw:</b> What is tech-enabled civic engagement in law and policymaking?</h3>
             <div class="e-project-group">
                 {% for project in projects %}
                     {% if project.related_question == 4 %}
@@ -85,10 +105,20 @@
                     {% endif %}
                 {% endfor %}
             </div>
-            <h3 class="e-project-question">How can <strong>crowdsourcing help build agile networks of experts</strong> that can quickly react to provide effective assistance to hard and urgent problems?</h3>
+            <h3 class="e-project-question"><b>Smarter Crowdsourcing:</b> How do we curate and tap global expertise to develop implementable solutions to intractable problems?</h3>
             <div class="e-project-group">
                 {% for project in projects %}
                     {% if project.related_question == 5 %}
+
+                    {{ item(project.title, project.problem_statement, project.is_active, project.tooltip) }}
+
+                    {% endif %}
+                {% endfor %}
+            </div>
+            <h3 class="e-project-question"><b>Public Entrepreneurship:</b> How can we enable the public and government officials to equip themselves with the skillset and mindset needed to solve complex public problems? </h3>
+            <div class="e-project-group">
+                {% for project in projects %}
+                    {% if project.related_question == 6 %}
 
                     {{ item(project.title, project.problem_statement, project.is_active, project.tooltip) }}
 
@@ -100,8 +130,8 @@
     </section>
     <section class="b-projects-list-wrapper m-design-thinking">
         <div class="e-project-type">
-            <h4>Smarter Governance Through</h4>
-            <h2>Design Thinking</h2>
+            <!-- <h4>Smarter Governance Through</h4> -->
+            <h2>Archives</h2>
         </div>
         <div class="e-project-list">
             <!-- <h3 class="e-project-question">How to do <strong>agile research</strong> about innovation in governance</h3>
@@ -114,26 +144,16 @@
                     {% endif %}
                 {% endfor %}
             </div> -->
-            <h3 class="e-project-question">How to take innovative public interest projects <strong>from idea to implementation</strong>?</h3>
+            <h3 class="e-project-question">&nbsp;</h3>
             <div class="e-project-group">
                 {% for project in projects %}
-                    {% if project.related_question == 6 %}
+                    {% if project.related_question == 999 %}
 
                     {{ item(project.title, project.problem_statement, project.is_active, project.tooltip) }}
 
                     {% endif %}
                 {% endfor %}
             </div>
-            {# <h3 class="e-project-question">How to develop an <strong>open data map</strong> of responses and actors by <strong>leveraging collective intelligence</strong>?</h3>
-            <div class="e-project-group">
-                {% for project in projects %}
-                    {% if project.related_question == 'How to develop an <strong>open data map</strong> of responses and actors by <strong>leveraging collective intelligence</strong>' %}
-
-                    {{ item(project.title, project.problem_statement, project.is_active, project.tooltip) }}
-
-                    {% endif %}
-                {% endfor %}
-            </div> #}
         </div>
     </section>
 </div>
