@@ -1438,12 +1438,6 @@ button:focus {
       padding: 20px;
       position: absolute;
       bottom: 0; } }
-@media (max-width: 800px) {
-  .b-project-view.m-grid .b-projects-list-wrapper .e-project-item {
-    height: unset; } }
-@media (min-width: 1025px) {
-  .b-project-view.m-grid .b-projects-list-wrapper .e-project-item {
-    height: 360px; } }
 .b-project-view.m-grid .b-projects-list-wrapper .e-project-item h2 {
   margin-top: 10px;
   padding-top: 0;
