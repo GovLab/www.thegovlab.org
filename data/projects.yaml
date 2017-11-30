@@ -2111,6 +2111,88 @@
   related_articles:
     - url: "http://thegovlab.org/the-govlab-selected-readings-on-blockchain-and-identity/"
     - url: "http://thegovlab.org/the-govlab-selected-readings-on-blockchain-technology-and-its-potential-for-transforming-governance/"
+# ==========================================================================================================================================================================================================================================#
+
+- title:  Solving Public Problems with Data #will generate slug from this attr
+  type: 'Data' # Data, Collective Intelligence or Design Thinking
+  is_featured: 0 #integer
+  is_active: True
+  related_question: 1 #question
+  project_website: http://sppd.thegovlab.org/ #url
+  location:
+    - Global
+  partners:
+    - NYU Tandon School of Engineering
+    - Laura and John Arnold Foundation
+  team:
+    - Beth Simone Noveck
+    - Stefaan Verhulst
+    - Dinorah Cantú-pedraza
+    - Kaitlin Koga
+    - Timi Lewis
+    - Mark Adkins-Hastings
+  tags:
+    governance_area:
+        - National Governance
+        - Local Governance
+    type_of_institution:
+        - Academic
+        - Public Sector
+    innovative_capability:
+        - Open Data
+        - Big Data
+        - Design Thinking
+        - Agile Research
+        - Rapid Prototyping
+        - Data Collaboratives
+    product_category:
+        - Training
+        - Coaching and Mentorship
+  status: complete # define, prototype, test, complete
+  problem_statement: Solving Public Problems with Data examines how data can be used to improve decision-making and problem solving in the public sector through a series of online lectures by leading experts from the Governance Lab. The goal is to enable you to define and leverage the value of data to achieve your public mission. #question
+  short_description: >
+    <p></p>
+  tooltip: >
+    <p></p>
+  long_description: >
+    <p>The explosion in the availability of new sources of data and the emergence of new data science technologies for making use of such data are expected to have a significant impact on public institutions and how they solve problems and make decisions.</p>
+
+      <p>Whether the goal is improved outcomes and equities, reduced cost and inefficiency, more evidence about what works or the identification of new operational solutions, the ability to use data is becoming essential to governing well in the 21st century.</p>
+
+      <p>Much of the promise of such data-driven and evidence-based decisionmaking has failed to materialize because those in public institutions lack the experience needed for turning data into actionable insights. Even those with quantitative skills often confront legal or technical impediments making it difficult to know how to collect, analyze, use, share, and store data responsibly and ethically.</p>
+
+      <p>Solving Public Problems with Data examines how data can be used to improve decisionmaking and problem solving in the public sector. Through real world examples and case studies, we discuss the fundamental principles of data science to help foster a data analytic mindset. The goal is to enable you to define and leverage the value of data to achieve your public mission. No prior experience with computer science or statistics is necessary or assumed.</p>
+  background: >
+    <p>This course is designed for public entrepreneurs — passionate and innovative people who wish to take advantage of new technology to do good in the world. It is designed for public entrepreneurs inside and outside of government who want to build their capacity to use data and evidence for policy and decision-making.</p>
+  social_media: #in the future we can have custom shareable messages for each project
+  images: #images or screenshots of the project
+  results: >
+      <ul>
+      <li><b>10 Self-Paced Lectures</b> - Watch online lectures done at your own pace</li>
+      <li><b>Curated Readings</b> - Read case studies and recommended readings to further your knowledge on each of the topics</li>
+      <li><b>Community</b> - Engage in conversations with people like you who are trying to solve similar public problems collecting, using and/or sharing data through our Network of Innovators SPPwD channel</li>
+      <li><b>Cost</b> - No cost, thanks to a generous grant from the Laura and John Arnold Foundation<sup>*</sup></li>
+      </ul>
+      <p>
+      Guest Lecturers:
+      </p>
+      <ul>
+      <li>Beth Blauer, <a href="#">Executive Director</a>, Johns Hopkins Center for Government Excellence</li>
+      <li>Daniel Goroff, <a href="http://www.sloan.org/about-the-foundation/staff-directory/show-staff/show/people/daniel-l-goroff/">Program Director</>, Alfred P. Sloan Foundation</li>
+      <li>Carter Hewgley, <a href="https://govex.jhu.edu/person/carter-hewgley/">Director of Analytics and Performance</a>, Center for Government Excellent, Johns Hopkins</li>
+      <li>Julia Lane, <a href="http://cusp.nyu.edu/people/julia-lane/">Professor</a>, Center for Urban Science and Progress, NYU</li>
+      <li>Gideon Mann, <a href="https://www.linkedin.com/in/gideon-mann-223a2912">Head of Data Science</a>, CTO Office at Bloomberg LP</li>
+      <li>Amen Ra Mashariki, <a href="https://www.linkedin.com/in/amen-ra-mashariki-1452885">Chief Analytics Officer</a>, New York City</li>
+      <li>Beth Simone Noveck, <a href="http://www.thegovlab.org/beth-noveck.html">Co-Founder and Director</a>, The Governance Lab</li>
+      <li>Quentin Palfrey, <a href="https://www.povertyactionlab.org/palfrey">Executive Director</a>, Abdul Latif Jameel Poverty Action Lab, North America | MIT Department of Economics</li>
+      <li>Arnaud Sahuguet, <a href="http://tech.cornell.edu/people/researchers">Director of the Foundry</a>, Cornell Tech</li>
+      <li>Stefaan Verhulst, <a href="http://www.thegovlab.org/stefaan-verhulst.html">Co-Founder and Director of Research</a>, The Governance Lab </li>
+      <li>Ben Wellington, <a href="http://iquantny.tumblr.com/about">creator of I Quant NY and Visiting Assistant Professor</a>, Pratt Institute in Brooklyn</li>
+      </ul>
+  related_articles:
+    - name: Website
+      url: http://sppd.thegovlab.org/
+
 
 
 # ==========================================================================================================================================================================================================================================#
