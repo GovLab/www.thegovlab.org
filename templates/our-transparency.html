@@ -20,14 +20,14 @@
                     <th class="e-name">Funder</th>
                     <th class="e-amount">Amount</th>
                 </thead>
-                
+
                 {% for funder in funders %}
                 <tr>
                     <td class="e-funder">
                         <p class="e-name">{{funder.name}}</p>
                         <p class="e-project">{{funder.project}}</p>
                     </td>
-                    <td class="e-amount">$ {{funder.amount}}</td>
+                    <td class="e-amount">{% if not funder.nonunit %}${% endif %} {{funder.amount}}</td>
                 </tr>
                 {% endfor %}
             </table>
