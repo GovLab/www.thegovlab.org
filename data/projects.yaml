@@ -2,7 +2,7 @@
 - title: Smarter Crowdsourcing Zika
   image: zika-logo-v2-01.png
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
-  is_featured: 1 #integer
+  is_featured: 0 #integer
   is_active: True
   related_question: 5 #question
   project_website:  http://zika.smartercrowdsourcing.org/
@@ -79,7 +79,7 @@
 - title: Smarter Crowdsourcing Anti Corruption
   image: anti-corruption-logo-v2-04.png
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
-  is_featured: 1 #integer
+  is_featured: 0 #integer
   is_active: True
   related_question: 5 #question
   project_website: http://anticorruption.smartercrowdsourcing.org
@@ -151,7 +151,7 @@
 - title: Data Driven Criminal Justice #will generate slug from this attr
   image: data-justice-network-v1-04.png
   type: 'Data' # Data, Collective Intelligence or Design Thinking
-  is_featured: 1 #integer
+  is_featured: 0 #integer
   is_active: True
   related_question: 1
   project_website: #url
@@ -218,7 +218,7 @@
 - title: Open Data for Developing Economies  #will generate slug from this attr
   image: odimpact.png
   type: 'Data' # Data, Collective Intelligence or Design Thinking
-  is_featured: 1 #integer
+  is_featured: 0 #integer
   is_active: True
   related_question: 1 #question
   project_website: #url
@@ -545,7 +545,7 @@
 - title: 'Data Collaboratives: Creating Public Value by Exchanging Data' #will generate slug from this attr
   image: data-collab.png
   type: 'Data' # Data, Collective Intelligence or Design Thinking
-  is_featured: 0 #integer
+  is_featured: 1 #integer
   is_active: True
   related_question: 2 #question
   project_website: http://datacollaboratives.org/
@@ -769,7 +769,7 @@
 - title: Network of Innovators #will generate slug from this attr
   image: noi-08.png
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
-  is_featured: 1 #integer
+  is_featured: 0 #integer
   is_active: True
   related_question: 6 #question
   project_website: http://noi.thegovlab.org #url
@@ -1365,7 +1365,7 @@
 - title: 'CrowdLaw' #will generate slug from this attr
   image: crowdlaw.png
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
-  is_featured: 0 #integer
+  is_featured: 1 #integer
   is_active: True
   related_question: 4
   project_website: "http://crowd.law/" #url
@@ -2053,7 +2053,7 @@
 - title: "Blockchange: Blockchain Technology for Social Change" #will generate slug from this attr
   image: blockchange.png
   type: '' # Data, Collective Intelligence or Design Thinking
-  is_featured: 0 #integer
+  is_featured: 1 #integer
   is_active: True
   related_question: 8 #question
   project_website: https://blockchan.ge/ #url
@@ -2081,10 +2081,8 @@
         - Case Studies
   status: define # define, prototype, test, complete
   problem_statement: How can we use blockchain technology for social good? #question
-  short_description: >
-    <p></p>
-  tooltip: >
-    <p></p>
+  short_description:
+  tooltip:
   long_description: >
     <p>Blockchange will seek to test the hypothesis that by applying blockchain attributes to identity management, a trusted digital ID can be created that can benefit, for instance:</p>
     <ul>
@@ -2106,8 +2104,7 @@
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
     -
-  results: >
-    <p></p>
+  results:
   related_articles:
     - url: "http://thegovlab.org/the-govlab-selected-readings-on-blockchain-and-identity/"
     - url: "http://thegovlab.org/the-govlab-selected-readings-on-blockchain-technology-and-its-potential-for-transforming-governance/"
