@@ -66,6 +66,7 @@
         </div>
 
         {% for person in team %}
+        <a name="{{person.name | slug}}"></a>
             <div class="e-team-member" id="{{person.name | slug }}">
                 <div class="e-wrap">
                     <div class="e-team-picture" style="background-image: url('./static/img/team/{{person.name | slug}}.jpg')"></div>
