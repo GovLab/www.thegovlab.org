@@ -250,23 +250,40 @@
                 padding: 20px;
                 position: absolute;
                 bottom: 0;
+                p {
+                    margin-bottom: 0;
+                }
             }
         }
     }
 
     .e-project-item {
         // @include breakpoint($mobile-only) { height: unset; }
-        // @include breakpoint($desktop) { height: 360px; }
+        // @include breakpoint($desktop) { height: 440px; }
         h2 {
             margin-top: 10px;
             padding-top: 0;
             position: static;
         }
         .e-card-image {
-            height: 150px;
+            height: 230px;
             background-position: center center;
-            background-size: cover;
             background-repeat: no-repeat;
+            background-size: contain;
+            &.e-card-image__contain {
+                background-size: contain;
+            }
+            &.e-card-image__cover {
+                background-size: cover;
+            }
+            &.e-card-image__small {
+                background-size: contain;
+                background-size: 50%;
+            }
+            &.e-card-image__medium {
+                background-size: contain;
+                background-size: 75%;
+            }
         }
         .e-project-tooltip { display: none; }
 

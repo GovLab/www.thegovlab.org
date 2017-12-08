@@ -1,8 +1,8 @@
 {# Define a macro to render each project item #}
-{% macro item(title, problem_statement, is_active, tooltip, image) -%}
+{% macro item(title, problem_statement, is_active, tooltip, image, style) -%}
 <!-- <a href="project-{{title | slug}}.html"> -->
     <div class="e-project-item m-active-{{is_active}}">
-        <!-- <a href="project-{{title | slug}}.html"><div class="e-card-image" style="{% if image %}background-image: url('static/img/projects/cards/{{image}}'){% else %}background-image: url('static/img/projects/cards/govlab.png'){% endif %}"></div></a> -->
+        <!-- <a href="project-{{title | slug}}.html"><div class="e-card-image {% if style == 'contain' %}e-card-image__contain {% elif style == 'cover' %}e-card-image__cover {% elif style == 'small' %}e-card-image__small {% elif style == 'medium' %}e-card-image__medium{% endif %}" style="{% if image %}background-image: url('static/img/projects/cards/{{image}}'){% else %}background-image: url('static/img/projects/cards/govlab.png'){% endif %}"></div></a> -->
         <h2><a href="project-{{title | slug}}.html">{{title}}</a></h2>
         <div class="e-project-blurb">
             {% if problem_statement %}<p>{{problem_statement}}</p>{% endif %}
@@ -43,7 +43,7 @@
                 {% for project in projects %}
                     {% if project.related_question == 1 %}
 
-                        {{ item(project.title, project.problem_statement, project.is_active, project.tooltip, project.image) }}
+                        {{ item(project.title, project.problem_statement, project.is_active, project.tooltip, project.image, project.style) }}
 
                     {% endif %}
                 {% endfor %}
@@ -53,7 +53,7 @@
                 {% for project in projects %}
                     {% if project.related_question == 2 %}
 
-                        {{ item(project.title, project.problem_statement, project.is_active, project.tooltip, project.image) }}
+                        {{ item(project.title, project.problem_statement, project.is_active, project.tooltip, project.image, project.style) }}
 
                     {% endif %}
                 {% endfor %}
@@ -63,7 +63,7 @@
                 {% for project in projects %}
                     {% if project.related_question == 7 %}
 
-                        {{ item(project.title, project.problem_statement, project.is_active, project.tooltip, project.image) }}
+                        {{ item(project.title, project.problem_statement, project.is_active, project.tooltip, project.image, project.style) }}
 
                     {% endif %}
                 {% endfor %}
@@ -73,7 +73,7 @@
                 {% for project in projects %}
                     {% if project.related_question == 8 %}
 
-                        {{ item(project.title, project.problem_statement, project.is_active, project.tooltip, project.image) }}
+                        {{ item(project.title, project.problem_statement, project.is_active, project.tooltip, project.image, project.style) }}
 
                     {% endif %}
                 {% endfor %}
@@ -91,7 +91,7 @@
                 {% for project in projects %}
                     {% if project.related_question == 3 %}
 
-                        {{ item(project.title, project.problem_statement, project.is_active, project.tooltip, project.image) }}
+                        {{ item(project.title, project.problem_statement, project.is_active, project.tooltip, project.image, project.style) }}
 
                     {% endif %}
                 {% endfor %}
@@ -101,7 +101,7 @@
                 {% for project in projects %}
                     {% if project.related_question == 4 %}
 
-                    {{ item(project.title, project.problem_statement, project.is_active, project.tooltip, project.image) }}
+                    {{ item(project.title, project.problem_statement, project.is_active, project.tooltip, project.image, project.style) }}
 
                     {% endif %}
                 {% endfor %}
@@ -111,7 +111,7 @@
                 {% for project in projects %}
                     {% if project.related_question == 5 %}
 
-                    {{ item(project.title, project.problem_statement, project.is_active, project.tooltip, project.image) }}
+                    {{ item(project.title, project.problem_statement, project.is_active, project.tooltip, project.image, project.style) }}
 
                     {% endif %}
                 {% endfor %}
@@ -121,7 +121,7 @@
                 {% for project in projects %}
                     {% if project.related_question == 6 %}
 
-                    {{ item(project.title, project.problem_statement, project.is_active, project.tooltip, project.image) }}
+                    {{ item(project.title, project.problem_statement, project.is_active, project.tooltip, project.image, project.style) }}
 
                     {% endif %}
                 {% endfor %}
@@ -140,7 +140,7 @@
                 {% for project in projects %}
                     {% if project.related_question == 'How to do <strong>agile research</strong> about innovation in governance' %}
 
-                    {{ item(project.title, project.problem_statement, project.is_active, project.tooltip, project.image) }}
+                    {{ item(project.title, project.problem_statement, project.is_active, project.tooltip, project.image, project.style) }}
 
                     {% endif %}
                 {% endfor %}
@@ -150,7 +150,7 @@
                 {% for project in projects %}
                     {% if project.related_question == 999 %}
 
-                    {{ item(project.title, project.problem_statement, project.is_active, project.tooltip, project.image) }}
+                    {{ item(project.title, project.problem_statement, project.is_active, project.tooltip, project.image, project.style) }}
 
                     {% endif %}
                 {% endfor %}
