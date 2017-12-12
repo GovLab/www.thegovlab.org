@@ -426,24 +426,24 @@
     <p>Richard Wener, PhD, is a Senior Fellow at the GovLab. He is Professor of Environmental Psychology, and head of the Sustainable Urban Environments program at the Tandon School of Engineering of New York University. He is a fellow and past president of Division 34 of the American Psychological Association, and received the Career and Distinguished Service Awards from the Environmental Design Research Association and the Distinguished Scholar Research Award from the International Corrections and Prisons Association. Professor Wener’s research on the behavioral impacts of correctional settings began in 1975 and he has since conducted post occupancy evaluations and other studies in dozens of jails and prisons, culminating his 2012 book The Environmental Psychology of Prisons and Jails: Creating Humane Environments in Secure Settings from Cambridge University Press.</p>
     <p>He is currently managing editor for a forthcoming volume from the International Committee of the Red Cross intended to serve as guidance for corrections planners worldwide on requirements for building and operating humane detention facilities. Professor Wener has also conducted research on commuting stress, has participated in a series post occupancy evaluations of green buildings, worked on the development and assessment of virtual learning systems for firefighters, and has studied the development of excellent urban spaces as part of the team for the Rudy Bruner Award for Urban Excellence.</p>
 
-# - name: Rod Glover
-#   firstname: Rod
-#   job: Senior Fellow
-#   projects: false
-#   bio: >
-#     <p>Rod Glover is a Senior Fellow at the GovLab. He is an economist that works on large-scale innovation. He works closely with governments that are serious about improving outcomes, but believes that to create new regimes, you sometimes have to break the old ones.</p>
+- name: Rod Glover
+  firstname: Rod
+  job: Senior Fellow
+  projects: false
+  bio: >
+    <p>Rod Glover is a Senior Fellow at the GovLab. He is an economist that works on large-scale innovation. He works closely with governments that are serious about improving outcomes, but believes that to create new regimes, you sometimes have to break the old ones.</p>
 
-#     <p>Rod has been Senior Adviser to an Australian Prime Minister, Senior Economic Adviser to Australia’s Shadow Treasurer and Deputy Secretary for Innovation and Projects in Victoria’s Department of Premier and Cabinet. He has also worked for some of the world’s leading innovation agencies in London and San Francisco.</p>
+    <p>Rod has been Senior Adviser to an Australian Prime Minister, Senior Economic Adviser to Australia’s Shadow Treasurer and Deputy Secretary for Innovation and Projects in Victoria’s Department of Premier and Cabinet. He has also worked for some of the world’s leading innovation agencies in London and San Francisco.</p>
 
-#     <p>He was chair of the education charity Hands on Learning Australia (focused on breaking the cycle of educational disadvantage) and is co-founder of an edutech startup that seeks to radically expand access to tertiary education.</p>
+    <p>He was chair of the education charity Hands on Learning Australia (focused on breaking the cycle of educational disadvantage) and is co-founder of an edutech startup that seeks to radically expand access to tertiary education.</p>
 
-#     <p>Rod has been a Director of the Victorian Government’s Centre of Excellence in Intervention and Prevention Science (in public health) and a member of the Australian Government’s National Sustainability Council. He is now on the Board of Save the Children Australia, where he focuses on scaling internal businesses for global impact.</p>
+    <p>Rod has been a Director of the Victorian Government’s Centre of Excellence in Intervention and Prevention Science (in public health) and a member of the Australian Government’s National Sustainability Council. He is now on the Board of Save the Children Australia, where he focuses on scaling internal businesses for global impact.</p>
 
-#     <p>Rod has driven the development of major policy frameworks in Australia, including the COAG National Reform Agenda (a $130 billion redesign of the framework of Commonwealth-State relations), the Australian Government’s Industry and Innovation Statement, and new approaches to entrepreneurship across a number of jurisdictions.</p>
+    <p>Rod has driven the development of major policy frameworks in Australia, including the COAG National Reform Agenda (a $130 billion redesign of the framework of Commonwealth-State relations), the Australian Government’s Industry and Innovation Statement, and new approaches to entrepreneurship across a number of jurisdictions.</p>
 
-#     <p>In addition to periodic teaching on public innovation, his current projects involve developing an alternative innovation agenda for Australia, aligning Australia’s measures of sustainable wellbeing with the UN’s Sustainable Development Goals, and leveraging international approaches to develop Australia’s top talent networks.</p>
+    <p>In addition to periodic teaching on public innovation, his current projects involve developing an alternative innovation agenda for Australia, aligning Australia’s measures of sustainable wellbeing with the UN’s Sustainable Development Goals, and leveraging international approaches to develop Australia’s top talent networks.</p>
 
-#     <p>At GovLab, Rod is working with Beth Noveck to help forge the field of public entrepreneurship. He has previously studied at the University of Melbourne, with Executive Education at the Australian and New Zealand School of Government, the Kennedy School of Government at Harvard and the Sloan School of Management at MIT.</p>
+    <p>At GovLab, Rod is working with Beth Noveck to help forge the field of public entrepreneurship. He has previously studied at the University of Melbourne, with Executive Education at the Australian and New Zealand School of Government, the Kennedy School of Government at Harvard and the Sloan School of Management at MIT.</p>
 
 - name: SAM DEJOHN
   firstname: Sam
