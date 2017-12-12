@@ -2254,12 +2254,10 @@
   tooltip:
   long_description: >
     <p>Data Labs is a model for evaluating the effectiveness of social programs using administrative data. This project will investigate how and where it can be replicated and aim to initiate pilots. We developed a series of case studies containing a detailed analysis of six data lab models in the United States and one from the United Kingdom based on interviews. It is meant to better our understanding of the existing landscape of data labs and to learn from their successes and drawbacks. In particular, we look at the governance processes that they employ to share or access data and how these labs solicit expertise to enable program evaluation. In collaboration with UK-based non-profit, New Philanthropy Capital, our goal is to provide data owners, particularly those who have personally-identifiable data, with a blueprint to securely, responsibly and ethically share that information to the end of improving programs in the public interest.</p>
-    <p>&nbsp;</p>
   background: >
     <p>While they have long collected data, increasingly in digital form, government agencies have struggled to create the infrastructure and acquire the skills needed to make use of this administrative data to realize the promise of evidence-based policymaking. But some states are already out ahead, establishing offices known as Data Labs or Policy Labs to enable states to partner with academia and make use of state administrative data to evaluate and ultimately improve programs and policies. By establishing the necessary technical infrastructure and governance mechanisms to help government gain access to much-needed analytical talent, these data labs are helping to convert data into insights and driving more evidence-based policymaking and service delivery. Urgently needed, however, are more such labs with the capacity to turn the data government collects into improvements in policies and services and the expansion of existing labs to enable nonprofits as well as government to evaluate their offerings using state data.</p>
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
-    -
   results:
   related_articles:
     - name: 'Project Website'
