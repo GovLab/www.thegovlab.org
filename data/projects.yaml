@@ -1,5 +1,6 @@
 
 - title: Smarter Crowdsourcing Zika
+  rank: 2
   image: zika-logo-v2-01.png
   style: small
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
@@ -78,6 +79,7 @@
 
 
 - title: Smarter Crowdsourcing Anti Corruption
+  rank: 3
   image: anti-corruption-logo-v2-04.png
   style: small
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
@@ -150,7 +152,8 @@
 # ==========================================================================================================================================================================================================================================#
 
 
-- title: Data Driven Criminal Justice #will generate slug from this attr
+- title: Data-Driven Criminal Justice #will generate slug from this attr
+  rank: 1
   image: data-justice-network-v1-04.png
   type: 'Data' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
@@ -217,7 +220,8 @@
 # ==========================================================================================================================================================================================================================================#
 
 
-- title: Open Data for Developing Economies  #will generate slug from this attr
+- title: Open Data in Developing Economies  #will generate slug from this attr
+  rank: 3
   image: open-data-dev-eco.png
   style: small
   type: 'Data' # Data, Collective Intelligence or Design Thinking
@@ -284,6 +288,7 @@
 
 
 - title: Docker for Data #will generate slug from this attr
+  rank: 1
   type: 'Data' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
@@ -341,11 +346,12 @@
 
 
 - title: The GovLab Public Projects Canvas #will generate slug from this attr
+  rank: 4
   image: canvas.png
   type: 'Design Thinking' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
-  related_question: 999 #question
+  related_question: 6 #question
   project_website: http://govlabacademy.org/canvas/ #url
   location:
     - Global
@@ -405,6 +411,7 @@
 
 
 - title: The GovLab Academy #will generate slug from this attr
+  rank: 1
   image: govlab-academy-logo-orange.png
   style: medium
   type: 'Design Thinking' # Data, Collective Intelligence or Design Thinking
@@ -488,6 +495,7 @@
 # ==========================================================================================================================================================================================================================================#
 
 - title: Open Governance Research Exchange (OGRX)
+  rank: 5
   image: ogrx-logo-v2-02.png
   style: medium
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
@@ -549,6 +557,7 @@
 # ==========================================================================================================================================================================================================================================#
 
 - title: 'Data Collaboratives: Creating Public Value by Exchanging Data' #will generate slug from this attr
+  rank: 2
   image: data-collab.png
   style: cover
   type: 'Data' # Data, Collective Intelligence or Design Thinking
@@ -601,6 +610,7 @@
 # ==========================================================================================================================================================================================================================================#
 
 - title: Data Collaboratives to Improve Children’s Lives #will generate slug from this attr
+  rank: 3
   image: data-collab.png
   style: cover
   type: 'Data' # Data, Collective Intelligence or Design Thinking
@@ -649,6 +659,7 @@
 
 
 - title: NETmundial Solutions Map #will generate slug from this attr
+  rank: 3
   image: netmundial-logo.png
   style: medium
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
@@ -720,6 +731,7 @@
 
 
 - title: Open Data 500 Global Network #will generate slug from this attr
+  rank: 1
   image: od500-transparent.png
   style: small
   type: 'Data' # Data, Collective Intelligence or Design Thinking
@@ -778,6 +790,7 @@
 
 
 - title: Network of Innovators #will generate slug from this attr
+  rank: 2
   image: noi-08.png
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
@@ -862,6 +875,7 @@
 
 
 - title: OPEN NYU #will generate slug from this attr
+  rank: 4
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
@@ -905,6 +919,7 @@
 
 
 - title: "OrgPedia - Crowdsourcing and Impact Modeling" #will generate slug from this attr
+  rank: 10
   type: 'Data' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
@@ -959,6 +974,7 @@
 
 
 - title: Legisletters #will generate slug from this attr
+  rank: 2
   type: 'Data' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
@@ -1004,6 +1020,7 @@
 
 
 - title: Crowdsorcerer #will generate slug from this attr
+  rank: 9
   image: crowdsorcerer.png
   style: contain
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
@@ -1059,6 +1076,7 @@
 # ==========================================================================================================================================================================================================================================#
 
 - title: Public Data Science Network #will generate slug from this attr
+  rank: 0
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: False
@@ -1103,6 +1121,7 @@
 # ==========================================================================================================================================================================================================================================#
 
 - title: 'Information for Impact: Liberating Nonprofit Sector Data' #will generate slug from this attr
+  rank: 11
   image: information-for-impact.jpg
   style: small
   type: 'Data' # Data, Collective Intelligence or Design Thinking
@@ -1154,6 +1173,7 @@
 # ==========================================================================================================================================================================================================================================#
 
 - title: Peer to Patent #will generate slug from this attr
+  rank: 8
   image: peer-to-patent.png
   style: medium
   related_question: 999
@@ -1218,6 +1238,7 @@
 # ==========================================================================================================================================================================================================================================#
 
 - title: FDA Profiles #will generate slug from this attr
+  rank: 5
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
@@ -1270,6 +1291,7 @@
 
 
 - title: NHS Public Data Science Network #will generate slug from this attr
+  rank: 6
   type: 'Data' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
@@ -1328,6 +1350,7 @@
 
 
 - title: "NHS - Open Data" #will generate slug from this attr
+  rank: 7
   image: open-data-healthcare.png
   style: cover
   type: 'Data' # Data, Collective Intelligence or Design Thinking
@@ -1382,6 +1405,7 @@
 
 
 - title: 'CrowdLaw' #will generate slug from this attr
+  rank: 0
   image: crowdlaw.png
   style: cover
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
@@ -1466,6 +1490,7 @@
 
 
 - title: Open Grantmaking #will generate slug from this attr
+  rank: 12
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
@@ -1530,6 +1555,7 @@
 
 
 - title: Open Data's Impact #will generate slug from this attr
+  rank: 2
   image: odimpact.png
   style: small
   type: 'Data' # Data, Collective Intelligence or Design Thinking
@@ -1585,6 +1611,7 @@
 
 
 - title: Smarter State Case Studies #will generate slug from this attr
+  rank: 3
   type: 'Data' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
@@ -1635,6 +1662,7 @@
 
 
 - title: Smarter Crowdsourcing Cotopaxi
+  rank: 1
   image: cotopaxi-logo-v2-04.png
   style: small
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
@@ -1769,6 +1797,7 @@
 # ==========================================================================================================================================================================================================================================#
 
 - title: Civic Challenges - San Pedro Garza García
+  rank: 0
   image: desafios.png
   style: cover
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
@@ -1847,78 +1876,79 @@
 
 # ==========================================================================================================================================================================================================================================#
 
-- title: Bertelsmman Handbook on People-Led Innovation
-  image: govlab-academy-logo-orange.png
-  style: medium
-  type: '' # Data, Collective Intelligence or Design Thinking
-  is_featured: 0 #integer
-  is_active: True
-  related_question: 6 #question
-  project_website: #url
-  location:
-    - Global
-  partners:
-    - The Bertelsmann Foundation
-  team:
-    - Stefaan Verhulst
-    - Andrew Young
-    - Hannah Pierce
-  tags:
-    governance_area:
-        - Municipal Governance
-        - Regional Governance
-    type_of_institution:
-        - Public Sector
-        - Nonprofit
-    innovative_capability:
-        - Collective Intelligence
-        - Crowdsourcing
-        - Expert Networks
-        - Agile Research
-        - Open Data
-        - Rapid Prototyping
-        - Design Thinking
-        - Civic Technology
-    product_category:
-        - Methodology
-  status: test # define, prototype, test, complete
-  problem_statement: How can we derive people-driven solutions at every step of the problem-solving process? #question
-  short_description: >
-    <p></p>
-  tooltip: >
-    <p></p>
-  long_description: >
-    <p>The Bertelsmann Handbook articulates a method for curating and matching the supply of people’s expertise to the demand of urban challenges. When used in sync with other existing methodologies, People-Led Innovation seeks to provide more sustainable, inclusive, and effective policies and services.</p>
-    <p>The Methodology comprises four key phases, all aimed at tapping into the expertise of the public through a mix a curation and openness:</p>
-    <ul>
-    <li>Define – engaging people to identify, define, prioritize and curate the problem(s) to be solved through an innovation approach.</li>
-    <li>Ideate – curating potential solutions to identified problems by engaging the expertise of the public.</li>
-    <li>Experiment – implementing new solutions in an agile manner and curating the capacity needed to test what works in practice. </li>
-    <li>Communicate – transferring lessons learned to a wide audience and curating feedback received to enable strategic iteration.</li>
-    </ul>
-    <p>
-    Additionally, there are four types of engagement to be utilized in people-led solutions:
-    </p>
-    <ul>
-    <li>Commenting: In this role, the group provides their opinions or experiences to build upon the problem-solving team’s ideas.</li>
-    <li>Co-creating: Stakeholder groups are asked to apply their skills and creativity to develop definitions, solutions, or priorities with the problem-solving team.</li>
-    <li>Reviewing: Similar to the ‘Commenting’ role, stakeholder groups are asked to provide their insights and opinions. However, in this step, the groups are seeking to assess and evaluate proposals and/or interventions.</li>
-    <li>Reporting: In the Reporting role, groups are asked to contribute data and add facts to problem definitions, solution plans, and evaluations.</li>
-    </ul>
-
-  background: >
-    <p>Cities worldwide are seeking to become more resilient to environmental, social, and economic shocks and stresses. However, traditional methods and existing resources often fall short of tackling today’s challenges. Cities need not only provide innovative solutions to a complex array of problems, they also need to innovate in the way that they develop these solutions.</p>
-  social_media: #in the future we can have custom shareable messages for each project
-  images: #images or screenshots of the project
-    -
-  results: >
-    <p></p>
-  related_articles:
-    -
+# - title: Bertelsmman Handbook on People-Led Innovation
+#   rank: 0
+#   image: govlab-academy-logo-orange.png
+#   style: medium
+#   type: '' # Data, Collective Intelligence or Design Thinking
+#   is_featured: 0 #integer
+#   is_active: True
+#   related_question: 6 #question
+#   project_website: #url
+#   location:
+#     - Global
+#   partners:
+#     - The Bertelsmann Foundation
+#   team:
+#     - Stefaan Verhulst
+#     - Andrew Young
+#     - Hannah Pierce
+#   tags:
+#     governance_area:
+#         - Municipal Governance
+#         - Regional Governance
+#     type_of_institution:
+#         - Public Sector
+#         - Nonprofit
+#     innovative_capability:
+#         - Collective Intelligence
+#         - Crowdsourcing
+#         - Expert Networks
+#         - Agile Research
+#         - Open Data
+#         - Rapid Prototyping
+#         - Design Thinking
+#         - Civic Technology
+#     product_category:
+#         - Methodology
+#   status: test # define, prototype, test, complete
+#   problem_statement: How can we derive people-driven solutions at every step of the problem-solving process? #question
+#   short_description: >
+#     <p></p>
+#   tooltip: >
+#     <p></p>
+#   long_description: >
+#     <p>The Bertelsmann Handbook articulates a method for curating and matching the supply of people’s expertise to the demand of urban challenges. When used in sync with other existing methodologies, People-Led Innovation seeks to provide more sustainable, inclusive, and effective policies and services.</p>
+#     <p>The Methodology comprises four key phases, all aimed at tapping into the expertise of the public through a mix a curation and openness:</p>
+#     <ul>
+#     <li>Define – engaging people to identify, define, prioritize and curate the problem(s) to be solved through an innovation approach.</li>
+#     <li>Ideate – curating potential solutions to identified problems by engaging the expertise of the public.</li>
+#     <li>Experiment – implementing new solutions in an agile manner and curating the capacity needed to test what works in practice. </li>
+#     <li>Communicate – transferring lessons learned to a wide audience and curating feedback received to enable strategic iteration.</li>
+#     </ul>
+#     <p>
+#     Additionally, there are four types of engagement to be utilized in people-led solutions:
+#     </p>
+#     <ul>
+#     <li>Commenting: In this role, the group provides their opinions or experiences to build upon the problem-solving team’s ideas.</li>
+#     <li>Co-creating: Stakeholder groups are asked to apply their skills and creativity to develop definitions, solutions, or priorities with the problem-solving team.</li>
+#     <li>Reviewing: Similar to the ‘Commenting’ role, stakeholder groups are asked to provide their insights and opinions. However, in this step, the groups are seeking to assess and evaluate proposals and/or interventions.</li>
+#     <li>Reporting: In the Reporting role, groups are asked to contribute data and add facts to problem definitions, solution plans, and evaluations.</li>
+#     </ul>
+#   background: >
+#     <p>Cities worldwide are seeking to become more resilient to environmental, social, and economic shocks and stresses. However, traditional methods and existing resources often fall short of tackling today’s challenges. Cities need not only provide innovative solutions to a complex array of problems, they also need to innovate in the way that they develop these solutions.</p>
+#   social_media: #in the future we can have custom shareable messages for each project
+#   images: #images or screenshots of the project
+#     -
+#   results: >
+#     <p></p>
+#   related_articles:
+#     -
 
 # ==========================================================================================================================================================================================================================================#
 
 - title: The Potential of Social Media Intelligence to Improve People’s Lives #will generate slug from this attr
+  rank: 4
   image: data-collab-sm.png
   style: small
   type: '' # Data, Collective Intelligence or Design Thinking
@@ -1970,6 +2000,7 @@
 # ==========================================================================================================================================================================================================================================#
 
 - title: Gender and Urban Mobility in Chile #will generate slug from this attr
+  rank: 5
   image: data-collab.png
   style: cover
   type: '' # Data, Collective Intelligence or Design Thinking
@@ -2022,6 +2053,7 @@
 # ==========================================================================================================================================================================================================================================#
 
 - title: The MacArthur Research Network for Opening Governance #will generate slug from this attr
+  rank: 0
   image: maca-logo-vertical.jpeg
   style: cover
   type: '' # Data, Collective Intelligence or Design Thinking
@@ -2078,6 +2110,7 @@
 # ==========================================================================================================================================================================================================================================#
 
 - title: "Blockchange: Blockchain Technology for Social Change" #will generate slug from this attr
+  rank: 0
   image: blockchange.jpeg
   style: cover
   type: '' # Data, Collective Intelligence or Design Thinking
@@ -2139,6 +2172,7 @@
 # ==========================================================================================================================================================================================================================================#
 
 - title:  Solving Public Problems with Data #will generate slug from this attr
+  rank: 4
   image: sppwd.png
   style: cover
   type: 'Data' # Data, Collective Intelligence or Design Thinking
@@ -2224,6 +2258,7 @@
 # ==========================================================================================================================================================================================================================================#
 
 - title: Data Labs #will generate slug from this attr
+  rank: 6
   type: '' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
@@ -2253,7 +2288,8 @@
   short_description:
   tooltip:
   long_description: >
-    <p>Data Labs is a model for evaluating the effectiveness of social programs using administrative data. This project will investigate how and where it can be replicated and aim to initiate pilots. We developed a series of case studies containing a detailed analysis of six data lab models in the United States and one from the United Kingdom based on interviews. It is meant to better our understanding of the existing landscape of data labs and to learn from their successes and drawbacks. In particular, we look at the governance processes that they employ to share or access data and how these labs solicit expertise to enable program evaluation. In collaboration with UK-based non-profit, New Philanthropy Capital, our goal is to provide data owners, particularly those who have personally-identifiable data, with a blueprint to securely, responsibly and ethically share that information to the end of improving programs in the public interest.</p>
+    <p>In collaboration with New Philanthropy Capital and with a grant from Digital Impact (formerly Markets for Good), the Governance Lab has developed a series of case studies to better our understanding of the existing landscape of policy labs, to learn from their successes and drawbacks, and to help inform those who might be interested in setting up their own labs. Based on interviews with directors and funders of these labs, the case studies look at the governance processes employed to share or access data and how these labs solicit expertise to enable program evaluation. We also published an essay on medium.com where we analyzed the various models of existing labs and the enabling conditions necessary to stand up a new policy lab.</p>
+    <p>The goal is to provide data owners, particularly those that hold personally identifiable data, with a blueprint to securely, responsibly and ethically share that information to end of improving programs in the public interest.</p>
   background: >
     <p>While they have long collected data, increasingly in digital form, government agencies have struggled to create the infrastructure and acquire the skills needed to make use of this administrative data to realize the promise of evidence-based policymaking. But some states are already out ahead, establishing offices known as Data Labs or Policy Labs to enable states to partner with academia and make use of state administrative data to evaluate and ultimately improve programs and policies. By establishing the necessary technical infrastructure and governance mechanisms to help government gain access to much-needed analytical talent, these data labs are helping to convert data into insights and driving more evidence-based policymaking and service delivery. Urgently needed, however, are more such labs with the capacity to turn the data government collects into improvements in policies and services and the expansion of existing labs to enable nonprofits as well as government to evaluate their offerings using state data.</p>
   social_media: #in the future we can have custom shareable messages for each project
@@ -2269,6 +2305,7 @@
 # ==========================================================================================================================================================================================================================================#
 
 # - title:  #will generate slug from this attr
+#   rank: 0
 #   type: '' # Data, Collective Intelligence or Design Thinking
 #   is_featured: 0 #integer
 #   is_active: True

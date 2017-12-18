@@ -40,7 +40,7 @@
         <div class="e-project-list">
             <h3 class="e-project-question">How to open up <strong>government data</strong> for solving problems?</h3>
             <div class="e-project-group">
-                {% for project in projects %}
+                {% for project in projects|sort(attribute='rank', reverse=true) %}
                     {% if project.related_question == 1 %}
 
                         {{ item(project.title, project.problem_statement, project.is_active, project.tooltip, project.image, project.style) }}
@@ -50,7 +50,7 @@
             </div>
             <h3 class="e-project-question"><strong>Data Collaboratives:</strong> How to create public value by exchanging data across sectors?</h3>
             <div class="e-project-group">
-                {% for project in projects %}
+                {% for project in projects|sort(attribute='rank', reverse=true) %}
                     {% if project.related_question == 2 %}
 
                         {{ item(project.title, project.problem_statement, project.is_active, project.tooltip, project.image, project.style) }}
@@ -60,7 +60,7 @@
             </div>
             <h3 class="e-project-question">How to create an inter-disciplinary knowledge base of governance innovation?</h3>
             <div class="e-project-group">
-                {% for project in projects %}
+                {% for project in projects|sort(attribute='rank', reverse=true) %}
                     {% if project.related_question == 7 %}
 
                         {{ item(project.title, project.problem_statement, project.is_active, project.tooltip, project.image, project.style) }}
@@ -70,7 +70,7 @@
             </div>
             <h3 class="e-project-question">How to leverage distributed ledger technologies to improve people's lives?</h3>
             <div class="e-project-group">
-                {% for project in projects %}
+                {% for project in projects|sort(attribute='rank', reverse=true) %}
                     {% if project.related_question == 8 %}
 
                         {{ item(project.title, project.problem_statement, project.is_active, project.tooltip, project.image, project.style) }}
@@ -88,7 +88,7 @@
         <div class="e-project-list">
             <h3 class="e-project-question">How do we build legitimacy and grow capacity by empowering local experts to solve public problems?</h3>
             <div class="e-project-group">
-                {% for project in projects %}
+                {% for project in projects|sort(attribute='rank', reverse=true) %}
                     {% if project.related_question == 3 %}
 
                         {{ item(project.title, project.problem_statement, project.is_active, project.tooltip, project.image, project.style) }}
@@ -98,7 +98,7 @@
             </div>
             <h3 class="e-project-question"><b>CrowdLaw:</b> What is tech-enabled civic engagement in law and policymaking?</h3>
             <div class="e-project-group">
-                {% for project in projects %}
+                {% for project in projects|sort(attribute='rank', reverse=true) %}
                     {% if project.related_question == 4 %}
 
                     {{ item(project.title, project.problem_statement, project.is_active, project.tooltip, project.image, project.style) }}
@@ -108,7 +108,7 @@
             </div>
             <h3 class="e-project-question"><b>Smarter Crowdsourcing:</b> How do we curate and tap global expertise to develop implementable solutions to intractable problems?</h3>
             <div class="e-project-group">
-                {% for project in projects %}
+                {% for project in projects|sort(attribute='rank', reverse=true) %}
                     {% if project.related_question == 5 %}
 
                     {{ item(project.title, project.problem_statement, project.is_active, project.tooltip, project.image, project.style) }}
@@ -118,7 +118,7 @@
             </div>
             <h3 class="e-project-question"><b>Public Entrepreneurship:</b> How can we enable the public and government officials to equip themselves with the skillset and mindset needed to solve complex public problems? </h3>
             <div class="e-project-group">
-                {% for project in projects %}
+                {% for project in projects|sort(attribute='rank', reverse=true) %}
                     {% if project.related_question == 6 %}
 
                     {{ item(project.title, project.problem_statement, project.is_active, project.tooltip, project.image, project.style) }}
@@ -147,7 +147,7 @@
             </div> -->
             <h3 class="e-project-question">&nbsp;</h3>
             <div class="e-project-group">
-                {% for project in projects %}
+                {% for project in projects|sort(attribute='rank', reverse=true) %}
                     {% if project.related_question == 999 %}
 
                     {{ item(project.title, project.problem_statement, project.is_active, project.tooltip, project.image, project.style) }}
