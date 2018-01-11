@@ -1,32 +1,30 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    
-<meta content="The GovLab | People-Led Innovation" property="og:title"/>
-<meta content="http://www.thegovlab.org/static/img/bert-splash.jpg" property="og:image"/>
-<meta content="The GovLab and Bertelsmann Foundation have released a new methodology to empower city leaders to engage the expertise of their greatest asset: people." property="og:description">
-<meta property="og:type" content="website" />
-<meta content="The GovLab" property="og:site_name">
-
-<meta name="twitter:card" content="summary_large_image">
-
+    {% block og %}
+    <meta property="og:title" content="The Governance Lab" />
+    <meta content="Deepening Our Understanding of How to Govern
+    More Effectively and Legitimately Through Technology" property="og:description">
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://www.thegovlab.org/static/img/govlab-og.png" />
+    <meta content="The GovLab" property="og:site_name">
+    {% endblock %}
     <title></title>
     <script src="//use.typekit.net/zez3buj.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
     <link href="static/img/favicon-transparent.png" rel="shortcut icon">
-    
+    {% block styles %}
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
     rel="stylesheet">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="static/vendor/normalize.css">
     <link rel="stylesheet" href="static/vendor/slick.css">
     <link rel="stylesheet" href="static/styles/styles.css">
-    
+    {% endblock %}
 </head>
-<body id="">
+<body id="{% block page_id %}{% endblock %}">
     <!-- Class for google material icons ".material-icons" -->
     <header class="b-top-nav ">
         <div class="e-nav-group">
@@ -67,47 +65,7 @@
         <a href="./contact.html">Contact</a>
     </nav>
 
-    
-<div class="b-report">
-    <section class="b-top-section">
-        <h1>People-Led Innovation</h1>
-        <h2>Toward a Methodology for Solving Urban Problems in the 21st Century</h2>
-        <div class="b-logos">
-            <img src="static/img/govlab-logo-white-transpo.png"><a href="http://www.bfna.org/" target="_blank"><img src="static/img/bert-found.png"></a>
-        </div>
-        <div class="b-fold">
-            <a href="static/files/publications/people-led.pdf" class="b-button">Download the Report</a>
-        </div>
-    </section>
-    <div class="e-wrap">
-        <div>
-            <img class="b-main-image" src="static/img/bertalsmann-methodology2.jpg">
-            <h2>Mission &amp; Vision</h2>
-            <p>More and more people live in urban settings. At the same time, and often resulting from the growing urban population, cities worldwide are increasingly confronted with complex environmental, social, and economic shocks and stresses. When seeking to develop adequate and sustainable responses to these challenges, cities are realizing that traditional methods and existing resources often fall short.</p>
-
-            <p>Addressing 21st century challenges will require innovative approaches.</p>
-
-            <p>“People-Led Innovation: Toward a Methodology for Solving Urban Problems in the 21st Century,” is a new methodology by <a href="http://www.thegovlab.org/" target="_blank">The GovLab</a> and <a href="http://www.bfna.org/" target="_blank">Bertelsmann Foundation</a> aimed at empowering public entrepreneurs, particularly city-level government officials, to engage the capacity and expertise of people in solving major public challenges. Co-authored by Andrew Young, Jeffrey Brown, Hannah Pierce, and Stefaan G. Verhulst, this guide focuses on unlocking an undervalued asset for innovation and the co-creation of solutions: people and their expertise.</p>
-
-            <p>The methodology incorporates lessons learned from multiple experiments and practices - including those by The GovLab such as <a href="http://www.thegovlab.org/project-civic-challenges-san-pedro-garza-garcia.html" target="_blank">Civic Challenges</a> and <a href="http://smartercrowdsourcing.org/" target="_blank">Smarter Crowdsourcing</a> – while drawing heavily on the Bertelsmann Foundation’s <a href="http://www.bfna.org/project/transatlantic-policy-lab-2/" target="_blank">Transatlantic Policy Lab</a> project, which used week-long living labs in Boston and Athens to source innovative and neighborhood-specific recommendations.</p>
-
-            <p>Designed for city officials, and others seeking ways to improve people’s lives, the methodology provides:</p>
-            <ul>
-                <li>A phased approach to helping leaders develop approaches in an iterative manner that is more effective and legitimate by placing people, and groups of people, at the center of all stages of problem-solving process, including: problem definition, ideation, experimentation, and iteration.</li>
-                <li>A flexible framework that instead of rigid prescriptions, provides suggested checklists to probe a more people-led approach when developing innovative solutions to urban challenges.</li>
-                <li>A matrix to determine what kind of engagement (e.g., commenting, co-creating, reviewing, and/or reporting), and by whom (e.g., community-based organizations, residents, foundation partners, among others) is most appropriate at what stage of the innovation lifecycle.</li>
-                <li>A curation of inspirational examples, set at each phase of the methodology, where public entrepreneurs and others have sought to create positive impacts by engaging people in practice.</li>
-            </ul>
-
-            <div style="padding-top: 40px; text-align: center;">
-                <a href="static/files/publications/people-led.pdf" class="b-button">Download the Report</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
+    {% block content %}{% endblock %}
     <footer class='b-footer'>
         <div class="e-wrap">
             <div class="e-content m-sections">
@@ -153,14 +111,14 @@
         </div>
     </div>
     <div id="overlay"></div>
-    
+    {% block scripts %}
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="static/vendor/slick.min.js"></script>
     <script src="static/vendor/EasePack.min.js"></script>
     <script src="static/vendor/rAF.js"></script>
     <script src="static/vendor/TweenLite.min.js"></script>
     <script src="static/js/scripts.js"></script>
-    
+    {% endblock %}
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
