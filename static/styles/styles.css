@@ -2709,6 +2709,11 @@ button:focus {
     background-color: #008ab3;
     padding: 10px 0;
     font-weight: 400; }
+  .b-report .b-top-section .b-logos {
+    text-align: center; }
+    .b-report .b-top-section .b-logos img {
+      width: 180px;
+      margin: 40px 40px 0 40px; }
   .b-report .b-top-section .b-fold {
     position: absolute;
     bottom: -27px;
