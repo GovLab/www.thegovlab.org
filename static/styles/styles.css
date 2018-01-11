@@ -2739,7 +2739,8 @@ button:focus {
     margin: 0 auto;
     padding: 0 20px; }
     .b-report .e-wrap > div .b-main-image {
-      width: 900px; }
+      width: 900px;
+      max-width: 90vw; }
     .b-report .e-wrap > div li {
       margin-top: 20px;
       margin-bottom: 20px; }
