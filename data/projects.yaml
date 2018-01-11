@@ -558,7 +558,7 @@
 
 - title: 'Data Collaboratives: Creating Public Value by Exchanging Data' #will generate slug from this attr
   rank: 2
-  image: data-collab.png
+  image: datacollab.png
   style: cover
   type: 'Data' # Data, Collective Intelligence or Design Thinking
   is_featured: 1 #integer
@@ -611,7 +611,7 @@
 
 - title: Data Collaboratives to Improve Children’s Lives #will generate slug from this attr
   rank: 3
-  image: data-collab.png
+  image: datacollab.png
   style: cover
   type: 'Data' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
@@ -876,6 +876,8 @@
 
 - title: OPEN NYU #will generate slug from this attr
   rank: 4
+  image: open-nyu.png
+  style: medium
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
@@ -1075,48 +1077,50 @@
 
 # ==========================================================================================================================================================================================================================================#
 
-- title: Public Data Science Network #will generate slug from this attr
-  rank: 0
-  type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
-  is_featured: 0 #integer
-  is_active: False
-  related_question: #question
-  project_website: http://nhs.networkofinnovators.org
-  location:
-    - United Kingdom
-  partners:
-    - MacArthur Foundation
-    - NHS in England
-    - NYU
-  team:
-    - Julia Root
-  tags:
-    governance_area:
-        - #tag
-    type_of_institution:
-        - #tag
-    innovative_capability:
-        - #tag
-    product_category:
-        - #tag
-  status: prototype # define, prototype, test, complete
-  problem_statement: How to match the demand for data science expertise in a public institution to the supply of those with data science skills inside and outside the institution. #question
-  short_description: >
-    <p>The NHS Public Data Science Network project is rooted in the belief that many people possess expertise and will share it, especially if they are asked to contribute. In this first phase, GovLab is collaborating with the NHS in England to focus on mapping the demand for and supply of expertise to the end of eventually designing, developing, and launching a beta version of the data science brain trust populated by data science experts from UK universities and NHS professionals. We are engaging in ethnographic research, including extensive interviews to understand the demand for data science expertise within the NHS in England</p>
-    <p><a href="https://the-govlab.forms.fm/the-future-of-data-at-nhs-in-england" target="_blank">The Future of Data at NHS England Survey</a>
-  tooltip: >
-  long_description: >
-  background: >
-    <p>Better use of data has the potential to improve the quality of healthcare for all, reduce costs, and promote innovation.</p>
-    <p>Access to high quality, relevant data is essential but to make use of that data, public institutions like NHS England also need to build capacity for using data to improve people’s lives. Right now, most public institutions suffer from a “data expertise gap.”</p>
-    <p>There is a demand for more expertise, especially in the latest big data tools and techniques and in bringing together those with data science and public health know how to address strategies for turning data into improved health outcomes.</p>
-    <p>Eve where expertise exists it can be hard to find both within the NHS and across Britain’s universities, making it hard for NHS to realize the benefit without an infrastructure to make that expertise searchable.</p>
-  social_media: #in the future we can have custom shareable messages for each project
-  images: #images or screenshots of the project
-    - #url
-  results: >
-    <p>The first stage of the project will involve identifying questions to which the NHS needs answers and measure whether the institution was able to get better, more diverse, more innovative, or faster expertise in response as a result of targeting expertise.</p>
-  related_articles:
+# - title: Public Data Science Network #will generate slug from this attr
+#   rank: 0
+#   image: public-data-sci.png
+#   style: small
+#   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
+#   is_featured: 0 #integer
+#   is_active: False
+#   related_question: #question
+#   project_website: http://nhs.networkofinnovators.org
+#   location:
+#     - United Kingdom
+#   partners:
+#     - MacArthur Foundation
+#     - NHS in England
+#     - NYU
+#   team:
+#     - Julia Root
+#   tags:
+#     governance_area:
+#         - #tag
+#     type_of_institution:
+#         - #tag
+#     innovative_capability:
+#         - #tag
+#     product_category:
+#         - #tag
+#   status: prototype # define, prototype, test, complete
+#   problem_statement: How to match the demand for data science expertise in a public institution to the supply of those with data science skills inside and outside the institution. #question
+#   short_description: >
+#     <p>The NHS Public Data Science Network project is rooted in the belief that many people possess expertise and will share it, especially if they are asked to contribute. In this first phase, GovLab is collaborating with the NHS in England to focus on mapping the demand for and supply of expertise to the end of eventually designing, developing, and launching a beta version of the data science brain trust populated by data science experts from UK universities and NHS professionals. We are engaging in ethnographic research, including extensive interviews to understand the demand for data science expertise within the NHS in England</p>
+#     <p><a href="https://the-govlab.forms.fm/the-future-of-data-at-nhs-in-england" target="_blank">The Future of Data at NHS England Survey</a>
+#   tooltip: >
+#   long_description: >
+#   background: >
+#     <p>Better use of data has the potential to improve the quality of healthcare for all, reduce costs, and promote innovation.</p>
+#     <p>Access to high quality, relevant data is essential but to make use of that data, public institutions like NHS England also need to build capacity for using data to improve people’s lives. Right now, most public institutions suffer from a “data expertise gap.”</p>
+#     <p>There is a demand for more expertise, especially in the latest big data tools and techniques and in bringing together those with data science and public health know how to address strategies for turning data into improved health outcomes.</p>
+#     <p>Eve where expertise exists it can be hard to find both within the NHS and across Britain’s universities, making it hard for NHS to realize the benefit without an infrastructure to make that expertise searchable.</p>
+#   social_media: #in the future we can have custom shareable messages for each project
+#   images: #images or screenshots of the project
+#     - #url
+#   results: >
+#     <p>The first stage of the project will involve identifying questions to which the NHS needs answers and measure whether the institution was able to get better, more diverse, more innovative, or faster expertise in response as a result of targeting expertise.</p>
+#   related_articles:
 
 # ==========================================================================================================================================================================================================================================#
 
@@ -1292,6 +1296,8 @@
 
 - title: NHS Public Data Science Network #will generate slug from this attr
   rank: 6
+  image: public-data-sci.png
+  style: small
   type: 'Data' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
@@ -1406,7 +1412,7 @@
 
 - title: 'CrowdLaw' #will generate slug from this attr
   rank: 0
-  image: crowdlaw.png
+  image: crowdlaw-logo.png
   style: cover
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 1 #integer
@@ -1491,6 +1497,8 @@
 
 - title: Open Grantmaking #will generate slug from this attr
   rank: 12
+  image: open-grantmaking.png
+  style: small
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
@@ -2001,7 +2009,7 @@
 
 - title: Gender and Urban Mobility in Chile #will generate slug from this attr
   rank: 5
-  image: data-collab.png
+  image: datacollab.png
   style: cover
   type: '' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
@@ -2054,7 +2062,7 @@
 
 - title: The MacArthur Research Network for Opening Governance #will generate slug from this attr
   rank: 0
-  image: maca-logo-vertical.jpeg
+  image: macarthur.png
   style: cover
   type: '' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
@@ -2111,8 +2119,8 @@
 
 - title: "Blockchange: Blockchain Technology for Social Change" #will generate slug from this attr
   rank: 0
-  image: blockchange.jpeg
-  style: cover
+  image: blockchange-logo.png
+  style: small
   type: '' # Data, Collective Intelligence or Design Thinking
   is_featured: 1 #integer
   is_active: True
@@ -2259,6 +2267,7 @@
 
 - title: Data Labs #will generate slug from this attr
   rank: 6
+  image: datalabs.png
   type: '' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True

@@ -153,6 +153,8 @@ input {
     @media (min-width: 1025px) {
       .b-main-menu.m-active {
         right: 72%; } }
+  .b-main-menu:not(.m-active) {
+    box-shadow: unset; }
   .b-main-menu a {
     display: block;
     font-size: 18px;
@@ -2683,7 +2685,71 @@ button:focus {
   #brand .b-footer .e-content .e-partner-logo {
     text-align: center; } }
 
-.u-material-icons, .b-job-board .e-wrap div .b-button:after, #brand .b-page-section .b-button:after {
+.b-report .b-top-section {
+  position: relative;
+  background-color: #523080;
+  padding-bottom: 80px; }
+  .b-report .b-top-section h1, .b-report .b-top-section h2, .b-report .b-top-section h3 {
+    text-align: center;
+    color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px; }
+  .b-report .b-top-section h1 {
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-size: 60px;
+    margin-bottom: 20px; }
+  .b-report .b-top-section h2 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-size: 30px; }
+  .b-report .b-top-section h3 {
+    background-color: #008ab3;
+    padding: 10px 0;
+    font-weight: 400; }
+  .b-report .b-top-section .b-fold {
+    position: absolute;
+    bottom: -27px;
+    text-align: center;
+    width: 100%; }
+    .b-report .b-top-section .b-fold .b-button {
+      color: white;
+      background-color: #008ab3; }
+      .b-report .b-top-section .b-fold .b-button:hover {
+        background-color: #00769a; }
+      .b-report .b-top-section .b-fold .b-button::after {
+        content: 'file_download';
+        margin-left: 15px;
+        vertical-align: bottom;
+        position: relative; }
+.b-report .e-wrap {
+  max-width: 1025px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 60px 0; }
+  .b-report .e-wrap > div {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px; }
+    .b-report .e-wrap > div .b-main-image {
+      width: 900px; }
+    .b-report .e-wrap > div li {
+      margin-top: 20px;
+      margin-bottom: 20px; }
+  .b-report .e-wrap .b-button {
+    color: white;
+    background-color: #523080; }
+    .b-report .e-wrap .b-button:hover {
+      background-color: #46296d; }
+    .b-report .e-wrap .b-button::after {
+      content: 'file_download';
+      margin-left: 15px;
+      vertical-align: bottom;
+      position: relative; }
+
+.u-material-icons, .b-job-board .e-wrap div .b-button:after, #brand .b-page-section .b-button:after, .b-report .b-top-section .b-fold .b-button::after, .b-report .e-wrap .b-button::after {
   font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;

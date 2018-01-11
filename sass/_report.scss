@@ -1,0 +1,94 @@
+.b-report {
+
+    .b-top-section {
+        position: relative;
+        background-color: $purple;
+        padding-bottom: 80px;
+
+        h1, h2, h3 {
+            text-align: center;
+            color: $white;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        h1 {
+            letter-spacing: 1px;
+            font-weight: 100;
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 100;
+            font-size: 30px;
+        }
+
+        h3 {
+            background-color: $blue;
+            padding: 10px 0;
+            font-weight: 400;
+        }
+        .b-fold {
+            position: absolute;
+            bottom: -27px;
+            text-align: center;
+            width: 100%;
+            .b-button {
+                color: $white;
+                background-color: $blue;
+                &:hover {
+                    background-color: darken($blue, 5);
+                }
+                &::after {
+                  @extend .u-material-icons;
+                  content: 'file_download';
+                  margin-left: 15px;
+                  vertical-align: bottom;
+                  position: relative;
+              }
+          }
+      }
+  }
+
+  .e-wrap {
+    @include wrap;
+    padding: 60px 0;
+
+    & > div {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 0 20px;
+        .b-main-image {
+            width: 900px;
+        }
+
+        li {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+    }
+
+    .b-button {
+        color: $white;
+        background-color: $purple;
+        &:hover {
+            background-color: darken($purple, 5);
+        }
+        &::after {
+          @extend .u-material-icons;
+          content: 'file_download';
+          margin-left: 15px;
+          vertical-align: bottom;
+          position: relative;
+      }
+  }
+
+
+}
+
+}

@@ -13,7 +13,7 @@
     }
 
     @include breakpoint($mobile-only) { height: 90px; }
-    
+
 
     .e-nav-group,
     .e-social-media,
@@ -62,7 +62,7 @@
         position: relative;
         z-index: 20;
         margin: 0;
-        
+
         input {
             max-height: 30px;
             vertical-align: 5px;
@@ -147,6 +147,10 @@
         @include breakpoint($desktop) { right: 72%; }
     }
 
+    &:not(.m-active) {
+        box-shadow: unset;
+    }
+
     a {
         display: block;
         font-size: 18px;
@@ -160,8 +164,8 @@
 
         @include breakpoint($desktop) { text-align: right; }
 
-        &:hover { 
-            background-color: $gray-10; 
+        &:hover {
+            background-color: $gray-10;
             color: $white;
         }
     }
