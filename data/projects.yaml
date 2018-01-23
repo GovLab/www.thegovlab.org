@@ -289,6 +289,8 @@
 
 - title: Docker for Data #will generate slug from this attr
   rank: 1
+  image: docker.png
+  style: medium
   type: 'Data' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
@@ -611,8 +613,8 @@
 
 - title: Data Collaboratives to Improve Children’s Lives #will generate slug from this attr
   rank: 3
-  image: datacollab.png
-  style: cover
+  image: unicef-logo.png
+  style: medium
   type: 'Data' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
@@ -1243,6 +1245,8 @@
 
 - title: FDA Profiles #will generate slug from this attr
   rank: 5
+  image: fda.png
+  style: medium
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
@@ -1412,7 +1416,7 @@
 
 - title: 'CrowdLaw' #will generate slug from this attr
   rank: 0
-  image: crowdlaw-logo.png
+  image: crowdlaw-square.png
   style: cover
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 1 #integer
@@ -2120,7 +2124,7 @@
 - title: "Blockchange: Blockchain Technology for Social Change" #will generate slug from this attr
   rank: 0
   image: blockchange-logo.png
-  style: small
+  style: contain
   type: '' # Data, Collective Intelligence or Design Thinking
   is_featured: 1 #integer
   is_active: True

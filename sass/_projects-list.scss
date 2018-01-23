@@ -238,8 +238,8 @@
 
     .e-project-item {
         ////
-        // @include breakpoint($mobile-only) { height: unset; }
-        // @include breakpoint($desktop) { height: 440px; }
+        @include breakpoint($mobile-only) { height: unset; }
+        @include breakpoint($desktop) { height: 440px; }
         h2 {
             margin-top: 10px;
             padding-top: 0;

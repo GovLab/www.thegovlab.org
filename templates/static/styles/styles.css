@@ -1442,6 +1442,12 @@ button:focus {
       bottom: 0; }
       .b-project-view.m-grid .b-projects-list-wrapper .e-project-item .e-project-blurb p {
         margin-bottom: 0; } }
+@media (max-width: 800px) {
+  .b-project-view.m-grid .b-projects-list-wrapper .e-project-item {
+    height: unset; } }
+@media (min-width: 1025px) {
+  .b-project-view.m-grid .b-projects-list-wrapper .e-project-item {
+    height: 440px; } }
 .b-project-view.m-grid .b-projects-list-wrapper .e-project-item h2 {
   margin-top: 10px;
   padding-top: 0;
