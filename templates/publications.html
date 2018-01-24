@@ -1,12 +1,17 @@
 {% extends "_base-sg.html" %}
 
+{% block og %}
+<title>The GovLab | Publications</title>
+    <meta content="The GovLab | Publications" property="og:title"/>
+{% endblock %}
+
 {% block page_id %}publications-page{% endblock %}
 
 {% block content %}
 
 <main role="main">
   <div class="b-top-section m-purple">
-    <h2>Publications</h2> 
+    <h2>Publications</h2>
   </div>
 
       <div id="publications">
@@ -47,7 +52,7 @@
           {% endif %}
           <img src="./static/files/publications/{{ pub.thumbnail }}">
           </a>
-            
+
           </div>
         </div>
       </section>
