@@ -7,10 +7,10 @@
     amount: '18,180.00'
 
 -   name: Anonymous Family Foundation
-    project: Testing Open Innovation for Solving Public Problems in Latin American Cities
+    project: Open Innovation for Solving Public Problems in Latin American Cities, supporting research on the impact of open innovation on policymaking
     amount: '91,000.00'
 
--   name: Australia
+-   name: Government of Australia
     project: Open Data 500 Collaboration and membership in the OD 500 Network
     amount: '20,000.00'
 
@@ -18,7 +18,7 @@
     project: 'Supporting the development of a methodology for people-led innovation and co-design in cities'
     amount: '40,000.00'
 
--   name: 'British Columbia'
+-   name: 'Government of British Columbia'
     project: 'Benchmarking Study: Comparing British Columbia with other governments'
     amount: '20,000.00'
 
@@ -27,7 +27,7 @@
     amount: '8,000.00'
 
 -   name: "Canada's Open Data Exchange"
-    project: Open Data 500 Collaboration and membership in the OD500 network
+    project: Open Data 500 Collaboration and membership in the OD500 network, supporting research on the impact of open data on job creation and economic growth in Canada
     amount: '20,000.00'
 
 -   name: 'Data Transparency Coalition'
@@ -39,11 +39,11 @@
     amount: '25,000.00'
 
 -   name: 'Google.org'
-    project: 'To develop empirical research methods for open gov'
+    project: 'Supporting the developing of "in the wild" empirical research methods for studying innovations in government, including methods for introducing randomized controlled trials in the study of institutional innovation'
     amount: '300,000.00'
 
 -   name: 'ICANN'
-    project: 'Operationalizing Principles of a Distributed Internet Governance Framework (July 1-December 31, 2014)'
+    project: 'Operationalizing Principles of a Distributed Internet Governance Framework, supporting research on innovative models of Internet governance'
     amount: '312,254.00'
 
 -   name: 'ICANN'
@@ -63,11 +63,11 @@
     amount: '40,000.00'
 
 -   name: 'FHI360 (USAID)'
-    project: MStar SubAward for Open Data
+    project: MStar SubAward supporting research on Open Data in Developing Economies
     amount: '112,000.00'
 
 -   name: 'Inter-American Development Bank'
-    project: 'Crowdsourcing to Support Preparedness and Response to Zika Virus and Other Public Health Emergencies'
+    project: 'Crowdsourcing to Support Preparedness and Response to Zika Virus and Other Public Health Emergencies, supporting research on the use of experts-sourcing to accelerate solutions to mosquito-borne illness'
     amount: '208,000.00'
 
 -   name: 'Inter-American Development Bank'
@@ -91,23 +91,23 @@
     amount: '75,000.00'
 
 -   name: 'John S. and James L. Knight Foundation'
-    project: 'To develop a multi-school, multi-disciplinary network of students, faculty and professionals working to design and implement ways of using technology for citizen engagement'
+    project: 'Supporting research on the curriculum of public entrepreneurship and problem solving'
     amount: '3,200,000.00'
 
 -   name: 'John D. and Catherine T. MacArthur Foundation'
-    project: 'Pre-Research Network Planning Grant'
+    project: 'Pre-Research Network Planning Grant to identify initial research agenda'
     amount: '800,000.00'
 
 -   name: 'John D. and Catherine T. MacArthur Foundation'
-    project: 'Research Network on Opening Governance'
+    project: 'Research Network on Opening Governance, supporting a multi-school, multi-discipline research network to study the impact of technology on governing'
     amount: '8,000,000.00'
 
 -   name: 'Laura and John Arnold Foundation'
-    project: 'Data Driven Criminal Justice Innovation'
+    project: 'Supporting research on data driven criminal justice innovation and creation of an online course on data science for public good'
     amount: '851,600.00'
 
 -   name: 'Markle Foundation'
-    project: 'Economic Value of Open Data Whitepaper'
+    project: 'Supporting research on the economic value of open data'
     amount: '80,551.00'
 
 -   name: 'Microsoft'
@@ -134,16 +134,16 @@
     project: 'Develop prototype tool for crowdsourcing in construction/extractives industries'
     amount: '125,000.00'
 
--   name: 'Omidyar Foundation'
+-   name: 'Omidyar Network'
     project: 'Development of OpenData Case Studies and Web Site to House Them'
     amount: '125,000.00'
 
--   name: 'Omidyar Foundation'
+-   name: 'Omidyar Network'
     project: "Supporting GovLab's data programs"
     amount: '1,000,000.00'
 
--   name: 'Omidyar Foundation'
-    project: 'Supporting research on the impact of open data in New York City'
+-   name: 'Omidyar Network'
+    project: 'Powering NYers through Open Data, supporting research on the impact of open data in New York City'
     amount: '75,690.00'
 
 -   name: 'Open Data Institute'
@@ -175,15 +175,15 @@
     project: 'Supporting research on open innovation and its impact on policymaking'
     amount: '100,000.00'
 
--   name: 'South Australia'
-    project: 'Membership in the Network of Innovators'
+-   name: 'Government of South Australia'
+    project: 'Supporting research on how people learn in the public sector ("Network of Innovators") '
     amount: '20,000.00'
 
--   name: 'South Korea'
-    project: 'Open Data 500 Collaboration and membership in the OD 500 Network'
+-   name: 'Government of South Korea'
+    project: 'Open Data 500 Collaboration and membership in the OD 500 Network, Supporting research on the impact of open data on job creation and economic growth in South Korea'
     amount: '20,000.00'
 
--   name: 'South Korea'
+-   name: 'Government of South Korea'
     project: 'Open Data 500 Collaboration and membership in the OD 500 Network'
     amount: '20,000.00'
 
@@ -196,7 +196,7 @@
     amount: '14,600.00'
 
 -   name: 'United Nations Foundation'
-    project: 'Supporting the creation of a Data Collaborative on Gender and Urban Mobility'
+    project: 'Addressing Inequality of Access to Urban Transportation from a Gender Perspective, supporting the creation of a Data Collaborative on Gender and Urban Mobility'
     amount: '100,000.00'
 
 -   name: 'United Nations OCHA'
@@ -208,7 +208,7 @@
     amount: '164,786.00'
 
 -   name: 'United States Department of Agrictulure'
-    project: 'USDA Open Data Summer Camp'
+    project: 'Supporting a USDA Open Data Summer Camp'
     amount: '22,500.00'
 
 -   name: 'William and Flora Hewlett Foundation'
@@ -216,7 +216,7 @@
     amount: '600,000.00'
 
 -   name: 'World Bank'
-    project: 'Building a Research Repository on Open Gov Research'
+    project: 'Building a research repository on open government research'
     amount: '10,000.00'
 
 -   name: 'World Economic Forum'
