@@ -262,12 +262,12 @@
 #   projects: false
 #   bio: '<p>Hanna is a Summer Research Fellow at the GovLab, working on the Smarter Crowdsourcing against Corruption Project. Hanna holds a BSc, MSc, and a PhD in Economics and Law from Utrecht University. Her dissertation, entitled “Anti-money laundering efforts: failures, fixes and the future”, concluded with a set of actionable projects in the area of cash-based tax evasion, law enforcement cooperation, and statistics-based country evaluation. Prior to joining GovLab, Hanna was a visiting researcher at Yale Law School, where she worked on estimating the likelihood that members of the BITCOIN business ecosystem cater to potential white-collar criminals. Complementing her research, Hanna was also actively engaged in designing and executing two large-scale consultancy projects, on money laundering, and on corruption, at the request of the European Commission, and the European Anti-Fraud Office, respectively. She is, currently, a member of the Utrecht University Resilient Societies project, and of the European Centre for Alternative Finance, where she works on (re)designing the regulation of financial innovation in Europe.</p>'
 
-- name: HANNAH PIERCE
-  firstname: Hanna
-  job: RESEARCH ASSISTANT
-  projects: false
-  bio: >
-    <p>Hannah is a Research Assistant at the GovLab. She is an interdisciplinary strategist who works across art, design and social science on projects designed to foster more dynamic, equitable, and civically engaged cities.  Currently, she works on GovLab projects focused on the use of data, especially open data and public-private data partnerships, for social good. Before joining the research team, she designed the curriculum and taught the GovLab's Open Data Summer Camp. A collaboration with the USDA, the Camp taught data science to 7-12th graders. Hannah has previously collaborated in the design of a platform to inform and engage New York City residents on the issue of rezoning. Hannah is a graduate of Parsons The New School for Design, where she earned a BBA in Strategic Design Management.</p>
+# - name: HANNAH PIERCE
+#   firstname: Hanna
+#   job: RESEARCH ASSISTANT
+#   projects: false
+#   bio: >
+#     <p>Hannah is a Research Assistant at the GovLab. She is an interdisciplinary strategist who works across art, design and social science on projects designed to foster more dynamic, equitable, and civically engaged cities.  Currently, she works on GovLab projects focused on the use of data, especially open data and public-private data partnerships, for social good. Before joining the research team, she designed the curriculum and taught the GovLab's Open Data Summer Camp. A collaboration with the USDA, the Camp taught data science to 7-12th graders. Hannah has previously collaborated in the design of a platform to inform and engage New York City residents on the issue of rezoning. Hannah is a graduate of Parsons The New School for Design, where she earned a BBA in Strategic Design Management.</p>
 
 # - name: Irene Tello-Arista
 #   job: Intern
@@ -321,13 +321,13 @@
   bio: >
     <p>John Harlow is a Visiting Fellow at the GovLab.  He is a postdoctoral scholar in the <a href="http://www.opening-governance.org/#the-context">MacArthur Foundation Research Network on Opening Governance</a> at the Arizona State University School for the Future of Innovation in Society. He researches strategic intervention points for process innovation in governance. John is currently working on the RWJF grant "<a href="https://diyps.org/2017/09/15/opening-pathways-for-discovery-research-and-innovation-in-health-and-healthcare/">Opening pathways for discovery, research, and innovation in health and healthcare</a>." His prior work includes designing the workshop that produced the first draft of <a href="https://www.phoenix.gov/t2050">Phoenix's 2050 transportation plan</a>, and <a href="https://www.phoenix.gov/pdd/topics/reinvent-phx">Reinvent Phoenix</a>’s public outreach to inform rezoning around Phoenix's light rail.</p>
 
-- name: Kaitlin Koga
-  firstname: Kaitlin
-  job: Research Fellow
-  projects: false
-  bio: >
-    <p>Kaitlin is a Research Fellow at the GovLab, where she focuses on strategy, business development and program management for the team’s innovative new <a href="https://medium.com/smarter-crowdsourcing" target="_blank">Smarter Crowdsourcing</a> and City Challenges programs. She brings a decade of experience working on social justice issues, including over seven years of direct service to low-income youth and incarcerated individuals, as well as managing over a dozen impact-focused consulting projects with nonprofits and government organizations in the US and abroad.</p>
-    <p>Kaitlin completed her MBA from Yale School of Management and her BA in History and Literature from Harvard College. Her MBA course work focused on the application of business and management practices to social enterprises, non-profits and government agencies. In 2016, she interned at the White House Domestic Policy Council, where she led projects on open data in policing and criminal justice. Prior to her MBA, Kaitlin worked as a consultant to a prison education non-profit, served as a college counselor for low-income youth in Boston Public Schools and worked as an associate consultant at a human capital management firm called AchieveMission. She is very passionate about community empowerment and criminal justice reform.</p>
+# - name: Kaitlin Koga
+#   firstname: Kaitlin
+#   job: Research Fellow
+#   projects: false
+#   bio: >
+#     <p>Kaitlin is a Research Fellow at the GovLab, where she focuses on strategy, business development and program management for the team’s innovative new <a href="https://medium.com/smarter-crowdsourcing" target="_blank">Smarter Crowdsourcing</a> and City Challenges programs. She brings a decade of experience working on social justice issues, including over seven years of direct service to low-income youth and incarcerated individuals, as well as managing over a dozen impact-focused consulting projects with nonprofits and government organizations in the US and abroad.</p>
+#     <p>Kaitlin completed her MBA from Yale School of Management and her BA in History and Literature from Harvard College. Her MBA course work focused on the application of business and management practices to social enterprises, non-profits and government agencies. In 2016, she interned at the White House Domestic Policy Council, where she led projects on open data in policing and criminal justice. Prior to her MBA, Kaitlin worked as a consultant to a prison education non-profit, served as a college counselor for low-income youth in Boston Public Schools and worked as an associate consultant at a human capital management firm called AchieveMission. She is very passionate about community empowerment and criminal justice reform.</p>
 
 - name: Lauren Yu
   firstname: Lauren
