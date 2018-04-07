@@ -2221,11 +2221,11 @@ button:focus {
       margin-bottom: 35px; }
       .b-fancy-bio-stefaan .e-bio-section .e-main-content .e-collapsed .b-button.m-hide {
         display: none; }
-      .b-fancy-bio-stefaan .e-bio-section .e-main-content .e-collapsed .e-projects {
+      .b-fancy-bio-stefaan .e-bio-section .e-main-content .e-collapsed .e-projects, .b-fancy-bio-stefaan .e-bio-section .e-main-content .e-collapsed .e-selected-publications {
         display: none; }
-        .b-fancy-bio-stefaan .e-bio-section .e-main-content .e-collapsed .e-projects ul {
+        .b-fancy-bio-stefaan .e-bio-section .e-main-content .e-collapsed .e-projects ul, .b-fancy-bio-stefaan .e-bio-section .e-main-content .e-collapsed .e-selected-publications ul {
           padding: 0; }
-        .b-fancy-bio-stefaan .e-bio-section .e-main-content .e-collapsed .e-projects li {
+        .b-fancy-bio-stefaan .e-bio-section .e-main-content .e-collapsed .e-projects li, .b-fancy-bio-stefaan .e-bio-section .e-main-content .e-collapsed .e-selected-publications li {
           padding: 10px 0;
           list-style-type: none;
           border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -2238,6 +2238,15 @@ button:focus {
         .b-fancy-bio-stefaan .e-bio-section .e-main-content .e-collapsed.m-show .b-button.m-show {
           display: none; }
         .b-fancy-bio-stefaan .e-bio-section .e-main-content .e-collapsed.m-show .b-button.m-hide {
+          display: inline-block; }
+      .b-fancy-bio-stefaan .e-bio-section .e-main-content .e-collapsed.m-show-publications {
+        max-height: 4000px;
+        transition: all .4s ease; }
+        .b-fancy-bio-stefaan .e-bio-section .e-main-content .e-collapsed.m-show-publications .e-selected-publications {
+          display: block; }
+        .b-fancy-bio-stefaan .e-bio-section .e-main-content .e-collapsed.m-show-publications .js-publications-toggle.b-button.m-show {
+          display: none; }
+        .b-fancy-bio-stefaan .e-bio-section .e-main-content .e-collapsed.m-show-publications .js-publications-toggle.b-button.m-hide {
           display: inline-block; }
       .b-fancy-bio-stefaan .e-bio-section .e-main-content .e-collapsed .b-button {
         color: #523080;

@@ -1,7 +1,7 @@
 $(document).ready(function($) {
     var $overlay = $('#overlay');
-    
-    var closed = false;  
+
+    var closed = false;
     $('.js-close').click(function() {
         $('.b-sticky').fadeOut('fast');
         closed = true;
@@ -76,7 +76,7 @@ $(document).ready(function($) {
 
      // Publications
 
-    $('.sort').click(function() {
+     $('.sort').click(function() {
         $(this).toggleClass('m-active');
         $(this).siblings().removeClass('m-active');
     })
@@ -87,6 +87,11 @@ $(document).ready(function($) {
     $('.js-project-toggle').click(function() {
         $(this).parent().toggleClass('m-show');
     }) // This one is also present on the team page
+
+    $('.js-publications-toggle').click(function() {
+        $(this).parent().toggleClass('m-show-publications');
+    }) // This one is also present on the team page
+
 
     $('.js-articles-toggle').click(function() {
         $(this).parent().parent().toggleClass('m-expand');
@@ -167,12 +172,12 @@ $(document).ready(function($) {
         autoplay: true,
         autoplaySpeed: 3000,
         responsive: [
-            {
-                breakpoint: 800,
-                settings: {
-                    draggable: true,
-                }
+        {
+            breakpoint: 800,
+            settings: {
+                draggable: true,
             }
+        }
         ]
     });
 
@@ -194,13 +199,13 @@ $(document).ready(function($) {
         focusOnSelect: true,
         swipeToSlide: true,
         responsive: [
-            {
-                breakpoint: 800,
-                settings: {
-                    draggable: true,
-                    slidesToShow: 1,
-                }
+        {
+            breakpoint: 800,
+            settings: {
+                draggable: true,
+                slidesToShow: 1,
             }
+        }
         ]
     });
 });
@@ -208,7 +213,7 @@ $(document).ready(function($) {
 var render = function(posts) {
     posts.forEach(function (element, index) {
         var title = element.title,
-            content = element.content;
+        content = element.content;
 
         if (title.length > 100) {
             title = title.substr(0, 100) + '...';
@@ -226,11 +231,11 @@ var render = function(posts) {
 
     $('.e-banner-container').each(function() {
         var $wraps = $(this).find('.b-featured-content > div.e-wrap'),
-            max = Math.max.apply(
-                null,
-                $wraps.map(function() {
-                    return $(this).outerHeight(true);
-                }).get()
+        max = Math.max.apply(
+            null,
+            $wraps.map(function() {
+                return $(this).outerHeight(true);
+            }).get()
             );
 
         $wraps.height(max);
@@ -244,7 +249,7 @@ $.get('http://thegovlab.org/featured-website/feed/', function(xml) {
         posts.push({
             title: $('title', this).text(),
             author: $('dc\\:creator', this).text() /* Firefox */ ||
-                    $('creator', this).text() /* Webkit */,
+            $('creator', this).text() /* Webkit */,
             content: $('description', this).text(),
             link: $('link', this).text()
         });
@@ -288,8 +293,8 @@ $.get('http://thegovlab.org/featured-website/feed/', function(xml) {
         for (var x = 0; x < width; x = x + width / 20) {
             for (var y = 0; y < height; y = y + height / 20) {
                 var px = x + Math.random() * width / 20,
-                    py = y + Math.random() * height / 20,
-                    p = {x: px, originX: px, y: py, originY: py};
+                py = y + Math.random() * height / 20,
+                p = {x: px, originX: px, y: py, originY: py};
 
                 points.push(p);
             }
@@ -298,7 +303,7 @@ $.get('http://thegovlab.org/featured-website/feed/', function(xml) {
         // for each point find the 5 closest points
         for (var i = 0; i < points.length; i++) {
             var p1 = points[i],
-                closest = [];
+            closest = [];
 
             for(var j = 0; j < points.length; j++) {
                 var p2 = points[j];
@@ -348,7 +353,7 @@ $.get('http://thegovlab.org/featured-website/feed/', function(xml) {
 
     function mouseMove(e) {
         var posx = 0,
-            posy = 0;
+        posy = 0;
 
         if (e.pageX || e.pageY) {
             posx = e.pageX;

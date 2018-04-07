@@ -16,35 +16,35 @@
             transform: scale(1.4);
         }
      }
- 
+
      .e-wrap {
          @include wrap;
      }
- 
+
      h1 {
          margin: 0;
          font-weight: 100;
          color: $white;
      }
- 
+
      h2 {
          margin: 0 0 20px 0;
          font-weight: 400;
          color: $white;
      }
- 
+
      // .e-info {
      //     text-align: left;
      //     display: flex;
      // }
- 
+
      // .e-links { margin: 20px 0; }
      // .e-names { flex: 1; }
- 
+
      .e-bio-section {
          padding: 50px 0;
          position: relative;
- 
+
          .e-wrap {
              display: flex;
              // max-width: 850px;
@@ -53,7 +53,7 @@
                  padding: 0 10px;
              }
          }
- 
+
          .e-main-content {
              flex: 1;
 
@@ -61,12 +61,17 @@
                 margin-top:35px;
                 margin-bottom:35px;
 
-                .b-button.m-hide { 
-                    display: none; 
+                .b-button.m-hide {
+                    display: none;
                 }
 
-                .e-projects { 
-                    display: none; 
+                // .b-button {
+                //     padding-top: 8px;
+                //     padding-bottom: 8px;
+                // }
+
+                .e-projects, .e-selected-publications {
+                    display: none;
 
                     ul {
                         padding: 0;
@@ -85,41 +90,51 @@
                     @include transition;
 
                     .e-projects { display: block; }
-     
+
                     .b-button.m-show{ display: none;}
                     .b-button.m-hide { display: inline-block; }
+                }
+
+                &.m-show-publications {
+                    max-height: 4000px;
+                    @include transition;
+
+                    .e-selected-publications { display: block; }
+
+                    .js-publications-toggle.b-button.m-show{ display: none;}
+                    .js-publications-toggle.b-button.m-hide { display: inline-block; }
                 }
 
                 .b-button { color: $purple; font-weight: bold;}
 
             }
          }
- 
+
          aside {
              text-align: right;
              padding-right: 80px;
              max-width: 300px;
- 
+
              @include breakpoint($mobile-only) {
                  text-align: left;
              }
- 
+
              ul {
                  @include breakpoint($mobile-only) {
                      padding: 0 0 40px 0;
                  }
              }
- 
+
              li {
                  list-style: none;
              }
          }
- 
+
          .e-more-content {
              ul {
                  padding: 0;
              }
- 
+
              li {
                  padding: 10px 0;
                  list-style-type: none;
@@ -127,26 +142,26 @@
                  font-size: 14px;
              }
          }
- 
+
          .e-twitter {
- 
+
          }
- 
+
          .e-books {
              list-style: none;
              -webkit-padding-start: 0;
              text-align: right;
- 
+
              li {
                  display: inline-block;
                  padding: 0;
                  position: relative;
- 
+
                  figure {
                      color: $white;
                      box-shadow: 0 0 12px $gray-10;
                      margin: 10px 0;
- 
+
                      .e-image {
                          background-size: cover;
                          background-position: center center;
@@ -159,7 +174,7 @@
                          }
                          @include transition;
                      }
- 
+
                      .e-dark-panel {
                          text-align: left;
                          display: block;
@@ -182,35 +197,35 @@
          }
      }
  }
- 
- 
+
+
  #stefaan-page-temp {
      .b-top-nav {
          background-color: $purple;
      }
- 
+
      .b-top-section {
          text-align: center;
          background-color: $black;
- 
+
          .e-info {
              position: relative;
              padding-bottom: 30px;
          }
- 
+
          .e-links {
              position: absolute;
              right: 0;
          }
- 
+
          .b-social-media {
              background-color: $white-10;
              color: $white;
              margin-left: 15px;
          }
- 
+
      }
- 
+
      .e-pic {
          background-image: url("../img/team/stefaan-verhulst.jpg");
          background-size: cover;
@@ -223,22 +238,22 @@
          box-shadow: 0 0 10px $gray-60;
      }
  }
- 
+
  // #beth-page {
  //     .b-top-nav {
  //         background-color: $gray-40;
  //     }
- 
+
  //     .b-top-section {
  //         background-image: url("../img/team/beth-simone-noveck.jpg");
  //         padding-top: 64vh;
  //     }
  // }
- 
+
  .b-social-media {
      @include circle;
      background-color: $purple;
      padding: 12px 18px;
      color: $white;
      display: inline-block;
- } 
+ }
