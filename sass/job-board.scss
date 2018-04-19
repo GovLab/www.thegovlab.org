@@ -30,27 +30,49 @@
         div {
             .b-button { color: $purple; }
 
-            .b-job-post { display: none; }
+            // .b-job-post { display: none; }
 
-            .b-button:after {
-                @extend .u-material-icons;
-                content: 'keyboard_arrow_down';
-                margin-left: 15px;
-                vertical-align: bottom;
-                position: relative;
-            }
+            // .b-button:after {
+            //     @extend .u-material-icons;
+            //     content: 'keyboard_arrow_down';
+            //     margin-left: 15px;
+            //     vertical-align: bottom;
+            //     position: relative;
+            // }
 
-            &.m-active {
+            // &.m-active {
                 // max-height: 4000px;
-                @include transition;
+                // @include transition;
 
-                .b-button:after {
+                // .b-button:after {
+                //     content: 'keyboard_arrow_up';
+                // }
+
+
+                // .b-job-post { display: block; }
+            // }
+        }
+
+        .b-job-post {
+            display: none;
+            &.m-active {
+                display: block;
+            }
+        }
+
+        .js-job-toggle {
+                &:after {
+                    @extend .u-material-icons;
+                    content: 'keyboard_arrow_down';
+                    margin-left: 15px;
+                    vertical-align: bottom;
+                    position: relative;
+                }
+
+                &.m-active:after {
                     content: 'keyboard_arrow_up';
                 }
 
-
-                .b-job-post { display: block; }
-            }
         }
 
 

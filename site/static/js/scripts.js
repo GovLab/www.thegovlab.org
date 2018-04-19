@@ -71,7 +71,8 @@ $(document).ready(function($) {
     // Job board
 
     $('.js-job-toggle').click(function() {
-        $(this).parent().toggleClass('m-active');
+        $(this).toggleClass('m-active');
+        $('#post-' + $(this).attr('id')).toggleClass('m-active');
     })
 
      // Publications
