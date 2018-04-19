@@ -2005,19 +2005,17 @@ button:focus {
   padding: 20px 0; }
   .b-job-board .e-wrap div .b-button {
     color: #523080; }
-  .b-job-board .e-wrap div .b-job-post {
+  .b-job-board .e-wrap .b-job-post {
     display: none; }
-  .b-job-board .e-wrap div .b-button:after {
+    .b-job-board .e-wrap .b-job-post.m-active {
+      display: block; }
+  .b-job-board .e-wrap .js-job-toggle:after {
     content: 'keyboard_arrow_down';
     margin-left: 15px;
     vertical-align: bottom;
     position: relative; }
-  .b-job-board .e-wrap div.m-active {
-    transition: all .4s ease; }
-    .b-job-board .e-wrap div.m-active .b-button:after {
-      content: 'keyboard_arrow_up'; }
-    .b-job-board .e-wrap div.m-active .b-job-post {
-      display: block; }
+  .b-job-board .e-wrap .js-job-toggle.m-active:after {
+    content: 'keyboard_arrow_up'; }
 
 .b-fancy-bio .b-top-section {
   background-size: cover;
@@ -2770,7 +2768,7 @@ button:focus {
       vertical-align: bottom;
       position: relative; }
 
-.u-material-icons, .b-job-board .e-wrap div .b-button:after, #brand .b-page-section .b-button:after, .b-report .b-top-section .b-fold .b-button::after, .b-report .e-wrap .b-button::after {
+.u-material-icons, .b-job-board .e-wrap .js-job-toggle:after, #brand .b-page-section .b-button:after, .b-report .b-top-section .b-fold .b-button::after, .b-report .e-wrap .b-button::after {
   font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;
