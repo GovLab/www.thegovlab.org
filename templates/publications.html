@@ -31,11 +31,11 @@
         <div class="row">
           <div class="columns large-7 large-offset-1">
             {% if pub.file %}
-              <a href="./static/files/publications/{{ pub.file }}">
+              <a href="./static/files/publications/{{ pub.file }}" class="{{ pub.tracking_class }}" target="_blank">
             {% else %}
-              <a href="{{ pub.redirect }}">
+              <a href="{{ pub.redirect }}" target="_blank">
             {% endif %}
-                <h3 class="name">{{ pub.title}}</h3>
+                <h3 class="name">{{ pub.title }}</h3>
               </a>
             <p><em>{{pub.subtitle}}</em></p>
             <p>By {{pub.author}}</p>
@@ -46,9 +46,9 @@
           {% endif %}
 
           {% if pub.file %}
-          <a class="th" href="./static/files/publications/{{ pub.file }}">
+          <a class="th {{ pub.tracking_class }}" href="./static/files/publications/{{ pub.file }}" target="_blank">
           {% else %}
-          <a class="th" href="{{ pub.redirect }}">
+          <a class="th" href="{{ pub.redirect }}" target="_blank">
           {% endif %}
           <img src="./static/files/publications/{{ pub.thumbnail }}">
           </a>
@@ -71,6 +71,14 @@
         valueNames: [ 'name', {name: 'date', attr: 'timestamp'} ],
     };
     var pubList = new List('publications', options);
+
+  {% for pub in publications|sort(attribute='timestamp', reverse = True) %}
+  {% if pub.file %}
+  $(".{{ pub.tracking_class }}").on('click', function() {
+    ga('send', 'event', 'File', 'download', '{{ pub.title | replace("'", "") }}');
+  });
+  {% endif %}
+  {% endfor %}
 
 </script>
 

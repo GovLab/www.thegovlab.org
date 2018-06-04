@@ -4,6 +4,7 @@
   timestamp: 1519171200
   file: where-and-when-ai-and-ci-meet.pdf
   thumbnail: where-and-when-ai-and-ci-meet-cover.png
+  tracking_class: file-where-and-when-ai-and-ci-meet
 
 - title: "Rights-Based and Tech-Driven: Open Data, Freedom of Information, and the Future of Government Transparency"
   author: "Beth Simone Noveck"
@@ -11,6 +12,7 @@
   timestamp: 1516752545
   file: Rights-Based-and-Tech-Driven-Noveck-YHRDLJ-vol-19.pdf
   thumbnail: rights-based-tech-cover.png
+  tracking_class: file-rights-based-tech
 
 - title: "People-Led Innovation: Toward a Methodology for Solving Urban Problems in the 21st Century"
   author: "Andrew Young, Jeffrey Brown, Hannah Pierce, and Stefaan G. Verhulst"
@@ -41,6 +43,7 @@
   timestamp: 1496361600
   file: smarter-crowdsouring-for-zika-and-other-mosquito-borne-diseases.pdf
   thumbnail: smarter-crowdsouring-for-zika-and-other-mosquito-borne-diseases.png
+  tracking_class: file-smarter-crowdsouring-for-zika-and-other-mosquito-borne-diseases
 
 - title: "THE POTENTIAL OF SOCIAL MEDIA INTELLIGENCE TO IMPROVE PEOPLE’S LIVES: SOCIAL MEDIA DATA FOR GOOD"
   author: "Stefaan Verhulst and Andrew Young"
@@ -48,6 +51,7 @@
   timestamp: 1506724079
   file: social-media-data.pdf
   thumbnail: dcfb-cover-flat.png
+  tracking_class: file-social-media-data
 
 - title: "Access to New Data Sources for Statistics: Business Models and Incentives for the Corporate Sector"
   author: "Thilo Klein and Stefaan Verhulst"
@@ -55,6 +59,7 @@
   timestamp: 1488326400
   file: paris-21.pdf
   thumbnail: paris-21-thumbnail.png
+  tracking_class: file-paris-21
 
 - title: "Smarter State: Smarter Health - Boosting Analytical Capacity at NHS"
   author: "Beth Simone Noveck, Stefaan Verhulst, Andrew Young, Maria Hermosilla, Anirudh Dinesh, and Juliet McMurren"
@@ -62,6 +67,7 @@
   timestamp: 1485907200
   file: nhs-health-report.pdf
   thumbnail: nhs-smarter-health-thumbnail.png
+  tracking_class: file-nhs-health-report
 
 - title: "Innovations in Grantmaking Report"
   author: "Beth Simone Noveck, Andrew Young and Andrew Miller"
@@ -69,6 +75,7 @@
   timestamp: 1472688000
   file: innovgrantmaking.pdf
   thumbnail: innovgrantmaking-thumbnail.png
+  tracking_class: file-innovgrantmaking
 
 - title: "Encouraging and Sustaining Innovation in Government"
   author: "Beth Simone Noveck and Stefaan Verhulst"
@@ -76,6 +83,7 @@
   timestamp: 1470009600
   file: encouragingandsustaining.pdf
   thumbnail: encouragingandsustaining-thumbnail.png
+  tracking_class: file-encouragingandsustaining
 
 - title: "Mapping and Comparing Responsible Data Approaches"
   author: "Jos Berens, Ulrich Mans, and Stefaan Verhulst"
@@ -83,6 +91,7 @@
   timestamp: 1464739200
   file: ocha.pdf
   thumbnail: ocha-thumbnail.png
+  tracking_class: file-ocha
 
 - title: Building Data Responsibility into Humanitarian Action
   author: Nathaniel Raymond, Ziad Al Achkar, Stefaan Verhulst, and Jos Berens. Edited by Lilian Barajas and Matthew Easton.
@@ -90,6 +99,7 @@
   timestamp: 1462060800
   file: TB18_Data Responsibility_Online.pdf
   thumbnail: TB18_Data Responsibility_Online-thumbnail.png
+  tracking_class: file-data-responsibility-online
 
 - title: "Open Data Impact: When Demand and Supply Meet"
   subtitle: Key Findings of the Open Data Impact Case Studies
@@ -98,6 +108,7 @@
   timestamp: 1456790400
   file: open-data-impact-key-findings.pdf
   thumbnail: open-data-impact-key-findings-thumbnail.png
+  tracking_class: file-open-data-impact-key-findings
 
 - title: "The Smarter State Case Studies"
   author: "Beth Simone Noveck, Andrew Young, Maria Paz Hermosilla, Anirudh Dinesh"
@@ -113,6 +124,7 @@
   timestamp: 1427846400
   file: OpenData-and-SME-Final-Aug2015.pdf
   thumbnail: OpenData-and-SME-Final-Aug2015-thumbnail.png
+  tracking_class: file-open-data-and-sme
 
 - title: "R-Search — Rapid Re-Search Enabling the Design of Agile and Creative Responses to Problems"
   author: "Stefaan Verhulst and Andrew Young"
@@ -120,6 +132,7 @@
   timestamp: 1420070400
   file: R-Search.pdf
   thumbnail: r-search-thumbnail.png
+  tracking_class: file-r-search
 
 - title: "Innovations in Global Governance: Toward a Distributed Internet Governance Ecosystem"
   author: Stefaan Verhulst Beth Simone Noveck Jillian Raines Antony Declercq
@@ -127,6 +140,7 @@
   timestamp: 1417392000
   file: gcig_paper_no5.pdf
   thumbnail: gcig_paper_no5-thumbnail.png
+  tracking_class: file-gcig-paper-no5
 
 - title: "The Open Data Era in Health and Social Care"
   subtitle: "A blueprint for the National Health Service (NHS England) to develop a research and learning programme for the open data era in health and social care"
@@ -135,6 +149,7 @@
   timestamp: 1401580800
   file: nhs-full-report.pdf
   thumbnail: nhs-full-report-thumbnail.jpg
+  tracking_class: file-nhs-full-report
 
 - title: "ICANN Primer"
   subtitle: Primer on the Internet Corporation for Assigned Names and Numbers (ICANN)
@@ -143,6 +158,7 @@
   timestamp: 1380585600
   file: icann-primer-the-govlab.pdf
   thumbnail: icann-primer-the-govlab-thumbnail.jpg
+  tracking_class: file-icann-primer-the-govlab
 
 - title: "Understanding the Technical and Business Functions of the Internet Corporation for Assigned Names and Numbers (ICANN)"
   subtitle: "Understanding the Technical and Business Functions of the Internet Corporation for Assigned Names and Numbers (ICANN)"
@@ -151,6 +167,7 @@
   timestamp: 1380585600
   file: "ICANN-tech-backgrounder.FINAL_.pdf"
   thumbnail: ICANN-tech-backgrounder.FINAL_-thumbnail.png
+  tracking_class: file-icann-tech-backgrounder
 
 - title: "Smart Cities, Smart Citizens"
   subtitle: "A Presentation on Smart Communities and the Opportunities of Big Data Given to the International City/County Managers Association"
@@ -159,6 +176,7 @@
   timestamp: 1377993600
   file: "icma-talk-transcript-4.pdf"
   thumbnail: icma-talk-transcript-4-thumbnail.png
+  tracking_class: file-icma-talk-transcript-4
 
 - title: "Reimagining Governance in Practice"
   subtitle: "Benchmarking British Columbia’s Citizen Engagement Efforts"
@@ -167,6 +185,7 @@
   timestamp: 1367366400
   file: Reimagining+Governance+in+Practice+(1).pdf
   thumbnail: Reimagining+Governance+in+Practice+(1)-thumbnail.png
+  tracking_class: file-reimagining-governance
 
 - title: "Toward Metrics for Re(imagining) Governance"
   subtitle: "The Promise and Challenge of Evaluating Innovations in How We Govern"
@@ -175,6 +194,7 @@
   timestamp: 1364774400
   file: GovLabMetrics.pdf
   thumbnail: GovLabMetrics-thumbnail.png
+  tracking_class: file-govlab-metrics
 
 - title: "Toward Reimagining Governance"
   subtitle: "Mapping the pathway toward more effective and engaged governance"
@@ -183,6 +203,7 @@
   timestamp: 1364774400
   file: GovLabMapDocument.pdf
   thumbnail: GovLabMapDocument-thumbnail.png
+  tracking_class: file-govlab-map
 
 - title: The GovLab Compendium
   subtitle: "GovLab Blog Posts Spring 2013"
@@ -191,6 +212,7 @@
   timestamp: 1364774400
   file: GovLabCompendium.pdf
   thumbnail: GovLabCompendium-thumbnail.png
+  tracking_class: file-govlab-compendium
 
 - title: "Information for Impact: Liberating Nonprofit Sector Data"
   subtitle: "Re-posted from the Aspen Institute."
@@ -199,5 +221,6 @@
   timestamp: 1356998400
   file: psi_Information-for-Impact.pdf
   thumbnail: psi_Information-for-Impact-thumbnail.png
+  tracking_class: file-psi-information-for-impact
 
 
