@@ -90,8 +90,8 @@
                 <section class="e-section">
                     <h3>Downloads</h3>
                     <ul>
-                        <li><a href="static/img/beth-simone-noveck-1.jpg" target="_blank">Beth Simone Noveck's Photo <i class="e-social-media-item fa fa-download"></i></a></li>
-                        <li><a href="static/img/beth-simone-noveck-2.png" target="_blank">Beth Simone Noveck's Photo in High Res <i class="e-social-media-item fa fa-download"></i></a></li>
+                        <li><a href="static/img/beth-simone-noveck-1.jpg" target="_blank" class="file-beth-simone-noveck-1">Beth Simone Noveck's Photo <i class="e-social-media-item fa fa-download"></i></a></li>
+                        <li><a href="static/img/beth-simone-noveck-2.png" target="_blank" class="file-beth-simone-noveck-2">Beth Simone Noveck's Photo in High Res <i class="e-social-media-item fa fa-download"></i></a></li>
                     </ul>
                 </section>
 
@@ -203,4 +203,14 @@
             </div>
         </div>
     </div>
+
+<script type="text/javascript">
+  $(".file-beth-simone-noveck-1").on('click', function() {
+    ga('send', 'event', 'File', 'download', 'Beth Simone Noveck Photo');
+  });
+  $(".file-beth-simone-noveck-2").on('click', function() {
+    ga('send', 'event', 'File', 'download', 'Beth Simone Noveck Photo (High Res)');
+  });
+</script>
+
     {% endblock %}

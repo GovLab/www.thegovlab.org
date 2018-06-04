@@ -62,12 +62,20 @@
                 <p>We put users at the center, to ensure we stay focused on improving people’s lives.</p>
             </div>
         </div>
-        <div class="e-download"><a href="static/files/govlab-onepager.pdf" class="b-button m-purple" target="_blank">Download our One Pager <i class="material-icons">file_download</i></a></div>
+        <div class="e-download"><a href="static/files/govlab-onepager.pdf" class="b-button m-purple file-one-pager" target="_blank">Download our One Pager <i class="material-icons">file_download</i></a></div>
     </div>
 </section>
 <footer class="b-about m-footer">
     <h1>Welcome to the GovLab</h1>
 </footer>
+
+
+<script type="text/javascript">
+  $(".file-one-pager").on('click', function() {
+    ga('send', 'event', 'File', 'download', 'GovLab One Pager');
+  });
+</script>
+
 {% endblock %}
 
 
