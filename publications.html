@@ -104,6 +104,33 @@
         <div class="row">
           <div class="columns large-7 large-offset-1">
             
+              <a href="./static/files/publications/PSD_Summer_Digest-Digital.pdf" class="file-psd-summer-digest" target="_blank">
+            
+                <h3 class="name">Public Sector Digest: Leadership & Change Management</h3>
+              </a>
+            <p><em></em></p>
+            <p>By Beth Simone Noveck</p>
+            <p timestamp="1529418727" class="date" data-order="desc">June 2018</p>
+          </div>
+          <div class="large-3 large-offset-1 end columns">
+          
+
+          
+          <a class="th file-psd-summer-digest" href="./static/files/publications/PSD_Summer_Digest-Digital.pdf" target="_blank">
+          
+          <img src="./static/files/publications/psd-cover.png">
+          </a>
+
+          </div>
+        </div>
+      </section>
+
+      
+
+      <section class="b-page-section">
+        <div class="row">
+          <div class="columns large-7 large-offset-1">
+            
               <a href="./static/files/publications/where-and-when-ai-and-ci-meet.pdf" class="file-where-and-when-ai-and-ci-meet" target="_blank">
             
                 <h3 class="name">Where and when AI and CI meet: exploring the intersection of arti cial and collective intelligence towards the goal of innovating how we govern</h3>
@@ -852,6 +879,12 @@
     };
     var pubList = new List('publications', options);
 
+  
+  
+  $(".file-psd-summer-digest").on('click', function() {
+    ga('send', 'event', 'File', 'download', 'Public Sector Digest: Leadership & Change Management');
+  });
+  
   
   
   $(".file-where-and-when-ai-and-ci-meet").on('click', function() {
