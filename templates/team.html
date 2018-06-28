@@ -65,6 +65,33 @@
                 </div>
             </div>
         </div>
+        <div class="e-team-member" id="stefaan-verhulst">
+            <div class="e-wrap">
+                <div class="e-team-picture" style="background-image: url('./static/img/team/dinorah-cantu-pedraza.jpg')"></div>
+                <div class="e-info">
+
+                </div>
+                <div class="e-bio">
+                    <h3>Dinorah Cantú-Pedraza</h3>
+                    <h4>The GovLab Academy Coordinator</h4>
+                    <p>Dinorah Cantú-Pedraza coordinates the GovLab Academy, an online institute aimed at helping government and social innovators take innovative projects from idea to implementation. Under her direction, the Academy has worked with over five hundred innovators from more than 30 countries online and off over the last two years. Thousands more have watched its skill-building videos. She has put together over 12 Coaching Programs, the Academy’s signature mentoring and peer to peer learning initiative, where over 95% of whose participants complete the program. The Academy is a project of the Governance Lab, based at New York University. GovLab focuses on the use of technology to improve how we govern.</p>
+
+                    <a href="dinorah-cantu-pedraza.html" class="b-button m-naked" target="_blank">More <i class="material-icons">keyboard_arrow_down</i></a>
+
+                    <div class="b-button m-show m-naked js-project-toggle">Dinorah's Projects <i class="material-icons"><i class="material-icons">keyboard_arrow_down</i></i></div>
+                    <div class="b-button m-hide m-naked js-project-toggle">Dinorah's Projects <i class="material-icons"><i class="material-icons">keyboard_arrow_up</i></i></div>
+
+                    {% for project in projects %}
+                    {% if "Dinorah Cantú-Pedraza" in project.team %}
+                    <div class="e-project">
+                        <a href="http://www.thegovlab.org/project-{{project.title | slug}}.html">{{project.title}}</a>
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+
+                </div>
+            </div>
+        </div>
 
         {% for person in team %}
         <a name="{{person.name | slug}}"></a>

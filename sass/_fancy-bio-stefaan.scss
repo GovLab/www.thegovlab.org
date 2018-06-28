@@ -15,6 +15,36 @@
             color: $white;
             transform: scale(1.4);
         }
+        .e-partners {
+            width: 300px;
+            margin: 0 auto 20px auto;
+            .e-partner-logo {
+                display: block;
+
+
+                > img {
+                    max-width: 90%;
+                    padding: 10px 0;
+                    max-height: 60px;
+                    opacity: .5;
+                    @include transition;
+
+                    &:hover {
+                        opacity: 1;
+                        @include transition;
+                    }
+                }
+
+                &.m-shuttleworth img {
+                    max-height: 100px;
+                }
+
+                &:hover {
+                    transform: none;
+                }
+
+            }
+        }
      }
 
      .e-wrap {
@@ -236,6 +266,10 @@
          margin-top:50px;
          display: inline-block;
          box-shadow: 0 0 10px $gray-60;
+
+         &.dinorah {
+            background-image: url("../img/team/dinorah-cantu-pedraza.jpg");
+         }
      }
  }
 

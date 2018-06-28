@@ -2191,6 +2191,24 @@ button:focus {
   .b-fancy-bio-stefaan .b-top-section a:hover {
     color: white;
     transform: scale(1.4); }
+  .b-fancy-bio-stefaan .b-top-section .e-partners {
+    width: 300px;
+    margin: 0 auto 20px auto; }
+    .b-fancy-bio-stefaan .b-top-section .e-partners .e-partner-logo {
+      display: block; }
+      .b-fancy-bio-stefaan .b-top-section .e-partners .e-partner-logo > img {
+        max-width: 90%;
+        padding: 10px 0;
+        max-height: 60px;
+        opacity: .5;
+        transition: all .4s ease; }
+        .b-fancy-bio-stefaan .b-top-section .e-partners .e-partner-logo > img:hover {
+          opacity: 1;
+          transition: all .4s ease; }
+      .b-fancy-bio-stefaan .b-top-section .e-partners .e-partner-logo.m-shuttleworth img {
+        max-height: 100px; }
+      .b-fancy-bio-stefaan .b-top-section .e-partners .e-partner-logo:hover {
+        transform: none; }
 .b-fancy-bio-stefaan .e-wrap {
   max-width: 1025px;
   margin-left: auto;
@@ -2332,6 +2350,8 @@ button:focus {
   margin-top: 50px;
   display: inline-block;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.6); }
+  #stefaan-page-temp .e-pic.dinorah {
+    background-image: url("../img/team/dinorah-cantu-pedraza.jpg"); }
 
 .b-social-media {
   overflow: hidden;
