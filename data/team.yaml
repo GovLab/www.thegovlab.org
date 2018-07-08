@@ -110,6 +110,14 @@
 
     <p>McGahan’s credits include three books and over 100 articles, case studies, notes and other published material on competitive advantage, industry evolution, and financial performance. Her current research emphasizes entrepreneurship in the public interest and innovative collaboration between public and private organizations. She is also pursuing a long-standing interest in how firms overcome industry disruption to achieve breakthrough performance. Her recent work emphasizes innovation in the governance of technology to improve global health. McGahan has been recognized as a master teacher for her dedication to the success of junior faculty and for her leadership in course development. In 2010, she was awarded the Academy of Management BPS Division’s Irwin Distinguished Educator Award and, in 2012, the Academy conferred on McGahan its Career Distinguished Educator Award for her championship of reform in the core curriculum of Business Schools. In 2012 she was elected a Fellow of the Strategic Management Society, and in 2015 she was elected a Fellow of the Academy of Management.</p>
 
+- name: Ayushi Roy
+  firstname: Ayushi
+  job: Summer Research Assistant
+  projects: false
+  bio: >
+    <p>Ayushi Roy is a graduate student in the Department of Urban Studies and Planning at MIT. Ayushi is building out GovLab’s Data Stewardship Network to help harness the potential of private data toward public ends. </p>
+
+
 
 # - name: Atul Varma
 #   job: Lead Technical Architect
@@ -176,6 +184,19 @@
 #   projects: true
 #   bio: >
 #     <p>Denny Tek is a Developer at the GovLab. She enjoys working on projects that empower and connect communities. She is also a volunteer teacher with ScriptEd, an organization that brings web development classes and internship opportunities to students in under-resourced high schools in NYC. Prior to joining the GovLab, Denny developed and commissioned scholarly works on music for a global academic publisher. She has a B.F.A. in Music Technology from the City College of New York.</p>
+- name: Dane Gambrell
+  firstname: Dane
+  job: Summer Research Assistant
+  projects: false
+  bio: >
+    <p>Dane Gambrell is a junior studying Sustainable Urban Environments at NYU Tandon School of Engineering. He is researching case studies of public participation in lawmaking as part of the GovLab’s CrowdLaw project. </p>
+
+- name: Daniella Heard
+  firstname: Daniella
+  job: Summer Research Assistant
+  projects: false
+  bio: >
+    <p>Daniella Heard is a graduate student at Columbia University's School of International and Public Affairs, specializing in Technology, Economic Development and Public Policy. Daniella is working on GovLab’s data projects. In particular, the potential of distributed ledger technologies for governance of the extractives industry.</p>
 
 - name: David K. Chai
   firstname: David
@@ -248,6 +269,12 @@
   bio: >
     <p>Gianpaolo Baiocchi is a senior fellow at the GovLab. He is sociologist and an ethnographer interested in questions of politics and culture, critical social theory, and cities. He has written about and continues to research instances of actually existing civic life and participatory democracy. Gianpaolo is associate professor of individualized studies and sociology at NYU, where he directs the Gallatin School’s Urban Democracy Lab, which promotes radically democratic praxis and reflection, and is an important reference in New York City’s Left. Gianpaolo is recognized as one of the leading experts on participatory budgeting, and participatory democracy more generally, a topic he has researched and written extensively about both in the context of his native Brazil but also in terms of its global travel. He continues to research the intersection of left-wing party politics and radical democracy, often directly engaged with, and learning from Brazil’s Workers’ Party. His books on Porto Alegre’s administration under the PT, and on the first PT administrations in Brazil are international references. His last book, with Ernesto Ganuza, is called Popular Democracy and the Paradox of Participation, and some of his political commentary can be found in Boston Review. He is today most active with the Right To The City Alliance and the Homes For All national campaign.</p>
 
+- name: Gina Joerger
+  firstname: Gina
+  job: Summer Research Assistant
+  projects: false
+  bio: >
+    <p>Gina Joerger is a rising sophomore majoring in Computer Science at NYU Shanghai. Gina is researching various international CrowdLaw case studies to analyze its functionality, and is participating in the NYU Tandon Undergraduate Summer Research Program.</p>
 # - name: Greyson Nevins-Archer
 #   firstname: Greyson
 #   job: Undergraduate Research Assistant
@@ -322,6 +349,13 @@
 #   bio: >
 #     <p>Imran Khan is a Graduate Research Assistant at the GovLab and studying data science at NYU’s Center for Urban Science and Progress. Previously, he served as Director of Special Projects for the New York City Mayor’s Office and as an appointed Empire State Fellow working in the New York State Governor’s Office. Imran has served as a policy fellow with the U.S. Department of Energy and as an Education Pioneers fellow in Houston, his hometown. Imran received his Bachelors of Science in biochemistry from Texas A&M University, Masters in Education from Southern Methodist University, and Masters in Public Policy from the University of Virginia’s Batten School. He tweets <a href="https://www.twitter.com/Imran_U_Khan" target="_blank">@Imran_U_Khan</a>.</p>
 
+- name: Joel Urena
+  firstname: Joel
+  job: Summer Research Assistant
+  projects: false
+  bio: >
+    <p>Joel Urena is a rising junior majoring in Integrated Digital Media at the Tandon School of Engineering. Joel is working on the ‘Solving Public Problems with Data’ project at the GovLab.</p>
+
 - name: John Harlow
   firstname: John
   job: Visiting Fellow
@@ -336,6 +370,12 @@
 #   bio: >
 #     <p>Kaitlin is a Research Fellow at the GovLab, where she focuses on strategy, business development and program management for the team’s innovative new <a href="https://medium.com/smarter-crowdsourcing" target="_blank">Smarter Crowdsourcing</a> and City Challenges programs. She brings a decade of experience working on social justice issues, including over seven years of direct service to low-income youth and incarcerated individuals, as well as managing over a dozen impact-focused consulting projects with nonprofits and government organizations in the US and abroad.</p>
 #     <p>Kaitlin completed her MBA from Yale School of Management and her BA in History and Literature from Harvard College. Her MBA course work focused on the application of business and management practices to social enterprises, non-profits and government agencies. In 2016, she interned at the White House Domestic Policy Council, where she led projects on open data in policing and criminal justice. Prior to her MBA, Kaitlin worked as a consultant to a prison education non-profit, served as a college counselor for low-income youth in Boston Public Schools and worked as an associate consultant at a human capital management firm called AchieveMission. She is very passionate about community empowerment and criminal justice reform.</p>
+- name: Kajol Char
+  firstname: Kajol
+  job: Summer Research Assistant
+  projects: false
+  bio: >
+    <p>Kajol Char is a senior majoring in economics and minoring in human rights at the University of Chicago. Kajol is researching the future of work, looking into the social and economic effects of automation, artificial intelligence, and other technological developments.</p>
 
 - name: Lauren Yu
   firstname: Lauren
@@ -431,6 +471,12 @@
 #   projects: false
 #   bio: >
 #     <p>Rafael is a Summer Research Fellow on secondment from Transparency International and collaborating on the Smarter Crowdsourcing against Corruption project. Previously, he coordinated Transparency International Mexico’s Program on Open Government, which focuses on the use of open data, technology and citizens’ participation to address corruption risks. As coordinator, he led the development of the #3de3 initiative (<a href="www.3de3.mx">www.3de3.mx</a>) –which allows citizens to access politicians’ assets and interest declarations– and the “Social Witness 2.0” platform (<a href="www.testigosocial.mx">www.testigosocial.mx</a>) –an online tool for monitoring public procurement in Mexico. Rafael is a co-author of the “Open Up Guide: Using Open Data to Combat Corruption,” developed for the Open Data Charter.</p>
+- name: Olivia Clark
+  firstname: Olivia
+  job: Summer Research Assistant
+  projects: false
+  bio: >
+    <p>Olivia Clark is a junior at the University of North Carolina at Chapel Hill studying reporting journalism and environmental science. Olivia is working on corporate data projects at the GovLab, helping conduct research for the Blockchange, Blockchain and Extractives and Data Collaboratives projects.</p>
 
 - name: Pablo Collada
   firstname: Pablo
@@ -520,6 +566,13 @@
     <p>She holds a BA in Political and Administration Sciences from Pompeu Fabra University, an MPA from the Autonomous University of Barcelona, an MA in Public Management from ESADE Business School, and a PhD in Political and Social Sciences from Pompeu Fabra University.
 
     <p>She tweets <a href="https://twitter.com/_victoriaalsina">@_VictoriaAlsina</a>.</p>
+
+- name: Vishala Pariag
+  firstname: Vishala
+  job: Summer Research Assistant
+  projects: false
+  bio: >
+    <p>Vishala Pariag is a rising junior in the Chemical and Biomolecular Engineering department at NYU Tandon School of Engineering. Vishala is working on the “Public Entrepreneurship” project at the GovLab.</p>
 
 # - name: Prianka Srinivasan
 #   firstname: Prianka
