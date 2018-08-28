@@ -1,3 +1,18 @@
+.e-people-list {
+    td {
+        vertical-align: top;
+        padding: 15px 30px 15px 0;
+        & > div:first-child {
+            font-weight: bold;
+        }
+    }
+    @include breakpoint($mobile-only) {
+    td {
+        display: block;
+    }
+}
+}
+
 .b-single-landing {
     background-color: $blue;
 
@@ -128,6 +143,17 @@
         }
 
         p, li { color: $white-70; }
+    }
+
+    .e-background {
+        a {
+            color: $white;
+            // text-decoration: underline;
+        }
+    }
+
+    .e-no-link-spacer {
+        padding: 15px;
     }
 
     .e-location {

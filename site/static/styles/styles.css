@@ -888,6 +888,15 @@ button:focus {
     position: relative;
     z-index: 19; }
 
+.e-people-list td {
+  vertical-align: top;
+  padding: 15px 30px 15px 0; }
+  .e-people-list td > div:first-child {
+    font-weight: bold; }
+@media (max-width: 800px) {
+  .e-people-list td {
+    display: block; } }
+
 .b-single-landing {
   background-color: #008ab3; }
   .b-single-landing header {
@@ -994,6 +1003,10 @@ button:focus {
     margin: 30px 0; }
   .b-single-landing .e-content p, .b-single-landing .e-content li {
     color: rgba(255, 255, 255, 0.7); }
+  .b-single-landing .e-background a {
+    color: white; }
+  .b-single-landing .e-no-link-spacer {
+    padding: 15px; }
   @media (min-width: 1025px) {
     .b-single-landing .e-location {
       margin-right: 100px; } }

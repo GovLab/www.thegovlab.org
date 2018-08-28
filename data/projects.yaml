@@ -1,3 +1,154 @@
+- title: City Challenges
+  rank: 2
+  type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
+  is_featured: 0 #integer
+  is_active: True
+  related_question: 3 #question
+  # project_website: "/"
+  location:
+    - Global
+  partners:
+    - Tinker Foundation
+  team:
+    - Beth Simone Noveck
+    - Dinorah Cantú-Pedraza
+    - Gabriella Capone
+    - Joel Urena
+    - John Harlow
+    - Sam DeJohn
+    - Pablo Collada
+    - Victoria Alsina
+  tags:
+    governance_area:
+        - Collaborative Governance #tag
+    type_of_institution:
+        - Local Governments #tag
+    innovative_capability:
+        # - Leverage skills and knowledge spread in the crowd to solve urban public problems
+        - Collective Intelligence
+    product_category:
+        - Iterating
+  status: define # define, prototype, test, complete
+  problem_statement: City Challenges is a process to help cities and their communities collaborate to develop innovative and implementable solutions to pressing urban problems.
+  # problem_statement: City Challenges is a process to help cities and their communities collaborate to develop innovative and implementable solutions to pressing urban problems.  Piloted in Mexico, City Challenges combines coaching and open innovation and is an efficient and replicable process for co-creation that GovLab is in the process of scaling with cities in Latin America.  #question
+  short_description:
+  tooltip:
+  long_description: >
+    <p>During our first pilot in Monterrey, we focused on solving four problems: environment and reducing pollution; government efficiency and services; mobility and transportation; and public spaces and participation. </p>
+    <p>The City received project proposals from 125 individuals (representing 52 teams) in response to the call to submit ideas to solve the problems described. They selected the ten best projects and we coached those ten teams in a 10-week program that combined online and offline coaching with mentorship from 20 different local and international mentors and 38 one-on-one interviews. As a result of the coaching, 6 out of 10 winning projects were being implemented within six weeks of the end of the coaching project. Learn more about the project’s impact here.</p>
+    <p>Based on our experience in Mexico, we anticipate that the Multi-City Challenges Program --namely running a City Challenge across multiple cities in parallel -- can accomplish four goals:</p>
+    <ul>
+      <li><b>Problem Solving:</b> Help target cities make measurable and specific progress in their most urgent and important areas of urban sustainability by unlocking the energy and knowledge of multiple communities to increase shared prosperity, improve environmental impact, and bolster democratic legitimacy; </li>
+      <li><b>Training at Scale:</b> Teach public innovation and entrepreneurship skills to energize and empower civil servants and to help them govern differently and foster ongoing self-sufficiency in problem-solving;  </li>
+      <li><b>Replicable Process:</b> Give governments an empirically tested process (design and incentives) for engaging with their community on an ongoing basis to improve their effectiveness; and,</li>
+      <li><b>Social Cohesion:</b> Working across communities and focusing not on politics but on problem-solving will help to rebuild trust in public institutions and deepen democracy through civic engagement.</li>
+    </ul>
+
+    <b>The core goals of our proposed research are to:</b>
+
+    <ul>
+    <li>Deepen our understanding of the use and impact of open innovation for solving public problems;</li>
+    <li>Assess and provide evidence for the premise that the Multi-City Challenges model has the potential to impact traditionally underrepresented cities in the innovation space in a variety of beneficial ways; and,</li>
+    <li>Provide actionable insights to policymakers, civil society representatives, entrepreneurs, researchers and others seeking to use open innovation to solve public problems.</li>
+    </ul>
+
+    <p>City Challenges is far from the only program aimed at improving government, nor is it the first to use crowdsourcing, challenges, coaching, or impact measurement. What sets this model apart is the way it blends these approaches together to: 1) deliver immediately measurable impact; 2) build cities’ long-term capacities to innovate through easy to replicate public engagement methodologies; 3) combine community and global expertise; 4) introduce experimental design to generate research insights; and 5) do so cost-effectively.</p>
+
+    <p>&nbsp;</p>
+
+    <h2>Board of Advisors</h2>
+
+    <p>To support our efforts, we will draw on the collaborative insight and experience of the following Advisory Group:</p>
+
+    <table class="e-people-list">
+        <tr>
+            <td>
+                <div><a href="https://ash.harvard.edu/people/teresa-acu%C3%B1a">Teresa Acuña</a></div>
+                <div>Associate Director for Democratic Governance, Harvard Ash Center for Democratic Governance and Innovation</div>
+            </td>
+            <td>
+                <div><a href="http://dznarayanan.com/">Darshana Narayanan</a></div>
+                <div>Former Research Lead, Composites Collective</div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div><a href="https://www.linkedin.com/in/paulina-bustos-arellano-a8639610/">Paulina Bustos Arellano</a></div>
+                <div>Co-Founder and Growth, Cívica Digital</div>
+            </td>
+            <td>
+                <div><a href="https://medium.com/@luisdaniel">Luis Daniel Palacios</a></div>
+                <div>News Automation Team Lead, Bloomberg</div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div><a href="https://www.medialab-prado.es/personal/yago-bermejo-abati">Yago Bermejo</a></div>
+                <div>Head of the Collective Intelligence for Democracy Lab, MediaLab Prado</div>
+            </td>
+            <td>
+                <div><a href="https://blogs.iadb.org/abierto-al-publico/author/lpaonessa/">Laura Paonessa</a></div>
+                <div>Consultant at the Knowledge Management Division, Inter-American Development Bank</div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div><a href="https://www.linkedin.com/in/jaimieboyd/">Jaimie Boyd</a></div>
+                <div>Director of Open Government, Treasury Board of Canada Secretariat</div>
+            </td>
+            <td>
+                <div><a href="http://www.c-knowledge.co/founders.html">Carolina Pozo</a></div>
+                <div>Co-Founder, Knowledge Economy Initiative</div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div><a href="https://citiesofservice.org/about/team/mauricio-garcia/">Mauricio García</a></div>
+                <div>Director, Cities of Service</div>
+            </td>
+            <td>
+                <div><a href="https://www.linkedin.com/in/silviadarosa/">Silvia da Rosa</a></div>
+                <div>Consultant in Open Government, Innovation and User Centered Design, Data Uruguay</div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div><a href="https://uc3m.academia.edu/CeciliaGuemes">Cecilia Güemes</a></div>
+                <div>Professor and Researcher, Carlos III University</div>
+            </td>
+            <td>
+                <div><a href="https://www.linkedin.com/in/ofabro/">Fabro Steibel</a></div>
+                <div>Executive Director, Institute for Technology &nbsp; Society of Rio de Janeiro</div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div><a href="http://shuyanglin.com/">Shu Yang Lin</a></div>
+                <div>vTaiwan Re:architect and Co-Founder of the Public Digital Innovation Space, Taiwan Executive Yuan</div>
+            </td>
+            <td>
+                <div><a href="http://www.mattstempeck.com/">Matt Stempeck</a></div>
+                <div>Former Director of Civic Technology, Microsoft NYC</div>
+            </td>
+        </tr>
+    </table>
+
+  background: >
+    <p>As the <a href="https://sustainabledevelopment.un.org/index.php?page=view&type=400&nr=746&menu=1515">most urbanized</a> region of the planet, Latin American cities are growing rapidly – too rapidly to ensure effective problem-solving of the increasingly complex problems they are facing. </p>
+
+    <p>With increased populations in urban areas comes increasing demands for services and responsive local level governments. Public expectations of what government should deliver <a href="http://www.mckinsey.com/industries/public-sector/our-insights/government-by-design-four-principles-for-a-better-public-sector">have risen</a>. </p>
+
+    <p>There is no silver bullet that cities can use to address these challenges. Rather, as we have seen from our pioneering experience helping governments to innovate, public institutions need to change how they work, becoming more data-driven, agile, innovative, and capable of tapping expertise from new sources.</p>
+
+    <p>In many cases, city governments need not look far to find the tools needed to meet these challenges - often it is <a href="http://www.smarterstate.org">their own civil servants</a> and their communities who are best positioned to identify <a href="http://articles.chicagotribune.com/2009-01-11/news/0901100331_1_cecilia-deyanira-velazquez-red-tape-social-security-institute">where public services fall short</a> and also possess the specialized expertise needed to <a href="http://www.gao.gov/assets/690/680425.pdf">solve complex public challenges</a>, be they traffic congestion, air quality, or educational attainment.  </p>
+
+    <p>The objective of the project is to build a comprehensive conceptual framework with key illustrative case-studies to document and analyze how public institutions, especially cities, are using co-creation and/or open innovation to create new public engagement opportunities and what impact it is having in public problem-solving. </p>
+  social_media: #in the future we can have custom shareable messages for each project
+  images: #images or screenshots of the project
+  results:
+  related_articles:
+    - name: "City Challenges: Collaborative Governing for Public Problem Solving"
+      url: "https://www.forbes.com/sites/bethsimonenoveck/2018/01/24/city-challenges-collaborative-governing-for-public-problem-solving/"
 
 - title: Smarter Crowdsourcing Zika
   rank: 2
