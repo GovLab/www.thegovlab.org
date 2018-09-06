@@ -269,12 +269,12 @@
   bio: >
     <p>Gianpaolo Baiocchi is a senior fellow at the GovLab. He is sociologist and an ethnographer interested in questions of politics and culture, critical social theory, and cities. He has written about and continues to research instances of actually existing civic life and participatory democracy. Gianpaolo is associate professor of individualized studies and sociology at NYU, where he directs the Gallatin School’s Urban Democracy Lab, which promotes radically democratic praxis and reflection, and is an important reference in New York City’s Left. Gianpaolo is recognized as one of the leading experts on participatory budgeting, and participatory democracy more generally, a topic he has researched and written extensively about both in the context of his native Brazil but also in terms of its global travel. He continues to research the intersection of left-wing party politics and radical democracy, often directly engaged with, and learning from Brazil’s Workers’ Party. His books on Porto Alegre’s administration under the PT, and on the first PT administrations in Brazil are international references. His last book, with Ernesto Ganuza, is called Popular Democracy and the Paradox of Participation, and some of his political commentary can be found in Boston Review. He is today most active with the Right To The City Alliance and the Homes For All national campaign.</p>
 
-- name: Gina Joerger
-  firstname: Gina
-  job: Summer Research Assistant
-  projects: false
-  bio: >
-    <p>Gina Joerger is a rising sophomore majoring in Computer Science at NYU Shanghai. Gina is researching various international CrowdLaw case studies to analyze its functionality, and is participating in the NYU Tandon Undergraduate Summer Research Program.</p>
+#- name: Gina Joerger
+#  firstname: Gina
+#  job: Summer Research Assistant
+#  projects: false
+#  bio: >
+#    <p>Gina Joerger is a rising sophomore majoring in Computer Science at NYU Shanghai. Gina is researching various international CrowdLaw case studies to analyze its functionality, and is participating in the NYU Tandon Undergraduate Summer Research Program.</p>
 # - name: Greyson Nevins-Archer
 #   firstname: Greyson
 #   job: Undergraduate Research Assistant
@@ -349,12 +349,12 @@
 #   bio: >
 #     <p>Imran Khan is a Graduate Research Assistant at the GovLab and studying data science at NYU’s Center for Urban Science and Progress. Previously, he served as Director of Special Projects for the New York City Mayor’s Office and as an appointed Empire State Fellow working in the New York State Governor’s Office. Imran has served as a policy fellow with the U.S. Department of Energy and as an Education Pioneers fellow in Houston, his hometown. Imran received his Bachelors of Science in biochemistry from Texas A&M University, Masters in Education from Southern Methodist University, and Masters in Public Policy from the University of Virginia’s Batten School. He tweets <a href="https://www.twitter.com/Imran_U_Khan" target="_blank">@Imran_U_Khan</a>.</p>
 
-- name: Joel Urena
-  firstname: Joel
-  job: Summer Research Assistant
-  projects: false
-  bio: >
-    <p>Joel Urena is a rising junior majoring in Integrated Digital Media at the Tandon School of Engineering. Joel is working on the ‘Solving Public Problems with Data’ project at the GovLab.</p>
+#- name: Joel Urena
+#  firstname: Joel
+#  job: Summer Research Assistant
+#  projects: false
+#  bio: >
+#    <p>Joel Urena is a rising junior majoring in Integrated Digital Media at the Tandon School of Engineering. Joel is working on the ‘Solving Public Problems with Data’ project at the GovLab.</p>
 
 - name: John Harlow
   firstname: John
@@ -478,12 +478,12 @@
 #   projects: false
 #   bio: >
 #     <p>Rafael is a Summer Research Fellow on secondment from Transparency International and collaborating on the Smarter Crowdsourcing against Corruption project. Previously, he coordinated Transparency International Mexico’s Program on Open Government, which focuses on the use of open data, technology and citizens’ participation to address corruption risks. As coordinator, he led the development of the #3de3 initiative (<a href="www.3de3.mx">www.3de3.mx</a>) –which allows citizens to access politicians’ assets and interest declarations– and the “Social Witness 2.0” platform (<a href="www.testigosocial.mx">www.testigosocial.mx</a>) –an online tool for monitoring public procurement in Mexico. Rafael is a co-author of the “Open Up Guide: Using Open Data to Combat Corruption,” developed for the Open Data Charter.</p>
-- name: Olivia Clark
-  firstname: Olivia
-  job: Summer Research Assistant
-  projects: false
-  bio: >
-    <p>Olivia Clark is a junior at the University of North Carolina at Chapel Hill studying reporting journalism and environmental science. Olivia is working on corporate data projects at the GovLab, helping conduct research for the Blockchange, Blockchain and Extractives and Data Collaboratives projects.</p>
+#- name: Olivia Clark
+#  firstname: Olivia
+#  job: Summer Research Assistant
+#  projects: false
+#  bio: >
+#    <p>Olivia Clark is a junior at the University of North Carolina at Chapel Hill studying reporting journalism and environmental science. Olivia is working on corporate data projects at the GovLab, helping conduct research for the Blockchange, Blockchain and Extractives and Data Collaboratives projects.</p>
 
 - name: Pablo Collada
   firstname: Pablo
