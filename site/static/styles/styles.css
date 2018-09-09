@@ -1841,6 +1841,185 @@ button:focus {
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.4); }
 
+#advisory-board .b-top-nav {
+  background-color: #00616b; }
+
+#advisory-board .b-top-section {
+  background-color: #008895; }
+  #advisory-board .b-top-section h2, #advisory-board .b-top-section h3 {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6); }
+  #advisory-board .b-top-section h1 {
+    background-color: #008895;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-size: 30px;
+    padding-bottom: 20px; }
+
+.b-advisory-board {
+  padding-top: 10px; }
+  .b-advisory-board h1 {
+    margin-top: 0;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center; }
+  .b-advisory-board h2 {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 0 0 20px; }
+  .b-advisory-board .e-board-list {
+    background-color: white; }
+  .b-advisory-board .e-board-member {
+    min-height: 300px;
+    margin: 0;
+    position: relative;
+    height: auto;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+    .b-advisory-board .e-board-member h3, .b-advisory-board .e-board-member h4, .b-advisory-board .e-board-member p {
+      color: rgba(0, 0, 0, 0.8);
+      margin: 0; }
+    .b-advisory-board .e-board-member h3 {
+      font-weight: 600;
+      text-transform: uppercase; }
+    .b-advisory-board .e-board-member h4 {
+      font-weight: 400;
+      text-transform: uppercase;
+      color: rgba(0, 0, 0, 0.5);
+      margin-bottom: 20px; }
+    .b-advisory-board .e-board-member .e-wrap {
+      max-width: 1025px;
+      margin-left: auto;
+      margin-right: auto;
+      display: -webkit-flex;
+      display: flex;
+      position: relative;
+      z-index: 1; }
+      @media (max-width: 800px) {
+        .b-advisory-board .e-board-member .e-wrap {
+          -webkit-flex-flow: column;
+          flex-flow: column; } }
+    .b-advisory-board .e-board-member .e-info,
+    .b-advisory-board .e-board-member .e-bio {
+      margin: 20px; }
+    .b-advisory-board .e-board-member .e-info {
+      -webkit-flex: 1;
+      flex: 1;
+      order: 1; }
+    .b-advisory-board .e-board-member .e-bio {
+      -webkit-flex: 4;
+      flex: 4;
+      order: 1;
+      height: auto;
+      transition: all .4s ease; }
+      @media (min-width: 1025px) {
+        .b-advisory-board .e-board-member .e-bio {
+          max-height: 500px; } }
+      @media (max-width: 800px) {
+        .b-advisory-board .e-board-member .e-bio {
+          max-height: 1000px; } }
+      .b-advisory-board .e-board-member .e-bio .b-button.m-less {
+        display: none; }
+      .b-advisory-board .e-board-member .e-bio .b-button.m-hide {
+        display: none;
+        margin-bottom: 10px; }
+      .b-advisory-board .e-board-member .e-bio .e-project {
+        display: none;
+        padding: 10px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        cursor: pointer; }
+        .b-advisory-board .e-board-member .e-bio .e-project:hover {
+          background-color: rgba(0, 0, 0, 0.05); }
+        .b-advisory-board .e-board-member .e-bio .e-project:last-child {
+          border-bottom: none; }
+      .b-advisory-board .e-board-member .e-bio.m-active {
+        max-height: 4000px;
+        transition: all .4s ease; }
+        .b-advisory-board .e-board-member .e-bio.m-active .b-button.m-more {
+          display: none; }
+        .b-advisory-board .e-board-member .e-bio.m-active .b-button.m-less {
+          display: inline-block; }
+      .b-advisory-board .e-board-member .e-bio.m-show {
+        max-height: 4000px;
+        transition: all .4s ease; }
+        .b-advisory-board .e-board-member .e-bio.m-show .e-project {
+          display: block; }
+        .b-advisory-board .e-board-member .e-bio.m-show .b-button.m-show {
+          display: none; }
+        .b-advisory-board .e-board-member .e-bio.m-show .b-button.m-hide {
+          display: inline-block; }
+      .b-advisory-board .e-board-member .e-bio p {
+        margin-bottom: 15px; }
+      .b-advisory-board .e-board-member .e-bio p:not(:first-of-type) {
+        display: none; }
+      .b-advisory-board .e-board-member .e-bio p:only-of-type ~ .m-more {
+        display: none; }
+      .b-advisory-board .e-board-member .e-bio.m-active p {
+        display: block; }
+      .b-advisory-board .e-board-member .e-bio .b-button {
+        color: #523080; }
+      .b-advisory-board .e-board-member .e-bio a:hover {
+        transition: all .4s ease;
+        color: #381759; }
+  .b-advisory-board .e-board-picture {
+    z-index: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 30px auto 0;
+    height: 180px;
+    width: 180px;
+    overflow: hidden;
+    border-radius: 50%; }
+    @media (min-width: 1025px) {
+      .b-advisory-board .e-board-picture {
+        position: absolute;
+        left: -80px;
+        top: 0;
+        height: 220px;
+        width: 220px;
+        margin: 20px 50px; } }
+  .b-advisory-board .e-person-pic {
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0;
+    display: inline-block;
+    min-height: 120px;
+    min-width: 120px;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+    border-radius: 50%; }
+    @media (max-width: 800px) {
+      .b-advisory-board .e-person-pic {
+        width: 70%;
+        height: 0;
+        padding-bottom: 70%; } }
+    @media (min-width: 1025px) {
+      .b-advisory-board .e-person-pic {
+        height: 150px;
+        width: 150px;
+        margin: 0 20px; } }
+  .b-advisory-board .e-team-info {
+    vertical-align: top;
+    letter-spacing: .5px; }
+  .b-advisory-board .e-team-name {
+    margin: 0;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.7); }
+  .b-advisory-board .e-team-job {
+    margin: 0;
+    font-weight: 400;
+    line-height: 1;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.4); }
+
 .b-about-landing {
   background-color: #523080;
   margin-bottom: 0; }
