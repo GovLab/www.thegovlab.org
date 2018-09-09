@@ -423,6 +423,14 @@
     <p>Mark Adkins-Hastings is a software developer with diverse expertise in both technology and design. He joins GovLab's development and design team to build civic technologies that help institutions work more openly and collaboratively. Previously, Mark worked on citizen-centric technology projects for the United States federal government, including the Department of Justice and the Patent and Trademark Office (USPTO). At USTPO, he developed the Office's electronic patent application filing system as part of a team promoting the adoption of more agile and modern design practices, including the use of citizen ethnography to ensure that government websites serve the public better.</p>
     <p>Recently, Mark collaborated with a team from the USPTO and the White House, including members of the Presidential Innovation Fellows corps, to help develop a process and platform for crowdsourcing public expertise to enhance the patent examination process. His work was showcased to the US Undersecretary of Commerce for Intellectual Property and the White House Office of the Chief Technology Officer.</p>
 
+- name: Matt Ryan
+  firstname: Matt
+  job: Non-resident Fellow
+  projects: false
+  bio: >
+    <p>Matt works alongside leaders interested in building better ways to create, implement and sustain public policy that delivers economic and social prosperity. He served as Deputy Chief of Staff to the South Australian Premier, supporting the development of a State strategic agenda and advising on a wide range of policy areas, strategic engagement and communication, inter-governmental relations, with a special focus on climate change in the lead up to the 2015 Paris Climate Summit.</p>
+    <p>As an executive at The Australian Centre for Social Innovation, Matt helped to create a rejuvenated organisational purpose, new strategic priorities, a new brand identity, and co-authored a major report on public sector innovation. He is currently working with a range of organisations and individuals in Australia and abroad who share his personal passion - the reform of our democratic systems - building on the policy agenda he led in government (Reforming Democracy: Deciding, Designing and Delivering Together).</p>
+
 - name: Michelle Winowatan
   firstname: Michelle
   job: Graduate Research Assistant
@@ -545,15 +553,15 @@
 #   bio: >
 #     <p>Stephanie Gaither is a part-time Research Assistant at the GovLab. In addition, she also works full-time at Airbnb as the Americas East Policy Campaigns Coordinator where she supports leadership in overseeing the expansion and legitimization of Airbnb, drives financial planning and strategy, and creates processes to improve the use of existing resources within the campaigns. Previously, Stephanie served in the Obama Administration as the Confidential Assistant to the Deputy Director of the White House Office of Management and Budget where she served as a main point of contact across the White House and federal agencies for issues pertaining to OMB. Stephanie is passionate about government innovation, data transparency, and evidence-based policymaking. She received her Bachelor of Arts in Government and Politics from the University of Maryland. She is fluent in Spanish and Catalan.</p>
 
-- name: Timi Lewis
-  firstname: Timi
-  job: Director of Communications
-  projects: false
-  bio: >
-    <p>Timi Lewis is Director of Communications for the GovLab. Previously, she was vice president of marketing and communications for Housing Partnership Network, a nonprofit business collaborative. She also worked as an associate with Brunswick Group, a global strategic communications consultancy, and was director of corporate affairs and strategic planning for NYC Media, the official television, radio and digital network of New York City.</p>
-    <p>Ahead of these roles, Timi was a project manager for the corporate social responsibility practice at Ernst & Young, and an international trade consultant with Ernst & Young, Arthur Andersen, and the Council for Scientific and Industrial Research in Port Elizabeth, South Africa.</p>
-    <p>Throughout her career, Timi has also advised small businesses and nonprofits as an independent communications consultant. And she served two terms on the Board of Directors of New York Women in Communications.</p>
-    <p>Timi holds a Bachelor of Arts degree in public policy from Duke University, and a Master of Public Policy degree from the University of Michigan, Ann Arbor.</p>
+#- name: Timi Lewis
+#  firstname: Timi
+#  job: Director of Communications
+#  projects: false
+#  bio: >
+#    <p>Timi Lewis is Director of Communications for the GovLab. Previously, she was vice president of marketing and communications for Housing Partnership Network, a nonprofit business collaborative. She also worked as an associate with Brunswick Group, a global strategic communications consultancy, and was director of corporate affairs and strategic planning for NYC Media, the official television, radio and digital network of New York City.</p>
+#    <p>Ahead of these roles, Timi was a project manager for the corporate social responsibility practice at Ernst & Young, and an international trade consultant with Ernst & Young, Arthur Andersen, and the Council for Scientific and Industrial Research in Port Elizabeth, South Africa.</p>
+#    <p>Throughout her career, Timi has also advised small businesses and nonprofits as an independent communications consultant. And she served two terms on the Board of Directors of New York Women in Communications.</p>
+#    <p>Timi holds a Bachelor of Arts degree in public policy from Duke University, and a Master of Public Policy degree from the University of Michigan, Ann Arbor.</p>
 
 - name: Victoria Alsina
   firstname: Victoria
