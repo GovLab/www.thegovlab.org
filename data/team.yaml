@@ -110,13 +110,19 @@
 
     <p>McGahan’s credits include three books and over 100 articles, case studies, notes and other published material on competitive advantage, industry evolution, and financial performance. Her current research emphasizes entrepreneurship in the public interest and innovative collaboration between public and private organizations. She is also pursuing a long-standing interest in how firms overcome industry disruption to achieve breakthrough performance. Her recent work emphasizes innovation in the governance of technology to improve global health. McGahan has been recognized as a master teacher for her dedication to the success of junior faculty and for her leadership in course development. In 2010, she was awarded the Academy of Management BPS Division’s Irwin Distinguished Educator Award and, in 2012, the Academy conferred on McGahan its Career Distinguished Educator Award for her championship of reform in the core curriculum of Business Schools. In 2012 she was elected a Fellow of the Strategic Management Society, and in 2015 she was elected a Fellow of the Academy of Management.</p>
 
+- name: Auralice Graft
+  firstname: Auralice
+  job: Senior Fellow
+  projects: false
+  bio: >
+    <p>Auralice works in the social development space, focusing in particular on governance, technology and climate change. She has worked with the GovLab since 2015, where she researches and writes about open justice, open data and block chain technologies. Auralice also works on climate change issues in India, where she lives, looking at the point at which urban growth and advancing climate change intersect, and the policy imperatives that arise out of that intersection.</p>
+
 - name: Ayushi Roy
   firstname: Ayushi
   job: Summer Research Assistant
   projects: false
   bio: >
     <p>Ayushi Roy is a graduate student in the Department of Urban Studies and Planning at MIT. Ayushi is building out GovLab’s Data Stewardship Network to help harness the potential of private data toward public ends. </p>
-
 
 
 # - name: Atul Varma
@@ -197,6 +203,15 @@
   projects: false
   bio: >
     <p>Daniella Heard is a graduate student at Columbia University's School of International and Public Affairs, specializing in Technology, Economic Development and Public Policy. Daniella is working on GovLab’s data projects. In particular, the potential of distributed ledger technologies for governance of the extractives industry.</p>
+
+- name: Darshana Narayanan
+  firstname: Darshana
+  job: Senior Fellow
+  projects: false
+  bio: >
+    <p>Darshana studies human behavior at multiple levels (individual and organization) and time scales (ontogeny and evolutionary history). She is currently examining how organizational structures shape human cognitive systems. Her <a href="https://scholar.google.com/citations?hl=en&user=RrkwiR4AAAAJ">research</a> on the evolution of human social behavior has been covered by media such as the BBC, National Geographic, Wired, Io9 and NPR. Along with <a href="http://wws.princeton.edu/faculty-research/faculty/shafir">Eldar Shafir</a>, Darshana has taught at Princeton University, on: ‘The Psychology of Decision Making and Judgment’. She has worked as Head of Research at pymetrics, a <a href="https://www.khoslaventures.com/team">Khosla Ventures</a> funded startup, that builds algorithms for personnel recruitment. She is currently a consultant at Math & Democracy, where she works on implementing crowd-understanding platform Polis, in governments, businesses, nonprofits and communities. </p>
+    <p>Through Polis, Darshana works with organizations such as: the Governments of Canada, Taiwan and Singapore, think tank American Assembly, and the movement March On. With collaborators in the <a href="https://g0v.network">g0v-network</a>, she has conducted empirical research into <a href="https://osf.io/preprints/socarxiv/xyhft/">Taiwan’s open government practices</a> and is <a href="http://training.g0v.network">bringing Taiwan’s models to New York City</a>. Darshana was the Community Manager of the <a href="https://www.pdf-18.com">Personal Democracy Forum 2018</a>, where she also facilitated a workshop on <a href="https://www.pdf-18.com/session/new-approaches-to-democracy-in-the-digital-age/">"‘New Approaches to Democracy in the Digital Age'</a>. Darshana has a Ph.D. in Psychology & Neuroscience from Princeton University. She tweets @dznarayanan. </p>
+
 
 - name: David K. Chai
   firstname: David
