@@ -1,0 +1,66 @@
+
+- name: Anita McGahan
+  firstname: Anita
+  job: Professor and George E. Connell Chair of Organizations and Society, University of Toronto
+  projects: false
+  bio: >
+    <p>Anita M. McGahan is Professor and George E. Connell Chair of Organizations and Society, is appointed at the University of Toronto’s Rotman School of Management,  Munk School of Global Affairs, Medical School, and Dalla Lana School of Public Health. She is also a Senior Associate at the Institute for Strategy and Competitiveness at Harvard University; Chief Economist in the Division of Health and Human Rights at the Massachusetts General Hospital; and Past President of the Academy of Management.</p>
+    <p>McGahan spent several years at both McKinsey & Company and Morgan Stanley & Company and was previously on the faculties of both Harvard Business School and Boston University. McGahan earned in two years both her PhD and AM at Harvard University,  She also holds an MBA from the Harvard Business School, and a BA from Northwestern University.</p>
+
+- name: Amen Ra Mashariki
+  firstname: Amen
+  job:  Head of Urban Analytics at ESRI
+  projects: false
+  bio: >
+    <p> Amen Ra Mashariki is the head of Urban Analytics at ESRI. Previously, Dr. Mashariki was chief analytics officer for the City of New York and the Director of the Mayor’s Office of Data Analytics, a computer scientist and research scientist at the Johns Hopkins Applied Physics Lab and Assistant Director of Informatics at the University of Chicago Comprehensive Cancer Research Center. He serves as a fellow at the Harvard Ash Center for Democratic Governance and Innovation. Dr. Mashariki holds a Doctor of Engineering from Morgan State University, a Master of Science in Computer Science from Howard University, and a Bachelor of Science in Computer Science from Lincoln University.</p>
+
+- name: Audrey Tang
+  firstname: Audrey
+  job:  Digital Minister of Taiwan
+  projects: false
+  bio: >
+    <p> Audrey Tang is the Digital Minister of Taiwan. Previously she served on the Taiwan National Development Council’s open data committee and K-12 curriculum committee, led the country’s first e-Rulemaking project, worked as a consultant with Apple on computational linguistics, with Oxford University Press on crowd lexicography, and with Socialtext on social interaction design and contributed to Taiwan’s g0v (“gov-zero”) community.</p>
+
+- name: Bo Cutter
+  firstname: Bo
+  job:  Senior Fellow and Director of the Next American Economy Project at the Roosevelt Institute
+  projects: false
+  bio: >
+    <p>Bo Cutter is Senior Fellow and Director of the Next American Economy Project at the Roosevelt Institute. Previously, he was managing director of Warburg Pincus, director of the National Economic Council and Deputy Assistant to the President for the Clinton Administration, and Executive Director for Budget during the Carter Presidency. Cutter also served as leader of the OMB transition team after the election of President Obama, was vice chairman and managing partner at Coopers & Lybrand, is Chairman of the Board of CARE, is a founder and current Chairman of MicroVest, and is a member of the Governing Council of the IFMR Trust in India. He holds degrees from Harvard University, the Woodrow Wilson School at Princeton University, and Oxford University as a Rhodes Scholar.</p>
+
+- name: Claudia Juech
+  firstname: Claudia
+  job:  President of the Cloudera Foundation
+  projects: false
+  bio: >
+    <p> Claudia Juech is the President of the Cloudera Foundation. Previously she was the associate vice president and managing director for Strategic Insights at The Rockefeller Foundation and was a vice president at DB Research, Deutsche Bank’s think tank for trends in business, society, and the financial markets. Juech has a degree in Information Science from Cologne University of Applied Sciences and an International MBA from the University of Cologne.</p>
+
+- name: David Chai
+  firstname: David
+  job:  Strategic Advisor to the Chancellor of the University of California Berkele
+  projects: false
+  bio: >
+    <p>David Chai is a Strategic Advisor to the Chancellor of the University of California Berkeley. Chai worked in the White House during the Clinton Administration as Deputy Press Secretary and Special Projects Director for Management & Administration. Chai has worked in Policy and Communications for Governor Edward Rendell in Pennsylvania, Governor Gray Davis in California and Governor Gary Locke in Washington; in addition, he has worked for Mayor Gavin Newsom, Mayor Michael Bloomberg of New York and Mayor Ron Dellums. </p>
+
+- name: Jonathan Soffer
+  firstname: Jonathan
+  job: Department Chair, Technology Culture and Society, New York University Tandon School of Engineering
+  projects: false
+  bio: >
+    <p>Jonathan Soffer is the Professor of History and Technology Culture and Society Department Chair at New York University's Tandon School of Engineering. He has also been named a Fellow by the New York Academy of History and a Foundation Fellow by the Gilder Lehrman Institute of American History.  He authored the books e, and Ed Koch and the Rebuilding of New York City, and General Matthew B. Ridgway: From Progressivism to Reaganism 1895-1993, and a new project, Monetizing the Masses: Tammany Hall and the Business of New York City’s Politics and Infrastructure is under contract to the University of Chicago Press.  He is also the principal author and creator of the online New York City Record project, funded by the National Endowment for the Humanities, and in partnership with the New York Public Library and the NYC Department of Records and Information Services.  The project is making over 800,000 pages of documents and data on New York City from 1873-1947 available to the public, including every city contract, zoning decision, and precinct-by-precinct election returns during that period. </p>
+
+- name: Pablo Collada
+  firstname: Pablo
+  job:  Sociologist
+  projects: false
+  bio: >
+    <p>Pablo is a Mexican sociologist. For the past 16 years he has worked on Social Development issues mainly in civic engagement and technology, education and youth projects either in the public sector or the civil society arena. His previous work includes serving as Executive Director of Fundación Ciudadano Inteligente in Chile, an organization with projects in more than 10 countries in Latin America promoting democratic strengthening through advocacy, transparency, participation and the use of civic tech. He was also head of the Research Area for the Lab for the City initiative in Mexico City, where he was part of the development of the subnational Open Government Plan. </p>
+
+- name: Rod Glover
+  firstname: Rod
+  job: Senior Fellow
+  projects: false
+  bio: >
+    <p> Professor Rod Glover is a Senior Fellow at the GovLab. Rod is Professor of Practice and head of Enterprise at Monash Sustainable Development Institute in Melbourne, Australia. In this capacity, he drives innovation and entrepreneurship in support of achieving the Sustainable Development Goals (SDGs). Rod is also a member of the National Sustainable Development Council, which examines Australia’s progress in achieving the SDGs and provides insights to governments, business, academia and civil society on the nature of new challenges and new approaches to meeting them.</p>
+    <p> Rod has been Senior Adviser to an Australian Prime Minister, Senior Economic Adviser to Australia’s Shadow Treasurer, and Deputy Secretary for Innovation and Projects in Victoria’s Department of Premier and Cabinet. He has also worked for some of the world’s leading innovation agencies in London and San Francisco. He was chair of the education charity Hands on Learning Australia (focused on breaking the cycle of educational disadvantage) and is co-founder of an edutech startup that seeks to radically expand access to adult education. </p>
+    <p> Rod has been a Director of the Victorian Government’s Centre of Excellence in Intervention and Prevention Science (in public health) and a member of the Australian Government’s National Sustainability Council. He is now on the Board of Save the Children Australia, where he focuses on scaling internal businesses for global impact. Rod has driven the development of major policy frameworks in Australia, including the COAG National Reform Agenda (a $130 billion redesign of the framework of Commonwealth-State relations) and the Australian Government’s Industry and Innovation Statement. He has also designed and supported the establishment of new innovation agencies across a number of jurisdictions.</p>

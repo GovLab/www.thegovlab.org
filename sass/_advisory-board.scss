@@ -1,0 +1,234 @@
+#advisory-board .b-top-nav { background-color: $teal-20k; }
+
+#advisory-board .b-top-section {
+    background-color: $teal;
+
+    h2, h3 {
+        text-align: center;
+        color: $white-60;
+    }
+
+    h1 {
+        background-color: $teal;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 100;
+        font-size: 30px;
+        padding-bottom: 20px;
+
+
+    }
+}
+
+.b-advisory-board {
+    padding-top: 10px;
+
+    h1 {
+        margin-top: 0;
+        color: $white-80;
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+        color: $white-70;
+        font-size: 22px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        padding: 0 0 20px;
+    }
+
+
+.e-board-list {
+    background-color: $white;
+
+}
+
+.e-board-member {
+    min-height: 300px;
+    margin: 0;
+    position: relative;
+    height: auto;
+    border-bottom: 1px solid $gray-10;
+
+    h3, h4, p {
+        color: $gray-80;
+        margin: 0;
+    }
+
+    h3 {
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    h4 {
+        font-weight: 400;
+        text-transform: uppercase;
+        color: $gray-50;
+        margin-bottom: 20px;
+    }
+
+    .e-wrap {
+        @include wrap;
+        display: -webkit-flex;
+        display: flex;
+        position: relative;
+        z-index: 1;
+
+        @include breakpoint($mobile-only) {
+            -webkit-flex-flow: column;
+            flex-flow: column;
+        }
+
+    }
+
+    .e-info,
+    .e-bio { margin: 20px; }
+
+    .e-info {
+        -webkit-flex: 1;
+        flex: 1;
+        order: 1;
+    }
+
+    .e-bio {
+        -webkit-flex: 4;
+        flex: 4;
+        order: 1;
+        @include breakpoint($desktop) { max-height: 500px;}
+        @include breakpoint($mobile-only) { max-height: 1000px;}
+        height: auto;
+        @include transition;
+
+        .b-button.m-less { display: none; }
+        .b-button.m-hide {
+            display: none;
+            margin-bottom: 10px;
+        }
+        .e-project {
+            display: none;
+            padding: 10px;
+            border-bottom: 1px solid $gray-10;
+            cursor: pointer;
+
+            &:hover {
+                background-color: $gray-05;
+            }
+
+            &:last-child {
+                border-bottom: none;
+            }
+        }
+
+        &.m-active {
+            max-height: 4000px;
+            @include transition;
+
+            .b-button.m-more { display: none; }
+            .b-button.m-less { display: inline-block; }
+        }
+
+        &.m-show {
+            max-height: 4000px;
+            @include transition;
+
+            .e-project { display: block; }
+
+            .b-button.m-show{ display: none;}
+            .b-button.m-hide { display: inline-block; }
+        }
+
+        p { margin-bottom: 15px; }
+
+        p:not(:first-of-type) { display: none; }
+
+        p:only-of-type ~ .m-more { display: none; }
+
+        &.m-active p { display: block; }
+
+        .b-button { color: $purple; }
+
+        a:hover {
+            @include transition;
+            color: $purple-40k;
+        }
+    }
+}
+
+.e-board-picture {
+    z-index: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 30px auto 0;
+    height: 180px;
+    width: 180px;
+    @include circle;
+
+    @include breakpoint($desktop) {
+        position: absolute;
+        left: -80px;
+        top: 0;
+        height: 220px;
+        width: 220px;
+        margin: 20px 50px;
+    }
+}
+
+
+
+
+
+    .e-person-pic {
+        background-color: $white-20;
+        margin: 0;
+
+        @include breakpoint($mobile-only) {
+            width: 70%;
+            height: 0;
+            padding-bottom: 70%;
+        }
+
+        display: inline-block;
+        min-height: 120px;
+        min-width: 120px;
+        background-size: cover;
+        background-position: center center;
+        @include circle;
+
+        @include breakpoint($desktop) {
+            height: 150px;
+            width: 150px;
+            margin: 0 20px;
+        }
+    }
+
+    .e-team-info {
+        vertical-align: top;
+        letter-spacing: .5px;
+    }
+
+    .e-team-name {
+        margin: 0;
+        font-weight: 600;
+        font-size: 18px;
+        color: $white-70;
+    }
+
+    .e-team-job {
+        margin: 0;
+        font-weight: 400;
+        line-height: 1;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: $white-40;
+    }
+}
+
+// #beth-simone-noveck, #stefaan-verhulst {
+
+    // .b-button { display: inline-block; }
+// }

@@ -1,0 +1,44 @@
+{% extends "_base.html" %}
+{% block page_id %}advisory-board{% endblock %}
+{% block og %}
+<title>The GovLab | Global Advisory Board</title>
+    <meta content="The GovLab | Global Advisory Board" property="og:title"/>
+    <meta content="Deepening our understanding of how to govern
+    more effectively and legitimately through technology." property="og:description">
+{% endblock %}
+{% block content %}
+<div class="b-advisory-board">
+
+  <section class="b-top-section">
+      <header>
+          <h1>Global Advisory Board Members</h1>
+      </header>
+  </section>
+
+    <section class="e-board-list">
+
+        {% for person in advisory_board %}
+        <a name="{{person.name | slug}}"></a>
+            <div class="e-board-member" id="{{person.name | slug }}">
+                <div class="e-wrap">
+                    <div class="e-board-picture" style="background-image: url('./static/img/advisory-board/{{person.name | slug}}.jpg')"></div>
+                    <div class="e-info">
+
+                    </div>
+                    <div class="e-bio">
+                        <h3>{{person.name}}</h3>
+                        <h4>{{person.job}}</h4>
+
+                        {{person.bio}}
+
+                        <div class="b-button m-more m-naked js-bio-toggle">More <i class="material-icons"><i class="material-icons">keyboard_arrow_down</i></i></div>
+                        <div class="b-button m-less m-naked js-bio-toggle">Less <i class="material-icons"><i class="material-icons">keyboard_arrow_up</i></i></div>
+
+
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+      </section>
+</div>
+{% endblock %}
