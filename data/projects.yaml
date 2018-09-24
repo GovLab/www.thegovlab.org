@@ -2468,6 +2468,242 @@
 
 # ==========================================================================================================================================================================================================================================#
 
+- title: Blockchain and Extractives Governance #will generate slug from this attr
+  rank: 1
+  image: blockchange-logo.png
+  type: '' # Data, Collective Intelligence or Design Thinking
+  is_featured: 0 #integer
+  is_active: True
+  related_question: 8 #question
+  project_website: 'https://blockchan.ge' #url
+  location:
+    - United States
+  partners:
+    - National Resource Governance Institute, Rockefeller Foundation
+  team:
+    - Stefaan Verhulst
+    - Andrew Young
+    - Daniella Heard
+  tags:
+    governance_area:
+        - Global Governance
+    type_of_institution:
+        - International Organizations
+        - Civil Society
+        - Industry
+        - National Government
+    innovative_capability:
+        - Blockchain
+    product_category:
+        - Case Studies
+        - Event/workshop
+        - Report
+  status: complete # define, prototype, test, complete
+  problem_statement: How Might Blockchain Technologies Impact the Governance of Natural Resource Extraction?  #question
+  short_description:
+  tooltip:
+  long_description: >
+    <p>In order to take stock of the current practice and narratives surrounding the promise of blockchain in the extractives sector, The GovLab -- with support from the Natural Resource Governance Institute (NGRI) -- sought to explore blockchain’s potential impact on governance across the extractives decision chain, especially with respect to transparency and accountability objectives. The resultant report – The Practice and Promise of Blockchain Technologies for Extractives Governance – was developed through detailed desk research of current practice complemented with a comprehensive literature review.</p>
+    <p>In addition, a team of researchers based at the GovLab and NRGI staff members, conducted in-depth interviews with experts on the governance of extractives, blockchain technologies, and the nexus of the two. The desk research and interviews informed the design and facilitation of an Expert Meeting on Blockchain Technologies and the Governance of the Extractives Value Chain, organized by the GovLab and NRGI, and hosted at the OpenGov Hub in Washington, D.C on July 12th 2018. </p>
+  background: >
+    <p>Although there is growing excitement (or hype) around the use of blockchain and distributed ledger technologies (DTLs) for creating meaningful industry change, questions remain on whether and how they can create value. Currently, the field is characterized by an “if you build it they will come” logic; faith that by applying blockchain technologies to identity management and other needs, it will have positive impact. To yield a more actionable understanding of whether and how blockchain and other DLTs can propel such changes, we need to move from a faith-based to an evidence-based approach. By providing new ways to securely identify individuals and organizations, and record transactions of various types in a distributed manner, blockchain technologies have been heralded as a new tool to address information asymmetries, establish trust and improve governance – especially around the extraction of oil, gas and other natural resources.</p>
+  social_media: #in the future we can have custom shareable messages for each project
+  images: #images or screenshots of the project
+  results:
+  related_articles:
+    - name: 'Selected Readings on blockchain and identity'
+      url: 'http://thegovlab.org/the-govlab-selected-readings-on-blockchain-and-identity/'
+    - name: 'Selected Readings on blockchain technology and its potential for transforming governance'
+      url: 'http://thegovlab.org/the-govlab-selected-readings-on-blockchain-technology-and-its-potential-for-transforming-governance/'
+    - name: 'NRGI'
+      url: 'https://resourcegovernance.org/'
+
+
+
+# ==========================================================================================================================================================================================================================================#
+- title: Data Stewards Network #will generate slug from this attr
+  rank: 6
+  image: data-stewards.png
+  type: '' # Data, Collective Intelligence or Design Thinking
+  is_featured: 0 #integer
+  is_active: True
+  related_question: 2 #question
+  project_website: 'https://datastewards.net' #url
+  location:
+    - Global
+  partners:
+    - BrightFront Group
+    - Adapt
+  team:
+    - Stefaan Verhulst
+    - Andrew Young
+    - Ayushi Roy
+  tags:
+    governance_area:
+        - National Governance
+        - Regional Governance
+        - Municipal Governance
+        - Global Governance
+    type_of_institution:
+        - Corporate/Business
+        - International Organizations
+        - Government
+        - Public Sector
+    innovative_capability:
+        - Expert Networks
+        - Data Collaboratives
+    product_category:
+        - Network
+        - Platform
+        - Event/Workshop
+  status: prototype # define, prototype, test, complete
+  problem_statement: How can the potential value of privately held data be unlocked and used for public good?   #question
+  short_description:
+  tooltip:
+  long_description: >
+    <p>By establishing Data Stewardship as a function, recognized within the private sector as a valued responsibility, the practice of Data Collaboratives can become more predictable, scaleable, sustainable and de-risked. The GovLab is launching a first-of-its-kind Data Stewards Network, bringing together responsible data leaders from across corporations to share knowledge and jointly advance a new, more professionalized approach for data collaboration. Together with BrightFront Group and Adapt, we are:</p>
+    <li>Exploring the needs and priorities of current private sector Data Stewards who act as change agents within their firms. Responsible for determining what, when, how and with whom to share private data for public good, these individuals are critical catalysts for ensuring insights are turned into action.</li>
+    <li>Identifying and connecting existing Data Stewards across sectors and regions to create an online and in-person community for exchanging knowledge and best practices.</li>
+    <li>Developing methodologies, tools and frameworks to use data more responsibly, systematically and efficiently to decrease the transaction cost, time and energy currently needed to establish Data Collaboratives.</li>
+  background: >
+    <p>Increasingly, the private sector is collaborating with the public sector and researchers on ways to use private-sector data and analytical expertise for public good. With these new practices of data collaborations come the need to reimagine roles and responsibilities to steer the process of using private data, and the insights it can generate, to address some of society’s biggest questions and challenges. Today, establishing and sustaining these new collaborative and accountable approaches requires significant and time-consuming effort and investment of resources for both data holders on the supply side, and institutions that represent the demand.</p>
+  social_media: #in the future we can have custom shareable messages for each project
+  images: #images or screenshots of the project
+  results:
+  related_articles:
+    - name: 'Data Stewards: Data Leadership to Address the Challenges of the 21st Century'
+      url: 'http://thegovlab.org/data-stewards-data-leadership-to-address-the-challenges-of-the-21st-century/'
+    - name: 'Data Collaboratives'
+      url: 'http://datacollaboratives.org/'
+    - name: 'BrightFront Group'
+      url: 'http://www.brightfrontgroup.com/'
+    - name: 'Adapt'
+      url: 'http://www.weareadapt.io/'
+
+
+# ==========================================================================================================================================================================================================================================#
+
+- title: Data Responsibility #will generate slug from this attr
+  rank: 7
+  image: data-stewards.png
+  type: '' # Data, Collective Intelligence or Design Thinking
+  is_featured: 0 #integer
+  is_active: True
+  related_question: 2 #question
+  project_website: 'https://datastewards.net' #url
+  location:
+    - Global
+  partners:
+    - Hewlett Foundation
+    - WeAdapt
+  team:
+    - Stefaan Verhulst
+    - Andrew Young
+  tags:
+    governance_area:
+        - National Governance
+        - Regional Governance
+        - Municipal Governance
+        - Global Governance
+    type_of_institution:
+        - Corporate/Business
+        - International Organizations
+        - Government
+        - Public Sector
+    innovative_capability:
+        - Expert Networks
+        - Data Collaboratives
+        - Collective Intelligence
+        - Open Data
+    product_category:
+        - Strategy
+        - Data sets
+        - Platform
+        - Event/workshop
+        - Website
+  status: prototype # define, prototype, test, complete
+  problem_statement: How can privately held data be shared responsibly for social good through cross sector collaboration? #question
+  short_description:
+  tooltip:
+  long_description: >
+    <p>The program seeks to develop methodologies, tools and frameworks to share data responsibility and systematically - leveraging existing insights and assessments - so that a decrease in the transaction cost, time and energy can be established for data collaboratives between private and public sectors. There are three core pillars of data responsibility:</p>
+    <li>Duty to Share: Corporations must act on this need and recognize the potential value of data in order to help improve people’s lives.</li>
+    <li>Duty to Protect: if precautions aren’t taken, sharing data can be more harmful than beneficial. Oftentimes, people are worried about data-sharing for such reasons; but what makes data protection more complex is data application in different contexts. The issue is much larger than privacy at the point of sharing -- we must be concerned about mitigating risks across the data life cycle: collection stage, processing stage, sharing stage, analyzing stage, and the using stage.</li>
+    <li>The Duty to Act: there are often many projects occurring simultaneously that release new insights, and yet, too often they are not acted upon. To leverage this untapped value, we need a new framework for data responsibility that’s comprised of these three core pillars -- otherwise, we run the risk of losing data assets that serve public good.</li>
+  background: >
+    <p>There are many predictable, repeatable uses for uses for privately held corporate data to serve public good. However, the processes to access and effectively use such data remains almost completely ad-hoc. Establishing “data collaboratives” and leveraging privately-held data for evidence based policy making is onerous, generally one-off, not informed by best practices or any shared knowledge base.</p>
+  social_media: #in the future we can have custom shareable messages for each project
+  images: #images or screenshots of the project
+  results:
+  related_articles:
+    - name: 'Data Collaboratives'
+      url: 'http://datacollaboratives.org/'
+    - name: 'Adapt'
+      url: 'http://www.weareadapt.io/'
+    - name: 'Hewlett Foundation'
+      url: 'https://hewlett.org/strategy/citizen-voices-and-evidence-informed-policy/'
+
+
+# ==========================================================================================================================================================================================================================================#
+
+- title: Open Data Demand #will generate slug from this attr
+  rank: 5
+  image: odimpact.png
+  type: '' # Data, Collective Intelligence or Design Thinking
+  is_featured: 0 #integer
+  is_active: True
+  related_question: 1 #question
+  project_website: 'http://odimpact.org/ ' #url
+  location:
+    - Global
+  partners:
+    - Omidyar Network
+    - Reboot
+    - Mayor's Fund to Advance New York City
+    - NYC Open Data
+    - NYC Analytics
+    - USAID
+    - Global Development Lab
+  team:
+    - Stefaan Verhulst
+    - Andrew Young
+    - Michelle Winowatan
+  tags:
+    governance_area:
+        - National Governance
+        - Municipal Governance
+        - Global Governance
+    type_of_institution:
+        - Government
+    innovative_capability:
+        - Expert Networks
+        - Open Innovation
+        - Collective Intelligence
+        - Open Data
+    product_category:
+        - Case Studies
+  status: test # define, prototype, test, complete
+  problem_statement: How can you leverage government data to create a knowledge base for solving problems? #question
+  short_description:
+  tooltip:
+  long_description: >
+    <p>The GovLab’s Open Data Demand Assessment and Segmentation Methodology provides open data policymakers and practitioners with an approach for identifying, segmenting, and engaging with demand. This process specifically seeks to empower data champions within public agencies who want to improve their data’s ability to improve people’s lives. We narrowed our methodology to just six steps to enable open data champions to repeatedly map the current and future demand for open data within their country or city. Previous work examining the global impacts of open data at the GovLab and a six-month, hands-on project with the Inter-American Development Bank informed this methodology.</p>
+  background: >
+    <p>Across the world, significant time and resources are being invested in making government data accessible to all with the broad goal of improving people’s lives. The 2016 Open Data Barometer found that 79 out of 115 countries examined have an open data portal. As of September 2017, Data.gov, the United States’ open data portal, provides access to 302,614 datasets. Meanwhile, 54 countries across the globe have adopted the International Open Data Charter.</p>
+    <p>Evidence of open data’s impact—on improving governance, empowering citizens, creating economic opportunity, and solving public problems—is emerging and is largely encouraging.</p>
+    <p>Yet much of the potential value of open data remains untapped, in part because we often do not understand who is using open data or, more importantly, who is not using open data but could benefit from the insights it may generate. By identifying, prioritizing, segmenting, and engaging with the actual and future demand for open data in a systemic and systematic way, practitioners can ensure that open data is more targeted.</p>
+  social_media: #in the future we can have custom shareable messages for each project
+  images: #images or screenshots of the project
+  results:
+  related_articles:
+    - name: 'Periodic Table of Open Data'
+      url: 'http://odimpact.org/periodic-table'
+    - name: 'Omidyar Network'
+      url: 'https://www.omidyar.com/'
+
+
+# ==========================================================================================================================================================================================================================================#
+
 # - title:  #will generate slug from this attr
 #   rank: 0
 #   type: '' # Data, Collective Intelligence or Design Thinking

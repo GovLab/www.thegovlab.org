@@ -29,6 +29,13 @@
   redirect: people-led-innovation.html
   thumbnail: bertelsmann-report-cover.png
 
+- title: "CrowdLaw: Online Public Participation in Lawmaking"
+  author: "Beth Simone Noveck and Gabriella Capone"
+  date: October 2017
+  timestamp: 1506816000
+  file: crowd-law.pdf
+  thumbnail: crowd-law.png
+
 - title: "Open Data in Developing Economies: Toward Building an Evidence Base on What Works and How"
   author: "Stefaan Verhulst and Andrew Young"
   date: October 2017
@@ -230,5 +237,3 @@
   file: psi_Information-for-Impact.pdf
   thumbnail: psi_Information-for-Impact-thumbnail.png
   tracking_class: file-psi-information-for-impact
-
-
