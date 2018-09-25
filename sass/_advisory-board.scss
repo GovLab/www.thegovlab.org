@@ -1,6 +1,6 @@
-#advisory-board .b-top-nav { background-color: $teal-20k; }
+#global-advisory-council .b-top-nav { background-color: $teal-20k; }
 
-#advisory-board .b-top-section {
+#global-advisory-council .b-top-section {
     background-color: $teal;
 
     h2, h3 {
@@ -20,7 +20,7 @@
     }
 }
 
-.b-advisory-board {
+.b-global-advisory-council{
     padding-top: 10px;
 
     h1 {
@@ -42,12 +42,12 @@
     }
 
 
-.e-board-list {
+.e-globlal-advisory-council-list {
     background-color: $white;
 
 }
 
-.e-board-member {
+.e-global-advisory-council-member {
     min-height: 300px;
     margin: 0;
     position: relative;
@@ -158,7 +158,7 @@
     }
 }
 
-.e-board-picture {
+.e-global-advisory-picture {
     z-index: 0;
     background-size: cover;
     background-repeat: no-repeat;
