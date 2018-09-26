@@ -99,4 +99,57 @@
 
 }
 
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 1024px) {
+  .column {
+      float: none;
+      width: 100%;
+  }
+  .e-wrap-col{
+    padding-top: 20px;
+}
+  .b-fold {
+      position: absolute;
+      bottom: -60px;
+
+  }
+  .b-button {
+    margin-bottom: 20px;
+  }
+  .b-main-image-col {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90vw
+  }
+}
+
+.e-wrap-col {
+  @include wrap;
+  padding-top: 60px;
+
+  & > div {
+      max-width: 900px;
+      margin: 0 auto;
+      .b-main-image-col {
+          margin-right: auto;
+          margin-bottom:auto;
+          padding-top: 50px;
+          max-width: 30vw;
+      }
+
+}
+
+}
+
 }
