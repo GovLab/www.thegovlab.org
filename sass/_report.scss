@@ -100,23 +100,27 @@
 }
 
 .column {
+    display: table-cell;
     float: left;
+    vertical-align: middle;
     width: 50%;
 }
 
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+.row {
+    display: table-row;
 }
 @media screen and (max-width: 1024px) {
   .column {
-      float: none;
       width: 100%;
+      margin-left: 20px;
   }
   .e-wrap-col{
     padding-top: 20px;
+    align-content: center;
+    margin-left: 20px;
+}
+.e-wrap{
+  align-content: center;
 }
   .b-fold {
       position: absolute;
@@ -144,7 +148,7 @@
       .b-main-image-col {
           margin-right: auto;
           margin-bottom:auto;
-          padding-top: 50px;
+          padding-top: 10px;
           max-width: 30vw;
       }
 
