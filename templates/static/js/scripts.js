@@ -256,7 +256,7 @@ $.get('http://thegovlab.org/featured-website/feed/', function(xml) {
         });
     });
     render(posts);
-});
+}).error(function(d,e) { console.log(e); });
 
 
 // functions for the effect on the homepage main banner
