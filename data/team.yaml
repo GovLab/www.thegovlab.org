@@ -159,13 +159,13 @@
 #   bio: >
 #     <p>A senior at Arizona State University, Audrie Pirkl is pursuing concurrent degrees in Global Politics and Public Service & Public Policy, as well as certificates in International Business, Leadership in Business, and Public Administration & Public Management within the W.P. Carey School of Business. Prior to interning with The GovLab at NYU, she studied globalization and its international effects at the Alliance Manchester Business School in the United Kingdom. With a particular interest in Panopticism in the modern city, Audrie is also working with the Center for Policy Informatics to draw connections between millennial identity and accountability by measuring empathy levels within various communities.</p>
 
-- name: Claudio Mendonca
-  firstname: Claudio
-  job: Creative Director
-  projects: true
-  bio: >
-    <p>Claudio Mendonca is the Creative Director at the GovLab where he is responsible for branding and interaction design of the digital projects. Working as a visual communicator for more than 10 years, he earned his Bachelor’s degree in Graphic Design in 2005. He has extensive experience in branding and interaction design, including 3 years developing graphical material for several government institutions in Brazil, publications and interface design for startups.</p>
-    <p>Outside of his work at The GovLab, Claudio also designs webapps for the Centre of Direct Democracy and works as a design consultant for the World Bank Institute for several open gov projects such as Open Government, Open Contracting, Open Development and Technology Alliance. He can be found at http://claudiomendonca.ca/.</p>
+# - name: Claudio Mendonca
+#   firstname: Claudio
+#   job: Creative Director
+#   projects: true
+#   bio: >
+#     <p>Claudio Mendonca is the Creative Director at the GovLab where he is responsible for branding and interaction design of the digital projects. Working as a visual communicator for more than 10 years, he earned his Bachelor’s degree in Graphic Design in 2005. He has extensive experience in branding and interaction design, including 3 years developing graphical material for several government institutions in Brazil, publications and interface design for startups.</p>
+#     <p>Outside of his work at The GovLab, Claudio also designs webapps for the Centre of Direct Democracy and works as a design consultant for the World Bank Institute for several open gov projects such as Open Government, Open Contracting, Open Development and Technology Alliance. He can be found at http://claudiomendonca.ca/.</p>
 
 # - name: Christopher Wong
 #   firstname: Christopher
