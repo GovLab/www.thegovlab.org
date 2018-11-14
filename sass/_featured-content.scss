@@ -243,6 +243,37 @@
     }
 }
 
+.b-featured-content-wrapper.m-publication { background-color: $blue; }
+
+.b-featured-content.m-publication {
+    background-color: $blue;
+
+    // header { background-color: $gray-10; }
+    .e-banner-control { top: 48%; }
+    .e-content {
+        img {
+            width: 250px;
+            display: block;
+            margin: 0 auto 20px auto;
+        }
+        @include breakpoint($desktop) { height: 370px; }
+    }
+    // .e-project-name {
+    //     font-size: 32px;
+    // }
+    .e-action.m-centered {
+        width: 250px;
+        margin: 0 auto;
+    }
+    .m-action-centered {
+        margin-left: -30px;
+    }
+    .m-action-centered:hover {
+        margin-left: -20px;
+    }
+
+}
+
 .b-featured-content.m-event {
     background-color: $purple;
     background-repeat: no-repeat;

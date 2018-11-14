@@ -97,6 +97,7 @@ class ReloadingContext(FileSystemEventHandler):
         dic['publications'] = load(open(_PUBLICATIONS))
         dic['events_slider_counter'] = 0
         dic['projects_slider_counter'] = 0
+        dic['publications_slider_counter'] = 3
 
         for x in dic['events']:
             x['date'] = datetime.strptime(x['date'], '%m-%d-%Y').date()

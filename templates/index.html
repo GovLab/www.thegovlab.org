@@ -17,8 +17,9 @@ The GovLab:   -->
             <h2>Projects</h2>
             <p class="e-explanation">See how the GovLab is transforming governance around the world</p>
         </a><!-- Collapsing 4px space
-     --><a href="http://thegovlab.org/category/blog/" target="_blank" class="e-govlab-front m-observatory">
-            <h2>Observatory</h2>
+     --><a href="https://thelivinglib.org/" target="_blank" class="e-govlab-front m-observatory">
+            <h2>The Living Library</h2>
+            <!-- <img class="index-nav-image" src="./static/img/living-lib-logo.png"> -->
             <p class="e-explanation">Learn and stay up-to-date on emerging forms of governance innovation</p>
         </a><!-- Collapsing 4px space
      --><a href="http://govlabacademy.org" target="_blank" class="e-govlab-front m-academy">
@@ -168,7 +169,7 @@ The GovLab:   -->
             <div class="e-wrap">
                 <div>
                     <h4><strong>Subscribe</strong>
-                    The GovLab Digest</h4>
+                    To The Digest</h4>
                     <p>A weekly curation of new findings and developments on innovation in governance</p>
                 </div>
 
@@ -180,8 +181,62 @@ The GovLab:   -->
                 </form>
             </div>
             <div class="e-wrap">
-                <p><a href="http://thegovlab.org/category/govlab-digest/" target="_blank" class="b-button m-naked">Go to Digest<i class="material-icons">arrow_forward</i></a></p>
+                <p><a href="https://thelivinglib.org/" target="_blank" class="b-button m-naked">Go to Digest<i class="material-icons">arrow_forward</i></a></p>
             </div>
+        </div>
+
+        <div class="b-featured-content-wrapper m-publication">
+        <div class="e-banner-container">
+            {% for publication in publications %}
+            {% if loop.index <= 3 %}
+                <section id="{{publication.title|slug}}" class="b-featured-content m-publication">
+                    <header>
+                        <div class="e-banner-controls">
+                            <i class="material-icons e-banner-control m-prev">keyboard_arrow_left</i>
+                            <i class="material-icons e-banner-control m-next">keyboard_arrow_right</i>
+                        </div>
+                        <div class="e-wrap">
+                            <div class="e-banner-index">
+                                {% set outer_loop = loop %}
+
+                                {% for x in range(publications_slider_counter) %}
+                                    <span{% if outer_loop.index == loop.index %} class="m-active"{% endif %}></span>
+                                {% endfor %}
+                            </div>
+                            <h4>Featured Publication</h4>
+                        </div>
+                    </header>
+
+                    <div class="e-wrap">
+                        <div>
+                            <div class="e-half">
+                                <div class="e-content">
+                                    <h2 class="e-article-name">{{publication.title}}</h2>
+                                    <p class="e-byline">By: <strong>{{publication.author}}</strong></p>
+                                </div>
+                            </div>
+                            <div class="e-half">
+                                <div class="e-content">
+                                    {% if publication.thumbnail %} <a href="{% if publication.file %}./static/files/publications/{{publication.file}}{% else %}{{publication.redirect}}{% endif %}"><img src="./static/files/publications/{{publication.thumbnail}}"></a> {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="e-action-group">
+                            <div class="e-half">
+                                <div class="e-action">
+                                    <a class="b-button m-naked" href="./publications.html">All Publications<i class="material-icons">arrow_forward</i></a>
+                                </div>
+                            </div>
+                            <div class="e-half">
+                                <div class="e-action m-centered">
+                                    <a class="b-button m-naked m-action-centered" href="{% if publication.file %}./static/files/publications/{{publication.file}}{% else %}{{publication.redirect}}{% endif %}">Read more<i class="material-icons">arrow_forward</i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                {% endif %}
+                {% endfor %}
         </div>
 
     <div class="b-featured-content-wrapper m-project">

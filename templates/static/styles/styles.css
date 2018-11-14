@@ -234,6 +234,12 @@ button:focus {
   #overlay.m-active {
     display: block; }
 
+.index-nav-image {
+  width: 100%;
+  display: block;
+  margin: 0.83em 0;
+  padding: 2px 20px; }
+
 .b-button {
   padding: 15px 20px;
   display: inline-block;
@@ -362,7 +368,7 @@ button:focus {
       background-color: #008895; }
       @media (min-width: 1025px) {
         .b-govlab-fronts .e-govlab-front.m-observatory {
-          background-image: url("../img/fronts-observatory.png"); } }
+          background-image: url("../img/fronts-living-lib.png"); } }
     .b-govlab-fronts .e-govlab-front.m-academy {
       background-color: #ee5b43; }
       @media (min-width: 1025px) {
@@ -564,6 +570,28 @@ button:focus {
   @media (min-width: 1025px) {
     .b-featured-content.m-project .e-content {
       height: 370px; } }
+
+.b-featured-content-wrapper.m-publication {
+  background-color: #008ab3; }
+
+.b-featured-content.m-publication {
+  background-color: #008ab3; }
+  .b-featured-content.m-publication .e-banner-control {
+    top: 48%; }
+  .b-featured-content.m-publication .e-content img {
+    width: 250px;
+    display: block;
+    margin: 0 auto 20px auto; }
+  @media (min-width: 1025px) {
+    .b-featured-content.m-publication .e-content {
+      height: 370px; } }
+  .b-featured-content.m-publication .e-action.m-centered {
+    width: 250px;
+    margin: 0 auto; }
+  .b-featured-content.m-publication .m-action-centered {
+    margin-left: -30px; }
+  .b-featured-content.m-publication .m-action-centered:hover {
+    margin-left: -20px; }
 
 .b-featured-content.m-event {
   background-color: #523080;

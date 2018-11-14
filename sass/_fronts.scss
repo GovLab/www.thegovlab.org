@@ -25,8 +25,8 @@
             position: relative;
         }
 
-        h2 { 
-            text-transform: uppercase; 
+        h2 {
+            text-transform: uppercase;
             font-weight: 600;
         }
 
@@ -36,9 +36,9 @@
             top: 100%;
             @include transition;
 
-            @include breakpoint($desktop) { 
+            @include breakpoint($desktop) {
                 padding: 120px 15px;
-                height: 110%; 
+                height: 110%;
                 position: absolute;
                 background-color: $gray-80;
 
@@ -60,7 +60,8 @@
         }
         &.m-observatory {
             background-color: $teal;
-            @include breakpoint($desktop) { background-image: url("../img/fronts-observatory.png"); }
+            @include breakpoint($desktop) { background-image: url("../img/fronts-living-lib.png"); }
+            // @include breakpoint($desktop) { background-image: url("../img/fronts-observatory.png"); }
         }
         &.m-academy {
             background-color: $orange;
