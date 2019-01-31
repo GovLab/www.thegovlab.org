@@ -130,12 +130,12 @@
   bio: >
     <p>Auralice works in the social development space, focusing in particular on governance, technology and climate change. She has worked with the GovLab since 2015, where she researches and writes about open justice, open data and block chain technologies. Auralice also works on climate change issues in India, where she lives, looking at the point at which urban growth and advancing climate change intersect, and the policy imperatives that arise out of that intersection.</p>
 
-- name: Ayushi Roy
-  firstname: Ayushi
-  job: Summer Research Assistant
-  projects: false
-  bio: >
-    <p>Ayushi Roy is a graduate student in the Department of Urban Studies and Planning at MIT. Ayushi is building out GovLab’s Data Stewardship Network to help harness the potential of private data toward public ends. </p>
+# - name: Ayushi Roy
+#   firstname: Ayushi
+#   job: Summer Research Assistant
+#   projects: false
+#   bio: >
+#     <p>Ayushi Roy is a graduate student in the Department of Urban Studies and Planning at MIT. Ayushi is building out GovLab’s Data Stewardship Network to help harness the potential of private data toward public ends. </p>
 
 
 # - name: Atul Varma
@@ -203,19 +203,19 @@
 #   projects: true
 #   bio: >
 #     <p>Denny Tek is a Developer at the GovLab. She enjoys working on projects that empower and connect communities. She is also a volunteer teacher with ScriptEd, an organization that brings web development classes and internship opportunities to students in under-resourced high schools in NYC. Prior to joining the GovLab, Denny developed and commissioned scholarly works on music for a global academic publisher. She has a B.F.A. in Music Technology from the City College of New York.</p>
-- name: Dane Gambrell
-  firstname: Dane
-  job: Summer Research Assistant
-  projects: false
-  bio: >
-    <p>Dane Gambrell is a junior studying Sustainable Urban Environments at NYU Tandon School of Engineering. He is researching case studies of public participation in lawmaking as part of the GovLab’s CrowdLaw project. </p>
+# - name: Dane Gambrell
+#   firstname: Dane
+#   job: Summer Research Assistant
+#   projects: false
+#   bio: >
+#     <p>Dane Gambrell is a junior studying Sustainable Urban Environments at NYU Tandon School of Engineering. He is researching case studies of public participation in lawmaking as part of the GovLab’s CrowdLaw project. </p>
 
-- name: Daniella Heard
-  firstname: Daniella
-  job: Summer Research Assistant
-  projects: false
-  bio: >
-    <p>Daniella Heard is a graduate student at Columbia University's School of International and Public Affairs, specializing in Technology, Economic Development and Public Policy. Daniella is working on GovLab’s data projects. In particular, the potential of distributed ledger technologies for governance of the extractives industry.</p>
+# - name: Daniella Heard
+#   firstname: Daniella
+#   job: Summer Research Assistant
+#   projects: false
+#   bio: >
+#     <p>Daniella Heard is a graduate student at Columbia University's School of International and Public Affairs, specializing in Technology, Economic Development and Public Policy. Daniella is working on GovLab’s data projects. In particular, the potential of distributed ledger technologies for governance of the extractives industry.</p>
 
 - name: Darshana Narayanan
   firstname: Darshana
@@ -406,12 +406,12 @@
 #   bio: >
 #     <p>Kaitlin is a Research Fellow at the GovLab, where she focuses on strategy, business development and program management for the team’s innovative new <a href="https://medium.com/smarter-crowdsourcing" target="_blank">Smarter Crowdsourcing</a> and City Challenges programs. She brings a decade of experience working on social justice issues, including over seven years of direct service to low-income youth and incarcerated individuals, as well as managing over a dozen impact-focused consulting projects with nonprofits and government organizations in the US and abroad.</p>
 #     <p>Kaitlin completed her MBA from Yale School of Management and her BA in History and Literature from Harvard College. Her MBA course work focused on the application of business and management practices to social enterprises, non-profits and government agencies. In 2016, she interned at the White House Domestic Policy Council, where she led projects on open data in policing and criminal justice. Prior to her MBA, Kaitlin worked as a consultant to a prison education non-profit, served as a college counselor for low-income youth in Boston Public Schools and worked as an associate consultant at a human capital management firm called AchieveMission. She is very passionate about community empowerment and criminal justice reform.</p>
-- name: Kajol Char
-  firstname: Kajol
-  job: Summer Research Assistant
-  projects: false
-  bio: >
-    <p>Kajol Char is a senior majoring in economics and minoring in human rights at the University of Chicago. Kajol is researching the future of work, looking into the social and economic effects of automation, artificial intelligence, and other technological developments.</p>
+# - name: Kajol Char
+#   firstname: Kajol
+#   job: Summer Research Assistant
+#   projects: false
+#   bio: >
+#     <p>Kajol Char is a senior majoring in economics and minoring in human rights at the University of Chicago. Kajol is researching the future of work, looking into the social and economic effects of automation, artificial intelligence, and other technological developments.</p>
 
 - name: Lauren Yu
   firstname: Lauren
@@ -424,7 +424,7 @@
 
 - name: Leonardo Ferreira de Oliveira
   firstname: Pablo
-  job: Visiting Researcher
+  job: Non-Resident Fellow
   projects: false
   bio: >
     <p>Leonardo Ferreira de Oliveira is a Visiting Researcher at The GovLab, where he focuses on how open data can create public value in the justice field. He is a Ph.D. candidate in Administration at the University of Brasília (UnB), with a research focus on innovation and strategy in justice systems. He also holds a B.A. and M.A. in Administration, both from UnB, where has participated in several research groups, including Innovation in Organizations of Justice and Strategic Use of Open Data. Since 2012, Leonardo has also worked as a lecturer for graduate and postgraduate courses in Public Administration and Management within the main universities of Brazil’s Federal District.</p>
@@ -481,12 +481,12 @@
   bio: >
     <p>Michelle is a Graduate Research Assistant at The GovLab, currently pursuing a Master's degree in Public Policy at NYU Wagner on a Fulbright scholarship. She holds a Bachelor's degree in International Relations from Universitas Pelita Harapan. Previously, she worked in the nonprofit sector in Indonesia where she developed and implemented a number of projects focusing on diversity, equality, inclusion, and conflict resolution.</p>
 
-- name: Mihai Avram
-  firstname: Mihai
-  job: Fellow
-  projects: false
-  bio: >
-    <p>Mihai Avram, LLM, is a Fellow at GovLab. He is the founder of a fundraising agency called Enable that currently operates in the Republic of Moldova. Mihai has experience in concepting, desiging and finding the right funding for social impact projects. Mihai's niche is digital solutions to community problems. Previous relevant areas of work include education, senior social inclusion and e-democracy.</p>
+# - name: Mihai Avram
+#   firstname: Mihai
+#   job: Fellow
+#   projects: false
+#   bio: >
+#     <p>Mihai Avram, LLM, is a Fellow at GovLab. He is the founder of a fundraising agency called Enable that currently operates in the Republic of Moldova. Mihai has experience in concepting, desiging and finding the right funding for social impact projects. Mihai's niche is digital solutions to community problems. Previous relevant areas of work include education, senior social inclusion and e-democracy.</p>
 
 # - name: Mark Rosenberg
 #   firstname: Mark
@@ -631,12 +631,12 @@
 
     <p>She tweets <a href="https://twitter.com/_victoriaalsina">@_VictoriaAlsina</a>.</p>
 
-- name: Vishala Pariag
-  firstname: Vishala
-  job: Summer Research Assistant
-  projects: false
-  bio: >
-    <p>Vishala Pariag is a rising junior in the Chemical and Biomolecular Engineering department at NYU Tandon School of Engineering. Vishala is working on the “Public Entrepreneurship” project at the GovLab.</p>
+# - name: Vishala Pariag
+#   firstname: Vishala
+#   job: Summer Research Assistant
+#   projects: false
+#   bio: >
+#     <p>Vishala Pariag is a rising junior in the Chemical and Biomolecular Engineering department at NYU Tandon School of Engineering. Vishala is working on the “Public Entrepreneurship” project at the GovLab.</p>
 
 # - name: Prianka Srinivasan
 #   firstname: Prianka
