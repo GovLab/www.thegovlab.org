@@ -93,7 +93,7 @@
 
 - name: Anirudh Dinesh
   firstname: Anirudh
-  job: Research/Tech Associate Fellow
+  job: Research Fellow
   projects: true
   bio: >
     <p>Anirudh Dinesh conducts research on governance innovation. He is a member of the team designing and piloting <a href="http://smartercrowdsourcing.org">experiments</a> for <a href="http://www.thegovlab.org/project-civic-challenges-san-pedro-garza-garcia.html">new models</a> of public engagement, what the GovLab calls people-led innovation, to improve the legitimacy and effectiveness of <a href="https://crowd.law">policy making</a> and solve urgent problems.</p>
@@ -112,23 +112,23 @@
 
     <p>Anirudh is an avid blogger and his writings can be found at <a href="http://www.dudurudh.com">www.dudurudh.com</a>.</p>
 
-- name: Anita McGahan
-  firstname: Anita
-  job: Senior Fellow
-  projects: false
-  bio: >
-    <p>Anita M. McGahan is a Senior Fellow at the GovLab. She is Professor and Rotman Chair in Management at the Rotman School of Management at the University of Toronto. She is cross appointed to the Munk School of Global Affairs and the Physiology Department of the Medical School; is Senior Associate at the Institute for Strategy and Competitiveness at Harvard University; is the Chief Economist in the Division of Health and Human Rights at the Massachusetts General Hospital; and is President of the Academy of Management. In 2013, she was elected by the Academy of Management’s 18,000+ membership to the Board of Governors and into the Presidency rotation. The Academy is the world’s largest organization of business-school professors and scholars. In 2014, she joined the MacArthur Foundation Research Network on Opening Governance. During her 2010-2015 appointment as the Director of Toronto’s PhD Program and as the Associate Dean of Research, the School’s PhD and research rankings internationally increased from #11 to #4 and #17 to #3, respectively.</p>
+# - name: Anita McGahan
+#   firstname: Anita
+#   job: Senior Fellow
+#   projects: false
+#   bio: >
+#     <p>Anita M. McGahan is a Senior Fellow at the GovLab. She is Professor and Rotman Chair in Management at the Rotman School of Management at the University of Toronto. She is cross appointed to the Munk School of Global Affairs and the Physiology Department of the Medical School; is Senior Associate at the Institute for Strategy and Competitiveness at Harvard University; is the Chief Economist in the Division of Health and Human Rights at the Massachusetts General Hospital; and is President of the Academy of Management. In 2013, she was elected by the Academy of Management’s 18,000+ membership to the Board of Governors and into the Presidency rotation. The Academy is the world’s largest organization of business-school professors and scholars. In 2014, she joined the MacArthur Foundation Research Network on Opening Governance. During her 2010-2015 appointment as the Director of Toronto’s PhD Program and as the Associate Dean of Research, the School’s PhD and research rankings internationally increased from #11 to #4 and #17 to #3, respectively.</p>
 
-    <p>McGahan earned both her PhD and AM at Harvard University in two years. She holds an MBA from the Harvard Business School, where she received highest academic honors as a Baker Scholar, and a BA from Northwestern University, where she was elected to Phi Beta Kappa. She also spent several years at both McKinsey & Company and Morgan Stanley & Company and was previously on the faculties of both Harvard Business School and Boston University. She has visited the Stanford Graduate School of Business, the London Business School, the Australian Graduate School of Management, and the Division of Social Medicine and Global Health at Harvard Medical School.</p>
+#     <p>McGahan earned both her PhD and AM at Harvard University in two years. She holds an MBA from the Harvard Business School, where she received highest academic honors as a Baker Scholar, and a BA from Northwestern University, where she was elected to Phi Beta Kappa. She also spent several years at both McKinsey & Company and Morgan Stanley & Company and was previously on the faculties of both Harvard Business School and Boston University. She has visited the Stanford Graduate School of Business, the London Business School, the Australian Graduate School of Management, and the Division of Social Medicine and Global Health at Harvard Medical School.</p>
 
-    <p>McGahan’s credits include three books and over 100 articles, case studies, notes and other published material on competitive advantage, industry evolution, and financial performance. Her current research emphasizes entrepreneurship in the public interest and innovative collaboration between public and private organizations. She is also pursuing a long-standing interest in how firms overcome industry disruption to achieve breakthrough performance. Her recent work emphasizes innovation in the governance of technology to improve global health. McGahan has been recognized as a master teacher for her dedication to the success of junior faculty and for her leadership in course development. In 2010, she was awarded the Academy of Management BPS Division’s Irwin Distinguished Educator Award and, in 2012, the Academy conferred on McGahan its Career Distinguished Educator Award for her championship of reform in the core curriculum of Business Schools. In 2012 she was elected a Fellow of the Strategic Management Society, and in 2015 she was elected a Fellow of the Academy of Management.</p>
+#     <p>McGahan’s credits include three books and over 100 articles, case studies, notes and other published material on competitive advantage, industry evolution, and financial performance. Her current research emphasizes entrepreneurship in the public interest and innovative collaboration between public and private organizations. She is also pursuing a long-standing interest in how firms overcome industry disruption to achieve breakthrough performance. Her recent work emphasizes innovation in the governance of technology to improve global health. McGahan has been recognized as a master teacher for her dedication to the success of junior faculty and for her leadership in course development. In 2010, she was awarded the Academy of Management BPS Division’s Irwin Distinguished Educator Award and, in 2012, the Academy conferred on McGahan its Career Distinguished Educator Award for her championship of reform in the core curriculum of Business Schools. In 2012 she was elected a Fellow of the Strategic Management Society, and in 2015 she was elected a Fellow of the Academy of Management.</p>
 
-- name: Auralice Graft
-  firstname: Auralice
-  job: Senior Fellow
-  projects: false
-  bio: >
-    <p>Auralice works in the social development space, focusing in particular on governance, technology and climate change. She has worked with the GovLab since 2015, where she researches and writes about open justice, open data and block chain technologies. Auralice also works on climate change issues in India, where she lives, looking at the point at which urban growth and advancing climate change intersect, and the policy imperatives that arise out of that intersection.</p>
+# - name: Auralice Graft
+#   firstname: Auralice
+#   job: Senior Fellow
+#   projects: false
+#   bio: >
+#     <p>Auralice works in the social development space, focusing in particular on governance, technology and climate change. She has worked with the GovLab since 2015, where she researches and writes about open justice, open data and block chain technologies. Auralice also works on climate change issues in India, where she lives, looking at the point at which urban growth and advancing climate change intersect, and the policy imperatives that arise out of that intersection.</p>
 
 # - name: Ayushi Roy
 #   firstname: Ayushi
@@ -226,12 +226,12 @@
     <p>Through Polis, Darshana works with organizations such as: the Governments of Canada, Taiwan and Singapore, think tank American Assembly, and the movement March On. With collaborators in the <a href="https://g0v.network">g0v-network</a>, she has conducted empirical research into <a href="https://osf.io/preprints/socarxiv/xyhft/">Taiwan’s open government practices</a> and is <a href="http://training.g0v.network">bringing Taiwan’s models to New York City</a>. Darshana was the Community Manager of the <a href="https://www.pdf-18.com">Personal Democracy Forum 2018</a>, where she also facilitated a workshop on <a href="https://www.pdf-18.com/session/new-approaches-to-democracy-in-the-digital-age/">"‘New Approaches to Democracy in the Digital Age'</a>. Darshana has a Ph.D. in Psychology & Neuroscience from Princeton University. She tweets @dznarayanan. </p>
 
 
-- name: David K. Chai
-  firstname: David
-  job: Senior Advisor
-  projects: false
-  bio: >
-    <p>David is a Senior Advisor at the GovLab.  He brings deep experience in politics, policy and management - having served and advised a President, Vice President, three governors and three big-city mayors. He worked as a communications aide in President Clinton’s White House; was Vice President Al Gore’s press secretary in California for the 2000 presidential campaign; served in a variety of policy roles for the governors of California, Pennsylvania and Washington; and served under the mayors of New York, San Francisco and Oakland. He was chief of staff to Oakland Mayor Ron Dellums, managing some 50 city and state agency heads, and representing the mayor in carrying out important city initiatives, including the analysis and implementation of the Mayor’s Advisory Task Force Groups, an unprecedented level of civic engagement from community leaders that led to over 40 reports and recommendations for the city of Oakland. Currently, David works for the chancellor of the University of California Berkeley as a Senior Advisor managing policy development, external stakeholder engagement and overall communications strategies.</p>
+# - name: David K. Chai
+#   firstname: David
+#   job: Senior Advisor
+#   projects: false
+#   bio: >
+#     <p>David is a Senior Advisor at the GovLab.  He brings deep experience in politics, policy and management - having served and advised a President, Vice President, three governors and three big-city mayors. He worked as a communications aide in President Clinton’s White House; was Vice President Al Gore’s press secretary in California for the 2000 presidential campaign; served in a variety of policy roles for the governors of California, Pennsylvania and Washington; and served under the mayors of New York, San Francisco and Oakland. He was chief of staff to Oakland Mayor Ron Dellums, managing some 50 city and state agency heads, and representing the mayor in carrying out important city initiatives, including the analysis and implementation of the Mayor’s Advisory Task Force Groups, an unprecedented level of civic engagement from community leaders that led to over 40 reports and recommendations for the city of Oakland. Currently, David works for the chancellor of the University of California Berkeley as a Senior Advisor managing policy development, external stakeholder engagement and overall communications strategies.</p>
 
 - name: Eduardo González de Molina
   firstname: Eduardo
@@ -300,10 +300,10 @@
 
 - name: Gianpaolo Baiocchi
   firstname: Gianpaolo
-  job: Senior Fellow
+  job: Senior Advisor
   projects: false
   bio: >
-    <p>Gianpaolo Baiocchi is a senior fellow at the GovLab. He is sociologist and an ethnographer interested in questions of politics and culture, critical social theory, and cities. He has written about and continues to research instances of actually existing civic life and participatory democracy. Gianpaolo is associate professor of individualized studies and sociology at NYU, where he directs the Gallatin School’s Urban Democracy Lab, which promotes radically democratic praxis and reflection, and is an important reference in New York City’s Left. Gianpaolo is recognized as one of the leading experts on participatory budgeting, and participatory democracy more generally, a topic he has researched and written extensively about both in the context of his native Brazil but also in terms of its global travel. He continues to research the intersection of left-wing party politics and radical democracy, often directly engaged with, and learning from Brazil’s Workers’ Party. His books on Porto Alegre’s administration under the PT, and on the first PT administrations in Brazil are international references. His last book, with Ernesto Ganuza, is called Popular Democracy and the Paradox of Participation, and some of his political commentary can be found in Boston Review. He is today most active with the Right To The City Alliance and the Homes For All national campaign.</p>
+    <p>Gianpaolo Baiocchi is a senior advisor at the GovLab. He is sociologist and an ethnographer interested in questions of politics and culture, critical social theory, and cities. He has written about and continues to research instances of actually existing civic life and participatory democracy. Gianpaolo is associate professor of individualized studies and sociology at NYU, where he directs the Gallatin School’s Urban Democracy Lab, which promotes radically democratic praxis and reflection, and is an important reference in New York City’s Left. Gianpaolo is recognized as one of the leading experts on participatory budgeting, and participatory democracy more generally, a topic he has researched and written extensively about both in the context of his native Brazil but also in terms of its global travel. He continues to research the intersection of left-wing party politics and radical democracy, often directly engaged with, and learning from Brazil’s Workers’ Party. His books on Porto Alegre’s administration under the PT, and on the first PT administrations in Brazil are international references. His last book, with Ernesto Ganuza, is called Popular Democracy and the Paradox of Participation, and some of his political commentary can be found in Boston Review. He is today most active with the Right To The City Alliance and the Homes For All national campaign.</p>
 
 #- name: Gina Joerger
 #  firstname: Gina
@@ -394,10 +394,10 @@
 
 - name: John Harlow
   firstname: John
-  job: Visiting Fellow
+  job: Non-Resident Fellow
   projects: false
   bio: >
-    <p>John Harlow is a Visiting Fellow at the GovLab.  He is a postdoctoral scholar in the <a href="http://www.opening-governance.org/#the-context">MacArthur Foundation Research Network on Opening Governance</a> at the Arizona State University School for the Future of Innovation in Society. He researches strategic intervention points for process innovation in governance. John is currently working on the RWJF grant "<a href="https://diyps.org/2017/09/15/opening-pathways-for-discovery-research-and-innovation-in-health-and-healthcare/">Opening pathways for discovery, research, and innovation in health and healthcare</a>." His prior work includes designing the workshop that produced the first draft of <a href="https://www.phoenix.gov/t2050">Phoenix's 2050 transportation plan</a>, and <a href="https://www.phoenix.gov/pdd/topics/reinvent-phx">Reinvent Phoenix</a>’s public outreach to inform rezoning around Phoenix's light rail.</p>
+    <p>John Harlow is a Non-Resident Fellow at the GovLab.  He is a postdoctoral scholar in the <a href="http://www.opening-governance.org/#the-context">MacArthur Foundation Research Network on Opening Governance</a> at the Arizona State University School for the Future of Innovation in Society. He researches strategic intervention points for process innovation in governance. John is currently working on the RWJF grant "<a href="https://diyps.org/2017/09/15/opening-pathways-for-discovery-research-and-innovation-in-health-and-healthcare/">Opening pathways for discovery, research, and innovation in health and healthcare</a>." His prior work includes designing the workshop that produced the first draft of <a href="https://www.phoenix.gov/t2050">Phoenix's 2050 transportation plan</a>, and <a href="https://www.phoenix.gov/pdd/topics/reinvent-phx">Reinvent Phoenix</a>’s public outreach to inform rezoning around Phoenix's light rail.</p>
 
 # - name: Kaitlin Koga
 #   firstname: Kaitlin
@@ -413,13 +413,13 @@
 #   bio: >
 #     <p>Kajol Char is a senior majoring in economics and minoring in human rights at the University of Chicago. Kajol is researching the future of work, looking into the social and economic effects of automation, artificial intelligence, and other technological developments.</p>
 
-- name: Lauren Yu
-  firstname: Lauren
-  job: Director of Operations
-  projects: false
-  bio: >
-    <p>Lauren Yu is the Director of Operations at The GovLab. She holds a Masters Degree in Social Work from Columbia University where she focused on advanced clinical practice in health, mental health, and disabilities. She has worked in schools, hospitals, and community mental health centers where her target populations have included at-risk children, transplant patients, and homeless mentally ill adults. Lauren earned a BA in psychology from Occidental College.</p>
-    <p>Prior to joining The GovLab team, Lauren was living in Kathmandu, Nepal where she started a counseling program serving 1st-12th grade students. She also created the school’s service learning program involving middle school and high students in community service projects throughout Kathmandu and in surrounding rural villages.</p>
+# - name: Lauren Yu
+#   firstname: Lauren
+#   job: Director of Operations
+#   projects: false
+#   bio: >
+#     <p>Lauren Yu is the Director of Operations at The GovLab. She holds a Masters Degree in Social Work from Columbia University where she focused on advanced clinical practice in health, mental health, and disabilities. She has worked in schools, hospitals, and community mental health centers where her target populations have included at-risk children, transplant patients, and homeless mentally ill adults. Lauren earned a BA in psychology from Occidental College.</p>
+#     <p>Prior to joining The GovLab team, Lauren was living in Kathmandu, Nepal where she started a counseling program serving 1st-12th grade students. She also created the school’s service learning program involving middle school and high students in community service projects throughout Kathmandu and in surrounding rural villages.</p>
 
 
 - name: Leonardo Ferreira de Oliveira
@@ -440,14 +440,14 @@
 
 - name: Marco Konopacki
   firstname: Marco
-  job: Visiting Researcher
+  job: Graduate Research Fellow
   projects: false
   bio: >
     <p>Marco is currently pursuing a Doctorate Degree in Political Science at the Federal University of Minas Gerais (UFMG) and he holds a Master’s Degree from the Federal University of Paraná (UFPR) in Political Science. Marco worked as a visiting professor at the Technological Institute of Aeronautics (ITA) in the areas of software development management, telemetry, and georeferencing. He is a researcher on themes such as Governance of Information Technology, Software Development and Political Participation. He was advisor in the Secretary of Legislative Affairs of the Ministry of Justice, where he coordinated the public debate on the regulation of Brazil’s Internet Bill of Rights (Marco Civil da Internet). He is currently Project Coordinator in the area of Democracy and Technology at the Institute for Technology & Society of Rio (<a href="https://itsrio.org/">ITS Rio</a>) where he leaded the development of <a href"https://www.mudamos.org/">Mudamos Mobile Application</a>for Crowdlaw initiatives in Brazil.His most recent work was "<a href="https://feed.itsrio.org/computational-power-automated-use-of-whatsapp-in-the-elections-59f62b857033">Computational Power: Automated Use of WhatsApp in the Elections</a>" during Brazilian general elections in 2018.</p>
 
 - name: María Hermosilla
   firstname: María
-  job: Non-Resident Fellow
+  job: Consulting Fellow
   projects: true
   bio: >
     <p>Research Fellow María Hermosilla focuses her work on governance innovation in Latin America. At the GovLab, she does both research and project design and management. She conducts research on how technology is transforming government, which includes work on the impact of innovations such as big and open data, crowdsourcing, people analytics, and public labs on executive and legislative institutions. She is a collaborator on the <a href="http://www.thegovlab.org/smarterstate.html">Smarter State case studies series</a>, which focuses on how public institutions use new technology to accelerate learning, and she does ongoing work on mapping the skills and expertise gap in government.</p>
@@ -468,7 +468,7 @@
 
 - name: Matt Ryan
   firstname: Matt
-  job: Non-resident Fellow
+  job: Senior Fellow
   projects: false
   bio: >
     <p>Matt works alongside leaders interested in building better ways to create, implement and sustain public policy that delivers economic and social prosperity. He served as Deputy Chief of Staff to the South Australian Premier, supporting the development of a State strategic agenda and advising on a wide range of policy areas, strategic engagement and communication, inter-governmental relations, with a special focus on climate change in the lead up to the 2015 Paris Climate Summit.</p>
@@ -512,7 +512,7 @@
 
 - name: Neil Kleiman
   firstname: Neil
-  job: Senior Fellow
+  job: Senior Advisor
   projects: false
   bio: >
     <p>Neil Kleiman has spent 20 years building a career at the intersection of policy, philanthropy, government and academia. He founded an urban issues think tank, established new university degree programs, and developed innovative and practical policy solutions for dozens of cities across the United States. He has also written and edited over thirty policy reports, with his work featured in many media outlets, including the New York Times, Wall Street Journal, Chronicle of Higher Education, PBS NewsHour and National Public Radio.</p>
@@ -536,20 +536,20 @@
 #  bio: >
 #    <p>Olivia Clark is a junior at the University of North Carolina at Chapel Hill studying reporting journalism and environmental science. Olivia is working on corporate data projects at the GovLab, helping conduct research for the Blockchange, Blockchain and Extractives and Data Collaboratives projects.</p>
 
-- name: Pablo Collada
-  firstname: Pablo
-  job: Senior Fellow
-  projects: false
-  bio: >
-    <p>Pablo Collada is a Senior Fellow at the GovLab.  Pablo is a Mexican sociologist. For the past 16 years he has worked on Social Development issues mainly in civic engagement and technology, education and youth projects either in the public sector or the civil society arena. His previous work includes serving as Executive Director of Fundación Ciudadano Inteligente in Chile, an organization with projects in more than 10 countries in Latin America promoting democratic strengthening through advocacy, transparency, participation and the use of civic tech. He was also head of the Research Area for the Lab for the City initiative in Mexico City, where he was part of the development of the subnational Open Government Plan.</p>
+# - name: Pablo Collada
+#   firstname: Pablo
+#   job: Senior Fellow
+#   projects: false
+#   bio: >
+#     <p>Pablo Collada is a Senior Fellow at the GovLab.  Pablo is a Mexican sociologist. For the past 16 years he has worked on Social Development issues mainly in civic engagement and technology, education and youth projects either in the public sector or the civil society arena. His previous work includes serving as Executive Director of Fundación Ciudadano Inteligente in Chile, an organization with projects in more than 10 countries in Latin America promoting democratic strengthening through advocacy, transparency, participation and the use of civic tech. He was also head of the Research Area for the Lab for the City initiative in Mexico City, where he was part of the development of the subnational Open Government Plan.</p>
 
 
 - name: Richard Buery
   firstname: Richard
-  job: Senior Fellow
+  job: Senior Advisor
   projects: false
   bio: >
-    <p>Richard Buery is a Senior Fellow at the GovLab where he advises on projects relating to cities and non-profits. He is a distinguished Visiting Professor at New York University's Tandon School of Engineering where he teaches Special Topics in Sustainable Urban Environments: Engineering Change in City Government.</p>
+    <p>Richard Buery is a Senior Advisor at the GovLab where he advises on projects relating to cities and non-profits. He is a distinguished Visiting Professor at New York University's Tandon School of Engineering where he teaches Special Topics in Sustainable Urban Environments: Engineering Change in City Government.</p>
     <p>Richard is also Chief of Policy & Public Affairs at the KIPP Foundation, leading their public policy, advocacy, marketing, and communications efforts to grow the KIPP network and advocate for policies that make it easier for students to afford college and overcome other barriers to success. KIPP, the Knowledge is Power Program, is a non-profit network of over 200 college-preparatory, public charter schools in 20 states and the District of Columbia educating nearly 100,000 early childhood, elementary, middle, and high school students, and supporting its graduates on the path to and through college.</p>
     <p>Richard previously served as deputy mayor for strategic policy initiatives in the administration of New York City Mayor Bill de Blasio. In the mayor's office, he led key initiatives including Pre-K for All, which for the first time offers free, full-day Pre-K for every 4-year old in NYC, increasing enrollment from 19,000 to 70,000 children in 18 months; School's Out NYC, offering free afterschool programs to every middle schooler in NYC; and ThriveNYC, a comprehensive effort to improve New Yorkers’ mental health. He led a range of city agencies, including the Departments of Probation, Aging, Youth and Community Development, People with Disabilities, and Immigrant Affairs, and founded the Department of Veterans Affairs and the Office of Minority and Women Business Enterprises. He also managed the City's relationship with the 250,000 student City University of New York System.</p>
     <p>While in college, Richard founded the Mission Hill Summer Program in a Roxbury, Massachusetts housing development, and went on to teach fifth grade at an orphanage in Bindura, Zimbabwe. After serving as a staff attorney at the Brennan Center for Justice at NYU School of Law, Richard co-founded iMentor, a national college access program which empowers low-income first-generation high school students to graduate college, and Groundwork, supporting the educational aspirations of Brooklyn public housing residents. While the CEO of the Children’s Aid Society, one of the nation's oldest and largest youth serving organizations, he founded the Children’s Aid College Prep Charter School in the South Bronx.</p>
@@ -566,10 +566,10 @@
 
 - name: Richard Wener
   firstname: Richard
-  job: Senior Fellow
+  job: Senior Advisor
   projects: false
   bio: >
-    <p>Richard Wener, PhD, is a Senior Fellow at the GovLab. He is Professor of Environmental Psychology, and head of the Sustainable Urban Environments program at the Tandon School of Engineering of New York University. He is a fellow and past president of Division 34 of the American Psychological Association, and received the Career and Distinguished Service Awards from the Environmental Design Research Association and the Distinguished Scholar Research Award from the International Corrections and Prisons Association. Professor Wener’s research on the behavioral impacts of correctional settings began in 1975 and he has since conducted post occupancy evaluations and other studies in dozens of jails and prisons, culminating his 2012 book The Environmental Psychology of Prisons and Jails: Creating Humane Environments in Secure Settings from Cambridge University Press.</p>
+    <p>Richard Wener, PhD, is a Senior Advisor at the GovLab. He is Professor of Environmental Psychology, and head of the Sustainable Urban Environments program at the Tandon School of Engineering of New York University. He is a fellow and past president of Division 34 of the American Psychological Association, and received the Career and Distinguished Service Awards from the Environmental Design Research Association and the Distinguished Scholar Research Award from the International Corrections and Prisons Association. Professor Wener’s research on the behavioral impacts of correctional settings began in 1975 and he has since conducted post occupancy evaluations and other studies in dozens of jails and prisons, culminating his 2012 book The Environmental Psychology of Prisons and Jails: Creating Humane Environments in Secure Settings from Cambridge University Press.</p>
     <p>He is currently managing editor for a forthcoming volume from the International Committee of the Red Cross intended to serve as guidance for corrections planners worldwide on requirements for building and operating humane detention facilities. Professor Wener has also conducted research on commuting stress, has participated in a series post occupancy evaluations of green buildings, worked on the development and assessment of virtual learning systems for firefighters, and has studied the development of excellent urban spaces as part of the team for the Rudy Bruner Award for Urban Excellence.</p>
 
 - name: Rod Glover
@@ -590,10 +590,10 @@
 
 - name: SAM DEJOHN
   firstname: Sam
-  job: RESEARCH ASSISTANT
+  job: Research/Comms Fellow
   projects: false
   bio: >
-    <p>Sam DeJohn is a Research Assistant at The GovLab who recently graduated from Penn State University with a Bachelor’s Degree in Psychology. His current research focuses on governance innovations in Latin American countries and Spain. He is part of the team evaluating the Organization of American States Fellowship Program and he is conducting a study of the Decide Madrid public engagement platform. Sam contributes to the GovLab blog and serves as a communications assistant to GovLab's Director of Communications. He is fluent in Spanish.</p>
+    <p>Sam DeJohn is a Research and Communications Fellow at The GovLab who recently graduated from Penn State University with a Bachelor’s Degree in Psychology. His current research focuses on governance innovations in Latin American countries and Spain. He is part of the team evaluating the Organization of American States Fellowship Program and he is conducting a study of the Decide Madrid public engagement platform. Sam contributes to the GovLab blog and serves as a communications assistant to GovLab's Director of Communications. He is fluent in Spanish.</p>
 
 # - name: Stephanie Gaither
 #   firstname: Stephanie
