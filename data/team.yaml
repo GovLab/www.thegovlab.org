@@ -392,6 +392,13 @@
 #  bio: >
 #    <p>Joel Urena is a rising junior majoring in Integrated Digital Media at the Tandon School of Engineering. Joel is working on the ‘Solving Public Problems with Data’ project at the GovLab.</p>
 
+- name: Jason Williams-Bellamy
+  firstname: Jason
+  job: Intern
+  projects: false
+  bio: >
+    <p>Jason Williams-Bellamy is a second-year public policy major at the NYU College of Arts and Science. He is currently working on the CrowdLaw for Congress project at the GovLab.</p>
+
 - name: John Harlow
   firstname: John
   job: Non-Resident Fellow
@@ -611,6 +618,16 @@
 #    <p>Ahead of these roles, Timi was a project manager for the corporate social responsibility practice at Ernst & Young, and an international trade consultant with Ernst & Young, Arthur Andersen, and the Council for Scientific and Industrial Research in Port Elizabeth, South Africa.</p>
 #    <p>Throughout her career, Timi has also advised small businesses and nonprofits as an independent communications consultant. And she served two terms on the Board of Directors of New York Women in Communications.</p>
 #    <p>Timi holds a Bachelor of Arts degree in public policy from Duke University, and a Master of Public Policy degree from the University of Michigan, Ann Arbor.</p>
+
+- name: Stuart Campo
+  firstname: Stuart
+  job: Senior Fellow
+  projects: false
+  bio: >
+    <p>Stuart Campo is a Senior Fellow at the GovLab, where he is advising on issues related to data responsibility in public service delivery for children. He has over ten years of experience working in the humanitarian and development sectors, with a focus on the safe, effective, and ethical design and management of technology, data, and social innovation projects.</p>
+    <p>Stuart also currently serves as the Team Lead for Data Policy at the UNOCHA <a href="https://centre.humdata.org/" target="_blank">Centre for Humanitarian Data</a> in The Hague. Prior to joining the Centre, Stuart worked for two years as a Researcher with the Signal Program on Human Security and Technology at the <a href="https://hhi.harvard.edu/" target="_blank">Harvard Humanitarian Initiative (HHI)</a> and for eight years in a variety of different roles with the <a href="https://www.unicef.org/" target="_blank">United Nations Children’s Fund (UNICEF)</a>. In his time with UNICEF, Stuart held extended assignments in Kenya, Madagascar, South Sudan, and supported the design and activation of innovation initiatives in over 35 countries. Stuart has extensive experience supporting the deployment of innovative solutions that bridge the humanitarian-development divide—supporting national system-strengthening for improved policy, advocacy, and service-delivery models in complex environments.</p>
+    <p>Stuart served as a <a href="http://www.princetoninafrica.org/" target="_blank">Princeton in Africa</a> Fellow from 2008-2009, working as the Director of Special Projects and Innovation at <a href="http://straighttalkfoundation.org/" target="_blank">Straight Talk Foundation</a>—a leading health and development communication NGO in Uganda. Stuart studied Politics at Princeton University, and is currently based in Rotterdam, The Netherlands. He tweets at <a href="https://twitter.com/stucampo" target="_blank">@stucampo</a>.</p>
+
 
 - name: Victoria Alsina
   firstname: Victoria
