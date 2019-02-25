@@ -1,3 +1,11 @@
+# -   name:
+#     project:
+#     amount:
+
+-   name: AARP
+    project: Research, design and develop a model constituent engagement plan to be piloted in connection with soliciting the opinions and expertise of AARP members to inform the development of AARP policy
+    amount: '22,000.00'
+
 -   name: Amazon Web Services
     project: Sponsorship of Open Data 500 Roundtable
     amount: '25,000.00'
@@ -18,6 +26,10 @@
     project: 'Supporting the development of a methodology for people-led innovation and co-design in cities'
     amount: '40,000.00'
 
+-   name: Bertelsmann Foundation
+    project: 'Trendspotting: creation of public-facing dashboard that will track the political and economic relationships between the US and the members of the EU'
+    amount: '268,272.00'
+
 -   name: 'Government of British Columbia'
     project: 'Benchmarking Study: Comparing British Columbia with other governments'
     amount: '20,000.00'
@@ -34,9 +46,25 @@
     project: 'Open Data 500 Roundtable Sponsorship'
     amount: '2,500.00'
 
+-   name: Democracy Fund
+    project: To study citizen engagement for Congress, create a Crowdlaw Playbook for Congress and teach citizen engagement techniques to Members
+    amount: '151,800.00'
+
+-   name: Eric and Wendy Schmidt Fund
+    project: Support for creation of Data Collaboratives on 100 Questions whose answers could transform the way we solve a variety of 21st Century problems
+    amount: '200,000.00'
+
 -   name: 'Facebook'
     project: 'Supporting research on the uses of private sector social media data to tackle public problems'
     amount: '25,000.00'
+
+-   name: Facebook
+    project: Creation of Data for Policy Institute
+    amount: '100,000.00'
+
+-   name: 'FHI360 (USAID)'
+    project: MStar SubAward supporting research on Open Data in Developing Economies
+    amount: '112,000.00'
 
 -   name: 'Google.org'
     project: 'Supporting the developing of "in the wild" empirical research methods for studying innovations in government, including methods for introducing randomized controlled trials in the study of institutional innovation'
@@ -62,9 +90,9 @@
     project: Sustaining and Expanding the NETmundial Solutions Map
     amount: '40,000.00'
 
--   name: 'FHI360 (USAID)'
-    project: MStar SubAward supporting research on Open Data in Developing Economies
-    amount: '112,000.00'
+-   name: ICMA
+    project: Research study of innovation skills of local governments
+    amount: '30,000.00'
 
 -   name: 'Inter-American Development Bank'
     project: 'Crowdsourcing to Support Preparedness and Response to Zika Virus and Other Public Health Emergencies, supporting research on the use of experts-sourcing to accelerate solutions to mosquito-borne illness'
@@ -106,9 +134,21 @@
     project: 'Supporting research on data driven criminal justice innovation and creation of an online course on data science for public good'
     amount: '851,600.00'
 
+-   name: 'Madrid, Spain City Council'
+    project: 'Collaboration on the creation of an urban innovation laboratory on citizen participation (“GOVLAB MADRID”) based on the GOVLAB experience'
+    amount: '170,000.00'
+
 -   name: 'Markle Foundation'
     project: 'Supporting research on the economic value of open data'
     amount: '80,551.00'
+
+-   name: MediaLab Prado
+    project: Experiment design and analysis to improve citizen participation in Madrid
+    amount: '17,000.00'
+
+-   name: "Mexico's Electoral Tribunal of the Federal Judiciary"
+    project: 'Open Justice: combines a 10-module MOOC and a hands-on coaching program to educate Mexican public officials on how to use new technologies to improve the judicial system'
+    amount: '262,000.00'
 
 -   name: 'Microsoft'
     project: 'The Collective Intelligence Conference Sponsorship'
@@ -117,6 +157,10 @@
 -   name: 'New York University'
     project: 'Supporting research on computational methods for making distributed expertise searchable and matching the supply of expertise in universities to the demand for it in government and in universities. Also supporting the creation of expert systems in support of NYU projects'
     amount: '1,120,047.00'
+
+-   name: New York University
+    project: Institutional support
+    amount: '100,000.00'
 
 -   name: 'NHS England'
     project: 'To support the development of a research and evaluation programme for the open data era in health and social care'
@@ -158,6 +202,10 @@
     project: 'Preparation of innovation briefs to inform the Shared Services Worshop Research project'
     amount: '19,965.00'
 
+-   name: PinkTank
+    project: Case studies where AI for CI is used by organizations to investigate customer expectations
+    amount: '25,000.00'
+
 -   name: 'PWC'
     project: 'Open Data 500 Roundtable sponsorship'
     amount: '2,500.00'
@@ -191,6 +239,10 @@
     project: 'Data Labs: Using administrative data for improving program effectiveness in the social sector'
     amount: '37,357.00'
 
+-   name: Tinker Foundation
+    project: Research tech-enabled citizen engagement models and design a model for running City Challenges across several Latin American cities simultaneously
+    amount: '55,000.00'
+
 -   name: 'Treasury Board of Canada Secretariat'
     project: 'Supporting creation of Introduction to Open Government course for Canadian Federal Public Servants'
     amount: '14,600.00'
@@ -206,6 +258,10 @@
 -   name: 'UNICEF'
     project: 'Supporting the study of uses of private sector for public good'
     amount: '164,786.00'
+
+-   name: UNICEF
+    project: Data Responsibility for Children in Programming Contexts
+    amount: '175,000.00'
 
 -   name: 'United States Department of Agrictulure'
     project: 'Supporting a USDA Open Data Summer Camp'
