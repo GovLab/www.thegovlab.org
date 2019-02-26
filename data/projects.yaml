@@ -2532,13 +2532,13 @@
   location:
     - Global
   partners:
-    - BrightFront Group
     - Adapt
   team:
     - Stefaan Verhulst
     - Andrew Young
     - Ayushi Roy
     - Alexandra Shaw
+    - Michelle Winowatan
   tags:
     governance_area:
         - National Governance
@@ -2553,11 +2553,13 @@
     innovative_capability:
         - Expert Networks
         - Data Collaboratives
+        - Data Stewardship
+        - Data Responsibility
     product_category:
         - Network
         - Platform
         - Event/Workshop
-  status: prototype # define, prototype, test, complete
+  status: test # define, prototype, test, complete
   problem_statement: How can the potential value of privately held data be unlocked and used for public good?   #question
   short_description:
   tooltip:
@@ -2576,10 +2578,6 @@
       url: 'http://thegovlab.org/data-stewards-data-leadership-to-address-the-challenges-of-the-21st-century/'
     - name: 'Data Collaboratives'
       url: 'http://datacollaboratives.org/'
-    - name: 'BrightFront Group'
-      url: 'http://www.brightfrontgroup.com/'
-    - name: 'Adapt'
-      url: 'http://www.weareadapt.io/'
 
 
 # ==========================================================================================================================================================================================================================================#
@@ -2655,7 +2653,7 @@
   is_featured: 0 #integer
   is_active: True
   related_question: 1 #question
-  project_website: 'http://odimpact.org/ ' #url
+  project_website: 'http://www.thegovlab.org/open-data-demand.html' #url
   location:
     - Global
   partners:
@@ -2702,6 +2700,47 @@
       url: 'http://odimpact.org/periodic-table'
     - name: 'Omidyar Network'
       url: 'https://www.omidyar.com/'
+
+
+# ==========================================================================================================================================================================================================================================#
+
+# - title:  #will generate slug from this attr
+#   rank: 0
+#   type: '' # Data, Collective Intelligence or Design Thinking
+#   is_featured: 0 #integer
+#   is_active: True
+#   related_question: #question
+#   project_website: #url
+#   location:
+#   partners:
+#   team:
+#     - #name
+#   tags:
+#     governance_area:
+#         - #tag
+#     type_of_institution:
+#         - #tag
+#     innovative_capability:
+#         - #tag
+#     product_category:
+#         - #tag
+#   status: # define, prototype, test, complete
+#   problem_statement: #question
+#   short_description: >
+#     <p></p>
+#   tooltip: >
+#     <p></p>
+#   long_description: >
+#     <p></p>
+#   background: >
+#     <p></p>
+#   social_media: #in the future we can have custom shareable messages for each project
+#   images: #images or screenshots of the project
+#     - #url
+#   results: >
+#     <p></p>
+#   related_articles:
+#     - #url
 
 
 # ==========================================================================================================================================================================================================================================#
