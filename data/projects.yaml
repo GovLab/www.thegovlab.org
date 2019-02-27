@@ -192,7 +192,7 @@
         - Event/Workshop
         - Mapping
         - Strategy #tag
-  status: test # define, prototype, test, complete
+  status: complete # define, prototype, test, complete
   problem_statement: Explored innovative and practical ways to address the causes of mosquito-borne diseases in 4 Latin American countries in 2016. #question
   short_description:
   tooltip:
@@ -213,8 +213,8 @@
   results: >
     <p>The Smarter Crowdsourcing team conducted a series of interviews and research into the ideas that were generated during the conferences, identifying their costs and benefits, the steps required for implementation, and the key strategic decisions that governments would need to make along the way. The team’s findings were combined into an Implementation Report, which consists of twenty initiatives selected for their importance and potential impact as well as their suitability for immediate implementation. The Implementation Report is designed to enable public authorities to translate these new ideas into practical improvements in the way they deliver policies and services. </p>
   related_articles:
-    - name: Report
-      url: "https://publications.iadb.org/bitstream/handle/11319/8522/Smarter-crowdsouring-for-zika-and-other-mosquito-borne-diseases.PDF?sequence=2&isAllowed=y"
+    - name: Download the Final Report in Spanish
+      url: 'http://zika.smartercrowdsourcing.org/files/crowdsourcing-inteligente-para-el-zika-y-otras-enfermedades-transmitidas-por-mosquitos_2.pdf'
     - name: Project website
       url: "http://zika.smartercrowdsourcing.org/"
     - name: Blog - Smarter Crowdsourcing for Zika
@@ -270,7 +270,7 @@
         - Event/Workshop
         - Mapping
         - Strategy #tag
-  status: test # define, prototype, test, complete
+  status: complete # define, prototype, test, complete
   problem_statement: Worked with the Mexican government, civil society and over 100 global experts in the summer of 2017 to devise solutions to the problem of corruption in Mexico. #question
   short_description:
   tooltip:
@@ -299,6 +299,8 @@
       url: "http://anticorruption.smartercrowdsourcing.org"
     - name: Blog - Smarter Crowdsourcing for Zika
       url: "https://medium.com/smarter-crowdsourcing/introducing-the-smarter-crowdsourcing-against-corruption-initiative-26d11033d6c7"
+    - name: Download the Final Report
+      url: "http://anticorruption.smartercrowdsourcing.org/files/scac-es_web.pdf"
 
 # ==========================================================================================================================================================================================================================================#
 
@@ -505,7 +507,7 @@
   is_featured: 0 #integer
   is_active: True
   related_question: 6 #question
-  project_website: http://govlabacademy.org/canvas/ #url
+  project_website: http://canvas.govlabacademy.org/ #url
   location:
     - Global
   partners:
@@ -584,7 +586,6 @@
     - Christopher Wong
     - Claudio Mendonca
     - Anna Bialas
-
   tags:
     governance_area:
       - National Governance
@@ -615,10 +616,9 @@
     - academy-4.jpg
     - academy-5.jpg
   results: >
-    <p>In a series of Masters-level courses and online (and offline) workshops and coaching programs funded by the John S. and James L. Knight Foundation, The GovLab and its network of 25 world-class coaches and over 100 mentors helped 446 participants in more than a dozen US cities and thirty countries to take a public interest technology project from idea to implementation. In the process, we’ve learned a lot about the need for new ways of training the next generation of leaders and problem solvers.
-    </p><p>Our participants come from more than 30 different countries
-    </p><p>Our aim has been to aid public entrepreneurs — passionate and innovative people who wish to take advantage of new technology to do good in the world. That’s why we measure success, not by the number of participants in a class, but by the projects participants create and the impact those projects have on communities.
-    </p>
+    <p>In a series of Masters-level courses and online (and offline) workshops and coaching programs funded by the John S. and James L. Knight Foundation, The GovLab and its network of 25 world-class coaches and over 100 mentors helped over 1000 participants in more than a dozen US cities and thirty countries to take a public interest technology project from idea to implementation. In the process, we’ve learned a lot about the need for new ways of training the next generation of leaders and problem solvers.
+    <p>Our participants come from more than 30 different countries, and we have recently expanded to launch globally-accessible massive open online courses (MOOCs) such as “Solving Public Problems with Data” and “Open Justice”.</p>
+    <p>Our aim has been to aid public entrepreneurs — passionate and innovative people who wish to take advantage of new technology to do good in the world. That’s why we measure success, not by the number of participants in a class, but by the projects participants create and the impact those projects have on communities.</p>
   related_articles:
     - name: USDA and GovLab Academy teamed up to provide a “First of Its Kind” Camp for DC-Area Teens Focused Specifically on Open Data and Agriculture
       url: "http://thegovlab.org/usda-and-govlab-academy-teamed-up-to-provide-a-first-of-its-kind-camp-for-dc-area-teens-focused-specifically-on-open-data-and-agriculture/"
@@ -654,7 +654,7 @@
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
-  related_question: 6 #question
+  related_question: 7 #question
   project_website: http://ogrx.org/ #url
   location:
     - Global
@@ -709,8 +709,8 @@
 
 # ==========================================================================================================================================================================================================================================#
 
-- title: 'Data Collaboratives: Creating Public Value by Exchanging Data' #will generate slug from this attr
-  rank: 2
+- title: 'DataCollaboratives .org' #will generate slug from this attr
+  rank: 10
   image: datacollab.png
   style: cover
   type: 'Data' # Data, Collective Intelligence or Design Thinking
@@ -734,6 +734,8 @@
     - Denny Tek
     - Mark Adkins-Hastings
     - Anna Bialas
+    - Andrew Zahuranec
+    - Michelle Winowatan
   tags:
     governance_area:
       - International Governance
@@ -749,11 +751,11 @@
       - Case Studies
       - Website
   status: test # define, prototype, test, complete
-  problem_statement: How to combine private and public data to solve problems? #question
+  problem_statement: Creating Public Value by Exchanging Data #question
   short_description: >
-    <p>The GovLab is advancing a number of initiatives focused on increasing our understanding of data collaboratives. The hub of this work, DataCollaboratives.org, is a resource on creating public value by exchanging data, collecting examples of data collaboratives from around the world, and providing information on how to develop and implement a data collaborative. The site, and the GovLab’s work on the topic in general, seeks to provide insight on how the responsible exchange of corporate data can improve people’s lives. The GovLab’s partnership with UNICEF on <a href="http://www.thegovlab.org/project-data-collaboratives-to-improve-childrens-lives.html" target="_blank">Data Collaboratives to Improve Children’s Lives</a> falls within this broader Data Collaboratives effort.</p>
+    <p>The GovLab is advancing a number of initiatives focused on increasing our understanding of data collaboratives. The hub of this work, DataCollaboratives.org, is a resource on creating public value by exchanging data, collecting examples of data collaboratives from around the world, and providing information on how to develop and implement a data collaborative. The site, and the GovLab’s work on the topic in general, seeks to provide insight on how the responsible exchange of corporate data can improve people’s lives.</p>
   long_description: >
-    <p>The GovLab is advancing a number of initiatives focused on increasing our understanding of data collaboratives. The hub of this work, DataCollaboratives.org, is a resource on creating public value by exchanging data, collecting examples of data collaboratives from around the world, and providing information on how to develop and implement a data collaborative. The site, and the GovLab’s work on the topic in general, seeks to provide insight on how the responsible exchange of corporate data can improve people’s lives. The GovLab’s partnership with UNICEF on <a href="http://www.thegovlab.org/project-data-collaboratives-to-improve-childrens-lives.html" target="_blank">Data Collaboratives to Improve Children’s Lives</a> falls within this broader Data Collaboratives effort.</p>
+    <p>The GovLab is advancing a number of initiatives focused on increasing our understanding of data collaboratives. The hub of this work, DataCollaboratives.org, is a resource on creating public value by exchanging data, collecting examples of data collaboratives from around the world, and providing information on how to develop and implement a data collaborative. The site, and the GovLab’s work on the topic in general, seeks to provide insight on how the responsible exchange of corporate data can improve people’s lives.</p>
   background: >
     <p>As public problems grow in complexity and increasingly require new insights, decision-makers both inside and outside government have begun exploring ways to be more data-driven and collaborative. Several of society’s greatest challenges—from addressing climate change to achieving the Sustainable Development Goals—require greater access to data, ability to analyze particular kinds of datasets, and collaboration between public- and private-sector entities. However, much of the most useful, timely and comprehensive data resides with the private sector—in the form of, for instance, Web clicks, online purchases, market research, sensor data, and data generated from the use of mobile phones. If we truly want to leverage the potential of data to improve people’s lives, then we need to accelerate the creation and use of “data collaboratives” in which participants from different sectors — including private companies, research institutions, and government agencies — can exchange data to help solve public problems.</p>
   social_media: #in the future we can have custom shareable messages for each project
@@ -763,13 +765,13 @@
 # ==========================================================================================================================================================================================================================================#
 
 - title: Data Collaboratives to Improve Children’s Lives #will generate slug from this attr
-  rank: 3
+  rank: 9
   image: unicef-logo.png
   style: medium
   type: 'Data' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
-  related_question: 2 #question
+  related_question: 999 #question
   project_website: http://datacollaboratives.org/
   location:
     - Global
@@ -884,7 +886,7 @@
 
 
 - title: Open Data 500 Global Network #will generate slug from this attr
-  rank: 1
+  rank: 6
   image: od500-transparent.png
   style: small
   type: 'Data' # Data, Collective Intelligence or Design Thinking
@@ -992,7 +994,7 @@
       - Rapid Prototyping
     product_category:
       - platform #tag
-  status: prototype # define, prototype, test, complete
+  status: complete # define, prototype, test, complete
   problem_statement: Can we accelerate innovation in government by making expertise of individuals searchable? #question
   short_description: >
     <p>Network of Innovators (NoI) is a skill sharing network enabling government and civic innovators to assess their problem-solving skills and get matched to those with complementary knowledge for mutual learning.</p>
@@ -1576,13 +1578,21 @@
   project_website: "http://crowd.law/" #url
   location:
    - Madrid, Spain
+   - Global
   partners:
   team:
     - Beth Simone Noveck
     - Gabriella Capone
+    - Victoria Alsina
+    - Anirudh Dinesh
+    - Sam DeJohn
+    - Marco Konopacki
+    - Rose Harvey
+    - Mark Adkins-Hastings
   tags:
     governance_area:
         - National Governance
+        - Local Governance
     type_of_institution:
         - Public Sector
     innovative_capability:
@@ -1607,12 +1617,21 @@
     <p>Crowdlaw offers an alternative to the traditional method of lawmaking, which is typically done by professional staff and politicians working behind closed doors and with little direct input from the people legislation affects. Instead, we start from the hypothesis that crowdlaw has the potential to enhance the quality of legislation. Designed right, with the aim of improving the quality of outputs, there are opportunities at each stage of the lawmaking process, including problem definition, solution identification, research and drafting, subsequent crafting of implementing regulations, and monitoring of outcomes, to introduce greater expertise into the legislative process efficiently. At the same time, we acknowledge that, designed wrong, without regard for outcomes, engagement may only hamstring decision-making and deepen distrust of government. Thus, we approach this project not as evangelists but as critical researchers whose aim is to understand what works and when.</p>
     <p>GovLab is supporting legislative bodies in investigating, designing, implementing, and testing crowdlaw initiatives. Our work includes:</p>
     <ul>
-      <li>Studying and sharing learnings about CrowdLaw practices in use around the world and convening practitioners to share learnings.</li>
-      <li>Synthesizing best practices for the design of CrowdLaw initiatives — including platforms, processes, and policies — through an on-going survey of over 25 public engagement initiatives.</li>
-      <li>Cultivating a thriving network of now more than 90 CrowdLaw and public engagement experts and practitioners.</li>
-      <li>Crafting a model legal framework to accelerate the integration of public input into the legislative process.</li>
-      <li>Advising on the implementation of CrowdLaw practices.</li>
+    <li>Studying and sharing learnings about CrowdLaw practices in use around the world and convening practitioners to share learnings.</li>
+    <li>Synthesizing best practices for the design of CrowdLaw initiatives — including platforms, processes, and policies — through an on-going survey of over 25 public engagement initiatives.</li>
+    <li>Cultivating a thriving network of now more than 90 CrowdLaw and public engagement experts and practitioners.</li>
+    <li>Crafting a model legal framework to accelerate the integration of public input into the legislative process.</li>
+    <li>Advising on the implementation of CrowdLaw practices.</li>
     </ul>
+    <p>As part of the CrowdLaw project, GovLab has also created the following related products:</p>
+    <ul>
+    <li><a href="https://catalog.crowd.law/">The CrowdLaw Catalog</a> - a compendium of real-world examples from 39 countries and six continents demonstrating how legislatures, parliaments, city councils, and public bodies around the world are leveraging technology to involve more people in the process of making policies and laws.</li>
+    <li><a href="https://crowd.law/crowdlaw-communiqu%C3%A9-vol-3-fall-2018-68763edd04c1">“CrowdLaw Communiqué” Quarterly Newsletter</a> - Designed for interested public officials, technologists, politicians and researchers, the CrowdLaw Communiqué features curated news, interviews, announcements, and recommended readings on the evolution of law and policymaking processes for the 21st century.</li>
+    <li><a href="https://manifesto.crowd.law/">The CrowdLaw Manifesto</a> - 12 principles to promote the use of CrowdLaw by local legislatures and national parliaments, calling for legislatures, technologists and the public to participate in creating more open and participatory lawmaking practices.</li>
+    <li><a href="https://www.youtube.com/playlist?list=PL2zpEc-7YPYwd-yGuJ6XHD8Vd7x0WImy8">The CrowdLaw Bellagio Interviews</a> - a series of short videos recorded during the 2018 CrowdLaw Bellagio conference, displaying the expert attendees’ thoughts of the future of crowdlaw in the short-term and the long-term, the challenges they anticipate and about their favorite CrowdLaw platforms</li>
+    </ul>
+    <center><a href="https://catalog.crowd.law/"><img src="static/img/projects/crowdlawcat.png"></a></center>
+    <p>&nbsp;</p>
   background: >
     <p>With rates of trust in government at historic lows, the legitimacy of traditional representative models of lawmaking — often conducted by professional staff and politicians working behind closed doors and distorted by political party agendas–is called into question. New forms of public participation could help to improve both legitimacy and effectiveness by introducing more data and diverse viewpoints at each stage of the lawmaking process.</p>
   social_media: #in the future we can have custom shareable messages for each project
@@ -1620,7 +1639,8 @@
     - crowdlaw-1.png
     - crowdlaw-2.png
   results: >
-    <p>The goal of this paper is to help the Assembly of the Community of Madrid, the legislature governing one of the seventeen autonomous communities of Spain, and the 179 Ayuntamientos (“City Councils”) within the Madrid region to (1) develop the capacity design and (2) use public engagement to improve the quality, effectiveness and legitimacy of the lawmaking process.</p>
+    <p>The goal of the original CrowdLaw paper was to help the Assembly of the Community of Madrid, the legislature governing one of the seventeen autonomous communities of Spain, and the 179 Ayuntamientos (“City Councils”) within the Madrid region to (1) develop the capacity design and (2) use public engagement to improve the quality, effectiveness and legitimacy of the lawmaking process.</p>
+    <p>Now, CrowdLaw has been scaled up to become a global initiative that uses diverse methods to achieve the same goals in cities, regions, and nations around the world.</p>
   related_articles:
     - name: "The GovLab's CrowdLaw Twitter list"
       url: "https://twitter.com/TheGovLab/lists/crowdlaw"
@@ -1638,7 +1658,8 @@
       url: "http://thegovlab.org/toward-more-inclusive-lawmaking-what-we-know-still-most-need-to-know-about-crowdlaw/"
     - name: "Crowdlaw and open data policy: A perfect match?"
       url: "http://sunlightfoundation.com/blog/2016/03/11/crowdlaw-and-open-data-policy-a-perfect-match/"
-
+    - name: "The CrowdLaw Website"
+      url: "https://crowd.law/"
 
 
 # Conference 1 - June 2, 2014: http://thegovlab.org/toward-more-inclusive-lawmaking-what-we-know-still-most-need-to-know-about-crowdlaw/
@@ -1719,8 +1740,8 @@
 
 - title: Open Data's Impact #will generate slug from this attr
   rank: 2
-  image: odimpact.png
-  style: small
+  image: periodic-table.png
+  style: cover
   type: 'Data' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
@@ -1804,7 +1825,7 @@
         - Expert Networks
     product_category:
         - Case Studies
-  status: prototype # define, prototype, test, complete
+  status: complete # define, prototype, test, complete
   problem_statement: How could public decision-making improve if institutions knew how to leverage citizens’ and civil servants’ expertise? #question
   short_description: >
     <p>A GovLab initiative to design and test how public decision-making could improve if institutions knew how to leverage citizens’ and civil servants’ expertise.</p>
@@ -1856,7 +1877,7 @@
         - Training
         - Coaching & mentoring
         - Strategy #tag
-  status: test # define, prototype, test, complete
+  status: complete # define, prototype, test, complete
   problem_statement: How can targeted crowdsourcing help the City of Quito, Ecuador get smarter about how to prepare for a likely volcano eruption? #question
   short_description:
   tooltip:
@@ -2117,7 +2138,7 @@
   type: '' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
-  related_question: 2 #question
+  related_question: 999 #question
   project_website: http://datacollaboratives.org/social-media.html #url
   location:
     - Global
@@ -2163,7 +2184,7 @@
 # ==========================================================================================================================================================================================================================================#
 
 - title: Gender and Urban Mobility in Chile #will generate slug from this attr
-  rank: 5
+  rank: 9
   image: datacollab.png
   style: cover
   type: '' # Data, Collective Intelligence or Design Thinking
@@ -2178,10 +2199,12 @@
     - Universidad del Desarrollo/Telefónica R&D Center
     - ISI Foundation
     - DigitalGlobe
+    - Telefonica
   team:
     - Stefaan Verhulst
     - Andrew Young
     - Hannah Pierce
+    - Michelle Winowatan
   tags:
     governance_area:
         - National Governance
@@ -2195,27 +2218,36 @@
         - Dataset
         - Platform
         - Mapping
-  status: define # define, prototype, test, complete
+  status: test # define, prototype, test, complete
   problem_statement: How can we leverage data collaboratives to make urban transportation planning more gender-inclusive? #question
   short_description: >
     <p></p>
   tooltip: >
     <p></p>
   long_description: >
-    <p>This data collaborative project seeks to create a Data Collaborative on Gender and Urban Mobility to pair official government data (census, transport, crime report, socioeconomic indicators) with high-definition satellite imagery from DigitalGlobe, and aggregated, anonymized Call Detail Records from Telefonica to create create a human landscape and mobility map of Santiago.</p>
+    <p>Over the course of a year-long study, The GovLab and its project partners established a data collaborative to seek answers to the following questions:</p>
+    <ul>
+    <li>Does gender play a role in the way people move around the megacity of Santiago, Chile?</li>
+    <li>To what extent is tehre mobility inequality by gender, and what can be done to incorporate and include gender considerations in transportation planning?</li>
+    <li>Can the analytic model used to study gender and mobility in Chile be used in other places and contexts?</li>
+    </ul>
+    <p>Through the Gender and Urban Mobility data collaborative, The GovLab and its partners are seeking to decode the intersection of urban mobility and gender, combining a wide range of datasets, including call detail records and high-resolution satellite data. This insight could play a key role in the creation of more gender inclusive and equitable decision-making in Santiago and beyond as it relates to urban planning, transportation, and mobility.</p>
+    <p>&nbsp;</p>
   background: >
-    <p>Transportation planning in Chile and elsewhere rarely accounts for gender, yet these decisions impact the urban mobility of women and girls in a number of different ways. For example, women and girls often engage in multi-purpose, multi-stop trips. Safety is also a major concern for women and girls. The location of bus stops or how well-lit streets are can affect movement. The World Health Organization estimates that over 2,000 people die each year as a result of road accidents in the country. Sexual harassment is also a recurring obstacle, with 5 out of 10 women in Chile reporting sexual harassment on the street.</p>
+    <p>Close to 90% of Chile’s population lives in urban areas, with 40% living in Santiago alone. Like many other South American cities, Santiago continues to expand, which puts pressure on vulnerable populations, who must travel greater distances to work, study and live. Although private car ownership is projected to grow in the coming years, women are more likely to be traveling on foot than men–40% of women travel by foot in Santiago, as opposed to 30% of men.</p>
+    <p>When traveling, women often take multi-purpose, multi-stop trips to do chores, work and attend school. The needs of women and girls are not typically taken into account when authorities make plans for transportation developments. Difficulties in public transportation use can lead to a fear of personal safety in public spaces, especially when 85% of women reported that they were harassed on the street in Chile between 2014 and 2015.</p>
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
-    -
-  results: >
-    <p></p>
+  results:
   related_articles:
-    -
+    - name: 'Gender and Urban Mobility: Addressing Unequal Access to Urban Transportation for Women and Girls'
+      url: 'http://thegovlab.org/gender-and-urban-mobility-addressing-unequal-access-to-urban-transportation-for-women-and-girls/'
+    - name: 'Selected Readings on Data, Gender, and Mobility'
+      url: 'https://thelivinglib.org/selected-readings-on-data-gender-and-mobility/'
 
 # ==========================================================================================================================================================================================================================================#
 
-- title: The MacArthur Research Network for Opening Governance #will generate slug from this attr
+- title: The MacArthur Research Network on Opening Governance #will generate slug from this attr
   rank: 0
   image: macarthur.png
   style: cover
@@ -2229,7 +2261,7 @@
     - United Kingdom
     - Denmark
   partners:
-    - Arthur T. and Catherine D. MacArthur Foundation
+    - John D. and Catherine T. MacArthur Foundation
   team:
     - Beth Simone Noveck
     - Stefaan Verhulst
@@ -2249,7 +2281,7 @@
     product_category:
         - Platform
         - Strategy
-  status: test # define, prototype, test, complete
+  status: complete # define, prototype, test, complete
   problem_statement: How can we facilitate the exchange of thought and research around open government? #question
   short_description: >
     <p></p>
@@ -2257,6 +2289,7 @@
     <p></p>
   long_description: >
     <p>Convened and organized by the GovLab, and made possible by five years of funding support from the John D. and Catherine T. MacArthur Foundation, the MacArthur Foundation Research Network on Opening Governance works to develop the blueprints for more effective and legitimate democratic institutions to the end of improving people’s lives. A core group of twelve members is complemented by an advisory network of academics, technologists, and current and former government officials. Through both face-to-face and online collaboration, the Network is focused on assessing existing innovations in governing and experimenting with new practices and, eventually new norms, for how our institutions make decisions at the local, national, and international level.</p>
+    <p>&nbsp;</p>
   background: >
     <p>Research networks are a signature MacArthur “way of working.” They are designed to identify a big problem and bring together researchers, practitioners, and policymakers from multiple disciplines to work collaboratively over an extended period of time, typically six to as many as ten years. Ambitious and innovative −but not prescriptive−research networks liberate their members to pursue work that has the potential to change prevailing paradigms.</p>
     <p>Unlike project support or institutional operating support, research networks create a more open space for ideation and collaboration, with the goal of breaking new ground on big, timely challenges. Intensive preparatory activities to frame research network inquiries, identify network members, and vet initial and renewal network proposals with outside experts increase the potential for research networks not only to make distinctive conceptual contributions, but also to have real-world relevance and impact.
@@ -2264,8 +2297,7 @@
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
     - #url
-  results: >
-    <p></p>
+  results:
   related_articles:
     - name: "Opening Governance Research Network"
       url: "https://www.macfound.org/networks/research-network-opening-governance/"
@@ -2274,8 +2306,8 @@
 
 - title: "Blockchange: Blockchain Technology for Social Change" #will generate slug from this attr
   rank: 0
-  image: blockchange-logo.png
-  style: contain
+  image: blockchangelogo.png
+  style: cover
   type: '' # Data, Collective Intelligence or Design Thinking
   is_featured: 1 #integer
   is_active: True
@@ -2290,6 +2322,9 @@
     - Stefaan Verhulst
     - Andrew Young
     - Hannah Pierce
+    - Michelle Winowatan
+    - Juliet McMurren
+    - Olivia Clark
   tags:
     governance_area:
         - Municipal Governance
@@ -2303,35 +2338,29 @@
         - Expert Networks
     product_category:
         - Case Studies
-  status: define # define, prototype, test, complete
+  status: test # define, prototype, test, complete
   problem_statement: How can we use blockchain technology for social good? #question
   short_description:
   tooltip:
   long_description: >
-    <p>Blockchange will seek to test the hypothesis that by applying blockchain attributes to identity management, a trusted digital ID can be created that can benefit, for instance:</p>
-    <ul>
-    <li>The estimated 1.1 billion people who are unable to prove their identity to the satisfaction of authorities and other organizations – often excluding them from property ownership, free movement, and social protection as a result;</li>
-    <li>The 1.3 million refugees that are trying to relocate around the world but can’t be identified; and</li>
-    <li>All the women and girls, who disproportionately struggle to obtain IDs, often the result of barriers related to: freedom of travel, distance, financial costs, time constraints, illiteracy, lack of information and awareness, and lack of support from family members.</li>
-    </ul>
-    <p>To become smarter about the application of blockchain technologies for identity, Blockchange will initially seek to:</p>
-    <ul>
-    <li>Map, and provide a taxonomy of blockchain technologies that seeks to provide identity;</li>
-    <li>Develop a primer on the potential and challenges of blockchain technologies across the identity life-cycle (such as creation; verification; authentication; and authorization);</li>
-    <li>Map the actual use of identity provided through blockchain technologies for a variety of social good purposes through case studies; and</li>
-    <li>Co-develop a set of (evidence-based) design principles that can guide the further development and use of blockchain for social change.</li>
-    </ul>
+    <p>By providing new ways to securely identify individuals and organizations, and record transactions of various types in a distributed manner, blockchain technologies have been heralded as a new tool to address information asymmetries, establish trust and improve governance. The GovLab’s Blockchange initiative, supported by the Rockefeller Foundation, studies the promise and practice of leveraging blockchain to achieve social change objectives across three types of use case: identity, track & trace, and smarter contracting.</p>
   background: >
-    <p>In 2008, an unknown source calling itself Satoshi Nakamoto released a paper named Bitcoin: A Peer-to-Peer Electronic Cash System which introduced Blockchain. Blockchain is a novel technology that uses a distributed ledger to record transactions and ensure compliance. Blockchain and other Distributed Ledger technologies (DLTs) rely on an ability to act as a vast, transparent, and secure public database.
-    </p><p>Distributed ledger technologies (DLTs) have disruptive potential beyond innovation in products, services, revenue streams and operating systems within industry. By providing transparency and accountability in new and distributed ways, DLTs have the potential to positively empower underserved populations in myriad ways, including providing a means for establishing a trusted digital identity.
-    </p>
+    <p>Distributed ledger technologies like blockchain are increasingly believed to offer value beyond the world of cryptocurrencies. As a tool for addressing information asymmetries, Blockchain could be capable of empowering underserved populations and helping to address public problems. This project examines how blockchain can establish social change across three areas.</p>
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
     -
   results:
   related_articles:
-    - url: "http://thegovlab.org/the-govlab-selected-readings-on-blockchain-and-identity/"
-    - url: "http://thegovlab.org/the-govlab-selected-readings-on-blockchain-technology-and-its-potential-for-transforming-governance/"
+    - name: 'Field Report: On the Emergent Use of Distributed Ledger Technologies for Identity Management'
+      url: 'https://blockchan.ge/fieldreport.html'
+    - name: 'Blockchange Primer'
+      url: 'https://blockchan.ge/primer/narratives.html'
+    - name: 'Blockchange Curated Examples'
+      url: 'https://blockchan.ge/curatedexamples.html'
+    - name: 'Selected Readings on Blockchain and Identity'
+      url: 'https://thelivinglib.org/the-govlab-selected-readings-on-blockchain-and-identity/'
+    - name: 'Selected Readings on Blockchain Technology and Its Potential for Transforming Governance'
+      url: 'https://thelivinglib.org/the-govlab-selected-readings-on-blockchain-technology-and-its-potential-for-transforming-governance/'
 # ==========================================================================================================================================================================================================================================#
 
 - title:  Solving Public Problems with Data #will generate slug from this attr
@@ -2447,7 +2476,7 @@
         - Big Data
     product_category:
         - Case Studies
-  status: prototype # define, prototype, test, complete
+  status: complete # define, prototype, test, complete
   problem_statement: How can we leverage administrative data to improve social sector services and programs?  #question
   short_description:
   tooltip:
@@ -2470,7 +2499,8 @@
 
 - title: Blockchain and Extractives Governance #will generate slug from this attr
   rank: 1
-  image: blockchange-logo.png
+  image: blockchangelogo.png
+  style: cover
   type: '' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
@@ -2484,6 +2514,7 @@
     - Stefaan Verhulst
     - Andrew Young
     - Daniella Heard
+    - Olivia Clark
   tags:
     governance_area:
         - Global Governance
@@ -2511,18 +2542,21 @@
   images: #images or screenshots of the project
   results:
   related_articles:
+    - name: 'Field Report: On the Emergent Use of Distributed Ledger Technologies for Identity Management'
+      url: 'https://blockchan.ge/fieldreport.html'
+    - name: 'Blockchange Primer'
+      url: 'https://blockchan.ge/primer/narratives.html'
+    - name: 'Blockchange Curated Examples'
+      url: 'https://blockchan.ge/curatedexamples.html'
     - name: 'Selected Readings on blockchain and identity'
-      url: 'http://thegovlab.org/the-govlab-selected-readings-on-blockchain-and-identity/'
+      url: 'https://thelivinglib.org/the-govlab-selected-readings-on-blockchain-and-identity/'
     - name: 'Selected Readings on blockchain technology and its potential for transforming governance'
-      url: 'http://thegovlab.org/the-govlab-selected-readings-on-blockchain-technology-and-its-potential-for-transforming-governance/'
-    - name: 'NRGI'
-      url: 'https://resourcegovernance.org/'
-
+      url: 'https://thelivinglib.org/the-govlab-selected-readings-on-blockchain-technology-and-its-potential-for-transforming-governance/'
 
 
 # ==========================================================================================================================================================================================================================================#
 - title: Data Stewards Network #will generate slug from this attr
-  rank: 6
+  rank: 8
   image: data-stewards.png
   type: '' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
@@ -2648,22 +2682,21 @@
 
 - title: Open Data Demand #will generate slug from this attr
   rank: 5
-  image: odimpact.png
+  image: open-data-demand-methodology.jpg
   type: '' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
   related_question: 1 #question
   project_website: 'http://www.thegovlab.org/open-data-demand.html' #url
   location:
-    - Global
+    - Costa Rica
+    - New York City
   partners:
-    - Omidyar Network
+    - Luminate Group
+    - Inter-American Development Bank
     - Reboot
-    - Mayor's Fund to Advance New York City
-    - NYC Open Data
-    - NYC Analytics
-    - USAID
-    - Global Development Lab
+    - 'Mayor’s Fund to Advance New York City'
+    - 'New York City Mayor’s Office of Data Analytics'
   team:
     - Stefaan Verhulst
     - Andrew Young
@@ -2676,12 +2709,10 @@
     type_of_institution:
         - Government
     innovative_capability:
-        - Expert Networks
-        - Open Innovation
         - Collective Intelligence
         - Open Data
     product_category:
-        - Case Studies
+        - Methodology
   status: test # define, prototype, test, complete
   problem_statement: How can you leverage government data to create a knowledge base for solving problems? #question
   short_description:
@@ -2696,10 +2727,14 @@
   images: #images or screenshots of the project
   results:
   related_articles:
-    - name: 'Periodic Table of Open Data'
-      url: 'http://odimpact.org/periodic-table'
-    - name: 'Omidyar Network'
-      url: 'https://www.omidyar.com/'
+    - name: Open Data Demand Assessment and Segmentation Methodology
+      url: 'http://www.thegovlab.org/static/files/publications/open-data-demand-methodology.pdf'
+    - name: Toward an Open Data Demand Assessment and Segmentation Methodology Report
+      url: 'http://www.thegovlab.org/static/files/publications/Data+Demand.pdf'
+    - name: Leveraging and Sharing Data for Urban Flourishing
+      url: 'https://medium.com/data-stewards-network/leveraging-and-sharing-data-for-urban-flourishing-d6d48584443a'
+    - name: If You Build It, Will They Come? A Case for Demand-Driven Open Data
+      url: 'http://thegovlab.org/if-you-build-it-will-they-come-a-case-for-demand-driven-open-data/'
 
 
 # ==========================================================================================================================================================================================================================================#
