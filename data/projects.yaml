@@ -2739,49 +2739,226 @@
 
 # ==========================================================================================================================================================================================================================================#
 
-# - title:  #will generate slug from this attr
-#   rank: 0
-#   type: '' # Data, Collective Intelligence or Design Thinking
-#   is_featured: 0 #integer
-#   is_active: True
-#   related_question: #question
-#   project_website: #url
-#   location:
-#   partners:
-#   team:
-#     - #name
-#   tags:
-#     governance_area:
-#         - #tag
-#     type_of_institution:
-#         - #tag
-#     innovative_capability:
-#         - #tag
-#     product_category:
-#         - #tag
-#   status: # define, prototype, test, complete
-#   problem_statement: #question
-#   short_description: >
-#     <p></p>
-#   tooltip: >
-#     <p></p>
-#   long_description: >
-#     <p></p>
-#   background: >
-#     <p></p>
-#   social_media: #in the future we can have custom shareable messages for each project
-#   images: #images or screenshots of the project
-#     - #url
-#   results: >
-#     <p></p>
-#   related_articles:
-#     - #url
+- title: Open Justice #will generate slug from this attr
+  rank: 100
+  image: open-justice.png
+  style: cover
+  type: '' # Data, Collective Intelligence or Design Thinking
+  is_featured: 0 #integer
+  is_active: True
+  related_question: 6 #question
+  project_website: #url
+  location:
+    - Mexico
+  partners:
+    - The Electoral Tribunal of the Federal Judiciary of Mexico
+  team:
+    - Beth Simone Noveck
+    - Victoria Alsina
+    - Dinorah Cantu-Pedraza
+    - Matt Ryan
+    - Dane Gambrell
+    - Auralice Graft
+    - Darshana Narayanan
+    - Pablo Collada
+    - Leonardo Ferreira de Oliveira
+    - Anirudh Dinesh
+  tags:
+    governance_area:
+        - National Governance
+    type_of_institution:
+        - Public Sector / Courts
+    innovative_capability:
+        - Open Data
+        - Crowdsourcing
+        - Expert Networks
+    product_category:
+        - Training
+        - 'Coaching &amp; Mentoring'
+        - Strategy
+  status: test # define, prototype, test, complete
+  problem_statement: A comprehensive 10-module course in Spanish and English to train public officials on how to use new technologies to improve the judicial system. #question
+  short_description: >
+    <p></p>
+  tooltip: >
+    <p></p>
+  long_description: >
+    <p>“Introduction to Open Justice” is a self-paced massively open online course (MOOC) designed to aid those developing open justice projects to advance their work. Created primarily for lawyers, judges, and public officials but also technologists, and members of the public, the course consists of 10 modules which serve as introductions to different aspects of open justice. It trains public entrepreneurs in strategies for using technology, especially data, to increase efficiency, improve equity, fight corruption and enhance legitimacy in the third branch of government.</p>
+    <p>&nbsp;</p>
+  background: >
+    <p>Open justice is a growing movement to use new technologies, including big data, digital platforms, blockchain and more, to improve our legal system by making the workings of our legal institutions easier to understand and scrutinize. The term describes the use of new technology to foster data transparency, courtroom openness, and public engagement in order to improve the efficiency, effectiveness and legitimacy of the courts and promote better public policy. Because of these new technologies and tools, the opportunity for more diverse people to make improvements to the judicial system has never been greater.</p>
+  social_media: #in the future we can have custom shareable messages for each project
+  images:
+  results: >
+    <p>Launched in january 2019, we anticipate coaching a dozen projects arising from the course beginning this spring.</p>
+  related_articles:
+
+# ==========================================================================================================================================================================================================================================#
+
+- title: CrowdLaw Playbook #will generate slug from this attr
+  rank: 0
+  image: crowdlaw-square.png
+  style: cover
+  type: '' # Data, Collective Intelligence or Design Thinking
+  is_featured: 0 #integer
+  is_active: True
+  related_question: 4 #question
+  project_website: #url
+  location:
+    - United States
+    - Global
+  partners:
+    - Democracy Fund
+  team:
+    - Beth Simone Noveck
+    - Victoria Alsina
+    - Anirudh Dinesh
+    - Matt Ryan
+    - Marco Konopacki
+    - Sam DeJohn
+    - Mark Adkins-Hastings
+    - Rose Harvey
+  tags:
+    governance_area:
+        - National Governance
+    type_of_institution:
+        - Public sector
+    innovative_capability:
+        - Open data
+        - Big data
+        - Small data
+        - Collective Intelligence
+        - Crowdsourcing
+        - Expert networks
+    product_category:
+        - Platform
+        - Mapping
+        - Strategy
+        - Case Studies
+  status: complete # define, prototype, test, complete
+  problem_statement: GovLab received a grant from The Democracy Fund to study citizen engagement for Congress and create a Crowdlaw Playbook for Congress and teach citizen engagement techniques to Members. #question
+  short_description: >
+    <p></p>
+  tooltip: >
+    <p></p>
+  long_description: >
+    <p>Sponsored by the Democracy Fund, the CrowdLaw for Congress project explores how lawmaking bodies around the world are turning to CrowdLaw or the use of new technology to foster an efficient two-way conversation with the public to the end of improving the quality and the legitimacy of lawmaking.</p>
+    <p>Building on its experience working with public partners to design, implement and research the use of new technologies for governing, the Governance Lab at New York University in collaboration with the Kluge Center at the Library of Congress is launching a series of five videos detailing the many ways legislatures around the world are using CrowdLaw practices successfully to engage with the public at each stage of lawmaking. The videos are accompanied by in-depth case studies examining CrowdLaw initiatives, a series of online interviews with politicians and congressional staff offering vivid detail of how and why their parliaments are turning to online engagement to improve lawmaking. The CrowdLaw Playbook offers a downloadable guide with practical how-to's for introducing 21st century lawmaking techniques here in the United States.</p>
+    <p>&nbsp;</p>
+  background: >
+    <p>With legislation largely done by professional staff and politicians working behind closed doors, it is no wonder that rates of trust in Congress are at historic lows. Lobbyists vying for precious face time with Members and constituents’ emails and letters piling up are fueling the demand from lawmakers and the public alike for innovative and efficient ways to tap into the public’s expertise and know-how. Crowdlaw is what GovLab calls the use of the Internet to enable people to participate in one or more stages of the lawmaking process, including but not limited to problem identification, solution identification, proposal drafting, ratification, implementation or evaluation.</p>
+  social_media: #in the future we can have custom shareable messages for each project
+  images:
+  results:
+  related_articles:
+    - name: CrowdLaw Site
+      url: https://crowd.law/
+
+# ==========================================================================================================================================================================================================================================#
+
+- title: ICMA Innovation Skills Survey
+  rank: 101
+  image: icma-logo.png
+  style: small
+  type: '' # Data, Collective Intelligence or Design Thinking
+  is_featured: 0 #integer
+  is_active: True
+  related_question: 6 #question
+  project_website: #url
+  location:
+    - United States
+  partners:
+    - International City/County Management Association
+  team:
+    - Beth Simone Noveck
+    - Anirudh Dinesh
+    - Sam DeJohn
+  tags:
+    governance_area:
+        - Municipal Governance
+    type_of_institution:
+        - Public Sector
+    innovative_capability:
+        - Crowdsourcing
+        - Expert networks
+        - Open Innovation
+        - Open Data
+    product_category:
+        - Training
+  status: test # define, prototype, test, complete
+  problem_statement: Beth Simone Noveck is leading a research project with an aim to measure current knowledge and use of innovative skills by local government leaders in the United States. #question
+  short_description: >
+    <p></p>
+  tooltip: >
+    <p></p>
+  long_description: >
+    <p>GovLab Director Beth Simone Noveck was recently announced as one of four inaugural International City/County Management Association Local Government Research Fellows. Her research project, titled “Promoting Local Leaders’ Innovation, Learning, and Effective Problem-Solving”, focuses on identifying and analyzing the skill gaps of local leaders’ use of innovative methods to solve problems using new technology.</p>
+    <p>Specifically, she is conducting nationwide mixed-methods research in order to understand the current and desired level of knowledge of the aforementioned six (and other) innovative skills as well as the learning practices of local public officials in the United States. The goal of this research is to understand the current problem-solving skillset among local officials and inform the creation of new skills training programs for local officials that respond to people’s needs and that, in turn, might make public officials more effective at solving public problems. </p>
+  background: >
+    <p>GovLab’s work on measuring innovative and entrepreneurial skills within the public sector starts from the hypothesis that government can do a better job of eradicating poverty and inequality, slowing economic fluctuations and climate change, and improving security, literacy and wellness if public officials know how and when to leverage new creative, technological and data-informed tools and methods (“innovative skills”) to more effectively and efficiently define problems and develop implementable solutions.</p>
+    <p>Those innovative problem solving skills include six basic competencies: 1) knowing how to define an actionable problem (problem-definition), 2) working with the people affected by a problem to understand the problem and its causes (human-centered design), 3) knowing how to leverage social science research to design experiments that change behavior (behavioral insights), 4) understanding how to formulate a hypothesis, identify and use data to undertake evidence-based ways of working (data analytical thinking), 5) tapping collective intelligence to understand the problem and develop solutions (open innovation) and 6) having the know how to accelerate the completion of a project from idea to implementation (lean-agile methods).</p>
+  social_media: #in the future we can have custom shareable messages for each project
+  images:
+  results:
+  related_articles:
+
+
+# ==========================================================================================================================================================================================================================================#
+
+- title: 'Open Policymaking'
+  rank: 0
+  image: aarp-logo.png
+  style: small
+  type: '' # Data, Collective Intelligence or Design Thinking
+  is_featured: 0 #integer
+  is_active: True
+  related_question: 4 #question
+  project_website: #url
+  location:
+    - United States
+  partners:
+    - AARP
+  team:
+    - Victoria Alsina
+    - Anirudh Dinesh
+    - Rose Harvey
+    - Beth Simone Noveck
+  tags:
+    governance_area:
+        - Collaborative Governance
+    type_of_institution:
+        - Nonprofit
+    innovative_capability:
+        - Collective Intelligence
+        - Crowdsourcing
+        - Expert Networks
+        - Citizen Engagement
+    product_category:
+        - Case Studies
+        - Guide
+        - Recommendations
+  status: test # define, prototype, test, complete
+  problem_statement: 'Open Policymaking: making more effective and legitimate policy by tapping collective intelligence' #question
+  short_description: >
+    <p></p>
+  tooltip: >
+    <p></p>
+  long_description: >
+    <p>The GovLab created a report that recommends eight cost-effective dialogic mechanisms for open and engaged policymaking to support AARP in developing better AV policy. Rooted in both empirical research and practice, these recommendations focus on processes that have a proven track record for efficient and effective policy consultation on hard issues and are optimally suited for use in connection with challenging policymaking issues. Recommendations are divided into four stages of the policymaking process (Understanding the Problem, Developing Solutions, Drafting, and Evaluation and Assessment) with each recommendation describing a process for obtaining the information and expertise specifically needed at that stage.</p>
+  background: >
+    <p>The deployment of Autonomous Vehicles (AVs) creates the potential to transform society by “reducing crashes, alleviating congestion, diminishing pollution, and increasing mobility while improving travel time.” In addition to improving safety, AVs may also increase mobility and create economic and social opportunity for the underserved, including low income, disabled, and elderly communities. However, numerous challenges exist, which require developing a better understanding of the problems as people experience and perceive them across communities, as well as identifying innovative solutions to those problems by tapping the collective intelligence of diverse and creative experts. To build upon AARP leadership as a next-generation listening organization that leverages the latest technology to enhance member engagement, GovLab lays out 8 cost-effective dialogic mechanisms for open and engaged policymaking. Rooted in both empirical research and practice, these recommendations focus on processes that have a proven track record for efficient and effective policy consultation. In this report, we discuss each of these recommendations in depth and provide specific guidance with regard to implementation and how to use these methods to get more people to respond; obtain diverse, innovative and unexpected ideas; go beyond screeds and rants; and increase legitimacy and effectiveness of its policymaking through more active and engaged forms listening.</p>
+  social_media: #in the future we can have custom shareable messages for each project
+  images:
+  results:
+  related_articles:
 
 
 # ==========================================================================================================================================================================================================================================#
 
 # - title:  #will generate slug from this attr
 #   rank: 0
+#   image:
+#   style:
 #   type: '' # Data, Collective Intelligence or Design Thinking
 #   is_featured: 0 #integer
 #   is_active: True
