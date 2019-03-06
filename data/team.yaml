@@ -225,6 +225,15 @@
     <p>Darshana studies human behavior at multiple levels (individual and organization) and time scales (ontogeny and evolutionary history). She is currently examining how organizational structures shape human cognitive systems. Her <a href="https://scholar.google.com/citations?hl=en&user=RrkwiR4AAAAJ">research</a> on the evolution of human social behavior has been covered by media such as the BBC, National Geographic, Wired, Io9 and NPR. Along with <a href="http://wws.princeton.edu/faculty-research/faculty/shafir">Eldar Shafir</a>, Darshana has taught at Princeton University, on: ‘The Psychology of Decision Making and Judgment’. She has worked as Head of Research at pymetrics, a <a href="https://www.khoslaventures.com/team">Khosla Ventures</a> funded startup, that builds algorithms for personnel recruitment. She is currently a consultant at Math & Democracy, where she works on implementing crowd-understanding platform Polis, in governments, businesses, nonprofits and communities. </p>
     <p>Through Polis, Darshana works with organizations such as: the Governments of Canada, Taiwan and Singapore, think tank American Assembly, and the movement March On. With collaborators in the <a href="https://g0v.network">g0v-network</a>, she has conducted empirical research into <a href="https://osf.io/preprints/socarxiv/xyhft/">Taiwan’s open government practices</a> and is <a href="http://training.g0v.network">bringing Taiwan’s models to New York City</a>. Darshana was the Community Manager of the <a href="https://www.pdf-18.com">Personal Democracy Forum 2018</a>, where she also facilitated a workshop on <a href="https://www.pdf-18.com/session/new-approaches-to-democracy-in-the-digital-age/">"‘New Approaches to Democracy in the Digital Age'</a>. Darshana has a Ph.D. in Psychology & Neuroscience from Princeton University. She tweets @dznarayanan. </p>
 
+- name: Dinorah Cantú-Pedraza
+  firstname: Dinorah
+  job: Non-Resident Fellow
+  projects: true
+  bio: >
+    <p>Dinorah Cantu coordinates the GovLab Academy, an online institute aimed at helping government and social innovators take innovative projects from idea to implementation. Under her direction, the Academy has worked with over five hundred innovators from more than 30 countries online and off over the last two years. Thousands more have watched its skill-building videos. She has put together over 12 Coaching Programs, the Academy’s signature mentoring and peer to peer learning initiative, where over 95% of whose participants complete the program. The Academy is a project of the Governance Lab, based at New York University. GovLab focuses on the use of technology to improve how we govern.</p>
+    <p>Dinorah has also designed the GovLab’s Crowdsorcerer expert system, a software tool to deliver customized case studies to government leaders about open innovation. Working together with lawyers and education experts from NYU, she also designed an expert system to help universities determine the legal requirements for offering online education. She also runs the GovLab’s Demos for Democracy video series where she interviews leading technologists about new platforms to advance the public interest.</p>
+    <p>A lawyer by training, Dinorah founded and directed the Human Rights Center of the Facultad Libre de Derecho de Monterrey prior to coming to New York in 2012. She holds an MPA in Public and Nonprofit Management and Policy at NYU Robert F. Wagner School of Public Service and is passionate about the value of civic technology for strengthening human rights. She is bilingual in English and Spanish and tweets at @dinorah_cantu.<a href="https://twitter.com/dinorah_cantu" target="_blank">@dinorah_cantu</a>.</p>
+
 
 # - name: David K. Chai
 #   firstname: David
@@ -240,14 +249,6 @@
   bio: >
     <p>Eduardo González de Molina is a Research Fellow at GovLab. He holds a Master in Public and Social Policy from Pompeu Fabra University—Barcelona School of Management and a double Bachelor in Sociology and Political Science from University Carlos III of Madrid. His current research focuses on finding innovative solutions to regenerate the public sector, helping communities and institutions to work together to solve problems more effectively and legitimately. He collaborates on the GovLab's CrowdLaw initiative, focused on promoting effective public engagement in law and policy-making.Previously, Eduardo worked as Technical Advisor at the Directorate of Planning and Innovation at Barcelona City Council and as a Research Assistant at Johns Hopkins University—Pompeu Fabra University Public Policy Center.</p>
 
-# - name: Dinorah Cantú-Pedraza
-#   firstname: Dinorah
-#   job: The GovLab Academy Coordinator
-#   projects: true
-#   bio: >
-#     <p>Dinorah Cantu coordinates the GovLab Academy, an online institute aimed at helping government and social innovators take innovative projects from idea to implementation. Under her direction, the Academy has worked with over five hundred innovators from more than 30 countries online and off over the last two years. Thousands more have watched its skill-building videos. She has put together over 12 Coaching Programs, the Academy’s signature mentoring and peer to peer learning initiative, where over 95% of whose participants complete the program. The Academy is a project of the Governance Lab, based at New York University. GovLab focuses on the use of technology to improve how we govern.</p>
-#     <p>Dinorah has also designed the GovLab’s Crowdsorcerer expert system, a software tool to deliver customized case studies to government leaders about open innovation. Working together with lawyers and education experts from NYU, she also designed an expert system to help universities determine the legal requirements for offering online education. She also runs the GovLab’s Demos for Democracy video series where she interviews leading technologists about new platforms to advance the public interest.</p>
-#     <p>A lawyer by training, Dinorah founded and directed the Human Rights Center of the Facultad Libre de Derecho de Monterrey prior to coming to New York in 2012. She holds an MPA in Public and Nonprofit Management and Policy at NYU Robert F. Wagner School of Public Service and is passionate about the value of civic technology for strengthening human rights. She is bilingual in English and Spanish and tweets at @dinorah_cantu.<a href="https://twitter.com/dinorah_cantu" target="_blank">@dinorah_cantu</a>.</p>
 
 # - name: Eduardo Valdez
 #   firtname: Eduardo
@@ -618,6 +619,16 @@
 #    <p>Ahead of these roles, Timi was a project manager for the corporate social responsibility practice at Ernst & Young, and an international trade consultant with Ernst & Young, Arthur Andersen, and the Council for Scientific and Industrial Research in Port Elizabeth, South Africa.</p>
 #    <p>Throughout her career, Timi has also advised small businesses and nonprofits as an independent communications consultant. And she served two terms on the Board of Directors of New York Women in Communications.</p>
 #    <p>Timi holds a Bachelor of Arts degree in public policy from Duke University, and a Master of Public Policy degree from the University of Michigan, Ann Arbor.</p>
+- name: Stephan Schmidt
+  firstname: Stephan
+  job: Developer
+  projects: false
+  bio: >
+    <p>Stephan embarked on his digital path in the early 2000 while at Bauhaus University, Weimar. He worked for e-learning publisher, designed web applications and project managed in digital marketing agencies in Hannover and Hamburg, Germany. 
+    He received a fellowship from the Heinz Nixdorf Foundation in collaboration with GIZ and spend a traineeship in Tokyo. Stephan stayed in Japan and continued to contribute to the Media Studio of the United Nations University where he became 
+    a content provider and manager for the web magazine <a href="https://ourworld.unu.edu/en/" target="_blank">Ourworld.unu.edu</a> and the UN Universities website. Since coming to New York, Stephan consulted a variety of organizations on IT projects, among them the library of the Goethe-Institut New York, Teachers College Columbia University, 
+    the global edition of The Conversation and currently develops applications for The Governance Lab. He is an alumni of HB Studio, New York </p>
+
 
 - name: Stuart Campo
   firstname: Stuart
