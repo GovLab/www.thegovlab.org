@@ -418,12 +418,28 @@
   bio: >
     <p>Jason Williams-Bellamy is a second-year public policy major at the NYU College of Arts and Science. He is currently working on the CrowdLaw for Congress project at the GovLab.</p>
 
+
+- name: Jihii Jolly
+  firstname: Jihii
+  job: Consulting Fellow
+  projects: false
+  bio: >
+    <p>Jihii Jolly is a journalist and strategist specializing in media and community design. She was most recently Community Editor of gender at News Deeply, where she designed and developed products and engagement strategy for verticals covering women's advancement. She has previously been a documentary producer at EdLab Studios (Teacher's College) and news literacy reporter at the Columbia Journalism Review. She's also currently working on a book about how to read the news in a value-creative way. She holds an M.S. from Columbia's Graduate School of Journalism and a B.A. in Humanities from Soka University of America.</p>
+
+
 - name: John Harlow
   firstname: John
   job: Non-Resident Fellow
   projects: false
   bio: >
     <p>John Harlow is a Non-Resident Fellow at the GovLab.  He is a postdoctoral scholar in the <a href="http://www.opening-governance.org/#the-context">MacArthur Foundation Research Network on Opening Governance</a> at the Arizona State University School for the Future of Innovation in Society. He researches strategic intervention points for process innovation in governance. John is currently working on the RWJF grant "<a href="https://diyps.org/2017/09/15/opening-pathways-for-discovery-research-and-innovation-in-health-and-healthcare/">Opening pathways for discovery, research, and innovation in health and healthcare</a>." His prior work includes designing the workshop that produced the first draft of <a href="https://www.phoenix.gov/t2050">Phoenix's 2050 transportation plan</a>, and <a href="https://www.phoenix.gov/pdd/topics/reinvent-phx">Reinvent Phoenix</a>’s public outreach to inform rezoning around Phoenix's light rail.</p>
+
+- name: Julia Stoyanovich
+  firstname: Julia
+  job: Consulting Fellow
+  projects: false
+  bio: >
+    <p>Julia Stoyanovich is an Assistant Professor in the Department of Computer Science and Engineering at the Tandon School of Engineering, and the Center for Data Science at New York University.  She is a recipient of an NSF CAREER award and of an NSF/CRA CI Fellowship.  Julia's research focuses on responsible data management and analysis practices: on operationalizing fairness, diversity, transparency, and data protection in all stages of the data  acquisition and processing lifecycle. She established the Data, Responsibly consortium, and serves on the New York City Automated Decision Systems Task Force, by appointment by Mayor de Blasio.  In addition to data ethics, Julia works on management and analysis of preference data, and on querying large evolving graphs.  She holds M.S. and Ph.D. degrees in Computer Science from Columbia University, and a B.S. in Computer Science and in Mathematics and Statistics from the University of Massachusetts at Amherst.</p>
 
 # - name: Kaitlin Koga
 #   firstname: Kaitlin
@@ -642,9 +658,9 @@
   job: Developer
   projects: false
   bio: >
-    <p>Stephan embarked on his digital path in the early 2000 while at Bauhaus University, Weimar. He worked for e-learning publisher, designed web applications and project managed in digital marketing agencies in Hannover and Hamburg, Germany. 
-    He received a fellowship from the Heinz Nixdorf Foundation in collaboration with GIZ and spend a traineeship in Tokyo. Stephan stayed in Japan and continued to contribute to the Media Studio of the United Nations University where he became 
-    a content provider and manager for the web magazine <a href="https://ourworld.unu.edu/en/" target="_blank">Ourworld.unu.edu</a> and the UN Universities website. Since coming to New York, Stephan consulted a variety of organizations on IT projects, among them the library of the Goethe-Institut New York, Teachers College Columbia University, 
+    <p>Stephan embarked on his digital path in the early 2000 while at Bauhaus University, Weimar. He worked for e-learning publisher, designed web applications and project managed in digital marketing agencies in Hannover and Hamburg, Germany.
+    He received a fellowship from the Heinz Nixdorf Foundation in collaboration with GIZ and spend a traineeship in Tokyo. Stephan stayed in Japan and continued to contribute to the Media Studio of the United Nations University where he became
+    a content provider and manager for the web magazine <a href="https://ourworld.unu.edu/en/" target="_blank">Ourworld.unu.edu</a> and the UN Universities website. Since coming to New York, Stephan consulted a variety of organizations on IT projects, among them the library of the Goethe-Institut New York, Teachers College Columbia University,
     the global edition of The Conversation and currently develops applications for The Governance Lab. He is an alumni of HB Studio, New York </p>
 
 
