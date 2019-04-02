@@ -49,6 +49,15 @@
 #     <p>Ana worked as Research Assistant for the Dean of the Law School, Jorge Cerdio, with whom she developed a cloud-based legal education tool.</p>
 #     <p>While in law school, Ana spent a year working as a television anchor for the National Institute of Penal Sciences, hosting and producing a TV show co-produced by the Supreme Court’s Office and the National Institute of Penal Sciences and focusing on human rights and criminal sciences. She has also worked for the Instituto Nacional de Antropología e Historia as a deputy director , where she researched international law applied to World Heritage sites in Mexico.</p>
 #     <p>She also served as Teacher Assistant for Professor Jesús Silva-Herzog Márquez and Hugo Concha Cantú.</p>
+- name: Amanda DeSantis
+  firstname: Amanda
+  job: Senior Advisor
+  projects: false
+  bio: >
+    <p>Amanda DeSantis is a Senior Advisor at The GovLab, where she focuses on the development of strategy and initiatives to further efforts of leveraging open data, insights, and innovation to benefit the public good.</p>
+    <p>Amanda has extensive experience in various fields of science and technology, including the built environment, agriculture, and mobility.  She has worked across the public and private sectors, focusing on data and technology and developing industry level and stakeholder partnerships.</p>
+    <p>Prior to joining GovLab, Amanda was the Director of Data Philanthropy at Mastercard, helping build and launch the Data Science for Social Impact Collaborative with The Rockefeller Foundation. In previous roles, she was the Vice President at Starwood Capital Group leading the first sustainability framework for the real estate portfolio, Regional Manager at Uber developing data-driven experimental technologies and policy, Founder of a machine learning technology startup that surfaced cross-disciplinary insights to accelerate product development for academics and entrepreneurs, and led global sustainability initiatives at DuPont where she built private-public partnerships and sustainability frameworks that became industry best practices.</p>
+    <p>She has a Master of Science in Environmental Engineering and a Bachelor of Science in Civil Engineering from The Pennsylvania State University.</p>
 
 - name: Andrew Young
   firstname: Andrew
