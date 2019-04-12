@@ -1287,7 +1287,7 @@
   is_featured: 0 #integer
   is_active: True
   related_question: 999
-  project_website: #url
+  project_website: https://assets.aspeninstitute.org/content/uploads/files/content/docs/pubs/Information_for_Impact_Report_FINAL_REPORT_9-26-13.pdf
   location:
     - United States
   partners:
