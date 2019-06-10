@@ -72,6 +72,18 @@
 
                     ul {
                         padding: 0;
+                        ul {
+                            li {
+                                padding: 0 0 10px 0;
+                                // margin-left: 20px;
+                                // border-bottom: none;
+                                // list-style-type: disc;
+                                // opacity: 0.5;
+                                font-style: italic;
+                                color: rgba(0,0,0,0.5);
+                            }
+                            // border-bottom: 1px solid $gray-10;
+                        }
                     }
 
                     li {
@@ -79,6 +91,10 @@
                         list-style-type: none;
                         border-bottom: 1px solid $gray-10;
                         font-size: 14px;
+
+                        &.m-borderless {
+                            border-bottom: none;
+                        }
                     }
                 }
 
