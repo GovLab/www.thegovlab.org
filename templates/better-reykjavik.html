@@ -1,0 +1,10 @@
+{% extends "_base.html" %}
+
+{% block content %}
+<script type="text/javascript">
+  var download_root = window.location.origin + '/static/files';
+  var pathSplit = window.location.pathname.split('/')
+  var fileName = (pathSplit[pathSplit.length-1].indexOf('.html') == -1) ? pathSplit[pathSplit.length-1] + '.pdf' : pathSplit[pathSplit.length-1].replace('html','pdf')
+  window.location = [download_root,fileName].join('/')
+</script>
+{% endblock %}
