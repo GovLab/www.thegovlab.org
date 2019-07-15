@@ -17,7 +17,7 @@
 
     <section class="e-global-advisory-council-list">
 
-        {% for person in global_advisory_council %}
+        {% for person in global_advisory_council|sort(attribute='lastname') %}
         <a name="{{person.name | slug}}"></a>
             <div class="e-global-advisory-council-member" id="{{person.name | slug }}">
                 <div class="e-wrap">
