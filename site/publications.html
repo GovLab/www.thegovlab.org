@@ -105,6 +105,33 @@
         <div class="row">
           <div class="columns large-7 large-offset-1">
             
+              <a href="./static/files/publications/ANZSOG-report.pdf" class="" target="_blank">
+            
+                <h3 class="name">Today's Problems, Yesterday's Toolkit</h3>
+              </a>
+            <p><em></em></p>
+            <p>By Beth Noveck, Rod Glover</p>
+            <p timestamp="1565654400" class="date" data-order="desc">August 2019</p>
+          </div>
+          <div class="large-3 large-offset-1 end columns">
+          
+
+          
+          <a class="th " href="./static/files/publications/ANZSOG-report.pdf" target="_blank">
+          
+          <img src="./static/files/publications/anzsog-cover.png">
+          </a>
+
+          </div>
+        </div>
+      </section>
+
+      
+
+      <section class="b-page-section">
+        <div class="row">
+          <div class="columns large-7 large-offset-1">
+            
               <a href="https://www.stateofopendata.od4d.net/chapters/stakeholders/private-sector.html" target="_blank">
             
                 <h3 class="name">State of Open Data: Histories and Horizons (Edited by Tim Davies et al)- Chapter 29: Private Sector</h3>
@@ -1123,6 +1150,12 @@
     };
     var pubList = new List('publications', options);
 
+  
+  
+  $(".").on('click', function() {
+    ga('send', 'event', 'File', 'download', 'Todays Problems, Yesterdays Toolkit');
+  });
+  
   
   
   
