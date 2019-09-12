@@ -2953,6 +2953,72 @@
   related_articles:
 
 
+
+- title:  '100 Questions Initiative'
+  rank: 0
+  image: 100-questions-logo-v-dark-blue.png
+  style:
+  type: '' # Data, Collective Intelligence or Design Thinking
+  is_featured: 0 #integer
+  is_active: True
+  related_question: 5 #question
+  project_website: https://the100questions.org/
+  location:
+    - Global
+  partners:
+    - Schmidt Futures
+    - Data2X
+    - International Office for Migration (IOM)
+    - Joint Research Centre
+    - European Commission
+    - World Resources Institute
+    - Bertelsmann Foundation
+  team:
+    - Stefaan Verhulst
+    - Alexandra Shaw
+    - Andrew Young
+    - Andrew Zahuranec
+    - Michelle Winowatan
+    - Stephan Schmidt
+    - Stephen Tubman
+  tags:
+    governance_area:
+        - National Governance
+        - Municipal Governance
+        - Global Governance
+    type_of_institution:
+        - Corporate/Business
+        - Government
+        - Public Sector
+        - Academic
+    innovative_capability:
+        - Expert Networks
+        - Data Collaboratives
+    product_category:
+        - Campaign
+        - Methodology
+  status: # define, prototype, test, complete
+  problem_statement: Unless we define the questions well to unlock the potential of data and data science, how can we provide answers that matter?
+  short_description: >
+    <p></p>
+  tooltip: >
+    <p></p>
+  long_description: >
+    <p>The 100 Questions is an initiative by The GovLab, with support from Schmidt Futures, Data2X and a consortium of other partners. The initiative seeks to to improve the set of questions that if answered -- using new data sources and data science -- could transform the way we solve a variety of 21st century challenges. In addition, this project introduces and expands the concept of “bilinguals” -- individuals that possess both domain expertise and data science capabilities -- as being essential to define questions that matter to particular fields and can be addressed through data science.</p>
+    <p>The 100 Questions Initiative builds on The GovLab’s Smarter Crowdsourcing methodology to match societal challenges with diverse ideas from curated global experts. More specifically, The 100 Questions will be sourced by bilinguals. For each domain, The GovLab will form ten cohorts of bilinguals who are invited to develop, evaluate and select the ten most relevant questions collaboratively. Once the bilinguals have produced and prioritized the ten questions, the public will be invited to comment and express interest for the ten most compelling questions for each domain.</p>
+    <p>Together with domain partners, bilinguals, data holders and the public, The GovLab will strive to identify existing datasets could provide answers to the 100 questions – even if they are not easily accessible, e.g., proprietary datasets held by private companies. When confronted with data voids, the GovLab will attempt to define the new datasets that should be generated to help fill the gap. The GovLab’s aim is to provide a clear definition of the data requirements and therefore facilitate the formation of data collaboratives with promising data providers.</p>
+    <p>The 100 Questions will help us understand the unresolved questions that could help address the most vexing problems we face across sectors and geographies when answered. They will help us establish priorities, so that we can make the most of scarce public resources.</p>
+    <p>&nbsp;</p>
+  background: >
+    <p>The variety and complexity of challenges facing our world today -- from climate change to the rethinking of work to economic inequality to terrorism -- are unprecedented. At the same time, today’s policymaking and problem-solving approaches cannot provide the solutions we need to the complex social, economic and cultural problems we face, contributing to an increased decline in trust in institutions. We need not only innovative solutions, we also need innovation in how we define the problems we encounter and subsequently develop solutions.</p>
+  social_media: #in the future we can have custom shareable messages for each project
+  images: #images or screenshots of the project
+    - #url
+  results: >
+    <p>The results of the initiative is to initiate data collaboratives aimed at solving questions that matter. A data collaborative is a new form of collaboration, beyond the public-private partnership model, in which participants from different sectors exchange their data to create public value. Our ultimate goal is to leverage the insights from the data collaboratives to better design policies and provide more actionable solutions that can help improve people’s lives around the world.</p>
+  related_articles:
+
+
 # ==========================================================================================================================================================================================================================================#
 
 # - title:  #will generate slug from this attr
