@@ -1632,6 +1632,8 @@
     </ul>
     <center><a href="https://catalog.crowd.law/"><img src="static/img/projects/crowdlawcat.png"></a></center>
     <p>&nbsp;</p>
+    <center><a href="http://www.nyu.edu/community/government-affairs/study-of-congress.html"><img src="static/img/projects/brademas.png"></a></center>
+    <p>&nbsp;</p>
   background: >
     <p>With rates of trust in government at historic lows, the legitimacy of traditional representative models of lawmaking — often conducted by professional staff and politicians working behind closed doors and distorted by political party agendas–is called into question. New forms of public participation could help to improve both legitimacy and effectiveness by introducing more data and diverse viewpoints at each stage of the lawmaking process.</p>
   social_media: #in the future we can have custom shareable messages for each project
@@ -3017,6 +3019,72 @@
   results: >
     <p>The results of the initiative is to initiate data collaboratives aimed at solving questions that matter. A data collaborative is a new form of collaboration, beyond the public-private partnership model, in which participants from different sectors exchange their data to create public value. Our ultimate goal is to leverage the insights from the data collaboratives to better design policies and provide more actionable solutions that can help improve people’s lives around the world.</p>
   related_articles:
+
+- title: Collective Intelligence Case Studies
+  rank: 0
+  image: nesta.png
+  style:
+  type: '' # Data, Collective Intelligence or Design Thinking
+  is_featured: 0 #integer
+  is_active: True
+  related_question: 4 #question
+  project_website: #url
+  location:
+    - Global
+  partners:
+    - NESTA Centre for Collective Intelligence Design
+  team:
+    - BETH SIMONE NOVECK
+    - Matt Ryan
+    - Sam DeJohn
+    - Anirudh Dinesh
+    - Christiana Freitas
+  tags:
+    governance_area:
+        - City Governance
+        - Regional Governance
+        - National Governance
+    type_of_institution:
+        - Public sector
+    innovative_capability:
+        - Collective Intelligence
+        - Citizen Engagement
+        - Open Innovation
+        - Policy Making
+        - Service Delivery
+    product_category:
+        - Research Report
+        - Practical Guide
+        - Case Studies
+        - Strategy Training
+  status: # define, prototype, test, complete
+  problem_statement: How can institutions use technology to solve problems with groups?
+  short_description: >
+    <p></p>
+  tooltip: >
+    <p></p>
+  long_description: >
+    <p>Drawing on earlier work by The GovLab and NESTA, this research will identify and examine cases where governments, in particular cities, have used collective intelligence (CI) to better understand and solve problems, generate a wider range of possible solutions, make more inclusive decisions that can support collective action, co-implement initiatives and monitor, evaluate and adjust programs. This will include a specific focus on the institutionalization of these CI initiatives: the organisational arrangements and contexts that have enabled CI processes to be initiated, conducted, and integrated with existing governance approaches, so as to draw out the conditions, capabilities and structures that help to optimise institutionalisation of CI in public sector organisations. Cases will include a mix of those with demonstrated institutional and social impact and those showcasing emergent practice, and will consider the benefits and risks of technology used in CI processes.</p>
+    <p>A key aim of the research will be to create a practical guide or a set of design principles that institutions such as local authorities, interested in collective intelligence as a method, can use when developing new projects and initiatives.</p>
+    <p>Know of any examples of governments employing collective intelligence to understand and solve public problems? Email us at <a href="ci@thegovlab.org">ci@thegovlab.org</a>.</p>
+    <p>&nbsp;</p>
+  background: >
+    <p>Making progress in how we understand, think and act together is critical to solving some of the most complex challenges of our times – from climate change to inequality. By focusing on advancing knowledge and practical applications of collective intelligence in fields with public benefit we aim to demonstrate how every organisation can tackle problems more successfully if it tapped into a ‘bigger mind’.</p>
+  social_media: #in the future we can have custom shareable messages for each project
+  images: #images or screenshots of the project
+    - #url
+  results: >
+    <p>Research commenced in September 2019. Research findings and related resources will be published early in 2020 and be made freely accessible.</p>
+  related_articles:
+    - name: NESTA Centre for Collective Intelligence Design
+      url: https://www.nesta.org.uk/project/centre-collective-intelligence-design/
+    - name: "CrowdLaw: Online Public Participation in Lawmaking"
+      url: http://crowd.law
+    - name: "CrowdLaw for Congress"
+      url: http://congress.crowd.law
+    - name: "Open Policymaking Playbook"
+      url: http://www.thegovlab.org/static/files/publications/openpolicymaking-april29.pdf
+
 
 
 # ==========================================================================================================================================================================================================================================#

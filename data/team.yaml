@@ -221,13 +221,17 @@
 #   job: Developer
 #   projects: true
 #   bio: >
+
 #     <p>Denny Tek is a Developer at the GovLab. She enjoys working on projects that empower and connect communities. She is also a volunteer teacher with ScriptEd, an organization that brings web development classes and internship opportunities to students in under-resourced high schools in NYC. Prior to joining the GovLab, Denny developed and commissioned scholarly works on music for a global academic publisher. She has a B.F.A. in Music Technology from the City College of New York.</p>
-# - name: Dane Gambrell
-#   firstname: Dane
-#   job: Summer Research Assistant
-#   projects: false
-#   bio: >
-#     <p>Dane Gambrell is a junior studying Sustainable Urban Environments at NYU Tandon School of Engineering. He is researching case studies of public participation in lawmaking as part of the GovLab’s CrowdLaw project. </p>
+
+- name: Dane Gambrell
+  firstname: Dane
+  job: Research Assistant
+  projects: false
+  bio: >
+    <p>Dane Gambrell is a student in the Technology, Culture, and Society department at New York University’s Tandon School of Engineering. As an undergraduate research assistant, he conducted original research, including interviews and bench research, in support of several GovLab projects. For the CrowdLaw initiative, he authored three in-depth case studies of how governments in Estonia, India, and Australia are using online crowdsourcing methods to improve their lawmaking processes through better community engagement. In support of an historic massive open online course (MOOC) on Open Justice, he drafted three textbook chapters on how open data, blockchain, digital platforms, and other new technologies are being used to evaluate and enhance the legitimacies of various judiciaries.</p>
+    <p>Also as an undergraduate researcher at NYU’s Wagner Graduate School of Public Service, he supported the Dean, contributing research for journal articles in the fields of public health, transportation, and gentrification. Dane’s writing on environmental conservation has been published by the American Geographical Society, where he also researches innovative geographical projects, start-ups, and nonprofits. As a geographic information systems (GIS) student consultant at NYU Data Services, he provides geospatial data analysis and visualization support to university members.</p>
+    <p>Dane will graduate summa cum laude with a Bachelor of Science in Sustainable Urban Environments in January of 2020.</p>
 
 # - name: Daniella Heard
 #   firstname: Daniella
@@ -695,6 +699,14 @@
   projects: false
   bio: >
     <p>Sam DeJohn is a Research and Communications Fellow at The GovLab who recently graduated from Penn State University with a Bachelor’s Degree in Psychology. His current research focuses on governance innovations in Latin American countries and Spain. He is part of the team evaluating the Organization of American States Fellowship Program and he is conducting a study of the Decide Madrid public engagement platform. Sam contributes to the GovLab blog and serves as a communications assistant to GovLab's Director of Communications. He is fluent in Spanish.</p>
+
+
+- name: Sarah Gagnon-Turcotte
+  firstname: Sarah
+  job: Consulting Research Fellow
+  projects: false
+  bio: >
+    <p>Sarah Gagnon-Turcotte is a Consulting Research Fellow at the GovLab. She has been working for more than 10 years at the intersection of research, policy and technology. She holds a Bachelor’s degree in International Relations from Université de Montréal and a Master’s degree in International Law with a focus on international technology policy from Université du Québec à Montréal. Previously, she held several positions in research, analysis and strategic knowledge production in academia as well as multiple high-level political advisory roles in Montreal’s municipal government. She is currently taking a sabbatical year to deepen her understanding of the social and policy impacts of big data and artificial intelligence through diverse collaborations.</p>
 
 # - name: Stephanie Gaither
 #   firstname: Stephanie
