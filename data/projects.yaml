@@ -3020,7 +3020,7 @@
     <p>The results of the initiative is to initiate data collaboratives aimed at solving questions that matter. A data collaborative is a new form of collaboration, beyond the public-private partnership model, in which participants from different sectors exchange their data to create public value. Our ultimate goal is to leverage the insights from the data collaboratives to better design policies and provide more actionable solutions that can help improve people’s lives around the world.</p>
   related_articles:
 
-- title: Collective Intelligence Case Studies
+- title: Using Collective Intelligence to Solve Public Problems
   rank: 0
   image: nesta.png
   style:
@@ -3067,11 +3067,76 @@
     <p>A key aim of the research will be to create a practical guide or a set of design principles that institutions such as local authorities, interested in collective intelligence as a method, can use when developing new projects and initiatives.</p>
     <p>Know of any examples of governments employing collective intelligence to understand and solve public problems? Email us at <a href="ci@thegovlab.org">ci@thegovlab.org</a>.</p>
     <p>&nbsp;</p>
+      <h2>Board of Advisors</h2>
+    <table class="e-people-list">
+        <tr>
+            <td>
+                <div>Mara Balestrini</div>
+                <div>Partner & CEO, Ideas for Change</div>
+            </td>
+            <td>
+                <div>Stefana Broadbent</div>
+                <div>Associate Professor Department of Design Politecnico di Milano</div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>Christiana Freitas</div>
+                <div>Associate Professor Researcher at the National Institute of Science & Technology on Digital Democracy / InCT.DD</div>
+            </td>
+            <td>
+                <div>Francois Grey</div>
+                <div>Co-Director, Center for Citizen CyberScience</div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>Indy Johar</div>
+                <div>Co-Founder, Dark Matter Labs</div>
+            </td>
+            <td>
+                <div>Myung Lee</div>
+                <div>Executive Director, Cities of Service</div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>Tom Malone</div>
+                <div>Founding Director, MIT Centre for Collective Intelligence</div>
+            </td>
+            <td>
+                <div>Cecilia Nicolini</div>
+                <div>Research Affiliate, MIT Centre for Collective Intelligence</div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>Lex Paulson</div>
+                <div>Director, School of Collective Intelligence Université Mohammed VI Polytechnique</div>
+            </td>
+            <td>
+                <div>Tiago Peixoto</div>
+                <div>Senior Public Sector Specialist, Governance Global Practice, World Bank Group</div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>Carolina Pozo</div>
+                <div>Co-Founder, Knowledge Economy Initiative</div>
+            </td>
+              <td>
+                <div>Rebecca Rumbul</div>
+                <div>Head of Research, MySociety</div>
+            </td>
+        </tr>
+      </table>
+
+
   background: >
     <p>Making progress in how we understand, think and act together is critical to solving some of the most complex challenges of our times – from climate change to inequality. By focusing on advancing knowledge and practical applications of collective intelligence in fields with public benefit we aim to demonstrate how every organisation can tackle problems more successfully if it tapped into a ‘bigger mind’.</p>
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
-    - #url
+    #- #url
   results: >
     <p>Research commenced in September 2019. Research findings and related resources will be published early in 2020 and be made freely accessible.</p>
   related_articles:
