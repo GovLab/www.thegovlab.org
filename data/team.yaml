@@ -49,15 +49,15 @@
 #     <p>Ana worked as Research Assistant for the Dean of the Law School, Jorge Cerdio, with whom she developed a cloud-based legal education tool.</p>
 #     <p>While in law school, Ana spent a year working as a television anchor for the National Institute of Penal Sciences, hosting and producing a TV show co-produced by the Supreme Court’s Office and the National Institute of Penal Sciences and focusing on human rights and criminal sciences. She has also worked for the Instituto Nacional de Antropología e Historia as a deputy director , where she researched international law applied to World Heritage sites in Mexico.</p>
 #     <p>She also served as Teacher Assistant for Professor Jesús Silva-Herzog Márquez and Hugo Concha Cantú.</p>
-- name: Amanda DeSantis
-  firstname: Amanda
-  job: Senior Advisor
-  projects: false
-  bio: >
-    <p>Amanda DeSantis is a Senior Advisor at The GovLab, where she focuses on the development of strategy and initiatives to further efforts of leveraging open data, insights, and innovation to benefit the public good.</p>
-    <p>Amanda has extensive experience in various fields of science and technology, including the built environment, agriculture, and mobility.  She has worked across the public and private sectors, focusing on data and technology and developing industry level and stakeholder partnerships.</p>
-    <p>Prior to joining GovLab, Amanda was the Director of Data Philanthropy at Mastercard, helping build and launch the Data Science for Social Impact Collaborative with The Rockefeller Foundation. In previous roles, she was the Vice President at Starwood Capital Group leading the first sustainability framework for the real estate portfolio, Regional Manager at Uber developing data-driven experimental technologies and policy, Founder of a machine learning technology startup that surfaced cross-disciplinary insights to accelerate product development for academics and entrepreneurs, and led global sustainability initiatives at DuPont where she built private-public partnerships and sustainability frameworks that became industry best practices.</p>
-    <p>She has a Master of Science in Environmental Engineering and a Bachelor of Science in Civil Engineering from The Pennsylvania State University.</p>
+# - name: Amanda DeSantis
+#   firstname: Amanda
+#   job: Senior Advisor
+#   projects: false
+#   bio: >
+#     <p>Amanda DeSantis is a Senior Advisor at The GovLab, where she focuses on the development of strategy and initiatives to further efforts of leveraging open data, insights, and innovation to benefit the public good.</p>
+#     <p>Amanda has extensive experience in various fields of science and technology, including the built environment, agriculture, and mobility.  She has worked across the public and private sectors, focusing on data and technology and developing industry level and stakeholder partnerships.</p>
+#     <p>Prior to joining GovLab, Amanda was the Director of Data Philanthropy at Mastercard, helping build and launch the Data Science for Social Impact Collaborative with The Rockefeller Foundation. In previous roles, she was the Vice President at Starwood Capital Group leading the first sustainability framework for the real estate portfolio, Regional Manager at Uber developing data-driven experimental technologies and policy, Founder of a machine learning technology startup that surfaced cross-disciplinary insights to accelerate product development for academics and entrepreneurs, and led global sustainability initiatives at DuPont where she built private-public partnerships and sustainability frameworks that became industry best practices.</p>
+#     <p>She has a Master of Science in Environmental Engineering and a Bachelor of Science in Civil Engineering from The Pennsylvania State University.</p>
 
 - name: Andrew Young
   firstname: Andrew
@@ -85,7 +85,6 @@
   bio: >
     <p>Andrew Puddephatt is a Consulting Fellow at GovLab. Andrew is the Co-Founder of Adapt, helping companies rethink their relationship with data, to build trust, create value and drive social change. He has been working in the field of internet policy since 2005 in partnerships with governments, international philanthropies and technology companies focusing on applying a human rights approach to internet policy and a multi-stakeholder approach to internet governance. A strategic advisor to the Ford Foundation on internet policy globally, he also works closely with UNESCO on standard setting work covering media policy, freedom of expression, journalist safety and internet development.</p>
     <p>A Cambridge University graduate, Andrew runs his own policy consultancy Global Partners & Associates Ltd, is Chair of the Internet Watch Foundation in the UK, International Media Support in Denmark and is Deputy Chair of the Sigrid Rausing Trust.</p>
-
 
 
 - name: Andrew Zahuranec
@@ -241,12 +240,12 @@
 #     <p>Daniella Heard is a graduate student at Columbia University's School of International and Public Affairs, specializing in Technology, Economic Development and Public Policy. Daniella is working on GovLab’s data projects. In particular, the potential of distributed ledger technologies for governance of the extractives industry.</p>
 
 
-- name: Carolyn Yang
-  firstname: Carolyn
-  job: Research Intern
-  projects: false
-  bio: >
-    <p>Carolyn Yang is a graduate student at MIT’s Department of Urban Studies and Planning, focusing on equitable economic development. At GovLab, she contributes to data program strategy and positioning, ranging from building a societal and business case for data sharing, thinking through how to operationalize a City Data Collaborative, to convening corporate and conference gatherings.</p>
+# - name: Carolyn Yang
+#   firstname: Carolyn
+#   job: Research Intern
+#   projects: false
+#   bio: >
+#     <p>Carolyn Yang is a graduate student at MIT’s Department of Urban Studies and Planning, focusing on equitable economic development. At GovLab, she contributes to data program strategy and positioning, ranging from building a societal and business case for data sharing, thinking through how to operationalize a City Data Collaborative, to convening corporate and conference gatherings.</p>
 
 - name: Charles Bradley
   firstname: Charles
@@ -289,12 +288,12 @@
   bio: >
     <p>Eduardo González de Molina is a Research Fellow at GovLab. He holds a Master in Public and Social Policy from Pompeu Fabra University—Barcelona School of Management and a double Bachelor in Sociology and Political Science from University Carlos III of Madrid. His current research focuses on finding innovative solutions to regenerate the public sector, helping communities and institutions to work together to solve problems more effectively and legitimately. He collaborates on the GovLab's CrowdLaw initiative, focused on promoting effective public engagement in law and policy-making.Previously, Eduardo worked as Technical Advisor at the Directorate of Planning and Innovation at Barcelona City Council and as a Research Assistant at Johns Hopkins University—Pompeu Fabra University Public Policy Center.</p>
 
-- name: Eve Marenghi
-  firstname: Eve
-  job: Research Intern
-  projects: false
-  bio: >
-    <p>Eve Marenghi is a graduate student at the NYU Center for Urban Science and Progress studying applied data science and urban informatics. At GovLab, Eve is helping to establish a data responsibility framework to guide private sector data holders in the implementation of data collaboratives. She is also contributing to the UNICEF Responsible Data for Children project. Eve graduated from the University of Virginia with a degree in math. Prior to returning to graduate school, Eve worked as a digital analytics consultant for nonprofits and global brands.</p>
+# - name: Eve Marenghi
+#   firstname: Eve
+#   job: Research Intern
+#   projects: false
+#   bio: >
+#     <p>Eve Marenghi is a graduate student at the NYU Center for Urban Science and Progress studying applied data science and urban informatics. At GovLab, Eve is helping to establish a data responsibility framework to guide private sector data holders in the implementation of data collaboratives. She is also contributing to the UNICEF Responsible Data for Children project. Eve graduated from the University of Virginia with a degree in math. Prior to returning to graduate school, Eve worked as a digital analytics consultant for nonprofits and global brands.</p>
 
 # - name: Eduardo Valdez
 #   firtname: Eduardo
@@ -335,14 +334,14 @@
     <p>Fred DeJohn is the Chief Financial Officer at GovLab. Fred is an attorney with extensive experience in finance, budget and human resources in both government and higher education. Prior to joining the GovLab, Fred served as the Acting Vice President for Human Resources at the Fashion Institute of Technology.  Before that, he spent more than eighteen years as the Vice President for Finance and Administration at New York Law School.</p>
     <p>Fred's earlier career was with New York City government where he held high level positions in a number of City agencies, including Deputy Commissioner for Finance and Administration at the Department of Housing, Preservation and Development, First Deputy Commissioner at the Department of General Services and First Deputy Director at the Department of Personnel. He finished his City service as a Special Assistant to Mayor David Dinkins, focusing on municipal labor issues.</p>
 
-- name: Gabriella Capone
-  firstname: Gabriella
-  job: GRADUATE RESEARCH FELLOW
-  projects: true
-  bio: >
-    <p>Gabriella (Gabby) researches, designs, and advocates for public participation and innovation in governance. She is pursuing a JD/MBA at the Yale Law School and Yale School of Management and is a graduate of Swarthmore College, where she studied spatial analytics for public policy. Currently, Gabby is distilling best practices in co-creation and open innovation to help cities solve their most pressing problems.</p>
-    <p>Her work at GovLab includes leading the launch of Crowd.Law, a hub for researchers and practitioners on public participation in lawmaking. She completed a global survey of legislative initiatives using CrowdLaw and collaborated with Harvard University researchers to develop a model legal framework for institutionalizing public engagement. Gabby believes that CrowdLaw can help communities to make more informed, effective decisions, and has presented on the topic at <a href="https://law.yale.edu/yls-today/news/clinic-explores-citizen-participation-lawmaking-parliamentary-conference">ParlAmericas</a> and the inaugural <a href="https://law.yale.edu/yls-today/news/student-presents-inaugural-supranational-democracy-dialogue-conference">Supranational Democracy Dialogue</a>.</p>
-    <p>At Yale, Gabby is a U.S. Department of Education FLAS Scholar and affiliate of <a href="https://macmillan.yale.edu">The MacMillan Center in European and Latin American Studies</a>. She has fellowships with the Forté Foundation, Yale Law School’s <a href="https://law.yale.edu/isp">Information Society Project</a>, and Yale College as a Graduate Teaching Fellow in technology law. Previously, Gabby was a Project Manager at Locus Analytics/Syntax Funds, a macroeconomic analytics firm. She also has experience in intellectual property strategy, fleet management technology, as well as in the Colombian public and nonprofit sectors. Gabby is fluent in Spanish, proficient in French, and elementary in Italian. She tweets <a href="https://twitter.com/crowdlawyale">@crowdlawyale</a></p>
+# - name: Gabriella Capone
+#   firstname: Gabriella
+#   job: GRADUATE RESEARCH FELLOW
+#   projects: true
+#   bio: >
+#     <p>Gabriella (Gabby) researches, designs, and advocates for public participation and innovation in governance. She is pursuing a JD/MBA at the Yale Law School and Yale School of Management and is a graduate of Swarthmore College, where she studied spatial analytics for public policy. Currently, Gabby is distilling best practices in co-creation and open innovation to help cities solve their most pressing problems.</p>
+#     <p>Her work at GovLab includes leading the launch of Crowd.Law, a hub for researchers and practitioners on public participation in lawmaking. She completed a global survey of legislative initiatives using CrowdLaw and collaborated with Harvard University researchers to develop a model legal framework for institutionalizing public engagement. Gabby believes that CrowdLaw can help communities to make more informed, effective decisions, and has presented on the topic at <a href="https://law.yale.edu/yls-today/news/clinic-explores-citizen-participation-lawmaking-parliamentary-conference">ParlAmericas</a> and the inaugural <a href="https://law.yale.edu/yls-today/news/student-presents-inaugural-supranational-democracy-dialogue-conference">Supranational Democracy Dialogue</a>.</p>
+#     <p>At Yale, Gabby is a U.S. Department of Education FLAS Scholar and affiliate of <a href="https://macmillan.yale.edu">The MacMillan Center in European and Latin American Studies</a>. She has fellowships with the Forté Foundation, Yale Law School’s <a href="https://law.yale.edu/isp">Information Society Project</a>, and Yale College as a Graduate Teaching Fellow in technology law. Previously, Gabby was a Project Manager at Locus Analytics/Syntax Funds, a macroeconomic analytics firm. She also has experience in intellectual property strategy, fleet management technology, as well as in the Colombian public and nonprofit sectors. Gabby is fluent in Spanish, proficient in French, and elementary in Italian. She tweets <a href="https://twitter.com/crowdlawyale">@crowdlawyale</a></p>
 
 
 - name: Gianpaolo Baiocchi
@@ -359,12 +358,12 @@
   bio: >
     <p>Greta Solomon is senior at NYU Shanghai studying Interactive Media & Business and Social Science. At Govlab she is working on the project Identifying Citizens’ Needs by Combining Artificial Intelligence and Collective Intelligence.  </p>
 
-- name: Henri Brebant
-  firstname: Henri
-  job: Research Intern
-  projects: false
-  bio: >
-    <p>Henri Brebant is a graduate student in the Master in Public Administration at the Harvard Kennedy School, where he explores civic engagement, politics and cyber policy. At GovLab, Henri works on open innovation for policymaking and is involved with the “Muli-City Challenge” project. He was previously a senior consultant at Roland Berger specialized in public sector, and started his career as an analyst in the French Public Investment Bank. He holds an MPhil in Technology Policy from the University of Cambridge, a Master in Engineering from Ecole Centrale Paris and received training on data science at Ecole Polytechnique. </p>
+# - name: Henri Brebant
+#   firstname: Henri
+#   job: Research Intern
+#   projects: false
+#   bio: >
+#     <p>Henri Brebant is a graduate student in the Master in Public Administration at the Harvard Kennedy School, where he explores civic engagement, politics and cyber policy. At GovLab, Henri works on open innovation for policymaking and is involved with the “Muli-City Challenge” project. He was previously a senior consultant at Roland Berger specialized in public sector, and started his career as an analyst in the French Public Investment Bank. He holds an MPhil in Technology Policy from the University of Cambridge, a Master in Engineering from Ecole Centrale Paris and received training on data science at Ecole Polytechnique. </p>
 
 #- name: Gina Joerger
 #  firstname: Gina
@@ -461,12 +460,12 @@
     <p>Jason Williams-Bellamy is a second-year public policy major at the NYU College of Arts and Science. He is currently working on the CrowdLaw for Congress project at the GovLab.</p>
 
 
-- name: Jihii Jolly
-  firstname: Jihii
-  job: Consulting Fellow
-  projects: false
-  bio: >
-    <p>Jihii Jolly is a journalist and strategist specializing in media and community design. She was most recently Community Editor of gender at News Deeply, where she designed and developed products and engagement strategy for verticals covering women's advancement. She has previously been a documentary producer at EdLab Studios (Teacher's College) and news literacy reporter at the Columbia Journalism Review. She's also currently working on a book about how to read the news in a value-creative way. She holds an M.S. from Columbia's Graduate School of Journalism and a B.A. in Humanities from Soka University of America.</p>
+# - name: Jihii Jolly
+#   firstname: Jihii
+#   job: Consulting Fellow
+#   projects: false
+#   bio: >
+#     <p>Jihii Jolly is a journalist and strategist specializing in media and community design. She was most recently Community Editor of gender at News Deeply, where she designed and developed products and engagement strategy for verticals covering women's advancement. She has previously been a documentary producer at EdLab Studios (Teacher's College) and news literacy reporter at the Columbia Journalism Review. She's also currently working on a book about how to read the news in a value-creative way. She holds an M.S. from Columbia's Graduate School of Journalism and a B.A. in Humanities from Soka University of America.</p>
 
 
 - name: John Harlow
@@ -476,12 +475,19 @@
   bio: >
     <p>John Harlow is a Non-Resident Fellow at the GovLab.  He is a postdoctoral scholar in the <a href="http://www.opening-governance.org/#the-context">MacArthur Foundation Research Network on Opening Governance</a> at the Arizona State University School for the Future of Innovation in Society. He researches strategic intervention points for process innovation in governance. John is currently working on the RWJF grant "<a href="https://diyps.org/2017/09/15/opening-pathways-for-discovery-research-and-innovation-in-health-and-healthcare/">Opening pathways for discovery, research, and innovation in health and healthcare</a>." His prior work includes designing the workshop that produced the first draft of <a href="https://www.phoenix.gov/t2050">Phoenix's 2050 transportation plan</a>, and <a href="https://www.phoenix.gov/pdd/topics/reinvent-phx">Reinvent Phoenix</a>’s public outreach to inform rezoning around Phoenix's light rail.</p>
 
+- name: José Luis Martí
+  firstname: Jose
+  job: Senior Advisor
+  projects: false
+  bio: >
+    <p>José Luis Martí is Vice-rector of innovation and Associate Professor of law and political philosophy at Pompeu Fabra University of Barcelona. He does research on democratic theory, governance and innovation, the philosophy of international law, and constitutional theory (and more particularly on deliberative democracy, participatory democracy, and collective intelligence). He has published dozens of articles and several books, including La República Deliberativa (Marcial Pons, 2006), Deliberative Democracy and Its Discontents, co-edited with Samantha Besson (Ashgate, 2006), Legal Republicanism, also co-edited with Samantha Besson (Oxford University Press, 2009), and A Political Philosophy in Public Life, co-authored with Philip Pettit (Princeton University Press, 2010). He has been Laurance Rockefeller Visiting Fellow at the University Center for Human Values (Princeton University, 2008-2009) and Visiting Professor at the University of Richmond (2014). A frequent political commentator on Catalan, Spanish and international television and other media, Martí is working with the Governance Lab at New York University on its CrowdLaw project, designing 21st century law making institutions. He is currently writing a book with Samantha Besson on the global actors of international lawmaking, and planning a second one on AI and democracy. </p>
+
 - name: Julia Stoyanovich
   firstname: Julia
   job: Consulting Fellow
   projects: false
   bio: >
-    <p>Julia Stoyanovich is an Assistant Professor in the Department of Computer Science and Engineering at the Tandon School of Engineering, and the Center for Data Science at New York University.  She is a recipient of an NSF CAREER award and of an NSF/CRA CI Fellowship.  Julia's research focuses on responsible data management and analysis practices: on operationalizing fairness, diversity, transparency, and data protection in all stages of the data  acquisition and processing lifecycle. She established the Data, Responsibly consortium, and serves on the New York City Automated Decision Systems Task Force, by appointment by Mayor de Blasio.  In addition to data ethics, Julia works on management and analysis of preference data, and on querying large evolving graphs.  She holds M.S. and Ph.D. degrees in Computer Science from Columbia University, and a B.S. in Computer Science and in Mathematics and Statistics from the University of Massachusetts at Amherst.</p>
+    <p>Julia Stoyanovich is an Assistant Professor in the Department of Computer Science and Engineering at the Tandon School of Engineering, and the Center for Data Science at New York University.  She is a recipient of an NSF CAREER award and of an NSF/CRA CI Fellowship.  Julia's research focuses on responsible data management and analysis practices on operationalizing fairness, diversity, transparency, and data protection in all stages of the data  acquisition and processing lifecycle. She established the Data, Responsibly consortium, and serves on the New York City Automated Decision Systems Task Force, by appointment by Mayor de Blasio.  In addition to data ethics, Julia works on management and analysis of preference data, and on querying large evolving graphs.  She holds M.S. and Ph.D. degrees in Computer Science from Columbia University, and a B.S. in Computer Science and in Mathematics and Statistics from the University of Massachusetts at Amherst.</p>
 
 # - name: Kaitlin Koga
 #   firstname: Kaitlin
@@ -542,13 +548,13 @@
     <p>A native Spanish speaker, María has a Master of Public Administration at New York University, where she studied public and nonprofit management with an emphasis on design thinking, data science and participatory policymaking.</p>
     <p>Her writings can be found on the <a href="http://thegovlab.org/author/maria-hermosilla/">GovLab’s blog</a> and on <a href="http://www.governing.com/authors/Maria-Hermosilla.html">Governing</a>. She can be found on twitter at <a href="https://twitter.com/mphermosilla">@mphermosilla</a>.</p>
 
-- name: Mark Adkins-Hastings
-  firstname: Mark
-  job: Developer
-  projects: true
-  bio: >
-    <p>Mark Adkins-Hastings is a software developer with diverse expertise in both technology and design. He joins GovLab's development and design team to build civic technologies that help institutions work more openly and collaboratively. Previously, Mark worked on citizen-centric technology projects for the United States federal government, including the Department of Justice and the Patent and Trademark Office (USPTO). At USTPO, he developed the Office's electronic patent application filing system as part of a team promoting the adoption of more agile and modern design practices, including the use of citizen ethnography to ensure that government websites serve the public better.</p>
-    <p>Recently, Mark collaborated with a team from the USPTO and the White House, including members of the Presidential Innovation Fellows corps, to help develop a process and platform for crowdsourcing public expertise to enhance the patent examination process. His work was showcased to the US Undersecretary of Commerce for Intellectual Property and the White House Office of the Chief Technology Officer.</p>
+# - name: Mark Adkins-Hastings
+#   firstname: Mark
+#   job: Developer
+#   projects: true
+#   bio: >
+#     <p>Mark Adkins-Hastings is a software developer with diverse expertise in both technology and design. He joins GovLab's development and design team to build civic technologies that help institutions work more openly and collaboratively. Previously, Mark worked on citizen-centric technology projects for the United States federal government, including the Department of Justice and the Patent and Trademark Office (USPTO). At USTPO, he developed the Office's electronic patent application filing system as part of a team promoting the adoption of more agile and modern design practices, including the use of citizen ethnography to ensure that government websites serve the public better.</p>
+#     <p>Recently, Mark collaborated with a team from the USPTO and the White House, including members of the Presidential Innovation Fellows corps, to help develop a process and platform for crowdsourcing public expertise to enhance the patent examination process. His work was showcased to the US Undersecretary of Commerce for Intellectual Property and the White House Office of the Chief Technology Officer.</p>
 
 - name: Matt Ryan
   firstname: Matt
@@ -558,12 +564,12 @@
     <p>Matt works alongside leaders interested in building better ways to create, implement and sustain public policy that delivers economic and social prosperity. He served as Deputy Chief of Staff to the South Australian Premier, supporting the development of a State strategic agenda and advising on a wide range of policy areas, strategic engagement and communication, inter-governmental relations, with a special focus on climate change in the lead up to the 2015 Paris Climate Summit.</p>
     <p>As an executive at The Australian Centre for Social Innovation, Matt helped to create a rejuvenated organisational purpose, new strategic priorities, a new brand identity, and co-authored a major report on public sector innovation. He is currently working with a range of organisations and individuals in Australia and abroad who share his personal passion - the reform of our democratic systems - building on the policy agenda he led in government (Reforming Democracy: Deciding, Designing and Delivering Together).</p>
 
-- name: Michael Zachor
-  firstname: Michael
-  job: Research Intern
-  projects: false
-  bio: >
-    <p>Michael Zachor is a sophomore studying Integrated Digital Media at NYU Tandon School of Engineering. He is working on the Data Stewardship project at the GovLab. </p>
+# - name: Michael Zachor
+#   firstname: Michael
+#   job: Research Intern
+#   projects: false
+#   bio: >
+#     <p>Michael Zachor is a sophomore studying Integrated Digital Media at NYU Tandon School of Engineering. He is working on the Data Stewardship project at the GovLab. </p>
 
 - name: Michelle Winowatan
   firstname: Michelle
@@ -571,6 +577,13 @@
   projects: false
   bio: >
     <p>Michelle Winowatan is a Research Assistant at The GovLab, where she focuses on exploring the ways data and collaboration can improve policymaking. Previously, she has worked at several international nonprofit organizations, such as Search for Common Ground and Human Rights Watch, implementing projects that focused on conflict and human rights issues. She is a Fulbright awardee, through which she obtained her MPA in Public and Nonprofit Management and Policy from New York University. She also has a BA in International Relations from Universitas Pelita Harapan, in Indonesia.</p>
+
+- name: Mona Sloane
+  firstname: Mona
+  job: Post-Graduate Fellow
+  projects: false
+  bio: >
+    <p>Mona Sloane is a sociologist and her work examines the intersection of design and social inequality. Her current research is on AI design and policy in the context of inequality, valuation practice, data epistemology and ethics. At IPK, Mona founded and convenes the ‘Co-Opting AI’ series. Mona completed her PhD at the London School of Economics and Political Science (LSE scholarship) with a thesis on commercial spatial design practices. She also is a co-founder and former member of the LSE research programme Configuring Light/Staging the Social which explores the socio-technical role of public lighting in cities. Mona has published on design inequalities, interior design and atmospheres, material culture in design practice, social justice and lighting design, social research in/for design, aesthetics, design thinking, the politics of design, practitioner-academic collaboration for societal impact, and AI ethics. She has completed fellowships at UC Berkeley and the University of Cape Town. Follow her on Twitter @mona_sloane.</p>
 
 # - name: Mihai Avram
 #   firstname: Mihai
@@ -621,12 +634,12 @@
   bio: >
     <p>Nicole Zhao is a second-year Computer Science major at the NYU Tandon School of Engineering. She is working on Communications Strategy and Operations as part of the NYU Tandon Undergraduate Summer Research Program. </p>
 
-- name: Pooja Patel
-  firstname: Pooja
-  job: Research Intern
-  projects: false
-  bio: >
-    <p>Pooja Patel is a third-year Science and Technology Studies major at the NYU Tandon School of Engineering. She is working on the Public Entrepreneurship project at the GovLab. </p>
+# - name: Pooja Patel
+#   firstname: Pooja
+#   job: Research Intern
+#   projects: false
+#   bio: >
+#     <p>Pooja Patel is a third-year Science and Technology Studies major at the NYU Tandon School of Engineering. She is working on the Public Entrepreneurship project at the GovLab. </p>
 
 # - name: Rafael Garcia Aceves
 #   firstname: Rafael
@@ -686,12 +699,12 @@
     <p> Rod has been Senior Adviser to an Australian Prime Minister, Senior Economic Adviser to Australia’s Shadow Treasurer, and Deputy Secretary for Innovation and Projects in Victoria’s Department of Premier and Cabinet. He has also worked for some of the world’s leading innovation agencies in London and San Francisco. He was chair of the education charity Hands on Learning Australia (focused on breaking the cycle of educational disadvantage) and is co-founder of an edutech startup that seeks to radically expand access to adult education. </p>
     <p> Rod has been a Director of the Victorian Government’s Centre of Excellence in Intervention and Prevention Science (in public health) and a member of the Australian Government’s National Sustainability Council. He is now on the Board of Save the Children Australia, where he focuses on scaling internal businesses for global impact. Rod has driven the development of major policy frameworks in Australia, including the COAG National Reform Agenda (a $130 billion redesign of the framework of Commonwealth-State relations) and the Australian Government’s Industry and Innovation Statement. He has also designed and supported the establishment of new innovation agencies across a number of jurisdictions.</p>
 
-- name: Rose Harvey
-  firstname: Rose
-  job: Graduate Research Assistant
-  projects: false
-  bio: >
-    <p>Rose Harvey is a Graduate Research Assistant at The GovLab. She is currently pursuing a Master’s degree in Public Administration at NYU Wagner and holds a Bachelor’s degree in Sociology from Northeastern University. Before joining The GovLab, Rose worked for various organizations in the public, non-profit, and for-profit sectors working to address social and civic issues both in the U.S. and internationally.</p>
+# - name: Rose Harvey
+#   firstname: Rose
+#   job: Graduate Research Assistant
+#   projects: false
+#   bio: >
+#     <p>Rose Harvey is a Graduate Research Assistant at The GovLab. She is currently pursuing a Master’s degree in Public Administration at NYU Wagner and holds a Bachelor’s degree in Sociology from Northeastern University. Before joining The GovLab, Rose worked for various organizations in the public, non-profit, and for-profit sectors working to address social and civic issues both in the U.S. and internationally.</p>
 
 - name: SAM DEJOHN
   firstname: Sam
@@ -701,12 +714,12 @@
     <p>Sam DeJohn is a Research and Communications Fellow at The GovLab who recently graduated from Penn State University with a Bachelor’s Degree in Psychology. His current research focuses on governance innovations in Latin American countries and Spain. He is part of the team evaluating the Organization of American States Fellowship Program and he is conducting a study of the Decide Madrid public engagement platform. Sam contributes to the GovLab blog and serves as a communications assistant to GovLab's Director of Communications. He is fluent in Spanish.</p>
 
 
-- name: Sarah Gagnon-Turcotte
-  firstname: Sarah
-  job: Consulting Research Fellow
-  projects: false
-  bio: >
-    <p>Sarah Gagnon-Turcotte is a Consulting Research Fellow at the GovLab. She has been working for more than 10 years at the intersection of research, policy and technology. She holds a Bachelor’s degree in International Relations from Université de Montréal and a Master’s degree in International Law with a focus on international technology policy from Université du Québec à Montréal. Previously, she held several positions in research, analysis and strategic knowledge production in academia as well as multiple high-level political advisory roles in Montreal’s municipal government. She is currently taking a sabbatical year to deepen her understanding of the social and policy impacts of big data and artificial intelligence through diverse collaborations.</p>
+# - name: Sarah Gagnon-Turcotte
+#   firstname: Sarah
+#   job: Consulting Research Fellow
+#   projects: false
+#   bio: >
+#     <p>Sarah Gagnon-Turcotte is a Consulting Research Fellow at the GovLab. She has been working for more than 10 years at the intersection of research, policy and technology. She holds a Bachelor’s degree in International Relations from Université de Montréal and a Master’s degree in International Law with a focus on international technology policy from Université du Québec à Montréal. Previously, she held several positions in research, analysis and strategic knowledge production in academia as well as multiple high-level political advisory roles in Montreal’s municipal government. She is currently taking a sabbatical year to deepen her understanding of the social and policy impacts of big data and artificial intelligence through diverse collaborations.</p>
 
 # - name: Stephanie Gaither
 #   firstname: Stephanie
