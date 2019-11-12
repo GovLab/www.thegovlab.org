@@ -2866,7 +2866,7 @@
   is_featured: 0 #integer
   is_active: True
   related_question: 6 #question
-  project_website: #url
+  project_website: 'https://www.publicentrepreneur.org/skills'
   location:
     - United States
   partners:
