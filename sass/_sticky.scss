@@ -2,7 +2,7 @@
 
 .b-sticky{
     background-color: #333;
-    padding: 20px 0;
+    padding: 0px 0;
     position: fixed;
     width: 100%;
     bottom: 0;
@@ -12,13 +12,13 @@
     z-index: 1;
 
     &--index { display: none; }
-
+  
     .e-wrap {
         @include wrap;
         color: $white-60;
 
         p {
-            margin: 0 30px 0 20px;
+            margin: 0 30px 0 0px;
 
             .e-title {
                 text-transform: uppercase;
@@ -47,16 +47,24 @@
 
         .e-close {
             float: right;
-            margin-right: 10px;
-            opacity: .6;
+            margin-right:150px;
+            margin-top: 240px;
+            opacity: .9;
+            border: 1px solid white;
+            border-radius: 50%;
             cursor: pointer;
 
-            &:hover { opacity: 1; }
+            &:hover { opacity: 1; 
+            }
+            @include breakpoint($mobile-only) {
+            margin-right: 10px;
+            margin-top: 20px;
+            }
         }
     }
 
     &.m-gray {
-        background-color: $gray-80;
+        background-color: $gray-90;
     }
     .e-book {
         margin: 20px 0;

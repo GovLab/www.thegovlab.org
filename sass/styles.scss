@@ -27,12 +27,13 @@ $purple: rgba(82,48,128,1);
 $purple-20k: #47266f;
 $purple-40k: #381759;
 $orange: rgba(238,91,67,1);
+$orange-02: rgba(238,91,67,0.2);
 $orange-20k: #be4936;
 $teal: rgba(0,136,149,1);
 $teal-20k: #00616b;
 $blue: rgba(0,138,179,1);
 $blue-20k: #006e8f;
-
+$blue-40: rgba(0,138,179,0.4);
 // Breakpoints
 
 $mobile-only: max-width 800px;
@@ -58,6 +59,7 @@ $desktop: 1025px;
     border-radius: 50%;
 }
 
+
 @import 'nav';
 @import 'base';
 @import 'button';
@@ -66,6 +68,7 @@ $desktop: 1025px;
 @import 'fronts';
 @import 'featured-content';
 @import 'subscribe';
+@import 'stickysubscribe';
 @import 'sticky';
 @import 'footer';
 
@@ -82,6 +85,7 @@ $desktop: 1025px;
 @import 'projects-list';
 @import 'events';
 @import 'team';
+@import 'community';
 @import 'advisory-board';
 @import 'about';
 @import 'our-transparency';
@@ -119,3 +123,4 @@ $desktop: 1025px;
   /* Support for IE. */
   font-feature-settings: 'liga';
 }
+

@@ -1,19 +1,73 @@
 $(document).ready(function($) {
-    var $overlay = $('#overlay');
+    //Cookies for sticky implementation
+    function createCookie(name,value,days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days*24*60*60*1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + value + expires + "; path=/";
+    }
 
-    var closed = false;
+    function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0;i < ca.length;i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1,c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+        }
+        return null;
+    }
+
+   //New Sticky behavior using cookies for home page
+
     $('.js-close').click(function() {
-        $('.b-sticky').fadeOut('fast');
-        closed = true;
+        $('.b-sticky--index').fadeOut('fast');
+        createCookie('govlab-disable-sticky', true, false);
     });
 
     $(window).scroll(function(){
-        if (!closed && $(document).scrollTop() > 140) {
-            $('.b-sticky--index').fadeIn('fast');
+        if (readCookie('govlab-disable-sticky') == null && $(document).scrollTop() > 500) {
+            $('.b-sticky--index').fadeIn('slow');
         } else {
             $('.b-sticky--index').css('display','none');
         }
     });
+
+   //New Sticky behavior using cookies for home page
+
+   $('.js-close-community').click(function() {
+    $('.b-sticky--community').fadeOut('fast');
+    createCookie('govlab-community-disable-sticky', true, false);
+});
+
+$(window).scroll(function(){
+    if (readCookie('govlab-community-disable-sticky') == null && $(document).scrollTop() > 500) {
+        $('.b-sticky--community').fadeIn('slow');
+    } else {
+        $('.b-sticky--community').css('display','none');
+    }
+});
+
+
+    var $overlay = $('#overlay');
+
+    //Old Sticky behavior
+    // var closed = false;
+    // $('.js-close').click(function() {
+    //     $('.b-sticky').fadeOut('fast');
+    //     closed = true;
+    // });
+
+    // $(window).scroll(function(){
+    //     if (!closed && $(document).scrollTop() > 0) {
+    //         $('.b-sticky--index').fadeIn('fast');
+    //     } else {
+    //         $('.b-sticky--index').css('display','none');
+    //     }
+    // });
 
     // Main nav logic
     $('.js-nav-trigger').click(function() {
