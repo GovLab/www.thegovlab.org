@@ -704,7 +704,7 @@ button:focus {
             width: 100%;
             margin-top: 10px; } }
 
-.b-stickysubscribe {
+#homepage .b-stickysubscribe {
   background-color: rgba(0, 0, 0, 0.05);
   padding: 35px 0;
   height: 100vh;
@@ -712,73 +712,73 @@ button:focus {
   align-items: center;
   z-index: 100; }
   @media (max-width: 800px) {
-    .b-stickysubscribe {
+    #homepage .b-stickysubscribe {
       padding: 20px; } }
-  .b-stickysubscribe .e-wrap {
+  #homepage .b-stickysubscribe .e-wrap {
     max-width: 1025px;
     margin-left: auto;
     margin-right: auto; }
     @media (min-width: 1025px) {
-      .b-stickysubscribe .e-wrap {
+      #homepage .b-stickysubscribe .e-wrap {
         display: -webkit-flex;
         display: flex; } }
-    .b-stickysubscribe .e-wrap > div {
+    #homepage .b-stickysubscribe .e-wrap > div {
       display: flex;
       flex-direction: column;
       justify-content: center; }
       @media (min-width: 1025px) {
-        .b-stickysubscribe .e-wrap > div {
+        #homepage .b-stickysubscribe .e-wrap > div {
           flex: 2;
           -webkit-flex: 2;
           margin-right: 30px; } }
       @media (max-width: 800px) {
-        .b-stickysubscribe .e-wrap > div {
+        #homepage .b-stickysubscribe .e-wrap > div {
           margin-bottom: 20px;
           line-height: 1.3;
           text-align: center;
           display: block;
           width: 100%; } }
-      .b-stickysubscribe .e-wrap > div h4 {
+      #homepage .b-stickysubscribe .e-wrap > div h4 {
         margin: 0;
         color: white;
         font-weight: 200;
         letter-spacing: .5px;
         text-transform: uppercase;
         line-height: 1.1; }
-      .b-stickysubscribe .e-wrap > div p {
+      #homepage .b-stickysubscribe .e-wrap > div p {
         line-height: 1.2;
         color: rgba(255, 255, 255, 0.4);
         font-weight: 300;
         margin: 10px 0 0; }
-    .b-stickysubscribe .e-wrap > form {
+    #homepage .b-stickysubscribe .e-wrap > form {
       display: block;
       padding: 0; }
       @media (min-width: 1025px) {
-        .b-stickysubscribe .e-wrap > form {
+        #homepage .b-stickysubscribe .e-wrap > form {
           -webkit-flex: 3;
           flex: 3;
           display: -webkit-flex;
           display: flex;
           padding: 25px 0 0; } }
-      .b-stickysubscribe .e-wrap > form input {
+      #homepage .b-stickysubscribe .e-wrap > form input {
         padding: 8px;
         border: 0;
         color: white;
         margin-bottom: 10px;
         background-color: rgba(255, 255, 255, 0.1); }
-        .b-stickysubscribe .e-wrap > form input:focus {
+        #homepage .b-stickysubscribe .e-wrap > form input:focus {
           background-color: rgba(255, 255, 255, 0.3); }
         @media (max-width: 800px) {
-          .b-stickysubscribe .e-wrap > form input {
+          #homepage .b-stickysubscribe .e-wrap > form input {
             width: 100%;
             margin-top: 10px;
             margin-bottom: 0px; } }
         @media (min-width: 1025px) {
-          .b-stickysubscribe .e-wrap > form input {
+          #homepage .b-stickysubscribe .e-wrap > form input {
             padding: 14px 20px;
             -webkit-flex: 5;
             flex: 5; } }
-      .b-stickysubscribe .e-wrap > form button {
+      #homepage .b-stickysubscribe .e-wrap > form button {
         -webkit-flex: 1;
         flex: 1;
         border: 0;
@@ -791,25 +791,25 @@ button:focus {
         padding: 8px 20px;
         letter-spacing: 1px; }
         @media (max-width: 800px) {
-          .b-stickysubscribe .e-wrap > form button {
+          #homepage .b-stickysubscribe .e-wrap > form button {
             width: 100%;
             margin-top: 10px; } }
-      .b-stickysubscribe .e-wrap > form .fields {
+      #homepage .b-stickysubscribe .e-wrap > form .fields {
         display: flex;
         flex-direction: column; }
-        .b-stickysubscribe .e-wrap > form .fields .names {
+        #homepage .b-stickysubscribe .e-wrap > form .fields .names {
           display: flex;
           flex-direction: row; }
           @media (max-width: 800px) {
-            .b-stickysubscribe .e-wrap > form .fields .names {
+            #homepage .b-stickysubscribe .e-wrap > form .fields .names {
               flex-direction: column;
               margin-bottom: 0; } }
-          .b-stickysubscribe .e-wrap > form .fields .names #fname {
+          #homepage .b-stickysubscribe .e-wrap > form .fields .names #fname {
             margin-right: 10px; }
             @media (max-width: 800px) {
-              .b-stickysubscribe .e-wrap > form .fields .names #fname {
+              #homepage .b-stickysubscribe .e-wrap > form .fields .names #fname {
                 margin-right: 0; } }
-        .b-stickysubscribe .e-wrap > form .fields .mail-submit {
+        #homepage .b-stickysubscribe .e-wrap > form .fields .mail-submit {
           display: flex;
           flex-direction: column; }
 
