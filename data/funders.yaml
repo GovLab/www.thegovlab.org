@@ -5,6 +5,10 @@
 -   name: AARP
     project: Research, design and develop a model constituent engagement plan to be piloted in connection with soliciting the opinions and expertise of AARP members to inform the development of AARP policy
     amount: '22,000.00'
+    
+-   name: AARP
+    project: CrowdLaw Projects
+    amount: '50,000.00'
 
 -   name: Amazon Web Services
     project: Sponsorship of Open Data 500 Roundtable
@@ -18,6 +22,10 @@
     project: Open Innovation for Solving Public Problems in Latin American Cities, supporting research on the impact of open innovation on policymaking
     amount: '91,000.00'
 
+-   name: ANZSOG
+    project: GovLab Australia
+    amount: '205,000.00'  
+
 -   name: Government of Australia
     project: Open Data 500 Collaboration and membership in the OD 500 Network
     amount: '20,000.00'
@@ -29,6 +37,10 @@
 -   name: Bertelsmann Foundation
     project: 'Trendspotting: creation of public-facing dashboard that will track the political and economic relationships between the US and the members of the EU'
     amount: '268,272.00'
+
+-   name: Bertelsmann Foundation
+    project: 100 Questions - Future of Work
+    amount: '50,000.00'
 
 -   name: 'Government of British Columbia'
     project: 'Benchmarking Study: Comparing British Columbia with other governments'
@@ -46,9 +58,13 @@
     project: 'Open Data 500 Roundtable Sponsorship'
     amount: '2,500.00'
 
+-   name: 'Data2X'
+    project: 100 Questions - incorporating gender
+    amount: '30,000.00'
+
 -   name: Democracy Fund
     project: To study citizen engagement for Congress, create a Crowdlaw Playbook for Congress and teach citizen engagement techniques to Members
-    amount: '151,800.00'
+    amount: '351,800.00'
 
 -   name: Eric and Wendy Schmidt Fund
     project: Support for creation of Data Collaboratives on 100 Questions whose answers could transform the way we solve a variety of 21st Century problems
@@ -62,6 +78,10 @@
     project: Creation of Data for Policy Institute
     amount: '100,000.00'
 
+-   name: Facebook
+    project: 100 Questions
+    amount: '200,000.00'
+
 -   name: 'FHI360 (USAID)'
     project: MStar SubAward supporting research on Open Data in Developing Economies
     amount: '112,000.00'
@@ -69,6 +89,10 @@
 -   name: 'Google.org'
     project: 'Supporting the developing of "in the wild" empirical research methods for studying innovations in government, including methods for introducing randomized controlled trials in the study of institutional innovation'
     amount: '300,000.00'
+
+-   name: Govern for America
+    project: Training/coaching program for Govern for America Fellows
+    amount: '48,000.00'
 
 -   name: 'ICANN'
     project: 'Operationalizing Principles of a Distributed Internet Governance Framework, supporting research on innovative models of Internet governance'
@@ -106,6 +130,10 @@
     project: 'Development of Open Data Assessment Tool in Latin American countries'
     amount: '40,000.00'
 
+-   name: 'Inter-American Development Bank'
+    project: GovLab Paraguay
+    amount: '90,000.00'
+
 -   name: 'INFOTEC (on behalf of the Mexican Government)'
     project: 'Operationalization Memo – “Toward a Distributed Collaborative Internet Governance Ecosystem”'
     amount: '114,222.00'
@@ -133,6 +161,10 @@
 -   name: 'Laura and John Arnold Foundation'
     project: 'Supporting research on data driven criminal justice innovation and creation of an online course on data science for public good'
     amount: '851,600.00'
+
+-   name: 'Luminate'
+    project: Supporting GovLab's data programs
+    amount: '395,000.00'
 
 -   name: 'Madrid, Spain City Council'
     project: 'Collaboration on the creation of an urban innovation laboratory on citizen participation (“GOVLAB MADRID”) based on the GOVLAB experience'
@@ -241,7 +273,7 @@
 
 -   name: Tinker Foundation
     project: Research tech-enabled citizen engagement models and design a model for running City Challenges across several Latin American cities simultaneously
-    amount: '55,000.00'
+    amount: '200,000.00'
 
 -   name: 'Treasury Board of Canada Secretariat'
     project: 'Supporting creation of Introduction to Open Government course for Canadian Federal Public Servants'
