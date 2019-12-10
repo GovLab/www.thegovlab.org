@@ -1,3 +1,19 @@
+- title: "Today's Problems, Yesterday's Toolkit"
+  author: "Beth Noveck, Rod Glover"
+  date: August 2019
+  timestamp: 1565654400
+  file: ANZSOG-report.pdf
+  thumbnail: anzsog-cover.png
+
+- title: "Open Data Impact: When Demand and Supply Meet"
+  subtitle: Key Findings of the Open Data Impact Case Studies
+  author: Stefaan Verhulst and Andrew Young
+  date: March 2016
+  timestamp: 1456790400
+  file: open-data-impact-key-findings.pdf
+  thumbnail: open-data-impact-key-findings-thumbnail.png
+  tracking_class: file-open-data-impact-key-findings
+
 - title: "Responsible Data for Children (RD4C) Synthesis Report"
   author: "Andrew Young, Stuart Campo, and Stefaan Verhulst"
   date: November 2019
@@ -18,13 +34,6 @@
   timestamp: 1565658800
   file: CI-AI_oct2019.pdf
   thumbnail: ci-ai.png
-
-- title: "Today's Problems, Yesterday's Toolkit"
-  author: "Beth Noveck, Rod Glover"
-  date: August 2019
-  timestamp: 1565654400
-  file: ANZSOG-report.pdf
-  thumbnail: anzsog-cover.png
 
 - title: "State of Open Data: Histories and Horizons (Edited by Tim Davies et al)- Chapter 29: Private Sector"
   author: "Stefaan Vershulst"
@@ -199,15 +208,6 @@
   file: TB18_Data Responsibility_Online.pdf
   thumbnail: TB18_Data Responsibility_Online-thumbnail.png
   tracking_class: file-data-responsibility-online
-
-- title: "Open Data Impact: When Demand and Supply Meet"
-  subtitle: Key Findings of the Open Data Impact Case Studies
-  author: Stefaan Verhulst and Andrew Young
-  date: March 2016
-  timestamp: 1456790400
-  file: open-data-impact-key-findings.pdf
-  thumbnail: open-data-impact-key-findings-thumbnail.png
-  tracking_class: file-open-data-impact-key-findings
 
 - title: "The Smarter State Case Studies"
   author: "Beth Simone Noveck, Andrew Young, Maria Paz Hermosilla, Anirudh Dinesh"
