@@ -2960,11 +2960,11 @@
   rank: 0
   image: 100-questions-logo-v-dark-blue.png
   style:
-  type: '' # Data, Collective Intelligence or Design Thinking
+  type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
   related_question: 5 #question
-  project_website: https://the100questions.org/
+  project_website: #url
   location:
     - Global
   partners:
@@ -3015,7 +3015,7 @@
     <p>The variety and complexity of challenges facing our world today -- from climate change to the rethinking of work to economic inequality to terrorism -- are unprecedented. At the same time, today’s policymaking and problem-solving approaches cannot provide the solutions we need to the complex social, economic and cultural problems we face, contributing to an increased decline in trust in institutions. We need not only innovative solutions, we also need innovation in how we define the problems we encounter and subsequently develop solutions.</p>
   social_media: #in the future we can have custom shareable messages for each project
   images: #images or screenshots of the project
-    - #url
+    #- #url
   results: >
     <p>The results of the initiative is to initiate data collaboratives aimed at solving questions that matter. A data collaborative is a new form of collaboration, beyond the public-private partnership model, in which participants from different sectors exchange their data to create public value. Our ultimate goal is to leverage the insights from the data collaboratives to better design policies and provide more actionable solutions that can help improve people’s lives around the world.</p>
   related_articles:
