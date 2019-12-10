@@ -950,7 +950,7 @@
   type: 'Collective Intelligence' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
-  related_question: 6 #question
+  related_question: 999 #question
   project_website: http://noi.thegovlab.org #url
   location:
     - Australia
