@@ -2858,8 +2858,62 @@
 
 # ==========================================================================================================================================================================================================================================#
 
-- title: ICMA Innovation Skills Survey
+- title: Innovation Skills Acclerator #will generate slug from this attr
   rank: 101
+  image: logo-insa.png
+  style: cover
+  type: '' # Data, Collective Intelligence or Design Thinking
+  is_featured: 0 #integer
+  is_active: True
+  related_question: 6 #question
+  project_website: #url
+  location:
+    - United States
+  partners:
+    - 
+  team:
+    - Beth Simone Noveck
+    - Matt Ryan
+    - Anirudh Dinesh
+    - Sam DeJohn
+  tags:
+    governance_area:
+        - National Governance
+    type_of_institution:
+        - Public Sector
+    innovative_capability:
+        - Open Data
+        - Crowdsourcing
+        - Problem Definition
+    product_category:
+        - Training
+        - 'Coaching &amp; Mentoring'
+        - Strategy
+  status: complete # define, prototype, test, complete
+  problem_statement: A free, online program to train public entrepreneurs to use innovative methods, including design thinking, evidence-based decisionmaking and collective intelligence, to solve public problems. #question
+  short_description: >
+    <p></p>
+  tooltip: >
+    <p></p>
+  long_description: >
+
+    <p>The Innovation Skills Accelerator includes video instruction, interviews with leading public sector innovators from around the world, readings, and self-assessments. Course content spans an array of subject areas, such as introductions to new technologies like blockchain and big data analytics, utilizing modern methodologies such as user-centered design and open innovation, and employing experimental design approaches.</p>
+    <p>&nbsp;</p>
+  background: >
+     <p>The Innovation Skills Accelerator (InSA) is a free, online program to train public officials to leverage new technology and data to drive innovation in their day-to-day work, and tap into the intelligence and expertise of residents in their jurisdictions. This program aims to help public entrepreneurs -- those passionate individuals who want to get better at designing public interest projects and taking them from idea to implementation -- work differently.</p>
+
+  social_media: #in the future we can have custom shareable messages for each project
+  images:
+  - insa-2.png
+  - insa-1.png
+  - insa-3.png
+  results: >
+    <p>Over 400 participants in the state of New Jersey are enrolled in the Innovation Skills Accelerator. The course is also being replicated in Germany and Australia.</p>
+  related_articles:
+# ==========================================================================================================================================================================================================================================#
+
+- title: ICMA Innovation Skills Survey
+  rank: 102
   image: icma-logo.png
   style: small
   type: '' # Data, Collective Intelligence or Design Thinking
