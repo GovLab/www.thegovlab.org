@@ -2366,13 +2366,13 @@
 # ==========================================================================================================================================================================================================================================#
 
 - title:  Solving Public Problems with Data #will generate slug from this attr
-  rank: 4
+  rank: 103
   image: sppwd.png
   style: cover
-  type: 'Data' # Data, Collective Intelligence or Design Thinking
+  type: '' # Data, Collective Intelligence or Design Thinking
   is_featured: 0 #integer
   is_active: True
-  related_question: 1 #question
+  related_question: 6 #question
   project_website: http://sppd.thegovlab.org/ #url
   location:
     - Global
@@ -2870,7 +2870,7 @@
   location:
     - United States
   partners:
-    - 
+    - State of New Jersey
   team:
     - Beth Simone Noveck
     - Matt Ryan

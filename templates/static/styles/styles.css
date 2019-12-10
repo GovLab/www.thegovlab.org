@@ -1031,6 +1031,9 @@ button:focus {
   .b-landing-questions .b-button {
     position: relative;
     z-index: 19; }
+    @media (max-width: 800px) {
+      .b-landing-questions .b-button {
+        margin-top: 20px; } }
 
 .e-people-list td {
   vertical-align: top;
