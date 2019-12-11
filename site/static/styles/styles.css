@@ -1798,6 +1798,11 @@ button:focus {
   display: none; }
 #skills-page .b-top-section {
   padding-bottom: 0; }
+  #skills-page .b-top-section h3 {
+    display: none; }
+    @media (max-width: 800px) {
+      #skills-page .b-top-section h3 {
+        display: block; } }
   #skills-page .b-top-section .e-view-switcher {
     display: flex;
     flex-direction: row;
@@ -1807,7 +1812,8 @@ button:focus {
     text-align: center; }
     @media (max-width: 800px) {
       #skills-page .b-top-section .e-view-switcher {
-        display: none; } }
+        display: flex;
+        flex-direction: row; } }
     #skills-page .b-top-section .e-view-switcher .e-switch-wrap {
       display: flex;
       flex-direction: row; }

@@ -8,6 +8,10 @@
   .b-top-section {
     padding-bottom:0;
 
+    h3{
+      display:none;
+      @include breakpoint($mobile-only) { display:block;}
+    }
     .e-view-switcher {
       display:flex;
       flex-direction: row;
@@ -15,7 +19,7 @@
       align-items: center;
       justify-content: center;
       text-align: center;
-      @include breakpoint($mobile-only) { display: none; }
+      @include breakpoint($mobile-only) { display:flex;flex-direction: row;}
     .e-switch-wrap{
       display:flex;
       flex-direction: row;
