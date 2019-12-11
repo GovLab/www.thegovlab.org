@@ -220,6 +220,29 @@ $(window).scroll(function(){
         $('.js-view-list-trigger').removeClass('m-active');
     });
 
+
+        // Language switching language 
+        $('.js-en').click(function() {
+            // Switch Classes for the Project Listing
+            $('.m-spanish').addClass('m-hide');
+            $('.m-english').removeClass('m-hide');
+    
+            // Adds 'active' state to the button
+            $(this).addClass('m-active');
+            $('.js-es').removeClass('m-active');
+        });
+    
+        $('.js-es').click(function() {
+            // Switch Classes for the Project Listing
+            $('.m-english').addClass('m-hide');
+            $('.m-spanish').removeClass('m-hide');
+    
+            // Adds 'active' state to the button
+            $(this).addClass('m-active');
+            $('.js-en').removeClass('m-active');
+        });
+    
+
     $('.e-banner-container').slick({
         arrows: false,
         draggable: false,

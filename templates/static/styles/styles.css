@@ -1794,6 +1794,111 @@ button:focus {
 .b-divider h3 {
   text-align: center; }
 
+#skills-page .m-hide {
+  display: none; }
+#skills-page .b-top-section {
+  padding-bottom: 0; }
+  #skills-page .b-top-section .e-view-switcher {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center; }
+    @media (max-width: 800px) {
+      #skills-page .b-top-section .e-view-switcher {
+        display: none; } }
+    #skills-page .b-top-section .e-view-switcher .e-switch-wrap {
+      display: flex;
+      flex-direction: row; }
+    #skills-page .b-top-section .e-view-switcher .e-view-button {
+      font-size: 24px;
+      color: rgba(255, 255, 255, 0.2);
+      padding: 10px;
+      cursor: pointer;
+      transition: all .4s ease; }
+      #skills-page .b-top-section .e-view-switcher .e-view-button.m-active {
+        background-color: rgba(0, 0, 0, 0.2);
+        color: rgba(255, 255, 255, 0.5); }
+      #skills-page .b-top-section .e-view-switcher .e-view-button:hover {
+        background-color: rgba(0, 0, 0, 0.3);
+        color: rgba(255, 255, 255, 0.5); }
+  #skills-page .b-top-section h2 {
+    margin-top: 20px; }
+  #skills-page .b-top-section h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: white;
+    letter-spacing: .5px;
+    max-width: 1025px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 650px;
+    -webkit-margin-before: 1.83em;
+    -webkit-margin-after: 1em; }
+  #skills-page .b-top-section a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none; }
+  #skills-page .b-top-section a:hover, #skills-page .b-top-section a:focus {
+    color: white;
+    text-decoration: none; }
+#skills-page #map {
+  margin: 0;
+  padding: 0;
+  height: 350px;
+  margin-top: 15px;
+  margin-bottom: 23px; }
+#skills-page .b-top-nav {
+  background-color: #523080; }
+#skills-page .b-directions h6 {
+  text-transform: uppercase;
+  font-weight: bold; }
+#skills-page .b-form textarea {
+  min-height: 240px; }
+#skills-page .b-form input[type="submit"] {
+  float: right; }
+@media screen and (max-width: 800px) {
+  #skills-page .map-legend, #skills-page .wax-legend {
+    display: none; } }
+#skills-page .b-footer .e-content h4 {
+  font-size: 16px; }
+@media screen and (max-width: 639px) {
+  #skills-page .b-footer .e-content h4 {
+    text-align: center; }
+  #skills-page .b-footer .e-content.m-sections a {
+    text-align: center;
+    margin: 0; }
+  #skills-page .b-footer .e-content .e-partner-logo {
+    text-align: center; } }
+
+.b-subway-lines .e-line {
+  overflow: hidden;
+  border-radius: 50%;
+  height: 24px;
+  width: 24px;
+  text-align: center;
+  display: inline-block;
+  background-color: #ccc;
+  font-weight: bold;
+  color: white;
+  line-height: 24px; }
+  .b-subway-lines .e-line.m-red {
+    background-color: #dc0000; }
+  .b-subway-lines .e-line.m-blue {
+    background-color: #0073ad; }
+  .b-subway-lines .e-line.m-orange {
+    background-color: #ef6c28; }
+  .b-subway-lines .e-line.m-yellow {
+    background-color: #fbde22; }
+  .b-subway-lines .e-line.m-green {
+    background-color: #00b400; }
+  .b-subway-lines .e-line.m-light-green {
+    background-color: #a0d86d; }
+
+.b-divider h3 {
+  text-align: center; }
+
 #events .b-top-nav {
   background-color: #523080; }
 #events .b-top-section h2 {
