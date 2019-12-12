@@ -43,6 +43,7 @@
                 background-color: $gray-80;
 
             }
+            
             @include breakpoint($mobile-only) {
                 top: 0;
                 background-color: transparent;
