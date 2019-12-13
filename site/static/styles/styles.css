@@ -996,6 +996,9 @@ button:focus {
       max-width: 300px;
       margin-top: 60px; } }
 
+#homepage .b-top-section {
+  min-height: 500px; }
+
 .b-landing-questions {
   text-align: center;
   background-color: #333;
