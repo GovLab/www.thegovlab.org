@@ -527,6 +527,16 @@
 #   bio: >
 #     <p>Lila Rimalovski is a first year student at the NYU Gallatin School of Individualized Study. She is a graduate of Newark Academy High School in New Jersey and, during her junior year, attended a one semester program at the School for Ethics and Global Leadership in Washington, DC. At age 15, she took classes in web design and Python computer programming in addition to attending the IDEO Design and Innovation Summer Bootcamp in Palo Alto.</p>
 #     <p>Lila is quite an active student, serving as the Event Director for the NYU College Democrats and a Student Organizer for the NYU Entrepreneurs Festival, as well as being a Student Contributor to the 2015 NYU Policy Symposium on Criminal Justice Reform. Lila is is an alumnus of the National Outdoor Leadership School, attending wilderness leadership courses in mountains of Alaska and the desert of Arizona. She is also a published author of The High School Truth book and blog, a non-fiction, life-based guidebook for high school students, written by high school students. Lila is a passionate social justice activist, dog owner, and backpacker and will be a student in the Global Leadership Scholars Program at the NYU Washington, DC campus for the fall 2016 semester. </p>
+- name: Maitri Pujara
+  firstname: Maitri
+  job: Graduate Research Assistant
+  projects: false
+  bio: >
+    <p>Maitri Pujara is a graduate research assistant at The GovLab. She works on the 100 Questions Initiative that seeks to improve the set of questions which if answered -- with the help of data science tools – could transform our approach to solve 21st centuries challenges.</p>
+
+    <p>Maitri is a student in the Urban Planning department at New York University’s Robert F. Wagner Graduate School of Public Service, specializing in Economic Development and Housing. An aspiring architect and planner, she believes in doing work which contribute to the transformation and improvement of our surroundings and society at large. Her work is centred around bridging gaps in cities, data analysis, affordable housing, sustainability, architecture and urban planning.</p>
+
+    <p>Maitri will graduate with a Master of Urban Planning degree in May of 2021.</p>
 
 - name: Marco Konopacki
   firstname: Marco
