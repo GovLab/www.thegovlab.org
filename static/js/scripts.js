@@ -324,7 +324,7 @@ var render = function(posts) {
 // Note that this assumes that thegovlab.org has CORS headers.
 //This is only temporary to pull specific blog posts instead of the latest
 // $.get('http://thegovlab.org/featured-website/feed/', function(xml) {
-    $.get('http://thegovlab.org/website-feature-temp/feed/', function(xml) {
+    $.get('http://thegovlab.org/website-feature/feed/', function(xml) {
     var posts = [];
     $('item', xml).each(function() {
         posts.push({
