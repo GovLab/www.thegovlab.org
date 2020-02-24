@@ -726,7 +726,20 @@
   bio: >
     <p>Sam DeJohn is a Research and Communications Fellow at The GovLab who recently graduated from Penn State University with a Bachelor’s Degree in Psychology. His current research focuses on governance innovations in Latin American countries and Spain. He is part of the team evaluating the Organization of American States Fellowship Program and he is conducting a study of the Decide Madrid public engagement platform. Sam contributes to the GovLab blog and serves as a communications assistant to GovLab's Director of Communications. He is fluent in Spanish.</p>
 
+- name: Seungyoon Shin
+  firstname: Seungyoon
+  job: Post-Graduate Fellow
+  projects: false
+  bio: >
+    <p>Seungyoon Shin studies ICT policy and institutions that maximize opportunities and reduce risks from new technology development in society. Currently, she focuses on governance of public open data which enables citizen-led innovation. She is Ph.D. candidate in Seoul National University and received ABD(All But Dissertation) fellowship from National Research Foundation of Korea. Previously, she was research assistant in Center of Intelligent Society and Policy of SNU and able to participate in several research projects from Korea Government related to smart city, digital governance and effects of the 4th Industrial revolution on public sector. </p>
 
+- name: Soon Ae Chun 
+  firstname: Soon
+  job: Visiting Fellow
+  projects: false
+  bio: >
+    <p>Soon Ae Chun is a visiting research professor at the Govlab NYU, from her duties as a professor and the director of the Information Systems and Informatics  program at the City University of New York College of Staten Island, and a professor of the Computer Science Ph.D. Program and Data Science Master’s Program at the CUNY Graduate Center.  Her expertise areas include data management, data analytics, machine learning and knowledge-based approaches. She conducts applied research in digital government, public health, and information security and privacy.  She is currently working on the design models and strategies of the smart cities, Machine Learning models to detect and monitor online disinformation, trolls and toxic contents,  the AI Innovations on the Open Data  platform, and the privacy risks of citizens.  </p>
+    <p>She is the founding co-Editor in Chief for the ACM Digital Government Research and Practice journal (DGOV).  She is the director of the NSF sponsored Information Security Research and Education Lab (iSecure Lab). She is the recipient of a 2018 Fulbright Senior Scholarship, collaborating with the Seoul National University Center of Intelligent Society and Policy (CISP) on public policy impacts and risks related to the advancement of AI and IoT-driven intelligent society.  Dr. Chun received the 2014 CSI President's Dolphin Award for Outstanding Scholarly Achievement. She served as the President of the Digital Government Society. Her research has been funded by NSF, NOAA, NJ State Government Agencies, and PSC-CUNY. She is a senior member of IEEE and a member of ACM.    </p>
 # - name: Sarah Gagnon-Turcotte
 #   firstname: Sarah
 #   job: Consulting Research Fellow
