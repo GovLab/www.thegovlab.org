@@ -145,7 +145,7 @@
 
             ul {
                 @include breakpoint($mobile-only) {
-                    padding: 0 0 40px 0;
+                    padding: 0 0 0px 0;
                 }
             }
 
@@ -210,6 +210,23 @@
 
 
 #beth-page-temp {
+    .b-sidebar{
+        max-width:350px;
+
+        .e-books{
+            padding-left:50px;
+            @include breakpoint($mobile-only) {
+                text-align: center;
+                padding-left:150px;
+                padding-right:150px;
+            }
+        }
+        @include breakpoint($mobile-only) {
+            text-align: center;
+            padding-right:0;
+            max-width:100%;
+        }
+    }
     .b-top-nav {
         background-color: $purple;
     }

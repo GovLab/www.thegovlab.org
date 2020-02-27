@@ -2811,7 +2811,7 @@ button:focus {
         text-align: left; } }
     @media (max-width: 800px) {
       .b-fancy-bio .e-bio-section aside ul {
-        padding: 0 0 40px 0; } }
+        padding: 0 0 0px 0; } }
     .b-fancy-bio .e-bio-section aside li {
       list-style: none; }
   .b-fancy-bio .e-bio-section .e-books {
@@ -2850,6 +2850,20 @@ button:focus {
             opacity: 1;
             transition: all .4s ease; }
 
+#beth-page-temp .b-sidebar {
+  max-width: 350px; }
+  #beth-page-temp .b-sidebar .e-books {
+    padding-left: 50px; }
+    @media (max-width: 800px) {
+      #beth-page-temp .b-sidebar .e-books {
+        text-align: center;
+        padding-left: 150px;
+        padding-right: 150px; } }
+  @media (max-width: 800px) {
+    #beth-page-temp .b-sidebar {
+      text-align: center;
+      padding-right: 0;
+      max-width: 100%; } }
 #beth-page-temp .b-top-nav {
   background-color: #523080; }
 #beth-page-temp .b-top-section {
