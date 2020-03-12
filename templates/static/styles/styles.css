@@ -180,21 +180,6 @@ body {
   font-size: 18px;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased; }
-  body #covid-19 {
-    background-color: #c1d37f;
-    font-size: 0.8rem;
-    font-weight: 600;
-    border-style: none;
-    position: fixed;
-    right: 32px;
-    bottom: 80px;
-    height: 55px;
-    width: 180px;
-    overflow: hidden;
-    z-index: 2147483647;
-    text-align: right;
-    padding: 8px;
-    border-radius: 5%; }
 
 a {
   text-decoration: none;
@@ -1013,6 +998,21 @@ button:focus {
 
 #homepage .b-top-section {
   min-height: 500px; }
+#homepage #covid-19 {
+  background-color: #c1d37f;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border-style: none;
+  position: fixed;
+  right: 32px;
+  bottom: 80px;
+  height: 55px;
+  width: 180px;
+  overflow: hidden;
+  z-index: 2147483647;
+  text-align: right;
+  padding: 8px;
+  border-radius: 5%; }
 
 .b-landing-questions {
   text-align: center;
