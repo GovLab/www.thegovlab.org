@@ -52,6 +52,20 @@
             };
             (function(h,d){var s=d.createElement("script");s.type='text/javascript';s.async=true;s.src=h+"?t="+new Date().getTime();d.head.appendChild(s);})("https://lighthouse.helpdocs.io/load",document);
           </script>
+          <script>
+                         document.addEventListener('readystatechange', function() {
+    if (document.readyState === "complete") {
+      ready_alert();
+    }
+  });
+  function ready_alert(){
+              var test = document.getElementById("covid-19");
+              test.addEventListener("mouseover", myFunction);
+              function myFunction(){document.getElementById("covid-19").style.display="none";};
+              
+  };
+
+          </script>
 </head>
 <body id="stefaan-page-temp">
     
