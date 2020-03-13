@@ -58,12 +58,15 @@
     }
   });
   function ready_alert(){
+    setTimeout(function() {
+    document.getElementById("covid-19").style.display="block";
+  }, 1000);
     var test = document.getElementById("covid-19");
       test.addEventListener("mouseover", myFunction);
       function myFunction(){document.getElementById("covid-19").style.display="none";};
     setTimeout(function() {
     document.getElementById("covid-19").style.display="none";
-  }, 12000);
+  }, 10000);
 
 
 };
