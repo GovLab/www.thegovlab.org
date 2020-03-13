@@ -64,12 +64,15 @@ The GovLab:   -->
     }
   });
   function ready_alert(){
+    setTimeout(function() {
+    document.getElementById("covid-19").style.display="block";
+  }, 1000);
     var test = document.getElementById("covid-19");
       test.addEventListener("mouseover", myFunction);
       function myFunction(){document.getElementById("covid-19").style.display="none";};
     setTimeout(function() {
     document.getElementById("covid-19").style.display="none";
-  }, 12000);
+  }, 10000);
 
 
 };
@@ -120,7 +123,7 @@ The GovLab:   -->
     </nav>
 
     
-<p id="covid-19">Questions about COVID-19?<br>Click below to Ask a Scientist</p>
+<p id="covid-19" style="display:none;">Questions about COVID-19?<br>Click below to Ask a Scientist</p>
     <section id="homepage-banner" class="b-landing-questions b-top-section large-header">
         <canvas id="demo-canvas"></canvas>
         <h2 class="e-question">Deepening our understanding of how to govern<br> more effectively and legitimately through technology</h2>
