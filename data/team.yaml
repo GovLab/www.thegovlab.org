@@ -457,12 +457,12 @@
 #  bio: >
 #    <p>Joel Urena is a rising junior majoring in Integrated Digital Media at the Tandon School of Engineering. Joel is working on the ‘Solving Public Problems with Data’ project at the GovLab.</p>
 
-- name: Jason Williams-Bellamy
-  firstname: Jason
-  job: Intern
-  projects: false
-  bio: >
-    <p>Jason Williams-Bellamy is a second-year public policy major at the NYU College of Arts and Science. He is currently working on the CrowdLaw for Congress project at the GovLab.</p>
+# - name: Jason Williams-Bellamy
+#   firstname: Jason
+#   job: Intern
+#   projects: false
+#   bio: >
+#     <p>Jason Williams-Bellamy is a second-year public policy major at the NYU College of Arts and Science. He is currently working on the CrowdLaw for Congress project at the GovLab.</p>
 
 
 # - name: Jihii Jolly
@@ -471,6 +471,14 @@
 #   projects: false
 #   bio: >
 #     <p>Jihii Jolly is a journalist and strategist specializing in media and community design. She was most recently Community Editor of gender at News Deeply, where she designed and developed products and engagement strategy for verticals covering women's advancement. She has previously been a documentary producer at EdLab Studios (Teacher's College) and news literacy reporter at the Columbia Journalism Review. She's also currently working on a book about how to read the news in a value-creative way. She holds an M.S. from Columbia's Graduate School of Journalism and a B.A. in Humanities from Soka University of America.</p>
+
+- name: James Button
+  firstname: James
+  job: Senior Fellow
+  projects: false
+  bio: >
+    <p>James Button is a journalist, speechwriter, editor and policy communications adviser based in Melbourne, Australia. He has worked for The Age, a Melbourne newspaper; for Australian policy think tank, the Grattan Institute; and as a speechwriter for an Australian Prime Minister, Kevin Rudd. He has written two books, Speechless: A Year in my Father's Business and Comeback: The Fall and Rise of Geelong, and won three Walkley awards, Australia's leading awards for journalism.</p>
+    <p>James worked for six years at the Grattan Institute and for two years at school education consultancy, Learning First. He now works at the Monash Sustainable Development Institute, and on contract for the Scanlon Foundation.</p>
 
 
 - name: John Harlow
@@ -573,14 +581,14 @@
     <p>Matt works alongside leaders interested in building better ways to create, implement and sustain public policy that delivers economic and social prosperity. He served as Deputy Chief of Staff to the South Australian Premier, supporting the development of a State strategic agenda and advising on a wide range of policy areas, strategic engagement and communication, inter-governmental relations, with a special focus on climate change in the lead up to the 2015 Paris Climate Summit.</p>
     <p>As an executive at The Australian Centre for Social Innovation, Matt helped to create a rejuvenated organisational purpose, new strategic priorities, a new brand identity, and co-authored a major report on public sector innovation. He is currently working with a range of organisations and individuals in Australia and abroad who share his personal passion - the reform of our democratic systems - building on the policy agenda he led in government (Reforming Democracy: Deciding, Designing and Delivering Together).</p>
 
-- name: Maya Kornberg
-  firstname: Maya
-  job: Research Fellow
-  projects: false
-  bio: >
-    <p>Maya studies legislative institutions. She holds a PhD in politics from Oxford University. Her doctoral research focused on legislative committees as the focal point for legislative learning and deliberation. She also teaches about legislative reform at American University. Her commentary has been published in the Washington Post, MIT's Global Environmental Politics, and Haaretz. </p>
-    <p>Prior to the PhD, Maya also worked on governance issues. Most recently, she worked at the Office of the Quartet, an organization representing the US, EU, UN, and Russia, which seeks to promote strong Palestinian public institutions in order to bring peace to the region. Among other responsibilities, Maya managed the annual report to the United Nations about Palestinian economic and political development and acted as speech writer for the head of mission. Maya also holds an MPA in economic and political development from Columbia University and a BA in international relations from Stanford University. </p>
-    <p>At Govlab, Maya works primarily on the Crowdlaw for Congress and Collective Intelligence projects. </p>
+# - name: Maya Kornberg
+#   firstname: Maya
+#   job: Research Fellow
+#   projects: false
+#   bio: >
+#     <p>Maya studies legislative institutions. She holds a PhD in politics from Oxford University. Her doctoral research focused on legislative committees as the focal point for legislative learning and deliberation. She also teaches about legislative reform at American University. Her commentary has been published in the Washington Post, MIT's Global Environmental Politics, and Haaretz. </p>
+#     <p>Prior to the PhD, Maya also worked on governance issues. Most recently, she worked at the Office of the Quartet, an organization representing the US, EU, UN, and Russia, which seeks to promote strong Palestinian public institutions in order to bring peace to the region. Among other responsibilities, Maya managed the annual report to the United Nations about Palestinian economic and political development and acted as speech writer for the head of mission. Maya also holds an MPA in economic and political development from Columbia University and a BA in international relations from Stanford University. </p>
+#     <p>At Govlab, Maya works primarily on the Crowdlaw for Congress and Collective Intelligence projects. </p>
     
 # - name: Michael Zachor
 #   firstname: Michael
@@ -793,7 +801,13 @@
     <p>Stuart Campo is a Senior Fellow at the GovLab, where he is advising on issues related to data responsibility in public service delivery for children. He has over ten years of experience working in the humanitarian and development sectors, with a focus on the safe, effective, and ethical design and management of technology, data, and social innovation projects.</p>
     <p>Stuart also currently serves as the Team Lead for Data Policy at the UNOCHA <a href="https://centre.humdata.org/" target="_blank">Centre for Humanitarian Data</a> in The Hague. Prior to joining the Centre, Stuart worked for two years as a Researcher with the Signal Program on Human Security and Technology at the <a href="https://hhi.harvard.edu/" target="_blank">Harvard Humanitarian Initiative (HHI)</a> and for eight years in a variety of different roles with the <a href="https://www.unicef.org/" target="_blank">United Nations Children’s Fund (UNICEF)</a>. In his time with UNICEF, Stuart held extended assignments in Kenya, Madagascar, South Sudan, and supported the design and activation of innovation initiatives in over 35 countries. Stuart has extensive experience supporting the deployment of innovative solutions that bridge the humanitarian-development divide—supporting national system-strengthening for improved policy, advocacy, and service-delivery models in complex environments.</p>
     <p>Stuart served as a <a href="http://www.princetoninafrica.org/" target="_blank">Princeton in Africa</a> Fellow from 2008-2009, working as the Director of Special Projects and Innovation at <a href="http://straighttalkfoundation.org/" target="_blank">Straight Talk Foundation</a>—a leading health and development communication NGO in Uganda. Stuart studied Politics at Princeton University, and is currently based in Rotterdam, The Netherlands. He tweets at <a href="https://twitter.com/stucampo" target="_blank">@stucampo</a>.</p>
-
+  
+- name: Valeria Palacios 
+  firstname: Valeria
+  job: Research Assistant
+  projects: false
+  bio: >
+    <p>Valeria Gomez Palacios holds a Master in Economic and Political Development with a specialization in Management and a regional focus on Latin America from Columbia University School of International and Public Affairs. She has worked for different multilateral organizations, including the Organization of American States and the European Union Delegation to Nicaragua, where she worked on projects that promoted human rights and socio-economic development. During her graduate studies, she was a Consultant for the Inter-American Development Bank and served as a Research Assistant for both the Women, Peace, and Security Program at the Earth Institute and Amnesty International Regional Director for East Africa, the Horn, and the Great Lakes. She is a Civil Society Representative to the United Nations and a European Commission Peace Ambassador. </p>
 
 - name: Victoria Alsina
   firstname: Victoria
