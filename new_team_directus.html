@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-<title>The GovLab | Stefaan Verhulst</title>
-<meta content="The GovLab | Stefaan Verhulst" property="og:title"/>
-<meta content="Stefaan G. Verhulst is Co-Founder and Chief Research and Development Officer of the Governance Laboratory @NYU (GovLab) where he is responsible for building a research foundation on how to transform governance using advances in science and technology." property="og:description">
+<title>The GovLab | Team</title>
+    <meta content="The GovLab | Team" property="og:title"/>
+    <meta content="Deepening our understanding of how to govern
+    more effectively and legitimately through technology." property="og:description">
 
     <meta property="og:type" content="website" />
     <meta property="og:image" content="http://www.thegovlab.org/static/img/govlab-og.png" />
@@ -78,7 +79,7 @@
       </script>
 <script src="https://unpkg.com/@directus/sdk-js@5.3.4/dist/directus-sdk.umd.min.js"></script>
 </head>
-<body id="stefaan-page-temp">
+<body id="team">
     
     <!-- Class for google material icons ".material-icons" -->
     <header class="b-top-nav ">
@@ -124,118 +125,49 @@
 
     
 
-<div class="b-fancy-bio-stefaan" id="teamdetail" v-cloak>
-    <div class="b-top-section">
-        <div class="e-wrap">
-            <div class="e-pic" :style="{ backgroundImage: 'url(' + memberData.picture.data.thumbnails[3].url+ ')' }">
+<div class="b-team" id="teamlist">
+    <div class="e-team-list">
+        <h1>Team</h1>
+        <div class="e-team-member" v-for="teammember in teamData" :id="teammember.slug">
+            <div class="e-wrap">
 
-            </div>
-            <div class="e-info">
+                              <div v-if="teammember.picture != null" class="e-team-picture" :style="{ backgroundImage: 'url(' + teammember.picture.data.thumbnails[3].url+ ')' }"></div>
 
-                <!-- <div class="e-links">
-                    <a :href="memberData.resources.twitter" target="_blank" class="b-social-media"><i class="fa fa-twitter"></i></a>
-                    <a :href="memberData.resources.medium" target="_blank" class="b-social-media"><i class="fa fa-medium"></i></a>
-                </div> -->
-                <div class="e-names">
-                    <h1>{{memberData.name}}</h1>
-                    <h2>{{memberData.title}}</h2>
-                    <div class="e-social-media e-nav-group" v-if="memberData.resources">
-                        <a v-if="memberData.resources.Twitter != null" :href="memberData.resources.Twitter" class="e-nav-item" target="_blank"><i class="e-social-media-item fa fa-twitter" aria-hidden="true"></i></a>
-                        <a v-if="memberData.resources.LinkedIn" :href="memberData.resources.LinkedIn" class="e-nav-item" target="_blank"><i class="e-social-media-item fa fa-linkedin" aria-hidden="true"></i></a>
-                        <a v-if="memberData.resources.Medium" :href="memberData.resources.Medium" class="e-nav-item" target="_blank"><i class="e-social-media-item fa fa-medium" aria-hidden="true"></i></a>
+                <div class="e-info">
 
-                    </div>
                 </div>
+                <div class="e-bio">
+                    <h3>{{teammember.name}}</h3>
+                    <h4>{{teammember.title}}</h4>
 
+                    <p v-if="!teammember.extended" v-html="teammember.bio_short"></p>
+                    <p v-else v-html="teammember.bio"></p>
 
-            </div>
-        </div>
-    </div>
+                    <div v-if="teammember.more_infos==false && !teammember.extended" @click="showDesc(teammember)" class="b-button m-naked js-bio-toggle">More  <i class="material-icons"><i class="material-icons">keyboard_arrow_down</i></i></div>
+                    <div v-if="teammember.more_infos==false && teammember.extended" @click="showExc(teammember)" class="b-button m-naked js-bio-toggle">Less<i class="material-icons"><i class="material-icons">keyboard_arrow_up</i></i></div>
+                    <a v-if="teammember.more_infos==true" @click="teamMore(teammember.slug)" class="b-button m-naked js-bio-toggle" target="_blank">More <i class="material-icons"><i class="material-icons">keyboard_arrow_down</i></i></a>
+                    <a v-if="teammember.projects!='' && !teammember.extended_project" @click="showProj(teammember)" class="b-button m-naked js-project-toggle" target="_blank">Projects<i class="material-icons">keyboard_arrow_down</i></a>
+                    <a v-if="teammember.projects!='' && teammember.extended_project" @click="hideProj(teammember)" class="b-button m-naked js-project-toggle" target="_blank">Projects<i class="material-icons">keyboard_arrow_up</i></a>
 
-
-    <div class="e-bio-section">
-        <div class="e-wrap">
-
-            <aside class="b-sidebar">
-                <section class="e-section">
-                    <h3>Resources</h3>
-                    <ul>
-                        <li v-for= "(ressources, index) in memberData.resources"><a :href="ressources" target="_blank">{{index}}</a></li>
-                    </ul>
-                </section>
-                <section class="e-section" v-if="memberData.videos != ''">
-                    <h3>Videos</h3>
-                    <ul>
-                          <li class="embed-container" v-for= "(video, index) in memberData.videos"  v-html='video.directus_files_id.data.embed.html'></li>
-                    </ul>
-
-                </section>
-                <section class="e-section">
-                    <h3>By {{memberData.name}}</h3>
-
-                    <ul class="e-books"  v-for= "(book, index) in memberData.books">
-
-                        <li>
-                            <figure>
-                                <div class="e-image"
-                                    :style="{ backgroundImage: 'url(' + book.books_id.picture.data.thumbnails[3].url+ ')' }">
-                                    <a :href="book.books_id.link"
-                                        class="e-dark-panel">{{book.books_id.title}}</a>
-                                </div>
-                            </figure>
-                        </li>
-                    </ul>
-                </section>
-                <section class="e-section">
-                    <h3>Downloads</h3>
-                    <ul>
-                        <li><a href="memberData.picture.data.thumbnails[5].url" target="_blank"
-                                class="file-beth-simone-noveck-1">{{memberData.name}}'s Photo <i
-                                    class="e-social-media-item fa fa-download"></i></a></li>
-                    </ul>
-                </section>
-
-            </aside>
-            <div class="e-main-content">
-                <p v-html="memberData.bio"></p>
-
-
-
-                <div class="e-collapsed">
-
-                    <!-- <div><span class="b-button m-display m-naked js-resources-toggle" @click="toggle('news')">In the News <i
-                                class="material-icons"><i class="material-icons">keyboard_arrow_down</i></i></span></dic>
-                    <div><span class="b-button m-undisplay m-naked js-resources-toggle"  @click="toggle('news')">In the News <i
-                                class="material-icons"><i class="material-icons">keyboard_arrow_up</i></i></span></div>
-                      <div class="project_list" v-if="news_toggle==true" class="e-additional-resources" v-html="memberData.news"></div> -->
-
-
-
-                    <div class="b-button m-show m-naked js-publications-toggle" @click="toggle('publications')">Selected Publications <i class="material-icons"><i class="material-icons">keyboard_arrow_down</i></i></div>
-                    <div class="b-button m-hide m-naked js-publications-toggle" @click="toggle('publications')">Selected Publications <i class="material-icons"><i class="material-icons">keyboard_arrow_up</i></i></div>                               
-                    <div class="e-selected-publications project_list" v-if="publications_toggle==true" v-html="memberData.publications"></div>
-                        <p></p>
-                    <div class="b-button m-show m-naked js-project-toggle"  @click="toggle('projects')">Stefaan's Projects at The GovLab <i class="material-icons"><i class="material-icons">keyboard_arrow_down</i></i></div>
-                    <div class="b-button m-hide m-naked js-project-toggle"  @click="toggle('projects')">Stefaan's Projects at The GovLab <i class="material-icons"><i class="material-icons">keyboard_arrow_up</i></i></div>
-
-                    <div class="e-projects" v-if="projects_toggle">
-                      <ul class="project_list" >
-                        <li v-for="project in memberData.projects"><a :href="project.projects_id.link">{{project.projects_id.name}}</a></li>
-                      </ul>
+                    <div v-if="teammember.extended_project">
+                      <div class="e-project" v-for="project in teammember.projects">
+                          <a :href="project.projects_id.link">{{project.projects_id.name}}</a>
+                      </div>
                     </div>
 
 
                 </div>
-
             </div>
         </div>
-    </div>
 
-    <script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
-    <script src="static/js/team_detail.js"></script>
-    
+        </div>
 
-    
+</div>
+<script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
+<script src="static/js/team.js"></script>
+
+
+
 
     <footer class='b-footer'>
         <div class="e-wrap">
