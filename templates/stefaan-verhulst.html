@@ -1,29 +1,34 @@
-{% extends "_base.html" %}
+{% extends "_base_directus.html" %}
 {% block page_id %}stefaan-page-temp{% endblock %}
 {% block og %}
 <title>The GovLab | Stefaan Verhulst</title>
 <meta content="The GovLab | Stefaan Verhulst" property="og:title"/>
 <meta content="Stefaan G. Verhulst is Co-Founder and Chief Research and Development Officer of the Governance Laboratory @NYU (GovLab) where he is responsible for building a research foundation on how to transform governance using advances in science and technology." property="og:description">
 {% endblock %}
+
+
 {% block content %}
-<div class="b-fancy-bio-stefaan">
+{% raw %}
+<div class="b-fancy-bio-stefaan" id="teamdetail" v-cloak>
     <div class="b-top-section">
         <div class="e-wrap">
-            <div class="e-pic">
+            <div class="e-pic" :style="{ backgroundImage: 'url(' + memberData.picture.data.thumbnails[3].url+ ')' }">
 
             </div>
             <div class="e-info">
+
                 <!-- <div class="e-links">
-                    <a href="https://twitter.com/bethnoveck" target="_blank" class="b-social-media"><i class="fa fa-twitter"></i></a>
-                    <a href="https://medium.com/@bethnoveck" target="_blank" class="b-social-media"><i class="fa fa-medium"></i></a>
+                    <a :href="memberData.resources.twitter" target="_blank" class="b-social-media"><i class="fa fa-twitter"></i></a>
+                    <a :href="memberData.resources.medium" target="_blank" class="b-social-media"><i class="fa fa-medium"></i></a>
                 </div> -->
                 <div class="e-names">
-                    <h1>Stefaan Verhulst</h1>
-                    <h2>Co-founder and Chief Research and Development Officer</h2>
-                    <div class="e-social-media e-nav-group">
-                        <a href="https://twitter.com/sverhulst" class="e-nav-item" target="_blank"><i class="e-social-media-item fa fa-twitter aria-hidden="true""></i></a>
-                        <a href="https://www.linkedin.com/in/stefaan-verhulst-85a334" class="e-nav-item" target="_blank"><i class="e-social-media-item fa fa-linkedin aria-hidden="true""></i></a>
-                        <a href="https://medium.com/@sverhulst" class="e-nav-item" target="_blank"><i class="e-social-media-item fa fa-medium aria-hidden="true""></i></a>
+                    <h1>{{memberData.name}}</h1>
+                    <h2>{{memberData.title}}</h2>
+                    <div class="e-social-media e-nav-group" v-if="memberData.resources">
+                        <a v-if="memberData.resources.Twitter != null" :href="memberData.resources.Twitter" class="e-nav-item" target="_blank"><i class="e-social-media-item fa fa-twitter" aria-hidden="true"></i></a>
+                        <a v-if="memberData.resources.LinkedIn" :href="memberData.resources.LinkedIn" class="e-nav-item" target="_blank"><i class="e-social-media-item fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a v-if="memberData.resources.Medium" :href="memberData.resources.Medium" class="e-nav-item" target="_blank"><i class="e-social-media-item fa fa-medium" aria-hidden="true"></i></a>
+
                     </div>
                 </div>
 
@@ -32,6 +37,7 @@
         </div>
     </div>
 
+
     <div class="e-bio-section">
         <div class="e-wrap">
 
@@ -39,185 +45,79 @@
                 <section class="e-section">
                     <h3>Resources</h3>
                     <ul>
-                        <li><a href="https://twitter.com/sverhulst" target="_blank">Twitter</a></li>
-                        <li><a href="https://www.linkedin.com/in/stefaan-verhulst-85a334" class="e-nav-item" target="_blank">LinkedIn</a></li>
-                        <li><a href="https://medium.com/@sverhulst" class="e-nav-item" target="_blank">Medium</a></li>
-                        <li><a href="https://scholar.google.com/citations?hl=en&user=XwhOyDAAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a></li>
-                        <li><a href="http://thegovlab.org/category/govlab-digest/" target="_blank">The GovLab Digest</a></li>
-                        <li><a href="http://odimpact.org/" target="_blank">Open Data's Impact</a></li>
-                        <li><a href="http://datacollaboratives.org/" target="_blank">Data Collaboratives</a></li>
-                        <li><a href="http://ogrx.org/" target="_blank">Open Governance Research Exchange</a>
-                        </ul>
-                    </section>
-                    <section class="e-section">
-                        <h3>By Stefaan Verhulst</h3>
-                        <ul class="e-books">
-                          <li><figure>
-                            <div class="e-image" style="background-image: url('/static/files/publications/Blockchange-Report-Cover.png')">
-                                <a href="https://blockchan.ge" class="e-dark-panel">Blockchange Field Report</a>
-                            </div>
-                        </figure></li>
-                          <li><figure>
-                            <div class="e-image" style="background-image: url('/static/files/publications/Open-Data-in-Developing-Economies-Cover.png')">
-                                <a href="http://www.africanminds.co.za/dd-product/open-data-in-developing-economies-toward-building-an-evidence-base-on-what-works-and-how/" class="e-dark-panel">Open Data in Developing Economies</a>
-                            </div>
-                        </figure></li>
-                        <li><figure>
-                            <div class="e-image" style="background-image: url('/static/files/publications/Social-Dynamics-of-Open-Data-Cover.png')">
-                                <a href="http://www.africanminds.co.za/dd-product/the-social-dynamics-of-open-data/" class="e-dark-panel">The Social Dynamics of Open Data</a>
-                            </div>
-                        </figure></li>
-                        <li><figure>
-                            <div class="e-image" style="background-image: url('/static/files/publications/dcfb-cover-flat.png')">
-                                <a href="http://datacollaboratives.org/social-media.html" class="e-dark-panel">The Potential of Social Media Intelligence...</a>
-                            </div>
-                        </figure></li>
-                        <li><figure>
-                            <div class="e-image" style="background-image: url('/static/img/team/bio/global-impact-open-data.jpg')">
-                                <a href="http://www.oreilly.com/data/free/the-global-impact-of-open-data.csp" class="e-dark-panel">The Global Impact of Open Data</a>
-                            </div>
-                        </figure></li>
-                        <li><figure>
-                            <div class="e-image" id="paris-21" style="background-image: url('/static/img/team/bio/paris-21.png')">
-                                <a href="http://www.paris21.org/sites/default/files/Paper_new-data-sources_final.pdf" class="e-dark-panel">Access to New Data Sources for Statistics</a>
-                            </div>
-                        </figure></li>
-                        <li><figure>
-                            <div class="e-image" id="paris-21" style="background-image: url('/static/img/team/bio/rt-media-law.jpg')">
-                                <a href="https://www.routledge.com/Routledge-Handbook-of-Media-Law/Price-Verhulst-Morgan/p/book/9780415683166" class="e-dark-panel">Routledge Handbook of Media Law</a>
-                            </div>
-                        </figure></li>
-                        <li><figure>
-                            <div class="e-image" id="paris-21" style="background-image: url('/static/img/team/bio/self-regulation.jpg')">
-                                <a href="https://www.amazon.com/Self-Regulation-Internet-Monroe-Price/dp/9041123067" class="e-dark-panel">Self-Regulation and the Internet</a>
-                            </div>
-                        </figure></li>
-                        <li><figure>
-                            <div class="e-image" id="paris-21" style="background-image: url('/static/img/team/bio/parental-control.png')">
-                                <a href="https://www.amazon.com/Parental-Television-Broadcasting-Routledge-Communication/dp/080583902X" class="e-dark-panel">Parental Control of Television Broadcasting</a>
-                            </div>
-                        </figure></li>
-                        <li><figure>
-                            <div class="e-image" id="paris-21" style="background-image: url('/static/img/team/bio/ec-media-law.jpg')">
-                                <a href="https://books.google.com/books/about/EC_Media_Law_and_Policy.html?id=fhl-QgAACAAJ&source=kp_cover" class="e-dark-panel">EC Media Law and Policy</a>
-                            </div>
-                        </figure></li>
-                        <li><figure>
-                            <div class="e-image" id="paris-21" style="background-image: url('/static/img/team/bio/regulating-media.jpg')">
-                                <a href="https://global.oup.com/academic/product/regulating-the-changing-media-9780198267812?cc=us&lang=en&" class="e-dark-panel">Regulating the Changing Media</a>
-                            </div>
-                        </figure></li>
+                        <li v-for= "(ressources, index) in memberData.resources"><a :href="ressources" target="_blank">{{index}}</a></li>
+                    </ul>
+                </section>
+                <section class="e-section" v-if="memberData.videos != ''">
+                    <h3>Videos</h3>
+                    <ul>
+                          <li class="embed-container" v-for= "(video, index) in memberData.videos"  v-html='video.directus_files_id.data.embed.html'></li>
+                    </ul>
 
+                </section>
+                <section class="e-section">
+                    <h3>By {{memberData.name}}</h3>
+
+                    <ul class="e-books"  v-for= "(book, index) in memberData.books">
+
+                        <li>
+                            <figure>
+                                <div class="e-image"
+                                    :style="{ backgroundImage: 'url(' + book.books_id.picture.data.thumbnails[3].url+ ')' }">
+                                    <a :href="book.books_id.link"
+                                        class="e-dark-panel">{{book.books_id.title}}</a>
+                                </div>
+                            </figure>
+                        </li>
                     </ul>
                 </section>
                 <section class="e-section">
                     <h3>Downloads</h3>
                     <ul>
-                        <li><a href="static/img/team/stefaan-verhulst.jpg" target="_blank" class="file-beth-simone-noveck-1">Stefaan Verhulst's Photo <i class="e-social-media-item fa fa-download"></i></a></li>
-                    </section>
+                        <li><a href="memberData.picture.data.thumbnails[5].url" target="_blank"
+                                class="file-beth-simone-noveck-1">{{memberData.name}}'s Photo <i
+                                    class="e-social-media-item fa fa-download"></i></a></li>
+                    </ul>
+                </section>
 
-                </aside>
-                <div class="e-main-content">
-                    <p>Stefaan G. Verhulst is Co-Founder and Chief Research and Development Officer of the Governance Laboratory @NYU (GovLab) where he is responsible for building a research foundation on how to transform governance using advances in science and technology.</p>
-                    <p>He is the Curator and Editor of the <a href="https://thelivinglib.org" target="_blank">Living Library</a> and <a href="https://thelivinglib.org/subscribe/" target="_blank">The Digest</a>.</p>
-                    <p>Verhulst’s latest scholarship centers on how technology can improve people’s lives and the creation of more effective and collaborative forms of governance. Specifically, he is interested in the perils and promise of collaborative technologies and how to harness the unprecedented volume of information to advance the public good.</p>
-                    <p>Before joining NYU full time, Verhulst spent more than a decade as Chief of Research for the Markle Foundation, where he continues to serve as Senior Advisor. At Markle, an operational foundation based in New York, he was responsible for overseeing strategic research on all the priority areas of the Foundation including, for instance: transforming health care using information and technology, re-engineering government to respond to new national security threats, improving people’s lives in developing countries by connecting them to information networks, developing multi-stakeholder networks to tackle global governance challenges, changing education through information technology et al. Many of Markle’s reports have been translated into legislation and executive orders, and have informed the creation of new organizations and businesses.</p>
-                    <p>He is also an Adjunct Professor in the Department of Culture and Communications at New York University, Senior Research Fellow for the Center for Media and Communications Studies at Central European University in Budapest; and an Affiliated Senior Research Fellow at the Center for Global Communications Studies at the University of Pennsylvania’s Annenberg School for Communications.</p>
-                    <p>Previously at Oxford University he co-founded and was the Head of the Programme in Comparative Media Law and Policy at the Centre for Socio Legal Studies, and also served as Senior Research Fellow of Wolfson College. He is still an emeritus fellow at Oxford. He also taught several years at the London School of Economics.</p>
-                    <p>Verhulst was the UNESCO Chairholder in Communications Law and Policy for the UK, a former lecturer on Communications Law and Policy issues in Belgium, and Founder and Co-Director of the International Media and Info-Comms Policy and Law Studies at the University of Glasgow School of Law. He has served as a consultant to numerous international and national organizations, including the Council of Europe, the European Commission, UNESCO, World Bank, UNDP, USAID, the UK Department for International Development among others. He has been a grant recipient of the Bertelsmann Foundation, the Ford Foundation, the Rockefeller Foundation, and the Markle Foundation.</p>
-                    <p>Verhulst has authored and co-authored several books, including: In Search of the Self: Conceptual Approaches to Internet Self Regulation (Routledge, 2001); Convergence in European Communications Regulation (Blackstone, 1999); EC Media Law and Policy (AWL, 1998); Legal Responses to the Changing Media (OUP, 1998); and Broadcasting Reform in India (OUP, 1998) and The Routledge Handbook of Media Law (2013).</p>
-                    <p>Latest reports and papers include, for instance, Innovations in Global Governance: Toward a Distributed Internet Governance Ecosystem (2014) and The Open Data Era in Health and Social Care (2014), and are also available <a href="https://ssrn.com/author=412382" target="_blank">here</a>. Verhulst blogs also regularly on a variety of topics. For instance: Data Collaboratives: Exchanging Data to Improve People’s Lives (2015), and Reimagining Cities (2014).</p>
-                    <p>Verhulst is also founder and editor of numerous journals including the International Journal of Communications Law and Policy, and the Communications Law in Transition Newsletter.</p>
+            </aside>
+            <div class="e-main-content">
+                <p v-html="memberData.bio"></p>
 
 
-                    <div class="e-collapsed">
 
-                        <div class="b-button m-show m-naked js-publications-toggle">Selected Publications <i class="material-icons"><i class="material-icons">keyboard_arrow_down</i></i></div>
-                        <div class="b-button m-hide m-naked js-publications-toggle">Selected Publications <i class="material-icons"><i class="material-icons">keyboard_arrow_up</i></i></div>
+                <div class="e-collapsed">
 
-                        <div class="e-selected-publications">
-                            <ul>
-                                <li>Stefaan Verhulst and Andrew Young,<a href="https://ssir.org/articles/entry/the_potential_and_practice_of_data_collaboratives_for_migration"> "The Potential and Practice of Data Collaboratives for Migration"</a>, (Stanford Social Innovation Review, March, 2018)</li>
-                                <li>Stefaan Verhulst, Andrew Young, Hannah Pierce, Jeffrey Brown,<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3141381"> "People-Led Innovation: Toward a Methodology for Solving Urban Problems in the 21st Century"</a>, (Social Science Research Network, March, 2018)</li>
-                                <li>Stefaan Verhulst,<a href="https://migrationdataportal.org/blog/talking-migration-data-using-big-data-understand-migration-part-2"> "TALKING MIGRATION DATA: Using big data to understand migration (part 2)"</a>, (Migration Data Portal, March, 2018)</li>
-                                <li>Stefaan Verhulst,<a href="https://link.springer.com/article/10.1007/s00146-018-0830-z"> "Where and when AI and CI meet: exploring the intersection of artificial and collective intelligence towards the goal of innovating how we govern"</a>, (Social Science Research Network, February, 2018)</li>
-                                <li>Stefaan Verhulst,<a href="https://disrupt-and-innovate.org/data-collaboratives-can-transform-way-civil-society-organisations-find-solutions-part-ii/"> "Data Collaboratives can transform the way civil society organisations find solutions – Part II"</a>, (Disrupt &amp; Innovate, February, 2018)</li>
-                                <li>Stefaan Verhulst,<a href="https://disrupt-and-innovate.org/data-collaboratives-transform-cso-find-solutions/#more-3466"> "Data Collaboratives can transform the way civil society organisations find solutions – Part I"</a>, (Disrupt &amp; Innovate, February, 2018)</li>
-                                <li>Stefaan Verhulst and Andrew Young,<a href="https://hbr.org/2018/01/how-the-data-that-internet-companies-collect-can-be-used-for-the-public-good"> "How the Data That Internet Companies Collect Can Be Used for the Public Good"</a>, (Harvard Business Review, January, 2018)</li>
-                                <li>Francois van Schalkwyk, Stefaan Verhulst, Gustavo Magalhaes, Juan Pane &amp; Johanna Walker, <a href="http://www.africanminds.co.za/dd-product/the-social-dynamics-of-open-data/"> "The Social Dynamics of Open Data"</a>, (African Minds, December, 2017)</li>
+                    <!-- <div><span class="b-button m-display m-naked js-resources-toggle" @click="toggle('news')">In the News <i
+                                class="material-icons"><i class="material-icons">keyboard_arrow_down</i></i></span></dic>
+                    <div><span class="b-button m-undisplay m-naked js-resources-toggle"  @click="toggle('news')">In the News <i
+                                class="material-icons"><i class="material-icons">keyboard_arrow_up</i></i></span></div>
+                      <div class="project_list" v-if="news_toggle==true" class="e-additional-resources" v-html="memberData.news"></div> -->
 
 
-                                <li>Stefaan Verhulst, <a href="https://www.opendemocracy.net/stefaan-g-verhulst/from-resistance-to-reimagining-governance-6-shifts-that-can-improve-way-we-solve-"> "From #Resistance to #Reimagining governance: 6 shifts that can improve the way we solve public problems"</a>, (OpenDemocracy, December, 2017)</li>
 
-                                <li>Stefaan Verhulst and Andrew Young, <a href="http://www.africanminds.co.za/dd-product/open-data-in-developing-economies-toward-building-an-evidence-base-on-what-works-and-how/"> "Open Data in Developing Economies: Toward Building an Evidence Base on What Works and How"</a>, (African Minds, November, 2017)</li>
-
-                                <li>Stefaan Verhulst, <a href="http://opening-governance.org/blog/augmented-ci-and-human-driven-ai-how-the-intersection-of-artificial-intelligence-and-collective-intelligence-could-enhance-their-impact-on-society"> "Augmented CI and Human-Driven AI: How the Intersection of Artificial Intelligence and Collective Intelligence Could Enhance Their Impact on Society"</a>, (Opening Governance, November, 2017)</li>
-
-                                <li>Stefaan Verhulst and Andrew Young, <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3141457"> "The Potential of Social Media — Intelligence to Improve People’s Lives: Social Media Data for Good"</a>, (Social Science Research Network, September, 2017)</li>
-
-                                <li>Stefaan Verhulst, <a href="https://www.techatbloomberg.com/blog/stefaan-verhulst-unlocking-private-data-public-good/"> "Stefaan Verhulst: Unlocking Private Data for Public Good"</a>, (Tech at Bloomberg, July, 2017)</li>
-
-                                <li>Stefaan Verhulst and Andrew Young, <a href="https://theconversation.com/how-open-data-can-help-the-global-south-from-disaster-relief-to-voter-turnout-81159"> "How open data can help the Global South, from disaster relief to voter turnout"</a>, (The Conversation, July, 2017)</li>
-
-                                <li>Stefaan Verhulst, <a href="https://theconversation.com/how-social-media-data-can-improve-peoples-lives-if-used-responsibly-75367"> "How Social Media Data Can Improve People's Lives - If Used Responsibly"</a>, (The Conversation, April, 2017)</li>
-
-                                <li>Thilo Klein and Stefaan Verhulst, <a href="http://www.paris21.org/sites/default/files/Paper_new-data-sources_final.pdf"> "Access to New Data Sources for Statistics: Business Models and Incentives for the Corporate Sector"</a>, (Paris21, March, 2017)</li>
-
-                                <li>Stefaan Verhulst, <a href="https://ssir.org/articles/entry/corporate_social_responsibility_for_a_data_age"> "Corporate Social Responsibility for a Data Age"</a>, (Stanford Social Innovation Review, February, 2017)</li>
-
-                                <li>Stefaan Verhulst, <a href="https://www.gp-digital.org/publication/the-practice-and-craft-of-multistakeholder-governance/"> "THE PRACTICE AND CRAFT OF MULTISTAKEHOLDER GOVERNANCE"</a>, (Global Partners Digital, September, 2017)</li>
-
-                                <li>Stefaan Verhulst, <a href="https://medium.com/@sverhulst/data-responsibility-a-new-social-good-for-the-information-age-4463cb15798f"> "Data responsibility: a new social good for the information age"</a>, (Medium, September, 2017)</li>
-
-                                <li>Stefaan Verhulst and Andrew Young, <a href="http://www.oreilly.com/data/free/the-global-impact-of-open-data.csp"> "The Global Impact of Open Data: Key Findings from Detailed Case Studies Around the World"</a>, (O'Reilly, September, 2016)</li>
-
-                                <li>Beth Noveck and Stefaan Verhulst, <a href="http://www.businessofgovernment.org/report/encouraging-and-sustaining-innovation-government"> "Encouraging and Sustaining Innovation in Government"</a>, (IBM, August, 2016)</li>
-
-                                <li>JOS BERENS, ULRICH MANS AND STEFAAN VERHULST, <a href="http://www.thegovlab.org/static/files/publications/ocha.pdf"> "Mapping and Comparing Responsible Data Approaches"</a>, (GovLab blog, June, 2016)</li>
-
-                                <li>Stefaan Verhulst et al., <a href="https://www.unocha.org/sites/unocha/files/Building%20data%20responsibility%20into%20humanitarian%20action.pdf"> "Building data responsibility into humanitarian action"</a>, (UNOCHA, May, 2016)</li>
-
-                                <li>Stefaan Verhulst and Andrew Young, <a href="http://www.thegovlab.org/static/files/publications/open-data-impact-key-findings.pdf"> "Open Data Impact: When Demand and Supply Meet"</a>, (GovLab, March, 2016)</li>
-                            </ul>
-                        </div>
-
+                    <div class="b-button m-show m-naked js-publications-toggle" @click="toggle('publications')">Selected Publications <i class="material-icons"><i class="material-icons">keyboard_arrow_down</i></i></div>
+                    <div class="b-button m-hide m-naked js-publications-toggle" @click="toggle('publications')">Selected Publications <i class="material-icons"><i class="material-icons">keyboard_arrow_up</i></i></div>                               
+                    <div class="e-selected-publications project_list" v-if="publications_toggle==true" v-html="memberData.publications"></div>
                         <p></p>
+                    <div class="b-button m-show m-naked js-project-toggle"  @click="toggle('projects')">Stefaan's Projects at The GovLab <i class="material-icons"><i class="material-icons">keyboard_arrow_down</i></i></div>
+                    <div class="b-button m-hide m-naked js-project-toggle"  @click="toggle('projects')">Stefaan's Projects at The GovLab <i class="material-icons"><i class="material-icons">keyboard_arrow_up</i></i></div>
 
-                        <div class="b-button m-show m-naked js-project-toggle">Stefaan's Projects at The GovLab <i class="material-icons"><i class="material-icons">keyboard_arrow_down</i></i></div>
-                        <div class="b-button m-hide m-naked js-project-toggle">Stefaan's Projects at The GovLab <i class="material-icons"><i class="material-icons">keyboard_arrow_up</i></i></div>
-
-                        <div class="e-projects">
-                            <ul>
-                                {% for project in projects %}
-                                {% if "Stefaan Verhulst" in project.team %}
-                                <li><a href="http://www.thegovlab.org/project-{{project.title | slug}}.html">{{project.title}}</a></li>
-                                {% endif %}
-                                {% endfor %}
-                            </ul>
-                        </div>
+                    <div class="e-projects" v-if="projects_toggle">
+                      <ul class="project_list" >
+                        <li v-for="project in memberData.projects"><a :href="project.projects_id.link">{{project.projects_id.name}}</a></li>
+                      </ul>
                     </div>
 
-                <!-- <div class="e-more-content">
-                    <h3>Media</h3>
-                    <ul>
-                        <li>
-                            <a href="" target="_blank"></a>
-                        </li>
 
-                    </ul>
+                </div>
 
-                    <h3>Selected Publications</h3>
-                    <ul>
-                        <li><a href="" target="_blank"></a></li>
-                    </ul>
-                </div> -->
-
-               <!-- <div class="e-twitter">
-                    <a class="twitter-timeline" href="https://twitter.com/sverhulst" data-widget-id="xyz">Tweets by @sverhulst</a>
-                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-                </div> -->
             </div>
         </div>
     </div>
+
+    <script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
+    <script src="static/js/team_detail.js"></script>
+    {% endraw %}
 
     {% endblock %}

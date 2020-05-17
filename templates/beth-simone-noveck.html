@@ -1,0 +1,154 @@
+{% extends "_base_directus.html" %}
+{% block page_id %}beth-page-temp{% endblock %}
+{% block og %}
+<title>The GovLab | Beth Simone Noveck</title>
+<meta content="The GovLab | Beth Simone Noveck" property="og:title" />
+<meta
+    content="Beth Simone Noveck is Co-Founder and Director of The GovLab and its MacArthur Research Network on Opening Governance."
+    property="og:description">
+{% endblock %}
+
+{% block content %}
+{% raw %}
+<div class="b-fancy-bio" id="teamdetail" v-cloak>
+    <div class="b-top-section">
+        <div class="e-wrap">
+            <div class="e-pic" :style="{ backgroundImage: 'url(' + memberData.picture.data.thumbnails[3].url+ ')' }">
+
+            </div>
+            <div class="e-info">
+
+                <!-- <div class="e-links">
+                    <a :href="memberData.resources.twitter" target="_blank" class="b-social-media"><i class="fa fa-twitter"></i></a>
+                    <a :href="memberData.resources.medium" target="_blank" class="b-social-media"><i class="fa fa-medium"></i></a>
+                </div> -->
+                <div class="e-names">
+                    <h1>{{memberData.name}}</h1>
+                    <h2>{{memberData.title}}</h2>
+                    <div class="e-social-media e-nav-group">
+                        <a v-if="memberData.resources.Twitter != null" :href="memberData.resources.Twitter" class="e-nav-item" target="_blank"><i class="e-social-media-item fa fa-twitter" aria-hidden="true"></i></a>
+                        <a v-if="memberData.resources.LinkedIn" :href="memberData.resources.LinkedIn" class="e-nav-item" target="_blank"><i class="e-social-media-item fa fa-linkedIn" aria-hidden="true"></i></a>
+                        <a :href="memberData.resources.Medium" class="e-nav-item" target="_blank"><i class="e-social-media-item fa fa-medium" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="b-top-section">
+        <div class="e-wrap">
+            <div class="e-info">
+                <div class="e-names">
+                    <h1>Beth Simone Noveck</h1>
+                    <h2>Co-founder and Director</h2>
+                </div>
+
+                <div class="e-links">
+                    <a href="https://twitter.com/bethnoveck" target="_blank" class="b-social-media"><i class="fa fa-twitter"></i></a>
+                    <a href="https://medium.com/@bethnoveck" target="_blank" class="b-social-media"><i class="fa fa-medium"></i></a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="e-bio-section">
+        <div class="e-wrap">
+
+            <aside class="b-sidebar">
+                <section class="e-section">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li v-if="memberData.resources != null" v-for= "(ressources, index) in memberData.resources"><a :href="ressources" target="_blank">{{index}}</a></li>
+                    </ul>
+                </section>
+                <section class="e-section" v-if="memberData.videos != ''">
+                    <h3>Videos</h3>
+                    <ul>
+                          <li class="embed-container" v-for= "(video, index) in memberData.videos"  v-html='video.directus_files_id.data.embed.html'></li>
+                    </ul>
+
+                </section>
+                <section class="e-section">
+                    <h3>By {{memberData.name}}</h3>
+
+                    <ul class="e-books"  v-for= "(book, index) in memberData.books">
+                        <li>
+                            <figure>
+                                <div class="e-image"
+                                    :style="{ backgroundImage: 'url(' + book.books_id.picture.data.thumbnails[3].url+ ')' }">
+                                    <a :href="book.books_id.link"
+                                        class="e-dark-panel">{{book.books_id.title}}</a>
+                                </div>
+                            </figure>
+                        </li>
+                    </ul>
+                </section>
+                <section class="e-section">
+                    <h3>Downloads</h3>
+                    <ul>
+                        <li><a :href="memberData.picture.data.thumbnails[5].url" target="_blank"
+                                class="file-beth-simone-noveck-1">Beth Simone Noveck's Photo <i
+                                    class="e-social-media-item fa fa-download"></i></a></li>
+                        <li><a href="https://directus.thegovlab.com/uploads/thegovlab/originals/f168cb90-ea46-4695-b6fe-7b6995b9a369.png" target="_blank"
+                                class="file-beth-simone-noveck-2">Beth Simone Noveck's Photo in High Res <i
+                                    class="e-social-media-item fa fa-download"></i></a></li>
+                    </ul>
+                </section>
+
+            </aside>
+            <div class="e-main-content">
+                <p v-html="memberData.bio"></p>
+
+                <div class="e-collapsed">
+
+
+                   
+                    <p><span class="b-button m-display m-naked js-resources-toggle" @click="toggle('news')">In the News <i
+                        class="material-icons"><i class="material-icons">keyboard_arrow_down</i></i></span></p>
+                    <p><span class="b-button m-undisplay m-naked js-resources-toggle" @click="toggle('news')">In the News <i
+                        class="material-icons"><i class="material-icons">keyboard_arrow_up</i></i></span></p> 
+                    <div class="e-additional-resources project_list"v-if="news_toggle==true" v-html="memberData.news"></div>
+                        <p></p>
+
+                    <p><span class="b-button m-expand m-naked js-articles-toggle" @click="toggle('publications')">Selected Publications <i
+                            class="material-icons"><i class="material-icons">keyboard_arrow_down</i></i></span></p>
+                    <p><span class="b-button m-collapse m-naked js-articles-toggle" @click="toggle('publications')">Selected Publications <i
+                            class="material-icons"><i class="material-icons">keyboard_arrow_up</i></i></span></p>
+                    <div class="e-selected-articles project_list" v-if="publications_toggle==true" v-html="memberData.publications"></div>
+
+                        <p></p>
+                    <div class="b-button m-show m-naked js-project-toggle"  @click="toggle('projects')">Beth's Projects <i class="material-icons"><i class="material-icons">keyboard_arrow_down</i></i></div>
+                    <div class="b-button m-hide m-naked js-project-toggle"  @click="toggle('projects')">Beth's Projects <i class="material-icons"><i class="material-icons">keyboard_arrow_up</i></i></div>
+
+                    <div class="e-projects" v-if="projects_toggle">
+                      <ul class="project_list" >
+                        <li v-for="project in memberData.projects"><a :href="project.projects_id.link">{{project.projects_id.name}}</a></li>
+                      </ul>
+                    </div>
+                </div>
+               
+                <div class="e-twitter">
+                    <a class="twitter-timeline" href="https://twitter.com/bethnoveck"
+                        data-widget-id="687389892377210880">Tweets by @bethnoveck</a>
+                    <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(".file-beth-simone-noveck-1").on('click', function () {
+            ga('send', 'event', 'File', 'download', 'Beth Simone Noveck Photo');
+        });
+        $(".file-beth-simone-noveck-2").on('click', function () {
+            ga('send', 'event', 'File', 'download', 'Beth Simone Noveck Photo (High Res)');
+        });
+    </script>
+        <script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
+        <script src="static/js/team_detail.js"></script>
+
+        {% endraw %}
+    {% endblock %}
