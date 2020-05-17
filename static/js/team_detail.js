@@ -99,6 +99,7 @@ new Vue({
         }
       }
       console.log(this[key+'_toggle']);
+            console.log(this.key);
      
     },
     teamMore(slug) {
