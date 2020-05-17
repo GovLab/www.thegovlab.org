@@ -2916,6 +2916,18 @@ button:focus {
   margin: 50px 0 0;
   display: inline-block;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.6); }
+#beth-page-temp .e-section .embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%; }
+#beth-page-temp .e-section .embed-container iframe, #beth-page-temp .e-section .embed-container object, #beth-page-temp .e-section .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
 
 .b-social-media {
   overflow: hidden;
@@ -2924,19 +2936,6 @@ button:focus {
   padding: 12px 18px;
   color: white;
   display: inline-block; }
-
-.e-section .embed-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  max-width: 100%; }
-.e-section .embed-container iframe, .e-section .embed-container object, .e-section .embed-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%; }
 
 .b-fancy-bio-stefaan .b-top-section {
   background-size: cover;
