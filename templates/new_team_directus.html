@@ -11,7 +11,7 @@
 <div class="b-team" id="teamlist">
     <div class="e-team-list">
         <h1>Team</h1>
-        <div class="e-team-member" v-for="teammember in teamData" :id="teammember.slug">
+        <div class="e-team-member" v-for="teammember in teamData" :id="teammember.slug" v-if="teammember.status =='published'">
             <div class="e-wrap">
 
                               <div v-if="teammember.picture != null" class="e-team-picture" :style="{ backgroundImage: 'url(' + teammember.picture.data.thumbnails[3].url+ ')' }"></div>
@@ -19,21 +19,23 @@
                 <div class="e-info">
 
                 </div>
+
                 <div class="e-bio">
                     <h3>{{teammember.name}}</h3>
                     <h4>{{teammember.title}}</h4>
 
                     <p v-if="!teammember.extended" v-html="teammember.bio_short"></p>
-                    <p v-else v-html="teammember.bio"></p>
+                    <p class="m-active" v-if="teammember.bio && teammember.extended" v-html="teammember.bio"></p>
+                    <p v-if="!teammember.bio && teammember.extended" v-html="teammember.bio_short"></p>
 
-                    <div v-if="teammember.more_infos==false && !teammember.extended" @click="showDesc(teammember)" class="b-button m-naked js-bio-toggle">More  <i class="material-icons"><i class="material-icons">keyboard_arrow_down</i></i></div>
-                    <div v-if="teammember.more_infos==false && teammember.extended" @click="showExc(teammember)" class="b-button m-naked js-bio-toggle">Less<i class="material-icons"><i class="material-icons">keyboard_arrow_up</i></i></div>
-                    <a v-if="teammember.more_infos==true" @click="teamMore(teammember.slug)" class="b-button m-naked js-bio-toggle" target="_blank">More <i class="material-icons"><i class="material-icons">keyboard_arrow_down</i></i></a>
-                    <a v-if="teammember.projects!='' && !teammember.extended_project" @click="showProj(teammember)" class="b-button m-naked js-project-toggle" target="_blank">Projects<i class="material-icons">keyboard_arrow_down</i></a>
-                    <a v-if="teammember.projects!='' && teammember.extended_project" @click="hideProj(teammember)" class="b-button m-naked js-project-toggle" target="_blank">Projects<i class="material-icons">keyboard_arrow_up</i></a>
+                    <a v-if="teammember.more_infos==false && !teammember.extended" @click="showDesc(teammember)" class="b-button m-naked" target="_blank">More <i class="material-icons">keyboard_arrow_down</i></a>
+                    <a v-if="teammember.more_infos==false && teammember.extended" @click="showExc(teammember)" class="b-button m-naked" target="_blank">Less<i class="material-icons">keyboard_arrow_up</i></a>
+                    <a v-if="teammember.more_infos==true" @click="teamMore(teammember.slug)" class="b-button m-naked" target="_blank">More<i class="material-icons">keyboard_arrow_down</i></a>
+                    <a v-if="teammember.projects!='' && !teammember.extended_project" @click="showProj(teammember)" class="b-button m-naked" target="_blank">Projects<i class="material-icons">keyboard_arrow_down</i></a>
+                    <a v-if="teammember.projects!='' && teammember.extended_project" @click="hideProj(teammember)" class="b-button m-naked" target="_blank">Projects<i class="material-icons">keyboard_arrow_up</i></a>
 
                     <div v-if="teammember.extended_project">
-                      <div class="e-project" v-for="project in teammember.projects">
+                      <div class="e-project project_list" v-for="project in teammember.projects">
                           <a :href="project.projects_id.link">{{project.projects_id.name}}</a>
                       </div>
                     </div>
@@ -44,9 +46,9 @@
         </div>
 
         </div>
-
 </div>
 <script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
+<script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
 <script src="static/js/team.js"></script>
 {% endraw %}
 

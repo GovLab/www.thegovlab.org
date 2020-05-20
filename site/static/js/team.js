@@ -20,7 +20,7 @@ main();
 ////////////////////////////////////////////////////////////
 
 
-
+Vue.use(VueMeta);
 new Vue({
 
   el: '#teamlist',
@@ -29,14 +29,23 @@ new Vue({
     return {
       teamData: [],
       more_body: false,
+      meta_title: 'The GovLab | Team',
+      meta_content: 'Deepening our understanding of how to govern more effectively and legitimately through technology.',
       apiURL: 'https://directus.thegovlab.com/thegovlab/items/team?sort=order&fields=*,picture.*'
     }
   },
-
+  metaInfo () {
+        return {
+          title: this.meta_title,
+          meta: [
+            {title: this.meta_title, property:'og:title'},
+      {  name: 'description', content: this.meta_content, property:'og:description'}
+    ]
+    }
+  },
   created: function created() {
     this.fetchTeam();
   },
-
   methods: {
 
     fetchTeam() {
@@ -50,57 +59,32 @@ new Vue({
       client.getItems(
   'team',
   {
-    sort: 'order',
+    sort: 'name',
     fields: ['*.*','picture.*','projects.projects_id.*']
   }
 ).then(data => {
-
+  console.log(data);
+  data.data.sort(function(x,y){ return x.slug == 'stefaan-verhulst' ? -1 : y == 'beth-simone-noveck' ? 1 : 0; });
+  data.data.sort(function(x,y){ return x.slug == 'beth-simone-noveck' ? -1 : y == 'beth-simone-noveck' ? 1 : 0; });
   self.teamData = data.data;
-  console.log(self.teamData);
+
 })
 .catch(error => console.error(error));
-      // https://directus.thegovlab.com/thegovlab/items/team?sort=order&fields=*,picture.*
-  //     var self = this; // Reference to the function self
-  //     https://directus.thegovlab.com/thegovlab/items/team?sort=order&fields=*,picture.*
-  //
-  //     client.getItems({"team"
-  //       {
-  //           sort: "order&fields=*,picture.*"
-  //         }
-  //     })
-  // .then(data => {
-  //   console.log(data);
-  // })
-  // .catch(error => console.error(error));
-      // axios.get(self.apiURL).then(responseTeam => {
-      //   console.log(responseTeam);
-      //   // self.teamData = responseTeam.data;
-      //
-      // });
     },
     showDesc(teammember) {
       teammember['extended'] = true;
-      $('.js-bio-toggle').parent().toggleClass('m-active');
-      console.log(teammember);
     },
     showExc(teammember) {
-    	console.log('two');
       teammember['extended'] = false;
-      $('.js-bio-toggle').parent().toggleClass('m-active');
     },
     showProj(teammember) {
       teammember['extended_project'] = true;
-      $('.js-project-toggle').parent().toggleClass('m-show');
     },
     hideProj(teammember) {
       teammember['extended_project'] = false;
-      $('.js-project-toggle').parent().toggleClass('m-show');
     },
     teamMore(slug) {
       window.location.href= slug+'.html';
     }
   }
 });
-
-
-

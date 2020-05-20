@@ -75,12 +75,15 @@
     }
 
     .e-bio {
+        
         -webkit-flex: 4;
         flex: 4;
         order: 1;
-        @include breakpoint($desktop) { max-height: 500px;}
-        @include breakpoint($mobile-only) { max-height: 1000px;}
+        
+        @include breakpoint($desktop) { max-height: 4000px;}
+        @include breakpoint($mobile-only) { max-height: 4000px;}
         height: auto;
+        max-height: 4000px;
         @include transition;
 
         .b-button.m-less { display: none; }
@@ -89,7 +92,7 @@
             margin-bottom: 10px; 
         }
         .e-project { 
-            display: none; 
+            display: block; 
             padding: 10px;
             border-bottom: 1px solid $gray-10;
             cursor: pointer;

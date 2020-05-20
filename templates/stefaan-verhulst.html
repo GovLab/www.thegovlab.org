@@ -9,7 +9,7 @@
 
 {% block content %}
 {% raw %}
-<div class="b-fancy-bio-stefaan" id="teamdetail" v-cloak>
+<div class="b-fancy-bio" id="teamdetail" v-cloak>
     <div class="b-top-section">
         <div class="e-wrap">
             <div class="e-pic" :style="{ backgroundImage: 'url(' + memberData.picture.data.thumbnails[3].url+ ')' }">
@@ -26,7 +26,7 @@
                     <h2>{{memberData.title}}</h2>
                     <div class="e-social-media e-nav-group" v-if="memberData.resources">
                         <a v-if="memberData.resources.Twitter != null" :href="memberData.resources.Twitter" class="e-nav-item" target="_blank"><i class="e-social-media-item fa fa-twitter" aria-hidden="true"></i></a>
-                        <a v-if="memberData.resources.LinkedIn" :href="memberData.resources.LinkedIn" class="e-nav-item" target="_blank"><i class="e-social-media-item fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a v-if="memberData.resources.LinkedIn != null" :href="memberData.resources.LinkedIn" class="e-nav-item" target="_blank"><i class="e-social-media-item fa fa-linkedin" aria-hidden="true"></i></a>
                         <a v-if="memberData.resources.Medium" :href="memberData.resources.Medium" class="e-nav-item" target="_blank"><i class="e-social-media-item fa fa-medium" aria-hidden="true"></i></a>
 
                     </div>
@@ -44,8 +44,10 @@
             <aside class="b-sidebar">
                 <section class="e-section">
                     <h3>Resources</h3>
-                    <ul>
-                        <li v-for= "(ressources, index) in memberData.resources"><a :href="ressources" target="_blank">{{index}}</a></li>
+                    <ul >
+                        <li v-for= "(ressources, index) in memberData.resources">
+                            <a :href="ressources" target="_blank">{{index}}</a>
+                        </li>
                     </ul>
                 </section>
                 <section class="e-section" v-if="memberData.videos != ''">
@@ -88,23 +90,25 @@
 
                 <div class="e-collapsed">
 
-                    <!-- <div><span class="b-button m-display m-naked js-resources-toggle" @click="toggle('news')">In the News <i
-                                class="material-icons"><i class="material-icons">keyboard_arrow_down</i></i></span></dic>
-                    <div><span class="b-button m-undisplay m-naked js-resources-toggle"  @click="toggle('news')">In the News <i
-                                class="material-icons"><i class="material-icons">keyboard_arrow_up</i></i></span></div>
-                      <div class="project_list" v-if="news_toggle==true" class="e-additional-resources" v-html="memberData.news"></div> -->
+                    <!-- <p v-if="!news_toggle"><span class="b-button  m-naked " @click="toggle('news')">In the News <i
+                                class="material-icons"><i class="material-icons">keyboard_arrow_down</i></i></span></p>
+                    <p v-if="news_toggle"><span class="b-button  m-naked "  @click="toggle('news')">In the News <i
+                                class="material-icons"><i class="material-icons">keyboard_arrow_up</i></i></span></p>
+                      <div  v-if="news_toggle==true" class="e-additional-resources" v-html="memberData.news"></div> -->
+
+                      <p v-if="!publications_toggle" > <span class="b-button m-naked"  @click="toggle('publications')">Selected Publications <i
+                                  class="material-icons"><i class="material-icons">keyboard_arrow_down</i></i></span></p>
+                      <p v-if="publications_toggle" ><span class="b-button m-naked " @click="toggle('publications')">Selected Publications <i
+                                  class="material-icons"><i class="material-icons">keyboard_arrow_up</i></i></span></p>
+                      <div v-if="publications_toggle==true" class="e-additional-resources additional-ressources" v-html="memberData.publications"></div>
 
 
-
-                    <div class="b-button m-show m-naked js-publications-toggle" @click="toggle('publications')">Selected Publications <i class="material-icons"><i class="material-icons">keyboard_arrow_down</i></i></div>
-                    <div class="b-button m-hide m-naked js-publications-toggle" @click="toggle('publications')">Selected Publications <i class="material-icons"><i class="material-icons">keyboard_arrow_up</i></i></div>                               
-                    <div class="e-selected-publications project_list" v-if="publications_toggle==true" v-html="memberData.publications"></div>
-                        <p></p>
-                    <div class="b-button m-show m-naked js-project-toggle"  @click="toggle('projects')">Stefaan's Projects at The GovLab <i class="material-icons"><i class="material-icons">keyboard_arrow_down</i></i></div>
-                    <div class="b-button m-hide m-naked js-project-toggle"  @click="toggle('projects')">Stefaan's Projects at The GovLab <i class="material-icons"><i class="material-icons">keyboard_arrow_up</i></i></div>
-
-                    <div class="e-projects" v-if="projects_toggle">
-                      <ul class="project_list" >
+                    <div class="b-button m-naked js-project-toggle" v-if="!projects_toggle"  @click="toggle('projects')">Stefaans's Projects <i class="material-icons"><i
+                                class="material-icons">keyboard_arrow_down</i></i></div>
+                    <div class="b-button m-naked js-project-toggle" v-if="projects_toggle" @click="toggle('projects')">Stefaans's Projects<i class="material-icons"><i
+                                class="material-icons">keyboard_arrow_up</i></i></div>
+                    <div v-if="projects_toggle">
+                      <ul class="e-projects project_list" >
                         <li v-for="project in memberData.projects"><a :href="project.projects_id.link">{{project.projects_id.name}}</a></li>
                       </ul>
                     </div>
@@ -117,6 +121,7 @@
     </div>
 
     <script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
+    <script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
     <script src="static/js/team_detail.js"></script>
     {% endraw %}
 

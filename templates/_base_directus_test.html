@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    
-<title>The GovLab | Team</title>
-    <meta content="The GovLab | Team" property="og:title"/>
-    <meta content="Deepening our understanding of how to govern
-    more effectively and legitimately through technology." property="og:description">
-
+    {% block og %}
+    <title>The Governance Lab</title>
+    <meta property="og:title" content="The Governance Lab" />
+    <meta content="Deepening Our Understanding of How to Govern
+    More Effectively and Legitimately Through Technology" property="og:description">
+    {% endblock %}
     <meta property="og:type" content="website" />
     <meta property="og:image" content="http://www.thegovlab.org/static/img/govlab-og.png" />
     <meta content="The GovLab" property="og:site_name">
     <script src="//use.typekit.net/zez3buj.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
     <link href="static/img/favicon-transparent.png" rel="shortcut icon">
-    
+    {% block styles %}
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
     rel="stylesheet">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="static/vendor/normalize.css">
     <link rel="stylesheet" href="static/vendor/slick.css">
     <link rel="stylesheet" href="static/styles/styles.css">
-    
+    {% endblock %}
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
     <script>
@@ -79,7 +79,7 @@
       </script>
 <script src="https://unpkg.com/@directus/sdk-js@5.3.4/dist/directus-sdk.umd.min.js"></script>
 </head>
-<body id="team" data-feedly-mini="yes">
+<body id="{% block page_id %}{% endblock %}">
     
     <!-- Class for google material icons ".material-icons" -->
     <header class="b-top-nav ">
@@ -123,53 +123,7 @@
     </nav>
     
 
-    
-
-<div class="b-team" id="teamlist">
-    <div class="e-team-list">
-        <h1>Team</h1>
-        <div class="e-team-member" v-for="teammember in teamData" :id="teammember.slug" v-if="teammember.status =='published'">
-            <div class="e-wrap">
-
-                              <div v-if="teammember.picture != null" class="e-team-picture" :style="{ backgroundImage: 'url(' + teammember.picture.data.thumbnails[3].url+ ')' }"></div>
-
-                <div class="e-info">
-
-                </div>
-
-                <div class="e-bio">
-                    <h3>{{teammember.name}}</h3>
-                    <h4>{{teammember.title}}</h4>
-
-                    <p v-if="!teammember.extended" v-html="teammember.bio_short"></p>
-                    <p class="m-active" v-if="teammember.bio && teammember.extended" v-html="teammember.bio"></p>
-                    <p v-if="!teammember.bio && teammember.extended" v-html="teammember.bio_short"></p>
-
-                    <a v-if="teammember.more_infos==false && !teammember.extended" @click="showDesc(teammember)" class="b-button m-naked" target="_blank">More <i class="material-icons">keyboard_arrow_down</i></a>
-                    <a v-if="teammember.more_infos==false && teammember.extended" @click="showExc(teammember)" class="b-button m-naked" target="_blank">Less<i class="material-icons">keyboard_arrow_up</i></a>
-                    <a v-if="teammember.more_infos==true" @click="teamMore(teammember.slug)" class="b-button m-naked" target="_blank">More<i class="material-icons">keyboard_arrow_down</i></a>
-                    <a v-if="teammember.projects!='' && !teammember.extended_project" @click="showProj(teammember)" class="b-button m-naked" target="_blank">Projects<i class="material-icons">keyboard_arrow_down</i></a>
-                    <a v-if="teammember.projects!='' && teammember.extended_project" @click="hideProj(teammember)" class="b-button m-naked" target="_blank">Projects<i class="material-icons">keyboard_arrow_up</i></a>
-
-                    <div v-if="teammember.extended_project">
-                      <div class="e-project project_list" v-for="project in teammember.projects">
-                          <a :href="project.projects_id.link">{{project.projects_id.name}}</a>
-                      </div>
-                    </div>
-
-
-                </div>
-            </div>
-        </div>
-
-        </div>
-</div>
-<script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
-<script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
-<script src="static/js/team.js"></script>
-
-
-
+    {% block content %}{% endblock %}
 
     <footer class='b-footer'>
         <div class="e-wrap">
@@ -208,13 +162,13 @@
         </div>
     </div>
     <div id="overlay"></div>
-    
+    {% block scripts %}
     <script src="static/js/scripts.js"></script>
     <script src="static/vendor/slick.min.js"></script>
     <script src="static/vendor/EasePack.min.js"></script>
     <script src="static/vendor/rAF.js"></script>
     <script src="static/vendor/TweenLite.min.js"></script>
-    
+    {% endblock %}
 
 </body>
 </html>
