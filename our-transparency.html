@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="static/styles/styles.css">
     
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -75,9 +76,9 @@
     
     };
       </script>
-
+<script src="https://unpkg.com/@directus/sdk-js@5.3.4/dist/directus-sdk.umd.min.js"></script>
 </head>
-<body id="">
+<body id="" data-feedly-mini="yes">
     
     <!-- Class for google material icons ".material-icons" -->
     <header class="b-top-nav ">
@@ -119,8 +120,11 @@
         <a href="./job-board.html">Job Board</a>
         <a href="./contact.html">Contact</a>
     </nav>
+    
 
     
+
+
 <div class="b-our-transparency">
     <section class="b-top-section">
         <header>
@@ -128,636 +132,36 @@
             <h3>GovLab Grants and Contracts since 2013</h3>
         </header>
     </section>
-    <section class="b-our-tranparency-table">
+
+    <section class="b-our-tranparency-table" id='funds'>
         <div class="e-wrap">
             <table>
                 <thead>
-                    <th class="e-name">Funder</th>
+                    <tr><th class="e-name">Funder</th>
                     <th class="e-amount">Amount</th>
-                </thead>
+                </tr></thead>
 
-                
-                <tr>
+                <tbody>
+                  <tr v-for="funder in fundData" v-if="funder.status == 'published'">
                     <td class="e-funder">
-                        <p class="e-name">AARP</p>
-                        <p class="e-project">Research, design and develop a model constituent engagement plan to be piloted in connection with soliciting the opinions and expertise of AARP members to inform the development of AARP policy</p>
+                        <p class="e-name">{{funder.name}}</p>
+                        <p class="e-project">{{funder.description}}</p>
                     </td>
-                    <td class="e-amount">$ 22,000.00</td>
+                    <td class="e-amount" v-if="funder.amount == 0 || funder.amount==null">In kind</td>
+                    <td class="e-amount" v-else>{{currency(funder.amount)}}</td>
                 </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">AARP</p>
-                        <p class="e-project">CrowdLaw Projects</p>
-                    </td>
-                    <td class="e-amount">$ 50,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Amazon Web Services</p>
-                        <p class="e-project">Sponsorship of Open Data 500 Roundtable</p>
-                    </td>
-                    <td class="e-amount">$ 25,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Anonymous</p>
-                        <p class="e-project">Primer on international insights and ideas in how to innovate in government</p>
-                    </td>
-                    <td class="e-amount">$ 18,180.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Anonymous Family Foundation</p>
-                        <p class="e-project">Open Innovation for Solving Public Problems in Latin American Cities, supporting research on the impact of open innovation on policymaking</p>
-                    </td>
-                    <td class="e-amount">$ 91,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">ANZSOG</p>
-                        <p class="e-project">GovLab Australia</p>
-                    </td>
-                    <td class="e-amount">$ 205,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Government of Australia</p>
-                        <p class="e-project">Open Data 500 Collaboration and membership in the OD 500 Network</p>
-                    </td>
-                    <td class="e-amount">$ 20,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Bertelsmann Foundation</p>
-                        <p class="e-project">Supporting the development of a methodology for people-led innovation and co-design in cities</p>
-                    </td>
-                    <td class="e-amount">$ 40,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Bertelsmann Foundation</p>
-                        <p class="e-project">Trendspotting: creation of public-facing dashboard that will track the political and economic relationships between the US and the members of the EU</p>
-                    </td>
-                    <td class="e-amount">$ 268,272.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Bertelsmann Foundation</p>
-                        <p class="e-project">100 Questions - Future of Work</p>
-                    </td>
-                    <td class="e-amount">$ 50,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Government of British Columbia</p>
-                        <p class="e-project">Benchmarking Study: Comparing British Columbia with other governments</p>
-                    </td>
-                    <td class="e-amount">$ 20,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Brookings Institution</p>
-                        <p class="e-project">Supporting the creation of an inventory and community of female civic tech leaders</p>
-                    </td>
-                    <td class="e-amount">$ 8,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Canada's Open Data Exchange</p>
-                        <p class="e-project">Open Data 500 Collaboration and membership in the OD500 network, supporting research on the impact of open data on job creation and economic growth in Canada</p>
-                    </td>
-                    <td class="e-amount">$ 20,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Data Transparency Coalition</p>
-                        <p class="e-project">Open Data 500 Roundtable Sponsorship</p>
-                    </td>
-                    <td class="e-amount">$ 2,500.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Data2X</p>
-                        <p class="e-project">100 Questions - incorporating gender</p>
-                    </td>
-                    <td class="e-amount">$ 30,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Democracy Fund</p>
-                        <p class="e-project">To study citizen engagement for Congress, create a Crowdlaw Playbook for Congress and teach citizen engagement techniques to Members</p>
-                    </td>
-                    <td class="e-amount">$ 351,800.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Eric and Wendy Schmidt Fund</p>
-                        <p class="e-project">Support for creation of Data Collaboratives on 100 Questions whose answers could transform the way we solve a variety of 21st Century problems</p>
-                    </td>
-                    <td class="e-amount">$ 200,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Facebook</p>
-                        <p class="e-project">Supporting research on the uses of private sector social media data to tackle public problems</p>
-                    </td>
-                    <td class="e-amount">$ 25,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Facebook</p>
-                        <p class="e-project">Creation of Data for Policy Institute</p>
-                    </td>
-                    <td class="e-amount">$ 100,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Facebook</p>
-                        <p class="e-project">100 Questions</p>
-                    </td>
-                    <td class="e-amount">$ 200,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">FHI360 (USAID)</p>
-                        <p class="e-project">MStar SubAward supporting research on Open Data in Developing Economies</p>
-                    </td>
-                    <td class="e-amount">$ 112,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Google.org</p>
-                        <p class="e-project">Supporting the developing of "in the wild" empirical research methods for studying innovations in government, including methods for introducing randomized controlled trials in the study of institutional innovation</p>
-                    </td>
-                    <td class="e-amount">$ 300,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Govern for America</p>
-                        <p class="e-project">Training/coaching program for Govern for America Fellows</p>
-                    </td>
-                    <td class="e-amount">$ 48,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">ICANN</p>
-                        <p class="e-project">Operationalizing Principles of a Distributed Internet Governance Framework, supporting research on innovative models of Internet governance</p>
-                    </td>
-                    <td class="e-amount">$ 312,254.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">ICANN</p>
-                        <p class="e-project">Supporting ICANN Strategy Panels</p>
-                    </td>
-                    <td class="e-amount">$ 480,410.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">ICANN</p>
-                        <p class="e-project">To develop a Prototype of the NETmundial Solutions Map</p>
-                    </td>
-                    <td class="e-amount">$ 99,998.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">ICANN</p>
-                        <p class="e-project">Supporting a blueprint for an alternative framework of internet governance that is distributed and collaborative</p>
-                    </td>
-                    <td class="e-amount">$ 53,465.05</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">ICANN</p>
-                        <p class="e-project">Sustaining and Expanding the NETmundial Solutions Map</p>
-                    </td>
-                    <td class="e-amount">$ 40,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">ICMA</p>
-                        <p class="e-project">Research study of innovation skills of local governments</p>
-                    </td>
-                    <td class="e-amount">$ 30,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Inter-American Development Bank</p>
-                        <p class="e-project">Crowdsourcing to Support Preparedness and Response to Zika Virus and Other Public Health Emergencies, supporting research on the use of experts-sourcing to accelerate solutions to mosquito-borne illness</p>
-                    </td>
-                    <td class="e-amount">$ 208,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Inter-American Development Bank</p>
-                        <p class="e-project">Smarter Crowdsourcing Anti-Corruption, supporting research on the expert sourcing and its impact</p>
-                    </td>
-                    <td class="e-amount">$ 150,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Inter-American Development Bank</p>
-                        <p class="e-project">Development of Open Data Assessment Tool in Latin American countries</p>
-                    </td>
-                    <td class="e-amount">$ 40,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Inter-American Development Bank</p>
-                        <p class="e-project">GovLab Paraguay</p>
-                    </td>
-                    <td class="e-amount">$ 90,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">INFOTEC (on behalf of the Mexican Government)</p>
-                        <p class="e-project">Operationalization Memo – “Toward a Distributed Collaborative Internet Governance Ecosystem”</p>
-                    </td>
-                    <td class="e-amount">$ 114,222.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">John S. and James L. Knight Foundation</p>
-                        <p class="e-project">To conduct a census of existing companies using open data to be able to provide insight and recommendations that will lead to a better understanding of opportunities for companies to invest in open data.</p>
-                    </td>
-                    <td class="e-amount">$ 74,900.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">John S. and James L. Knight Foundation</p>
-                        <p class="e-project">To convene an Interdisciplinary Conference on Innovation in Governance (GovLab Experiment)</p>
-                    </td>
-                    <td class="e-amount">$ 75,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">John S. and James L. Knight Foundation</p>
-                        <p class="e-project">Supporting research on the curriculum of public entrepreneurship and problem solving</p>
-                    </td>
-                    <td class="e-amount">$ 3,200,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">John D. and Catherine T. MacArthur Foundation</p>
-                        <p class="e-project">Pre-Research Network Planning Grant to identify initial research agenda</p>
-                    </td>
-                    <td class="e-amount">$ 800,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">John D. and Catherine T. MacArthur Foundation</p>
-                        <p class="e-project">Research Network on Opening Governance, supporting a multi-school, multi-discipline research network to study the impact of technology on governing</p>
-                    </td>
-                    <td class="e-amount">$ 8,000,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Laura and John Arnold Foundation</p>
-                        <p class="e-project">Supporting research on data driven criminal justice innovation and creation of an online course on data science for public good</p>
-                    </td>
-                    <td class="e-amount">$ 851,600.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Luminate</p>
-                        <p class="e-project">Supporting GovLab's data programs</p>
-                    </td>
-                    <td class="e-amount">$ 395,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Madrid, Spain City Council</p>
-                        <p class="e-project">Collaboration on the creation of an urban innovation laboratory on citizen participation (“GOVLAB MADRID”) based on the GOVLAB experience</p>
-                    </td>
-                    <td class="e-amount">$ 170,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Markle Foundation</p>
-                        <p class="e-project">Supporting research on the economic value of open data</p>
-                    </td>
-                    <td class="e-amount">$ 80,551.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">MediaLab Prado</p>
-                        <p class="e-project">Experiment design and analysis to improve citizen participation in Madrid</p>
-                    </td>
-                    <td class="e-amount">$ 17,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Mexico's Electoral Tribunal of the Federal Judiciary</p>
-                        <p class="e-project">Open Justice: combines a 10-module MOOC and a hands-on coaching program to educate Mexican public officials on how to use new technologies to improve the judicial system</p>
-                    </td>
-                    <td class="e-amount">$ 262,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Microsoft</p>
-                        <p class="e-project">The Collective Intelligence Conference Sponsorship</p>
-                    </td>
-                    <td class="e-amount">$ 10,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">New York University</p>
-                        <p class="e-project">Supporting research on computational methods for making distributed expertise searchable and matching the supply of expertise in universities to the demand for it in government and in universities. Also supporting the creation of expert systems in support of NYU projects</p>
-                    </td>
-                    <td class="e-amount">$ 1,120,047.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">New York University</p>
-                        <p class="e-project">Institutional support</p>
-                    </td>
-                    <td class="e-amount">$ 100,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">NHS England</p>
-                        <p class="e-project">To support the development of a research and evaluation programme for the open data era in health and social care</p>
-                    </td>
-                    <td class="e-amount">$ 131,880.80</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">NHS England</p>
-                        <p class="e-project">Develop approaches to assessing and overcoming the data science capacity gap</p>
-                    </td>
-                    <td class="e-amount">$ 133,666.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">NYU-AIG Partnership</p>
-                        <p class="e-project">Research proposal solicitation and management</p>
-                    </td>
-                    <td class="e-amount">$ 50,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">NYU-AIG Partnership</p>
-                        <p class="e-project">Develop prototype tool for crowdsourcing in construction/extractives industries</p>
-                    </td>
-                    <td class="e-amount">$ 125,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Omidyar Network</p>
-                        <p class="e-project">Development of OpenData Case Studies and Web Site to House Them</p>
-                    </td>
-                    <td class="e-amount">$ 125,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Omidyar Network</p>
-                        <p class="e-project">Supporting GovLab's data programs</p>
-                    </td>
-                    <td class="e-amount">$ 1,000,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Omidyar Network</p>
-                        <p class="e-project">Powering NYers through Open Data, supporting research on the impact of open data in New York City</p>
-                    </td>
-                    <td class="e-amount">$ 75,690.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Open Data Institute</p>
-                        <p class="e-project">Open Data 500 Research Collaboration</p>
-                    </td>
-                    <td class="e-amount">$ 10,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Organization of American States</p>
-                        <p class="e-project">Supporting Coaching Programs for OAS Fellowship on Open Government and evaluation of the Fellowship program</p>
-                    </td>
-                    <td class="e-amount">$ 31,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">PinkTank</p>
-                        <p class="e-project">Preparation of innovation briefs to inform the Shared Services Worshop Research project</p>
-                    </td>
-                    <td class="e-amount">$ 19,965.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">PinkTank</p>
-                        <p class="e-project">Case studies where AI for CI is used by organizations to investigate customer expectations</p>
-                    </td>
-                    <td class="e-amount">$ 25,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">PWC</p>
-                        <p class="e-project">Open Data 500 Roundtable sponsorship</p>
-                    </td>
-                    <td class="e-amount">$ 2,500.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Rockefeller Foundation</p>
-                        <p class="e-project">Supporting research on societal implications of blockchain ("BlockChange: Blockchain for Social Change")</p>
-                    </td>
-                    <td class="e-amount">$ 150,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Rockefeller Foundation</p>
-                        <p class="e-project">Supporting Bellagio conference on citizen engagement in lawmaking</p>
-                    </td>
-                    <td class="e-amount"> In kind</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Schmidt Sciences</p>
-                        <p class="e-project">Supporting research on open innovation and its impact on policymaking</p>
-                    </td>
-                    <td class="e-amount">$ 100,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Government of South Australia</p>
-                        <p class="e-project">Supporting research on how people learn in the public sector ("Network of Innovators") </p>
-                    </td>
-                    <td class="e-amount">$ 20,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Government of South Korea</p>
-                        <p class="e-project">Open Data 500 Collaboration and membership in the OD 500 Network, Supporting research on the impact of open data on job creation and economic growth in South Korea</p>
-                    </td>
-                    <td class="e-amount">$ 20,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Government of South Korea</p>
-                        <p class="e-project">Open Data 500 Collaboration and membership in the OD 500 Network</p>
-                    </td>
-                    <td class="e-amount">$ 20,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Stanford University Markets for Good</p>
-                        <p class="e-project">Data Labs: Using administrative data for improving program effectiveness in the social sector</p>
-                    </td>
-                    <td class="e-amount">$ 37,357.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Tinker Foundation</p>
-                        <p class="e-project">Research tech-enabled citizen engagement models and design a model for running City Challenges across several Latin American cities simultaneously</p>
-                    </td>
-                    <td class="e-amount">$ 200,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">Treasury Board of Canada Secretariat</p>
-                        <p class="e-project">Supporting creation of Introduction to Open Government course for Canadian Federal Public Servants</p>
-                    </td>
-                    <td class="e-amount">$ 14,600.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">United Nations Foundation</p>
-                        <p class="e-project">Addressing Inequality of Access to Urban Transportation from a Gender Perspective, supporting the creation of a Data Collaborative on Gender and Urban Mobility</p>
-                    </td>
-                    <td class="e-amount">$ 100,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">United Nations OCHA</p>
-                        <p class="e-project">Research on responsible data use</p>
-                    </td>
-                    <td class="e-amount">$ 29,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">UNICEF</p>
-                        <p class="e-project">Supporting the study of uses of private sector for public good</p>
-                    </td>
-                    <td class="e-amount">$ 164,786.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">UNICEF</p>
-                        <p class="e-project">Data Responsibility for Children in Programming Contexts</p>
-                    </td>
-                    <td class="e-amount">$ 175,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">United States Department of Agrictulure</p>
-                        <p class="e-project">Supporting a USDA Open Data Summer Camp</p>
-                    </td>
-                    <td class="e-amount">$ 22,500.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">William and Flora Hewlett Foundation</p>
-                        <p class="e-project">Supporting development of a program to strengthen data collaboratives and increase responsible data sharing</p>
-                    </td>
-                    <td class="e-amount">$ 600,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">World Bank</p>
-                        <p class="e-project">Building a research repository on open government research</p>
-                    </td>
-                    <td class="e-amount">$ 10,000.00</td>
-                </tr>
-                
-                <tr>
-                    <td class="e-funder">
-                        <p class="e-name">World Economic Forum</p>
-                        <p class="e-project">Promoting Public Engagement with NETmundial Solutions Map</p>
-                    </td>
-                    <td class="e-amount">$ 170,000.00</td>
-                </tr>
-                
-            </table>
+            </tbody></table>
         </div>
     </section>
 </div>
-</section>
+
+
+
+<script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
+<script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
+<script src="static/js/funds.js"></script>
+
+
 
     <footer class='b-footer'>
         <div class="e-wrap">
@@ -788,16 +192,7 @@
             </div>
         </div>
     </footer>
-    <!-- <div class="b-build-team">
-        <div class="e-wrap">
-            <div class="e-social-media">
-                <a href="#" class="e-nav-item"><i class="e-social-media-item fa fa-lg fa-twitter"></i></a>
-                <a href="#" class="e-nav-item"><i class="e-social-media-item fa fa-lg fa-facebook"></i></a>
-                <a href="#" class="e-nav-item"><i class="e-social-media-item fa fa-lg fa-medium"></i></a>
-        </div>
-            <p>This website was created by these <a href="#">GovLabbers</a>.</p>
-        </div>
-    </div> -->
+
     <div class="b-copyright">
         <div class="e-wrap">
             <a class="e-cc-badge" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
@@ -806,11 +201,11 @@
     </div>
     <div id="overlay"></div>
     
+    <script src="static/js/scripts.js"></script>
     <script src="static/vendor/slick.min.js"></script>
     <script src="static/vendor/EasePack.min.js"></script>
     <script src="static/vendor/rAF.js"></script>
     <script src="static/vendor/TweenLite.min.js"></script>
-    <script src="static/js/scripts.js"></script>
     
 
 </body>
