@@ -1,4 +1,4 @@
-{% extends "_base_directus.html" %}
+{% extends "_base.html" %}
 
 {% block og %}
 <title>The GovLab | Our Transparency</title>
@@ -7,8 +7,6 @@
 {% endblock %}
 
 {% block content %}
-{% raw %}
-
 <div class="b-our-transparency">
     <section class="b-top-section">
         <header>
@@ -16,33 +14,32 @@
             <h3>GovLab Grants and Contracts since 2013</h3>
         </header>
     </section>
-
-    <section class="b-our-tranparency-table" id='funds'>
+    <section class="b-our-tranparency-table">
         <div class="e-wrap">
             <table>
                 <thead>
-                    <tr><th class="e-name">Funder</th>
+                    <th class="e-name">Funder</th>
                     <th class="e-amount">Amount</th>
-                </tr></thead>
+                </thead>
 
-                <tbody>
-                  <tr v-for="funder in fundData" v-if="funder.status == 'published'">
+                {% for funder in funders %}
+                <tr>
                     <td class="e-funder">
                         <p class="e-name">{{funder.name}}</p>
-                        <p class="e-project">{{funder.description}}</p>
+                        <p class="e-project">{{funder.project}}</p>
                     </td>
-                    <td class="e-amount" v-if="funder.amount == 0 || funder.amount==null">In kind</td>
-                    <td class="e-amount" v-else>{{currency(funder.amount)}}</td>
+                    <td class="e-amount">{% if not funder.nonunit %}${% endif %} {{funder.amount}}</td>
                 </tr>
-            </tbody></table>
+                {% endfor %}
+            </table>
         </div>
     </section>
 </div>
-
-
-
-<script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
-<script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
-<script src="static/js/funds.js"></script>
-{% endraw %}
+</section>
 {% endblock %}
+
+
+
+
+
+
