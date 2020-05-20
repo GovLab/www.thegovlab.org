@@ -94,6 +94,11 @@ console.log(data.data[0]);
       if(this[key+'_toggle'] == false) this[key+'_toggle'] = true;
       else this[key+'_toggle'] = false;
       console.log(this[key+'_toggle']);
+<<<<<<< HEAD
+=======
+            console.log(key);
+     
+>>>>>>> 2d39577146ff48c50816e14ce2538dc5addc5d0a
     },
     teamMore(slug) {
       window.location.href= slug+'.html';
