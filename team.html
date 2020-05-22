@@ -126,7 +126,7 @@
     
 
 <div class="b-team" id="teamlist">
-    <div class="e-team-list">
+    <div class="e-team-list" v-cloak>
         <h1>Team</h1>
         <div class="e-team-member" v-for="teammember in teamData" :id="teammember.slug" v-if="teammember.status =='published'">
             <div class="e-wrap">
