@@ -8,7 +8,7 @@
 {% endblock %}
 {% block content%}
 {% raw %}
-<div class="b-team" id="teamlist">
+<div class="b-team" id="teamlist" v-cloak>
     <div class="e-team-list">
         <h1>Team</h1>
         <div class="e-team-member" v-for="teammember in teamData" :id="teammember.slug" v-if="teammember.status =='published'">
