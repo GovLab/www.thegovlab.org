@@ -1,0 +1,85 @@
+{% extends "_base-sg.html" %}
+
+{% block og %}
+<title>The GovLab | Publications</title>
+    <meta content="The GovLab | Publications" property="og:title"/>
+{% endblock %}
+
+{% block page_id %}publications-page{% endblock %}
+
+{% block content %}
+
+<main role="main">
+  <div class="b-top-section m-purple">
+    <h2>Publications</h2>
+  </div>
+
+      <div id="publications">
+
+      <!-- Sorting Controllers -->
+      <div class="b-controllers">
+        <p class="m-inline">Sort by:</p>
+        <button class="sort b-button m-purple" data-sort="date">Publication Date (Default)</button>
+        <button class="sort b-button m-purple" data-sort="name">Publication Name</button>
+      </div>
+
+      <div class="list">
+
+      {% for pub in publications|sort(attribute='timestamp', reverse = True) %}
+
+      <section class="b-page-section">
+        <div class="row">
+          <div class="columns large-7 large-offset-1">
+            {% if pub.file %}
+              <a href="./static/files/publications/{{ pub.file }}" class="{{ pub.tracking_class }}" target="_blank">
+            {% else %}
+              <a href="{{ pub.redirect }}" target="_blank">
+            {% endif %}
+                <h3 class="name">{{ pub.title }}</h3>
+              </a>
+            <p><em>{{pub.subtitle}}</em></p>
+            <p>By {{pub.author}}</p>
+            <p timestamp="{{ pub.timestamp }}" class="date" data-order="desc">{{ pub.date }}</p>
+          </div>
+          <div class="large-3 large-offset-1 end columns">
+          {% if pub.subtitle %}
+          {% endif %}
+
+          {% if pub.file %}
+          <a class="th {{ pub.tracking_class }}" href="./static/files/publications/{{ pub.file }}" target="_blank">
+          {% else %}
+          <a class="th" href="{{ pub.redirect }}" target="_blank">
+          {% endif %}
+          <img src="./static/files/publications/{{ pub.thumbnail }}">
+          </a>
+
+          </div>
+        </div>
+      </section>
+
+      {% endfor %}
+      </div>
+      </div>
+
+
+</main>
+<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.3.0/list.min.js"></script>
+<script type="text/javascript">
+    // Sortable list through list.js
+    var options = {
+        valueNames: [ 'name', {name: 'date', attr: 'timestamp'} ],
+    };
+    var pubList = new List('publications', options);
+
+  {% for pub in publications|sort(attribute='timestamp', reverse = True) %}
+  {% if pub.file %}
+  $(".{{ pub.tracking_class }}").on('click', function() {
+    ga('send', 'event', 'File', 'download', '{{ pub.title | replace("'", "") }}');
+  });
+  {% endif %}
+  {% endfor %}
+
+</script>
+
+{% endblock %}

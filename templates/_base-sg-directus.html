@@ -1,13 +1,14 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    
-<title>The GovLab | Publications</title>
-    <meta content="The GovLab | Publications" property="og:title"/>
-
+    {% block og %}
+    <title>The Governance Lab</title>
+    <meta property="og:title" content="The Governance Lab" />
+    <meta content="Deepening Our Understanding of How to Govern
+    More Effectively and Legitimately Through Technology" property="og:description">
+    {% endblock %}
     <meta property="og:type" content="website" />
     <meta property="og:image" content="http://www.thegovlab.org/static/img/govlab-og.png" />
     <meta content="The GovLab" property="og:site_name">
@@ -26,7 +27,7 @@
     <link rel="stylesheet" href="static/vendor/slick.css">
     <link rel="stylesheet" href="static/styles/govlab-styleguide.css">
     <link rel="stylesheet" href="static/styles/styles.css">
-    
+    {% block styles %}{% endblock %}
 
 
     <script>
@@ -43,7 +44,7 @@
 
 </head>
 
-<body id="publications-page">
+<body id="{% block page_id %}{% endblock %}">
     <header class="b-top-nav">
         <div class="e-nav-group m-left">
             <div class="e-nav-item js-nav-trigger e-nav-trigger">
@@ -84,64 +85,7 @@
         <a href="./contact.html">Contact</a>
     </nav>
 
-    
-
-<main role="main">
-  <div class="b-top-section m-purple">
-    <h2>Publications</h2>
-  </div>
-
-      <div id="publications" v-cloak>
-
-      <!-- Sorting Controllers -->
-      <div class="b-controllers">
-        <p class="m-inline">Sort by:</p>
-        <button class="sort b-button m-purple" @click="reversePub()">Publication Date (Default)</button>
-        <button class="sort b-button m-purple" @click="orderName()">Publication Name</button>
-      </div>
-
-      <div class="list">
-        <section class="b-page-section" v-for='pub in pubData'>
-        <div class="row">
-          <div class="columns large-7 large-offset-1">
-
-              <a :href="pub.url" class="" target="_blank">
-
-                <h3 class="name">{{pub.title}}</h3>
-              </a>
-            <p v-if="pub.description" v-html="pub.description"></p>
-            <p>{{pub.authors}}</p>
-            <p class="date">{{formatDate(pub.pub_date)}}</p>
-
-          </div>
-          <div class="large-3 large-offset-1 end columns">
-
-
-
-          <a class="th " :href="pub.url" target="_blank">
-
-          <img :src="pub.picture.data.thumbnails[3].url">
-          </a>
-
-          </div>
-        </div>
-      </section>
-      </div>
-      </div>
-
-
-</main>
-
-   
-    <div id="overlay"></div>
-
-    <script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
-    <script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
-    <script src="static/js/publications.js"></script>
-
-<div id="feedly-mini" title="feedly Mini tookit"></div>
-
-
+    {% block content %}{% endblock %}
 
    <footer class='b-footer'>
         <div class="row">
