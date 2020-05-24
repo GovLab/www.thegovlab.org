@@ -41,7 +41,6 @@
                 padding: 15px;
                 font-size: 16px;
                 vertical-align: top;
-
             }
 
             .e-funder { width: 75%; }
@@ -50,6 +49,10 @@
                 width: 25%;
                 font-size: 16px;
             }
+            .e-dates { @include breakpoint($mobile-only) {
+                display: none;
+              
+            }}
 
             td p {
                 margin: 0;
@@ -57,10 +60,19 @@
             }
 
             .e-name {}
+
             .e-project {
                 font-size: 12px;
                 color: $gray-60;
             }
+           #mobile-dates{
+               display:none;
+                @include breakpoint($mobile-only) {
+                display: block;
+              
+            }
+           }
+               
         }
     }
 }

@@ -2703,12 +2703,20 @@ button:focus {
   text-align: right;
   width: 25%;
   font-size: 16px; }
+@media (max-width: 800px) {
+  .b-our-transparency .b-our-tranparency-table table .e-dates {
+    display: none; } }
 .b-our-transparency .b-our-tranparency-table table td p {
   margin: 0;
   line-height: 1.2; }
 .b-our-transparency .b-our-tranparency-table table .e-project {
   font-size: 12px;
   color: rgba(0, 0, 0, 0.6); }
+.b-our-transparency .b-our-tranparency-table table #mobile-dates {
+  display: none; }
+  @media (max-width: 800px) {
+    .b-our-transparency .b-our-tranparency-table table #mobile-dates {
+      display: block; } }
 
 .b-job-board .b-top-section {
   height: 200px;
