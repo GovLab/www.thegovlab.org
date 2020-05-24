@@ -138,16 +138,20 @@
             <table>
                 <thead>
                     <tr><th class="e-name">Funder</th>
+                        <th class="e-dates" style="text-align:center" >Project Dates</th>
                     <th class="e-amount">Amount</th>
                 </tr></thead>
 
                 <tbody>
                   <tr v-for="funder in fundData" v-if="funder.status == 'published'">
                     <td class="e-funder">
-                        <p class="e-name">{{funder.name}}</p>
+                        <p class="e-name">{{funder.name}} &nbsp<span id="mobile-dates">({{funder.project_dates}})</span></p>
+                        <!-- <p class="e-dates">{{funder.description}}</p> -->
                         <p class="e-project">{{funder.description}}</p>
                     </td>
+                    <td style="text-align:center" class="e-amount e-dates">{{funder.project_dates}}</td>
                     <td class="e-amount" v-if="funder.amount == 0 || funder.amount==null">In kind</td>
+                    
                     <td class="e-amount" v-else>{{currency(funder.amount)}}</td>
                 </tr>
             </tbody></table>
