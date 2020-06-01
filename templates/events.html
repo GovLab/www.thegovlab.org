@@ -1,4 +1,4 @@
-{% extends "_base-sg.html" %}
+{% extends "_base-sg-directus.html" %}
 
 {% block og %}
 <title>The GovLab | Events</title>
@@ -7,74 +7,57 @@
 {% endblock %}
 
 {% block page_id %}events{% endblock %}
-
 {% block content %}
+{% raw %}
 <div class="b-top-section m-purple">
         <h2>Events</h2>
 </div>
-
-{% endblock %}
-
-
-<!-- <section class="b-events-landing">
-    <header>
-        <div class="e-list-selector m-upcoming">
-            <h2 class="e-show-upcoming">Upcoming Events</h2>
-            <h2 class="e-show-passed">Past Events</h2>
-        </div>
-    </header>
-</section>
-<section class="b-event-list">
-    {% for event in events %}
-        <div class="e-event-item m-{{event.type|slug}}{% if event.has_passed %} e-event-passed{% else %} e-event-upcoming{% endif %}" style="background-image:url(static/img/events/{{event.guest | slug}}.jpg)">
+<div class="b-events" id="event-page" v-cloak>
+    <div class="e-wrap e-event-list">
+        <!-- <h5>Upcoming Events</h5> -->
+        <div class="e-event-item" v-for="event in eventsData" :id="event.slug" v-if="event.status =='published' && event.from >= currentDate">
             <div class="e-wrap">
-                <div>
-                    <div class="e-half">
-                        <h4 class="e-event-type">{{event.type}}</h4>
+                <div class="e-event">
+                     <h5>{{event.title}}</h5>
+                     <div class="e-dates">
+                     <i v-if='event.from == event.till' class="material-icons">insert_invitation</i><p v-if='event.from == event.till'>&nbsp{{dateShow(event.from)}}</p>
+                     <i v-if='event.from != event.till' class="material-icons">insert_invitation</i><p v-if='event.from != event.till'>&nbsp{{dateShow(event.from)}} - {{dateShow(event.till)}}</p>
                     </div>
-                    <div class="e-half">
-                        {% if event.has_passed %}
-                            <h4 class="e-event-heading">{{event.date.strftime("%B %Y")}}</h4>
-
-                        {% else %}
-                            <h4 class="e-event-heading">{{event.date.strftime("%B %d")}}</h4>
-                        {% endif %}
-                    </div>
+                    <div v-if="!event.extended" v-html="event.desc_short"></div>
+                    <div v-if="event.extended && event.description" v-html="event.description"></div>
+                    <a v-if="!event.extended && event.description" @click="showDesc(event)" class="b-button m-naked" target="_blank"> Read More <i class="material-icons">keyboard_arrow_down</i></a>
+                    <a v-if="event.extended" @click="showExc(event)" class="b-button m-naked" target="_blank"> Read Less<i class="material-icons">keyboard_arrow_up</i></a>
+                    <a v-if="event.link" @click="eventMore(event.link)" class="b-button m-naked" target="_blank"> RSVP Now!</a>
+                </br>
                 </div>
-                <div>
-                    <div class="e-half">
-                        <h2>{{event.title}}</h2>
-                        <h3>{{event.guest}}</h3>
+            </div>
+        </div>
+        <h5>Past Events</h5>
+        <div class="e-team-member" v-for="event in eventsData" :id="event.slug" v-if="event.status =='published' && event.from <= currentDate">
+            <div class="e-wrap">
+                <div class="e-event">
+                </br>
+                     <h5>{{event.title}}</h5>
+                     <div class="e-dates">
+                     <i v-if='event.from == event.till' class="material-icons">insert_invitation</i><p v-if='event.from == event.till'>&nbsp{{dateShow(event.from)}}</p>
+                     <i v-if='event.from != event.till' class="material-icons">insert_invitation</i><p v-if='event.from != event.till'>&nbsp{{dateShow(event.from)}} - {{dateShow(event.till)}}</p>
                     </div>
-                    <div class="e-half">
-                        <p>{{event.short_description}}</p>
-                    </div>
-                </div>
-                <div class="e-action">
-                    <div class="e-half"><a class="b-button m-naked" href="{{event.url}}">{% if event.type == 'IdeasLunch' %}RSVP{% else %}Learn More{%endif%}<i class="material-icons">arrow_forward</i></a></div>
-                    <div class="e-half">
-                        <span class="b-button m-naked js-event-trigger">More Info<i class="material-icons">expand_more</i></span>
-                    </div>
+                    <div v-if="!event.extended" v-html="event.desc_short"></div>
+                    <div v-if="event.extended && event.description" v-html="event.description"></div>
+                    <a v-if="!event.extended && event.description" @click="showDesc(event)" class="b-button m-naked" target="_blank"> Read More <i class="material-icons">keyboard_arrow_down</i></a>
+                    <a v-if="event.extended" @click="showExc(event)" class="b-button m-naked" target="_blank"> Read Less<i class="material-icons">keyboard_arrow_up</i></a>
+                    <a v-if="event.link" @click="eventMore(event.link)" class="b-button m-naked" target="_blank"> RSVP Now!</a>
+                </br>
                 </div>
             </div>
         </div>
 
-        <div class="e-long-description">
-            <div class="e-wrap">
-                <i class="material-icons js-close e-close">close</i>
-                {{event.long_description}}
-                <p><strong>Lunch will be served. Please RSVP so we have accurate numbers for food.</strong></p>
-            </div>
         </div>
-    {% endfor %}
-</section>
-
 </div>
-</section> -->
 
+<script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
+<script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
+<script src="static/js/events.js"></script>
 
-
-
-
-
-
+{% endraw %}
+{% endblock %}

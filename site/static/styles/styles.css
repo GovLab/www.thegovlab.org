@@ -1938,6 +1938,45 @@ button:focus {
   background-color: #523080; }
 #events .b-top-section h2 {
   margin-top: 20px; }
+#events .e-wrap {
+  max-width: 1025px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-flex;
+  display: flex;
+  position: relative;
+  flex-flow: column;
+  z-index: 1; }
+  @media (max-width: 800px) {
+    #events .e-wrap {
+      -webkit-flex-flow: column;
+      flex-flow: column; } }
+  #events .e-wrap .e-event {
+    border-bottom: 1px solid #523080; }
+    #events .e-wrap .e-event h5 {
+      margin-top: 0px;
+      color: #333; }
+    #events .e-wrap .e-event .e-dates {
+      display: flex;
+      flex-flow: row; }
+      #events .e-wrap .e-event .e-dates p {
+        color: #333;
+        font-weight: 600;
+        font-size: 16px; }
+      #events .e-wrap .e-event .e-dates .material-icons {
+        font-size: 20px; }
+    #events .e-wrap .e-event .b-button {
+      color: #523080; }
+    #events .e-wrap .e-event .b-button.m-less {
+      display: none; }
+    #events .e-wrap .e-event .b-button.m-hide {
+      display: none;
+      margin-bottom: 10px; }
+#events .e-event-list h5 {
+  color: #523080;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 40px; }
 
 #team .b-top-nav {
   background-color: #523080; }
