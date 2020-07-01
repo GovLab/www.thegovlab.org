@@ -114,7 +114,7 @@
         <h5>Past Events</h5>
         <div class="e-team-member" v-for="event in eventsData" :id="event.slug" v-if="event.status =='published' && event.from <= currentDate">
             <div class="e-wrap">
-                <div class="e-event">
+                <div class="e-event"  style="padding-bottom:20px">
                 </br>
                      <h5>{{event.title}}</h5>
                      <div class="e-dates">
@@ -123,9 +123,9 @@
                     </div>
                     <div v-if="!event.extended" v-html="event.desc_short"></div>
                     <div v-if="event.extended && event.description" v-html="event.description"></div>
-                    <a v-if="!event.extended && event.description" @click="showDesc(event)" class="b-button m-naked" target="_blank"> Read More <i class="material-icons">keyboard_arrow_down</i></a>
+                    <a v-if="!event.extended && event.description && !event.link" @click="showDesc(event)" class="b-button m-naked" target="_blank"> Read More <i class="material-icons">keyboard_arrow_down</i></a>
                     <a v-if="event.extended" @click="showExc(event)" class="b-button m-naked" target="_blank"> Read Less<i class="material-icons">keyboard_arrow_up</i></a>
-                    <a v-if="event.link" @click="eventMore(event.link)" class="b-button m-naked" target="_blank"> RSVP Now!</a>
+                    <a v-if="event.link" @click="eventMore(event.link)" class="b-button m-naked" target="_blank"> Read More</a>
                 </br>
                 </div>
             </div>
