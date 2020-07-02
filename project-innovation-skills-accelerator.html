@@ -80,6 +80,7 @@
       </script>
 
       <script src="https://momentjs.com/downloads/moment.js"></script>
+
 <script src="https://unpkg.com/@directus/sdk-js@5.3.4/dist/directus-sdk.umd.min.js"></script>
 </head>
 <body id="" data-feedly-mini="yes">
@@ -202,7 +203,7 @@
         </div>
     </section>
     <section class="b-single-description m-slider" v-if="projectData.description_full">
-        <div class="e-wrap">
+        <div class="e-wrap" style="padding-bottom:40px;">
             <h2>Description</h2>
             <div class="e-description">
                 <p v-html="projectData.description_full"></p>
@@ -211,11 +212,11 @@
             </div>
         </div>
     
-         <div class="b-project-slider slick">
+         <!-- <div class="b-project-slider slick">
             <div v-for="(pic, index) in items">
                 <span><img class="e-project-image" :src="pic.directus_files_id.data.full_url" alt=""></span>
             </div>
-    </div>
+    </div> -->
     
     </section>
     
@@ -229,7 +230,7 @@
     
     
     <section class="b-single-related-content" v-if="projectData.more_about">
-        <h2>More About Network of Innovators</h2>
+        <h2>More Information</h2>
         <div class="e-wrap">
     
             <div class="e-article" v-for="(link, name) in projectData.more_about"><a :href="link" target="_blank">{{name}}</a></div>
@@ -299,7 +300,7 @@
     <div id="overlay"></div>
     
     <script src="static/js/scripts.js"></script>
-    <script src="static/vendor/slick.min.js"></script>
+    <!-- <script src="static/vendor/slick.min.js"></script> -->
     <script src="static/vendor/EasePack.min.js"></script>
     <script src="static/vendor/rAF.js"></script>
     <script src="static/vendor/TweenLite.min.js"></script>
