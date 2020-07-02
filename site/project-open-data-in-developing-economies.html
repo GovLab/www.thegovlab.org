@@ -1,16 +1,14 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-    <title>The GovLab | Open Data in Developing Economies</title>
-    <meta content="The GovLab | Open Data in Developing Economies" property="og:title"/>
-    <meta content="What is the social and economic value of open data for developing economies?" property="og:description">
-
+    <title>The Governance Lab</title>
+    <meta property="og:title" content="The Governance Lab" />
+    <meta content="Deepening Our Understanding of How to Govern
+    More Effectively and Legitimately Through Technology" property="og:description">
+    
     <meta property="og:type" content="website" />
     <meta property="og:image" content="http://www.thegovlab.org/static/img/govlab-og.png" />
     <meta content="The GovLab" property="og:site_name">
@@ -27,6 +25,7 @@
     <link rel="stylesheet" href="static/styles/styles.css">
     
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -79,8 +78,10 @@
     };
       </script>
 
+      <script src="https://momentjs.com/downloads/moment.js"></script>
+<script src="https://unpkg.com/@directus/sdk-js@5.3.4/dist/directus-sdk.umd.min.js"></script>
 </head>
-<body id="">
+<body id="" data-feedly-mini="yes">
     
     <!-- Class for google material icons ".material-icons" -->
     <header class="b-top-nav ">
@@ -122,169 +123,139 @@
         <a href="./job-board.html">Job Board</a>
         <a href="./contact.html">Contact</a>
     </nav>
+    
 
     
 
-<section class="b-single-landing">
-    <header class="b-top-section">
-        <div class="b-breadcrumbs">
-            <a href="projects.html">Projects</a><i class="material-icons">keyboard_arrow_right</i><span>Open Data in Developing Economies</span>
-        </div>
-    </header>
-    <div>
-        <h2 class="e-project-name">Open Data in Developing Economies</h2>
-        <h3 class="e-question">What is the social and economic value of open data for developing economies?</h3>
-    </div>
-    <div class="e-wrap">
-        <div class="e-half">
-            <div class="e-content">
-                
-                <div class="e-no-link-spacer"></div>
-                
-                <ul class="e-tags">
-                    <h5>Governance Area</h5>
-                    <li>
-                        <span class="e-tag">National and Global Governance</span>
-                        </li>
-                    <h5>Institution Type</h5>
-                    <li>
-                        <span class="e-tag">Government</span></li>
-                    <h5>Innovative Capability</h5>
-                    <li>
-                        <span class="e-tag">Open Data</span></li>
-                    <h5>Product Category</h5>
-                    <li>
-                        <span class="e-tag">Case Studies</span></li>
-                </ul>
-            </div>
-        </div>
-        <div class="e-half">
-            <div class="e-content e-background">
-                <h4>Background</h4>
-                <p>Recent years have witnessed considerable speculation about the potential of open data to bring about wide-scale transformation. The bulk of existing evidence about the impact of open data, however, focuses on high-income countries. Much less is known about open data’s role and value in low- and middle-income countries, and more generally about its possible contributions to economic and social development. The field lacks a coherent Theory of Change for how and in what contexts open data supports or hampers development.</p>
+<div id='projectpage' v-cloak>
 
-            </div>
-        </div>
-        <div class="e-half">
-            <div class="e-content">
-                <div class="e-location">
-                    <h4>Location</h4>
 
-                    
-                        
-                        <div class="e-place">Global</div>
-                        
-                    
+    <section class="b-single-landing">
+        <header class="b-top-section">
+            <div class="b-breadcrumbs">
+                <a href="http://www.thegovlab.org/projects.html">Projects</a><i class="material-icons">keyboard_arrow_right</i><span>{{projectData.name}}</span>
+            </div>
+        </header>
+        <div>
+            <h2 class="e-project-name">{{projectData.name}}</h2>
+            <h3 class="e-question">{{projectData.description}}</h3>
+        </div>
+        <div class="e-wrap">
+            <div class="e-half">
+                <div class="e-content">
+    
+                    <a :href="projectData.project_link" target="_blank" class="e-project-link">Project Website<i class="material-icons">link</i></a>
+    
+                    <ul class="e-tags">
+                        <h5>Governance Area</h5>
+                        <li v-if="projectData.governance_area">
+                            <span class="e-tag" v-for="etag in projectData.governance_area">{{etag}}</span><br>
+                            </li>
+                        <h5>Institution Type</h5>
+                        <li>
+                          <li v-if="projectData.institution_type">
+                              <span class="e-tag" v-for="etag in projectData.institution_type">{{etag}}</span><br>
+                              </li>
+                        <h5>Innovative Capability</h5>
+                        <li v-if="projectData.innovative_capability">
+                            <span class="e-tag" v-for="etag in projectData.innovative_capability">{{etag}}</span><br>
+                            </li>
+                        <h5>Product Category</h5>
+                        <li v-if="projectData.product_category">
+                            <span class="e-tag" v-for="etag in projectData.product_category">{{etag}}</span><br>
+                          </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-        <div class="e-half">
-            <div class="e-content">
-                <div class="e-partners">
-                    <h4>Partners</h4>
-
-                    
-                        
-                        <div class="e-partner">Web Foundation</div>
-                        
-                        <div class="e-partner">Mobile Solutions, Technical Assistance and Research (mSTAR)</div>
-                        
-                        <div class="e-partner">Program funded by the Global Development Lab at the United States Agency for International Development (USAID)</div>
-                        
-                    
+            <div class="e-half">
+                <div class="e-content e-background">
+                    <h4>Background</h4>
+                    <p v-html="projectData.background"></p>
+    
                 </div>
             </div>
-        </div>
-        <div class="e-progress m-complete"><span></span><span></span><span></span><span></span></div>
-        <footer>
-            
-            <div class="e-social-media">
-                <h4>Share this Project</h4>
-                <a href="#" class="e-nav-item"><i class="e-social-media-item fa fa-twitter"></i></a>
-                <a href="#" class="e-nav-item"><i class="e-social-media-item fa fa-facebook"></i></a>
-                <a href="#" class="e-nav-item"><i class="e-social-media-item fa fa-google-plus"></i></a>
-                <a href="#" class="e-nav-item"><i class="e-social-media-item fa fa-github"></i></a>
+            <div class="e-half">
+                <div class="e-content">
+                    <div class="e-location">
+                        <h4>Location</h4>
+                            <div class="e-place" v-if="projectData.location" v-for="eplace in projectData.location" >{{eplace}}</div>
+                    </div>
+                </div>
             </div>
-            
-        </footer>
-    </div>
-</section>
-<section class="b-single-description ">
-    <div class="e-wrap">
-        <h2>Description</h2>
-        <div class="e-description">
-            <p>This project seeks to build an evidence base identifying: a) the conditions under which open data is most (and least) effective in the development process; b) strategies to maximize the positive contributions of open data to development; and c) means for limiting open data’s harms on developing countries.</p> <p>Toward that end, we are landscaping the current field of research investigating the value of open data in low and middle income contexts and developing a collection of  in-depth, illustrative and detailed case studies to better understand how developing countries are responding to public demand to open their data, who is making use of that data and for what, and what impact it is having in several key domains.</p> <h4>Advisory Board Members:</h4> <ul>
-  <li>Izabela Corrêa, Former Coordinator for the Promotion of Ethics, Transparency, and Integrity, Directorate for Corruption Prevention, Brazil</li>
-  <li>Elena Ignatova, BlueSquare</li>
-  <li>André Laperrière, Executive Director, Global Open Data Initiative for Agriculture and Nutrition (GODAN)</li>
-  <li>Maurice McNaughton, Director of the Centre of Excellence for IT Enabled Innovation, Mona School of Business and Management, University of the West Indies, Jamaica</li>
-  <li>Jean Philbert Nsengimana, Minister of Youth and Information Communication Technology, Rwanda</li>
-  <li>David Selassie Opoku, Open Data for Development (OD4D) Africa Lead, Open Knowledge International</li>
-  <li>Fernando Perini, International Development Research Center, Canada</li>
-  <li>Nii Narku Quaynor, Chairman, Network Computer Systems, Ghana</li>
-  <li>Nicole Stremlau, Programme in Comparative Media Law and Policy, University of Oxford, UK</li>
-</ul>
-
-            
+            <div class="e-half">
+                <div class="e-content">
+                    <div class="e-partners">
+                        <h4>Partners</h4>
+    
+                        <div class="e-partner" v-if="projectData.partners" v-for="epartner in projectData.partners" >{{epartner}}</div>
+    
+    
+    
+                    </div>
+                </div>
+            </div>
+            <div class="e-progress" :class="progess"><span></span><span></span><span></span><span></span></div>
+            <footer>
+    
+            </footer>
         </div>
+    </section>
+    <section class="b-single-description m-slider" v-if="projectData.description_full">
+        <div class="e-wrap">
+            <h2>Description</h2>
+            <div class="e-description">
+                <p v-html="projectData.description_full"></p>
+    
+    
+            </div>
+        </div>
+    
+         <div class="b-project-slider slick">
+            <div v-for="(pic, index) in items">
+                <span><img class="e-project-image" :src="pic.directus_files_id.data.full_url" alt=""></span>
+            </div>
     </div>
     
-</section>
-
-
-
-
-
-<section class="b-project-team">
-    <h2>Team</h2>
-    <div class="e-container">
-        
-            <a class="e-person" href="./team.html#stefaan-verhulst">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/stefaan-verhulst.jpg"></div>
-        <div class="e-team-info">
-            <h3 class="e-team-name">Stefaan Verhulst</h3>
+    </section>
+    
+    <section class="b-single-results" v-if="projectData.results">
+        <div class="e-wrap">
+            <h2 class="e-title">Results &amp; Impact</h2>
+            <p v-html="projectData.results"></p>
         </div>
-    </a>
-        
-            <a class="e-person" href="./team.html#andrew-young">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/andrew-young.jpg"></div>
-        <div class="e-team-info">
-            <h3 class="e-team-name">Andrew Young</h3>
+    </section>
+    
+    
+    
+    <section class="b-single-related-content" v-if="projectData.more_about">
+        <h2>More About Network of Innovators</h2>
+        <div class="e-wrap">
+    
+            <div class="e-article" v-for="(link, name) in projectData.more_about"><a :href="link" target="_blank">{{name}}</a></div>
+    
         </div>
-    </a>
-        
-            <a class="e-person" href="./team.html#anirudh-dinesh">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/anirudh-dinesh.jpg"></div>
-        <div class="e-team-info">
-            <h3 class="e-team-name">Anirudh Dinesh</h3>
+    </section>
+    
+    
+    
+    <section class="b-project-team" v-if="projectData.project_team">
+        <h2>Team</h2>
+        <div class="e-container">
+    
+                <a v-for = "member in projectData.project_team" class="e-person" :href="'http://www.thegovlab.org/team.html#' + member.team_id.slug">
+            <div class="e-person-pic" :style="{ backgroundImage: 'url(' + member.team_id.picture.data.thumbnails[3].url+ ')' }"></div>
+            <div class="e-team-info">
+                <h3 class="e-team-name">{{member.team_id.name}}</h3>
+            </div>
+        </a>
         </div>
-    </a>
-        
-            <a class="e-person" href="./team.html#prianka-srinivasan">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/prianka-srinivasan.jpg"></div>
-        <div class="e-team-info">
-            <h3 class="e-team-name">Prianka Srinivasan</h3>
-        </div>
-    </a>
-        
-            <a class="e-person" href="./team.html#robert-montano">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/robert-montano.jpg"></div>
-        <div class="e-team-info">
-            <h3 class="e-team-name">Robert Montano</h3>
-        </div>
-    </a>
-        
-            <a class="e-person" href="./team.html#saroj-bista">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/saroj-bista.jpg"></div>
-        <div class="e-team-info">
-            <h3 class="e-team-name">Saroj Bista</h3>
-        </div>
-    </a>
-        
+    </section>
     </div>
-</section>
-
-
+    <script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
+    <script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
+    <script src="static/js/project_specific.js"></script>
+    
+    
 
 
 
@@ -317,16 +288,7 @@
             </div>
         </div>
     </footer>
-    <!-- <div class="b-build-team">
-        <div class="e-wrap">
-            <div class="e-social-media">
-                <a href="#" class="e-nav-item"><i class="e-social-media-item fa fa-lg fa-twitter"></i></a>
-                <a href="#" class="e-nav-item"><i class="e-social-media-item fa fa-lg fa-facebook"></i></a>
-                <a href="#" class="e-nav-item"><i class="e-social-media-item fa fa-lg fa-medium"></i></a>
-        </div>
-            <p>This website was created by these <a href="#">GovLabbers</a>.</p>
-        </div>
-    </div> -->
+
     <div class="b-copyright">
         <div class="e-wrap">
             <a class="e-cc-badge" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
@@ -335,11 +297,11 @@
     </div>
     <div id="overlay"></div>
     
+    <script src="static/js/scripts.js"></script>
     <script src="static/vendor/slick.min.js"></script>
     <script src="static/vendor/EasePack.min.js"></script>
     <script src="static/vendor/rAF.js"></script>
     <script src="static/vendor/TweenLite.min.js"></script>
-    <script src="static/js/scripts.js"></script>
     
 
 </body>

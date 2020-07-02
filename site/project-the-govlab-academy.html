@@ -1,16 +1,14 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-    <title>The GovLab | The GovLab Academy</title>
-    <meta content="The GovLab | The GovLab Academy" property="og:title"/>
-    <meta content="How to empower civic & policy entrepreneurs to develop impactful real-word projects?" property="og:description">
-
+    <title>The Governance Lab</title>
+    <meta property="og:title" content="The Governance Lab" />
+    <meta content="Deepening Our Understanding of How to Govern
+    More Effectively and Legitimately Through Technology" property="og:description">
+    
     <meta property="og:type" content="website" />
     <meta property="og:image" content="http://www.thegovlab.org/static/img/govlab-og.png" />
     <meta content="The GovLab" property="og:site_name">
@@ -27,6 +25,7 @@
     <link rel="stylesheet" href="static/styles/styles.css">
     
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -79,8 +78,10 @@
     };
       </script>
 
+      <script src="https://momentjs.com/downloads/moment.js"></script>
+<script src="https://unpkg.com/@directus/sdk-js@5.3.4/dist/directus-sdk.umd.min.js"></script>
 </head>
-<body id="">
+<body id="" data-feedly-mini="yes">
     
     <!-- Class for google material icons ".material-icons" -->
     <header class="b-top-nav ">
@@ -122,244 +123,139 @@
         <a href="./job-board.html">Job Board</a>
         <a href="./contact.html">Contact</a>
     </nav>
+    
 
     
 
-<section class="b-single-landing">
-    <header class="b-top-section">
-        <div class="b-breadcrumbs">
-            <a href="projects.html">Projects</a><i class="material-icons">keyboard_arrow_right</i><span>The GovLab Academy</span>
-        </div>
-    </header>
-    <div>
-        <h2 class="e-project-name">The GovLab Academy</h2>
-        <h3 class="e-question">How to empower civic & policy entrepreneurs to develop impactful real-word projects?</h3>
-    </div>
-    <div class="e-wrap">
-        <div class="e-half">
-            <div class="e-content">
-                
-                <a href="http://govlabacademy.org" target="_blank" class="e-project-link">Project Website<i class="material-icons">link</i></a>
-                
-                <ul class="e-tags">
-                    <h5>Governance Area</h5>
-                    <li>
-                        <span class="e-tag">National Governance</span>
-                        
-                        <span class="e-tag">Local Governance</span>
-                        </li>
-                    <h5>Institution Type</h5>
-                    <li>
-                        <span class="e-tag">Nonprofit</span>
-                        <span class="e-tag">Academic</span>
-                        <span class="e-tag">Corporate/Business</span>
-                        <span class="e-tag">Public Sector</span></li>
-                    <h5>Innovative Capability</h5>
-                    <li>
-                        <span class="e-tag">Open Innovation</span>
-                        <span class="e-tag">Design Thinking</span>
-                        <span class="e-tag">Agile Research</span>
-                        <span class="e-tag">Rapid Prototyping</span></li>
-                    <h5>Product Category</h5>
-                    <li>
-                        <span class="e-tag">training, coaching & mentorship</span></li>
-                </ul>
-            </div>
-        </div>
-        <div class="e-half">
-            <div class="e-content e-background">
-                <h4>Background</h4>
-                <p>Although many schools and programs teach the skills relevant to business innovation, aspiring public and social sector innovators have very few places to turn to receive the mentoring and support needed to take a technology-driven governance innovation project across a wide range of social issues from idea to implementation. Our objective has been to focus sharply on delivering learning experiences and support that make for successful governance innovation projects.</p>
+<div id='projectpage' v-cloak>
 
-            </div>
-        </div>
-        <div class="e-half">
-            <div class="e-content">
-                <div class="e-location">
-                    <h4>Location</h4>
 
-                    
-                        
-                        <div class="e-place">Global</div>
-                        
-                    
+    <section class="b-single-landing">
+        <header class="b-top-section">
+            <div class="b-breadcrumbs">
+                <a href="http://www.thegovlab.org/projects.html">Projects</a><i class="material-icons">keyboard_arrow_right</i><span>{{projectData.name}}</span>
+            </div>
+        </header>
+        <div>
+            <h2 class="e-project-name">{{projectData.name}}</h2>
+            <h3 class="e-question">{{projectData.description}}</h3>
+        </div>
+        <div class="e-wrap">
+            <div class="e-half">
+                <div class="e-content">
+    
+                    <a :href="projectData.project_link" target="_blank" class="e-project-link">Project Website<i class="material-icons">link</i></a>
+    
+                    <ul class="e-tags">
+                        <h5>Governance Area</h5>
+                        <li v-if="projectData.governance_area">
+                            <span class="e-tag" v-for="etag in projectData.governance_area">{{etag}}</span><br>
+                            </li>
+                        <h5>Institution Type</h5>
+                        <li>
+                          <li v-if="projectData.institution_type">
+                              <span class="e-tag" v-for="etag in projectData.institution_type">{{etag}}</span><br>
+                              </li>
+                        <h5>Innovative Capability</h5>
+                        <li v-if="projectData.innovative_capability">
+                            <span class="e-tag" v-for="etag in projectData.innovative_capability">{{etag}}</span><br>
+                            </li>
+                        <h5>Product Category</h5>
+                        <li v-if="projectData.product_category">
+                            <span class="e-tag" v-for="etag in projectData.product_category">{{etag}}</span><br>
+                          </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-        <div class="e-half">
-            <div class="e-content">
-                <div class="e-partners">
-                    <h4>Partners</h4>
-
-                    
-                        
-                        <div class="e-partner">John S. and James L. Knight Foundation</div>
-                        
-                    
+            <div class="e-half">
+                <div class="e-content e-background">
+                    <h4>Background</h4>
+                    <p v-html="projectData.background"></p>
+    
                 </div>
             </div>
+            <div class="e-half">
+                <div class="e-content">
+                    <div class="e-location">
+                        <h4>Location</h4>
+                            <div class="e-place" v-if="projectData.location" v-for="eplace in projectData.location" >{{eplace}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="e-half">
+                <div class="e-content">
+                    <div class="e-partners">
+                        <h4>Partners</h4>
+    
+                        <div class="e-partner" v-if="projectData.partners" v-for="epartner in projectData.partners" >{{epartner}}</div>
+    
+    
+    
+                    </div>
+                </div>
+            </div>
+            <div class="e-progress" :class="progess"><span></span><span></span><span></span><span></span></div>
+            <footer>
+    
+            </footer>
         </div>
-        <div class="e-progress m-test"><span></span><span></span><span></span><span></span></div>
-        <footer>
-            
-        </footer>
-    </div>
-</section>
-<section class="b-single-description m-slider">
-    <div class="e-wrap">
-        <h2>Description</h2>
-        <div class="e-description">
-            <p>Through coaching programs, workshops, courses and project clinics, and master classes, The GovLab Academy offers teams and individuals who are passionate about solving a public problem access to high-quality, curated content aimed at busy practitioners, mentoring designed to help take public interest projects from idea to implementation, connections to subject-matter experts, and tools for peer-to-peer learning and skill sharing.</p>
-
+    </section>
+    <section class="b-single-description m-slider" v-if="projectData.description_full">
+        <div class="e-wrap">
+            <h2>Description</h2>
+            <div class="e-description">
+                <p v-html="projectData.description_full"></p>
+    
+    
+            </div>
         </div>
+    
+         <div class="b-project-slider slick">
+            <div v-for="(pic, index) in items">
+                <span><img class="e-project-image" :src="pic.directus_files_id.data.full_url" alt=""></span>
+            </div>
     </div>
     
-    <div class="b-project-slider slick">
-            
-                <span><img class="e-project-image" src="./static/img/projects/academy-1.jpg" alt=""></span>
-            
-                <span><img class="e-project-image" src="./static/img/projects/academy-2.jpg" alt=""></span>
-            
-                <span><img class="e-project-image" src="./static/img/projects/academy-3.jpg" alt=""></span>
-            
-                <span><img class="e-project-image" src="./static/img/projects/academy-4.jpg" alt=""></span>
-            
-                <span><img class="e-project-image" src="./static/img/projects/academy-5.jpg" alt=""></span>
-            
-    </div>
+    </section>
     
-</section>
-
-<section class="b-single-results">
-    <div class="e-wrap">
-        <h2 class="e-title">Results &amp; Impact</h2>
-        <p>In a series of Masters-level courses and online (and offline) workshops and coaching programs funded by the John S. and James L. Knight Foundation, The GovLab and its network of 25 world-class coaches and over 100 mentors helped over 1000 participants in more than a dozen US cities and thirty countries to take a public interest technology project from idea to implementation. In the process, we’ve learned a lot about the need for new ways of training the next generation of leaders and problem solvers. <p>Our participants come from more than 30 different countries, and we have recently expanded to launch globally-accessible massive open online courses (MOOCs) such as “Solving Public Problems with Data” and “Open Justice”.</p> <p>Our aim has been to aid public entrepreneurs — passionate and innovative people who wish to take advantage of new technology to do good in the world. That’s why we measure success, not by the number of participants in a class, but by the projects participants create and the impact those projects have on communities.</p>
-
-        <!-- <div class="e-half">
-
-        </div> -->
-        <!-- <div class="e-half">
-            <img src="static/img/results-1.png" alt="">
+    <section class="b-single-results" v-if="projectData.results">
+        <div class="e-wrap">
+            <h2 class="e-title">Results &amp; Impact</h2>
+            <p v-html="projectData.results"></p>
         </div>
-        <div class="e-half">
-            <img src="static/img/results-2.png" alt="">
+    </section>
+    
+    
+    
+    <section class="b-single-related-content" v-if="projectData.more_about">
+        <h2>More About Network of Innovators</h2>
+        <div class="e-wrap">
+    
+            <div class="e-article" v-for="(link, name) in projectData.more_about"><a :href="link" target="_blank">{{name}}</a></div>
+    
         </div>
-        <div class="e-half">
-            <img src="static/img/results-3.png" alt="">
-        </div> -->
+    </section>
+    
+    
+    
+    <section class="b-project-team" v-if="projectData.project_team">
+        <h2>Team</h2>
+        <div class="e-container">
+    
+                <a v-for = "member in projectData.project_team" class="e-person" :href="'http://www.thegovlab.org/team.html#' + member.team_id.slug">
+            <div class="e-person-pic" :style="{ backgroundImage: 'url(' + member.team_id.picture.data.thumbnails[3].url+ ')' }"></div>
+            <div class="e-team-info">
+                <h3 class="e-team-name">{{member.team_id.name}}</h3>
+            </div>
+        </a>
+        </div>
+    </section>
     </div>
-</section>
-
-
-
-<section class="b-single-related-content">
-    <h2>More About The GovLab Academy</h2>
-    <div class="e-wrap">
-        
-        <div class="e-article"><a href="http://thegovlab.org/usda-and-govlab-academy-teamed-up-to-provide-a-first-of-its-kind-camp-for-dc-area-teens-focused-specifically-on-open-data-and-agriculture/" target="_blank">USDA and GovLab Academy teamed up to provide a “First of Its Kind” Camp for DC-Area Teens Focused Specifically on Open Data and Agriculture</a></div>
-        
-        <div class="e-article"><a href="http://thegovlab.org/the-govlab-academy-a-students-perspective/" target="_blank">Behind the Scenes: The #RedHeartHacker Discusses the GovLab Academy</a></div>
-        
-        <div class="e-article"><a href="http://thegovlab.org/govlab-academy-coaching-programs-updates/" target="_blank">GovLab Academy Coaching Programs Updates!</a></div>
-        
-        <div class="e-article"><a href="http://thegovlab.org/intellibins-llc-announces-launch-of-private-beta-mobile-app/" target="_blank">Intellibins LLC Announces Launch of Private Beta Mobile App</a></div>
-        
-        <div class="e-article"><a href="http://thegovlab.org/people-driven-governance-spains-podemos-party/" target="_blank">People-Driven Governance: Spain’s Podemos Party</a></div>
-        
-        <div class="e-article"><a href="http://thegovlab.org/dr-samir-k-brahmachari-on-the-open-source-drug-discovery-project/" target="_blank">Dr. Samir K. Brahmachari on the Open Source Drug Discovery project</a></div>
-        
-        <div class="e-article"><a href="http://thegovlab.org/from-the-classroom-to-the-community-a-students-journey-post-solving-public-problems-using-technology/" target="_blank">From the Classroom to the Community: A Student’s Journey post-Solving Public Problems Using Technology</a></div>
-        
-        <div class="e-article"><a href="http://thegovlab.org/solving-public-problems-with-technology/" target="_blank">Solving Public Problems With Technology</a></div>
-        
-        <div class="e-article"><a href="static/files/academy final report.pdf" target="_blank">Training the Next Generation of Public Problem Solvers (Report)</a></div>
-        
-        <div class="e-article"><a href="static/files/GovLab Academy Final Deck.pdf" target="_blank">Training the Next Generation of Public Problem Solvers (Slide Deck)</a></div>
-        
-        <div class="e-article"><a href="static/files/academy-one-pager.pdf" target="_blank">Academy One Pager</a></div>
-        
-        <div class="e-article"><a href="https://medium.com/@TheGovLab/training-the-next-generation-of-public-leaders-and-problem-solvers-54df25bb72af" target="_blank">Ten Lessons learned</a></div>
-        
-        <!-- <article class="e-half e-blog">
-            <h3 class="e-article-type">Blog</h3>
-            <h2 class="e-title">The Role of the Network of Innovators</h2>
-            <div class="e-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur id excepturi rerum sunt eligendi possimus accusamus perspiciatis velit quo, nostrum eveniet inventore tempora autem libero, debitis quis nobis, impedit deserunt.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eligendi animi quibusdam praesentium magnam fugiat sit nostrum nihil quae temporibus suscipit, aliquid tempore ducimus a, minima, odit veniam! A, velit.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eligendi animi quibusdam praesentium magnam fugiat sit nostrum nihil quae temporibus suscipit, aliquid tempore ducimus a, minima, odit veniam! A, velit.</p>
-            </div>
-            <div class="e-action">
-                <a class="b-button m-naked" href="">Read More<i class="material-icons">arrow_forward</i></a>
-            </div>
-        </article>
-
-        <article class="e-half e-article">
-            <h3 class="e-article-type">Article</h3>
-            <h2 class="e-title">Why a Network of Innovators</h2>
-            <div class="e-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam ipsum quos suscipit at, corporis, natus aliquid magni fugiat. Quaerat inventore alias vero iste ducimus saepe itaque ex sapiente dolorum minus?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam ipsum quos suscipit at, corporis, natus aliquid magni fugiat. Quaerat inventore alias vero iste ducimus saepe itaque ex sapiente dolorum minus?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam ipsum quos suscipit at, corporis, natus aliquid magni fugiat. Quaerat inventore alias vero iste ducimus saepe itaque ex sapiente dolorum minus?</p>
-            </div>
-            <div class="e-action">
-                <a class="b-button m-naked" href="">Read More<i class="material-icons">arrow_forward</i></a>
-            </div>
-        </article> -->
-    </div>
-</section>
-
-
-
-<section class="b-project-team">
-    <h2>Team</h2>
-    <div class="e-container">
-        
-            <a class="e-person" href="./team.html#beth-simone-noveck">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/beth-simone-noveck.jpg"></div>
-        <div class="e-team-info">
-            <h3 class="e-team-name">Beth Simone Noveck</h3>
-        </div>
-    </a>
-        
-            <a class="e-person" href="./team.html#dinorah-cantu-pedraza">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/dinorah-cantu-pedraza.jpg"></div>
-        <div class="e-team-info">
-            <h3 class="e-team-name">Dinorah Cantú-Pedraza</h3>
-        </div>
-    </a>
-        
-            <a class="e-person" href="./team.html#denny-tek">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/denny-tek.jpg"></div>
-        <div class="e-team-info">
-            <h3 class="e-team-name">Denny Tek</h3>
-        </div>
-    </a>
-        
-            <a class="e-person" href="./team.html#christopher-wong">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/christopher-wong.jpg"></div>
-        <div class="e-team-info">
-            <h3 class="e-team-name">Christopher Wong</h3>
-        </div>
-    </a>
-        
-            <a class="e-person" href="./team.html#claudio-mendonca">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/claudio-mendonca.jpg"></div>
-        <div class="e-team-info">
-            <h3 class="e-team-name">Claudio Mendonca</h3>
-        </div>
-    </a>
-        
-            <a class="e-person" href="./team.html#anna-bialas">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/anna-bialas.jpg"></div>
-        <div class="e-team-info">
-            <h3 class="e-team-name">Anna Bialas</h3>
-        </div>
-    </a>
-        
-    </div>
-</section>
-
-
+    <script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
+    <script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
+    <script src="static/js/project_specific.js"></script>
+    
+    
 
 
 
@@ -392,16 +288,7 @@
             </div>
         </div>
     </footer>
-    <!-- <div class="b-build-team">
-        <div class="e-wrap">
-            <div class="e-social-media">
-                <a href="#" class="e-nav-item"><i class="e-social-media-item fa fa-lg fa-twitter"></i></a>
-                <a href="#" class="e-nav-item"><i class="e-social-media-item fa fa-lg fa-facebook"></i></a>
-                <a href="#" class="e-nav-item"><i class="e-social-media-item fa fa-lg fa-medium"></i></a>
-        </div>
-            <p>This website was created by these <a href="#">GovLabbers</a>.</p>
-        </div>
-    </div> -->
+
     <div class="b-copyright">
         <div class="e-wrap">
             <a class="e-cc-badge" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
@@ -410,11 +297,11 @@
     </div>
     <div id="overlay"></div>
     
+    <script src="static/js/scripts.js"></script>
     <script src="static/vendor/slick.min.js"></script>
     <script src="static/vendor/EasePack.min.js"></script>
     <script src="static/vendor/rAF.js"></script>
     <script src="static/vendor/TweenLite.min.js"></script>
-    <script src="static/js/scripts.js"></script>
     
 
 </body>

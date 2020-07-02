@@ -1,16 +1,14 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-    <title>The GovLab | Data Labs</title>
-    <meta content="The GovLab | Data Labs" property="og:title"/>
-    <meta content="How can we leverage administrative data to improve social sector services and programs?" property="og:description">
-
+    <title>The Governance Lab</title>
+    <meta property="og:title" content="The Governance Lab" />
+    <meta content="Deepening Our Understanding of How to Govern
+    More Effectively and Legitimately Through Technology" property="og:description">
+    
     <meta property="og:type" content="website" />
     <meta property="og:image" content="http://www.thegovlab.org/static/img/govlab-og.png" />
     <meta content="The GovLab" property="og:site_name">
@@ -27,6 +25,7 @@
     <link rel="stylesheet" href="static/styles/styles.css">
     
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -79,8 +78,10 @@
     };
       </script>
 
+      <script src="https://momentjs.com/downloads/moment.js"></script>
+<script src="https://unpkg.com/@directus/sdk-js@5.3.4/dist/directus-sdk.umd.min.js"></script>
 </head>
-<body id="">
+<body id="" data-feedly-mini="yes">
     
     <!-- Class for google material icons ".material-icons" -->
     <header class="b-top-nav ">
@@ -122,159 +123,139 @@
         <a href="./job-board.html">Job Board</a>
         <a href="./contact.html">Contact</a>
     </nav>
+    
 
     
 
-<section class="b-single-landing">
-    <header class="b-top-section">
-        <div class="b-breadcrumbs">
-            <a href="projects.html">Projects</a><i class="material-icons">keyboard_arrow_right</i><span>Data Labs</span>
-        </div>
-    </header>
-    <div>
-        <h2 class="e-project-name">Data Labs</h2>
-        <h3 class="e-question">How can we leverage administrative data to improve social sector services and programs?</h3>
-    </div>
-    <div class="e-wrap">
-        <div class="e-half">
-            <div class="e-content">
-                
-                <a href="http://medium.com/data-labs" target="_blank" class="e-project-link">Project Website<i class="material-icons">link</i></a>
-                
-                <ul class="e-tags">
-                    <h5>Governance Area</h5>
-                    <li>
-                        <span class="e-tag">National Governance</span>
-                        
-                        <span class="e-tag">Regional Governance</span>
-                        </li>
-                    <h5>Institution Type</h5>
-                    <li>
-                        <span class="e-tag">Public Sector</span>
-                        <span class="e-tag">Nonprofit</span>
-                        <span class="e-tag">Academic</span></li>
-                    <h5>Innovative Capability</h5>
-                    <li>
-                        <span class="e-tag">Big Data</span></li>
-                    <h5>Product Category</h5>
-                    <li>
-                        <span class="e-tag">Case Studies</span></li>
-                </ul>
-            </div>
-        </div>
-        <div class="e-half">
-            <div class="e-content e-background">
-                <h4>Background</h4>
-                <p>While they have long collected data, increasingly in digital form, government agencies have struggled to create the infrastructure and acquire the skills needed to make use of this administrative data to realize the promise of evidence-based policymaking. But some states are already out ahead, establishing offices known as Data Labs or Policy Labs to enable states to partner with academia and make use of state administrative data to evaluate and ultimately improve programs and policies. By establishing the necessary technical infrastructure and governance mechanisms to help government gain access to much-needed analytical talent, these data labs are helping to convert data into insights and driving more evidence-based policymaking and service delivery. Urgently needed, however, are more such labs with the capacity to turn the data government collects into improvements in policies and services and the expansion of existing labs to enable nonprofits as well as government to evaluate their offerings using state data.</p>
+<div id='projectpage' v-cloak>
 
-            </div>
-        </div>
-        <div class="e-half">
-            <div class="e-content">
-                <div class="e-location">
-                    <h4>Location</h4>
 
-                    
-                        
-                        <div class="e-place">United States</div>
-                        
-                    
+    <section class="b-single-landing">
+        <header class="b-top-section">
+            <div class="b-breadcrumbs">
+                <a href="http://www.thegovlab.org/projects.html">Projects</a><i class="material-icons">keyboard_arrow_right</i><span>{{projectData.name}}</span>
+            </div>
+        </header>
+        <div>
+            <h2 class="e-project-name">{{projectData.name}}</h2>
+            <h3 class="e-question">{{projectData.description}}</h3>
+        </div>
+        <div class="e-wrap">
+            <div class="e-half">
+                <div class="e-content">
+    
+                    <a :href="projectData.project_link" target="_blank" class="e-project-link">Project Website<i class="material-icons">link</i></a>
+    
+                    <ul class="e-tags">
+                        <h5>Governance Area</h5>
+                        <li v-if="projectData.governance_area">
+                            <span class="e-tag" v-for="etag in projectData.governance_area">{{etag}}</span><br>
+                            </li>
+                        <h5>Institution Type</h5>
+                        <li>
+                          <li v-if="projectData.institution_type">
+                              <span class="e-tag" v-for="etag in projectData.institution_type">{{etag}}</span><br>
+                              </li>
+                        <h5>Innovative Capability</h5>
+                        <li v-if="projectData.innovative_capability">
+                            <span class="e-tag" v-for="etag in projectData.innovative_capability">{{etag}}</span><br>
+                            </li>
+                        <h5>Product Category</h5>
+                        <li v-if="projectData.product_category">
+                            <span class="e-tag" v-for="etag in projectData.product_category">{{etag}}</span><br>
+                          </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-        <div class="e-half">
-            <div class="e-content">
-                <div class="e-partners">
-                    <h4>Partners</h4>
-
-                    
-                        
-                        <div class="e-partner">New Philanthropy Capital</div>
-                        
-                    
+            <div class="e-half">
+                <div class="e-content e-background">
+                    <h4>Background</h4>
+                    <p v-html="projectData.background"></p>
+    
                 </div>
             </div>
+            <div class="e-half">
+                <div class="e-content">
+                    <div class="e-location">
+                        <h4>Location</h4>
+                            <div class="e-place" v-if="projectData.location" v-for="eplace in projectData.location" >{{eplace}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="e-half">
+                <div class="e-content">
+                    <div class="e-partners">
+                        <h4>Partners</h4>
+    
+                        <div class="e-partner" v-if="projectData.partners" v-for="epartner in projectData.partners" >{{epartner}}</div>
+    
+    
+    
+                    </div>
+                </div>
+            </div>
+            <div class="e-progress" :class="progess"><span></span><span></span><span></span><span></span></div>
+            <footer>
+    
+            </footer>
         </div>
-        <div class="e-progress m-complete"><span></span><span></span><span></span><span></span></div>
-        <footer>
-            
-        </footer>
-    </div>
-</section>
-<section class="b-single-description ">
-    <div class="e-wrap">
-        <h2>Description</h2>
-        <div class="e-description">
-            <p>In collaboration with New Philanthropy Capital and with a grant from Digital Impact (formerly Markets for Good), the Governance Lab has developed a series of case studies to better our understanding of the existing landscape of policy labs, to learn from their successes and drawbacks, and to help inform those who might be interested in setting up their own labs. Based on interviews with directors and funders of these labs, the case studies look at the governance processes employed to share or access data and how these labs solicit expertise to enable program evaluation. We also published an essay on medium.com where we analyzed the various models of existing labs and the enabling conditions necessary to stand up a new policy lab.</p> <p>The goal is to provide data owners, particularly those that hold personally identifiable data, with a blueprint to securely, responsibly and ethically share that information to end of improving programs in the public interest.</p>
-
-            
+    </section>
+    <section class="b-single-description m-slider" v-if="projectData.description_full">
+        <div class="e-wrap">
+            <h2>Description</h2>
+            <div class="e-description">
+                <p v-html="projectData.description_full"></p>
+    
+    
+            </div>
         </div>
+    
+         <div class="b-project-slider slick">
+            <div v-for="(pic, index) in items">
+                <span><img class="e-project-image" :src="pic.directus_files_id.data.full_url" alt=""></span>
+            </div>
     </div>
     
-</section>
-
-
-
-<section class="b-single-related-content">
-    <h2>More About Data Labs</h2>
-    <div class="e-wrap">
-        
-        <div class="e-article"><a href="http://medium.com/data-labs" target="_blank">Project Website</a></div>
-        
-        <div class="e-article"><a href="http://www.governing.com/commentary/col-data-policy-labs-states-urgently-need.html" target="_blank">Beth Noveck and Anirudh Dinesh, “The policy labs we urgently need”, Governing, December 2017</a></div>
-        
-        <!-- <article class="e-half e-blog">
-            <h3 class="e-article-type">Blog</h3>
-            <h2 class="e-title">The Role of the Network of Innovators</h2>
-            <div class="e-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur id excepturi rerum sunt eligendi possimus accusamus perspiciatis velit quo, nostrum eveniet inventore tempora autem libero, debitis quis nobis, impedit deserunt.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eligendi animi quibusdam praesentium magnam fugiat sit nostrum nihil quae temporibus suscipit, aliquid tempore ducimus a, minima, odit veniam! A, velit.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eligendi animi quibusdam praesentium magnam fugiat sit nostrum nihil quae temporibus suscipit, aliquid tempore ducimus a, minima, odit veniam! A, velit.</p>
-            </div>
-            <div class="e-action">
-                <a class="b-button m-naked" href="">Read More<i class="material-icons">arrow_forward</i></a>
-            </div>
-        </article>
-
-        <article class="e-half e-article">
-            <h3 class="e-article-type">Article</h3>
-            <h2 class="e-title">Why a Network of Innovators</h2>
-            <div class="e-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam ipsum quos suscipit at, corporis, natus aliquid magni fugiat. Quaerat inventore alias vero iste ducimus saepe itaque ex sapiente dolorum minus?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam ipsum quos suscipit at, corporis, natus aliquid magni fugiat. Quaerat inventore alias vero iste ducimus saepe itaque ex sapiente dolorum minus?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam ipsum quos suscipit at, corporis, natus aliquid magni fugiat. Quaerat inventore alias vero iste ducimus saepe itaque ex sapiente dolorum minus?</p>
-            </div>
-            <div class="e-action">
-                <a class="b-button m-naked" href="">Read More<i class="material-icons">arrow_forward</i></a>
-            </div>
-        </article> -->
-    </div>
-</section>
-
-
-
-<section class="b-project-team">
-    <h2>Team</h2>
-    <div class="e-container">
-        
-            <a class="e-person" href="./team.html#beth-simone-noveck">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/beth-simone-noveck.jpg"></div>
-        <div class="e-team-info">
-            <h3 class="e-team-name">Beth Simone Noveck</h3>
+    </section>
+    
+    <section class="b-single-results" v-if="projectData.results">
+        <div class="e-wrap">
+            <h2 class="e-title">Results &amp; Impact</h2>
+            <p v-html="projectData.results"></p>
         </div>
-    </a>
-        
-            <a class="e-person" href="./team.html#anirudh-dinesh">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/anirudh-dinesh.jpg"></div>
-        <div class="e-team-info">
-            <h3 class="e-team-name">Anirudh Dinesh</h3>
+    </section>
+    
+    
+    
+    <section class="b-single-related-content" v-if="projectData.more_about">
+        <h2>More About Network of Innovators</h2>
+        <div class="e-wrap">
+    
+            <div class="e-article" v-for="(link, name) in projectData.more_about"><a :href="link" target="_blank">{{name}}</a></div>
+    
         </div>
-    </a>
-        
+    </section>
+    
+    
+    
+    <section class="b-project-team" v-if="projectData.project_team">
+        <h2>Team</h2>
+        <div class="e-container">
+    
+                <a v-for = "member in projectData.project_team" class="e-person" :href="'http://www.thegovlab.org/team.html#' + member.team_id.slug">
+            <div class="e-person-pic" :style="{ backgroundImage: 'url(' + member.team_id.picture.data.thumbnails[3].url+ ')' }"></div>
+            <div class="e-team-info">
+                <h3 class="e-team-name">{{member.team_id.name}}</h3>
+            </div>
+        </a>
+        </div>
+    </section>
     </div>
-</section>
-
-
+    <script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
+    <script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
+    <script src="static/js/project_specific.js"></script>
+    
+    
 
 
 
@@ -307,16 +288,7 @@
             </div>
         </div>
     </footer>
-    <!-- <div class="b-build-team">
-        <div class="e-wrap">
-            <div class="e-social-media">
-                <a href="#" class="e-nav-item"><i class="e-social-media-item fa fa-lg fa-twitter"></i></a>
-                <a href="#" class="e-nav-item"><i class="e-social-media-item fa fa-lg fa-facebook"></i></a>
-                <a href="#" class="e-nav-item"><i class="e-social-media-item fa fa-lg fa-medium"></i></a>
-        </div>
-            <p>This website was created by these <a href="#">GovLabbers</a>.</p>
-        </div>
-    </div> -->
+
     <div class="b-copyright">
         <div class="e-wrap">
             <a class="e-cc-badge" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
@@ -325,11 +297,11 @@
     </div>
     <div id="overlay"></div>
     
+    <script src="static/js/scripts.js"></script>
     <script src="static/vendor/slick.min.js"></script>
     <script src="static/vendor/EasePack.min.js"></script>
     <script src="static/vendor/rAF.js"></script>
     <script src="static/vendor/TweenLite.min.js"></script>
-    <script src="static/js/scripts.js"></script>
     
 
 </body>

@@ -28,6 +28,8 @@ new Vue({
   data () {
     return {
       projectsData: [],
+      maintag:[],
+      subtag:[],
       listview: false,
       meta_title: 'The GovLab | Projects',
       meta_content: 'Building new technology to solve public problems. Our projects try to answer the questions that stand between today and more effective and legitimate governance tomorrow.',
@@ -60,16 +62,20 @@ new Vue({
   'projects',
   {
     sort: '-order',
-    fields: ['*.*','main_picture.*']
+    fields: ['*.*','main_picture.*','subtag.*']
   }
 ).then(data => {
 
+  client.getField("projects", "maintag").then(field => {self.maintag =field.data });
+  client.getField("projects", "subtag").then(field => {self.subtag =field.data });
+
+  console.log(self.maintag, self.subtag);
   return data;
 
 }).then(data2 => {
 
     self.projectsData = data2.data;
-    console.log(self.projectsData);
+
 })
 .catch(error => console.error(error));
     },
@@ -81,7 +87,7 @@ new Vue({
       this.listview = false;
     },
     projectsMore(slug) {
-      window.location.href= slug+'.html';
+      window.location.href= 'www.thegovlab.org'+slug+'.html';
     }
   }
 });

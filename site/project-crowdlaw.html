@@ -1,16 +1,14 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-    <title>The GovLab | CrowdLaw</title>
-    <meta content="The GovLab | CrowdLaw" property="og:title"/>
-    <meta content="Develop recommendations on how to use crowdlaw to improve the quality of lawmaking. We want to explore when and under what circumstances engagement can result in lawmaking that is either more legitimate, more effective or both." property="og:description">
-
+    <title>The Governance Lab</title>
+    <meta property="og:title" content="The Governance Lab" />
+    <meta content="Deepening Our Understanding of How to Govern
+    More Effectively and Legitimately Through Technology" property="og:description">
+    
     <meta property="og:type" content="website" />
     <meta property="og:image" content="http://www.thegovlab.org/static/img/govlab-og.png" />
     <meta content="The GovLab" property="og:site_name">
@@ -27,6 +25,7 @@
     <link rel="stylesheet" href="static/styles/styles.css">
     
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -79,8 +78,10 @@
     };
       </script>
 
+      <script src="https://momentjs.com/downloads/moment.js"></script>
+<script src="https://unpkg.com/@directus/sdk-js@5.3.4/dist/directus-sdk.umd.min.js"></script>
 </head>
-<body id="">
+<body id="" data-feedly-mini="yes">
     
     <!-- Class for google material icons ".material-icons" -->
     <header class="b-top-nav ">
@@ -122,246 +123,139 @@
         <a href="./job-board.html">Job Board</a>
         <a href="./contact.html">Contact</a>
     </nav>
+    
 
     
 
-<section class="b-single-landing">
-    <header class="b-top-section">
-        <div class="b-breadcrumbs">
-            <a href="projects.html">Projects</a><i class="material-icons">keyboard_arrow_right</i><span>CrowdLaw</span>
-        </div>
-    </header>
-    <div>
-        <h2 class="e-project-name">CrowdLaw</h2>
-        <h3 class="e-question">Develop recommendations on how to use crowdlaw to improve the quality of lawmaking. We want to explore when and under what circumstances engagement can result in lawmaking that is either more legitimate, more effective or both.</h3>
-    </div>
-    <div class="e-wrap">
-        <div class="e-half">
-            <div class="e-content">
-                
-                <a href="http://crowd.law/" target="_blank" class="e-project-link">Project Website<i class="material-icons">link</i></a>
-                
-                <ul class="e-tags">
-                    <h5>Governance Area</h5>
-                    <li>
-                        <span class="e-tag">National Governance</span>
-                        
-                        <span class="e-tag">Local Governance</span>
-                        </li>
-                    <h5>Institution Type</h5>
-                    <li>
-                        <span class="e-tag">Public Sector</span></li>
-                    <h5>Innovative Capability</h5>
-                    <li>
-                        <span class="e-tag">Open data</span>
-                        <span class="e-tag">Big data</span>
-                        <span class="e-tag">Small data</span>
-                        <span class="e-tag">Collective Intelligence</span>
-                        <span class="e-tag">Crowdsourcing</span>
-                        <span class="e-tag">Expert networks</span></li>
-                    <h5>Product Category</h5>
-                    <li>
-                        <span class="e-tag">Platform</span>
-                        <span class="e-tag">Mapping</span>
-                        <span class="e-tag">Strategy</span></li>
-                </ul>
-            </div>
-        </div>
-        <div class="e-half">
-            <div class="e-content e-background">
-                <h4>Background</h4>
-                <p>With rates of trust in government at historic lows, the legitimacy of traditional representative models of lawmaking — often conducted by professional staff and politicians working behind closed doors and distorted by political party agendas–is called into question. New forms of public participation could help to improve both legitimacy and effectiveness by introducing more data and diverse viewpoints at each stage of the lawmaking process.</p>
+<div id='projectpage' v-cloak>
 
-            </div>
-        </div>
-        <div class="e-half">
-            <div class="e-content">
-                <div class="e-location">
-                    <h4>Location</h4>
 
-                    
-                        
-                        <div class="e-place">Madrid, Spain</div>
-                        
-                        <div class="e-place">Global</div>
-                        
-                    
+    <section class="b-single-landing">
+        <header class="b-top-section">
+            <div class="b-breadcrumbs">
+                <a href="http://www.thegovlab.org/projects.html">Projects</a><i class="material-icons">keyboard_arrow_right</i><span>{{projectData.name}}</span>
+            </div>
+        </header>
+        <div>
+            <h2 class="e-project-name">{{projectData.name}}</h2>
+            <h3 class="e-question">{{projectData.description}}</h3>
+        </div>
+        <div class="e-wrap">
+            <div class="e-half">
+                <div class="e-content">
+    
+                    <a :href="projectData.project_link" target="_blank" class="e-project-link">Project Website<i class="material-icons">link</i></a>
+    
+                    <ul class="e-tags">
+                        <h5>Governance Area</h5>
+                        <li v-if="projectData.governance_area">
+                            <span class="e-tag" v-for="etag in projectData.governance_area">{{etag}}</span><br>
+                            </li>
+                        <h5>Institution Type</h5>
+                        <li>
+                          <li v-if="projectData.institution_type">
+                              <span class="e-tag" v-for="etag in projectData.institution_type">{{etag}}</span><br>
+                              </li>
+                        <h5>Innovative Capability</h5>
+                        <li v-if="projectData.innovative_capability">
+                            <span class="e-tag" v-for="etag in projectData.innovative_capability">{{etag}}</span><br>
+                            </li>
+                        <h5>Product Category</h5>
+                        <li v-if="projectData.product_category">
+                            <span class="e-tag" v-for="etag in projectData.product_category">{{etag}}</span><br>
+                          </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-        <div class="e-half">
-            <div class="e-content">
-                <div class="e-partners">
-                    <h4>Partners</h4>
-
-                    
+            <div class="e-half">
+                <div class="e-content e-background">
+                    <h4>Background</h4>
+                    <p v-html="projectData.background"></p>
+    
                 </div>
             </div>
+            <div class="e-half">
+                <div class="e-content">
+                    <div class="e-location">
+                        <h4>Location</h4>
+                            <div class="e-place" v-if="projectData.location" v-for="eplace in projectData.location" >{{eplace}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="e-half">
+                <div class="e-content">
+                    <div class="e-partners">
+                        <h4>Partners</h4>
+    
+                        <div class="e-partner" v-if="projectData.partners" v-for="epartner in projectData.partners" >{{epartner}}</div>
+    
+    
+    
+                    </div>
+                </div>
+            </div>
+            <div class="e-progress" :class="progess"><span></span><span></span><span></span><span></span></div>
+            <footer>
+    
+            </footer>
         </div>
-        <div class="e-progress m-test"><span></span><span></span><span></span><span></span></div>
-        <footer>
-            
-        </footer>
-    </div>
-</section>
-<section class="b-single-description m-slider">
-    <div class="e-wrap">
-        <h2>Description</h2>
-        <div class="e-description">
-            <p>CrowdLaw is the practice of using technology to tap the intelligence and expertise of the public in order to improve the quality of lawmaking. Around the world, there are already over two dozen examples of local legislatures and national parliaments turning to the Internet to involve the public in legislative drafting and decision-making. These ambitious crowdlaw initiatives show that the public can, in many cases, go beyond contributing opinions and signing petitions online to playing a more substantive role, including: proposing legislation, drafting bills, monitoring implementation, and supplying missing data. Through such processes, the public becomes collaborators and co-creators in the legislative process to the end of improving the quality of legislative outcomes and the effectiveness of governing.</p> <p>Crowdlaw offers an alternative to the traditional method of lawmaking, which is typically done by professional staff and politicians working behind closed doors and with little direct input from the people legislation affects. Instead, we start from the hypothesis that crowdlaw has the potential to enhance the quality of legislation. Designed right, with the aim of improving the quality of outputs, there are opportunities at each stage of the lawmaking process, including problem definition, solution identification, research and drafting, subsequent crafting of implementing regulations, and monitoring of outcomes, to introduce greater expertise into the legislative process efficiently. At the same time, we acknowledge that, designed wrong, without regard for outcomes, engagement may only hamstring decision-making and deepen distrust of government. Thus, we approach this project not as evangelists but as critical researchers whose aim is to understand what works and when.</p> <p>GovLab is supporting legislative bodies in investigating, designing, implementing, and testing crowdlaw initiatives. Our work includes:</p> <ul> <li>Studying and sharing learnings about CrowdLaw practices in use around the world and convening practitioners to share learnings.</li> <li>Synthesizing best practices for the design of CrowdLaw initiatives — including platforms, processes, and policies — through an on-going survey of over 25 public engagement initiatives.</li> <li>Cultivating a thriving network of now more than 90 CrowdLaw and public engagement experts and practitioners.</li> <li>Crafting a model legal framework to accelerate the integration of public input into the legislative process.</li> <li>Advising on the implementation of CrowdLaw practices.</li> </ul> <p>As part of the CrowdLaw project, GovLab has also created the following related products:</p> <ul> <li><a href="https://catalog.crowd.law/">The CrowdLaw Catalog</a> - a compendium of real-world examples from 39 countries and six continents demonstrating how legislatures, parliaments, city councils, and public bodies around the world are leveraging technology to involve more people in the process of making policies and laws.</li> <li><a href="https://crowd.law/crowdlaw-communiqu%C3%A9-vol-3-fall-2018-68763edd04c1">“CrowdLaw Communiqué” Quarterly Newsletter</a> - Designed for interested public officials, technologists, politicians and researchers, the CrowdLaw Communiqué features curated news, interviews, announcements, and recommended readings on the evolution of law and policymaking processes for the 21st century.</li> <li><a href="https://manifesto.crowd.law/">The CrowdLaw Manifesto</a> - 12 principles to promote the use of CrowdLaw by local legislatures and national parliaments, calling for legislatures, technologists and the public to participate in creating more open and participatory lawmaking practices.</li> <li><a href="https://www.youtube.com/playlist?list=PL2zpEc-7YPYwd-yGuJ6XHD8Vd7x0WImy8">The CrowdLaw Bellagio Interviews</a> - a series of short videos recorded during the 2018 CrowdLaw Bellagio conference, displaying the expert attendees’ thoughts of the future of crowdlaw in the short-term and the long-term, the challenges they anticipate and about their favorite CrowdLaw platforms</li> </ul> <center><a href="https://catalog.crowd.law/"><img src="static/img/projects/crowdlawcat.png"></a></center> <p>&nbsp;</p> <center><a href="http://www.nyu.edu/community/government-affairs/study-of-congress.html"><img src="static/img/projects/brademas.png"></a></center> <p>&nbsp;</p>
-
-            
+    </section>
+    <section class="b-single-description m-slider" v-if="projectData.description_full">
+        <div class="e-wrap">
+            <h2>Description</h2>
+            <div class="e-description">
+                <p v-html="projectData.description_full"></p>
+    
+    
+            </div>
         </div>
+    
+         <div class="b-project-slider slick">
+            <div v-for="(pic, index) in items">
+                <span><img class="e-project-image" :src="pic.directus_files_id.data.full_url" alt=""></span>
+            </div>
     </div>
     
-    <div class="b-project-slider slick">
-            
-                <span><img class="e-project-image" src="./static/img/projects/crowdlaw-1.png" alt=""></span>
-            
-                <span><img class="e-project-image" src="./static/img/projects/crowdlaw-2.png" alt=""></span>
-            
-    </div>
+    </section>
     
-</section>
-
-<section class="b-single-results">
-    <div class="e-wrap">
-        <h2 class="e-title">Results &amp; Impact</h2>
-        <p>The goal of the original CrowdLaw paper was to help the Assembly of the Community of Madrid, the legislature governing one of the seventeen autonomous communities of Spain, and the 179 Ayuntamientos (“City Councils”) within the Madrid region to (1) develop the capacity design and (2) use public engagement to improve the quality, effectiveness and legitimacy of the lawmaking process.</p> <p>Now, CrowdLaw has been scaled up to become a global initiative that uses diverse methods to achieve the same goals in cities, regions, and nations around the world.</p>
-
-        <!-- <div class="e-half">
-
-        </div> -->
-        <!-- <div class="e-half">
-            <img src="static/img/results-1.png" alt="">
+    <section class="b-single-results" v-if="projectData.results">
+        <div class="e-wrap">
+            <h2 class="e-title">Results &amp; Impact</h2>
+            <p v-html="projectData.results"></p>
         </div>
-        <div class="e-half">
-            <img src="static/img/results-2.png" alt="">
+    </section>
+    
+    
+    
+    <section class="b-single-related-content" v-if="projectData.more_about">
+        <h2>More About Network of Innovators</h2>
+        <div class="e-wrap">
+    
+            <div class="e-article" v-for="(link, name) in projectData.more_about"><a :href="link" target="_blank">{{name}}</a></div>
+    
         </div>
-        <div class="e-half">
-            <img src="static/img/results-3.png" alt="">
-        </div> -->
+    </section>
+    
+    
+    
+    <section class="b-project-team" v-if="projectData.project_team">
+        <h2>Team</h2>
+        <div class="e-container">
+    
+                <a v-for = "member in projectData.project_team" class="e-person" :href="'http://www.thegovlab.org/team.html#' + member.team_id.slug">
+            <div class="e-person-pic" :style="{ backgroundImage: 'url(' + member.team_id.picture.data.thumbnails[3].url+ ')' }"></div>
+            <div class="e-team-info">
+                <h3 class="e-team-name">{{member.team_id.name}}</h3>
+            </div>
+        </a>
+        </div>
+    </section>
     </div>
-</section>
-
-
-
-<section class="b-single-related-content">
-    <h2>More About CrowdLaw</h2>
-    <div class="e-wrap">
-        
-        <div class="e-article"><a href="https://twitter.com/TheGovLab/lists/crowdlaw" target="_blank">The GovLab's CrowdLaw Twitter list</a></div>
-        
-        <div class="e-article"><a href="http://thegovlab.org/a-growing-community-of-global-crowdlaw-practitioners/" target="_blank">A growing community of global #CrowdLaw practitioners</a></div>
-        
-        <div class="e-article"><a href="http://thegovlab.org/crowdlaw-in-action-details-a-preview-of-next-weeks-online-event/" target="_blank">Crowdlaw in Action: Details & A Preview of Next Week’s Online Event</a></div>
-        
-        <div class="e-article"><a href="http://thegovlab.org/how-do-we-maximize-and-sustain-participation-in-the-crowdlaw-process/" target="_blank">How do we maximize and sustain participation in the #CrowdLaw process?</a></div>
-        
-        <div class="e-article"><a href="http://thegovlab.org/crowdlaw-on-the-verge-of-disruptive-change-designing-to-scale-impact/" target="_blank">#CrowdLaw — On the Verge of Disruptive Change….Designing to Scale Impact</a></div>
-        
-        <div class="e-article"><a href="http://thegovlab.org/expanding-insights-crowdlaw-session-2-highlights-need-for-experimentation-collaboration/" target="_blank">Expanding Insights – #Crowdlaw Session 2 Highlights Need for Experimentation & Collaboration</a></div>
-        
-        <div class="e-article"><a href="http://thegovlab.org/toward-more-inclusive-lawmaking-what-we-know-still-most-need-to-know-about-crowdlaw/" target="_blank">Toward More Inclusive Lawmaking: What We Know & Still Most Need to Know about Crowdlaw</a></div>
-        
-        <div class="e-article"><a href="http://sunlightfoundation.com/blog/2016/03/11/crowdlaw-and-open-data-policy-a-perfect-match/" target="_blank">Crowdlaw and open data policy: A perfect match?</a></div>
-        
-        <div class="e-article"><a href="https://crowd.law/" target="_blank">The CrowdLaw Website</a></div>
-        
-        <!-- <article class="e-half e-blog">
-            <h3 class="e-article-type">Blog</h3>
-            <h2 class="e-title">The Role of the Network of Innovators</h2>
-            <div class="e-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur id excepturi rerum sunt eligendi possimus accusamus perspiciatis velit quo, nostrum eveniet inventore tempora autem libero, debitis quis nobis, impedit deserunt.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eligendi animi quibusdam praesentium magnam fugiat sit nostrum nihil quae temporibus suscipit, aliquid tempore ducimus a, minima, odit veniam! A, velit.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eligendi animi quibusdam praesentium magnam fugiat sit nostrum nihil quae temporibus suscipit, aliquid tempore ducimus a, minima, odit veniam! A, velit.</p>
-            </div>
-            <div class="e-action">
-                <a class="b-button m-naked" href="">Read More<i class="material-icons">arrow_forward</i></a>
-            </div>
-        </article>
-
-        <article class="e-half e-article">
-            <h3 class="e-article-type">Article</h3>
-            <h2 class="e-title">Why a Network of Innovators</h2>
-            <div class="e-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam ipsum quos suscipit at, corporis, natus aliquid magni fugiat. Quaerat inventore alias vero iste ducimus saepe itaque ex sapiente dolorum minus?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam ipsum quos suscipit at, corporis, natus aliquid magni fugiat. Quaerat inventore alias vero iste ducimus saepe itaque ex sapiente dolorum minus?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam ipsum quos suscipit at, corporis, natus aliquid magni fugiat. Quaerat inventore alias vero iste ducimus saepe itaque ex sapiente dolorum minus?</p>
-            </div>
-            <div class="e-action">
-                <a class="b-button m-naked" href="">Read More<i class="material-icons">arrow_forward</i></a>
-            </div>
-        </article> -->
-    </div>
-</section>
-
-
-
-<section class="b-project-team">
-    <h2>Team</h2>
-    <div class="e-container">
-        
-            <a class="e-person" href="./team.html#beth-simone-noveck">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/beth-simone-noveck.jpg"></div>
-        <div class="e-team-info">
-            <h3 class="e-team-name">Beth Simone Noveck</h3>
-        </div>
-    </a>
-        
-            <a class="e-person" href="./team.html#gabriella-capone">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/gabriella-capone.jpg"></div>
-        <div class="e-team-info">
-            <h3 class="e-team-name">Gabriella Capone</h3>
-        </div>
-    </a>
-        
-            <a class="e-person" href="./team.html#victoria-alsina">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/victoria-alsina.jpg"></div>
-        <div class="e-team-info">
-            <h3 class="e-team-name">Victoria Alsina</h3>
-        </div>
-    </a>
-        
-            <a class="e-person" href="./team.html#anirudh-dinesh">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/anirudh-dinesh.jpg"></div>
-        <div class="e-team-info">
-            <h3 class="e-team-name">Anirudh Dinesh</h3>
-        </div>
-    </a>
-        
-            <a class="e-person" href="./team.html#sam-dejohn">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/sam-dejohn.jpg"></div>
-        <div class="e-team-info">
-            <h3 class="e-team-name">Sam DeJohn</h3>
-        </div>
-    </a>
-        
-            <a class="e-person" href="./team.html#marco-konopacki">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/marco-konopacki.jpg"></div>
-        <div class="e-team-info">
-            <h3 class="e-team-name">Marco Konopacki</h3>
-        </div>
-    </a>
-        
-            <a class="e-person" href="./team.html#rose-harvey">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/rose-harvey.jpg"></div>
-        <div class="e-team-info">
-            <h3 class="e-team-name">Rose Harvey</h3>
-        </div>
-    </a>
-        
-            <a class="e-person" href="./team.html#mark-adkins-hastings">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/mark-adkins-hastings.jpg"></div>
-        <div class="e-team-info">
-            <h3 class="e-team-name">Mark Adkins-Hastings</h3>
-        </div>
-    </a>
-        
-    </div>
-</section>
-
-
+    <script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
+    <script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
+    <script src="static/js/project_specific.js"></script>
+    
+    
 
 
 
@@ -394,16 +288,7 @@
             </div>
         </div>
     </footer>
-    <!-- <div class="b-build-team">
-        <div class="e-wrap">
-            <div class="e-social-media">
-                <a href="#" class="e-nav-item"><i class="e-social-media-item fa fa-lg fa-twitter"></i></a>
-                <a href="#" class="e-nav-item"><i class="e-social-media-item fa fa-lg fa-facebook"></i></a>
-                <a href="#" class="e-nav-item"><i class="e-social-media-item fa fa-lg fa-medium"></i></a>
-        </div>
-            <p>This website was created by these <a href="#">GovLabbers</a>.</p>
-        </div>
-    </div> -->
+
     <div class="b-copyright">
         <div class="e-wrap">
             <a class="e-cc-badge" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
@@ -412,11 +297,11 @@
     </div>
     <div id="overlay"></div>
     
+    <script src="static/js/scripts.js"></script>
     <script src="static/vendor/slick.min.js"></script>
     <script src="static/vendor/EasePack.min.js"></script>
     <script src="static/vendor/rAF.js"></script>
     <script src="static/vendor/TweenLite.min.js"></script>
-    <script src="static/js/scripts.js"></script>
     
 
 </body>

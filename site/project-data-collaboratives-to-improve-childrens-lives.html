@@ -1,16 +1,14 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-    <title>The GovLab | Data Collaboratives to Improve Children’s Lives</title>
-    <meta content="The GovLab | Data Collaboratives to Improve Children’s Lives" property="og:title"/>
-    <meta content="How to leverage cross-sector data-sharing to improve the lives of children?" property="og:description">
-
+    <title>The Governance Lab</title>
+    <meta property="og:title" content="The Governance Lab" />
+    <meta content="Deepening Our Understanding of How to Govern
+    More Effectively and Legitimately Through Technology" property="og:description">
+    
     <meta property="og:type" content="website" />
     <meta property="og:image" content="http://www.thegovlab.org/static/img/govlab-og.png" />
     <meta content="The GovLab" property="og:site_name">
@@ -27,6 +25,7 @@
     <link rel="stylesheet" href="static/styles/styles.css">
     
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -79,8 +78,10 @@
     };
       </script>
 
+      <script src="https://momentjs.com/downloads/moment.js"></script>
+<script src="https://unpkg.com/@directus/sdk-js@5.3.4/dist/directus-sdk.umd.min.js"></script>
 </head>
-<body id="">
+<body id="" data-feedly-mini="yes">
     
     <!-- Class for google material icons ".material-icons" -->
     <header class="b-top-nav ">
@@ -122,133 +123,139 @@
         <a href="./job-board.html">Job Board</a>
         <a href="./contact.html">Contact</a>
     </nav>
+    
 
     
 
-<section class="b-single-landing">
-    <header class="b-top-section">
-        <div class="b-breadcrumbs">
-            <a href="projects.html">Projects</a><i class="material-icons">keyboard_arrow_right</i><span>Data Collaboratives to Improve Children’s Lives</span>
-        </div>
-    </header>
-    <div>
-        <h2 class="e-project-name">Data Collaboratives to Improve Children’s Lives</h2>
-        <h3 class="e-question">How to leverage cross-sector data-sharing to improve the lives of children?</h3>
-    </div>
-    <div class="e-wrap">
-        <div class="e-half">
-            <div class="e-content">
-                
-                <a href="http://datacollaboratives.org/" target="_blank" class="e-project-link">Project Website<i class="material-icons">link</i></a>
-                
-                <ul class="e-tags">
-                    <h5>Governance Area</h5>
-                    <li>
-                        <span class="e-tag">International Governance</span>
-                        </li>
-                    <h5>Institution Type</h5>
-                    <li>
-                        <span class="e-tag">International Organization</span>
-                        <span class="e-tag">Public Sector</span>
-                        <span class="e-tag">Corporate/Business</span></li>
-                    <h5>Innovative Capability</h5>
-                    <li>
-                        <span class="e-tag">Data Collaboratives</span></li>
-                    <h5>Product Category</h5>
-                    <li>
-                        <span class="e-tag">Case Studies</span>
-                        <span class="e-tag">Event/Workshop</span>
-                        <span class="e-tag">Strategy</span>
-                        <span class="e-tag">Website</span></li>
-                </ul>
-            </div>
-        </div>
-        <div class="e-half">
-            <div class="e-content e-background">
-                <h4>Background</h4>
-                <p>Recent years have seen exponential growth in the amount of data being generated and stored around the world. There is increasing recognition that this data can play a key role in solving some of the most difficult public problems we face – including problems facing children around the world. However, much of the potentially useful data is currently privately held and not available for public insights. Data in the form of web clicks, social “likes,” geolocation and online purchases are typically tightly controlled, usually by entities in the private sector. Companies today generate an ever-growing stream of information from our proliferating sensors and devices. Increasingly, they—and various other actors—are asking if there is a way to make this data available for the public good. There is an ongoing search for new models of corporate responsibility in the digital era around data toward the creation of “data collaboratives”.</p>
+<div id='projectpage' v-cloak>
 
-            </div>
-        </div>
-        <div class="e-half">
-            <div class="e-content">
-                <div class="e-location">
-                    <h4>Location</h4>
 
-                    
-                        
-                        <div class="e-place">Global</div>
-                        
-                    
+    <section class="b-single-landing">
+        <header class="b-top-section">
+            <div class="b-breadcrumbs">
+                <a href="http://www.thegovlab.org/projects.html">Projects</a><i class="material-icons">keyboard_arrow_right</i><span>{{projectData.name}}</span>
+            </div>
+        </header>
+        <div>
+            <h2 class="e-project-name">{{projectData.name}}</h2>
+            <h3 class="e-question">{{projectData.description}}</h3>
+        </div>
+        <div class="e-wrap">
+            <div class="e-half">
+                <div class="e-content">
+    
+                    <a :href="projectData.project_link" target="_blank" class="e-project-link">Project Website<i class="material-icons">link</i></a>
+    
+                    <ul class="e-tags">
+                        <h5>Governance Area</h5>
+                        <li v-if="projectData.governance_area">
+                            <span class="e-tag" v-for="etag in projectData.governance_area">{{etag}}</span><br>
+                            </li>
+                        <h5>Institution Type</h5>
+                        <li>
+                          <li v-if="projectData.institution_type">
+                              <span class="e-tag" v-for="etag in projectData.institution_type">{{etag}}</span><br>
+                              </li>
+                        <h5>Innovative Capability</h5>
+                        <li v-if="projectData.innovative_capability">
+                            <span class="e-tag" v-for="etag in projectData.innovative_capability">{{etag}}</span><br>
+                            </li>
+                        <h5>Product Category</h5>
+                        <li v-if="projectData.product_category">
+                            <span class="e-tag" v-for="etag in projectData.product_category">{{etag}}</span><br>
+                          </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-        <div class="e-half">
-            <div class="e-content">
-                <div class="e-partners">
-                    <h4>Partners</h4>
-
-                    
-                        
-                        <div class="e-partner">UNICEF</div>
-                        
-                        <div class="e-partner">Omidyar Network</div>
-                        
-                    
+            <div class="e-half">
+                <div class="e-content e-background">
+                    <h4>Background</h4>
+                    <p v-html="projectData.background"></p>
+    
                 </div>
             </div>
+            <div class="e-half">
+                <div class="e-content">
+                    <div class="e-location">
+                        <h4>Location</h4>
+                            <div class="e-place" v-if="projectData.location" v-for="eplace in projectData.location" >{{eplace}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="e-half">
+                <div class="e-content">
+                    <div class="e-partners">
+                        <h4>Partners</h4>
+    
+                        <div class="e-partner" v-if="projectData.partners" v-for="epartner in projectData.partners" >{{epartner}}</div>
+    
+    
+    
+                    </div>
+                </div>
+            </div>
+            <div class="e-progress" :class="progess"><span></span><span></span><span></span><span></span></div>
+            <footer>
+    
+            </footer>
         </div>
-        <div class="e-progress m-prototype"><span></span><span></span><span></span><span></span></div>
-        <footer>
-            
-        </footer>
-    </div>
-</section>
-<section class="b-single-description ">
-    <div class="e-wrap">
-        <h2>Description</h2>
-        <div class="e-description">
-            <p>Working together with UNICEF, in collaboration with the UN Global Pulse, the GovLab is seeking to leverage the potential of private sector data to improve children’s lives through the study and creation of data collaboratives. To accelerate solutions to the problems UNICEF works on and to bolster UNICEF’s efforts to become more open and data-driven, the GovLab will help UNICEF and the UN Global Pulse identify and craft data philanthropy collaborations with private sector companies in support of UNICEF’s mission.</p> <p>The 18-month initiative being comprises a number of activities aimed at increasing insight on current data collaboratives practice, what works and what doesn’t, how to share data in a trusted manner using data governance frameworks, and what steps and conditions must be in place in order to ensure the exchange of value. New resources developed for the project (available at DataCollaboratives.org) aim to: map the current data collaboratives ecosystem, articulate policies and frameworks for responsibly sharing data for the public good, and help practitioners operationalize this next generation of public-private partnership to solve big public problems, including but not limited to improving the lives of children around the world.</p>
-
-            
+    </section>
+    <section class="b-single-description m-slider" v-if="projectData.description_full">
+        <div class="e-wrap">
+            <h2>Description</h2>
+            <div class="e-description">
+                <p v-html="projectData.description_full"></p>
+    
+    
+            </div>
         </div>
+    
+         <div class="b-project-slider slick">
+            <div v-for="(pic, index) in items">
+                <span><img class="e-project-image" :src="pic.directus_files_id.data.full_url" alt=""></span>
+            </div>
     </div>
     
-</section>
-
-
-
-
-
-<section class="b-project-team">
-    <h2>Team</h2>
-    <div class="e-container">
-        
-            <a class="e-person" href="./team.html#stefaan-verhulst">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/stefaan-verhulst.jpg"></div>
-        <div class="e-team-info">
-            <h3 class="e-team-name">Stefaan Verhulst</h3>
+    </section>
+    
+    <section class="b-single-results" v-if="projectData.results">
+        <div class="e-wrap">
+            <h2 class="e-title">Results &amp; Impact</h2>
+            <p v-html="projectData.results"></p>
         </div>
-    </a>
-        
-            <a class="e-person" href="./team.html#andrew-young">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/andrew-young.jpg"></div>
-        <div class="e-team-info">
-            <h3 class="e-team-name">Andrew Young</h3>
+    </section>
+    
+    
+    
+    <section class="b-single-related-content" v-if="projectData.more_about">
+        <h2>More About Network of Innovators</h2>
+        <div class="e-wrap">
+    
+            <div class="e-article" v-for="(link, name) in projectData.more_about"><a :href="link" target="_blank">{{name}}</a></div>
+    
         </div>
-    </a>
-        
-            <a class="e-person" href="./team.html#prianka-srinivasan">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/prianka-srinivasan.jpg"></div>
-        <div class="e-team-info">
-            <h3 class="e-team-name">Prianka Srinivasan</h3>
+    </section>
+    
+    
+    
+    <section class="b-project-team" v-if="projectData.project_team">
+        <h2>Team</h2>
+        <div class="e-container">
+    
+                <a v-for = "member in projectData.project_team" class="e-person" :href="'http://www.thegovlab.org/team.html#' + member.team_id.slug">
+            <div class="e-person-pic" :style="{ backgroundImage: 'url(' + member.team_id.picture.data.thumbnails[3].url+ ')' }"></div>
+            <div class="e-team-info">
+                <h3 class="e-team-name">{{member.team_id.name}}</h3>
+            </div>
+        </a>
         </div>
-    </a>
-        
+    </section>
     </div>
-</section>
-
-
+    <script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
+    <script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
+    <script src="static/js/project_specific.js"></script>
+    
+    
 
 
 
@@ -281,16 +288,7 @@
             </div>
         </div>
     </footer>
-    <!-- <div class="b-build-team">
-        <div class="e-wrap">
-            <div class="e-social-media">
-                <a href="#" class="e-nav-item"><i class="e-social-media-item fa fa-lg fa-twitter"></i></a>
-                <a href="#" class="e-nav-item"><i class="e-social-media-item fa fa-lg fa-facebook"></i></a>
-                <a href="#" class="e-nav-item"><i class="e-social-media-item fa fa-lg fa-medium"></i></a>
-        </div>
-            <p>This website was created by these <a href="#">GovLabbers</a>.</p>
-        </div>
-    </div> -->
+
     <div class="b-copyright">
         <div class="e-wrap">
             <a class="e-cc-badge" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
@@ -299,11 +297,11 @@
     </div>
     <div id="overlay"></div>
     
+    <script src="static/js/scripts.js"></script>
     <script src="static/vendor/slick.min.js"></script>
     <script src="static/vendor/EasePack.min.js"></script>
     <script src="static/vendor/rAF.js"></script>
     <script src="static/vendor/TweenLite.min.js"></script>
-    <script src="static/js/scripts.js"></script>
     
 
 </body>
