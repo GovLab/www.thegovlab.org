@@ -94,8 +94,8 @@ new Vue({
     }
   },
   created: function created() {
-    // this.projectslug=window.location.pathname.split('/');
-    // this.projectslug = this.projectslug[this.projectslug.length - 1].split('.')[0];
+    this.projectslug=window.location.pathname.split('/');
+    this.projectslug = this.projectslug[this.projectslug.length - 1].split('.')[0];
 
     this.fetchTeam();
   },
