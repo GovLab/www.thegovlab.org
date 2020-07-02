@@ -143,16 +143,20 @@
             States and around the world.</p>
 
         
-        <div class="" v-for='jobs in jobData'>
+        <div class="" >
             <h2>Current Openings</h2>
             <!-- <p>There are currently no openings. Please check again soon.</p> -->
-        <p v-if="!jobs_toggle"><span class="b-button  m-naked" @click="toggle('jobs')">{{jobs.job_title}} <i
+            <div v-for='(jobs, index) in jobData'>
+    
+        <p v-if="!jobs_toggle"><span class="b-button  m-naked" @click="toggle('jobs', index)">{{jobs.job_title}} <i
             class="material-icons"><i class="material-icons">keyboard_arrow_down</i></i></span></p>
-        <p v-if="jobs_toggle"> <span class="b-button  m-naked"  @click="toggle('jobs')">{{jobs.job_title}}<i
+        <p v-if="jobs_toggle"> <span class="b-button  m-naked"  @click="toggle('jobs', index)">{{jobs.job_title}}<i
             class="material-icons"><i class="material-icons">keyboard_arrow_up</i></i></span></p>
         <section class="">
-            <div v-if="jobs_toggle==true" v-html="jobs.job_description"></div>
+            <div v-if="jobs_toggle==true && index_val==index" v-html="jobs.job_description"></div>
         </section>
+
+        </div>
         </div>
     </div>
 </div>

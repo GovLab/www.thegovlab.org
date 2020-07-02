@@ -29,6 +29,7 @@ new Vue({
     return {
       jobData: [],
       jobs_toggle:false,
+      index_val:1000,
       apiURL: 'https://directus.thegovlab.com/'
     }
   },
@@ -58,9 +59,9 @@ new Vue({
 })
 .catch(error => console.error(error));
     },
-    toggle(key) {
-      if(this[key+'_toggle'] == false) this[key+'_toggle'] = true;
-      else this[key+'_toggle'] = false;
+    toggle(key, index) {
+      if(this[key+'_toggle'] == false) { this[key+'_toggle'] = true; this.index_val=index;}
+      else {this[key+'_toggle'] = false; this.index_val=1000;}
       console.log(this[key+'_toggle']);
     }
   }
