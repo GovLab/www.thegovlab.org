@@ -22,9 +22,11 @@
 
     <link rel="stylesheet" href="static/vendor/normalize.css">
     <link rel="stylesheet" href="static/vendor/slick.css">
+    <script src='https://www.thegovlab.org/static/vendor/slick.min.js'></script>
     <link rel="stylesheet" href="static/styles/styles.css">
     
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -77,8 +79,11 @@
     };
       </script>
 
+      <script src="https://momentjs.com/downloads/moment.js"></script>
+
+<script src="https://unpkg.com/@directus/sdk-js@5.3.4/dist/directus-sdk.umd.min.js"></script>
 </head>
-<body id="">
+<body id="" data-feedly-mini="yes">
     
     <!-- Class for google material icons ".material-icons" -->
     <header class="b-top-nav ">
@@ -120,9 +125,11 @@
         <a href="./job-board.html">Job Board</a>
         <a href="./contact.html">Contact</a>
     </nav>
+    
 
     
-<div class="b-job-board">
+
+<div id="job-board" class="b-job-board" v-cloak >
     <section class="b-top-section">
         <header>
             <h2>Job Board</h2>
@@ -136,444 +143,22 @@
             States and around the world.</p>
 
         <h2>Current Openings</h2>
-        <!-- <p>There are currently no openings. Please check again soon.</p> -->
-
-        <div id="">
-            <div class="b-button m-naked js-job-toggle" id="1">
-                GovLab Fellow or GovLab Senior Fellow
-            </div>
-
-            <section class="b-job-post" id="post-1">
-                <h3>GovLab Fellow or GovLab Senior Fellow</h3>
-
-                <p><a href="http://www.thegovlab.org/">The GovLab</a> works with public institutions to help them govern
-                    more legitimately and effectively.</p>
-
-                <p>We focus on how to bring new technology, participatory and democatic methods and scientific insights to bear to open up and improve how institutions make decisions and solve problems at the local, state, national and international level.</p>
-
-
-                <p>We are seeking a new GovLab Fellow -- and open to receiving applications from senior or junior applicants -- to assist/lead projects, conduct research and launch experiments in collaboration with our public partners as well as design and run training programs, write and publish about GovLab’s work on governance innovation and develop new research and activism projects.
-
-                </p>
-
-                <p>Our Fellows are changemakers, passionate about mission driven work who know how to leverage
-                    innovation, technology and data to solve public problems. You have a proven track record for getting
-                    things done.</p>
-                <p>As a Fellow, you may be engaged in work on <a href="http://crowd.law" target="_blank">CrowdLaw</a> to
-                    promote democratic engagement in lawmaking. You may participate in a <a
-                        href="http://www.smartercrowdsourcing.org/" target="_blank">Smarter Crowdsourcing</a> project
-                    to accelerate policy advising to leading public institutions or help to scale our extensive work on
-                    <a href="https://skills.innovation.nj.gov/" target="_blank">innovation skills training</a>.
-                </p>
-                <h3>Depending on your background and level of experience, your work may include:</h3>
-
-                <ul>
-                    <li>Executing on existing projects as part of a multidisciplinary team</li>
-                    <li>Designing and planning projects and research
-                    </li>
-                    <li>Designing crowdsourcing and expert sourcing initiatives to solve problems
-                    </li>
-                    <li>Identifying and capturing new ideas and practices on how to make decisions and solve public
-                        problems;</li>
-                    <li>Curating and reaching out to top experts</li>
-                    <li>Working with partners to establish collaborations</li>
-                    <li>Drafting grant proposals</li>
-                    <li>Running online engagements and convenings with experts and the public
-                    </li>
-                    <li>Conducting interviews</li>
-                    <li>Writing case studies</li>
-                    <li>Writing policy briefs and implementation memos for policymakers and/or foundations.</li>
-                    <li>Conducting rapid research reviews</li>
-                    <li>Publishing blog posts, articles and social media on governance innovation topics</li>
-                    <li>Writing project proposals </li>
-                    <li>Developing new projects with partners/business development</li>
-                    <li>Teaching, training and coaching would-be public problem solvers</li>
-
-                </ul>
-
-                <h3>Preferred Qualifications:</h3>
-                <ul>
-                    <li>Strong project management skills</li>
-                    <li>Proven research and analytical skills</li>
-                    <li>Passion for the public interest</li>
-                    <li>Strong writing and editing abilities </li>
-                    <li>Ability to help run events and convenings</li>
-                    <li>Familiarity with new research tools and interest in new ways of presenting information</li>
-                    <li>Attention to detail in your writing and communication </li>
-                    <li>Ability to work online independently and in collaboration with others </li>
-                    <li>The flexibility necessary to thrive in a “permanent startup” environment</li>
-                    <li>Business development skills</li>
-                    <li>Graduate degree in technology, computer sciences, communications, a social science, social work
-                        or public service, public policy or administration, international affairs, law, business
-                        administration or economics or comparable professional experience</li>
-                    <li>Expertise in education or health policy a strong plus</li>
-                </ul>
-                <h3>We are committed to:</h3>
-                <ul>
-                    <li>Serving the public interest</li>
-                    <li>Working collaboratively and in partnership with others</li>
-                    <li>Respecting the expertise and experience of individuals and communities</li>
-                    <li>Using innovation, technology and data responsibly and ethically</li>
-                    <li>Using evidence of what works from research and from the field to inform what we do.</li>
-                    <li>Engaging with diverse communities and individuals to improve the legitimacy of our efforts.</li>
-                    <li>Undertaking work that has the potential to improve lives, build communities and strengthen
-                        democracy</li>
-                    <li>Fair, equitable and professional working practices.</li>
-                </ul>
-                <p>We are based in Brooklyn, New York but you may live anywhere and work remotely.</p>
-                <p>Occasionally, our Senior Fellows are part-time (ie. they also teach part-time). We are open to
-                    flexible working arrangements on GovLab projects with public partners.</p>
-                <p>GovLab is an equal opportunity employer that embraces diversity and is committed to building a team
-                    that represents a variety of backgrounds, perspectives, and skills. We are committed to providing
-                    employees with a work environment free of discrimination and harassment.</p>
-                <h3>To Apply:</h3>
-                <ul>
-                    <li>Interested applicants should apply to <a
-                            href="mailto:jobs@thegovlab.org">jobs@thegovlab.org</a>. Please share a CV, cover letter
-                        and/or portfolio with description of past projects, writing samples (memos, articles, op-eds,
-                        blogs and/or academic writing).</li>
-
-                    <li>Expected start date: As soon as feasible for all parties involved.</li>
-                </ul>
-            </section>
-
-
-            <!--            <div class="b-button m-naked js-job-toggle" id="1">
-                Research Fellow (Research/Data/Policy)
-            </div>
-
-
-            <section class="b-job-post" id="post-1">
-                <h3>Research Fellow (Research/Data/Policy)</h3>
-
-                <p><a href="http://www.thegovlab.org/">The GovLab</a> works to redesign how institutions work to the end of improving real people’s lives. We focus on how to bring new technology, new methods and new scientific insights to bear to open up and improve how institutions make decisions or provide services at the local, state, national and international level. (More info at <a href="http://www.thegovlab.org/">http://www.thegovlab.org/</a>)</p>
-
-
-                <p>We are now seeking a research fellow to support GovLab in a variety of research, data and policy analysis, writing, and community management tasks. The research fellow would support and work under the supervision of Stefaan Verhulst, GovLab’s Co-Founder and Chief of Research while contributing to some of the current projects: </p>
-
-                <ul>
-                    <li>Data Collaboratives: Corporate Data for Public Good (<a href="http://datacollaboratives.org/">http://datacollaboratives.org/</a>)</li>
-                    <li>Blockchange: Blockchain Technologies for Social Change (<a href="https://blockchan.ge/">https://blockchan.ge/</a>)</li>
-                    <li>Open Data’s Impact (<a href="http://odimpact.org/">http://odimpact.org/</a>)</li>
-                    <li>Open Governance Research Network (<a href="http://opening-governance.org/">http://opening-governance.org/</a>)</li>
-                    <li>Open Governance Research Exchange (<a href="http://ogrx.org/">http://ogrx.org/</a>)</li>
-                    <li>People Led Innovation (<a href="http://www.thegovlab.org/people-led-innovation">http://www.thegovlab.org/people-led-innovation</a>)</li>
-                </ul>
-
-                <h3>Responsibilities (may) include (depending on skill-set):</h3>
-
-                <ul>
-                    <li>Network support and engagement with leaders and practitioners working to leverage data to improve governance and solve public problems; </li>
-                    <li>Mapping and researching the emerging field of innovation in governance; </li>
-                    <li>Documenting, and synthesizing the findings from reviews of published literature related to the field of open government; </li>
-                    <li>Identifying and capturing new ideas and practices on how to make decisions and solve public problems; </li>
-                    <li>Data and/or policy analysis;</li>
-                    <li>Providing news and other updates through blog posts and social media on subjects related to the work of the GovLab; </li>
-                    <li>Completing various tasks to support the ongoing development of the GovLab Observatory which includes the weekly GovLab Digest;</li>
-                    <li>Supporting communications and meetings held on behalf of the GovLab and the members of its Network; </li>
-                    <li>Developing case studies to complement existing projects;</li>
-                    <li>Other tasks as assigned. </li>
-                </ul>
-
-                <h3>Preferred Qualifications:</h3>
-                <ul>
-                    <li>Graduate degree with background in law; communications; technology; political science;  public policy; international affairs and/or economics; </li>
-                    <li>Strong communication and comfort engaging with high-level personnel from the public and private sectors in a professional manner; </li>
-                    <li>Proven research, technical and analytical skills; </li>
-                    <li>Strong writing and editing abilities; </li>
-                    <li>Familiarity with new research tools and interest in new ways of presenting information; </li>
-                    <li>Attention to detail and the ability to work independently; </li>
-                    <li>Proficient with social media and web platform technologies; </li>
-                    <li>Demonstrated commitment to and interest in the field. </li>
-                </ul>
-                <h3>Position specifics: </h3>
-                <ul>
-                    <li>Full-time position located in Brooklyn, NY</li>
-                </ul>
-                <h3>To Apply:</h3>
-                <ul>
-                    <li>All interested applicants should apply by submitting a resume, cover letter, description of relevant academic and professional project experiences, and writing samples to <a href="mailto:fdejohn@thegovlab.org">fdejohn@thegovlab.org</a>.</li>
-                    <li>Expected start date:  As soon as feasible for all parties involved.</li>
-                </ul>
-            </section>
-
-            <p></p>
-
-            <div class="b-button m-naked js-job-toggle" id="2">
-                Research Fellow (Governance Innovation)
-            </div>
-
-
-            <section class="b-job-post" id="post-2">
-                <h3>Research Fellow (Governance Innovation)</h3>
-
-                <p><a href="http://www.thegovlab.org/">The GovLab</a> is an action research institute based at New York University. In collaboration with public partners, we focus on how to bring new technology, data and innovation to bear to open up and improve how public institutions solve problems. (More info at <a href="http://www.thegovlab.org/">http://www.thegovlab.org/</a>) </p>
-
-                <p>We are now seeking a Research Fellow to work on domestic and international governance innovation projects. Projects might include work on one (or more) project to: 1) design and create an innovation lab for a populous developing country, 2) design and create a data lab for a major US state, 3) redesign the anti-corruption complaint process for a Latin American country, 4) develop training programs in data science and innovation for an African country, 5) design social-behavioral experiments to test new approaches to online engagement. As a small, agile nonprofit, all GovLab team members work on all aspects of projects from administrative tasks to research to client engagement to project execution. </p>
-                <p>Previously, Research Fellows have, for example, worked with the City and Region of Madrid to <a href="http://crowd.law/">develop</a> their citizen engagement practices, aided four governments in Latin America to use data and innovation to <a href="http://zika.smartercrowdsourcing.org/">combat Zika</a>, and <a href="https://medium.com/data-labs/building-the-smarter-state-the-role-of-data-labs-5b5428920f0f">written case studies</a> about how public institutions are using administrative data to govern better. </p>
-                <p>The Research Fellow would support and work under the supervision of GovLab’s Director, Professor <a href="http://www.thegovlab.org/beth-noveck.html">Beth Simone Noveck</a>, and collaborate with other GovLab fellows on the execution of their project. </p>
-                <p>GovLab Research Fellows are given the unique opportunity to work with leading specialists and thinkers on how to re-design governance and how to re-imagine democracy. </p>
-
-                <h3>Responsibilities include:</h3>
-
-                <ul>
-                    <li>Developing and executing on strategic project plans.</li>
-                    <li>Research and interviews on novel laws, policies, services, technologies and projects to improve government accountability and effectiveness, especially new approaches involving big and open data, citizen science and crowdsourcing, and social and behavioral insights. </li>
-                    <li>Drafting of original research as both academic and applied research and in blog format.</li>
-                    <li>Mixed-method research and experiment design and data collection and analysis.</li>
-                    <li>Organization of online conferences, including moderation guides, facilitation and note taking.</li>
-                    <li>Planning and collaborating with partner organizations.</li>
-                </ul>
-
-                <h3>Preferred Qualifications:</h3>
-                <ul>
-                    <li>Postgraduates or current graduate students preferred;</li>
-                    <li>Proven project management skills;</li>
-                    <li>Proven research and analytical skills;</li>
-                    <li>Strong communication skills (verbal and written);</li>
-                    <li>Knowledge of or passion for governance innovation;</li>
-                    <li>Attention to detail and the ability to work independently;</li>
-                    <li>Demonstrated ability to work in a fast-paced, agile environment;</li>
-                    <li>Strong organizational skills;</li>
-                    <li>Must be tech-savvy; </li>
-                    <li>Foreign language skills a strong plus.</li>
-                </ul>
-                <h3>Position Specifics</h3>
-                <ul>
-                    <li>This is a full-time position. Research Fellows are expected to work from GovLab in Brooklyn but we will consider remote participation. </li>
-                </ul>
-                <h3>How to Apply</h3>
-                <p>Submit a resume and cover letter describing relevant academic and professional experience, together with writing sample(s) (academic, policy and/or blog posts) to <a href="mailto:fdejohn@thegovlab.org">fdejohn@thegovlab.org</a>.</p>
-            </section>
-
-            <p></p>
- -->
-
-            <!--             <div class="b-button m-naked js-job-toggle" id="3">
-                Summer Research Assistant (Intern)
-            </div>
-
-
-            <section class="b-job-post" id="post-3">
-                <h3>Summer Research Assistant (Intern)</h3>
-
-                <p><a href="http://www.thegovlab.org/" target="_blank">The GovLab</a> works to redesign how institutions work to the end of improving real people’s lives. We focus on how to bring new technology, new methods and new scientific insights to bear to open up and improve how institutions make decisions or provide services at the local, state, national and international level.</p>
-
-                <p>We are now seeking summer research interns to support GovLab in a variety of research, data and policy analysis, writing, and community management tasks. The research assistant would support and work under the supervision of Stefaan Verhulst, GovLab’s Co-Founder and Chief of Research while contributing to some of the current projects:</p>
-
-                <ul>
-                    <li>Data Collaboratives: Corporate Data for Public Good (<a href="http://datacollaboratives.org/" target="_blank">http://datacollaboratives.org/</a>)</li>
-                    <li>Blockchange: Blockchain Technologies for Social Change (<a href="https://blockchan.ge/" target="_blank">https://blockchan.ge/</a>)</li>
-                    <li>Open Data’s Impact (<a href="http://odimpact.org/" target="_blank">http://odimpact.org/</a>)</li>
-                    <li>Open Governance Research Network (<a href="http://opening-governance.org/" target="_blank">http://opening-governance.org/</a>)</li>
-                    <li>Open Governance Research Exchange (<a href="http://ogrx.org/" target="_blank">http://ogrx.org/</a>)</li>
-                    <li>People Led Innovation (<a href="http://www.thegovlab.org/people-led-innovation" target="_blank">http://www.thegovlab.org/people-led-innovation</a>)</li>
-                    <li>GovLab interns are given the unique opportunity to work with leading specialists and thinkers on how to re-design governance and how to re-imagine democracy.</li>
-                </ul>
-
-                <h3>Responsibilities (may) include (depending on skill-set):</h3>
-
-                <ul>
-                    <li>Network support and engagement with leaders and practitioners working to leverage data to improve governance and solve public problems;</li>
-                    <li>Mapping and researching the emerging field of innovation in governance;</li>
-                    <li>Documenting, and synthesizing the findings from reviews of published literature related to the field of open government;</li>
-                    <li>Identifying and capturing new ideas and practices on how to make decisions and solve public problems;</li>
-                    <li>Data and/or policy analysis;</li>
-                    <li>Providing news and other updates through blog posts and social media on subjects related to the work of the GovLab;</li>
-                    <li>Completing various tasks to support the ongoing development of the GovLab Observatory which includes the weekly GovLab Digest;</li>
-                    <li>Supporting communications and meetings held on behalf of the GovLab and the members of its Network;</li>
-                    <li>Developing case studies to complement existing projects</li>
-                    Other tasks as assigned.
-                </ul>
-
-                <h3>Preferred Qualifications:</h3>
-
-                <ul>
-                    <li>Graduate student with background in law; data sciences; communications; technology, computer sciences; political science; public policy, international affairs and/or economics;</li>
-                    <li>Strong communication and comfort engaging with high-level personnel from the public and private sectors in a professional manner;</li>
-                    <li>Proven research, technical and analytical skills;</li>
-                    <li>Strong writing and editing abilities;</li>
-                    <li>Familiarity with new research tools and interest in new ways of presenting information (including visualization tools);</li>
-                    <li>Attention to detail and the ability to work independently;</li>
-                    <li>Proficient with social media and web platform technologies;</li>
-                    <li>Demonstrated commitment to and interest in the field.</li>
-                </ul>
-
-                <h3>Position Specifics:</h3>
-
-                <ul>
-                    <li>Hourly position with pay rate based on NYU student employee pay scale</li>
-                    <li>Full-time position (35 hours per week) during the Summer with the possibility of continuing into the fall.</li>
-                </ul>
-
-                <h3>How to Apply</h3>
-
-                <p>All interested applicants should apply by submitting a resume, cover letter, description of relevant academic and professional project experiences, and writing sample to <a href="mailto:lauren@thegovlab.org">lauren@thegovlab.org</a>.</p>
-
-                <p>Expected start date: As soon as feasible for all parties involved.</p>
-
-            </section> -->
-
-
-            <!--             <div class="b-button m-naked js-job-toggle" id="1">
-                GovLab CrowdLaw for Congress Engagement Fellow
-            </div>
-            <section class="b-job-post" id="post-1">
-
-            <h3>The Governance Lab Seeks CrowdLaw Fellow</h3>
-
-            <p>The Governance Lab (“The GovLab”) is seeking an experienced public and community engagement professional to organize pathbreaking online public participation across diverse constituencies for projects conducted in collaboration with the U.S House of Representatives. The Fellow will manage all aspects of these first-of-their kind citizen engagement programs, including coordination, curation, communication. In addition, the fellow will both conduct research and oversee additional writers and researchers in an effort to document the learnings from these projects and translate them in to ongoing 21st century lawmaking practices.</p>
-
-            <p>Specific responsibilities and activities for this position include, but are not limited to:</p>
-            <ul>
-                <li>Cultivating robust public participation and user engagement in the pilot programs across diverse constituencies and in varying geographic regions.</li>
-                <li>Identifying and developing high-value strategic partnerships to amplify promotion and engagement efforts.</li>
-                <li>Working collaboratively with internal and external project stakeholders to develop promotional collateral and leverage digital and analog communication channels and tools to publicize and promote the pilot program.</li>
-                <li>Strategically generating print and digital media coverage - by both mainstream and grassroots outlets - to promote the pilot program to targeted audiences and manage all inbound press inquiries.</li>
-                <li>Managing relationships with congressional staff and other key external stakeholders to ensure all parties are satisfied with project progress and operations.</li>
-                <li>Helping manage engagement exercises on a day-to-day basis.</li>
-                <li>Managing external outreach to public officials, organizations, and communities who may be interested in supporting and/or replicating the initiative.</li>
-                <li>Conducting and designing research to measure the success of these programs.</li>
-            </ul>
-
-            <p>Experience and qualifications</p>
-            <ul>
-                <li>At least 3-5 years of professional experience in roles related to public engagement, including youth engagement, community organizing and/or online community management.</li>
-                <li>Excellent and proven project management as well as writing and research skills.</li>
-                <li>Professional experience interacting with or within government, preferably in a legislative setting.</li>
-            </ul>
-
-            <p>To apply, please email CV, letter and/or video setting out relevant project and research experience to <a href="mailto:crowdlaw@thegovlab.org">crowdlaw@thegovlab.org</a>.</p>
-
-            <p><b>About The GovLab</b></p>
-
-            <p><a href="http://www.thegovlab.org/">The GovLab</a> works to redesign how public institutions work to the end of improving real people’s lives. We focus on how to bring new technology, new methods and new scientific insights to bear to open up and improve how institutions make decisions or solve problems at the local, state, national and international level.  (More info at <a href="http://www.thegovlab.org/">http://www.thegovlab.org/</a>). For more about the GovLab’s CrowdLaw work, see <a href="http://crowd.law">crowd.law</a> and <a href="http://congress.crowd.law">congress.crowd.law</a>. </p>
-
-
-            <p>It is the express policy of The Governance Lab that all aspects of employment shall be based strictly on merit and qualifications without regard to race, religion, creed, color, national origin, sex, age, disability, handicap, marital status, sexual orientation, gender identity, Vietnam era or disabled veteran status, citizenship status or any other protected characteristic.</p>
-
-            </section>
-
-
-            <p></p>
-
-            <div class="b-button m-naked js-job-toggle" id="2">
-                Research Project Manager
-            </div>
-            <section class="b-job-post" id="post-2">
-
-                <h3>Research Project Manager</h3>
-
-                <p><b>About The GovLab Data Program</b></p>
-                <p>The GovLab is at the forefront of catalyzing a global movement to leverage data for cross-sector collaboration that drives value for society and business. Launched in 2012 at New York University Tandon School of Engineering, we are an action research center focused on improving people’s lives by strengthening governance and solving public problems through data, science, and technology. We have earned the reputation of developing practical solutions based upon research, rigorous analysis, and policy and stakeholder engagement.</p>
-
-                <p>We are looking for a strong project manager to join the core data program team.  Specific responsibilities and activities for this position include, but are not limited to: </p>
-
-                <p><b>Specific responsibilities and activities for this position include, but are not limited to: </b></p>
-                <ul>
-                    <li>Support the GovLab’s Data Program toward making data collaboration systematic, sustainable and responsible; </li>
-                    <li>Help establish and implement Data Program projects, provide oversight on project progress, drive to meet deadlines, and proactively assist in the financial management/ budgeting of projects, while reporting to GovLab management to contribute to meeting the goals of the Data Program department; </li>
-                    <li>Be actively involved in business development activities to help identify and research opportunities on new and existing engagements with corporates and nonprofits; </li>
-                    <li>Contribute in write-up of research and analysis reports, preparing presentations, developing thought leadership,  and stakeholder management and engagement GovLab network; </li>
-                    <li>Contribute overall to continuous learning, dissemination and improvement of the Data Program, on personal and team growth-level;</li>
-                </ul>
-                <p><i>Help GovLab’s leadership establish and implement the 100 Questions Initiative, a unique smarter crowdsourcing initiative that combines open innovation with data expertise; </i><p>
-
-                <ul>
-                    <li>Operationalize, plan and implement the 100 Questions Initiative’s sequenced campaign: manage ongoing project-effort and monthly launch of new active domains (i.e. climate change and migration);  </li>
-                    <li>Identify, curate and outreach to partners, bilinguals (data experts with domain expertise), funders and data stewards (responsible data leaders within organizations);</li>
-                    <li>Identify and prototype (digital) tools needed for the 100 Questions Initiative and help launch a digital 100 Questions Platform to enable the sourcing of questions and hosting of the bilinguals community; </li>
-                    <li>Develop Topic Mapping for each of the 10 domains to rapidly develop a landscape view and identify main themes for subtopics plus key organizations, subject area experts, data holders and publications to engage in the initiative;  </li>
-                    <li>Develop Sourcing Criteria and manage the sourcing of Questions for each of the ten domains and organize worldwide online crowdsourcing campaign for public voting as part of the initiative; </li>
-                    <li>Help initiate partnerships toward unlocking the relevant data sets in match with Questions through the formation of Data Collaboratives; </li>
-                    <li>Organize a high-level convening in conclusion of the sequenced campaign with bilinguals, funders, organizations and relevant stakeholders from the private and public sector to present the full 100 Questions list; </li>
-                    <li>Write Promotion and Communications materials to provide for e.g. audience engagement and updating of funders, partners; and </li>
-                    <li>Prepare presentations and reports emerging from the initiative;</li>
-                </ul>
-
-                <h3>About you</h3>
-                <ul>
-                    <li>A strong and proactive project manager with expertise working at the management and leadership level of corporates and/or nonprofits. </li>
-                    <li>Strategic mindset while knowing the details of what is needed to execute.</li>
-                    <li>Proven ability of strong communication skills, oral and written.</li>
-                    <li>Proven ability to manage projects within scope, budget, and strict deadlines (and establish scope, budget and schedule).</li>
-                    <li>Ability to work independently and collaboratively with members of the data program team.</li>
-                    <li>Knowledge of global public challenges in environmental, social, or economic domains a plus.</li>
-                    <li>Have worked within data science and technology work environments a plus.</li>
-                </ul>
-                <h3>How to Apply</h3>
-                <p>Applicants should email <a href="mailto:fdejohn@thegovlab.org">fdejohn@thegovlab.org</a> with a cover letter, resume and several writing samples.</p>
-
-                <p>It is the express policy of The Governance Lab that all aspects of employment shall be based strictly on merit and qualifications without regard to race, religion, creed, color, national origin, sex, age, disability, handicap, marital status, sexual orientation, gender identity, Vietnam era or disabled veteran status, citizenship status or any other protected characteristic.</p>
-
-            </section> -->
-            <!--
-  <p></p>
-
-            <div class="b-button m-naked js-job-toggle" id="2">
-                Research Assistant (Intern)
-            </div>
-            <section class="b-job-post" id="post-2">
-
-                <h3>Research Assistant (Intern)</h3>
-
-                <p><b>Closing Date:</b> Open until filled.</p>
-
-                <p><b>Location:</b> While the majority of the GovLab’s staff is based in Brooklyn (NYC), we strive to be a global organization with team members located all over the world.</p>
-
-                <p><a href="http://www.thegovlab.org/">The GovLab</a> works to redesign how institutions work to the end of improving real people’s lives. We focus on how to bring new technology, new methods and new scientific insights to bear to open up and improve how institutions make decisions or provide services at the local, state, national and international level.  (More info at <a href="http://www.thegovlab.org/">http://www.thegovlab.org/</a>) </p>
-
-                <p>We are now seeking research interns to support GovLab in a variety of research, data and policy analysis, writing, and community management tasks. The research assistant would support and work under the supervision of Stefaan Verhulst, GovLab’s Co-Founder and Chief of Research while contributing to some of the current projects.</p>
-                <ul>
-                    <li>Data Collaboratives: Corporate Data for Public Good (<a href="http://datacollaboratives.org/">http://datacollaboratives.org/</a>)</li>
-                    <li>Blockchange: Blockchain Technologies for Social Change (<a href="https://blockchan.ge/">https://blockchan.ge/</a>)</li>
-                    <li>Open Data’s Impact (<a href="http://odimpact.org/">http://odimpact.org/</a>)</li>
-                    <li>Open Governance Research Network (<a href="http://opening-governance.org/">http://opening-governance.org/</a>)</li>
-                    <li>Open Governance Research Exchange (<a href="http://ogrx.org/">http://ogrx.org/</a>)</li>
-                    <li>People Led Innovation (<a href="http://www.thegovlab.org/people-led-innovation">http://www.thegovlab.org/people-led-innovation</a>)</li>
-                </ul>
-
-                <p>GovLab interns are given the unique opportunity to work with leading specialists and thinkers on how to re-design governance and how to re-imagine democracy.</p>
-
-                <p><b>Responsibilities (may) include (depending on skill-set):</b></p>
-                <ul>
-                    <li>Network support and engagement with leaders and practitioners working to leverage data to improve governance and solve public problems; </li>
-                    <li>Mapping and researching the emerging field of innovation in governance; </li>
-                    <li>Documenting, and synthesizing the findings from reviews of published literature related to the field of open government; </li>
-                    <li>Identifying and capturing new ideas and practices on how to make decisions and solve public problems; </li>
-                    <li>Data and/or policy analysis;</li>
-                    <li>Providing news and other updates through blog posts and social media on subjects related to the work of the GovLab; </li>
-                    <li>Completing various tasks to support the ongoing development of the GovLab Observatory which includes the weekly GovLab Digest;</li>
-                    <li>Supporting communications and meetings held on behalf of the GovLab and the members of its Network; </li>
-                    <li>Developing case studies to complement existing projects</li>
-                    <li>Other tasks as assigned. </li>
-                </ul>
-                <p><b>Preferred Qualifications:</b></p>
-                <ul>
-                    <li>Graduate student with background in law; data sciences; communications; technology, computer sciences; political science;  public policy, international affairs and/or economics; </li>
-                    <li>Strong communication and comfort engaging with high-level personnel from the public and private sectors in a professional manner; </li>
-                    <li>Proven research, technical and analytical skills; </li>
-                    <li>Strong writing and editing abilities; </li>
-                    <li>Familiarity with new research tools and interest in new ways of presenting information
-(including visualization tools); </li>
-                    <li>Attention to detail and the ability to work independently; </li>
-                    <li>Proficient with social media and web platform technologies; </li>
-                    <li>Demonstrated commitment to and interest in the field. </li>
-                </ul>
-                <p><b>Position Specifics:</b></p>
-                <ul>
-                    <li>Hourly position with pay rate based on NYU student employee pay scale </li>
-                    <li>Possible full-time position (35 hours per week) during the Summer </li>
-                </ul>
-                <h3>How to Apply</h3>
-                <p>All interested applicants should apply by submitting a resume, cover letter, description of relevant academic and professional project experiences, and writing or data analysis / visualization sample via the posting to <a href="mailto:fdejohn@thegovlab.org">fdejohn@thegovlab.org</a>.</p>
-                <p>Expected start date:  As soon as feasible for all parties involved.</p>
-            </section> -->
+        <p>There are currently no openings. Please check again soon.</p>
+        
+        <div class="" v-for='jobs in jobData'>
+        <p v-if="!jobs_toggle"><span class="b-button  m-naked" @click="toggle('jobs')">{{jobs.job_title}} <i
+            class="material-icons"><i class="material-icons">keyboard_arrow_down</i></i></span></p>
+        <p v-if="jobs_toggle"> <span class="b-button  m-naked"  @click="toggle('jobs')">{{jobs.job_title}}<i
+            class="material-icons"><i class="material-icons">keyboard_arrow_up</i></i></span></p>
+        <section class="">
+            <div v-if="jobs_toggle==true" v-html="jobs.job_description"></div>
+        </section>
         </div>
-
-
     </div>
 </div>
+<script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
+<script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
+<script src="static/js/jobs.js"></script>
 
 
 
@@ -606,16 +191,7 @@
             </div>
         </div>
     </footer>
-    <!-- <div class="b-build-team">
-        <div class="e-wrap">
-            <div class="e-social-media">
-                <a href="#" class="e-nav-item"><i class="e-social-media-item fa fa-lg fa-twitter"></i></a>
-                <a href="#" class="e-nav-item"><i class="e-social-media-item fa fa-lg fa-facebook"></i></a>
-                <a href="#" class="e-nav-item"><i class="e-social-media-item fa fa-lg fa-medium"></i></a>
-        </div>
-            <p>This website was created by these <a href="#">GovLabbers</a>.</p>
-        </div>
-    </div> -->
+
     <div class="b-copyright">
         <div class="e-wrap">
             <a class="e-cc-badge" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
@@ -624,11 +200,11 @@
     </div>
     <div id="overlay"></div>
     
-    <script src="static/vendor/slick.min.js"></script>
+    <script src="static/js/scripts.js"></script>
+    <!-- <script src="static/vendor/slick.min.js"></script> -->
     <script src="static/vendor/EasePack.min.js"></script>
     <script src="static/vendor/rAF.js"></script>
     <script src="static/vendor/TweenLite.min.js"></script>
-    <script src="static/js/scripts.js"></script>
     
 
 </body>
