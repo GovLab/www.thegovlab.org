@@ -105,9 +105,9 @@
 
                 <div class="e-collapsed">
 
-                    <p v-if="!events_toggle"><span class="b-button  m-naked js-resources-toggle" @click="toggle('events')">Events <i
+                    <p v-if="!events_toggle"><span class="b-button  m-naked js-events-toggle" @click="toggle('events')">Events <i
                                 class="material-icons"><i class="material-icons">keyboard_arrow_down</i></i></span></p>
-                    <p v-if="events_toggle"> <span class="b-button  m-naked js-resources-toggle"  @click="toggle('events')">Events <i
+                    <p v-if="events_toggle"> <span class="b-button  m-naked js-events-toggle"  @click="toggle('events')">Events <i
                                 class="material-icons"><i class="material-icons">keyboard_arrow_up</i></i></span></p>
                       <div class="e-additional-resources project_list" v-if="events_toggle==true" v-html="memberData.events"></div>
                       
