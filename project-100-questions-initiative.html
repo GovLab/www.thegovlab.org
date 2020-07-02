@@ -1,16 +1,14 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-    <title>The GovLab | 100 Questions Initiative</title>
-    <meta content="The GovLab | 100 Questions Initiative" property="og:title"/>
-    <meta content="Unless we define the questions well to unlock the potential of data and data science, how can we provide answers that matter?" property="og:description">
-
+    <title>The Governance Lab</title>
+    <meta property="og:title" content="The Governance Lab" />
+    <meta content="Deepening Our Understanding of How to Govern
+    More Effectively and Legitimately Through Technology" property="og:description">
+    
     <meta property="og:type" content="website" />
     <meta property="og:image" content="http://www.thegovlab.org/static/img/govlab-og.png" />
     <meta content="The GovLab" property="og:site_name">
@@ -27,6 +25,7 @@
     <link rel="stylesheet" href="static/styles/styles.css">
     
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -79,8 +78,10 @@
     };
       </script>
 
+      <script src="https://momentjs.com/downloads/moment.js"></script>
+<script src="https://unpkg.com/@directus/sdk-js@5.3.4/dist/directus-sdk.umd.min.js"></script>
 </head>
-<body id="">
+<body id="" data-feedly-mini="yes">
     
     <!-- Class for google material icons ".material-icons" -->
     <header class="b-top-nav ">
@@ -122,202 +123,139 @@
         <a href="./job-board.html">Job Board</a>
         <a href="./contact.html">Contact</a>
     </nav>
+    
 
     
 
-<section class="b-single-landing">
-    <header class="b-top-section">
-        <div class="b-breadcrumbs">
-            <a href="projects.html">Projects</a><i class="material-icons">keyboard_arrow_right</i><span>100 Questions Initiative</span>
-        </div>
-    </header>
-    <div>
-        <h2 class="e-project-name">100 Questions Initiative</h2>
-        <h3 class="e-question">Unless we define the questions well to unlock the potential of data and data science, how can we provide answers that matter?</h3>
-    </div>
-    <div class="e-wrap">
-        <div class="e-half">
-            <div class="e-content">
-                
-                <a href="https://the100questions.org" target="_blank" class="e-project-link">Project Website<i class="material-icons">link</i></a>
-                
-                <ul class="e-tags">
-                    <h5>Governance Area</h5>
-                    <li>
-                        <span class="e-tag">National Governance</span>
-                        
-                        <span class="e-tag">Municipal Governance</span>
-                        
-                        <span class="e-tag">Global Governance</span>
-                        </li>
-                    <h5>Institution Type</h5>
-                    <li>
-                        <span class="e-tag">Corporate/Business</span>
-                        <span class="e-tag">Government</span>
-                        <span class="e-tag">Public Sector</span>
-                        <span class="e-tag">Academic</span></li>
-                    <h5>Innovative Capability</h5>
-                    <li>
-                        <span class="e-tag">Expert Networks</span>
-                        <span class="e-tag">Data Collaboratives</span></li>
-                    <h5>Product Category</h5>
-                    <li>
-                        <span class="e-tag">Campaign</span>
-                        <span class="e-tag">Methodology</span></li>
-                </ul>
-            </div>
-        </div>
-        <div class="e-half">
-            <div class="e-content e-background">
-                <h4>Background</h4>
-                <p>The variety and complexity of challenges facing our world today -- from climate change to the rethinking of work to economic inequality to terrorism -- are unprecedented. At the same time, today’s policymaking and problem-solving approaches cannot provide the solutions we need to the complex social, economic and cultural problems we face, contributing to an increased decline in trust in institutions. We need not only innovative solutions, we also need innovation in how we define the problems we encounter and subsequently develop solutions.</p>
+<div id='projectpage' v-cloak>
 
-            </div>
-        </div>
-        <div class="e-half">
-            <div class="e-content">
-                <div class="e-location">
-                    <h4>Location</h4>
 
-                    
-                        
-                        <div class="e-place">Global</div>
-                        
-                    
+    <section class="b-single-landing">
+        <header class="b-top-section">
+            <div class="b-breadcrumbs">
+                <a href="http://www.thegovlab.org/projects.html">Projects</a><i class="material-icons">keyboard_arrow_right</i><span>{{projectData.name}}</span>
+            </div>
+        </header>
+        <div>
+            <h2 class="e-project-name">{{projectData.name}}</h2>
+            <h3 class="e-question">{{projectData.description}}</h3>
+        </div>
+        <div class="e-wrap">
+            <div class="e-half">
+                <div class="e-content">
+    
+                    <a :href="projectData.project_link" target="_blank" class="e-project-link">Project Website<i class="material-icons">link</i></a>
+    
+                    <ul class="e-tags">
+                        <h5>Governance Area</h5>
+                        <li v-if="projectData.governance_area">
+                            <span class="e-tag" v-for="etag in projectData.governance_area">{{etag}}</span><br>
+                            </li>
+                        <h5>Institution Type</h5>
+                        <li>
+                          <li v-if="projectData.institution_type">
+                              <span class="e-tag" v-for="etag in projectData.institution_type">{{etag}}</span><br>
+                              </li>
+                        <h5>Innovative Capability</h5>
+                        <li v-if="projectData.innovative_capability">
+                            <span class="e-tag" v-for="etag in projectData.innovative_capability">{{etag}}</span><br>
+                            </li>
+                        <h5>Product Category</h5>
+                        <li v-if="projectData.product_category">
+                            <span class="e-tag" v-for="etag in projectData.product_category">{{etag}}</span><br>
+                          </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-        <div class="e-half">
-            <div class="e-content">
-                <div class="e-partners">
-                    <h4>Partners</h4>
-
-                    
-                        
-                        <div class="e-partner">Schmidt Futures</div>
-                        
-                        <div class="e-partner">Data2X</div>
-                        
-                        <div class="e-partner">International Office for Migration (IOM)</div>
-                        
-                        <div class="e-partner">Joint Research Centre</div>
-                        
-                        <div class="e-partner">European Commission</div>
-                        
-                        <div class="e-partner">World Resources Institute</div>
-                        
-                        <div class="e-partner">Bertelsmann Foundation</div>
-                        
-                    
+            <div class="e-half">
+                <div class="e-content e-background">
+                    <h4>Background</h4>
+                    <p v-html="projectData.background"></p>
+    
                 </div>
             </div>
+            <div class="e-half">
+                <div class="e-content">
+                    <div class="e-location">
+                        <h4>Location</h4>
+                            <div class="e-place" v-if="projectData.location" v-for="eplace in projectData.location" >{{eplace}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="e-half">
+                <div class="e-content">
+                    <div class="e-partners">
+                        <h4>Partners</h4>
+    
+                        <div class="e-partner" v-if="projectData.partners" v-for="epartner in projectData.partners" >{{epartner}}</div>
+    
+    
+    
+                    </div>
+                </div>
+            </div>
+            <div class="e-progress" :class="progess"><span></span><span></span><span></span><span></span></div>
+            <footer>
+    
+            </footer>
         </div>
-        <div class="e-progress m-None"><span></span><span></span><span></span><span></span></div>
-        <footer>
-            
-        </footer>
-    </div>
-</section>
-<section class="b-single-description ">
-    <div class="e-wrap">
-        <h2>Description</h2>
-        <div class="e-description">
-            <p>The 100 Questions is an initiative by The GovLab, with support from Schmidt Futures, Data2X and a consortium of other partners. The initiative seeks to to improve the set of questions that if answered -- using new data sources and data science -- could transform the way we solve a variety of 21st century challenges. In addition, this project introduces and expands the concept of “bilinguals” -- individuals that possess both domain expertise and data science capabilities -- as being essential to define questions that matter to particular fields and can be addressed through data science.</p> <p>The 100 Questions Initiative builds on The GovLab’s Smarter Crowdsourcing methodology to match societal challenges with diverse ideas from curated global experts. More specifically, The 100 Questions will be sourced by bilinguals. For each domain, The GovLab will form ten cohorts of bilinguals who are invited to develop, evaluate and select the ten most relevant questions collaboratively. Once the bilinguals have produced and prioritized the ten questions, the public will be invited to comment and express interest for the ten most compelling questions for each domain.</p> <p>Together with domain partners, bilinguals, data holders and the public, The GovLab will strive to identify existing datasets could provide answers to the 100 questions – even if they are not easily accessible, e.g., proprietary datasets held by private companies. When confronted with data voids, the GovLab will attempt to define the new datasets that should be generated to help fill the gap. The GovLab’s aim is to provide a clear definition of the data requirements and therefore facilitate the formation of data collaboratives with promising data providers.</p> <p>The 100 Questions will help us understand the unresolved questions that could help address the most vexing problems we face across sectors and geographies when answered. They will help us establish priorities, so that we can make the most of scarce public resources.</p> <p>&nbsp;</p>
-
-            
+    </section>
+    <section class="b-single-description m-slider" v-if="projectData.description_full">
+        <div class="e-wrap">
+            <h2>Description</h2>
+            <div class="e-description">
+                <p v-html="projectData.description_full"></p>
+    
+    
+            </div>
         </div>
+    
+         <div class="b-project-slider slick">
+            <div v-for="(pic, index) in items">
+                <span><img class="e-project-image" :src="pic.directus_files_id.data.full_url" alt=""></span>
+            </div>
     </div>
     
-</section>
-
-<section class="b-single-results">
-    <div class="e-wrap">
-        <h2 class="e-title">Results &amp; Impact</h2>
-        <p>The results of the initiative is to initiate data collaboratives aimed at solving questions that matter. A data collaborative is a new form of collaboration, beyond the public-private partnership model, in which participants from different sectors exchange their data to create public value. Our ultimate goal is to leverage the insights from the data collaboratives to better design policies and provide more actionable solutions that can help improve people’s lives around the world.</p>
-
-        <!-- <div class="e-half">
-
-        </div> -->
-        <!-- <div class="e-half">
-            <img src="static/img/results-1.png" alt="">
+    </section>
+    
+    <section class="b-single-results" v-if="projectData.results">
+        <div class="e-wrap">
+            <h2 class="e-title">Results &amp; Impact</h2>
+            <p v-html="projectData.results"></p>
         </div>
-        <div class="e-half">
-            <img src="static/img/results-2.png" alt="">
+    </section>
+    
+    
+    
+    <section class="b-single-related-content" v-if="projectData.more_about">
+        <h2>More About Network of Innovators</h2>
+        <div class="e-wrap">
+    
+            <div class="e-article" v-for="(link, name) in projectData.more_about"><a :href="link" target="_blank">{{name}}</a></div>
+    
         </div>
-        <div class="e-half">
-            <img src="static/img/results-3.png" alt="">
-        </div> -->
+    </section>
+    
+    
+    
+    <section class="b-project-team" v-if="projectData.project_team">
+        <h2>Team</h2>
+        <div class="e-container">
+    
+                <a v-for = "member in projectData.project_team" class="e-person" :href="'http://www.thegovlab.org/team.html#' + member.team_id.slug">
+            <div class="e-person-pic" :style="{ backgroundImage: 'url(' + member.team_id.picture.data.thumbnails[3].url+ ')' }"></div>
+            <div class="e-team-info">
+                <h3 class="e-team-name">{{member.team_id.name}}</h3>
+            </div>
+        </a>
+        </div>
+    </section>
     </div>
-</section>
-
-
-
-
-
-<section class="b-project-team">
-    <h2>Team</h2>
-    <div class="e-container">
-        
-            <a class="e-person" href="./team.html#stefaan-verhulst">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/stefaan-verhulst.jpg"></div>
-        <div class="e-team-info">
-            <h3 class="e-team-name">Stefaan Verhulst</h3>
-        </div>
-    </a>
-        
-            <a class="e-person" href="./team.html#alexandra-shaw">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/alexandra-shaw.jpg"></div>
-        <div class="e-team-info">
-            <h3 class="e-team-name">Alexandra Shaw</h3>
-        </div>
-    </a>
-        
-            <a class="e-person" href="./team.html#andrew-young">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/andrew-young.jpg"></div>
-        <div class="e-team-info">
-            <h3 class="e-team-name">Andrew Young</h3>
-        </div>
-    </a>
-        
-            <a class="e-person" href="./team.html#andrew-zahuranec">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/andrew-zahuranec.jpg"></div>
-        <div class="e-team-info">
-            <h3 class="e-team-name">Andrew Zahuranec</h3>
-        </div>
-    </a>
-        
-            <a class="e-person" href="./team.html#maitri-pujara">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/maitri-pujara.jpg"></div>
-        <div class="e-team-info">
-            <h3 class="e-team-name">Maitri Pujara</h3>
-        </div>
-    </a>
-        
-            <a class="e-person" href="./team.html#michelle-winowatan">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/michelle-winowatan.jpg"></div>
-        <div class="e-team-info">
-            <h3 class="e-team-name">Michelle Winowatan</h3>
-        </div>
-    </a>
-        
-            <a class="e-person" href="./team.html#stephan-schmidt">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/stephan-schmidt.jpg"></div>
-        <div class="e-team-info">
-            <h3 class="e-team-name">Stephan Schmidt</h3>
-        </div>
-    </a>
-        
-            <a class="e-person" href="./team.html#stephen-tubman">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/stephen-tubman.jpg"></div>
-        <div class="e-team-info">
-            <h3 class="e-team-name">Stephen Tubman</h3>
-        </div>
-    </a>
-        
-    </div>
-</section>
-
-
+    <script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
+    <script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
+    <script src="static/js/project_specific.js"></script>
+    
+    
 
 
 
@@ -350,16 +288,7 @@
             </div>
         </div>
     </footer>
-    <!-- <div class="b-build-team">
-        <div class="e-wrap">
-            <div class="e-social-media">
-                <a href="#" class="e-nav-item"><i class="e-social-media-item fa fa-lg fa-twitter"></i></a>
-                <a href="#" class="e-nav-item"><i class="e-social-media-item fa fa-lg fa-facebook"></i></a>
-                <a href="#" class="e-nav-item"><i class="e-social-media-item fa fa-lg fa-medium"></i></a>
-        </div>
-            <p>This website was created by these <a href="#">GovLabbers</a>.</p>
-        </div>
-    </div> -->
+
     <div class="b-copyright">
         <div class="e-wrap">
             <a class="e-cc-badge" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
@@ -368,11 +297,11 @@
     </div>
     <div id="overlay"></div>
     
+    <script src="static/js/scripts.js"></script>
     <script src="static/vendor/slick.min.js"></script>
     <script src="static/vendor/EasePack.min.js"></script>
     <script src="static/vendor/rAF.js"></script>
     <script src="static/vendor/TweenLite.min.js"></script>
-    <script src="static/js/scripts.js"></script>
     
 
 </body>

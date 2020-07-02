@@ -1,16 +1,14 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-    <title>The GovLab | Gender and Urban Mobility in Chile</title>
-    <meta content="The GovLab | Gender and Urban Mobility in Chile" property="og:title"/>
-    <meta content="How can we leverage data collaboratives to make urban transportation planning more gender-inclusive?" property="og:description">
-
+    <title>The Governance Lab</title>
+    <meta property="og:title" content="The Governance Lab" />
+    <meta content="Deepening Our Understanding of How to Govern
+    More Effectively and Legitimately Through Technology" property="og:description">
+    
     <meta property="og:type" content="website" />
     <meta property="og:image" content="http://www.thegovlab.org/static/img/govlab-og.png" />
     <meta content="The GovLab" property="og:site_name">
@@ -27,6 +25,7 @@
     <link rel="stylesheet" href="static/styles/styles.css">
     
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -79,8 +78,10 @@
     };
       </script>
 
+      <script src="https://momentjs.com/downloads/moment.js"></script>
+<script src="https://unpkg.com/@directus/sdk-js@5.3.4/dist/directus-sdk.umd.min.js"></script>
 </head>
-<body id="">
+<body id="" data-feedly-mini="yes">
     
     <!-- Class for google material icons ".material-icons" -->
     <header class="b-top-nav ">
@@ -122,181 +123,139 @@
         <a href="./job-board.html">Job Board</a>
         <a href="./contact.html">Contact</a>
     </nav>
+    
 
     
 
-<section class="b-single-landing">
-    <header class="b-top-section">
-        <div class="b-breadcrumbs">
-            <a href="projects.html">Projects</a><i class="material-icons">keyboard_arrow_right</i><span>Gender and Urban Mobility in Chile</span>
-        </div>
-    </header>
-    <div>
-        <h2 class="e-project-name">Gender and Urban Mobility in Chile</h2>
-        <h3 class="e-question">How can we leverage data collaboratives to make urban transportation planning more gender-inclusive?</h3>
-    </div>
-    <div class="e-wrap">
-        <div class="e-half">
-            <div class="e-content">
-                
-                <div class="e-no-link-spacer"></div>
-                
-                <ul class="e-tags">
-                    <h5>Governance Area</h5>
-                    <li>
-                        <span class="e-tag">National Governance</span>
-                        </li>
-                    <h5>Institution Type</h5>
-                    <li>
-                        <span class="e-tag">International Organization</span>
-                        <span class="e-tag">Public Sector</span>
-                        <span class="e-tag">Corporate/Business</span></li>
-                    <h5>Innovative Capability</h5>
-                    <li>
-                        <span class="e-tag">Data Collaboratives</span></li>
-                    <h5>Product Category</h5>
-                    <li>
-                        <span class="e-tag">Dataset</span>
-                        <span class="e-tag">Platform</span>
-                        <span class="e-tag">Mapping</span></li>
-                </ul>
-            </div>
-        </div>
-        <div class="e-half">
-            <div class="e-content e-background">
-                <h4>Background</h4>
-                <p>Close to 90% of Chile’s population lives in urban areas, with 40% living in Santiago alone. Like many other South American cities, Santiago continues to expand, which puts pressure on vulnerable populations, who must travel greater distances to work, study and live. Although private car ownership is projected to grow in the coming years, women are more likely to be traveling on foot than men–40% of women travel by foot in Santiago, as opposed to 30% of men.</p> <p>When traveling, women often take multi-purpose, multi-stop trips to do chores, work and attend school. The needs of women and girls are not typically taken into account when authorities make plans for transportation developments. Difficulties in public transportation use can lead to a fear of personal safety in public spaces, especially when 85% of women reported that they were harassed on the street in Chile between 2014 and 2015.</p>
+<div id='projectpage' v-cloak>
 
-            </div>
-        </div>
-        <div class="e-half">
-            <div class="e-content">
-                <div class="e-location">
-                    <h4>Location</h4>
 
-                    
-                        
-                        <div class="e-place">Latin America</div>
-                        
-                    
+    <section class="b-single-landing">
+        <header class="b-top-section">
+            <div class="b-breadcrumbs">
+                <a href="http://www.thegovlab.org/projects.html">Projects</a><i class="material-icons">keyboard_arrow_right</i><span>{{projectData.name}}</span>
+            </div>
+        </header>
+        <div>
+            <h2 class="e-project-name">{{projectData.name}}</h2>
+            <h3 class="e-question">{{projectData.description}}</h3>
+        </div>
+        <div class="e-wrap">
+            <div class="e-half">
+                <div class="e-content">
+    
+                    <a :href="projectData.project_link" target="_blank" class="e-project-link">Project Website<i class="material-icons">link</i></a>
+    
+                    <ul class="e-tags">
+                        <h5>Governance Area</h5>
+                        <li v-if="projectData.governance_area">
+                            <span class="e-tag" v-for="etag in projectData.governance_area">{{etag}}</span><br>
+                            </li>
+                        <h5>Institution Type</h5>
+                        <li>
+                          <li v-if="projectData.institution_type">
+                              <span class="e-tag" v-for="etag in projectData.institution_type">{{etag}}</span><br>
+                              </li>
+                        <h5>Innovative Capability</h5>
+                        <li v-if="projectData.innovative_capability">
+                            <span class="e-tag" v-for="etag in projectData.innovative_capability">{{etag}}</span><br>
+                            </li>
+                        <h5>Product Category</h5>
+                        <li v-if="projectData.product_category">
+                            <span class="e-tag" v-for="etag in projectData.product_category">{{etag}}</span><br>
+                          </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-        <div class="e-half">
-            <div class="e-content">
-                <div class="e-partners">
-                    <h4>Partners</h4>
-
-                    
-                        
-                        <div class="e-partner">UNICEF</div>
-                        
-                        <div class="e-partner">Universidad del Desarrollo/Telefónica R&D Center</div>
-                        
-                        <div class="e-partner">ISI Foundation</div>
-                        
-                        <div class="e-partner">DigitalGlobe</div>
-                        
-                        <div class="e-partner">Telefonica</div>
-                        
-                    
+            <div class="e-half">
+                <div class="e-content e-background">
+                    <h4>Background</h4>
+                    <p v-html="projectData.background"></p>
+    
                 </div>
             </div>
+            <div class="e-half">
+                <div class="e-content">
+                    <div class="e-location">
+                        <h4>Location</h4>
+                            <div class="e-place" v-if="projectData.location" v-for="eplace in projectData.location" >{{eplace}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="e-half">
+                <div class="e-content">
+                    <div class="e-partners">
+                        <h4>Partners</h4>
+    
+                        <div class="e-partner" v-if="projectData.partners" v-for="epartner in projectData.partners" >{{epartner}}</div>
+    
+    
+    
+                    </div>
+                </div>
+            </div>
+            <div class="e-progress" :class="progess"><span></span><span></span><span></span><span></span></div>
+            <footer>
+    
+            </footer>
         </div>
-        <div class="e-progress m-test"><span></span><span></span><span></span><span></span></div>
-        <footer>
-            
-        </footer>
-    </div>
-</section>
-<section class="b-single-description ">
-    <div class="e-wrap">
-        <h2>Description</h2>
-        <div class="e-description">
-            <p>Over the course of a year-long study, The GovLab and its project partners established a data collaborative to seek answers to the following questions:</p> <ul> <li>Does gender play a role in the way people move around the megacity of Santiago, Chile?</li> <li>To what extent is there mobility inequality by gender, and what can be done to incorporate and include gender considerations in transportation planning?</li> <li>Can the analytic model used to study gender and mobility in Chile be used in other places and contexts?</li> </ul> <p>Through the Gender and Urban Mobility data collaborative, The GovLab and its partners are seeking to decode the intersection of urban mobility and gender, combining a wide range of datasets, including call detail records and high-resolution satellite data. This insight could play a key role in the creation of more gender inclusive and equitable decision-making in Santiago and beyond as it relates to urban planning, transportation, and mobility.</p> <p>&nbsp;</p>
-
-            
+    </section>
+    <section class="b-single-description m-slider" v-if="projectData.description_full">
+        <div class="e-wrap">
+            <h2>Description</h2>
+            <div class="e-description">
+                <p v-html="projectData.description_full"></p>
+    
+    
+            </div>
         </div>
+    
+         <div class="b-project-slider slick">
+            <div v-for="(pic, index) in items">
+                <span><img class="e-project-image" :src="pic.directus_files_id.data.full_url" alt=""></span>
+            </div>
     </div>
     
-</section>
-
-
-
-<section class="b-single-related-content">
-    <h2>More About Gender and Urban Mobility in Chile</h2>
-    <div class="e-wrap">
-        
-        <div class="e-article"><a href="http://thegovlab.org/gender-and-urban-mobility-addressing-unequal-access-to-urban-transportation-for-women-and-girls/" target="_blank">Gender and Urban Mobility: Addressing Unequal Access to Urban Transportation for Women and Girls</a></div>
-        
-        <div class="e-article"><a href="https://thelivinglib.org/selected-readings-on-data-gender-and-mobility/" target="_blank">Selected Readings on Data, Gender, and Mobility</a></div>
-        
-        <!-- <article class="e-half e-blog">
-            <h3 class="e-article-type">Blog</h3>
-            <h2 class="e-title">The Role of the Network of Innovators</h2>
-            <div class="e-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur id excepturi rerum sunt eligendi possimus accusamus perspiciatis velit quo, nostrum eveniet inventore tempora autem libero, debitis quis nobis, impedit deserunt.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eligendi animi quibusdam praesentium magnam fugiat sit nostrum nihil quae temporibus suscipit, aliquid tempore ducimus a, minima, odit veniam! A, velit.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eligendi animi quibusdam praesentium magnam fugiat sit nostrum nihil quae temporibus suscipit, aliquid tempore ducimus a, minima, odit veniam! A, velit.</p>
+    </section>
+    
+    <section class="b-single-results" v-if="projectData.results">
+        <div class="e-wrap">
+            <h2 class="e-title">Results &amp; Impact</h2>
+            <p v-html="projectData.results"></p>
+        </div>
+    </section>
+    
+    
+    
+    <section class="b-single-related-content" v-if="projectData.more_about">
+        <h2>More About Network of Innovators</h2>
+        <div class="e-wrap">
+    
+            <div class="e-article" v-for="(link, name) in projectData.more_about"><a :href="link" target="_blank">{{name}}</a></div>
+    
+        </div>
+    </section>
+    
+    
+    
+    <section class="b-project-team" v-if="projectData.project_team">
+        <h2>Team</h2>
+        <div class="e-container">
+    
+                <a v-for = "member in projectData.project_team" class="e-person" :href="'http://www.thegovlab.org/team.html#' + member.team_id.slug">
+            <div class="e-person-pic" :style="{ backgroundImage: 'url(' + member.team_id.picture.data.thumbnails[3].url+ ')' }"></div>
+            <div class="e-team-info">
+                <h3 class="e-team-name">{{member.team_id.name}}</h3>
             </div>
-            <div class="e-action">
-                <a class="b-button m-naked" href="">Read More<i class="material-icons">arrow_forward</i></a>
-            </div>
-        </article>
-
-        <article class="e-half e-article">
-            <h3 class="e-article-type">Article</h3>
-            <h2 class="e-title">Why a Network of Innovators</h2>
-            <div class="e-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam ipsum quos suscipit at, corporis, natus aliquid magni fugiat. Quaerat inventore alias vero iste ducimus saepe itaque ex sapiente dolorum minus?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam ipsum quos suscipit at, corporis, natus aliquid magni fugiat. Quaerat inventore alias vero iste ducimus saepe itaque ex sapiente dolorum minus?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam ipsum quos suscipit at, corporis, natus aliquid magni fugiat. Quaerat inventore alias vero iste ducimus saepe itaque ex sapiente dolorum minus?</p>
-            </div>
-            <div class="e-action">
-                <a class="b-button m-naked" href="">Read More<i class="material-icons">arrow_forward</i></a>
-            </div>
-        </article> -->
+        </a>
+        </div>
+    </section>
     </div>
-</section>
-
-
-
-<section class="b-project-team">
-    <h2>Team</h2>
-    <div class="e-container">
-        
-            <a class="e-person" href="./team.html#stefaan-verhulst">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/stefaan-verhulst.jpg"></div>
-        <div class="e-team-info">
-            <h3 class="e-team-name">Stefaan Verhulst</h3>
-        </div>
-    </a>
-        
-            <a class="e-person" href="./team.html#andrew-young">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/andrew-young.jpg"></div>
-        <div class="e-team-info">
-            <h3 class="e-team-name">Andrew Young</h3>
-        </div>
-    </a>
-        
-            <a class="e-person" href="./team.html#hannah-pierce">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/hannah-pierce.jpg"></div>
-        <div class="e-team-info">
-            <h3 class="e-team-name">Hannah Pierce</h3>
-        </div>
-    </a>
-        
-            <a class="e-person" href="./team.html#michelle-winowatan">
-        <div class="e-person-pic" style="background-image: url(./static/img/team/michelle-winowatan.jpg"></div>
-        <div class="e-team-info">
-            <h3 class="e-team-name">Michelle Winowatan</h3>
-        </div>
-    </a>
-        
-    </div>
-</section>
-
-
+    <script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
+    <script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
+    <script src="static/js/project_specific.js"></script>
+    
+    
 
 
 
@@ -329,16 +288,7 @@
             </div>
         </div>
     </footer>
-    <!-- <div class="b-build-team">
-        <div class="e-wrap">
-            <div class="e-social-media">
-                <a href="#" class="e-nav-item"><i class="e-social-media-item fa fa-lg fa-twitter"></i></a>
-                <a href="#" class="e-nav-item"><i class="e-social-media-item fa fa-lg fa-facebook"></i></a>
-                <a href="#" class="e-nav-item"><i class="e-social-media-item fa fa-lg fa-medium"></i></a>
-        </div>
-            <p>This website was created by these <a href="#">GovLabbers</a>.</p>
-        </div>
-    </div> -->
+
     <div class="b-copyright">
         <div class="e-wrap">
             <a class="e-cc-badge" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
@@ -347,11 +297,11 @@
     </div>
     <div id="overlay"></div>
     
+    <script src="static/js/scripts.js"></script>
     <script src="static/vendor/slick.min.js"></script>
     <script src="static/vendor/EasePack.min.js"></script>
     <script src="static/vendor/rAF.js"></script>
     <script src="static/vendor/TweenLite.min.js"></script>
-    <script src="static/js/scripts.js"></script>
     
 
 </body>
