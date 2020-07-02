@@ -22,10 +22,10 @@
             with partners in city, state, and national governments and other public interest organizations in the United
             States and around the world.</p>
 
-        <h2>Current Openings</h2>
-        <p>There are currently no openings. Please check again soon.</p>
         
         <div class="" v-for='jobs in jobData'>
+            <h2>Current Openings</h2>
+            <!-- <p>There are currently no openings. Please check again soon.</p> -->
         <p v-if="!jobs_toggle"><span class="b-button  m-naked" @click="toggle('jobs')">{{jobs.job_title}} <i
             class="material-icons"><i class="material-icons">keyboard_arrow_down</i></i></span></p>
         <p v-if="jobs_toggle"> <span class="b-button  m-naked"  @click="toggle('jobs')">{{jobs.job_title}}<i
