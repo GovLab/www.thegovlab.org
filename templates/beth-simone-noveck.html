@@ -105,11 +105,17 @@
 
                 <div class="e-collapsed">
 
-                    <p v-if="!news_toggle"><span class="b-button  m-naked js-resources-toggle" @click="toggle('news')">In the News <i
+                    <p v-if="!events_toggle"><span class="b-button  m-naked js-resources-toggle" @click="toggle('events')">Events <i
                                 class="material-icons"><i class="material-icons">keyboard_arrow_down</i></i></span></p>
-                    <p v-if="news_toggle"> <span class="b-button  m-naked js-resources-toggle"  @click="toggle('news')">In the News <i
+                    <p v-if="events_toggle"> <span class="b-button  m-naked js-resources-toggle"  @click="toggle('events')">Events <i
                                 class="material-icons"><i class="material-icons">keyboard_arrow_up</i></i></span></p>
-                      <div class="e-additional-resources project_list" v-if="news_toggle==true" v-html="memberData.news"></div>
+                      <div class="e-additional-resources project_list" v-if="events_toggle==true" v-html="memberData.events"></div>
+                      
+                      <p v-if="!news_toggle"><span class="b-button  m-naked js-resources-toggle" @click="toggle('news')">In the News <i
+                        class="material-icons"><i class="material-icons">keyboard_arrow_down</i></i></span></p>
+            <p v-if="news_toggle"> <span class="b-button  m-naked js-resources-toggle"  @click="toggle('news')">In the News <i
+                        class="material-icons"><i class="material-icons">keyboard_arrow_up</i></i></span></p>
+              <div class="e-additional-resources project_list" v-if="news_toggle==true" v-html="memberData.news"></div>
 
                     <p v-if="!publications_toggle"><span class="b-button m-naked js-articles-toggle" @click="toggle('publications')">Selected Publications <i
                                 class="material-icons"><i class="material-icons">keyboard_arrow_down</i></i></span></p>

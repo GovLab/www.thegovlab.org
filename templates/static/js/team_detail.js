@@ -32,6 +32,7 @@ new Vue({
       news_toggle:false,
       publications_toggle:false,
       projects_toggle:false,
+      events_toggle:false,
       meta_title:'',
       meta_content:'',
       apiURL: 'https://directus.thegovlab.com/thegovlab/items/team?filter[slug][like]=',
