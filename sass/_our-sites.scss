@@ -1,0 +1,114 @@
+// Fixes to the base to make it compatible witht he styleguide
+
+.b-divider h3 { text-align: center; } // This goes to styleguide
+
+
+#sites {
+    .b-top-nav { background-color: $purple; }
+
+    .b-top-section {
+      text-align: center;
+        h2 { 
+          margin-top: 40px; 
+        }
+  
+    }
+    .site-row{
+      display: flex;
+      flex-direction: row ;
+      max-width: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    @include breakpoint($mobile-only) {
+      -webkit-flex-flow: column wrap;
+      -ms-flex-flow: column wrap;
+      flex-flow: column wrap;
+      flex-direction: column ;
+  }
+
+    }
+    
+    .site-column{
+      -webkit-flex: 0 0 33.33%;
+    -ms-flex: 0 0 33.33%;
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    color: white;
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+    @include breakpoint($mobile-only) {
+      -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    }
+    }
+    .site-item{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 300px;
+
+    }
+    .category-text{
+      padding: 3rem 6rem 0 6rem;
+      @include breakpoint($mobile-only) {
+        padding: 3rem 2rem 0 2rem;
+      }
+    }
+    .category-text h4{
+      color: $purple;
+      text-transform: uppercase;
+    }
+    .category-text p{
+      color:$gray-60;
+
+    }
+
+    .thumb{
+      height: 20vh;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+    a.thumb:hover{
+      transform: scale(1.1);
+      transition: all .6s ease;
+    }
+    .name{
+      margin-top: 20px;
+      height: 40px;
+      width:100%;
+      background-color: $gray-10;
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    a.name{
+      color: $black;
+      text-transform: uppercase;
+      font-size: 11pt;
+    }
+    a.name:hover{
+      text-decoration: none;
+      background-color: $gray-40;
+      transition: all .6s ease;
+      color: #ffffff;
+
+    }
+
+
+}

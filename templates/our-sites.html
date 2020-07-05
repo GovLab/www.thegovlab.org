@@ -1,0 +1,72 @@
+{% extends "_base-sg-directus.html" %}
+
+{% block og %}
+<title>The GovLab | Our Sites</title>
+<meta content="The GovLab | Our Sites" property="og:title" />
+<meta content="" property="og:description">
+{% endblock %}
+
+{% block page_id %}sites{% endblock %}
+{% block content %}
+{% raw %}
+<div class="b-top-section m-purple">
+    <h2>Our Sites</h2>
+    <p>A collection of our web assets</p>
+</div>
+<div class="b-sites" id="site-page" v-cloak>
+    <div class="site-row">
+        <div class="category-text">
+            <h4>Recent Projects</h4>
+            <p>Our projects try to answer the questions that stand between today and more effective and legitimate governance tomorrow.</p>
+        </div>
+        <div v-for="site in sitesData" class="site-column">
+            <div class="site-item">
+                <a :href="site.url" class="thumb"
+                    :style="{ backgroundImage: 'url(' + site.thumbnail.data.thumbnails[3].url+ ')' }"></a>
+
+                <a class="name" :href="site.url" target="_blank">{{site.name}}</a>
+
+            </div>
+        </div>
+    </div>
+    <!-- <div class="site-row">
+        <div class="category-text">
+            <h4>Collective Intelligence Projects</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div v-for="site in sitesData" class="site-column">
+            <div class="site-item">
+                <a :href="site.url" class="thumb"
+                    :style="{ backgroundImage: 'url(' + site.thumbnail.data.thumbnails[3].url+ ')' }"></a>
+
+                <a class="name" :href="site.url" target="_blank">{{site.name}}</a>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="site-row">
+        <div class="category-text">
+            <h4>Knowledge Products</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div v-for="site in sitesData" class="site-column">
+            <div class="site-item">
+                <a :href="site.url" class="thumb"
+                    :style="{ backgroundImage: 'url(' + site.thumbnail.data.thumbnails[3].url+ ')' }"></a>
+
+                <a class="name" :href="site.url" target="_blank">{{site.name}}</a>
+
+            </div>
+        </div>
+    </div> -->
+</div>
+
+<script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
+<script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
+<script src="static/js/sites.js"></script>
+
+{% endraw %}
+{% endblock %}
