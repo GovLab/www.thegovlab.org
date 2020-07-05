@@ -1978,6 +1978,95 @@ button:focus {
   font-weight: 700;
   margin-top: 40px; }
 
+.b-divider h3 {
+  text-align: center; }
+
+#sites .b-top-nav {
+  background-color: #523080; }
+#sites .b-top-section {
+  text-align: center; }
+  #sites .b-top-section h2 {
+    margin-top: 40px; }
+#sites .site-row {
+  display: flex;
+  flex-direction: row;
+  max-width: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap; }
+  @media (max-width: 800px) {
+    #sites .site-row {
+      -webkit-flex-flow: column wrap;
+      -ms-flex-flow: column wrap;
+      flex-flow: column wrap;
+      flex-direction: column; } }
+#sites .site-column {
+  -webkit-flex: 0 0 33.33%;
+  -ms-flex: 0 0 33.33%;
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0; }
+  @media (max-width: 800px) {
+    #sites .site-column {
+      -webkit-flex: 0 0 100%;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%; } }
+#sites .site-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px; }
+#sites .category-text {
+  padding: 3rem 6rem 0 6rem; }
+  @media (max-width: 800px) {
+    #sites .category-text {
+      padding: 3rem 2rem 0 2rem; } }
+#sites .category-text h4 {
+  color: #523080;
+  text-transform: uppercase; }
+#sites .category-text p {
+  color: rgba(0, 0, 0, 0.6); }
+#sites .thumb {
+  height: 20vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; }
+#sites a.thumb:hover {
+  transform: scale(1.1);
+  transition: all .6s ease; }
+#sites .name {
+  margin-top: 20px;
+  height: 40px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+#sites a.name {
+  color: #333;
+  text-transform: uppercase;
+  font-size: 11pt; }
+#sites a.name:hover {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: all .6s ease;
+  color: #ffffff; }
+
 #team .b-top-nav {
   background-color: #523080; }
 
