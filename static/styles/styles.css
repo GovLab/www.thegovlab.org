@@ -2030,7 +2030,7 @@ button:focus {
   justify-content: center;
   width: 300px; }
 #sites .category-text {
-  padding: 3rem 6rem 0 6rem; }
+  padding: 3rem 15rem 0 10rem; }
   @media (max-width: 800px) {
     #sites .category-text {
       padding: 3rem 2rem 0 2rem; } }
