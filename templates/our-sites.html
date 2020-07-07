@@ -14,11 +14,11 @@
     <p>A collection of our web assets</p>
 </div>
 <div class="b-sites" id="site-page" v-cloak>
+    <div class="category-text">
+        <h4>Recent Projects</h4>
+        <p>Our projects try to answer the questions that stand between today and more effective and legitimate governance tomorrow.</p>
+    </div>
     <div class="site-row">
-        <div class="category-text">
-            <h4>Recent Projects</h4>
-            <p>Our projects try to answer the questions that stand between today and more effective and legitimate governance tomorrow.</p>
-        </div>
         <div v-for="site in sitesData" class="site-column">
             <div class="site-item">
                 <a :href="site.url" class="thumb"
