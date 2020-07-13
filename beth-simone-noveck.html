@@ -230,7 +230,10 @@
                     <p v-if="events_toggle"> <span class="b-button  m-naked js-events-toggle"  @click="toggle('events')">Recent Talks <i
                                 class="material-icons"><i class="material-icons">keyboard_arrow_up</i></i></span></p>
                       <div class="e-additional-resources project_list" v-if="events_toggle==true" v-for="event in memberData.bio_events">
-                          <li><a :href="event.events_id.link" v-if="event.events_id.talk" target="_blank">{{event.events_id.title}}</a></li></div>
+                          <li><a :href="event.events_id.link" v-if="event.events_id.talk" target="_blank">{{event.events_id.title}}</a><br>
+                            <p v-if="event.events_id.talk" style="color: #888888; margin:0">{{event.events_id.desc_short}}</p></li>
+                        
+                        </div>
                      
                       
                       <p v-if="!news_toggle"><span class="b-button  m-naked js-resources-toggle" @click="toggle('news')">In the Media <i
