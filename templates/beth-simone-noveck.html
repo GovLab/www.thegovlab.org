@@ -105,15 +105,17 @@
 
                 <div class="e-collapsed">
 
-                    <p v-if="!events_toggle"><span class="b-button  m-naked js-events-toggle" @click="toggle('events')">Events <i
+                    <p v-if="!events_toggle"><span class="b-button  m-naked js-events-toggle" @click="toggle('events')">Recent Talks <i
                                 class="material-icons"><i class="material-icons">keyboard_arrow_down</i></i></span></p>
-                    <p v-if="events_toggle"> <span class="b-button  m-naked js-events-toggle"  @click="toggle('events')">Events <i
+                    <p v-if="events_toggle"> <span class="b-button  m-naked js-events-toggle"  @click="toggle('events')">Recent Talks <i
                                 class="material-icons"><i class="material-icons">keyboard_arrow_up</i></i></span></p>
-                      <div class="e-additional-resources project_list" v-if="events_toggle==true" v-html="memberData.events"></div>
+                      <div class="e-additional-resources project_list" v-if="events_toggle==true" v-for="event in memberData.bio_events">
+                          <li><a :href="event.events_id.link" v-if="event.events_id.talk" target="_blank">{{event.events_id.title}}</a></li></div>
+                     
                       
-                      <p v-if="!news_toggle"><span class="b-button  m-naked js-resources-toggle" @click="toggle('news')">In the News <i
+                      <p v-if="!news_toggle"><span class="b-button  m-naked js-resources-toggle" @click="toggle('news')">In the Media <i
                         class="material-icons"><i class="material-icons">keyboard_arrow_down</i></i></span></p>
-            <p v-if="news_toggle"> <span class="b-button  m-naked js-resources-toggle"  @click="toggle('news')">In the News <i
+            <p v-if="news_toggle"> <span class="b-button  m-naked js-resources-toggle"  @click="toggle('news')">In the Media <i
                         class="material-icons"><i class="material-icons">keyboard_arrow_up</i></i></span></p>
               <div class="e-additional-resources project_list" v-if="news_toggle==true" v-html="memberData.news"></div>
 
@@ -122,20 +124,26 @@
                     <p v-if="publications_toggle"><span class="b-button m-naked js-articles-toggle" @click="toggle('publications')">Selected Publications <i
                                 class="material-icons"><i class="material-icons">keyboard_arrow_up</i></i></span></p>
                     <div class="e-selected-articles project_list" v-if="publications_toggle==true" v-html="memberData.publications"></div>
+                    <div v-if="!projects_toggle" class="b-button m-naked js-project-toggle"  @click="toggle('projects')">Recent Courses<i class="material-icons"><i
+                        class="material-icons">keyboard_arrow_down</i></i></div>
+            <div v-if="projects_toggle" class="b-button m-naked js-project-toggle" @click="toggle('projects')">Recent Courses<i class="material-icons"><i
+                        class="material-icons">keyboard_arrow_up</i></i></div>
+                        <div class="e-additional-resources project_list" v-if="projects_toggle==true" v-for="course in memberData.bio_courses">
 
+                            <li><a :href="course.courses_id.link" target="_blank">{{course.courses_id.title}}</a></li></div>
 
-                    <div v-if="!projects_toggle" class="b-button m-naked js-project-toggle"  @click="toggle('projects')">Beth's Projects <i class="material-icons"><i
+                    <!-- <div v-if="!projects_toggle" class="b-button m-naked js-project-toggle"  @click="toggle('projects')">Beth's Projects <i class="material-icons"><i
                                 class="material-icons">keyboard_arrow_down</i></i></div>
                     <div v-if="projects_toggle" class="b-button m-naked js-project-toggle" @click="toggle('projects')">Beth's Projects<i class="material-icons"><i
-                                class="material-icons">keyboard_arrow_up</i></i></div>
-                    <div v-if="projects_toggle">
+                                class="material-icons">keyboard_arrow_up</i></i></div> -->
+                    <!-- <div v-if="projects_toggle">
                       <ul class="e-projects project_list" >
                         <li><b>Current Projects</b></li>
                         <li v-for="project in memberData.projects" v-if="!project.projects_id.past"><a :href="project.projects_id.link">{{project.projects_id.name}}</a></li>
                         <li ><b>Past Projects</b></li>
                         <li v-for="project in memberData.projects" v-if="project.projects_id.past"><a :href="project.projects_id.link">{{project.projects_id.name}}</a></li>
                       </ul>
-                    </div>
+                    </div> -->
                 </div>
 
                 <div class="e-twitter">

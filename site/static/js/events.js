@@ -59,7 +59,10 @@ new Vue({
 
       client.getItems(
   'events',
-  {
+  {   
+  //   filter: {
+  //   talk: true
+  // },
     sort: '-from',
     fields: ['*.*']
   }
