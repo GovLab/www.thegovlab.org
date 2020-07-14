@@ -14,7 +14,6 @@
 
     @include breakpoint($mobile-only) { height: 90px; }
 
-
     .e-nav-group,
     .e-social-media,
     .e-logo {
@@ -49,6 +48,7 @@
             position: relative;
             width: 30%;
         }
+
     }
 
     .e-nav-trigger,
