@@ -10,18 +10,14 @@
 
 {% block content %}
 {% raw %}
-<div class="b-fancy-bio" id="teamdetail" v-cloak>
+<div class="b-fancy-bio" id="teamdetail">
     <div class="b-top-section">
         <div class="e-wrap">
-            <div class="e-pic" :style="{ backgroundImage: 'url(' + memberData.picture.data.thumbnails[3].url+ ')' }">
+            <div v-if="memberData.picture" class="e-pic" :style="{ backgroundImage: 'url(' + memberData.picture.data.thumbnails[3].url+ ')' }">
 
             </div>
             <div class="e-info">
 
-                <!-- <div class="e-links">
-                    <a :href="memberData.resources.twitter" target="_blank" class="b-social-media"><i class="fa fa-twitter"></i></a>
-                    <a :href="memberData.resources.medium" target="_blank" class="b-social-media"><i class="fa fa-medium"></i></a>
-                </div> -->
                 <div class="e-names">
                     <h1>{{memberData.name}}</h1>
                     <h2>{{memberData.title}}</h2>
@@ -68,7 +64,7 @@
                 <section class="e-section" v-if="memberData.videos != ''">
                     <h3>Videos</h3>
                     <ul>
-                          <li class="embed-container" v-for= "(video, index) in memberData.videos"  v-html='video.directus_files_id.data.embed.html'></li>
+                        <li class="embed-container" v-for= "(video, index) in memberData.videos" v-if="video.directus_files_id.data" v-html='video.directus_files_id.data.embed.html'></li>
                     </ul>
 
                 </section>
