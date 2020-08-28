@@ -131,17 +131,15 @@
 
     
 
-<div class="b-fancy-bio" id="teamdetail" v-cloak >
-
+<div class="b-fancy-bio" id="teamdetail">
     <div class="b-top-section">
         <div class="e-wrap">
-
             <div v-if="memberData.picture" class="e-pic" :style="{ backgroundImage: 'url(' + memberData.picture.data.thumbnails[3].url+ ')' }">
 
             </div>
             <div class="e-info">
 
-                    <div class="e-names">
+                <div class="e-names">
                     <h1>{{memberData.name}}</h1>
                     <h2>{{memberData.title}}</h2>
                     <div class="e-social-media e-nav-group">
@@ -187,7 +185,7 @@
                 <section class="e-section" v-if="memberData.videos != ''">
                     <h3>Videos</h3>
                     <ul>
-                          <li class="embed-container" v-for= "(video, index) in memberData.videos" v-if="video.directus_files_id.data" v-html='video.directus_files_id.data.embed.html'></li>
+                        <li class="embed-container" v-for= "(video, index) in memberData.videos" v-if="video.directus_files_id.data" v-html='video.directus_files_id.data.embed.html'></li>
                     </ul>
 
                 </section>
@@ -231,10 +229,10 @@
                       <div class="e-additional-resources project_list" v-if="events_toggle==true" v-for="event in memberData.bio_events">
                           <li><a :href="event.events_id.link" v-if="event.events_id.talk" target="_blank">{{event.events_id.title}}</a><br>
                             <p v-if="event.events_id.talk" style="color: #888888; margin:0">{{event.events_id.desc_short}}</p></li>
-
+                        
                         </div>
-
-
+                     
+                      
                       <p v-if="!news_toggle"><span class="b-button  m-naked js-resources-toggle" @click="toggle('news')">In the Media <i
                         class="material-icons"><i class="material-icons">keyboard_arrow_down</i></i></span></p>
             <p v-if="news_toggle"> <span class="b-button  m-naked js-resources-toggle"  @click="toggle('news')">In the Media <i
@@ -268,17 +266,17 @@
                     </div> -->
                 </div>
 
-                <!-- <div class="e-twitter">
+                <div class="e-twitter">
                     <a class="twitter-timeline" href="https://twitter.com/bethnoveck"
                         data-widget-id="687389892377210880">Tweets by @bethnoveck</a>
                     <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
-                </div> -->
+                </div>
 
 
             </div>
         </div>
     </div>
-</div>
+
     <script type="text/javascript">
         $(".file-beth-simone-noveck-1").on('click', function () {
             ga('send', 'event', 'File', 'download', 'Beth Simone Noveck Photo');
@@ -287,11 +285,11 @@
             ga('send', 'event', 'File', 'download', 'Beth Simone Noveck Photo (High Res)');
         });
     </script>
-<!--                    <script type="text/javascript">
+                   <script type="text/javascript">
                     if ((window.location.href== "http://www.thegovlab.org/beth-simone-noveck.html") || (window.location.href== "https://www.thegovlab.org/beth-simone-noveck.html")) {
                        window.location.href = 'https://www.thegovlab.org/beth-noveck.html'; 
                     }
-                            </script> -->
+                            </script>
         <script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
         <script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
         <script src="static/js/team_detail.js"></script>
