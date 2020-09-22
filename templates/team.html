@@ -11,7 +11,7 @@
 <div class="b-team" id="teamlist" v-cloak>
     <div class="e-team-list">
         <h1>Team</h1>
-        <div class="e-team-member" v-for="teammember in teamData" :id="teammember.slug" v-if="teammember.status =='published'">
+<div class="e-team-member" v-for="teammember in teamData" :id="teammember.slug" v-if="teammember.status =='published' && teammember.id!=347">
             <div class="e-wrap">
 
                               <div v-if="teammember.picture != null" class="e-team-picture" :style="{ backgroundImage: 'url(' + teammember.picture.data.thumbnails[3].url+ ')' }"></div>
