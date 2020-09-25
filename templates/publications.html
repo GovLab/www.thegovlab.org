@@ -25,7 +25,7 @@
 
       <div class="list">
         <section class="b-page-section" v-for='pub in pubData'>
-        <div class="row">
+        <div class="row" @click="accessPub(pub.title, pub.url)">
           <div class="columns large-7 large-offset-1">
 
               <a :href="pub.url" class="" target="_blank">
