@@ -21,6 +21,9 @@ main();
 
 
 Vue.use(VueMeta);
+Vue.use(VueGtag, {
+  config: { id: "UA-40012093-4" }
+});
 new Vue({
 
   el: '#publications',
@@ -28,7 +31,9 @@ new Vue({
   data () {
     return {
       pubData: [],
-      aorder: 'asc',
+      pubtitle:'',
+      puburl:'',
+      pub_date_order: 'asc',
       dorder: 'asc',
       meta_title: 'The GovLab | Publications',
       meta_content: 'Deepening our understanding of how to govern more effectively and legitimately through technology.'
@@ -47,7 +52,6 @@ new Vue({
     this.fetchPubs();
   },
   methods: {
-
     fetchPubs() {
       self = this;
       const client = new DirectusSDK({
@@ -69,10 +73,20 @@ new Vue({
 })
 .catch(error => console.error(error));
     },
+  accessPub(title, url){
+    self = this;
+    self.pubtitle = title;
+    self.puburl = url;
+
+    this.$gtag.event('publication', {
+    'event_category':'Publications',
+    'event_label': self.pubtitle,
+    'value':  parseInt(1)
+  })
+},
     reversePub() {
       if (this.dorder == 'asc')
       {
-
       self.pubData.sort(function(a, b) {
       var textA = a.pub_date;
       var textB = b.pub_date;
@@ -92,7 +106,6 @@ this.dorder = 'asc';
     orderName() {
         if (this.aorder == 'asc')
         {
-
         self.pubData.sort(function(a, b) {
         var textA = a.title.toUpperCase();
         var textB = b.title.toUpperCase();
