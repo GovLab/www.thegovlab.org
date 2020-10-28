@@ -34,48 +34,7 @@
       ga('create', 'UA-40012093-4', 'auto');
       ga('send', 'pageview');
     </script>
-<script type="text/javascript">
-    //this code loads the lighthouse widget. Additional config parameters to edit available on https://support.helpdocs.io/article/ykv7l5jthy-lighthouse-widget-api
-        window.hdlh = {
-          widget_key: "8bi8g1ygumkphadqnumx",
-          primary_color: '#C1D37F',
-          logo: 'https://newjersey.github.io/cv/img/fas_logo.png', 
-          brand: '',
-          color_mode: 'dark',
-          disable_authorship: true,
-          launcher_button_image: 'https://newjersey.github.io/cv/img/question_12.svg',
-          i18n: { // change the value of the strings we use inside Lighthouse, for internationalization
-      contact_button: 'Ask a scientist your question',
-      contact_name_placeholder: 'Name (Optional)',
-      contact_email_placeholder: 'Email (Required)',
-      search_placeholder: 'Ask your questions here...',
-      contact_message_placeholder: 'Type your question or message for us here...',
-          }
-        };
-        (function(h,d){var s=d.createElement("script");s.type='text/javascript';s.async=true;s.src=h+"?t="+new Date().getTime();d.head.appendChild(s);})("https://lighthouse.helpdocs.io/load",document);
-    document.addEventListener('readystatechange', function() {
-        if (document.readyState === "complete") {
-        ready_alert();
-    }
-    });
-    //The following code is to show the text box descring the widget. 
-    function ready_alert(){
-        //delay text box to compensate for widget loading time
-        setTimeout(function() {
-        document.getElementById("covid-19").style.display="block";
-      }, 1000);
-      //hide text box on mouseover
-        var test = document.getElementById("covid-19");
-          test.addEventListener("mouseover", myFunction);
-          function myFunction(){document.getElementById("covid-19").style.display="none";};
-          //hide textbox after 12seconds
-    setTimeout(function() {
-    document.getElementById("covid-19").style.display="none";
-    }, 12000);
-    
-    
-    };
-      </script>
+
 
 </head>
 <body id="global-advisory-council">
