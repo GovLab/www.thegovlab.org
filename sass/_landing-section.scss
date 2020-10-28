@@ -1,11 +1,14 @@
 #homepage .e-logo img { 
-    max-width: 200px; 
+    max-width: 350px; 
     margin-top: 80px;
 
     @include breakpoint($desktop) {
-        max-width: 300px; 
+        max-width: 350px; 
         margin-top: 60px;
     }
+}
+#homepage .e-logo{
+    padding: 60px 0 5px 0;
 }
 #homepage{
     .b-top-section{
